@@ -1,0 +1,513 @@
+{
+  "id": 1003,
+  "name": "Job Planning Line",
+  "slug": "1003_job_planning_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": "Specifies the planning line's entry number."
+    },
+    {
+      "no": 2,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 3,
+      "name": "Planning Date",
+      "tooltip": "Specifies the date of the planning line. You can use the planning date for filtering the totals of the project, for example, if you want to see the budgeted usage for a specific month of the year."
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the planning line."
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the type of account to which the planning line relates."
+    },
+    {
+      "no": 7,
+      "name": "No.",
+      "tooltip": "Specifies the number of the account to which the resource, item or general ledger account is posted, depending on your selection in the Type field."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of project planning line."
+    },
+    {
+      "no": 9,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of item units, resource hours, general ledger account payments, or cost that have been shipped to the customer."
+    },
+    {
+      "no": 11,
+      "name": "Direct Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in the local currency, of one unit of the selected item or resource."
+    },
+    {
+      "no": 12,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 13,
+      "name": "Total Cost (LCY)",
+      "tooltip": "Specifies the total cost for the planning line. The amount is in the local currency."
+    },
+    {
+      "no": 14,
+      "name": "Unit Price (LCY)",
+      "tooltip": "Specifies the price, in LCY, of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 15,
+      "name": "Total Price (LCY)",
+      "tooltip": "Specifies the total price on the planning line. The total price is in the local currency."
+    },
+    {
+      "no": 16,
+      "name": "Resource Group No.",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 18,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code for the item on the project planning line."
+    },
+    {
+      "no": 29,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 32,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 33,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 81,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 83,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Planning Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 900,
+      "name": "Qty. to Assemble",
+      "tooltip": "Specifies how many units of the project planning line quantity that you want to supply by assembly."
+    },
+    {
+      "no": 901,
+      "name": "Qty. to Assemble (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 902,
+      "name": "Assemble to Order",
+      "tooltip": ""
+    },
+    {
+      "no": 903,
+      "name": "BOM Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 904,
+      "name": "Attached to Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1000,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 1001,
+      "name": "Line Amount (LCY)",
+      "tooltip": "Specifies the amount in the local currency that will be posted to the project ledger."
+    },
+    {
+      "no": 1002,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 1003,
+      "name": "Total Cost",
+      "tooltip": "Specifies the total cost for the planning line. The total cost is in the project currency, which comes from the Currency Code field in the Project Card."
+    },
+    {
+      "no": 1004,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 1005,
+      "name": "Total Price",
+      "tooltip": "Specifies the total price in the project currency on the planning line."
+    },
+    {
+      "no": 1006,
+      "name": "Line Amount",
+      "tooltip": "Specifies the amount that will be posted to the project ledger."
+    },
+    {
+      "no": 1007,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 1008,
+      "name": "Line Discount Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1015,
+      "name": "Cost Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1019,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number that is applied to the posted item if the planning line was created from the posting of a project journal line."
+    },
+    {
+      "no": 1020,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number that is applied to the posted item if the planning line was created from the posting of a project journal line."
+    },
+    {
+      "no": 1021,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 1022,
+      "name": "Line Type",
+      "tooltip": "Specifies the type of planning line."
+    },
+    {
+      "no": 1023,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that is used on the entry."
+    },
+    {
+      "no": 1024,
+      "name": "Currency Date",
+      "tooltip": "Specifies the date that will be used to find the exchange rate for the currency in the Currency Date field."
+    },
+    {
+      "no": 1025,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1026,
+      "name": "Schedule Line",
+      "tooltip": ""
+    },
+    {
+      "no": 1027,
+      "name": "Contract Line",
+      "tooltip": "Specifies whether this line is a billable line."
+    },
+    {
+      "no": 1030,
+      "name": "Job Contract Entry No.",
+      "tooltip": "Specifies the entry number of the project planning line that the sales line is linked to."
+    },
+    {
+      "no": 1035,
+      "name": "Invoiced Amount (LCY)",
+      "tooltip": "Specifies, in local currency, the sales amount that was invoiced for this planning line."
+    },
+    {
+      "no": 1036,
+      "name": "Invoiced Cost Amount (LCY)",
+      "tooltip": "Specifies, in the local currency, the cost amount that was invoiced for this planning line."
+    },
+    {
+      "no": 1037,
+      "name": "VAT Unit Price",
+      "tooltip": ""
+    },
+    {
+      "no": 1038,
+      "name": "VAT Line Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 1039,
+      "name": "VAT Line Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 1041,
+      "name": "VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 1042,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 1043,
+      "name": "Job Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1048,
+      "name": "Status",
+      "tooltip": "Specifies the status of a project order."
+    },
+    {
+      "no": 1050,
+      "name": "Ledger Entry Type",
+      "tooltip": "Specifies the entry type of the project ledger entry associated with the planning line."
+    },
+    {
+      "no": 1051,
+      "name": "Ledger Entry No.",
+      "tooltip": "Specifies the entry number of the project ledger entry associated with the project planning line."
+    },
+    {
+      "no": 1052,
+      "name": "System-Created Entry",
+      "tooltip": "Specifies that an entry has been created by Business Central and is related to a project ledger entry. The check box is selected automatically."
+    },
+    {
+      "no": 1053,
+      "name": "Usage Link",
+      "tooltip": "Specifies whether the Usage Link field applies to the project planning line. When this check box is selected, usage entries are linked to the project planning line. Selecting this check box creates a link to the project planning line from places where usage has been posted, such as the project journal or a purchase line. You can select this check box only if the line type of the project planning line is Budget or Both Budget and Billable."
+    },
+    {
+      "no": 1060,
+      "name": "Remaining Qty.",
+      "tooltip": "Specifies the remaining quantity of the resource, item, or G/L Account that remains to complete a project. The quantity is calculated as the difference between Quantity and Qty. Posted."
+    },
+    {
+      "no": 1061,
+      "name": "Remaining Qty. (Base)",
+      "tooltip": "Specifies the remaining quantity of the resource, item, or general ledger account that remains to complete a project, expressed in base units of measure. The quantity is calculated as the difference between Quantity and Qty. Posted."
+    },
+    {
+      "no": 1062,
+      "name": "Remaining Total Cost",
+      "tooltip": "Specifies the remaining total cost for the planning line. The total cost is in the project currency, which comes from the Currency Code field in the Project Card."
+    },
+    {
+      "no": 1063,
+      "name": "Remaining Total Cost (LCY)",
+      "tooltip": "Specifies the remaining total cost (LCY) for the planning line. The amount is in the local currency."
+    },
+    {
+      "no": 1064,
+      "name": "Remaining Line Amount",
+      "tooltip": "Specifies the amount that will be posted to the project ledger."
+    },
+    {
+      "no": 1065,
+      "name": "Remaining Line Amount (LCY)",
+      "tooltip": "Specifies the amount in the local currency that will be posted to the project ledger."
+    },
+    {
+      "no": 1070,
+      "name": "Qty. Posted",
+      "tooltip": "Specifies the quantity that has been posted to the project ledger, if the Usage Link check box has been selected."
+    },
+    {
+      "no": 1071,
+      "name": "Qty. to Transfer to Journal",
+      "tooltip": "Specifies the quantity you want to transfer to the project journal. Its default value is calculated as quantity minus the quantity that has already been posted, if the Apply Usage Link check box has been selected."
+    },
+    {
+      "no": 1072,
+      "name": "Posted Total Cost",
+      "tooltip": "Specifies the total cost that has been posted to the project ledger, if the Usage Link check box has been selected."
+    },
+    {
+      "no": 1073,
+      "name": "Posted Total Cost (LCY)",
+      "tooltip": "Specifies the total cost (LCY) that has been posted to the project ledger, if the Usage Link check box has been selected."
+    },
+    {
+      "no": 1074,
+      "name": "Posted Line Amount",
+      "tooltip": "Specifies the amount that has been posted to the project ledger. This field is only filled in if the Apply Usage Link check box selected on the project card."
+    },
+    {
+      "no": 1075,
+      "name": "Posted Line Amount (LCY)",
+      "tooltip": "Specifies the amount in the local currency that has been posted to the project ledger. This field is only filled in if the Apply Usage Link check box selected on the project card."
+    },
+    {
+      "no": 1080,
+      "name": "Qty. Transferred to Invoice",
+      "tooltip": "Specifies the quantity that has been transferred to a sales invoice or credit memo."
+    },
+    {
+      "no": 1081,
+      "name": "Qty. to Transfer to Invoice",
+      "tooltip": "Specifies the quantity you want to transfer to the sales invoice or credit memo. The value in this field is calculated as Quantity - Qty. Transferred to Invoice."
+    },
+    {
+      "no": 1090,
+      "name": "Qty. Invoiced",
+      "tooltip": "Specifies the quantity that been posted through a sales invoice."
+    },
+    {
+      "no": 1091,
+      "name": "Qty. to Invoice",
+      "tooltip": "Specifies the quantity that remains to be invoiced. It is calculated as Quantity - Qty. Invoiced."
+    },
+    {
+      "no": 1100,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies the quantity of the item that is reserved for the project planning line."
+    },
+    {
+      "no": 1101,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 1102,
+      "name": "Reserve",
+      "tooltip": "Specifies whether or not a reservation can be made for items on the current line. The field is not applicable if the Type field is set to Resource, Cost, or G/L Account."
+    },
+    {
+      "no": 1103,
+      "name": "Planned",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the selected item will be put away or picked in warehouse and inventory processes. If you specify a bin code in the To-Project Bin Code field on the Location page, that bin will be suggested when you choose the location."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5410,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity expressed in the base units of measure."
+    },
+    {
+      "no": 5790,
+      "name": "Requested Delivery Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5791,
+      "name": "Promised Delivery Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5794,
+      "name": "Planned Delivery Date",
+      "tooltip": "Specifies the date that is planned to deliver the item connected to the project planning line. For a resource, the planned delivery date is the date that the resource performs services with respect to the project."
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the method that will be used for price calculation in the item journal line."
+    },
+    {
+      "no": 7001,
+      "name": "Cost Calculation Method",
+      "tooltip": "Specifies the method that will be used for cost calculation in the item journal line."
+    },
+    {
+      "no": 7300,
+      "name": "Pick Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 7301,
+      "name": "Qty. Picked",
+      "tooltip": "Specifies the quantity of the item you have picked for the project planning line."
+    },
+    {
+      "no": 7302,
+      "name": "Qty. Picked (Base)",
+      "tooltip": "Specifies the base quantity of the item you have picked for the project planning line."
+    },
+    {
+      "no": 7303,
+      "name": "Completely Picked",
+      "tooltip": ""
+    },
+    {
+      "no": 7304,
+      "name": "Pick Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 7305,
+      "name": "Qty. on Journal",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 5769,
+  "name": "Warehouse Setup",
+  "slug": "5769_warehouse_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Whse. Receipt Nos.",
+      "tooltip": "Specifies the number series code to use when you assign numbers to warehouse receipt journals."
+    },
+    {
+      "no": 3,
+      "name": "Whse. Put-away Nos.",
+      "tooltip": "Specifies the number series code you want used when you assign numbers to warehouse put-away documents."
+    },
+    {
+      "no": 5,
+      "name": "Whse. Pick Nos.",
+      "tooltip": "Specifies the number series code you want used when you assign numbers to warehouse pick documents."
+    },
+    {
+      "no": 6,
+      "name": "Whse. Ship Nos.",
+      "tooltip": "Specifies the number series code you want used when you assign numbers to warehouse shipment journals."
+    },
+    {
+      "no": 7,
+      "name": "Registered Whse. Pick Nos.",
+      "tooltip": "Specifies the number series code you want to be used to assign numbers to registered pick documents."
+    },
+    {
+      "no": 10,
+      "name": "Registered Whse. Put-away Nos.",
+      "tooltip": "Specifies the number series code used when numbers are assigned to registered put-away documents."
+    },
+    {
+      "no": 13,
+      "name": "Require Receive",
+      "tooltip": "Specifies whether you require users to use the receive activity."
+    },
+    {
+      "no": 14,
+      "name": "Require Put-away",
+      "tooltip": "Specifies whether you require users to use the put-away activity."
+    },
+    {
+      "no": 15,
+      "name": "Require Pick",
+      "tooltip": "Specifies whether you require users to use the pick activity."
+    },
+    {
+      "no": 16,
+      "name": "Require Shipment",
+      "tooltip": "Specifies if warehouse shipments are required in warehouse work flows."
+    },
+    {
+      "no": 17,
+      "name": "Last Whse. Posting Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Receipt Posting Policy",
+      "tooltip": "Specifies what should happen if errors occur when warehouse receipts are posted."
+    },
+    {
+      "no": 19,
+      "name": "Shipment Posting Policy",
+      "tooltip": "Specifies what should happen if errors occur when warehouse shipments are posted per source document."
+    },
+    {
+      "no": 20,
+      "name": "Last Whse. Posting Ref. Seq.",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Copy Item Descr. to Entries",
+      "tooltip": "Specifies if you want the description on item cards to be copied to warehouse entries during posting."
+    },
+    {
+      "no": 7301,
+      "name": "Posted Whse. Receipt Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to posted warehouse receipts."
+    },
+    {
+      "no": 7303,
+      "name": "Posted Whse. Shipment Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to posted warehouse shipments."
+    },
+    {
+      "no": 7304,
+      "name": "Whse. Internal Put-away Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to internal put-always."
+    },
+    {
+      "no": 7306,
+      "name": "Whse. Internal Pick Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to internal picks."
+    },
+    {
+      "no": 7308,
+      "name": "Whse. Movement Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to warehouse movements."
+    },
+    {
+      "no": 7309,
+      "name": "Registered Whse. Movement Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to registered warehouse movements."
+    }
+  ]
+}

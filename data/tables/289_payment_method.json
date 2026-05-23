@@ -1,0 +1,48 @@
+{
+  "id": 289,
+  "name": "Payment Method",
+  "slug": "289_payment_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify this payment method."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a text that describes the payment method."
+    },
+    {
+      "no": 3,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 4,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry of a posted sales or purchase document is posted to, such as a cash account for cash purchases. Please note Payment Method is not considered when creating document entries through journals."
+    },
+    {
+      "no": 6,
+      "name": "Direct Debit",
+      "tooltip": "Specifies if the payment method is used for direct debit collection."
+    },
+    {
+      "no": 7,
+      "name": "Direct Debit Pmt. Terms Code",
+      "tooltip": "Specifies the payment terms that will be used when the payment method is used for direct debit collection."
+    },
+    {
+      "no": 8,
+      "name": "Pmt. Export Line Definition",
+      "tooltip": "Specifies the data exchange definition in the Data Exchange Framework that is used to export payments."
+    },
+    {
+      "no": 11,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    }
+  ]
+}

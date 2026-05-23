@@ -1,0 +1,68 @@
+{
+  "id": 1514,
+  "name": "Sent Notification Entry",
+  "slug": "1514_sent_notification_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the sent notification entry."
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies how the sent notification was made, such as by email."
+    },
+    {
+      "no": 4,
+      "name": "Recipient User ID",
+      "tooltip": "Specifies the user who received the sent notification."
+    },
+    {
+      "no": 5,
+      "name": "Triggered By Record",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Link Target Page",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Custom Link",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies the date and time that the sent notification was created."
+    },
+    {
+      "no": 10,
+      "name": "Created By",
+      "tooltip": "Specifies the user who created the notification."
+    },
+    {
+      "no": 11,
+      "name": "Sent Date-Time",
+      "tooltip": "Specifies the date and time when the notification was sent."
+    },
+    {
+      "no": 12,
+      "name": "Notification Content",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Notification Method",
+      "tooltip": "Specifies if the notification was sent by email or as a note."
+    },
+    {
+      "no": 14,
+      "name": "Aggregated with Entry",
+      "tooltip": "Specifies the other sent approval entry that this approval entry is aggregated with."
+    }
+  ]
+}

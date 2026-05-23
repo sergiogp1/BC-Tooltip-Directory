@@ -1,0 +1,38 @@
+{
+  "id": 9611,
+  "name": "XML Schema Restriction",
+  "slug": "9611_xml_schema_restriction",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "XML Schema Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Element ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Value",
+      "tooltip": "Specifies the value of the imported record."
+    },
+    {
+      "no": 25,
+      "name": "Simple Data Type",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Type",
+      "tooltip": ""
+    }
+  ]
+}

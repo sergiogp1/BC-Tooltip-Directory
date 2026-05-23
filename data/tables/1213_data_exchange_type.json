@@ -1,0 +1,28 @@
+{
+  "id": 1213,
+  "name": "Data Exchange Type",
+  "slug": "1213_data_exchange_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the data exchange type."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the data exchange type."
+    },
+    {
+      "no": 3,
+      "name": "Data Exch. Def. Code",
+      "tooltip": "Specifies the data exchange definition that the data exchange type uses."
+    },
+    {
+      "no": 4,
+      "name": "Entity Type",
+      "tooltip": ""
+    }
+  ]
+}

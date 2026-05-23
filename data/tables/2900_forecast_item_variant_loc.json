@@ -1,0 +1,63 @@
+{
+  "id": 2900,
+  "name": "Forecast Item Variant Loc",
+  "slug": "2900_forecast_item_variant_loc",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item."
+    },
+    {
+      "no": 4,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Variant Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Production Forecast Name",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Component Forecast",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Prod. Forecast Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Variant Code",
+      "tooltip": "Specifies a variant code of the item."
+    },
+    {
+      "no": 11,
+      "name": "Location Code",
+      "tooltip": "Specifies a location code of the item."
+    }
+  ]
+}

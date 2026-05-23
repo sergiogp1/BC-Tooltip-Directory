@@ -1,0 +1,68 @@
+{
+  "id": 45,
+  "name": "G/L Register",
+  "slug": "45_g_l_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the general ledger register."
+    },
+    {
+      "no": 2,
+      "name": "From Entry No.",
+      "tooltip": "Specifies the first general ledger entry number in the register."
+    },
+    {
+      "no": 3,
+      "name": "To Entry No.",
+      "tooltip": "Specifies the last general ledger entry number in the register."
+    },
+    {
+      "no": 4,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date when the entries in the register were posted."
+    },
+    {
+      "no": 5,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code for the entries in the register."
+    },
+    {
+      "no": 6,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 7,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the batch name of the general journal that the entries were posted from."
+    },
+    {
+      "no": 8,
+      "name": "From VAT Entry No.",
+      "tooltip": "Specifies the first VAT entry number in the register."
+    },
+    {
+      "no": 9,
+      "name": "To VAT Entry No.",
+      "tooltip": "Specifies the last entry number in the register."
+    },
+    {
+      "no": 10,
+      "name": "Reversed",
+      "tooltip": "Specifies if the register has been reversed (undone) from the Reverse Entries window."
+    },
+    {
+      "no": 11,
+      "name": "Creation Time",
+      "tooltip": "Specifies the time when the entries in the register were posted."
+    },
+    {
+      "no": 12,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    }
+  ]
+}

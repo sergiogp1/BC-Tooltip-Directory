@@ -1,0 +1,73 @@
+{
+  "id": 130401,
+  "name": "CAL Test Line",
+  "slug": "130401_cal_test_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Test Suite",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Test Codeunit",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": "Specifies the name of the test tool."
+    },
+    {
+      "no": 6,
+      "name": "Function",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Run",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Result",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "First Error",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Start Time",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Finish Time",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Level",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Hit Objects",
+      "tooltip": ""
+    }
+  ]
+}

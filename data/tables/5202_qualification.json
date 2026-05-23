@@ -1,0 +1,23 @@
+{
+  "id": 5202,
+  "name": "Qualification",
+  "slug": "5202_qualification",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a qualification code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the qualification."
+    },
+    {
+      "no": 3,
+      "name": "Qualified Employees",
+      "tooltip": "Specifies if the company has employees with this qualification."
+    }
+  ]
+}

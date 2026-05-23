@@ -1,0 +1,103 @@
+{
+  "id": 363,
+  "name": "Analysis View",
+  "slug": "363_analysis_view",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for this card."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name."
+    },
+    {
+      "no": 3,
+      "name": "Account Source",
+      "tooltip": "Specifies an account that you can use as a filter to define what is displayed in the Analysis by Dimensions window."
+    },
+    {
+      "no": 4,
+      "name": "Last Entry No.",
+      "tooltip": "Specifies the number of the last general ledger entry you posted, prior to updating the analysis view."
+    },
+    {
+      "no": 5,
+      "name": "Last Budget Entry No.",
+      "tooltip": "Specifies the number of the last item budget entry you entered prior to updating the analysis view."
+    },
+    {
+      "no": 6,
+      "name": "Last Date Updated",
+      "tooltip": "Specifies the date on which the analysis view was last updated."
+    },
+    {
+      "no": 7,
+      "name": "Update on Posting",
+      "tooltip": "Specifies if the analysis view is updated every time that you post a general ledger entry."
+    },
+    {
+      "no": 8,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 9,
+      "name": "Account Filter",
+      "tooltip": "Specifies which accounts are shown in the analysis view."
+    },
+    {
+      "no": 10,
+      "name": "Business Unit Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the campaign analysis."
+    },
+    {
+      "no": 12,
+      "name": "Date Compression",
+      "tooltip": "Specifies the period that the program will combine entries for, in order to create a single entry for that time period."
+    },
+    {
+      "no": 13,
+      "name": "Dimension 1 Code",
+      "tooltip": "Specifies one of the four dimensions that you can include in an analysis view."
+    },
+    {
+      "no": 14,
+      "name": "Dimension 2 Code",
+      "tooltip": "Specifies one of the four dimensions that you can include in an analysis view."
+    },
+    {
+      "no": 15,
+      "name": "Dimension 3 Code",
+      "tooltip": "Specifies one of the four dimensions that you can include in an analysis view."
+    },
+    {
+      "no": 16,
+      "name": "Dimension 4 Code",
+      "tooltip": "Specifies one of the four dimensions that you can include in an analysis view."
+    },
+    {
+      "no": 17,
+      "name": "Include Budgets",
+      "tooltip": "Specifies whether to include an update of analysis view budget entries, when updating an analysis view."
+    },
+    {
+      "no": 18,
+      "name": "Refresh When Unblocked",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Reset Needed",
+      "tooltip": ""
+    }
+  ]
+}

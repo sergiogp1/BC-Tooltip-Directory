@@ -1,0 +1,28 @@
+{
+  "id": 250,
+  "name": "Gen. Business Posting Group",
+  "slug": "250_gen_business_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the business group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the general business posting group."
+    },
+    {
+      "no": 3,
+      "name": "Def. VAT Bus. Posting Group",
+      "tooltip": "Specifies a default VAT business group code."
+    },
+    {
+      "no": 4,
+      "name": "Auto Insert Default",
+      "tooltip": "Specifies whether to automatically insert the Def. VAT Bus. Posting Group when the corresponding Code is inserted on new customer and vendor cards."
+    }
+  ]
+}

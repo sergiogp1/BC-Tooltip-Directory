@@ -1,0 +1,38 @@
+{
+  "id": 42,
+  "name": "Rounding Method",
+  "slug": "42_rounding_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the rounding method for item prices."
+    },
+    {
+      "no": 2,
+      "name": "Minimum Amount",
+      "tooltip": "Specifies the minimum amount to round."
+    },
+    {
+      "no": 3,
+      "name": "Amount Added Before",
+      "tooltip": "Specifies an amount to add before it is rounded."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies how to round."
+    },
+    {
+      "no": 5,
+      "name": "Precision",
+      "tooltip": "Specifies the size of the interval that you want between rounded amounts."
+    },
+    {
+      "no": 6,
+      "name": "Amount Added After",
+      "tooltip": "Specifies an amount to add, after the amount has been rounded."
+    }
+  ]
+}

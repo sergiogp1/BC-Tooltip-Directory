@@ -1,0 +1,23 @@
+{
+  "id": 5211,
+  "name": "Employment Contract",
+  "slug": "5211_employment_contract",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the employment contract."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the employment contract."
+    },
+    {
+      "no": 3,
+      "name": "No. of Contracts",
+      "tooltip": "Specifies the number of contracts associated with the entry."
+    }
+  ]
+}

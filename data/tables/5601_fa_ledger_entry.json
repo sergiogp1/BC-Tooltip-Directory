@@ -1,0 +1,413 @@
+{
+  "id": 5601,
+  "name": "FA Ledger Entry",
+  "slug": "5601_fa_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "G/L Entry No.",
+      "tooltip": "Specifies the G/L number for the entry that was created in the general ledger for this fixed asset transaction."
+    },
+    {
+      "no": 3,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 4,
+      "name": "FA Posting Date",
+      "tooltip": "Specifies the posting date of the related fixed asset transaction, such as a depreciation."
+    },
+    {
+      "no": 5,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 6,
+      "name": "Document Type",
+      "tooltip": "Specifies the entry document type."
+    },
+    {
+      "no": 7,
+      "name": "Document Date",
+      "tooltip": "Specifies the entry document date."
+    },
+    {
+      "no": 8,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the entry."
+    },
+    {
+      "no": 9,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 11,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 12,
+      "name": "FA Posting Category",
+      "tooltip": "Specifies the posting category assigned to the entry when it was posted."
+    },
+    {
+      "no": 13,
+      "name": "FA Posting Type",
+      "tooltip": "Specifies the posting type, if Account Type field contains Fixed Asset."
+    },
+    {
+      "no": 14,
+      "name": "Amount",
+      "tooltip": "Specifies the entry amount in currency."
+    },
+    {
+      "no": 15,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 16,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 17,
+      "name": "Reclassification Entry",
+      "tooltip": "Specifies whether the entry was made to reclassify a fixed asset, for example, to change the dimension the fixed asset is linked to."
+    },
+    {
+      "no": 18,
+      "name": "Part of Book Value",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Part of Depreciable Basis",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Disposal Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Disposal Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "No. of Depreciation Days",
+      "tooltip": "Specifies the number of depreciation days that were used for calculating depreciation for the fixed asset entry."
+    },
+    {
+      "no": 23,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "FA No./Budgeted FA No.",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "FA Subclass Code",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "FA Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "FA Posting Group",
+      "tooltip": "Specifies the FA posting group of the related fixed asset transaction."
+    },
+    {
+      "no": 28,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 29,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 30,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 33,
+      "name": "Depreciation Method",
+      "tooltip": "Specifies how depreciation is calculated for the depreciation book."
+    },
+    {
+      "no": 34,
+      "name": "Depreciation Starting Date",
+      "tooltip": "Specifies the date on which depreciation of the fixed asset starts."
+    },
+    {
+      "no": 35,
+      "name": "Straight-Line %",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "No. of Depreciation Years",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Fixed Depr. Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Declining-Balance %",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Depreciation Table Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 42,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 43,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 45,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 46,
+      "name": "VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Gen. Posting Type",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "FA Class Code",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "FA Exchange Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Result on Disposal",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Index Entry",
+      "tooltip": "Specifies this entry is an index entry."
+    },
+    {
+      "no": 56,
+      "name": "Canceled from FA No.",
+      "tooltip": "Specifies the number of the fixed asset linked to the original entry, from which this fixed asset error ledger entry was created."
+    },
+    {
+      "no": 57,
+      "name": "Depreciation Ending Date",
+      "tooltip": "Specifies the date on which depreciation of the fixed asset ends."
+    },
+    {
+      "no": 58,
+      "name": "Use FA Ledger Check",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Automatic Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Depr. Starting Date (Custom 1)",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Depr. Ending Date (Custom 1)",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Accum. Depr. % (Custom 1)",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Depr. % this year (Custom 1)",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Property Class (Custom 1)",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Reversed",
+      "tooltip": "Specifies whether the entry has been part of a reverse transaction (correction) made by the Reverse function."
+    },
+    {
+      "no": 73,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry."
+    },
+    {
+      "no": 74,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 6210,
+      "name": "Non-Ded. VAT FA Cost",
+      "tooltip": ""
+    }
+  ]
+}

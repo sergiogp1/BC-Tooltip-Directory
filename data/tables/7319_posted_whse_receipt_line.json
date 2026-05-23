@@ -1,0 +1,223 @@
+{
+  "id": 7319,
+  "name": "Posted Whse. Receipt Line",
+  "slug": "7319_posted_whse_receipt_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line in the posted receipt."
+    },
+    {
+      "no": 3,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 7,
+      "name": "Source Line No.",
+      "tooltip": "Specifies the line number of the source document that the entry originates from."
+    },
+    {
+      "no": 9,
+      "name": "Source Document",
+      "tooltip": "Specifies the type of document that the line relates to."
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the items were received."
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number of the item for informational use."
+    },
+    {
+      "no": 12,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 13,
+      "name": "Zone Code",
+      "tooltip": "Specifies the code of the zone on this posted receipt line."
+    },
+    {
+      "no": 14,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that was received and posted."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity that was received."
+    },
+    {
+      "no": 16,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity that was received, in the base unit of measure."
+    },
+    {
+      "no": 25,
+      "name": "Qty. Put Away",
+      "tooltip": "Specifies the quantity that is put away."
+    },
+    {
+      "no": 26,
+      "name": "Qty. Put Away (Base)",
+      "tooltip": "Specifies the quantity that is put away, in the base unit of measure."
+    },
+    {
+      "no": 27,
+      "name": "Put-away Qty.",
+      "tooltip": "Specifies the quantity on put-away instructions in the process of being put away."
+    },
+    {
+      "no": 28,
+      "name": "Put-away Qty. (Base)",
+      "tooltip": "Specifies the quantity on put-away instructions, in the base unit of measure, in the process of being put away."
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure, in the unit of measure, specified for the item on the line."
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item in the line."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies a second description of the item in the line, if any."
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the date that the receipt line was due."
+    },
+    {
+      "no": 37,
+      "name": "Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Qty. Cross-Docked",
+      "tooltip": "Specifies the quantity of items that was in the Qty. To Cross-Dock field on the warehouse receipt line when it was posted."
+    },
+    {
+      "no": 51,
+      "name": "Qty. Cross-Docked (Base)",
+      "tooltip": "Specifies the base quantity of items in the Qty. To Cross-Dock (Base) field on the warehouse receipt line when it was posted."
+    },
+    {
+      "no": 52,
+      "name": "Cross-Dock Zone Code",
+      "tooltip": "Specifies the zone code used to create the cross-dock put-away for this line when the receipt was posted."
+    },
+    {
+      "no": 53,
+      "name": "Cross-Dock Bin Code",
+      "tooltip": "Specifies the bin code used to create the cross-dock put-away for this line when the receipt was posted."
+    },
+    {
+      "no": 55,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Posted Source Document",
+      "tooltip": "Specifies the type of posted source document referred to by the receipt line."
+    },
+    {
+      "no": 61,
+      "name": "Posted Source No.",
+      "tooltip": "Specifies the document number of the posted source document."
+    },
+    {
+      "no": 62,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Vendor Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Whse. Receipt No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Whse Receipt Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 6500,
+      "name": "Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6502,
+      "name": "Warranty Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6503,
+      "name": "Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": ""
+    }
+  ]
+}

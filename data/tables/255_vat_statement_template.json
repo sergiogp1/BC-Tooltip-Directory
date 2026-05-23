@@ -1,0 +1,38 @@
+{
+  "id": 255,
+  "name": "VAT Statement Template",
+  "slug": "255_vat_statement_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the VAT statement template you are about to create."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT statement template."
+    },
+    {
+      "no": 6,
+      "name": "Page ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "VAT Statement Report ID",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Page Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "VAT Statement Report Caption",
+      "tooltip": ""
+    }
+  ]
+}

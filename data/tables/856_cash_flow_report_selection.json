@@ -1,0 +1,23 @@
+{
+  "id": 856,
+  "name": "Cash Flow Report Selection",
+  "slug": "856_cash_flow_report_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Sequence",
+      "tooltip": "Specifies a number that indicates where this report is in the printing order."
+    },
+    {
+      "no": 3,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 4,
+      "name": "Report Caption",
+      "tooltip": "Specifies the display name of the report."
+    }
+  ]
+}

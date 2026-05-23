@@ -1,0 +1,63 @@
+{
+  "id": 552,
+  "name": "VAT Rate Change Log Entry",
+  "slug": "552_vat_rate_change_log_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Converted Date",
+      "tooltip": "Specifies the date when the VAT rate change log entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 10,
+      "name": "Table ID",
+      "tooltip": "Specifies the table. This field is intended only for internal use."
+    },
+    {
+      "no": 11,
+      "name": "Table Caption",
+      "tooltip": "Specifies the table. This field is intended only for internal use."
+    },
+    {
+      "no": 20,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Old Gen. Prod. Posting Group",
+      "tooltip": "Specifies the general product posting group before the VAT rate change conversion."
+    },
+    {
+      "no": 31,
+      "name": "New Gen. Prod. Posting Group",
+      "tooltip": "Specifies the new general product posting group after the VAT rate change conversion."
+    },
+    {
+      "no": 32,
+      "name": "Old VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT product posting group before the VAT rate change conversion."
+    },
+    {
+      "no": 33,
+      "name": "New VAT Prod. Posting Group",
+      "tooltip": "Specifies the new VAT product posting group after the VAT rate change conversion."
+    },
+    {
+      "no": 40,
+      "name": "Converted",
+      "tooltip": "Specifies the status of the VAT rate change conversion."
+    },
+    {
+      "no": 50,
+      "name": "Description",
+      "tooltip": "Specifies the description for the VAT rate change conversion."
+    }
+  ]
+}

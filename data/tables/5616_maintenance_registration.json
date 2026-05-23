@@ -1,0 +1,48 @@
+{
+  "id": 5616,
+  "name": "Maintenance Registration",
+  "slug": "5616_maintenance_registration",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Service Date",
+      "tooltip": "Specifies the date when the fixed asset is being serviced."
+    },
+    {
+      "no": 4,
+      "name": "Maintenance Vendor No.",
+      "tooltip": "Specifies the number of the vendor who services the fixed asset for this entry."
+    },
+    {
+      "no": 5,
+      "name": "Comment",
+      "tooltip": "Specifies a comment for the service, repairs or maintenance to be performed on the fixed asset."
+    },
+    {
+      "no": 6,
+      "name": "Service Agent Name",
+      "tooltip": "Specifies the name of the service agent who is servicing the fixed asset."
+    },
+    {
+      "no": 7,
+      "name": "Service Agent Phone No.",
+      "tooltip": "Specifies the phone number of the service agent who is servicing the fixed asset."
+    },
+    {
+      "no": 8,
+      "name": "Service Agent Mobile Phone",
+      "tooltip": "Specifies the mobile phone number of the service agent who is servicing the fixed asset."
+    }
+  ]
+}

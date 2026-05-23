@@ -1,0 +1,18 @@
+{
+  "id": 277,
+  "name": "Bank Account Posting Group",
+  "slug": "277_bank_account_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the G/L account that bank transactions, such as bank payment reconciliations, are posted to when the bank account card contains this code."
+    },
+    {
+      "no": 3,
+      "name": "G/L Account No.",
+      "tooltip": "Specifies the general ledger account to which bank account entries in this posting group are posted."
+    }
+  ]
+}

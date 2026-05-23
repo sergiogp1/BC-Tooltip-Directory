@@ -1,0 +1,48 @@
+{
+  "id": 5412,
+  "name": "Prod. Order Routing Personnel",
+  "slug": "5412_prod_order_routing_personnel",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies the description of the personnel."
+    },
+    {
+      "no": 21,
+      "name": "Operation No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Prod. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Routing Reference No.",
+      "tooltip": ""
+    }
+  ]
+}

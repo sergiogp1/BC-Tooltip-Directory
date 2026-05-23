@@ -1,0 +1,43 @@
+{
+  "id": 410,
+  "name": "IC G/L Account",
+  "slug": "410_ic_g_l_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the IC general ledger account."
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the purpose of the account. Total: Used to total a series of balances on accounts from many different account groupings. To use Total, leave this field blank. Begin-Total: A marker for the beginning of a series of accounts to be totaled that ends with an End-Total account. End-Total: A total of a series of accounts that starts with the preceding Begin-Total account. The total is defined in the Totaling field."
+    },
+    {
+      "no": 4,
+      "name": "Income/Balance",
+      "tooltip": "Specifies whether a general ledger account is an income statement account or a balance sheet account."
+    },
+    {
+      "no": 5,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 6,
+      "name": "Map-to G/L Acc. No.",
+      "tooltip": "Specifies the number of the G/L account in your chart of accounts that corresponds to this intercompany G/L account."
+    },
+    {
+      "no": 7,
+      "name": "Indentation",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 5072,
+  "name": "Campaign Entry",
+  "slug": "5072_campaign_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Campaign No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the campaign entry."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date the campaign entry was recorded. The field is not editable."
+    },
+    {
+      "no": 5,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Segment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Canceled",
+      "tooltip": "Specifies that the entry has been canceled."
+    },
+    {
+      "no": 8,
+      "name": "No. of Interactions",
+      "tooltip": "Specifies the number of interactions created as part of the campaign entry. The field is not editable."
+    },
+    {
+      "no": 10,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the cost of the campaign entry. The field is not editable."
+    },
+    {
+      "no": 11,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the duration of the action linked to the campaign entry. The field is not editable."
+    },
+    {
+      "no": 12,
+      "name": "Salesperson Code",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Document Type",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 9153,
+  "name": "My Account",
+  "slug": "9153_my_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Account No.",
+      "tooltip": "Specifies the G/L account number."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the G/L account."
+    },
+    {
+      "no": 5,
+      "name": "Account Balance",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Totaling",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Acc. Balance",
+      "tooltip": "Specifies the balance of the G/L account."
+    }
+  ]
+}

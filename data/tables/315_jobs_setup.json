@@ -1,0 +1,88 @@
+{
+  "id": 315,
+  "name": "Jobs Setup",
+  "slug": "315_jobs_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Job Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to projects. To see the number series that have been set up in the No. Series table, click the drop-down arrow in the field."
+    },
+    {
+      "no": 3,
+      "name": "Apply Usage Link by Default",
+      "tooltip": "Specifies whether project ledger entries are linked to project planning lines by default. Select this check box if you want to apply this setting to all new projects that you create."
+    },
+    {
+      "no": 4,
+      "name": "Default WIP Method",
+      "tooltip": "Specifies the default method to be used for calculating work in process (WIP). It is applied whenever you create a new project, but you can modify the value on the project card."
+    },
+    {
+      "no": 5,
+      "name": "Default Job Posting Group",
+      "tooltip": "Specifies the default posting group to be applied when you create a new project. This group is used whenever you create a project, but you can modify the value on the project card."
+    },
+    {
+      "no": 6,
+      "name": "Default WIP Posting Method",
+      "tooltip": "Specifies how the default WIP method is to be applied when posting Work in Process (WIP) to the general ledger. By default, it is applied per project."
+    },
+    {
+      "no": 7,
+      "name": "Allow Sched/Contract Lines Def",
+      "tooltip": "Specifies whether project lines can be of type Both Budget and Billable by default. Select this check box if you want to apply this setting to all new projects that you create."
+    },
+    {
+      "no": 9,
+      "name": "Document No. Is Job No.",
+      "tooltip": "Specifies that the project number is also the document number in the ledger entries posted for the project."
+    },
+    {
+      "no": 10,
+      "name": "Default Task Billing Method",
+      "tooltip": "Specify whether to use the customer specified for the project for all tasks or allow people to specify different customers. One customer lets you invoice only the customer specified for the project. Multiple customers lets you invoice customers specified on each task, which can be different customers."
+    },
+    {
+      "no": 31,
+      "name": "Logo Position on Documents",
+      "tooltip": "Specifies the position of your company logo on business letters and documents."
+    },
+    {
+      "no": 40,
+      "name": "Job WIP Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to project WIP documents. To see the number series that have been set up in the No. Series table, click the drop-down arrow in the field."
+    },
+    {
+      "no": 50,
+      "name": "Archive Jobs",
+      "tooltip": "Specifies if you want to automatically archive projects when: deleted, status changed, when project or project task quote sent to customer or related sales invoice posted."
+    },
+    {
+      "no": 1001,
+      "name": "Automatic Update Job Item Cost",
+      "tooltip": "Specifies in the Projects Setup window that cost changes are automatically adjusted each time the Adjust Cost - Item Entries batch job is run. The adjustment process and its results are the same as when you run the Update Project Item Cost batch job."
+    },
+    {
+      "no": 7000,
+      "name": "Price List Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to project price lists."
+    },
+    {
+      "no": 7003,
+      "name": "Default Sales Price List Code",
+      "tooltip": "Specifies the code of the existing sales price list that stores all new price lines created in the price worksheet page."
+    },
+    {
+      "no": 7004,
+      "name": "Default Purch Price List Code",
+      "tooltip": "Specifies the code of the existing purchase price list that stores all new price lines created in the price worksheet page."
+    }
+  ]
+}

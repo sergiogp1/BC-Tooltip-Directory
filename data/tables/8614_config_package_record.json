@@ -1,0 +1,33 @@
+{
+  "id": 8614,
+  "name": "Config. Package Record",
+  "slug": "8614_config_package_record",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Invalid",
+      "tooltip": "Specifies whether a configuration record has an error that prevents it from being imported into the table. You can see the error information in the Config. Package Errors window."
+    },
+    {
+      "no": 10,
+      "name": "Parent Record No.",
+      "tooltip": ""
+    }
+  ]
+}

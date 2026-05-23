@@ -1,0 +1,93 @@
+{
+  "id": 5389,
+  "name": "CRM Role",
+  "slug": "5389_crm_role",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "RoleId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "ParentRoleId",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "OverwriteTime",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "ComponentState",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "SolutionId",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "RoleIdUnique",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "ParentRootRoleId",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "IsManaged",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "RoleTemplateId",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "BusinessUnitId",
+      "tooltip": ""
+    }
+  ]
+}

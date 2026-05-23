@@ -1,0 +1,33 @@
+{
+  "id": 357,
+  "name": "Gen. Jnl. Dim. Filter",
+  "slug": "357_gen_jnl_dim_filter",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Journal Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the code for the dimension."
+    },
+    {
+      "no": 5,
+      "name": "Dimension Value Filter",
+      "tooltip": "Specifies the filter for the dimension values."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 99,
+  "name": "Item Vendor",
+  "slug": "99_item_vendor",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that the alternate direct unit cost is valid for."
+    },
+    {
+      "no": 2,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor who offers the alternate direct unit cost."
+    },
+    {
+      "no": 6,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 7,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 366,
+  "name": "Analysis View Budget Entry",
+  "slug": "366_analysis_view_budget_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis View Code",
+      "tooltip": "Specifies the analysis view."
+    },
+    {
+      "no": 2,
+      "name": "Budget Name",
+      "tooltip": "Specifies the name of the budget that the analysis view budget entries are linked to."
+    },
+    {
+      "no": 3,
+      "name": "Business Unit Code",
+      "tooltip": "Specifies the code for the business unit that the analysis view is based on."
+    },
+    {
+      "no": 4,
+      "name": "G/L Account No.",
+      "tooltip": "Specifies the number of the account that the entry has been posted to."
+    },
+    {
+      "no": 5,
+      "name": "Dimension 1 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 1 on the analysis view card."
+    },
+    {
+      "no": 6,
+      "name": "Dimension 2 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 2 on the analysis view card."
+    },
+    {
+      "no": 7,
+      "name": "Dimension 3 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 3 on the analysis view card."
+    },
+    {
+      "no": 8,
+      "name": "Dimension 4 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 4 on the analysis view card."
+    },
+    {
+      "no": 9,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 10,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the analysis view budget entry."
+    }
+  ]
+}

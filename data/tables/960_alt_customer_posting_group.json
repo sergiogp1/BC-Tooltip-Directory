@@ -1,0 +1,18 @@
+{
+  "id": 960,
+  "name": "Alt. Customer Posting Group",
+  "slug": "960_alt_customer_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Customer Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Alt. Customer Posting Group",
+      "tooltip": "Specifies the customer group for posting business transactions to general ledger accounts."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 5942,
+  "name": "Service Item Log",
+  "slug": "5942_service_item_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the event associated with the service item."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Event No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the event associated with the service item."
+    },
+    {
+      "no": 5,
+      "name": "After",
+      "tooltip": "Specifies the value of the field modified after the event takes place."
+    },
+    {
+      "no": 6,
+      "name": "Before",
+      "tooltip": "Specifies the previous value of the field, modified after the event takes place."
+    },
+    {
+      "no": 7,
+      "name": "Change Date",
+      "tooltip": "Specifies the date of the event."
+    },
+    {
+      "no": 8,
+      "name": "Change Time",
+      "tooltip": "Specifies the time of the event."
+    },
+    {
+      "no": 9,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 10,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type of the service item associated with the event, such as contract, order, or quote."
+    }
+  ]
+}

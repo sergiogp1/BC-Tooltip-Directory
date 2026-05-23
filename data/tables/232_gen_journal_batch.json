@@ -1,0 +1,108 @@
+{
+  "id": 232,
+  "name": "Gen. Journal Batch",
+  "slug": "232_gen_journal_batch",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the journal you are creating."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a brief description of the journal batch you are creating."
+    },
+    {
+      "no": 4,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 5,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 6,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 7,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 8,
+      "name": "Posting No. Series",
+      "tooltip": "Specifies the code for the number series that will be used to assign document numbers to ledger entries that are posted from this journal batch."
+    },
+    {
+      "no": 9,
+      "name": "Copy VAT Setup to Jnl. Lines",
+      "tooltip": "Specifies whether the program to calculate VAT for accounts and balancing accounts on the journal line of the selected journal batch."
+    },
+    {
+      "no": 10,
+      "name": "Allow VAT Difference",
+      "tooltip": "Specifies whether to allow the manual adjustment of VAT amounts in journal templates."
+    },
+    {
+      "no": 11,
+      "name": "Allow Payment Export",
+      "tooltip": "Specifies if you can export bank payment files from payment journal lines using this general journal batch."
+    },
+    {
+      "no": 12,
+      "name": "Bank Statement Import Format",
+      "tooltip": "Specifies the format of the bank statement file that can be imported into this general journal batch."
+    },
+    {
+      "no": 21,
+      "name": "Template Type",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Recurring",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Suggest Balancing Amount",
+      "tooltip": "Specifies if the Amount field on journal lines for the same document number is automatically prefilled with the value that is required to balance the document."
+    },
+    {
+      "no": 28,
+      "name": "Pending Approval",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Copy to Posted Jnl. Lines",
+      "tooltip": "Specifies whether the journal lines to be copied to posted journal lines of the selected journal batch."
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this journal batch."
+    },
+    {
+      "no": 8001,
+      "name": "Last Modified DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "BalAccountId",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 921,
+  "name": "Item Turnover Buffer",
+  "slug": "921_item_turnover_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period defined on the line, related to year-to-date inventory turnover."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the start date of the period defined on the line, related to year-to-date inventory turnover."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Purchases (Qty.)",
+      "tooltip": "Specifies how many units of the item have been purchased. The program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Purchase type."
+    },
+    {
+      "no": 11,
+      "name": "Purchases (LCY)",
+      "tooltip": "Specifies the total purchase amount, in LCY, of the item that has been purchased. The program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as purchases."
+    },
+    {
+      "no": 12,
+      "name": "Sales (Qty.)",
+      "tooltip": "Specifies how many units of the item have been sold. The program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Sales type."
+    },
+    {
+      "no": 13,
+      "name": "Sales (LCY)",
+      "tooltip": "Specifies the sales amount, in LCY, of the item that has been sold. The program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as sales."
+    }
+  ]
+}

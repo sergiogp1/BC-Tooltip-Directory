@@ -1,0 +1,98 @@
+{
+  "id": 5718,
+  "name": "Nonstock Item",
+  "slug": "5718_nonstock_item",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Manufacturer Code",
+      "tooltip": "Specifies a code for the manufacturer of the catalog item."
+    },
+    {
+      "no": 3,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor from whom you can purchase the catalog item."
+    },
+    {
+      "no": 4,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description of the catalog item."
+    },
+    {
+      "no": 6,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 7,
+      "name": "Published Cost",
+      "tooltip": "Specifies the published cost or vendor list price for the catalog item."
+    },
+    {
+      "no": 8,
+      "name": "Negotiated Cost",
+      "tooltip": "Specifies the price you negotiated to pay for the catalog item."
+    },
+    {
+      "no": 9,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 10,
+      "name": "Gross Weight",
+      "tooltip": "Specifies the gross weight, including the weight of any packaging, of the catalog item."
+    },
+    {
+      "no": 11,
+      "name": "Net Weight",
+      "tooltip": "Specifies the net weight of the item. The weight of packaging materials is not included."
+    },
+    {
+      "no": 14,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the date on which the catalog item card was last modified."
+    },
+    {
+      "no": 15,
+      "name": "Bar Code",
+      "tooltip": "Specifies the bar code of the catalog item."
+    },
+    {
+      "no": 16,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number that the program has generated for this catalog item."
+    },
+    {
+      "no": 17,
+      "name": "Item No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Item Templ. Code",
+      "tooltip": "Specifies the code for the item template used for this catalog item."
+    }
+  ]
+}

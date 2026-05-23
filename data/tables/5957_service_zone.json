@@ -1,0 +1,18 @@
+{
+  "id": 5957,
+  "name": "Service Zone",
+  "slug": "5957_service_zone",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the service zone."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service zone."
+    }
+  ]
+}

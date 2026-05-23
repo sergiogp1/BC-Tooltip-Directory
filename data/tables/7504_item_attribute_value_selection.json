@@ -1,0 +1,53 @@
+{
+  "id": 7504,
+  "name": "Item Attribute Value Selection",
+  "slug": "7504_item_attribute_value_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Attribute Name",
+      "tooltip": "Specifies the item variant attribute."
+    },
+    {
+      "no": 2,
+      "name": "Value",
+      "tooltip": "Specifies the value of the item variant attribute."
+    },
+    {
+      "no": 3,
+      "name": "Attribute ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 6,
+      "name": "Blocked",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Attribute Type",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Inherited-From Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Inherited-From Key Value",
+      "tooltip": "Specifies the parent item category that the item attributes are inherited from."
+    },
+    {
+      "no": 10,
+      "name": "Inheritance Level",
+      "tooltip": ""
+    }
+  ]
+}

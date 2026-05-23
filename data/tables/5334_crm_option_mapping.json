@@ -1,0 +1,68 @@
+{
+  "id": 5334,
+  "name": "CRM Option Mapping",
+  "slug": "5334_crm_option_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Option Value",
+      "tooltip": "Specifies the numeric value of the mapped option value in Dataverse."
+    },
+    {
+      "no": 3,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Integration Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Integration Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Option Value Caption",
+      "tooltip": "Specifies the caption of the mapped option value in Dataverse."
+    },
+    {
+      "no": 7,
+      "name": "Last Synch. Result",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Skipped",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Last Synch. Job ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Last Synch. CRM Result",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Last Synch. CRM Job ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Last Synch. Modified On",
+      "tooltip": ""
+    }
+  ]
+}

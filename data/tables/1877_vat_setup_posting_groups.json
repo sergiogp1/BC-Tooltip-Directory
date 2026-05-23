@@ -1,0 +1,58 @@
+{
+  "id": 1877,
+  "name": "VAT Setup Posting Groups",
+  "slug": "1877_vat_setup_posting_groups",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 4,
+      "name": "VAT %",
+      "tooltip": "Specifies the VAT percentage used."
+    },
+    {
+      "no": 7,
+      "name": "Sales VAT Account",
+      "tooltip": "Specifies the general ledger account number to which to post sales VAT, for the particular combination of VAT business posting group and VAT product posting group."
+    },
+    {
+      "no": 9,
+      "name": "Purchase VAT Account",
+      "tooltip": "Specifies the general ledger account number to which to post purchase VAT."
+    },
+    {
+      "no": 11,
+      "name": "Reverse Chrg. VAT Acc.",
+      "tooltip": "Specifies the general ledger account number to which you want to post reverse charge VAT (purchase VAT) for this combination of VAT business posting group and VAT product posting group, if you have selected the Reverse Charge VAT option in the VAT Calculation Type field."
+    },
+    {
+      "no": 18,
+      "name": "VAT Prod. Posting Grp Desc.",
+      "tooltip": "Specifies a description of the VAT product posting group."
+    },
+    {
+      "no": 19,
+      "name": "VAT Clause Desc",
+      "tooltip": "Specifies a description of the VAT clause."
+    },
+    {
+      "no": 22,
+      "name": "Selected",
+      "tooltip": "Specifies whether to include the VAT product posting group on the line."
+    },
+    {
+      "no": 23,
+      "name": "Application Type",
+      "tooltip": "Specifies how a cost recipient is linked to its cost source to provide cost forwarding according to the costing method."
+    },
+    {
+      "no": 24,
+      "name": "Default",
+      "tooltip": ""
+    }
+  ]
+}

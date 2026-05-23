@@ -1,0 +1,33 @@
+{
+  "id": 8363,
+  "name": "Dimension Perspective Name",
+  "slug": "8363_dimension_perspective_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the dimension perspective. The description is not shown on the final report but is used to provide more context when using the definition."
+    },
+    {
+      "no": 3,
+      "name": "Internal Description",
+      "tooltip": "Specifies the internal description of the dimension perspective. The internal description is not shown on the final report but is used to provide more context when using the definition."
+    },
+    {
+      "no": 4,
+      "name": "Perspective Type",
+      "tooltip": "Specifies how the financial report dimension perspectives will be totaled by. If you select Custom, then you can set up a combination of fields to total by on a dimension-by-dimension basis. Otherwise, perspectives are automatically created and totaled by each dimension value or business unit."
+    },
+    {
+      "no": 5,
+      "name": "Analysis View Name",
+      "tooltip": "Specifies the name of the analysis view you want the dimension perspective to use. This field is optional."
+    }
+  ]
+}

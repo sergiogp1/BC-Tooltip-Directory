@@ -1,0 +1,48 @@
+{
+  "id": 7313,
+  "name": "Warehouse Register",
+  "slug": "7313_warehouse_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "From Entry No.",
+      "tooltip": "Specifies the first item entry number in the register."
+    },
+    {
+      "no": 3,
+      "name": "To Entry No.",
+      "tooltip": "Specifies the last warehouse entry number in the register."
+    },
+    {
+      "no": 4,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date on which the entries in the register were posted."
+    },
+    {
+      "no": 5,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 6,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 7,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 9,
+      "name": "Creation Time",
+      "tooltip": "Specifies the time on which the entries in the register were posted."
+    }
+  ]
+}

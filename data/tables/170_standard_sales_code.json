@@ -1,0 +1,23 @@
+{
+  "id": 170,
+  "name": "Standard Sales Code",
+  "slug": "170_standard_sales_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code which identifies this standard sales code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the standard sales code."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the amounts on the standard sales lines."
+    }
+  ]
+}

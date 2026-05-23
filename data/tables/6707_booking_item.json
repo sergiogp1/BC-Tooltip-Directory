@@ -1,0 +1,93 @@
+{
+  "id": 6707,
+  "name": "Booking Item",
+  "slug": "6707_booking_item",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Start Date",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "End Date",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Duration",
+      "tooltip": "Specifies the duration of the booking that is not yet invoiced."
+    },
+    {
+      "no": 5,
+      "name": "Notes",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Price Type",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Price",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Service ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Service Name",
+      "tooltip": "Specifies the subject of the booking."
+    },
+    {
+      "no": 13,
+      "name": "Customer ID",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Customer Email",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Customer Name",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Invoice Link",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Invoice No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Invoice Status",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Invoice Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Invoice Date",
+      "tooltip": ""
+    }
+  ]
+}

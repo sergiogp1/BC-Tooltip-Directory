@@ -1,0 +1,73 @@
+{
+  "id": 1602,
+  "name": "Exchange Object",
+  "slug": "1602_exchange_object",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Name"
+    },
+    {
+      "no": 4,
+      "name": "Body",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Parent ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Content",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "ViewLink",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Owner",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Selected",
+      "tooltip": "Select"
+    },
+    {
+      "no": 12,
+      "name": "Content Type",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "InitiatedAction",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "IsInline",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "RecId",
+      "tooltip": ""
+    }
+  ]
+}

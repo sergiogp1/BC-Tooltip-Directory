@@ -1,0 +1,43 @@
+{
+  "id": 442,
+  "name": "IC Document Dimension",
+  "slug": "442_ic_document_dimension",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Transaction Source",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the dimension."
+    },
+    {
+      "no": 7,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the dimension value."
+    }
+  ]
+}

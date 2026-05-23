@@ -1,0 +1,28 @@
+{
+  "id": 5650,
+  "name": "Total Value Insured",
+  "slug": "5650_total_value_insured",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 2,
+      "name": "Insurance No.",
+      "tooltip": "Specifies the number of the insurance policy that the entry is linked to."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the insurance policy."
+    },
+    {
+      "no": 4,
+      "name": "Total Value Insured",
+      "tooltip": "Specifies the amounts you posted to each insurance policy for the fixed asset."
+    }
+  ]
+}

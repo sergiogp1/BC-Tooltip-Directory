@@ -1,0 +1,23 @@
+{
+  "id": 1312,
+  "name": "Trial Balance Setup",
+  "slug": "1312_trial_balance_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Account Schedule Name",
+      "tooltip": "Specifies the rows definition to use to calculate the results that display in the Trial Balance chart."
+    },
+    {
+      "no": 3,
+      "name": "Column Layout Name",
+      "tooltip": "Specifies the columns definition to use to determine how columns display in the Trial Balance chart."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9155,
+  "name": "My Time Sheets",
+  "slug": "9155_my_time_sheets",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Time Sheet No.",
+      "tooltip": "Specifies the number of the time sheet."
+    },
+    {
+      "no": 3,
+      "name": "Start Date",
+      "tooltip": "Specifies the start date of the assignment."
+    },
+    {
+      "no": 4,
+      "name": "End Date",
+      "tooltip": "Specifies the end date of the assignment."
+    },
+    {
+      "no": 5,
+      "name": "Comment",
+      "tooltip": "Specifies any comments about the assignment."
+    }
+  ]
+}

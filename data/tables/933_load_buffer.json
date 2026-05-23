@@ -1,0 +1,48 @@
+{
+  "id": 933,
+  "name": "Load Buffer",
+  "slug": "933_load_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the starting date for the evaluation of the machine centers, which according to the actual planning are overloaded."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Capacity",
+      "tooltip": "Specifies the amount of work that can be done in a specified time period at this machine center."
+    },
+    {
+      "no": 11,
+      "name": "Allocated Qty.",
+      "tooltip": "Specifies the amount of capacity that is needed to produce a desired output in a given time period."
+    },
+    {
+      "no": 12,
+      "name": "Availability After Orders",
+      "tooltip": "Specifies the available capacity of this work center group that is not used in the planning of a given time period."
+    },
+    {
+      "no": 13,
+      "name": "Load",
+      "tooltip": "Specifies the sum of the required number of times that all the planned and actual orders are run on the machine center in a specified period."
+    }
+  ]
+}

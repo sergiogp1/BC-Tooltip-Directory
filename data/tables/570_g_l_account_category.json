@@ -1,0 +1,63 @@
+{
+  "id": 570,
+  "name": "G/L Account Category",
+  "slug": "570_g_l_account_category",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Parent Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Sibling Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Presentation Order",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description of the record."
+    },
+    {
+      "no": 7,
+      "name": "Account Category",
+      "tooltip": "Specifies the category of the G/L account."
+    },
+    {
+      "no": 8,
+      "name": "Income/Balance",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Additional Report Definition",
+      "tooltip": "Specifies additional attributes that are used to create the cash flow statement."
+    },
+    {
+      "no": 11,
+      "name": "System Generated",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Has Children",
+      "tooltip": ""
+    }
+  ]
+}

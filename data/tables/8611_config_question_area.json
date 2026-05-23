@@ -1,0 +1,43 @@
+{
+  "id": 8611,
+  "name": "Config. Question Area",
+  "slug": "8611_config_question_area",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Questionnaire Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code for the question area. You fill in a value for the code when you create a question area for your setup questionnaire."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description for the question area code."
+    },
+    {
+      "no": 4,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table that the question area manages. You can select any application table from the Objects window."
+    },
+    {
+      "no": 5,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table that is supporting the setup questionnaire area. The name comes from the name property of the table."
+    },
+    {
+      "no": 6,
+      "name": "Table Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "No. of Questions",
+      "tooltip": ""
+    }
+  ]
+}

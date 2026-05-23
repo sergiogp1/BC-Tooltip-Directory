@@ -1,0 +1,23 @@
+{
+  "id": 1606,
+  "name": "Office Invoice",
+  "slug": "1606_office_invoice",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the related document."
+    },
+    {
+      "no": 3,
+      "name": "Posted",
+      "tooltip": "Specifies whether the document has been posted."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 314,
+  "name": "Resources Setup",
+  "slug": "314_resources_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Resource Nos.",
+      "tooltip": "Specifies the number series code you can use to assign numbers to resources."
+    },
+    {
+      "no": 950,
+      "name": "Time Sheet Nos.",
+      "tooltip": "Specifies the number series code you can use to assign document numbers to time sheets."
+    },
+    {
+      "no": 951,
+      "name": "Time Sheet First Weekday",
+      "tooltip": "Specifies the first weekday to use on a time sheet. The default is Monday."
+    },
+    {
+      "no": 952,
+      "name": "Time Sheet by Job Approval",
+      "tooltip": "Specifies whether time sheets must be approved on a per job basis by the user specified for the job."
+    },
+    {
+      "no": 953,
+      "name": "Use New Time Sheet Experience",
+      "tooltip": ""
+    },
+    {
+      "no": 954,
+      "name": "Time Sheet Submission Policy",
+      "tooltip": "Specifies the policy for submitting time sheets."
+    },
+    {
+      "no": 955,
+      "name": "Incl. Time Sheet Date in Jnl.",
+      "tooltip": "Specifies whether the date of the time sheets entry is included in the description in project journal line."
+    }
+  ]
+}

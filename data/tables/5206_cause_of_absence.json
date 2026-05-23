@@ -1,0 +1,48 @@
+{
+  "id": 5206,
+  "name": "Cause of Absence",
+  "slug": "5206_cause_of_absence",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a cause of absence code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the cause of absence."
+    },
+    {
+      "no": 3,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 4,
+      "name": "Total Absence (Base)",
+      "tooltip": "Specifies the total number of absences (calculated in days or hours) for all employees."
+    },
+    {
+      "no": 5,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Employee No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Date Filter",
+      "tooltip": ""
+    }
+  ]
+}

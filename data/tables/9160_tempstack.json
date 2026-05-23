@@ -1,0 +1,18 @@
+{
+  "id": 9160,
+  "name": "TempStack",
+  "slug": "9160_tempstack",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "StackOrder",
+      "tooltip": "Specifies the version of the Microsoft Dynamics 365 (CRM) software development kit that is used for the connection."
+    },
+    {
+      "no": 2,
+      "name": "Value",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "id": 5351,
+  "name": "CRM Quote",
+  "slug": "5351_crm_quote",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "QuoteId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "PriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "OpportunityId",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "ContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "QuoteNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "RevisionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 11,
+      "name": "PricingErrorCode",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "DiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "FreightAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "TotalAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 16,
+      "name": "TotalLineItemAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "TotalLineItemDiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "TotalAmountLessFreight",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "EffectiveFrom",
+      "tooltip": "Specifies which date the sales quote is valid from."
+    },
+    {
+      "no": 20,
+      "name": "TotalTax",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "TotalDiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "EffectiveTo",
+      "tooltip": "Specifies which date the sales quote is valid to."
+    },
+    {
+      "no": 23,
+      "name": "ExpiresOn",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "ClosedOn",
+      "tooltip": "Specifies the date when quote was closed."
+    },
+    {
+      "no": 25,
+      "name": "RequestDeliveryBy",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "StateCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 34,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "ShipTo_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "ShipTo_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "ShipTo_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "ShipTo_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "ShipTo_City",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "ShipTo_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "ShipTo_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "ShipTo_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "WillCall",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "ShipTo_Telephone",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "BillTo_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "ShipTo_FreightTermsCode",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "ShipTo_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "BillTo_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "BillTo_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "BillTo_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "BillTo_City",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "BillTo_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "BillTo_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "BillTo_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "BillTo_Telephone",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "BillTo_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "DiscountPercentage",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "ContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "AccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "OpportunityIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "PriceLevelIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "CustomerId",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "CustomerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "ShipTo_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "ShipTo_ContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "BillTo_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "BillTo_ContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "TotalLineItemDiscountAmount_Ba",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "TotalAmountLessFreight_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "DiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "FreightAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "TotalAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "TotalDiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "TotalTax_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "TotalLineItemAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "BillTo_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "ShipTo_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "CompanyId",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "PaymentTermsCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "ShippingMethodCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "FreightTermsCodeEnum",
+      "tooltip": ""
+    }
+  ]
+}

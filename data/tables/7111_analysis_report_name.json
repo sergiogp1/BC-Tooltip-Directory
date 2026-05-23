@@ -1,0 +1,33 @@
+{
+  "id": 7111,
+  "name": "Analysis Report Name",
+  "slug": "7111_analysis_report_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the analysis report name."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the analysis report description."
+    },
+    {
+      "no": 4,
+      "name": "Analysis Line Template Name",
+      "tooltip": "Specifies the analysis line template name for this analysis report."
+    },
+    {
+      "no": 5,
+      "name": "Analysis Column Template Name",
+      "tooltip": "Specifies the column template name for this analysis report."
+    }
+  ]
+}

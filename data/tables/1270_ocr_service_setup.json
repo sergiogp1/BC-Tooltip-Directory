@@ -1,0 +1,83 @@
+{
+  "id": 1270,
+  "name": "OCR Service Setup",
+  "slug": "1270_ocr_service_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User Name",
+      "tooltip": "Specifies the user name that represents your company's login to the OCR service."
+    },
+    {
+      "no": 3,
+      "name": "Password Key",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Sign-up URL",
+      "tooltip": "Specifies the web page where you sign up for the OCR service."
+    },
+    {
+      "no": 5,
+      "name": "Service URL",
+      "tooltip": "Specifies the address of the OCR service. The service specified in the Service URL field is called when you send and receive files for OCR."
+    },
+    {
+      "no": 6,
+      "name": "Sign-in URL",
+      "tooltip": "Specifies the sign-in page for the OCR service. This is the web page where you enter your company's user name, password, and authorization key to sign in to the service."
+    },
+    {
+      "no": 7,
+      "name": "Authorization Key",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Customer Name",
+      "tooltip": "Specifies your company's name at the provider of the OCR service."
+    },
+    {
+      "no": 9,
+      "name": "Customer ID",
+      "tooltip": "Specifies your company's customer ID at the provider of the OCR service."
+    },
+    {
+      "no": 10,
+      "name": "Customer Status",
+      "tooltip": "Specifies your company's status at the provider of the OCR service."
+    },
+    {
+      "no": 11,
+      "name": "Organization ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Default OCR Doc. Template",
+      "tooltip": "Specifies the OCR template that must be used by default for electronic documents that are received from the OCR service. You can change the OCR template on the individual incoming document card before sending the related file to the OCR service."
+    },
+    {
+      "no": 13,
+      "name": "Enabled",
+      "tooltip": "Specifies if the service is enabled."
+    },
+    {
+      "no": 14,
+      "name": "Master Data Sync Enabled",
+      "tooltip": "Specifies whether or not the master data sync has been enabled."
+    },
+    {
+      "no": 15,
+      "name": "Master Data Last Sync",
+      "tooltip": "Specifies the last time when the master data was synched."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": 9050,
+  "name": "Warehouse Basic Cue",
+  "slug": "9050_warehouse_basic_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Rlsd. Sales Orders Until Today",
+      "tooltip": "Specifies the number of released sales orders that are displayed in the Warehouse Basic Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Posted Sales Shipments - Today",
+      "tooltip": "Specifies the number of posted sales shipments that are displayed in the Basic Warehouse Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Exp. Purch. Orders Until Today",
+      "tooltip": "Specifies the number of expected purchase orders that are displayed in the Basic Warehouse Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Posted Purch. Receipts - Today",
+      "tooltip": "Specifies the number of posted purchase receipts that are displayed in the Warehouse Basic Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Invt. Picks Until Today",
+      "tooltip": "Specifies the number of inventory picks that are displayed in the Warehouse Basic Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Invt. Put-aways Until Today",
+      "tooltip": "Specifies the number of inventory put-always that are displayed in the Warehouse Basic Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Open Phys. Invt. Orders",
+      "tooltip": "Specifies the number of open physical inventory orders."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Date Filter2",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

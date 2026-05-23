@@ -1,0 +1,48 @@
+{
+  "id": 1524,
+  "name": "Workflow Rule",
+  "slug": "1524_workflow_rule",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Operator",
+      "tooltip": "Specifies the type of change that can occur to the field on the record. In the Change Customer Credit Limit Approval Workflow workflow template, the event condition operators are Increased, Decreased, Changed."
+    },
+    {
+      "no": 8,
+      "name": "Workflow Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Workflow Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Field Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Workflow Step Instance ID",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 5330,
+  "name": "CRM Connection Setup",
+  "slug": "5330_crm_connection_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Server Address",
+      "tooltip": "Specifies the URL of the Dynamics 365 Sales server that hosts the Dynamics 365 Sales solution that you want to connect to."
+    },
+    {
+      "no": 3,
+      "name": "User Name",
+      "tooltip": "Specifies the user name of a Dynamics 365 Sales account."
+    },
+    {
+      "no": 4,
+      "name": "User Password Key",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Restore Connection",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Is Enabled",
+      "tooltip": "Specifies if the connection to Dynamics 365 Sales is enabled. When you check this checkbox, you will be prompted to sign-in to Dataverse with an administrator user account. The account will be used one time to give consent to, install and configure applications and components that the integration requires."
+    },
+    {
+      "no": 61,
+      "name": "Is User Mapping Required",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Is User Mapped To CRM User",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "CRM Version",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Use Newest UI",
+      "tooltip": "Specifies that coupled Dynamics 365 Sales entities should open in Sales Hub."
+    },
+    {
+      "no": 65,
+      "name": "Newest UI AppModuleId",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Is S.Order Integration Enabled",
+      "tooltip": "Specifies that it is possible for Dynamics 365 Sales users to submit sales orders that can then be viewed and imported in Dynamics 365."
+    },
+    {
+      "no": 67,
+      "name": "Is CRM Solution Installed",
+      "tooltip": "Specifies if the Integration Solution is installed and configured in Dynamics 365 Sales. You cannot change this setting."
+    },
+    {
+      "no": 68,
+      "name": "Is Enabled For User",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Dynamics NAV URL",
+      "tooltip": "Specifies the URL to the Business Central web client. From records in Dynamics 365 Sales, such as an account or product, users can open a corresponding (coupled) record in Business Central. Set this field to the URL of the Business Central web client instance to use."
+    },
+    {
+      "no": 75,
+      "name": "Default CRM Price List ID",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Proxy Version",
+      "tooltip": "Specifies the Microsoft Dynamics 365 (CRM) software development kit version that is used to connect to Dynamics 365 Sales."
+    },
+    {
+      "no": 80,
+      "name": "Auto Create Sales Orders",
+      "tooltip": "Specifies that sales orders will be created automatically from sales orders that are submitted in Dynamics 365 Sales."
+    },
+    {
+      "no": 81,
+      "name": "Auto Process Sales Quotes",
+      "tooltip": "Specifies that sales quotes will be automatically processed on sales quotes creation/revision/winning submitted in Dynamics 365 Sales quotes entities."
+    },
+    {
+      "no": 118,
+      "name": "CurrencyDecimalPrecision",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "BaseCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "BaseCurrencyPrecision",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "BaseCurrencySymbol",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Authentication Type",
+      "tooltip": "Specifies the authentication type that will be used to authenticate with Dynamics 365 Sales"
+    },
+    {
+      "no": 136,
+      "name": "Connection String",
+      "tooltip": ""
+    },
+    {
+      "no": 137,
+      "name": "Domain",
+      "tooltip": "Specifies the domain name of your Dynamics 365 Sales deployment."
+    },
+    {
+      "no": 138,
+      "name": "Server Connection String",
+      "tooltip": ""
+    },
+    {
+      "no": 139,
+      "name": "Disable Reason",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Item Availability Enabled",
+      "tooltip": "Specifies that item availability job queue entry will be scheduled."
+    },
+    {
+      "no": 141,
+      "name": "Bidirectional Sales Order Int.",
+      "tooltip": "Specifies that it is possible to synchronize Sales Order bidirectionally. This feature will also enable Archiving Orders."
+    },
+    {
+      "no": 151,
+      "name": "Unit Group Mapping Enabled",
+      "tooltip": "Specifies that unit group mapping is enabled."
+    }
+  ]
+}

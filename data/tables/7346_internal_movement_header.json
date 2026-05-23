@@ -1,0 +1,58 @@
+{
+  "id": 7346,
+  "name": "Internal Movement Header",
+  "slug": "7346_internal_movement_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the internal movement is being performed."
+    },
+    {
+      "no": 3,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    },
+    {
+      "no": 4,
+      "name": "Assignment Date",
+      "tooltip": "Specifies the date when the user was assigned the activity."
+    },
+    {
+      "no": 5,
+      "name": "Assignment Time",
+      "tooltip": "Specifies the time when the user was assigned the activity."
+    },
+    {
+      "no": 6,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "To Bin Code",
+      "tooltip": "Specifies the bin where you want items on this internal movement to be placed when they are picked."
+    },
+    {
+      "no": 10,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the warehouse activity must be completed."
+    },
+    {
+      "no": 12,
+      "name": "Sorting Method",
+      "tooltip": "Specifies the method by which the internal movements are sorted."
+    }
+  ]
+}

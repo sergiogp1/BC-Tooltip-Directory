@@ -1,0 +1,53 @@
+{
+  "id": 589,
+  "name": "G/L Account Source Currency",
+  "slug": "589_g_l_account_source_currency",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "G/L Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Currency Code",
+      "tooltip": "Specifies the source currency code."
+    },
+    {
+      "no": 28,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the account balance in local currency."
+    },
+    {
+      "no": 75,
+      "name": "Source Currency Net Change",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Source Curr. Balance at Date",
+      "tooltip": "Specifies the account balance in source currency."
+    },
+    {
+      "no": 77,
+      "name": "Entries Exists",
+      "tooltip": "Specifies if general ledger entries with this source currency code exists."
+    }
+  ]
+}

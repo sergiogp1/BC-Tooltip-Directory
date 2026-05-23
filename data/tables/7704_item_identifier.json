@@ -1,0 +1,28 @@
+{
+  "id": 7704,
+  "name": "Item Identifier",
+  "slug": "7704_item_identifier",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique code for a particular item in terms that are useful for automatic data capture."
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item to be identified by the identifier code on the line."
+    },
+    {
+      "no": 3,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 4,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    }
+  ]
+}

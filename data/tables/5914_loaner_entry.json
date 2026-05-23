@@ -1,0 +1,73 @@
+{
+  "id": 5914,
+  "name": "Loaner Entry",
+  "slug": "5914_loaner_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Loaner No.",
+      "tooltip": "Specifies the number of the loaner."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the service document specifying the service item you have replaced with the loaner."
+    },
+    {
+      "no": 4,
+      "name": "Service Item Line No.",
+      "tooltip": "Specifies the number of the service item line for which you have lent the loaner."
+    },
+    {
+      "no": 5,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item that you have replaced with the loaner."
+    },
+    {
+      "no": 6,
+      "name": "Service Item Group Code",
+      "tooltip": "Specifies the service item group code of the service item that you have replaced with the loaner."
+    },
+    {
+      "no": 7,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer to whom you have lent the loaner."
+    },
+    {
+      "no": 8,
+      "name": "Date Lent",
+      "tooltip": "Specifies the date when you lent the loaner."
+    },
+    {
+      "no": 9,
+      "name": "Time Lent",
+      "tooltip": "Specifies the time when you lent the loaner."
+    },
+    {
+      "no": 10,
+      "name": "Date Received",
+      "tooltip": "Specifies the date when you received the loaner."
+    },
+    {
+      "no": 11,
+      "name": "Time Received",
+      "tooltip": "Specifies the time when you received the loaner."
+    },
+    {
+      "no": 12,
+      "name": "Lent",
+      "tooltip": "Specifies that the loaner is lent."
+    },
+    {
+      "no": 14,
+      "name": "Document Type",
+      "tooltip": "Specifies whether the document type of the entry is a quote or order."
+    }
+  ]
+}

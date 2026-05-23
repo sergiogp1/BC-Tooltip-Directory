@@ -1,0 +1,78 @@
+{
+  "id": 9057,
+  "name": "Job Cue",
+  "slug": "9057_job_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Jobs w/o Resource",
+      "tooltip": "Specifies the number of projects without an assigned resource that are displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Upcoming Invoices",
+      "tooltip": "Specifies the number of upcoming invoices that are displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Invoices Due - Not Created",
+      "tooltip": "Specifies the number of invoices that are due but not yet created that are displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "WIP Not Posted",
+      "tooltip": "Specifies the amount of work in process that has not been posted that is displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Completed - WIP Not Calculated",
+      "tooltip": "Specifies the total of work in process that is complete but not calculated that is displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Available Resources",
+      "tooltip": "Specifies the number of available resources that are displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Unassigned Resource Groups",
+      "tooltip": "Specifies the number of unassigned resource groups that are displayed in the Project Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 9,
+      "name": "Jobs Over Budget",
+      "tooltip": "Specifies the number of projects where the usage cost exceeds the budgeted cost."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Date Filter2",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "User ID Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Coupled Data Synch Errors",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "FS Integration Errors",
+      "tooltip": ""
+    }
+  ]
+}

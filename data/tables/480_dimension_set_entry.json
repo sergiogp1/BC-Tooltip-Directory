@@ -1,0 +1,43 @@
+{
+  "id": 480,
+  "name": "Dimension Set Entry",
+  "slug": "480_dimension_set_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the dimension."
+    },
+    {
+      "no": 3,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the dimension value."
+    },
+    {
+      "no": 4,
+      "name": "Dimension Value ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Dimension Name",
+      "tooltip": "Specifies the descriptive name of the Dimension Code field."
+    },
+    {
+      "no": 6,
+      "name": "Dimension Value Name",
+      "tooltip": "Specifies the descriptive name of the Dimension Value Code field."
+    },
+    {
+      "no": 8,
+      "name": "Global Dimension No.",
+      "tooltip": ""
+    }
+  ]
+}

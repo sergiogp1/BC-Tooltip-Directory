@@ -1,0 +1,63 @@
+{
+  "id": 7004,
+  "name": "Sales Line Discount",
+  "slug": "7004_sales_line_discount",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies one of two values, depending on the value in the Type field."
+    },
+    {
+      "no": 2,
+      "name": "Sales Code",
+      "tooltip": "Specifies one of the following values, depending on the value in the Sales Type field."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the sales line discount price."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the sales line discount is valid."
+    },
+    {
+      "no": 5,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 13,
+      "name": "Sales Type",
+      "tooltip": "Specifies the sales type of the sales line discount. The sales type defines whether the sales price is for an individual customer, customer discount group, all customers, or for a campaign."
+    },
+    {
+      "no": 14,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the minimum quantity that the customer must purchase in order to gain the agreed discount."
+    },
+    {
+      "no": 15,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date to which the sales line discount is valid."
+    },
+    {
+      "no": 21,
+      "name": "Type",
+      "tooltip": "Specifies the type of item that the sales discount line is valid for. That is, either an item or an item discount group."
+    },
+    {
+      "no": 5400,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    }
+  ]
+}

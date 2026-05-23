@@ -1,0 +1,23 @@
+{
+  "id": 324,
+  "name": "VAT Product Posting Group",
+  "slug": "324_vat_product_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the posting group the determines how to calculate VAT for items or resources that you purchase or sell."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the posting group the determines how to calculate VAT for items or resources that you purchase or sell."
+    },
+    {
+      "no": 8005,
+      "name": "Last Modified DateTime",
+      "tooltip": ""
+    }
+  ]
+}

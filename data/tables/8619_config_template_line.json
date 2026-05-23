@@ -1,0 +1,88 @@
+{
+  "id": 8619,
+  "name": "Config. Template Line",
+  "slug": "8619_config_template_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies the type of data in the data template."
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field in the data template."
+    },
+    {
+      "no": 6,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Template Code",
+      "tooltip": "Specifies the code for the data template."
+    },
+    {
+      "no": 9,
+      "name": "Template Description",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Mandatory",
+      "tooltip": "Specifies whether it is required that there be data in the field in the data template. By default, the check box is selected to make a value mandatory. You can clear the check box."
+    },
+    {
+      "no": 11,
+      "name": "Reference",
+      "tooltip": "Specifies a url address. Use this field to provide a url address to a location that specifies additional information about the field in the data template. For example, you could provide the address that specifies information on setup considerations that the solution implementer should consider."
+    },
+    {
+      "no": 12,
+      "name": "Default Value",
+      "tooltip": "Specifies the default value with reference to the data template line."
+    },
+    {
+      "no": 13,
+      "name": "Table Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Field Caption",
+      "tooltip": "Specifies the caption of the field on which the data template is based. The caption comes from the Caption property of the field."
+    },
+    {
+      "no": 15,
+      "name": "Skip Relation Check",
+      "tooltip": "Specifies that the relationship between the table fields should not be checked. This can useful when you want to specify a value for a field that is not yet available. For example, you may want to specify a value for a payment term that is not available in the table on which you are basing you configuration. You can specify that value, select the Skip Relation Check box, and then continue to apply data without error."
+    },
+    {
+      "no": 16,
+      "name": "Language ID",
+      "tooltip": ""
+    }
+  ]
+}

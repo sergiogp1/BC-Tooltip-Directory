@@ -1,0 +1,43 @@
+{
+  "id": 6506,
+  "name": "Item Tracking Comment",
+  "slug": "6506_item_tracking_comment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Serial/Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Date",
+      "tooltip": "Specifies a date to reference the comment."
+    },
+    {
+      "no": 13,
+      "name": "Comment",
+      "tooltip": "Specifies the item tracking comment."
+    }
+  ]
+}

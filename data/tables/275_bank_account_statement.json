@@ -1,0 +1,63 @@
+{
+  "id": 275,
+  "name": "Bank Account Statement",
+  "slug": "275_bank_account_statement",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the bank account that has been reconciled with this Bank Account Statement."
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": "Specifies the number of the bank's statement that has been reconciled with the bank account."
+    },
+    {
+      "no": 3,
+      "name": "Statement Ending Balance",
+      "tooltip": "Specifies the ending balance on the bank's statement that has been reconciled with the bank account."
+    },
+    {
+      "no": 4,
+      "name": "Statement Date",
+      "tooltip": "Specifies the date on the bank's statement that has been reconciled with the bank account."
+    },
+    {
+      "no": 5,
+      "name": "Balance Last Statement",
+      "tooltip": "Specifies the ending balance on the bank account statement from the last posted bank account reconciliation."
+    },
+    {
+      "no": 50,
+      "name": "Bank Account Name",
+      "tooltip": "Specifies the name of the bank account that has been reconciled."
+    },
+    {
+      "no": 100,
+      "name": "G/L Balance at Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Outstd. Payments at Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Outstd. Transact. at Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Total Pos. Diff. at Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Total Neg. Diff. at Posting",
+      "tooltip": ""
+    }
+  ]
+}

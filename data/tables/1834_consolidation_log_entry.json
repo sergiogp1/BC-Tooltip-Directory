@@ -1,0 +1,33 @@
+{
+  "id": 1834,
+  "name": "Consolidation Log Entry",
+  "slug": "1834_consolidation_log_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "The unique identifier of the log entry."
+    },
+    {
+      "no": 2,
+      "name": "Request URI",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Response",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Status Code",
+      "tooltip": "The status code of the response that was received from the API for this request."
+    },
+    {
+      "no": 5,
+      "name": "Request URI Preview",
+      "tooltip": "The URI of the request that was sent to the API of the business unit."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 9181,
+  "name": "Generic Chart Filter",
+  "slug": "9181_generic_chart_filter",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Filter Field ID",
+      "tooltip": "Specifies the ID. This field is intended only for internal use."
+    },
+    {
+      "no": 11,
+      "name": "Filter Field Name",
+      "tooltip": "Specifies the name of the filter field."
+    },
+    {
+      "no": 15,
+      "name": "Filter Value",
+      "tooltip": "Specifies the filter value."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 7014,
+  "name": "Purchase Line Discount",
+  "slug": "7014_purchase_line_discount",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that the purchase line discount applies to."
+    },
+    {
+      "no": 2,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor who offers the line discount on the item."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the purchase line discount price."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the purchase line discount is valid."
+    },
+    {
+      "no": 5,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage to use to calculate the purchase line discount."
+    },
+    {
+      "no": 11,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the minimum quantity of the item that you must buy from the vendor in order to receive the purchase line discount."
+    },
+    {
+      "no": 15,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date to which the purchase line discount is valid."
+    },
+    {
+      "no": 5400,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    }
+  ]
+}

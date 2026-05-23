@@ -1,0 +1,38 @@
+{
+  "id": 5218,
+  "name": "Human Resources Setup",
+  "slug": "5218_human_resources_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Employee Nos.",
+      "tooltip": "Specifies the number series code to use when assigning numbers to employees."
+    },
+    {
+      "no": 3,
+      "name": "Base Unit of Measure",
+      "tooltip": "Specifies the base unit of measure, such as hour or day."
+    },
+    {
+      "no": 4,
+      "name": "Automatically Create Resource",
+      "tooltip": "Specifies if a resource card is automatically created for an employee that is added to a project, service, or assembly activity."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for the same employee in a general journal or payment document."
+    },
+    {
+      "no": 176,
+      "name": "Check Multiple Posting Groups",
+      "tooltip": "Specifies implementation method of checking which posting groups can be used for the employee."
+    }
+  ]
+}

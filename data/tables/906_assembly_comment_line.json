@@ -1,0 +1,43 @@
+{
+  "id": 906,
+  "name": "Assembly Comment Line",
+  "slug": "906_assembly_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Document Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date of when the comment was created."
+    },
+    {
+      "no": 11,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies the comment."
+    }
+  ]
+}

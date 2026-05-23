@@ -1,0 +1,68 @@
+{
+  "id": 8364,
+  "name": "Dimension Perspective Line",
+  "slug": "8364_dimension_perspective_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the financial report dimension perspective."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number for the financial report perspective."
+    },
+    {
+      "no": 4,
+      "name": "Perspective Header",
+      "tooltip": "Specifies a header for the perspective."
+    },
+    {
+      "no": 7,
+      "name": "Business Unit Totaling",
+      "tooltip": "Specifies which business unit amounts will be totaled on this perspective."
+    },
+    {
+      "no": 8,
+      "name": "Dimension 1 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 9,
+      "name": "Dimension 2 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 10,
+      "name": "Dimension 3 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 11,
+      "name": "Dimension 4 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 12,
+      "name": "Dimension 5 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 13,
+      "name": "Dimension 6 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 14,
+      "name": "Dimension 7 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    },
+    {
+      "no": 15,
+      "name": "Dimension 8 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this perspective."
+    }
+  ]
+}

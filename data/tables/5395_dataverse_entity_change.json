@@ -1,0 +1,18 @@
+{
+  "id": 5395,
+  "name": "Dataverse Entity Change",
+  "slug": "5395_dataverse_entity_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Entity Name",
+      "tooltip": ""
+    }
+  ]
+}

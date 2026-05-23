@@ -1,0 +1,78 @@
+{
+  "id": 276,
+  "name": "Bank Account Statement Line",
+  "slug": "276_bank_account_statement_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of this line."
+    },
+    {
+      "no": 5,
+      "name": "Transaction Date",
+      "tooltip": "Specifies the posting date of the bank account or check ledger entry that the transaction on this line has been applied to."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description for the transaction on this line."
+    },
+    {
+      "no": 7,
+      "name": "Statement Amount",
+      "tooltip": "Specifies the amount of the transaction on the bank's statement on this line."
+    },
+    {
+      "no": 8,
+      "name": "Difference",
+      "tooltip": "Specifies the difference between the amount in the Statement Amount field and Applied Amount field on this line."
+    },
+    {
+      "no": 9,
+      "name": "Applied Amount",
+      "tooltip": "Specifies the amount on the bank account or check ledger entry that the transaction on this line has been applied to."
+    },
+    {
+      "no": 10,
+      "name": "Type",
+      "tooltip": "Specifies the type of ledger entry, or a difference that has been reconciled with the transaction on the bank's statement on this line."
+    },
+    {
+      "no": 11,
+      "name": "Applied Entries",
+      "tooltip": "Specifies whether the transaction on this line has been applied to one or more ledger entries."
+    },
+    {
+      "no": 12,
+      "name": "Value Date",
+      "tooltip": "Specifies the value date of the transaction on this line."
+    },
+    {
+      "no": 14,
+      "name": "Check No.",
+      "tooltip": "Specifies the check number for the transaction on this line."
+    },
+    {
+      "no": 70,
+      "name": "Transaction ID",
+      "tooltip": ""
+    }
+  ]
+}

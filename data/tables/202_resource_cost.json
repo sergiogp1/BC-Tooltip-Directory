@@ -1,0 +1,38 @@
+{
+  "id": 202,
+  "name": "Resource Cost",
+  "slug": "202_resource_cost",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": "Specifies the type."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code."
+    },
+    {
+      "no": 3,
+      "name": "Work Type Code",
+      "tooltip": "Specifies the code for the type of work. You can also assign a unit price to a work type."
+    },
+    {
+      "no": 4,
+      "name": "Cost Type",
+      "tooltip": "Specifies the type of cost."
+    },
+    {
+      "no": 5,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 6,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    }
+  ]
+}

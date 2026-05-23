@@ -1,0 +1,88 @@
+{
+  "id": 1111,
+  "name": "Cost Budget Register",
+  "slug": "1111_cost_budget_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Source",
+      "tooltip": "Specifies the source for the cost budget register."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "From Budget Entry No.",
+      "tooltip": "Specifies the first general ledger budget entry number in the register if the budget posting is transferred from the general ledger budget."
+    },
+    {
+      "no": 5,
+      "name": "To Budget Entry No.",
+      "tooltip": "Specifies the last budget entry number to be used in the line."
+    },
+    {
+      "no": 6,
+      "name": "From Cost Budget Entry No.",
+      "tooltip": "Specifies the first general ledger budget entry number in the register if the cost budget posting is transferred from the general ledger budget."
+    },
+    {
+      "no": 7,
+      "name": "To Cost Budget Entry No.",
+      "tooltip": "Specifies the last cost budget entry number to be used in the line."
+    },
+    {
+      "no": 8,
+      "name": "No. of Entries",
+      "tooltip": "Specifies the number of entries in the cost budget register."
+    },
+    {
+      "no": 15,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the transferred and allocated cost budget entries."
+    },
+    {
+      "no": 20,
+      "name": "Processed Date",
+      "tooltip": "Specifies when the cost budget register was last updated."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 23,
+      "name": "Closed",
+      "tooltip": "Specifies whether the cost has been closed."
+    },
+    {
+      "no": 25,
+      "name": "Level",
+      "tooltip": "Specifies by which level the cost allocation posting is done. For example, this makes sure that costs are allocated at level 1 from the ADM cost center to the WORKSHOP and PROD cost centers, before they are allocated at level 2 from the PROD cost center to the FURNITURE, CHAIRS, and PAINT cost objects."
+    },
+    {
+      "no": 31,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 32,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 33,
+      "name": "Cost Budget Name",
+      "tooltip": ""
+    }
+  ]
+}

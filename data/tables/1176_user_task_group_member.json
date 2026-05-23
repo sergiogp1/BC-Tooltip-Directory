@@ -1,0 +1,23 @@
+{
+  "id": 1176,
+  "name": "User Task Group Member",
+  "slug": "1176_user_task_group_member",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User Task Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User Security ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "User Name",
+      "tooltip": "Specifies a user that is a member of the group."
+    }
+  ]
+}

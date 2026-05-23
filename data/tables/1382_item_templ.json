@@ -1,0 +1,513 @@
+{
+  "id": 1382,
+  "name": "Item Templ.",
+  "slug": "1382_item_templ",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the template."
+    },
+    {
+      "no": 8,
+      "name": "Base Unit of Measure",
+      "tooltip": "Specifies the base unit used to measure the item, such as piece, box, or pallet. The base unit of measure also serves as the conversion basis for alternate units of measure."
+    },
+    {
+      "no": 9,
+      "name": "Price Unit Conversion",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Type",
+      "tooltip": "Specifies whether the item card represents a physical inventory unit (Inventory), a labor time unit (Service), or a physical unit that is not tracked in inventory (Non-Inventory)."
+    },
+    {
+      "no": 11,
+      "name": "Inventory Posting Group",
+      "tooltip": "Specifies links between business transactions made for the item and an inventory account in the general ledger, to group amounts for that item type."
+    },
+    {
+      "no": 12,
+      "name": "Shelf No.",
+      "tooltip": "Specifies where to find the item in the warehouse. This is informational only."
+    },
+    {
+      "no": 14,
+      "name": "Item Disc. Group",
+      "tooltip": "Specifies an item group code that can be used as a criterion to grant a discount when the item is sold to a certain customer."
+    },
+    {
+      "no": 15,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies whether to include the item when calculating an invoice discount on documents where the item is traded."
+    },
+    {
+      "no": 16,
+      "name": "Statistics Group",
+      "tooltip": "Specifies the statistics group."
+    },
+    {
+      "no": 17,
+      "name": "Commission Group",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 19,
+      "name": "Price/Profit Calculation",
+      "tooltip": "Specifies the relationship between the Unit Cost, Unit Price, and Profit Percentage fields associated with this item."
+    },
+    {
+      "no": 20,
+      "name": "Profit %",
+      "tooltip": "Specifies the profit margin that you want to sell the item at. You can enter a profit percentage manually or have it entered according to the Price/Profit Calculation field"
+    },
+    {
+      "no": 21,
+      "name": "Costing Method",
+      "tooltip": "Specifies how the item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation."
+    },
+    {
+      "no": 22,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 24,
+      "name": "Standard Cost",
+      "tooltip": "Specifies the unit cost that is used as an estimation to be adjusted with variances later. It is typically used in assembly and production where costs can vary."
+    },
+    {
+      "no": 28,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 31,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the vendor code of who supplies this item by default."
+    },
+    {
+      "no": 32,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 33,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 34,
+      "name": "Reorder Point",
+      "tooltip": "Specifies a stock quantity that sets the inventory below the level that you must replenish the item."
+    },
+    {
+      "no": 35,
+      "name": "Maximum Inventory",
+      "tooltip": "Specifies a quantity that you want to use as a maximum inventory level."
+    },
+    {
+      "no": 36,
+      "name": "Reorder Quantity",
+      "tooltip": "Specifies a standard lot size quantity to be used for all order proposals."
+    },
+    {
+      "no": 37,
+      "name": "Alternative Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Unit List Price",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Duty Due %",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Duty Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Gross Weight",
+      "tooltip": "Specifies the gross weight of the item."
+    },
+    {
+      "no": 42,
+      "name": "Net Weight",
+      "tooltip": "Specifies the net weight of the item."
+    },
+    {
+      "no": 43,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Unit Volume",
+      "tooltip": "Specifies the volume of one unit of the item."
+    },
+    {
+      "no": 45,
+      "name": "Durability",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Freight Type",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Tariff No.",
+      "tooltip": "Specifies a code for the item's tariff number."
+    },
+    {
+      "no": 48,
+      "name": "Duty Unit Conversion",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Country/Region Purchased Code",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Budget Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Budgeted Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Budget Profit",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example an item that is placed in quarantine."
+    },
+    {
+      "no": 56,
+      "name": "Block Reason",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on sales document lines for this item should be shown with or without VAT."
+    },
+    {
+      "no": 90,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the VAT business posting group for customers for whom you want the sales price including VAT to apply."
+    },
+    {
+      "no": 91,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 95,
+      "name": "Country/Region of Origin Code",
+      "tooltip": "Specifies a code for the country/region where the item was produced or processed."
+    },
+    {
+      "no": 96,
+      "name": "Automatic Ext. Texts",
+      "tooltip": "Specifies that an extended text that you have set up will be added automatically on sales or purchase documents for this item."
+    },
+    {
+      "no": 97,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series that will be used to assign numbers to items."
+    },
+    {
+      "no": 98,
+      "name": "Tax Group Code",
+      "tooltip": "Specifies the tax group that is used to calculate and post sales tax."
+    },
+    {
+      "no": 99,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 100,
+      "name": "Reserve",
+      "tooltip": "Specifies if and how the item will be reserved. Never: It is not possible to reserve the item. Optional: You can reserve the item manually. Always: The item is automatically reserved from demand, such as sales orders, against inventory, purchase orders, assembly orders, and production orders."
+    },
+    {
+      "no": 105,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Stockout Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Prevent Negative Inventory",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Variant Mandatory if Exists",
+      "tooltip": "Specifies whether a variant must be selected if variants exist for the item."
+    },
+    {
+      "no": 910,
+      "name": "Assembly Policy",
+      "tooltip": "Specifies which default order flow is used to supply this assembly item."
+    },
+    {
+      "no": 1217,
+      "name": "GTIN",
+      "tooltip": "Specifies the Global Trade Item Number (GTIN) for the item. For example, the GTIN is used with bar codes to track items, and when sending and receiving documents electronically. The GTIN number typically contains a Universal Product Code (UPC), or European Article Number (EAN)."
+    },
+    {
+      "no": 1700,
+      "name": "Default Deferral Template Code",
+      "tooltip": "Specifies how revenue or expenses for the item are deferred to other accounting periods by default."
+    },
+    {
+      "no": 5401,
+      "name": "Lot Size",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Serial Nos.",
+      "tooltip": "Specifies a number series code to assign consecutive serial numbers to items produced."
+    },
+    {
+      "no": 5407,
+      "name": "Scrap %",
+      "tooltip": ""
+    },
+    {
+      "no": 5408,
+      "name": "Rolled-up Mat. Non-Invt. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 5409,
+      "name": "Inventory Value Zero",
+      "tooltip": "Specifies whether the item on inventory must be excluded from inventory valuation. This is relevant if the item is kept on inventory on someone else's behalf."
+    },
+    {
+      "no": 5410,
+      "name": "Discrete Order Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 5411,
+      "name": "Minimum Order Quantity",
+      "tooltip": "Specifies a minimum allowable quantity for an item order proposal."
+    },
+    {
+      "no": 5412,
+      "name": "Maximum Order Quantity",
+      "tooltip": "Specifies a maximum allowable quantity for an item order proposal."
+    },
+    {
+      "no": 5413,
+      "name": "Safety Stock Quantity",
+      "tooltip": "Specifies a quantity of stock to have in inventory to protect against supply-and-demand fluctuations during replenishment lead time."
+    },
+    {
+      "no": 5414,
+      "name": "Order Multiple",
+      "tooltip": "Specifies a parameter used by the planning system to round the quantity of planned supply orders to a multiple of this value."
+    },
+    {
+      "no": 5415,
+      "name": "Safety Lead Time",
+      "tooltip": "Specifies a date formula to indicate a safety lead time that can be used as a buffer period for production and other delays."
+    },
+    {
+      "no": 5417,
+      "name": "Flushing Method",
+      "tooltip": ""
+    },
+    {
+      "no": 5419,
+      "name": "Replenishment System",
+      "tooltip": "Specifies the type of supply order created by the planning system when the item needs to be replenished."
+    },
+    {
+      "no": 5422,
+      "name": "Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5428,
+      "name": "Time Bucket",
+      "tooltip": "Specifies a time period that defines the recurring planning horizon used with Fixed Reorder Qty. or Maximum Qty. reordering policies."
+    },
+    {
+      "no": 5440,
+      "name": "Reordering Policy",
+      "tooltip": "Specifies the reordering policy."
+    },
+    {
+      "no": 5441,
+      "name": "Include Inventory",
+      "tooltip": "Specifies that the inventory quantity is included in the projected available balance when replenishment orders are calculated."
+    },
+    {
+      "no": 5442,
+      "name": "Manufacturing Policy",
+      "tooltip": ""
+    },
+    {
+      "no": 5443,
+      "name": "Rescheduling Period",
+      "tooltip": "Specifies a period within which any suggestion to change a supply date always consists of a Reschedule action and never a Cancel + New action."
+    },
+    {
+      "no": 5444,
+      "name": "Lot Accumulation Period",
+      "tooltip": "Specifies a period in which multiple demands are accumulated into one supply order when you use the Lot-for-Lot reordering policy."
+    },
+    {
+      "no": 5445,
+      "name": "Dampener Period",
+      "tooltip": "Specifies a period of time during which you do not want the planning system to propose to reschedule existing supply orders forward. The dampener period limits the number of insignificant rescheduling of existing supply to a later date if that new date is within the dampener period. The dampener period function is only initiated if the supply can be rescheduled to a later date and not if the supply can be rescheduled to an earlier date. Accordingly, if the suggested new supply date is after the dampener period, then the rescheduling suggestion is not blocked. If the lot accumulation period is less than the dampener period, then the dampener period is dynamically set to equal the lot accumulation period. This is not shown in the value that you enter in the Dampener Period field. The last demand in the lot accumulation period is used to determine whether a potential supply date is in the dampener period. If this field is empty, then the value in the Default Dampener Period field in the Manufacturing Setup window applies. The value that you enter in the Dampener Period field must be a date formula, and one day (1D) is the shortest allowed period."
+    },
+    {
+      "no": 5446,
+      "name": "Dampener Quantity",
+      "tooltip": "Specifies a dampener quantity to block insignificant change suggestions for an existing supply, if the change quantity is lower than the dampener quantity."
+    },
+    {
+      "no": 5447,
+      "name": "Overflow Level",
+      "tooltip": "Specifies a quantity you allow projected inventory to exceed the reorder point, before the system suggests to decrease supply orders."
+    },
+    {
+      "no": 5701,
+      "name": "Manufacturer Code",
+      "tooltip": "Specifies a code for the manufacturer of the catalog item."
+    },
+    {
+      "no": 5702,
+      "name": "Item Category Code",
+      "tooltip": "Specifies the category that the item belongs to. Item categories also contain any assigned item attributes."
+    },
+    {
+      "no": 5711,
+      "name": "Purchasing Code",
+      "tooltip": "Specifies the code for a special procurement method, such as drop shipment."
+    },
+    {
+      "no": 6500,
+      "name": "Item Tracking Code",
+      "tooltip": "Specifies how serial, lot or package numbers assigned to the item are tracked in the supply chain."
+    },
+    {
+      "no": 6501,
+      "name": "Lot Nos.",
+      "tooltip": "Specifies the number series code that will be used when assigning lot numbers."
+    },
+    {
+      "no": 6502,
+      "name": "Expiration Calculation",
+      "tooltip": "Specifies the date formula for calculating the expiration date on the item tracking line. Note: This field will be ignored if the involved item has Require Expiration Date Entry set to Yes on the Item Tracking Code page."
+    },
+    {
+      "no": 7300,
+      "name": "Warehouse Class Code",
+      "tooltip": "Specifies the warehouse class code for the item."
+    },
+    {
+      "no": 7301,
+      "name": "Special Equipment Code",
+      "tooltip": "Specifies the code of the equipment that warehouse employees must use when handling the item."
+    },
+    {
+      "no": 7302,
+      "name": "Put-away Template Code",
+      "tooltip": "Specifies the code of the put-away template by which the program determines the most appropriate zone and bin for storage of the item after receipt."
+    },
+    {
+      "no": 7380,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": "Specifies the code of the counting period that indicates how often you want to count the item in a physical inventory."
+    },
+    {
+      "no": 7384,
+      "name": "Use Cross-Docking",
+      "tooltip": "Specifies if this item can be cross-docked."
+    },
+    {
+      "no": 8003,
+      "name": "Sales Blocked",
+      "tooltip": "Specifies that the item cannot be entered on sales documents, except return orders and credit memos, and journals."
+    },
+    {
+      "no": 8004,
+      "name": "Purchasing Blocked",
+      "tooltip": "Specifies that the item cannot be entered on purchase documents, except return orders and credit memos, and journals."
+    },
+    {
+      "no": 8010,
+      "name": "Service Blocked",
+      "tooltip": ""
+    },
+    {
+      "no": 8510,
+      "name": "Over-Receipt Code",
+      "tooltip": "Specifies the policy that will be used for the item if more items than ordered are received."
+    },
+    {
+      "no": 99000757,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 99000773,
+      "name": "Order Tracking Policy",
+      "tooltip": "Specifies if and how order tracking entries are created and maintained between supply and its corresponding demand."
+    },
+    {
+      "no": 99000875,
+      "name": "Critical",
+      "tooltip": "Specifies if the item is included in availability calculations to promise a shipment date for its parent item."
+    },
+    {
+      "no": 99008500,
+      "name": "Common Item No.",
+      "tooltip": "Specifies the unique common item number that the intercompany partners agree upon."
+    }
+  ]
+}

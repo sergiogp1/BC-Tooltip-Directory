@@ -1,0 +1,33 @@
+{
+  "id": 5067,
+  "name": "Contact Job Responsibility",
+  "slug": "5067_contact_job_responsibility",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact you assign the job responsibility."
+    },
+    {
+      "no": 2,
+      "name": "Job Responsibility Code",
+      "tooltip": "Specifies the job responsibility code."
+    },
+    {
+      "no": 3,
+      "name": "Job Responsibility Description",
+      "tooltip": "Specifies the description for the job responsibility you have assigned to the contact."
+    },
+    {
+      "no": 4,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact person to whom you are assigning job responsibilities."
+    },
+    {
+      "no": 5,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the company for which the contact person works."
+    }
+  ]
+}

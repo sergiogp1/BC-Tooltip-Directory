@@ -1,0 +1,23 @@
+{
+  "id": 7702,
+  "name": "Miniform Function Group",
+  "slug": "7702_miniform_function_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code that represents the function used on the handheld device."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a short description of what the function is or how it functions."
+    },
+    {
+      "no": 20,
+      "name": "KeyDef",
+      "tooltip": "Specifies the key that will trigger the function."
+    }
+  ]
+}

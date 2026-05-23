@@ -1,0 +1,18 @@
+{
+  "id": 285,
+  "name": "Transaction Specification",
+  "slug": "285_transaction_specification",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the transaction specification."
+    },
+    {
+      "no": 2,
+      "name": "Text",
+      "tooltip": "Specifies a description of the transaction specification."
+    }
+  ]
+}

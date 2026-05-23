@@ -1,0 +1,33 @@
+{
+  "id": 66,
+  "name": "Merge Duplicates Conflict",
+  "slug": "66_merge_duplicates_conflict",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Duplicate",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Current",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Table Name",
+      "tooltip": ""
+    }
+  ]
+}

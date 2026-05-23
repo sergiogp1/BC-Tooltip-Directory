@@ -1,0 +1,143 @@
+{
+  "id": 5818,
+  "name": "Detailed Matched Order Line",
+  "slug": "5818_detailed_matched_order_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number of the invoice/credit memo line."
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the invoice/credit memo line type."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry of the product."
+    },
+    {
+      "no": 5,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 6,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity from the matched order or receipt/shipment line."
+    },
+    {
+      "no": 7,
+      "name": "Qty. Rcd. Not Invoiced",
+      "tooltip": "Specifies the quantity received but not yet invoiced from the matched order or receipt/shipment line."
+    },
+    {
+      "no": 8,
+      "name": "Qty. to Invoice",
+      "tooltip": "Specifies the quantity to invoice from the matched order or receipt/shipment line."
+    },
+    {
+      "no": 9,
+      "name": "Qty. to Invoice (Base)",
+      "tooltip": "Specifies the base quantity to invoice from the matched order or receipt/shipment line."
+    },
+    {
+      "no": 10,
+      "name": "Qty. Invoiced",
+      "tooltip": "Specifies the quantity invoiced from the matched purchase order or receipt/shipment line."
+    },
+    {
+      "no": 11,
+      "name": "Qty. Invoiced (Base)",
+      "tooltip": "Specifies the base quantity invoiced from the matched purchase order or receipt/shipment line."
+    },
+    {
+      "no": 50,
+      "name": "Receipt on Invoice",
+      "tooltip": "Specifies whether the receipt is posted automatically with the invoice."
+    },
+    {
+      "no": 100,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the order."
+    },
+    {
+      "no": 101,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the line number of the order."
+    },
+    {
+      "no": 200,
+      "name": "Receipt/Shipment No.",
+      "tooltip": "Specifies the number of the receipt or shipment."
+    },
+    {
+      "no": 201,
+      "name": "Receipt/Shipment Line No.",
+      "tooltip": "Specifies the line number of the receipt or shipment."
+    },
+    {
+      "no": 220,
+      "name": "Your Reference",
+      "tooltip": "Specifies the vendor's reference."
+    },
+    {
+      "no": 221,
+      "name": "Vendor Order No.",
+      "tooltip": "Specifies the vendor's order number."
+    },
+    {
+      "no": 222,
+      "name": "Vendor Shipment No.",
+      "tooltip": "Specifies the vendor's shipment number."
+    },
+    {
+      "no": 223,
+      "name": "Vendor Invoice No.",
+      "tooltip": "Specifies the vendor's invoice number."
+    },
+    {
+      "no": 224,
+      "name": "Vendor Cr. Memo No.",
+      "tooltip": "Specifies the vendor's credit memo number."
+    },
+    {
+      "no": 1000,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 1001,
+      "name": "HasSubLines",
+      "tooltip": ""
+    },
+    {
+      "no": 1002,
+      "name": "Line",
+      "tooltip": "Specifies the document type, number, and line number of the matched order or receipt/shipment line."
+    },
+    {
+      "no": 1003,
+      "name": "Document Line SystemId",
+      "tooltip": ""
+    },
+    {
+      "no": 1004,
+      "name": "Matched Order Line SystemId",
+      "tooltip": ""
+    },
+    {
+      "no": 1005,
+      "name": "Matched Rcpt./Shpt. Line SysId",
+      "tooltip": ""
+    }
+  ]
+}

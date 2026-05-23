@@ -1,0 +1,48 @@
+{
+  "id": 1500,
+  "name": "Workflow Buffer",
+  "slug": "1500_workflow_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Category Code",
+      "tooltip": "Specifies the workflow type, such as Administration or Finance."
+    },
+    {
+      "no": 2,
+      "name": "Workflow Code",
+      "tooltip": "Specifies the workflow that the workflow step belongs to."
+    },
+    {
+      "no": 3,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the workflow."
+    },
+    {
+      "no": 6,
+      "name": "Template",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Enabled",
+      "tooltip": "Specifies if the workflow is enabled."
+    },
+    {
+      "no": 8,
+      "name": "External Client ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "External Client Type",
+      "tooltip": ""
+    }
+  ]
+}

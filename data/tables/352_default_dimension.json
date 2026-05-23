@@ -1,0 +1,73 @@
+{
+  "id": 352,
+  "name": "Default Dimension",
+  "slug": "352_default_dimension",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies a table ID for the account type if you are specifying default dimensions for an entire account type."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the account number you wish to define a default dimension for."
+    },
+    {
+      "no": 3,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the code for the default dimension."
+    },
+    {
+      "no": 4,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the dimension value code to suggest as the default dimension."
+    },
+    {
+      "no": 5,
+      "name": "Value Posting",
+      "tooltip": "Specifies how default dimensions and their values must be used."
+    },
+    {
+      "no": 6,
+      "name": "Table Caption",
+      "tooltip": "Specifies the table name for the account type you wish to define a default dimension for."
+    },
+    {
+      "no": 7,
+      "name": "Multi Selection Action",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Parent Type",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Allowed Values Filter",
+      "tooltip": "Specifies the dimension values that can be used for the selected account."
+    },
+    {
+      "no": 20,
+      "name": "Dimension Value Name",
+      "tooltip": "Specifies the name of selected dimension value."
+    },
+    {
+      "no": 8000,
+      "name": "ParentId",
+      "tooltip": ""
+    },
+    {
+      "no": 8001,
+      "name": "DimensionId",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "DimensionValueId",
+      "tooltip": ""
+    }
+  ]
+}

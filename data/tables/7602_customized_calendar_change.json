@@ -1,0 +1,58 @@
+{
+  "id": 7602,
+  "name": "Customized Calendar Change",
+  "slug": "7602_customized_calendar_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Type",
+      "tooltip": "Specifies the source type, such as company, for this entry."
+    },
+    {
+      "no": 2,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Additional Source Code",
+      "tooltip": "Specifies the calendar entry."
+    },
+    {
+      "no": 4,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies which base calendar was used as the basis."
+    },
+    {
+      "no": 5,
+      "name": "Recurring System",
+      "tooltip": "Specifies a date or day as a recurring nonworking or working day."
+    },
+    {
+      "no": 6,
+      "name": "Date",
+      "tooltip": "Specifies the date."
+    },
+    {
+      "no": 7,
+      "name": "Day",
+      "tooltip": "Specifies the day of the week."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description of the entry to be applied."
+    },
+    {
+      "no": 9,
+      "name": "Nonworking",
+      "tooltip": "Specifies the date entry as a nonworking day. You can also remove the check mark to return the status to working day."
+    },
+    {
+      "no": 10,
+      "name": "Entry No.",
+      "tooltip": ""
+    }
+  ]
+}

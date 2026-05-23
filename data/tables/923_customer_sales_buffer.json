@@ -1,0 +1,43 @@
+{
+  "id": 923,
+  "name": "Customer Sales Buffer",
+  "slug": "923_customer_sales_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period that you want to view."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the starting date of the period that you want to view."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Balance Due (LCY)",
+      "tooltip": "Specifies the balance due, in local currency."
+    },
+    {
+      "no": 11,
+      "name": "Sales (LCY)",
+      "tooltip": "Specifies the sales related to the customer, in local currency."
+    },
+    {
+      "no": 12,
+      "name": "Profit (LCY)",
+      "tooltip": "Specifies the profit related to the customer, in local currency."
+    }
+  ]
+}

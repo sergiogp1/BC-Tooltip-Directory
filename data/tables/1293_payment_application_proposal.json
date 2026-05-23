@@ -1,0 +1,148 @@
+{
+  "id": 1293,
+  "name": "Payment Application Proposal",
+  "slug": "1293_payment_application_proposal",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Statement Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Account Type",
+      "tooltip": "Specifies the type of account that the payment application will be posted to when you post the payment reconciliation journal."
+    },
+    {
+      "no": 22,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number the payment application will be posted to when you post the payment reconciliation journal."
+    },
+    {
+      "no": 23,
+      "name": "Applies-to Entry No.",
+      "tooltip": "Specifies the number of the customer or vendor ledger entry that the payment will be applied to when you post the payment reconciliation journal line."
+    },
+    {
+      "no": 24,
+      "name": "Applied Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Applied",
+      "tooltip": "Specifies that the payment specified on the header of the Payment Application window is applied to the open entry."
+    },
+    {
+      "no": 29,
+      "name": "Applied Pmt. Discount",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Quality",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the open entry."
+    },
+    {
+      "no": 32,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that is related to the open entry."
+    },
+    {
+      "no": 33,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the document that is related to the open entry."
+    },
+    {
+      "no": 34,
+      "name": "Description",
+      "tooltip": "Specifies the description of the open entry."
+    },
+    {
+      "no": 35,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the open entry."
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date of the open entry."
+    },
+    {
+      "no": 37,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 50,
+      "name": "Match Confidence",
+      "tooltip": "Specifies the quality of the match between the payment and the open entry for payment application purposes."
+    },
+    {
+      "no": 51,
+      "name": "Pmt. Disc. Due Date",
+      "tooltip": "Specifies the date on which the remaining amount on the open entry must be paid to grant a discount."
+    },
+    {
+      "no": 52,
+      "name": "Remaining Pmt. Disc. Possible",
+      "tooltip": "Specifies how much discount you can grant for the payment if you apply it to the open entry."
+    },
+    {
+      "no": 53,
+      "name": "Pmt. Disc. Tolerance Date",
+      "tooltip": "Specifies the latest date the amount in the entry must be paid in order for payment discount tolerance to be granted."
+    },
+    {
+      "no": 60,
+      "name": "Applied Amt. Incl. Discount",
+      "tooltip": "Specifies the payment amount, excluding the value in the Applied Pmt. Discount field, that is applied to the open entry."
+    },
+    {
+      "no": 61,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the amount that remains to be paid for the open entry."
+    },
+    {
+      "no": 62,
+      "name": "Remaining Amt. Incl. Discount",
+      "tooltip": "Specifies the amount that remains to be paid for the open entry, minus any granted payment discount."
+    },
+    {
+      "no": 63,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Sorting Order",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Stmt To Rem. Amount Difference",
+      "tooltip": ""
+    }
+  ]
+}

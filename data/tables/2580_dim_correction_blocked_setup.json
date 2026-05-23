@@ -1,0 +1,13 @@
+{
+  "id": 2580,
+  "name": "Dim Correction Blocked Setup",
+  "slug": "2580_dim_correction_blocked_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the dimension that cannot be used for corrections."
+    }
+  ]
+}

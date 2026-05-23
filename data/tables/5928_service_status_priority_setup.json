@@ -1,0 +1,18 @@
+{
+  "id": 5928,
+  "name": "Service Status Priority Setup",
+  "slug": "5928_service_status_priority_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Service Order Status",
+      "tooltip": "Specifies the service order status to which you are assigning a priority."
+    },
+    {
+      "no": 2,
+      "name": "Priority",
+      "tooltip": "Specifies the priority level for the service order status."
+    }
+  ]
+}

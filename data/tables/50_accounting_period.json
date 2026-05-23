@@ -1,0 +1,43 @@
+{
+  "id": 50,
+  "name": "Accounting Period",
+  "slug": "50_accounting_period",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date that the accounting period will begin."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the accounting period."
+    },
+    {
+      "no": 3,
+      "name": "New Fiscal Year",
+      "tooltip": "Specifies whether to use the accounting period to start a fiscal year."
+    },
+    {
+      "no": 4,
+      "name": "Closed",
+      "tooltip": "Specifies if the accounting period belongs to a closed fiscal year."
+    },
+    {
+      "no": 5,
+      "name": "Date Locked",
+      "tooltip": "Specifies if you can change the starting date for the accounting period."
+    },
+    {
+      "no": 5804,
+      "name": "Average Cost Calc. Type",
+      "tooltip": "Specifies how the average cost for items in the accounting period was calculated."
+    },
+    {
+      "no": 5805,
+      "name": "Average Cost Period",
+      "tooltip": "Specifies the period type that was used in the accounting period to calculate the average cost."
+    }
+  ]
+}

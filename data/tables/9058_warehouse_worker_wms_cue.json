@@ -1,0 +1,53 @@
+{
+  "id": 9058,
+  "name": "Warehouse Worker WMS Cue",
+  "slug": "9058_warehouse_worker_wms_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Unassigned Picks",
+      "tooltip": "Specifies the number of unassigned picks that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "My Picks",
+      "tooltip": "Specifies the number of picks that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Unassigned Put-aways",
+      "tooltip": "Specifies the number of unassigned put-always that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "My Put-aways",
+      "tooltip": "Specifies the number of put-always that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Unassigned Movements",
+      "tooltip": "Specifies the number of unassigned movements that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "My Movements",
+      "tooltip": "Specifies the number of movements that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 22,
+      "name": "User ID Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Location Filter",
+      "tooltip": ""
+    }
+  ]
+}

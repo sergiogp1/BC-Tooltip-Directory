@@ -1,0 +1,88 @@
+{
+  "id": 1804,
+  "name": "Approval Workflow Wizard",
+  "slug": "1804_approval_workflow_wizard",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Approver ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Sales Invoice App. Workflow",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Sales Amount Approval Limit",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Purch Invoice App. Workflow",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Purch Amount Approval Limit",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Use Exist. Approval User Setup",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Field",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "TableNo",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Field Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Custom Message",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "App. Trigger",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Field Operator",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "For All Batches",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    }
+  ]
+}

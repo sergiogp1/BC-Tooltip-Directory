@@ -1,0 +1,108 @@
+{
+  "id": 955,
+  "name": "Time Sheet Line Archive",
+  "slug": "955_time_sheet_line_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Time Sheet No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Time Sheet Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the type of time sheet line."
+    },
+    {
+      "no": 6,
+      "name": "Job No.",
+      "tooltip": "Specifies the number for the project that is associated with the time sheet line."
+    },
+    {
+      "no": 7,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 9,
+      "name": "Cause of Absence Code",
+      "tooltip": "Specifies the codes that you can use to describe the type of absence from work."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the archived time sheet line."
+    },
+    {
+      "no": 11,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 12,
+      "name": "Approver ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Service Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Total Quantity",
+      "tooltip": "Specifies the total number of hours that have been entered on a time sheet."
+    },
+    {
+      "no": 17,
+      "name": "Chargeable",
+      "tooltip": "Specifies whether the time associated with an archived time sheet is chargeable."
+    },
+    {
+      "no": 18,
+      "name": "Assembly Order No.",
+      "tooltip": "Specifies the assembly order number that is associated with the time sheet line."
+    },
+    {
+      "no": 19,
+      "name": "Assembly Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Status",
+      "tooltip": "Specifies information about the status of an archived time sheet."
+    },
+    {
+      "no": 21,
+      "name": "Approved By",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Approval Date",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Posted",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Comment",
+      "tooltip": ""
+    }
+  ]
+}

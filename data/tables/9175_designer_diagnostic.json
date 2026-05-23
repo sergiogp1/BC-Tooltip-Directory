@@ -1,0 +1,28 @@
+{
+  "id": 9175,
+  "name": "Designer Diagnostic",
+  "slug": "9175_designer_diagnostic",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Operation ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Diagnostics ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Severity",
+      "tooltip": "Specifies the severity of this diagnostics message."
+    },
+    {
+      "no": 4,
+      "name": "Message",
+      "tooltip": "The details of the problem output by the system."
+    }
+  ]
+}

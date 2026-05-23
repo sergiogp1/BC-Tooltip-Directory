@@ -1,0 +1,43 @@
+{
+  "id": 8621,
+  "name": "Config. Selection",
+  "slug": "8621_config_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table that is used in the configuration selection."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the of the configuration package."
+    },
+    {
+      "no": 4,
+      "name": "Line Type",
+      "tooltip": "Specifies the type of the configuration package part. The part can be one of the following types:"
+    },
+    {
+      "no": 5,
+      "name": "Parent Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Selected",
+      "tooltip": "Specifies whether the configuration package has been selected."
+    },
+    {
+      "no": 25,
+      "name": "Vertical Sorting",
+      "tooltip": ""
+    }
+  ]
+}

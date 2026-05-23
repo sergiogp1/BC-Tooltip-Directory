@@ -1,0 +1,73 @@
+{
+  "id": 7335,
+  "name": "Bin Template",
+  "slug": "7335_bin_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the bin template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the bin creation template."
+    },
+    {
+      "no": 4,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code that will apply to all the bins set up with this bin template."
+    },
+    {
+      "no": 5,
+      "name": "Bin Description",
+      "tooltip": "Specifies a description of the bins that are set up using the bin template."
+    },
+    {
+      "no": 6,
+      "name": "Zone Code",
+      "tooltip": "Specifies the code of the zone where the bins created by this template are located."
+    },
+    {
+      "no": 10,
+      "name": "Bin Type Code",
+      "tooltip": "Specifies a bin type code that will be copied to all bins created using the template."
+    },
+    {
+      "no": 11,
+      "name": "Warehouse Class Code",
+      "tooltip": "Specifies a warehouse class code that will be copied to all bins created using the template."
+    },
+    {
+      "no": 12,
+      "name": "Block Movement",
+      "tooltip": "Specifies how the movement of a particular item, or bin content, into or out of this bin, is blocked."
+    },
+    {
+      "no": 20,
+      "name": "Special Equipment Code",
+      "tooltip": "Specifies a special equipment code that will be copied to all bins created using the template."
+    },
+    {
+      "no": 21,
+      "name": "Bin Ranking",
+      "tooltip": "Specifies the bin ranking that will be copied to all bins created using the template."
+    },
+    {
+      "no": 22,
+      "name": "Maximum Cubage",
+      "tooltip": "Specifies the maximum cubage that will be copied to all bins that are created using the template."
+    },
+    {
+      "no": 23,
+      "name": "Maximum Weight",
+      "tooltip": "Specifies the maximum weight that will be copied to all bins that are created using the template."
+    },
+    {
+      "no": 24,
+      "name": "Dedicated",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7009,
+  "name": "Duplicate Price Line",
+  "slug": "7009_duplicate_price_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Price List Code",
+      "tooltip": "Specifies the unique identifier of the price list."
+    },
+    {
+      "no": 2,
+      "name": "Price List Line No.",
+      "tooltip": "Specifies the number of the price list line."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Duplicate To Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Remove",
+      "tooltip": "Specifies if the price list line should be removed to resolve duplication."
+    }
+  ]
+}

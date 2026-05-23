@@ -1,0 +1,18 @@
+{
+  "id": 5070,
+  "name": "Organizational Level",
+  "slug": "5070_organizational_level",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the organizational level."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the organizational level."
+    }
+  ]
+}

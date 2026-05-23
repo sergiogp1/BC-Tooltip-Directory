@@ -1,0 +1,123 @@
+{
+  "id": 1208,
+  "name": "Direct Debit Collection Entry",
+  "slug": "1208_direct_debit_collection_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Direct Debit Collection No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer that the direct-debit payment is collected from."
+    },
+    {
+      "no": 4,
+      "name": "Applies-to Entry No.",
+      "tooltip": "Specifies the number of the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 5,
+      "name": "Transfer Date",
+      "tooltip": "Specifies the date when the payment will be collected from the customer's bank account."
+    },
+    {
+      "no": 6,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency of the payment amount that is being collected as a direct debit."
+    },
+    {
+      "no": 7,
+      "name": "Transfer Amount",
+      "tooltip": "Specifies the amount that will be collected from the customer's bank account."
+    },
+    {
+      "no": 8,
+      "name": "Transaction ID",
+      "tooltip": "Specifies the ID of the direct debit collection. It consist of a number in the SEPA direct-debit message number series and the value in the Applies-to Entry No. field."
+    },
+    {
+      "no": 9,
+      "name": "Sequence Type",
+      "tooltip": "Specifies if the direct-debit collection entry is the first or the last of a sequence of recurring entries."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the direct-debit collection entry."
+    },
+    {
+      "no": 11,
+      "name": "Mandate ID",
+      "tooltip": "Specifies the ID of the direct-debit mandate that exists for the direct debit collection in question."
+    },
+    {
+      "no": 12,
+      "name": "Mandate Type of Payment",
+      "tooltip": "Specifies if the related direct-debit mandate is created for one or multiple direct debit collections."
+    },
+    {
+      "no": 13,
+      "name": "Customer Name",
+      "tooltip": "Specifies the name of the customer that the direct-debit payment is collected from."
+    },
+    {
+      "no": 14,
+      "name": "Applies-to Entry Document No.",
+      "tooltip": "Specifies the document number on the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 15,
+      "name": "Applies-to Entry Description",
+      "tooltip": "Specifies the description of the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 16,
+      "name": "Applies-to Entry Posting Date",
+      "tooltip": "Specifies when the sales invoice that the customer leger entry behind this direct-debit collection entry applies to was posted."
+    },
+    {
+      "no": 17,
+      "name": "Applies-to Entry Currency Code",
+      "tooltip": "Specifies the currency of the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 18,
+      "name": "Applies-to Entry Amount",
+      "tooltip": "Specifies the payment amount on the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 19,
+      "name": "Applies-to Entry Rem. Amount",
+      "tooltip": "Specifies the amount that remains to be paid on the sales invoice that the customer leger entry behind this direct-debit collection entry applies to."
+    },
+    {
+      "no": 20,
+      "name": "Applies-to Entry Open",
+      "tooltip": "Specifies if the sales invoice that the customer leger entry behind this direct-debit collection entry applies to is open."
+    },
+    {
+      "no": 21,
+      "name": "Direct Debit Collection Status",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Payment Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Message to Recipient",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 5052,
+  "name": "Contact Alt. Addr. Date Range",
+  "slug": "5052_contact_alt_addr_date_range",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Contact Alt. Address Code",
+      "tooltip": "Specifies the code of the contact alternate address to which the date range applies."
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the alternate address is valid. There are certain rules for how dates should be entered."
+    },
+    {
+      "no": 4,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last day on which the alternate address is valid. There are certain rules for how dates should be entered."
+    }
+  ]
+}

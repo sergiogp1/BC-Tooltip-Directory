@@ -1,0 +1,33 @@
+{
+  "id": 8625,
+  "name": "Config. Related Table",
+  "slug": "8625_config_related_table",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Relation Table ID",
+      "tooltip": "Specifies the ID of the relation table for which related table information is provided."
+    },
+    {
+      "no": 3,
+      "name": "Relation Table Name",
+      "tooltip": "Specifies the name of the relation table for which related table information is provided."
+    },
+    {
+      "no": 4,
+      "name": "Related Fields",
+      "tooltip": "Specifies the number of related fields in the relation table that are associated with the configuration table."
+    },
+    {
+      "no": 5,
+      "name": "In Worksheet",
+      "tooltip": "Specifies whether the related table for the configuration table is included in the configuration worksheet."
+    }
+  ]
+}

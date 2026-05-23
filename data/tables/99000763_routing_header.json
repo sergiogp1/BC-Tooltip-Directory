@@ -1,0 +1,58 @@
+{
+  "id": 99000763,
+  "name": "Routing Header",
+  "slug": "99000763_routing_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the routing header."
+    },
+    {
+      "no": 3,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Search Description",
+      "tooltip": "Specifies a search description."
+    },
+    {
+      "no": 10,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the routing card was last modified."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Status",
+      "tooltip": "Specifies the status of this routing."
+    },
+    {
+      "no": 21,
+      "name": "Type",
+      "tooltip": "Specifies in which order operations in the routing are performed."
+    },
+    {
+      "no": 50,
+      "name": "Version Nos.",
+      "tooltip": "Specifies the number series you want to use to create a new version of this routing."
+    },
+    {
+      "no": 51,
+      "name": "No. Series",
+      "tooltip": ""
+    }
+  ]
+}

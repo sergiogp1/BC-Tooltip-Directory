@@ -1,0 +1,48 @@
+{
+  "id": 64,
+  "name": "Merge Duplicates Buffer",
+  "slug": "64_merge_duplicates_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Duplicate",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Current",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Conflicts",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Duplicate Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Current Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Conflict Field ID",
+      "tooltip": ""
+    }
+  ]
+}

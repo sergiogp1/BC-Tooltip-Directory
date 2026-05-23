@@ -1,0 +1,23 @@
+{
+  "id": 33,
+  "name": "Intercompany Setup Diagnostic",
+  "slug": "33_intercompany_setup_diagnostic",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": ""
+    }
+  ]
+}

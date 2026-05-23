@@ -1,0 +1,108 @@
+{
+  "id": 1170,
+  "name": "User Task",
+  "slug": "1170_user_task",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID that applies."
+    },
+    {
+      "no": 2,
+      "name": "Title",
+      "tooltip": "Specifies the title of the task."
+    },
+    {
+      "no": 3,
+      "name": "Created By",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Created DateTime",
+      "tooltip": "Specifies when the task was created."
+    },
+    {
+      "no": 5,
+      "name": "Assigned To",
+      "tooltip": "Specifies who the task is assigned to."
+    },
+    {
+      "no": 7,
+      "name": "Completed By",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Completed DateTime",
+      "tooltip": "Specifies when the task was completed."
+    },
+    {
+      "no": 9,
+      "name": "Due DateTime",
+      "tooltip": "Specifies when the task must be completed."
+    },
+    {
+      "no": 10,
+      "name": "Percent Complete",
+      "tooltip": "Specifies the progress of the task."
+    },
+    {
+      "no": 11,
+      "name": "Start DateTime",
+      "tooltip": "Specifies when the task must start."
+    },
+    {
+      "no": 12,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the task."
+    },
+    {
+      "no": 13,
+      "name": "Description",
+      "tooltip": "Specifies a descriptions of the task."
+    },
+    {
+      "no": 14,
+      "name": "Created By User Name",
+      "tooltip": "Specifies who created the task."
+    },
+    {
+      "no": 15,
+      "name": "Assigned To User Name",
+      "tooltip": "Specifies who the task is assigned to."
+    },
+    {
+      "no": 16,
+      "name": "Completed By User Name",
+      "tooltip": "Specifies who completed the task."
+    },
+    {
+      "no": 17,
+      "name": "Object Type",
+      "tooltip": "Specifies the type of window that the task opens."
+    },
+    {
+      "no": 18,
+      "name": "Object ID",
+      "tooltip": "Specifies the window that the task opens."
+    },
+    {
+      "no": 19,
+      "name": "Parent ID",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "User Task Group Assigned To",
+      "tooltip": "Specifies the group if the task has been assigned to a group of people."
+    },
+    {
+      "no": 21,
+      "name": "ShouldShowPendingTasks",
+      "tooltip": ""
+    }
+  ]
+}

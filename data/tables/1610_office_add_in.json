@@ -1,0 +1,58 @@
+{
+  "id": 1610,
+  "name": "Office Add-in",
+  "slug": "1610_office_add_in",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Application ID",
+      "tooltip": "Specifies the application that is being added."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the add-in."
+    },
+    {
+      "no": 5,
+      "name": "Version",
+      "tooltip": "Specifies the version of the record"
+    },
+    {
+      "no": 6,
+      "name": "Manifest Codeunit",
+      "tooltip": "Specifies the codeunit where the Office add-in is defined for deployment."
+    },
+    {
+      "no": 10,
+      "name": "Deployment Date",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Default Manifest",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Manifest",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Breaking",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Deploy",
+      "tooltip": "Specifies whether the add-in will be deployed."
+    }
+  ]
+}

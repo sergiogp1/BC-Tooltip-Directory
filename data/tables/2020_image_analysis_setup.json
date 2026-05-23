@@ -1,0 +1,23 @@
+{
+  "id": 2020,
+  "name": "Image Analysis Setup",
+  "slug": "2020_image_analysis_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Api Uri",
+      "tooltip": "Specifies the API URI for the Computer Vision account to use with Azure Cognitive Services."
+    },
+    {
+      "no": 5,
+      "name": "Api Key Key",
+      "tooltip": ""
+    }
+  ]
+}

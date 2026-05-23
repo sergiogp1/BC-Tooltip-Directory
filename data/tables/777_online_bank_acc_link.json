@@ -1,0 +1,58 @@
+{
+  "id": 777,
+  "name": "Online Bank Acc. Link",
+  "slug": "777_online_bank_acc_link",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Online Bank Account ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Online Bank ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Automatic Logon Possible",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": "Specifies the bank account name."
+    },
+    {
+      "no": 6,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the online bank account."
+    },
+    {
+      "no": 100,
+      "name": "Temp Linked Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "ProviderId",
+      "tooltip": ""
+    }
+  ]
+}

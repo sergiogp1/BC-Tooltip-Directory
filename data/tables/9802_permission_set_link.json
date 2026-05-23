@@ -1,0 +1,23 @@
+{
+  "id": 9802,
+  "name": "Permission Set Link",
+  "slug": "9802_permission_set_link",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Permission Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Linked Permission Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Source Hash",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 9186,
+  "name": "Generic Chart Memo Buffer",
+  "slug": "9186_generic_chart_memo_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code. This field is intended only for internal use."
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 4,
+      "name": "Language Name",
+      "tooltip": "Specifies the language name of the chart memo."
+    },
+    {
+      "no": 11,
+      "name": "Memo1",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Memo2",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Memo3",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Memo4",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Memo5",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Memo6",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Memo7",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Memo8",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Memo9",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Memo10",
+      "tooltip": ""
+    }
+  ]
+}

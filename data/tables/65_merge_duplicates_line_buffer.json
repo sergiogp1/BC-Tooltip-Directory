@@ -1,0 +1,83 @@
+{
+  "id": 65,
+  "name": "Merge Duplicates Line Buffer",
+  "slug": "65_merge_duplicates_line_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the field."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the field."
+    },
+    {
+      "no": 4,
+      "name": "Duplicate Value",
+      "tooltip": "Specifies the value of the field in the duplicate record."
+    },
+    {
+      "no": 5,
+      "name": "Current Value",
+      "tooltip": "Specifies the value of the field in the current record."
+    },
+    {
+      "no": 6,
+      "name": "Override",
+      "tooltip": "Specifies if the field value of the current record should be overridden by the value of the duplicate record."
+    },
+    {
+      "no": 7,
+      "name": "Duplicate Count",
+      "tooltip": "Specifies the number of records related to the duplicate record."
+    },
+    {
+      "no": 8,
+      "name": "Current Count",
+      "tooltip": "Specifies the number of records related to the current record."
+    },
+    {
+      "no": 9,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table."
+    },
+    {
+      "no": 10,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table."
+    },
+    {
+      "no": 11,
+      "name": "In Primary Key",
+      "tooltip": "Specifies if the field is part of the primary key."
+    },
+    {
+      "no": 12,
+      "name": "Conflicts",
+      "tooltip": "Specifies if conflicting records exist."
+    },
+    {
+      "no": 13,
+      "name": "Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Data Type",
+      "tooltip": "Specifies the data type of the field."
+    },
+    {
+      "no": 15,
+      "name": "Can Be Renamed",
+      "tooltip": ""
+    }
+  ]
+}

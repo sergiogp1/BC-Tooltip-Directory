@@ -1,0 +1,98 @@
+{
+  "id": 7347,
+  "name": "Internal Movement Line",
+  "slug": "7347_internal_movement_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the internal movement is being performed."
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number that is recorded on the item card or on the stockkeeping unit card of the item that is being moved."
+    },
+    {
+      "no": 12,
+      "name": "From Bin Code",
+      "tooltip": "Specifies the code of the bin that the items on the internal movement are picked from."
+    },
+    {
+      "no": 13,
+      "name": "To Bin Code",
+      "tooltip": "Specifies the bin where you want items on this internal movement to be placed when they are picked."
+    },
+    {
+      "no": 14,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is available to move from the bin."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of items to be moved. The quantity must be lower than or equal to the bin content."
+    },
+    {
+      "no": 16,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity of units to be moved."
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the same as the field with the same name in the Whse. Internal Put-away Line table."
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the same as the field with the same name in the Whse. Internal Put-away Line table."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies the second description of the item."
+    },
+    {
+      "no": 35,
+      "name": "Sorting Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the warehouse activity must be completed."
+    },
+    {
+      "no": 37,
+      "name": "Cubage",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Weight",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 5499,
+  "name": "Aged Report Entity",
+  "slug": "5499_aged_report_entity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "AccountId",
+      "tooltip": "Specifies the Account Id."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the Customer No.."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the Customer Name."
+    },
+    {
+      "no": 4,
+      "name": "Currency Code",
+      "tooltip": "Specifies the Currency Code."
+    },
+    {
+      "no": 5,
+      "name": "Before",
+      "tooltip": "Specifies the period Before."
+    },
+    {
+      "no": 6,
+      "name": "Period 1",
+      "tooltip": "Specifies Period 1."
+    },
+    {
+      "no": 7,
+      "name": "Period 2",
+      "tooltip": "Specifies Period 2."
+    },
+    {
+      "no": 8,
+      "name": "Period 3",
+      "tooltip": "Specifies Period 3."
+    },
+    {
+      "no": 9,
+      "name": "After",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Balance",
+      "tooltip": "Specifies the Balance Due."
+    },
+    {
+      "no": 11,
+      "name": "Period Start Date",
+      "tooltip": "Specifies the Period Start Date."
+    },
+    {
+      "no": 12,
+      "name": "Period Length",
+      "tooltip": "Specifies the Period Length."
+    },
+    {
+      "no": 13,
+      "name": "Display Order",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Period 1 Label",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Period 2 Label",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Period 3 Label",
+      "tooltip": ""
+    }
+  ]
+}

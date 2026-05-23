@@ -1,0 +1,48 @@
+{
+  "id": 227,
+  "name": "VAT Registration Log Details",
+  "slug": "227_vat_registration_log_details",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Log Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field that has been validated by the VAT registration no. validation service."
+    },
+    {
+      "no": 10,
+      "name": "Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Requested",
+      "tooltip": "Specifies the requested value."
+    },
+    {
+      "no": 21,
+      "name": "Response",
+      "tooltip": "Specifies the value that was returned by the service."
+    },
+    {
+      "no": 22,
+      "name": "Current Value",
+      "tooltip": "Specifies the current value."
+    },
+    {
+      "no": 23,
+      "name": "Status",
+      "tooltip": "Specifies the status of the field validation."
+    }
+  ]
+}

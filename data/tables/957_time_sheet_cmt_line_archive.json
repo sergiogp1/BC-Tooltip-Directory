@@ -1,0 +1,38 @@
+{
+  "id": 957,
+  "name": "Time Sheet Cmt. Line Archive",
+  "slug": "957_time_sheet_cmt_line_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Time Sheet Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date when a comment was entered for an archived time sheet."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies a code for a comment for an archived time sheet."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment relating to an archived time sheet or time sheet line."
+    }
+  ]
+}

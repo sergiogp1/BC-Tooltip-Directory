@@ -1,0 +1,53 @@
+{
+  "id": 850,
+  "name": "Cash Flow Manual Expense",
+  "slug": "850_cash_flow_manual_expense",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 3,
+      "name": "Cash Flow Account No.",
+      "tooltip": "Specifies the number of the cash flow account that the entry on the manual revenue line is registered to."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the cash flow forecast entry."
+    },
+    {
+      "no": 5,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date of the cash flow entry."
+    },
+    {
+      "no": 6,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last date from which manual expenses should be registered for the cash flow forecast."
+    },
+    {
+      "no": 7,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies how often the entry on the manual expense line is registered, if the journal template used is set up to be recurring"
+    },
+    {
+      "no": 8,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount in LCY that the manual expense consists of. The entered amount is the amount that is registered in the given time period per recurring frequency."
+    },
+    {
+      "no": 9,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 10,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    }
+  ]
+}

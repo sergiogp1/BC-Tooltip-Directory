@@ -1,0 +1,113 @@
+{
+  "id": 5051,
+  "name": "Contact Alt. Address",
+  "slug": "5051_contact_alt_address",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code for the alternate address."
+    },
+    {
+      "no": 3,
+      "name": "Company Name",
+      "tooltip": "Specifies the name of the company for the alternate address."
+    },
+    {
+      "no": 4,
+      "name": "Company Name 2",
+      "tooltip": "Specifies the additional part of the company name for the alternate address."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the alternate address of the contact."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city of the contact's alternate address."
+    },
+    {
+      "no": 8,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 9,
+      "name": "County",
+      "tooltip": "Specifies the county for the contact's alternate address."
+    },
+    {
+      "no": 10,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 12,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number for the alternate address."
+    },
+    {
+      "no": 13,
+      "name": "Telex No.",
+      "tooltip": "Specifies the telex number for the alternate address."
+    },
+    {
+      "no": 14,
+      "name": "Extension No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the mobile phone number for the alternate address."
+    },
+    {
+      "no": 16,
+      "name": "Pager",
+      "tooltip": "Specifies the pager number for the contact at the alternate address."
+    },
+    {
+      "no": 17,
+      "name": "E-Mail",
+      "tooltip": "Specifies the e-mail address for the contact at the alternate address."
+    },
+    {
+      "no": 18,
+      "name": "Home Page",
+      "tooltip": "Specifies the contact's web site."
+    },
+    {
+      "no": 19,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number for the alternate address."
+    },
+    {
+      "no": 20,
+      "name": "Telex Answer Back",
+      "tooltip": "Specifies the telex answer back number for the alternate address."
+    },
+    {
+      "no": 21,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Search E-Mail",
+      "tooltip": ""
+    }
+  ]
+}

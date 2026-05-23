@@ -1,0 +1,28 @@
+{
+  "id": 5400,
+  "name": "Unit Group",
+  "slug": "5400_unit_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Source Id",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Source No.",
+      "tooltip": "Specifies the resource number that associated with the record."
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the resource unit group is coupled to a unit group in Dynamics 365 Sales."
+    }
+  ]
+}

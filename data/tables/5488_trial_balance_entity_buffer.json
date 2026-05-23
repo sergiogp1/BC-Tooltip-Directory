@@ -1,0 +1,63 @@
+{
+  "id": 5488,
+  "name": "Trial Balance Entity Buffer",
+  "slug": "5488_trial_balance_entity_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the No.."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the Name."
+    },
+    {
+      "no": 3,
+      "name": "Net Change Debit",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Net Change Credit",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Balance at Date Debit",
+      "tooltip": "Specifies the Balance at Date Debit Amount."
+    },
+    {
+      "no": 6,
+      "name": "Balance at Date Credit",
+      "tooltip": "Specifies the Balance at Date Credit Amount."
+    },
+    {
+      "no": 7,
+      "name": "Date Filter",
+      "tooltip": "Specifies the Date Filter."
+    },
+    {
+      "no": 8,
+      "name": "Total Debit",
+      "tooltip": "Specifies the Total Debit Amount."
+    },
+    {
+      "no": 9,
+      "name": "Total Credit",
+      "tooltip": "Specifies the Total Credit Amount."
+    },
+    {
+      "no": 10,
+      "name": "Account Type",
+      "tooltip": "Specifies the Account Type."
+    },
+    {
+      "no": 11,
+      "name": "Account Id",
+      "tooltip": "Specifies the Account Id."
+    }
+  ]
+}

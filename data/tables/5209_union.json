@@ -1,0 +1,78 @@
+{
+  "id": 5209,
+  "name": "Union",
+  "slug": "5209_union",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a union code."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the union."
+    },
+    {
+      "no": 3,
+      "name": "Address",
+      "tooltip": "Specifies the union's address."
+    },
+    {
+      "no": 4,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 5,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 6,
+      "name": "Phone No.",
+      "tooltip": "Specifies the union's telephone number."
+    },
+    {
+      "no": 7,
+      "name": "No. of Members Employed",
+      "tooltip": "Specifies the number of members employed."
+    },
+    {
+      "no": 8,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Home Page",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    }
+  ]
+}

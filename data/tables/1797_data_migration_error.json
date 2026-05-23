@@ -1,0 +1,63 @@
+{
+  "id": 1797,
+  "name": "Data Migration Error",
+  "slug": "1797_data_migration_error",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Migration Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Destination Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Source Staging Table Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Error Message",
+      "tooltip": "Specifies the error message that relates to the data migration."
+    },
+    {
+      "no": 6,
+      "name": "Scheduled For Retry",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Error Dismissed",
+      "tooltip": "Specifies whether the error has been dismissed."
+    },
+    {
+      "no": 10,
+      "name": "Exception Message",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Exception Call Stack",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Last Record Under Processing",
+      "tooltip": "Specifies the last record that was processed before the error occurred."
+    },
+    {
+      "no": 15,
+      "name": "Records Under Processing Log",
+      "tooltip": ""
+    }
+  ]
+}

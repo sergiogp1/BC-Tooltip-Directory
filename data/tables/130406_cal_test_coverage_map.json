@@ -1,0 +1,38 @@
+{
+  "id": 130406,
+  "name": "CAL Test Coverage Map",
+  "slug": "130406_cal_test_coverage_map",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Test Codeunit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Object Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Object ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Object Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Hit by Test Codeunits",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Test Codeunit Name",
+      "tooltip": ""
+    }
+  ]
+}

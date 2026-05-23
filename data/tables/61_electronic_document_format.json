@@ -1,0 +1,43 @@
+{
+  "id": 61,
+  "name": "Electronic Document Format",
+  "slug": "61_electronic_document_format",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify the electronic document format in the system."
+    },
+    {
+      "no": 2,
+      "name": "Usage",
+      "tooltip": "Specifies if the electronic document format is used for sales invoices or sales credit memos."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the electronic document format."
+    },
+    {
+      "no": 5,
+      "name": "Codeunit ID",
+      "tooltip": "Specifies which codeunit is used to manage electronic document sending for this document sending method."
+    },
+    {
+      "no": 6,
+      "name": "Codeunit Caption",
+      "tooltip": "Specifies the name of the codeunit."
+    },
+    {
+      "no": 7,
+      "name": "Delivery Codeunit ID",
+      "tooltip": "Specifies which delivery codeunit is used to manage electronic document sending for this document sending method."
+    },
+    {
+      "no": 8,
+      "name": "Delivery Codeunit Caption",
+      "tooltip": "Specifies the name of the delivery codeunit."
+    }
+  ]
+}

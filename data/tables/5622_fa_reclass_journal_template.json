@@ -1,0 +1,33 @@
+{
+  "id": 5622,
+  "name": "FA Reclass. Journal Template",
+  "slug": "5622_fa_reclass_journal_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the journal template you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the journal template that you are creating."
+    },
+    {
+      "no": 6,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 16,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    },
+    {
+      "no": 30,
+      "name": "Increment Batch Name",
+      "tooltip": ""
+    }
+  ]
+}

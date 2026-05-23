@@ -1,0 +1,278 @@
+{
+  "id": 99000829,
+  "name": "Planning Component",
+  "slug": "99000829_planning_component",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Worksheet Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Worksheet Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number of the component."
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": "Specifies the description of the component."
+    },
+    {
+      "no": 13,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 14,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Position",
+      "tooltip": "Specifies the position of the component on the bill of material."
+    },
+    {
+      "no": 16,
+      "name": "Position 2",
+      "tooltip": "Specifies the second reference number for the component position, such as the alternate position number of a component on a circuit board."
+    },
+    {
+      "no": 17,
+      "name": "Position 3",
+      "tooltip": "Specifies the third reference number for the component position on a bill of material, such as the alternate position number of a component on a print card."
+    },
+    {
+      "no": 18,
+      "name": "Lead-Time Offset",
+      "tooltip": "Specifies the lead-time offset for the planning component."
+    },
+    {
+      "no": 21,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 22,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Expected Quantity",
+      "tooltip": "Specifies the expected quantity of this planning component line."
+    },
+    {
+      "no": 27,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    },
+    {
+      "no": 28,
+      "name": "Flushing Method",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the inventory location, where the item on the planning component line will be registered."
+    },
+    {
+      "no": 31,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 32,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 33,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Supplied-by Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Planning Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Ref. Order Status",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Ref. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Ref. Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Length",
+      "tooltip": "Specifies the length of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 41,
+      "name": "Width",
+      "tooltip": "Specifies the width of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 42,
+      "name": "Weight",
+      "tooltip": "Specifies the weight of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 43,
+      "name": "Depth",
+      "tooltip": "Specifies the depth of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 44,
+      "name": "Calculation Formula",
+      "tooltip": "Specifies how to calculate the Quantity field."
+    },
+    {
+      "no": 45,
+      "name": "Quantity per",
+      "tooltip": "Specifies how many units of the component are required to produce the parent item."
+    },
+    {
+      "no": 46,
+      "name": "Ref. Order Type",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 51,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total cost for this planning component line."
+    },
+    {
+      "no": 52,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when this planning component must be finished."
+    },
+    {
+      "no": 53,
+      "name": "Due Time",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Direct Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Direct Cost Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Overhead Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the value in the Quantity field on the line."
+    },
+    {
+      "no": 63,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the reserved quantity of the item, in base units of measure."
+    },
+    {
+      "no": 71,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies the quantity of units that are reserved."
+    },
+    {
+      "no": 73,
+      "name": "Expected Quantity (Base)",
+      "tooltip": "Specifies the contents of the Expected Quantity field on the line, in base units of measure."
+    },
+    {
+      "no": 74,
+      "name": "Original Expected Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Net Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Due Date-Time",
+      "tooltip": "Specifies the due date and the due time, which are combined in a format called \"due date-time\"."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 99000875,
+      "name": "Critical",
+      "tooltip": ""
+    },
+    {
+      "no": 99000915,
+      "name": "Planning Line Origin",
+      "tooltip": ""
+    }
+  ]
+}

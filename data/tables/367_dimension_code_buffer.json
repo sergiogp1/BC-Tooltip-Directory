@@ -1,0 +1,78 @@
+{
+  "id": 367,
+  "name": "Dimension Code Buffer",
+  "slug": "367_dimension_code_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 3,
+      "name": "Totaling",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Period Start",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Visible",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Show in Bold",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Amount",
+      "tooltip": "Specifies the total value for the amount type that you select in the Show field."
+    },
+    {
+      "no": 10,
+      "name": "Dimension 1 Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Dimension 2 Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Dimension 3 Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Dimension 4 Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7101,
+      "name": "Quantity",
+      "tooltip": "Specifies the total value for the amount type that you select in the Show field."
+    }
+  ]
+}

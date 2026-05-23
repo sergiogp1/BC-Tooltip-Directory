@@ -1,0 +1,73 @@
+{
+  "id": 6755,
+  "name": "Send Reminders Setup",
+  "slug": "6755_send_reminders_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the reminder setup"
+    },
+    {
+      "no": 2,
+      "name": "Action Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description for the reminder setup"
+    },
+    {
+      "no": 10,
+      "name": "Send by Email",
+      "tooltip": "Specifies whether to send reminders by email"
+    },
+    {
+      "no": 11,
+      "name": "Print",
+      "tooltip": "Specifies whether to print reminders"
+    },
+    {
+      "no": 12,
+      "name": "Use Document Sending Profile",
+      "tooltip": "Specifies whether to use a document sending profile when sending reminders by email"
+    },
+    {
+      "no": 13,
+      "name": "Log Interaction",
+      "tooltip": "Specifies whether to log an interaction when a reminder is sent"
+    },
+    {
+      "no": 14,
+      "name": "Show Amounts Not Due",
+      "tooltip": "Specifies whether to show amounts that are not due on the reminder"
+    },
+    {
+      "no": 15,
+      "name": "Show Multiple Interest Rates",
+      "tooltip": "Specifies whether to show multiple interest rates on the reminder"
+    },
+    {
+      "no": 16,
+      "name": "Attach Invoice Documents",
+      "tooltip": "Specifies whether to attach all invoice documents to the reminder email"
+    },
+    {
+      "no": 17,
+      "name": "Send Multiple Times Per Level",
+      "tooltip": "Specifies whether to send multiple reminders to the same customer"
+    },
+    {
+      "no": 18,
+      "name": "Minimum Time Between Sending",
+      "tooltip": "Specifies the minimum number of days between sending reminder to the same customer"
+    },
+    {
+      "no": 20,
+      "name": "Reminder Filter",
+      "tooltip": ""
+    }
+  ]
+}

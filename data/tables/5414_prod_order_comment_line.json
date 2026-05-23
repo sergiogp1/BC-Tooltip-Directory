@@ -1,0 +1,38 @@
+{
+  "id": 5414,
+  "name": "Prod. Order Comment Line",
+  "slug": "5414_prod_order_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Prod. Order No.",
+      "tooltip": "Specifies the number of the related production order."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies a date."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment."
+    }
+  ]
+}

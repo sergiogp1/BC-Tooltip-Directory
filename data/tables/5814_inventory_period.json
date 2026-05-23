@@ -1,0 +1,23 @@
+{
+  "id": 5814,
+  "name": "Inventory Period",
+  "slug": "5814_inventory_period",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of an inventory period is the last day of the inventory period."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies a descriptive name that helps users identify the inventory period."
+    },
+    {
+      "no": 3,
+      "name": "Closed",
+      "tooltip": "Specifies that an inventory period can be open or closed."
+    }
+  ]
+}

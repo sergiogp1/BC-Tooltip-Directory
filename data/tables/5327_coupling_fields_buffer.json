@@ -1,0 +1,38 @@
+{
+  "id": 5327,
+  "name": "Coupling Fields Buffer",
+  "slug": "5327_coupling_fields_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Field Name",
+      "tooltip": "Specifies the field's name in Dynamics 365 Sales."
+    },
+    {
+      "no": 2,
+      "name": "Mapped Field Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Value",
+      "tooltip": "Specifies the field's name in Dynamics 365 Sales."
+    },
+    {
+      "no": 4,
+      "name": "Integration Value",
+      "tooltip": "Specifies the field's value in Dynamics 365 Sales."
+    },
+    {
+      "no": 6,
+      "name": "Direction",
+      "tooltip": "Specifies the direction of data integration."
+    },
+    {
+      "no": 8,
+      "name": "Validate Field",
+      "tooltip": "Specifies whether to validate the field's value in Business Central."
+    }
+  ]
+}

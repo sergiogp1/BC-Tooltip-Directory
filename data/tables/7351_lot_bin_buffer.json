@@ -1,0 +1,43 @@
+{
+  "id": 7351,
+  "name": "Lot Bin Buffer",
+  "slug": "7351_lot_bin_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the item that exists as lot numbers in the bin."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone that is assigned to the bin where the lot number exists."
+    },
+    {
+      "no": 5,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the lot number exists."
+    },
+    {
+      "no": 6,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number that exists in the bin."
+    },
+    {
+      "no": 7,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies how many items with the lot number exist in the bin."
+    }
+  ]
+}

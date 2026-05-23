@@ -1,0 +1,43 @@
+{
+  "id": 5372,
+  "name": "CDS Av. Virtual Table Buffer",
+  "slug": "5372_cds_av_virtual_table_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Business Central Entity Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Phsyical Name",
+      "tooltip": "Specifies the physical name of the virtual table."
+    },
+    {
+      "no": 3,
+      "name": "API Route",
+      "tooltip": "Specifies the API route of the virtual table."
+    },
+    {
+      "no": 4,
+      "name": "CDS Entity Logical Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Display Name",
+      "tooltip": "Specifies the display name of the virtual table."
+    },
+    {
+      "no": 6,
+      "name": "Visible",
+      "tooltip": "Specifies the visibility of the virtual table."
+    },
+    {
+      "no": 7,
+      "name": "In Process",
+      "tooltip": "Specifies whether the enabling of virtual table is in process."
+    }
+  ]
+}

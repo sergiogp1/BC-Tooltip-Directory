@@ -1,0 +1,23 @@
+{
+  "id": 1431,
+  "name": "Named Forward Link",
+  "slug": "1431_named_forward_link",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Link",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 5332,
+  "name": "Coupling Record Buffer",
+  "slug": "5332_coupling_record_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "NAV Name",
+      "tooltip": "Specifies the name of the record in Business Central to couple to an existing Dataverse record."
+    },
+    {
+      "no": 2,
+      "name": "CRM Name",
+      "tooltip": "Specifies the name of the record in Dataverse that is coupled to the record in Business Central."
+    },
+    {
+      "no": 3,
+      "name": "NAV Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "CRM Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Sync Action",
+      "tooltip": "Specifies whether to synchronize the data in the record in Business Central and the record in Dataverse."
+    },
+    {
+      "no": 8,
+      "name": "NAV Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "CRM ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Create New",
+      "tooltip": "Specifies if a new record in Dataverse is automatically created and coupled to the related record in Business Central."
+    },
+    {
+      "no": 11,
+      "name": "Saved Sync Action",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Saved CRM ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "CRM Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "CRM Option Id",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Saved CRM Option Id",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Is Option",
+      "tooltip": ""
+    }
+  ]
+}

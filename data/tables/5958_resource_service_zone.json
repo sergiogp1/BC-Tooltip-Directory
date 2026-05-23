@@ -1,0 +1,28 @@
+{
+  "id": 5958,
+  "name": "Resource Service Zone",
+  "slug": "5958_resource_service_zone",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Resource No.",
+      "tooltip": "Specifies the title of the resource located in the service zone."
+    },
+    {
+      "no": 2,
+      "name": "Service Zone Code",
+      "tooltip": "Specifies the code of the service zone where the resource will be located. A resource can be located in more than one zone at a time."
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date when the resource is located in the service zone."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the resource's assignment to the service zone."
+    }
+  ]
+}

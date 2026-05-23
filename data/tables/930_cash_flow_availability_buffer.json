@@ -1,0 +1,93 @@
+{
+  "id": 930,
+  "name": "Cash Flow Availability Buffer",
+  "slug": "930_cash_flow_availability_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the accounting period. it is a good idea to use descriptive names, such as Month01, 1st Month, 1st Month/2000, Month01-2000, M1-2001/2002, etc."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies on which date the period starts, such as the first day of March, if the period is Month."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Receivables",
+      "tooltip": "Specifies amounts related to receivables."
+    },
+    {
+      "no": 11,
+      "name": "Sales Orders",
+      "tooltip": "Specifies amounts related to sales orders."
+    },
+    {
+      "no": 12,
+      "name": "Service Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Fixed Assets Disposal",
+      "tooltip": "Specifies amounts related to fixed assets disposal."
+    },
+    {
+      "no": 14,
+      "name": "Cash Flow Manual Revenues",
+      "tooltip": "Specifies amounts related to manual revenues."
+    },
+    {
+      "no": 15,
+      "name": "Payables",
+      "tooltip": "Specifies amounts related to payables."
+    },
+    {
+      "no": 16,
+      "name": "Purchase Orders",
+      "tooltip": "Specifies amounts related to purchase orders."
+    },
+    {
+      "no": 17,
+      "name": "Fixed Assets Budget",
+      "tooltip": "Specifies amounts related to fixed assets."
+    },
+    {
+      "no": 18,
+      "name": "Cash Flow Manual Expenses",
+      "tooltip": "Specifies amounts related to manual expenses."
+    },
+    {
+      "no": 19,
+      "name": "G/L Budget",
+      "tooltip": "Specifies amounts related to the general ledger budget."
+    },
+    {
+      "no": 20,
+      "name": "Job",
+      "tooltip": "Specifies amounts related to projects."
+    },
+    {
+      "no": 21,
+      "name": "Tax",
+      "tooltip": "Specifies amounts related to taxes."
+    },
+    {
+      "no": 22,
+      "name": "Total",
+      "tooltip": "Specifies total amounts."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 7301,
+  "name": "Warehouse Employee",
+  "slug": "7301_warehouse_employee",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the user ID of a warehouse employee. Each user who performs warehouse activities must be set up as a warehouse employee and assigned to at least one location."
+    },
+    {
+      "no": 2,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location in which the employee works."
+    },
+    {
+      "no": 4,
+      "name": "Default",
+      "tooltip": "Specifies that the location code that is defined as the default location for this employee's activities."
+    },
+    {
+      "no": 7710,
+      "name": "ADCS User",
+      "tooltip": "Specifies the ADCS user name of a warehouse employee."
+    }
+  ]
+}

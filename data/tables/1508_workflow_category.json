@@ -1,0 +1,18 @@
+{
+  "id": 1508,
+  "name": "Workflow Category",
+  "slug": "1508_workflow_category",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the workflow category."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the workflow category."
+    }
+  ]
+}

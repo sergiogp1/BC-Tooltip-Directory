@@ -1,0 +1,33 @@
+{
+  "id": 7500,
+  "name": "Item Attribute",
+  "slug": "7500_item_attribute",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the item attribute."
+    },
+    {
+      "no": 6,
+      "name": "Blocked",
+      "tooltip": "Specifies that the attribute cannot be assigned to an item. Items to which the attribute is already assigned are not affected."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the type of the item attribute."
+    },
+    {
+      "no": 8,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    }
+  ]
+}

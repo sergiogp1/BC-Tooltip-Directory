@@ -1,0 +1,43 @@
+{
+  "id": 7501,
+  "name": "Item Attribute Value",
+  "slug": "7501_item_attribute_value",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Attribute ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Value",
+      "tooltip": "Specifies the value of the option."
+    },
+    {
+      "no": 4,
+      "name": "Numeric Value",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date Value",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Blocked",
+      "tooltip": "Specifies that the attribute value cannot be assigned to an item. Items to which the attribute value is already assigned are not affected."
+    },
+    {
+      "no": 10,
+      "name": "Attribute Name",
+      "tooltip": "Specifies the name of the item attribute."
+    }
+  ]
+}

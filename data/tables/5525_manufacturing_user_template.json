@@ -1,0 +1,68 @@
+{
+  "id": 5525,
+  "name": "Manufacturing User Template",
+  "slug": "5525_manufacturing_user_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Create Purchase Order",
+      "tooltip": "Specifies the filters users select in the Make Supply Orders window that opens from the Order Planning window."
+    },
+    {
+      "no": 3,
+      "name": "Create Production Order",
+      "tooltip": "Specifies the filters users select in the Make Supply Orders window that opens from the Order Planning window."
+    },
+    {
+      "no": 4,
+      "name": "Create Transfer Order",
+      "tooltip": "Specifies the filters users select in the Make Supply Orders window that opens from the Order Planning window."
+    },
+    {
+      "no": 5,
+      "name": "Create Assembly Order",
+      "tooltip": "Specifies the filters users select in the Make Supply Orders window that opens from the Order Planning window."
+    },
+    {
+      "no": 11,
+      "name": "Purchase Req. Wksh. Template",
+      "tooltip": "Specifies the template for the purchase requisition worksheet associated with this entry."
+    },
+    {
+      "no": 12,
+      "name": "Purchase Wksh. Name",
+      "tooltip": "Specifies the purchase worksheet name associated with this entry."
+    },
+    {
+      "no": 15,
+      "name": "Prod. Req. Wksh. Template",
+      "tooltip": "Specifies the production requisition worksheet template associated with this entry."
+    },
+    {
+      "no": 16,
+      "name": "Prod. Wksh. Name",
+      "tooltip": "Specifies the production worksheet name associated with this entry."
+    },
+    {
+      "no": 19,
+      "name": "Transfer Req. Wksh. Template",
+      "tooltip": "Specifies the transfer requisition worksheet template associated with this entry."
+    },
+    {
+      "no": 20,
+      "name": "Transfer Wksh. Name",
+      "tooltip": "Specifies the transfer worksheet name associated with this entry."
+    },
+    {
+      "no": 21,
+      "name": "Make Orders",
+      "tooltip": "Specifies the filters users select in the Make Supply Orders window that opens from the Order Planning window."
+    }
+  ]
+}

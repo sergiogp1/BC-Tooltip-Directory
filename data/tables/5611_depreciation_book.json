@@ -1,0 +1,243 @@
+{
+  "id": 5611,
+  "name": "Depreciation Book",
+  "slug": "5611_depreciation_book",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code that identifies the depreciation book."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the purpose of the depreciation book."
+    },
+    {
+      "no": 3,
+      "name": "G/L Integration - Acq. Cost",
+      "tooltip": "Specifies whether acquisition cost entries posted to this depreciation book are posted both to the general ledger and the FA ledger."
+    },
+    {
+      "no": 4,
+      "name": "G/L Integration - Depreciation",
+      "tooltip": "Specifies whether depreciation entries posted to this depreciation book are posted both to the general ledger and the FA ledger."
+    },
+    {
+      "no": 5,
+      "name": "G/L Integration - Write-Down",
+      "tooltip": "Specifies whether write-down entries posted to this depreciation book should be posted to the general ledger and the FA ledger."
+    },
+    {
+      "no": 6,
+      "name": "G/L Integration - Appreciation",
+      "tooltip": "Specifies whether appreciation entries posted to this depreciation book are posted to the general ledger and the FA ledger."
+    },
+    {
+      "no": 7,
+      "name": "G/L Integration - Custom 1",
+      "tooltip": "Specifies whether custom 1 entries posted to this depreciation book are posted to the general ledger and the FA ledger."
+    },
+    {
+      "no": 8,
+      "name": "G/L Integration - Custom 2",
+      "tooltip": "Specifies whether custom 2 entries posted to this depreciation book are posted to the general ledger and the FA ledger."
+    },
+    {
+      "no": 9,
+      "name": "G/L Integration - Disposal",
+      "tooltip": "Specifies whether disposal entries posted to this depreciation book are posted to the general ledger and the FA ledger."
+    },
+    {
+      "no": 10,
+      "name": "G/L Integration - Maintenance",
+      "tooltip": "Specifies whether maintenance entries that are posted to this depreciation book are posted both to the general ledger and the FA ledger."
+    },
+    {
+      "no": 11,
+      "name": "Disposal Calculation Method",
+      "tooltip": "Specifies the disposal method for the current depreciation book."
+    },
+    {
+      "no": 12,
+      "name": "Use Custom 1 Depreciation",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Allow Depr. below Zero",
+      "tooltip": "Specifies whether to allow the Calculate Depreciation batch job to continue calculating depreciation even if the book value is zero or below."
+    },
+    {
+      "no": 14,
+      "name": "Use FA Exch. Rate in Duplic.",
+      "tooltip": "Specifies whether to use the FA Exchange Rate field when you duplicate entries from one depreciation book to another."
+    },
+    {
+      "no": 15,
+      "name": "Part of Duplication List",
+      "tooltip": "Specifies whether to indicate that entries made in another depreciation book should be duplicated to this depreciation book."
+    },
+    {
+      "no": 16,
+      "name": "G/L Integration - Bonus Depr.",
+      "tooltip": "Specifies whether bonus depreciation entries that are posted to this depreciation book are posted both to the general ledger and the FA ledger."
+    },
+    {
+      "no": 17,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Allow Indexation",
+      "tooltip": "Specifies whether to allow indexation of FA ledger entries and maintenance ledger entries posted to this book."
+    },
+    {
+      "no": 19,
+      "name": "Use Same FA+G/L Posting Dates",
+      "tooltip": "Specifies whether to indicate that the Posting Date and the FA Posting Date must be the same on a journal line before posting."
+    },
+    {
+      "no": 20,
+      "name": "Default Exchange Rate",
+      "tooltip": "Specifies the exchange rate to use if the rate in the FA Exchange Rate field is zero."
+    },
+    {
+      "no": 23,
+      "name": "Use FA Ledger Check",
+      "tooltip": "Specifies which checks to perform before posting a journal line."
+    },
+    {
+      "no": 24,
+      "name": "Use Rounding in Periodic Depr.",
+      "tooltip": "Specifies whether the calculated periodic depreciation amounts should be rounded to whole numbers."
+    },
+    {
+      "no": 25,
+      "name": "New Fiscal Year Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "No. of Days in Fiscal Year",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Allow Changes in Depr. Fields",
+      "tooltip": "Specifies whether to allow the depreciation fields to be modified."
+    },
+    {
+      "no": 28,
+      "name": "Default Final Rounding Amount",
+      "tooltip": "Specifies the final rounding amount to use if the Final Rounding Amount field is zero."
+    },
+    {
+      "no": 29,
+      "name": "Default Ending Book Value",
+      "tooltip": "Specifies the ending book value to use if the Ending Book Value field is zero."
+    },
+    {
+      "no": 32,
+      "name": "Periodic Depr. Date Calc.",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Mark Errors as Corrections",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Add-Curr Exch Rate - Acq. Cost",
+      "tooltip": "Specifies that acquisition transactions in the general ledger can be in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 35,
+      "name": "Add.-Curr. Exch. Rate - Depr.",
+      "tooltip": "Specifies depreciation transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 36,
+      "name": "Add-Curr Exch Rate -Write-Down",
+      "tooltip": "Specifies write-down transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 37,
+      "name": "Add-Curr. Exch. Rate - Apprec.",
+      "tooltip": "Specifies appreciation transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 38,
+      "name": "Add-Curr. Exch Rate - Custom 1",
+      "tooltip": "Specifies that custom 1 transactions in the general ledger can be in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 39,
+      "name": "Add-Curr. Exch Rate - Custom 2",
+      "tooltip": "Specifies custom 2 transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 40,
+      "name": "Add.-Curr. Exch. Rate - Disp.",
+      "tooltip": "Specifies disposal transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 41,
+      "name": "Add.-Curr. Exch. Rate - Maint.",
+      "tooltip": "Specifies maintenance transactions in the general ledger in both LCY and any additional reporting currency."
+    },
+    {
+      "no": 42,
+      "name": "Use Default Dimension",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Subtract Disc. in Purch. Inv.",
+      "tooltip": "Specifies that the line and invoice discount are subtracted from the acquisition cost posted for the fixed asset."
+    },
+    {
+      "no": 44,
+      "name": "Allow Correction of Disposal",
+      "tooltip": "Specifies whether to correct fixed ledger entries of the Disposal type."
+    },
+    {
+      "no": 45,
+      "name": "Allow more than 360/365 Days",
+      "tooltip": "Specifies if the fiscal year has more than 360 depreciation days."
+    },
+    {
+      "no": 46,
+      "name": "VAT on Net Disposal Entries",
+      "tooltip": "Specifies whether you sell a fixed asset with the net disposal method."
+    },
+    {
+      "no": 47,
+      "name": "Allow Acq. Cost below Zero",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Allow Identical Document No.",
+      "tooltip": "Specifies the check box for this field to allow identical document numbers in the depreciation book."
+    },
+    {
+      "no": 49,
+      "name": "Fiscal Year 365 Days",
+      "tooltip": "Specifies that when the Calculate Depreciation batch job calculates depreciations, a standardized year of 360 days, where each month has 30 days, is used."
+    },
+    {
+      "no": 50,
+      "name": "Use Bonus Depreciation",
+      "tooltip": "Specifies if the bonus depreciation should be used in this book."
+    },
+    {
+      "no": 10500,
+      "name": "Use Accounting Period",
+      "tooltip": "Specifies if you want the periods between start date and ending date to correspond to the accounting periods that you have set up."
+    }
+  ]
+}

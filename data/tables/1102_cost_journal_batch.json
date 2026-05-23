@@ -1,0 +1,53 @@
+{
+  "id": 1102,
+  "name": "Cost Journal Batch",
+  "slug": "1102_cost_journal_batch",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cost journal batch."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the cost journal batch."
+    },
+    {
+      "no": 4,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 9,
+      "name": "Bal. Cost Type No.",
+      "tooltip": "Specifies the number of the type that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 10,
+      "name": "Bal. Cost Center Code",
+      "tooltip": "Specifies the number of the cost center that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 11,
+      "name": "Bal. Cost Object Code",
+      "tooltip": "Specifies the number of the cost center that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 12,
+      "name": "Delete after Posting",
+      "tooltip": "Specifies if the posted journal lines are deleted. If the check box is not selected, you can use the posted journal lines again. After the posting, only the posting date is deleted. You can use the option for monthly recurring cost entries."
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this journal batch."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 5801,
+  "name": "Cost Adj. Item Bucket",
+  "slug": "5801_cost_adj_item_bucket",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number of the item batch."
+    },
+    {
+      "no": 2,
+      "name": "Item Filter",
+      "tooltip": "Specifies the item filter that is used to select the items to be adjusted."
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": "Specifies the status of the cost adjustment process."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the date and time when the cost adjustment process started."
+    },
+    {
+      "no": 5,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the date and time when the cost adjustment process ended or was canceled."
+    },
+    {
+      "no": 6,
+      "name": "Timeout (Minutes)",
+      "tooltip": "Specifies the number of minutes that the cost adjustment process is allowed to run before it is canceled."
+    },
+    {
+      "no": 7,
+      "name": "Company",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Post to G/L",
+      "tooltip": "Specifies whether the cost adjustment process should post the cost adjustment entries to the general ledger."
+    },
+    {
+      "no": 9,
+      "name": "Trace",
+      "tooltip": "Specifies whether you want to trace the next cost adjustment run. It can be used to pinpoint issues in the cost adjustment process."
+    },
+    {
+      "no": 11,
+      "name": "Last Error",
+      "tooltip": "Specifies the last error that occurred during the cost adjustment process."
+    },
+    {
+      "no": 12,
+      "name": "Last Error Call Stack",
+      "tooltip": "Specifies the call stack of the last error that occurred during the cost adjustment process."
+    },
+    {
+      "no": 13,
+      "name": "Failed Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Reschedule Count",
+      "tooltip": "Specifies the number of times that the cost adjustment process is allowed to be retried if it fails."
+    }
+  ]
+}

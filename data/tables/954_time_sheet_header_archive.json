@@ -1,0 +1,88 @@
+{
+  "id": 954,
+  "name": "Time Sheet Header Archive",
+  "slug": "954_time_sheet_header_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date for a time sheet."
+    },
+    {
+      "no": 4,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date for a time sheet."
+    },
+    {
+      "no": 5,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource for the time sheet."
+    },
+    {
+      "no": 7,
+      "name": "Owner User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Approver User ID",
+      "tooltip": "Specifies the ID of the time sheet approver."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description for the time sheet."
+    },
+    {
+      "no": 11,
+      "name": "Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Job No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Job Task No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Posted Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Type Filter",
+      "tooltip": ""
+    }
+  ]
+}

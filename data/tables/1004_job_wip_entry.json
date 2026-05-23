@@ -1,0 +1,123 @@
+{
+  "id": 1004,
+  "name": "Job WIP Entry",
+  "slug": "1004_job_wip_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number you entered in the Document No. field on the Options FastTab in the Project Calculate WIP batch job."
+    },
+    {
+      "no": 4,
+      "name": "G/L Account No.",
+      "tooltip": "Specifies the general ledger account number to which the WIP on this entry will be posted, if you run the Project Post WIP to the general ledger batch job."
+    },
+    {
+      "no": 5,
+      "name": "WIP Posting Date",
+      "tooltip": "Specifies the posting date you entered in the Posting Date field on the Options FastTab in the Project Calculate WIP batch job."
+    },
+    {
+      "no": 6,
+      "name": "WIP Entry Amount",
+      "tooltip": "Specifies the WIP amount that will be posted for this entry, if you run the Project Post WIP to G/L batch job."
+    },
+    {
+      "no": 7,
+      "name": "Job Posting Group",
+      "tooltip": "Specifies the posting group related to this entry."
+    },
+    {
+      "no": 8,
+      "name": "Type",
+      "tooltip": "Specifies the WIP type for this entry."
+    },
+    {
+      "no": 9,
+      "name": "G/L Bal. Account No.",
+      "tooltip": "Specifies the general ledger balancing account number that WIP on this entry will be posted to, if you run the Project Post WIP to general ledger batch job."
+    },
+    {
+      "no": 10,
+      "name": "WIP Method Used",
+      "tooltip": "Specifies the WIP method that was specified for the project when you ran the Project Calculate WIP batch job."
+    },
+    {
+      "no": 11,
+      "name": "Job Complete",
+      "tooltip": "Specifies whether the Project WIP Entry was created for a project with a Completed status."
+    },
+    {
+      "no": 12,
+      "name": "Job WIP Total Entry No.",
+      "tooltip": "Specifies the entry number of the WIP total."
+    },
+    {
+      "no": 13,
+      "name": "Reverse",
+      "tooltip": "Specifies whether the entry has been part of a reverse transaction (correction) made by the reverse function."
+    },
+    {
+      "no": 14,
+      "name": "WIP Posting Method Used",
+      "tooltip": "Specifies the WIP posting method used. The information in this field comes from the setting you have specified on the project card."
+    },
+    {
+      "no": 60,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 61,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

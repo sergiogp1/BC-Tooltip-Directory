@@ -1,0 +1,43 @@
+{
+  "id": 6700,
+  "name": "Exchange Sync",
+  "slug": "6700_exchange_sync",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 2,
+      "name": "Enabled",
+      "tooltip": "Specifies that data synchronization can occur while users perform related tasks."
+    },
+    {
+      "no": 3,
+      "name": "Exchange Service URI",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Exchange Account Password Key",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Last Sync Date Time",
+      "tooltip": "Specifies the last date/time that the Exchange server was synchronized."
+    },
+    {
+      "no": 7,
+      "name": "Folder ID",
+      "tooltip": "Specifies the public folder on the Exchange server that you want to use for your queue and storage folders."
+    },
+    {
+      "no": 9,
+      "name": "Filter",
+      "tooltip": ""
+    }
+  ]
+}

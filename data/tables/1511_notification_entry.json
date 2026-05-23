@@ -1,0 +1,58 @@
+{
+  "id": 1511,
+  "name": "Notification Entry",
+  "slug": "1511_notification_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the notification entry."
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies the type of notification."
+    },
+    {
+      "no": 4,
+      "name": "Recipient User ID",
+      "tooltip": "Specifies the user who received the notification."
+    },
+    {
+      "no": 5,
+      "name": "Triggered By Record",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Link Target Page",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Custom Link",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Error Message",
+      "tooltip": "Specifies an error that relates to the notification entry."
+    },
+    {
+      "no": 9,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies the date and time that the notification was created."
+    },
+    {
+      "no": 10,
+      "name": "Created By",
+      "tooltip": "Specifies the user who created the notification."
+    },
+    {
+      "no": 18,
+      "name": "Sender User ID",
+      "tooltip": ""
+    }
+  ]
+}

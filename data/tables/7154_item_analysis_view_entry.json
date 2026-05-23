@@ -1,0 +1,108 @@
+{
+  "id": 7154,
+  "name": "Item Analysis View Entry",
+  "slug": "7154_item_analysis_view_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Analysis View Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number to which the item ledger entry in an analysis view entry was posted."
+    },
+    {
+      "no": 4,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location to which the item ledger entry in an analysis view entry was posted."
+    },
+    {
+      "no": 9,
+      "name": "Dimension 1 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 1 on the analysis view card."
+    },
+    {
+      "no": 10,
+      "name": "Dimension 2 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 2 on the analysis view card."
+    },
+    {
+      "no": 11,
+      "name": "Dimension 3 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 3 on the analysis view card."
+    },
+    {
+      "no": 12,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the item ledger entry in an analysis view entry was posted."
+    },
+    {
+      "no": 13,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Item Ledger Entry Type",
+      "tooltip": "Specifies which type of transaction that the entry is created from."
+    },
+    {
+      "no": 15,
+      "name": "Entry Type",
+      "tooltip": "Specifies the value entry type for an analysis view entry."
+    },
+    {
+      "no": 21,
+      "name": "Invoiced Quantity",
+      "tooltip": "Specifies the sum of the quantity invoiced for the item ledger entries included in the analysis view entry."
+    },
+    {
+      "no": 22,
+      "name": "Sales Amount (Actual)",
+      "tooltip": "Specifies the sum of the actual sales amounts posted for the item ledger entries included in the analysis view entry."
+    },
+    {
+      "no": 23,
+      "name": "Cost Amount (Actual)",
+      "tooltip": "Specifies the sum of the actual cost amounts posted for the item ledger entries included in the analysis view entry."
+    },
+    {
+      "no": 24,
+      "name": "Cost Amount (Non-Invtbl.)",
+      "tooltip": "Specifies the sum of the non-inventoriable cost amounts posted for the item ledger entries included in the analysis view entry."
+    },
+    {
+      "no": 31,
+      "name": "Quantity",
+      "tooltip": "Specifies the sum of the quantity for the item ledger entries included in the analysis view entry."
+    },
+    {
+      "no": 32,
+      "name": "Sales Amount (Expected)",
+      "tooltip": "Specifies the sum of the expected sales amounts posted for the item ledger entries, included in the analysis view entry."
+    },
+    {
+      "no": 33,
+      "name": "Cost Amount (Expected)",
+      "tooltip": "Specifies the sum of the expected cost amounts posted for the item ledger entries included in the analysis view entry."
+    }
+  ]
+}

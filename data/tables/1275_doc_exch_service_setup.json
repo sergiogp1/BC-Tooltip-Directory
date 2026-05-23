@@ -1,0 +1,123 @@
+{
+  "id": 1275,
+  "name": "Doc. Exch. Service Setup",
+  "slug": "1275_doc_exch_service_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Sign-up URL",
+      "tooltip": "Specifies the web page where you sign up for the document exchange service."
+    },
+    {
+      "no": 5,
+      "name": "Service URL",
+      "tooltip": "Specifies the URL address of the document exchange service. The service specified in the Service URL field is called when you send and receive electronic documents."
+    },
+    {
+      "no": 6,
+      "name": "Sign-in URL",
+      "tooltip": "Specifies the web page where you sign in to the document exchange service."
+    },
+    {
+      "no": 7,
+      "name": "Consumer Key",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Consumer Secret",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Token",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Token Secret",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Doc. Exch. Tenant ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "User Agent",
+      "tooltip": "Specifies any text that you have entered to identify your company in document exchange processes."
+    },
+    {
+      "no": 13,
+      "name": "Client Id",
+      "tooltip": "Specifies the client ID of the application that will be used to connect to the document exchange service."
+    },
+    {
+      "no": 14,
+      "name": "Client Secret Key",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Redirect URL",
+      "tooltip": "Specifies the redirect URL of the application that will be used to to the document exchange service."
+    },
+    {
+      "no": 16,
+      "name": "Auth URL",
+      "tooltip": "Specifies the authentication URL address of the document exchange service."
+    },
+    {
+      "no": 17,
+      "name": "Token URL",
+      "tooltip": "Specifies the token URL address of the document exchange service."
+    },
+    {
+      "no": 18,
+      "name": "Access Token Key",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Refresh Token Key",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Enabled",
+      "tooltip": "Specifies if the service is enabled. When you enable the service, at least two job queue entries are created to process the traffic of electronic documents in and out of Microsoft Dynamics 365."
+    },
+    {
+      "no": 21,
+      "name": "Log Web Requests",
+      "tooltip": "Specifies if web requests occurring in connection with the service are logged. The log is located in the server Temp folder."
+    },
+    {
+      "no": 24,
+      "name": "Token Subject",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Token Issued At",
+      "tooltip": "Specifies the time at which the token was issued."
+    },
+    {
+      "no": 27,
+      "name": "Id Token",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Token Expired",
+      "tooltip": "Specifies whether the token has expired."
+    }
+  ]
+}

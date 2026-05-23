@@ -1,0 +1,18 @@
+{
+  "id": 7307,
+  "name": "Put-away Template Header",
+  "slug": "7307_put_away_template_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the put-away template header."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the put-away template header."
+    }
+  ]
+}

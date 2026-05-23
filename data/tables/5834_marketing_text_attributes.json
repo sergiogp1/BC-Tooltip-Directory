@@ -1,0 +1,23 @@
+{
+  "id": 5834,
+  "name": "Marketing Text Attributes",
+  "slug": "5834_marketing_text_attributes",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Selected",
+      "tooltip": "Specifies if the attribute should be used to generate the marketing text."
+    },
+    {
+      "no": 2,
+      "name": "Property",
+      "tooltip": "Specifies the name of the attribute."
+    },
+    {
+      "no": 3,
+      "name": "Value",
+      "tooltip": "Specifies the value of the attribute."
+    }
+  ]
+}

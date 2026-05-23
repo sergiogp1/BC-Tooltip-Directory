@@ -1,0 +1,53 @@
+{
+  "id": 404,
+  "name": "Change Log Setup (Field)",
+  "slug": "404_change_log_setup_field",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Field No.",
+      "tooltip": "Specifies the identifier of the monitored field."
+    },
+    {
+      "no": 3,
+      "name": "Field Caption",
+      "tooltip": "Specifies the name of the monitored field."
+    },
+    {
+      "no": 4,
+      "name": "Log Insertion",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Log Modification",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Log Deletion",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Monitor Sensitive Field",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Notify",
+      "tooltip": "Specifies whether to send an email notification when the value in this monitored field is changed. The email is sent to the recipient specified on the Field Monitoring Setup page."
+    },
+    {
+      "no": 9,
+      "name": "Table Caption",
+      "tooltip": "Specifies the name of the table that includes the monitored field."
+    }
+  ]
+}

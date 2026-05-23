@@ -1,0 +1,33 @@
+{
+  "id": 201,
+  "name": "Resource Price",
+  "slug": "201_resource_price",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the type."
+    },
+    {
+      "no": 3,
+      "name": "Code",
+      "tooltip": "Specifies the code."
+    },
+    {
+      "no": 4,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 5,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 6,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the alternate sales price on this line."
+    }
+  ]
+}

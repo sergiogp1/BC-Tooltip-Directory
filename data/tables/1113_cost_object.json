@@ -1,0 +1,78 @@
+{
+  "id": 1113,
+  "name": "Cost Object",
+  "slug": "1113_cost_object",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the cost object."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cost object."
+    },
+    {
+      "no": 3,
+      "name": "Cost Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the account balance during the time period in the Date Filter field."
+    },
+    {
+      "no": 6,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the cost type balance on the last date that is included in the Date Filter field. The contents of the field are calculated by using the entries in the Amount field in the Cost Entry table."
+    },
+    {
+      "no": 7,
+      "name": "Sorting Order",
+      "tooltip": "Specifies the sorting order of the cost objects."
+    },
+    {
+      "no": 8,
+      "name": "Comment",
+      "tooltip": "Specifies a description that applies."
+    },
+    {
+      "no": 9,
+      "name": "Line Type",
+      "tooltip": "Specifies the purpose of the cost object, such as Cost Object, Heading, or Begin-Total. Newly created cost objects are automatically assigned the Cost Object type, but you can change this."
+    },
+    {
+      "no": 10,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 11,
+      "name": "New Page",
+      "tooltip": "Specifies if you want a new page to start immediately after this cost center when you print the chart of cash flow accounts."
+    },
+    {
+      "no": 12,
+      "name": "Blank Line",
+      "tooltip": "Specifies whether you want a blank line to appear immediately after this cost center when you print the chart of cost centers. The New Page, Blank Line, and Indentation fields define the layout of the chart of cost centers."
+    },
+    {
+      "no": 13,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Totaling",
+      "tooltip": "Specifies an account interval or a list of account numbers. The entries of the account will be totaled to give a total balance. How entries are totaled depends on the value in the Account Type field."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 737,
+  "name": "VAT Return Period",
+  "slug": "737_vat_return_period",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Period Key",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Start Date",
+      "tooltip": "Specifies the start date of the VAT return period."
+    },
+    {
+      "no": 5,
+      "name": "End Date",
+      "tooltip": "Specifies the end date of the VAT return period."
+    },
+    {
+      "no": 6,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date for the VAT return period."
+    },
+    {
+      "no": 7,
+      "name": "Status",
+      "tooltip": "Specifies the status of the VAT return period."
+    },
+    {
+      "no": 8,
+      "name": "Received Date",
+      "tooltip": "Specifies the VAT return period received date."
+    },
+    {
+      "no": 20,
+      "name": "VAT Return No.",
+      "tooltip": "Specifies the number of the associated VAT return."
+    },
+    {
+      "no": 21,
+      "name": "VAT Return Status",
+      "tooltip": ""
+    }
+  ]
+}

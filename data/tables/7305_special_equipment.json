@@ -1,0 +1,18 @@
+{
+  "id": 7305,
+  "name": "Special Equipment",
+  "slug": "7305_special_equipment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the special equipment."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the special equipment."
+    }
+  ]
+}

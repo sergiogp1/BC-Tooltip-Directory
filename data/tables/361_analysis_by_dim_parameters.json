@@ -1,0 +1,123 @@
+{
+  "id": 361,
+  "name": "Analysis by Dim. Parameters",
+  "slug": "361_analysis_by_dim_parameters",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis View Code",
+      "tooltip": "Specifies the code for the analysis view that the filter belongs to."
+    },
+    {
+      "no": 3,
+      "name": "Line Dim Option",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Column Dim Option",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date Filter",
+      "tooltip": "Specifies the dates that will be used to filter the amounts in the window."
+    },
+    {
+      "no": 6,
+      "name": "Account Filter",
+      "tooltip": "Specifies a filter for the general ledger accounts for which entries will be shown in the matrix window."
+    },
+    {
+      "no": 7,
+      "name": "Bus. Unit Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Cash Flow Forecast Filter",
+      "tooltip": "Specifies the cash flow forecast that information in the matrix is shown for."
+    },
+    {
+      "no": 9,
+      "name": "Budget Filter",
+      "tooltip": "Specifies the budget that information in the matrix is shown for."
+    },
+    {
+      "no": 10,
+      "name": "Dimension 1 Filter",
+      "tooltip": "Specifies a filter for the Dimension 1 for which entries will be shown in the matrix window."
+    },
+    {
+      "no": 11,
+      "name": "Dimension 2 Filter",
+      "tooltip": "Specifies a filter for the Dimension 2 for which entries will be shown in the matrix window."
+    },
+    {
+      "no": 12,
+      "name": "Dimension 3 Filter",
+      "tooltip": "Specifies a filter for the Dimension 3 for which entries will be shown in the matrix window."
+    },
+    {
+      "no": 13,
+      "name": "Dimension 4 Filter",
+      "tooltip": "Specifies a filter for the Dimension 4 for which entries will be shown in the matrix window."
+    },
+    {
+      "no": 20,
+      "name": "Show Actual/Budgets",
+      "tooltip": "Specifies if the selected value is shown in the window."
+    },
+    {
+      "no": 21,
+      "name": "Show Amount Field",
+      "tooltip": "Specifies the type of entries that will be included in the matrix window. The Amount options means that amounts that are the sum of debit and credit amounts are shown."
+    },
+    {
+      "no": 22,
+      "name": "Closing Entries",
+      "tooltip": "Specifies whether the amounts shown in the matrix window will include closing entries."
+    },
+    {
+      "no": 23,
+      "name": "Rounding Factor",
+      "tooltip": "Specifies the factor that is used to round the amounts."
+    },
+    {
+      "no": 24,
+      "name": "Show In Add. Currency",
+      "tooltip": "Specifies if the reported amounts are shown in the additional reporting currency."
+    },
+    {
+      "no": 25,
+      "name": "Show Column Name",
+      "tooltip": "Specifies that the names of columns are shown in the matrix window."
+    },
+    {
+      "no": 26,
+      "name": "Show Opposite Sign",
+      "tooltip": "Specifies whether to show debits as negative amounts (with minus signs) and credits as positive amounts in the matrix window."
+    },
+    {
+      "no": 30,
+      "name": "Period Type",
+      "tooltip": "Specifies by which period amounts are displayed."
+    },
+    {
+      "no": 31,
+      "name": "Column Set",
+      "tooltip": "Specifies the range of values that are displayed in the matrix window, for example, the total period. To change the contents of the field, choose Next Set or Previous Set."
+    },
+    {
+      "no": 33,
+      "name": "Amount Type",
+      "tooltip": "Specifies how amounts are displayed. Net Change: The net change in the balance for the selected period. Balance at Date: The balance as of the last day in the selected period."
+    },
+    {
+      "no": 34,
+      "name": "Analysis Account Source",
+      "tooltip": ""
+    }
+  ]
+}

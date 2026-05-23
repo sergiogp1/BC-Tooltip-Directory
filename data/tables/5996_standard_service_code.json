@@ -1,0 +1,23 @@
+{
+  "id": 5996,
+  "name": "Standard Service Code",
+  "slug": "5996_standard_service_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a standard service code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service the standard service code represents."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency on the standard service lines linked to the standard service code."
+    }
+  ]
+}

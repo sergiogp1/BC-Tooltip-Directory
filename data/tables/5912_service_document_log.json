@@ -1,0 +1,58 @@
+{
+  "id": 5912,
+  "name": "Service Document Log",
+  "slug": "5912_service_document_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the service document that has undergone changes."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Event No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Service Item Line No.",
+      "tooltip": "Specifies the number of the service item line, if the event is linked to a service item line."
+    },
+    {
+      "no": 5,
+      "name": "After",
+      "tooltip": "Specifies the contents of the modified field after the event takes place."
+    },
+    {
+      "no": 6,
+      "name": "Before",
+      "tooltip": "Specifies the contents of the modified field before the event takes place."
+    },
+    {
+      "no": 7,
+      "name": "Change Date",
+      "tooltip": "Specifies the date of the event."
+    },
+    {
+      "no": 8,
+      "name": "Change Time",
+      "tooltip": "Specifies the time of the event."
+    },
+    {
+      "no": 9,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 10,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the service document that underwent changes."
+    }
+  ]
+}

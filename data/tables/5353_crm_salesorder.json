@@ -1,0 +1,533 @@
+{
+  "id": 5353,
+  "name": "CRM Salesorder",
+  "slug": "5353_crm_salesorder",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "SalesOrderId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OpportunityId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "QuoteId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "PriorityCode",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "SubmitStatus",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "SubmitDate",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "SubmitStatusDescription",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "PriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "LastBackofficeSubmit",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "ContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "OrderNumber",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 15,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 16,
+      "name": "PricingErrorCode",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "DiscountAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 19,
+      "name": "FreightAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "TotalAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 21,
+      "name": "TotalLineItemAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 22,
+      "name": "TotalLineItemDiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "TotalAmountLessFreight",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity."
+    },
+    {
+      "no": 24,
+      "name": "TotalDiscountAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 25,
+      "name": "RequestDeliveryBy",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 26,
+      "name": "TotalTax",
+      "tooltip": "Specifies the sum of TAX amounts on all lines in the document."
+    },
+    {
+      "no": 30,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "StateCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 35,
+      "name": "StatusCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 36,
+      "name": "ShipTo_Name",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 37,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "ShipTo_Line1",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 39,
+      "name": "ShipTo_Line2",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 40,
+      "name": "ShipTo_Line3",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 41,
+      "name": "ShipTo_City",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 42,
+      "name": "ShipTo_StateOrProvince",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 43,
+      "name": "ShipTo_Country",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 44,
+      "name": "ShipTo_PostalCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 45,
+      "name": "WillCall",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 46,
+      "name": "ShipTo_Telephone",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 47,
+      "name": "BillTo_Name",
+      "tooltip": "Specifies the name at the address that the invoice will be sent to."
+    },
+    {
+      "no": 48,
+      "name": "ShipTo_FreightTermsCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 49,
+      "name": "ShipTo_Fax",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 50,
+      "name": "BillTo_Line1",
+      "tooltip": "Specifies the street of the address that the invoice will be sent to."
+    },
+    {
+      "no": 51,
+      "name": "BillTo_Line2",
+      "tooltip": "Specifies the additional street information of the address that the invoice will be sent to."
+    },
+    {
+      "no": 52,
+      "name": "BillTo_Line3",
+      "tooltip": "Specifies the additional street information of the address that the invoice will be sent to."
+    },
+    {
+      "no": 53,
+      "name": "BillTo_City",
+      "tooltip": "Specifies the city of the address that the invoice will be sent to."
+    },
+    {
+      "no": 54,
+      "name": "BillTo_StateOrProvince",
+      "tooltip": "Specifies the state/province of the address that the invoice will be sent to."
+    },
+    {
+      "no": 55,
+      "name": "BillTo_Country",
+      "tooltip": "Specifies the country/region of the address that the invoice will be sent to."
+    },
+    {
+      "no": 56,
+      "name": "BillTo_PostalCode",
+      "tooltip": "Specifies the ZIP/postal code of the address that the invoice will be sent to."
+    },
+    {
+      "no": 57,
+      "name": "BillTo_Telephone",
+      "tooltip": "Specifies the phone number at the address that the invoice will be sent to."
+    },
+    {
+      "no": 58,
+      "name": "BillTo_Fax",
+      "tooltip": "Specifies the fax number at the address that the invoice will be sent to."
+    },
+    {
+      "no": 59,
+      "name": "DiscountPercentage",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 60,
+      "name": "ContactIdName",
+      "tooltip": "Specifies the contact person at the customer."
+    },
+    {
+      "no": 61,
+      "name": "AccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "OpportunityIdName",
+      "tooltip": "Specifies the sales opportunity that is coupled to this Dynamics 365 Sales opportunity."
+    },
+    {
+      "no": 63,
+      "name": "QuoteIdName",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 64,
+      "name": "PriceLevelIdName",
+      "tooltip": "Specifies a list of your items and their prices, for example, to send to customers. You can create the list for specific customers, campaigns, currencies, or other criteria."
+    },
+    {
+      "no": 65,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "CustomerId",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "CustomerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "BillTo_ContactName",
+      "tooltip": "Specifies the contact person at the address that the invoice will be sent to."
+    },
+    {
+      "no": 72,
+      "name": "BillTo_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "ShipTo_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "IsPriceLocked",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 75,
+      "name": "DateFulfilled",
+      "tooltip": "Specifies when the sales order was delivered."
+    },
+    {
+      "no": 76,
+      "name": "ShipTo_ContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "TotalLineItemAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "TotalDiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "TotalAmountLessFreight_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "TotalAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 88,
+      "name": "DiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "FreightAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "TotalLineItemDiscountAmount_Ba",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "TotalTax_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "BillTo_Composite",
+      "tooltip": "Specifies the address that the invoice will be sent to."
+    },
+    {
+      "no": 98,
+      "name": "ShipTo_Composite",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 99,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "CompanyId",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "PaymentTermsCodeEnum",
+      "tooltip": "Specifies the payment terms that you select from on customer cards to define when the customer must pay, such as within 14 days."
+    },
+    {
+      "no": 105,
+      "name": "ShippingMethodCodeEnum",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 106,
+      "name": "FreightTermsCodeEnum",
+      "tooltip": "Specifies the shipment method."
+    },
+    {
+      "no": 107,
+      "name": "BusinessCentralOrderNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "BusinessCentralDocumentOccurrenceNumber",
+      "tooltip": ""
+    }
+  ]
+}

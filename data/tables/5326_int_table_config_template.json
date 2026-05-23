@@ -1,0 +1,43 @@
+{
+  "id": 5326,
+  "name": "Int. Table Config Template",
+  "slug": "5326_int_table_config_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Integration Table Mapping Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Integration Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Int. Tbl. Config Template Code",
+      "tooltip": "Specifies a configuration template to use when creating new records in the Dataverse table during synchronization."
+    },
+    {
+      "no": 5,
+      "name": "Table Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the configuration template."
+    },
+    {
+      "no": 7,
+      "name": "Table ID",
+      "tooltip": ""
+    }
+  ]
+}

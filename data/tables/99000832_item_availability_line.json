@@ -1,0 +1,28 @@
+{
+  "id": 99000832,
+  "name": "Item Availability Line",
+  "slug": "99000832_item_availability_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name for this entry."
+    },
+    {
+      "no": 3,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity for this entry."
+    },
+    {
+      "no": 5,
+      "name": "QuerySource",
+      "tooltip": ""
+    }
+  ]
+}

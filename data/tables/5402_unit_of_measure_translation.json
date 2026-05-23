@@ -1,0 +1,23 @@
+{
+  "id": 5402,
+  "name": "Unit of Measure Translation",
+  "slug": "5402_unit_of_measure_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the unit of measure code for which you want to enter a translation."
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the unit of measure code that corresponds to Code in the selected foreign language."
+    }
+  ]
+}

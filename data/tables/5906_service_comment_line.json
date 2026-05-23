@@ -1,0 +1,48 @@
+{
+  "id": 5906,
+  "name": "Service Comment Line",
+  "slug": "5906_service_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Table Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the service comment."
+    },
+    {
+      "no": 7,
+      "name": "Date",
+      "tooltip": "Specifies the date you entered the service comment."
+    },
+    {
+      "no": 8,
+      "name": "Table Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Table Name",
+      "tooltip": ""
+    }
+  ]
+}

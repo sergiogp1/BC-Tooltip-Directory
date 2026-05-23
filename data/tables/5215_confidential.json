@@ -1,0 +1,18 @@
+{
+  "id": 5215,
+  "name": "Confidential",
+  "slug": "5215_confidential",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the confidential information."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the confidential information."
+    }
+  ]
+}

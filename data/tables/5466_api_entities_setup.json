@@ -1,0 +1,23 @@
+{
+  "id": 5466,
+  "name": "API Entities Setup",
+  "slug": "5466_api_entities_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "PrimaryKey",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Customer Payments Batch Name",
+      "tooltip": "Specifies the default customer payments batch name of the integration journal."
+    },
+    {
+      "no": 4,
+      "name": "Demo Company API Initialized",
+      "tooltip": ""
+    }
+  ]
+}

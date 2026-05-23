@@ -1,0 +1,18 @@
+{
+  "id": 5220,
+  "name": "Human Resource Unit of Measure",
+  "slug": "5220_human_resource_unit_of_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies one of the unit of measure codes."
+    },
+    {
+      "no": 2,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the quantity, per unit of measure."
+    }
+  ]
+}

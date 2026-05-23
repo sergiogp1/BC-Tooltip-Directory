@@ -1,0 +1,23 @@
+{
+  "id": 1670,
+  "name": "Option Lookup Buffer",
+  "slug": "1670_option_lookup_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Option Caption",
+      "tooltip": "Specifies the type of transaction you want to make. The value in this field determines what you can select in the No. field."
+    },
+    {
+      "no": 3,
+      "name": "Lookup Type",
+      "tooltip": ""
+    }
+  ]
+}

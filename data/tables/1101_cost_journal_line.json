@@ -1,0 +1,148 @@
+{
+  "id": 1101,
+  "name": "Cost Journal Line",
+  "slug": "1101_cost_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Cost Type No.",
+      "tooltip": "Specifies the subtype of the cost center. This is an information field and is not used for any other purposes. Choose the field to select the cost subtype."
+    },
+    {
+      "no": 5,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the related document."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the cost journal entry."
+    },
+    {
+      "no": 9,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Bal. Cost Type No.",
+      "tooltip": "Specifies the number of the type that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 16,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry in the cost journal."
+    },
+    {
+      "no": 17,
+      "name": "Balance",
+      "tooltip": "Specifies the balance of the cost type."
+    },
+    {
+      "no": 18,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 19,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 20,
+      "name": "Cost Center Code",
+      "tooltip": "Specifies the cost center code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 21,
+      "name": "Cost Object Code",
+      "tooltip": "Specifies the cost object code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 22,
+      "name": "Bal. Cost Center Code",
+      "tooltip": "Specifies the number of the cost center that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 23,
+      "name": "Bal. Cost Object Code",
+      "tooltip": "Specifies the number of the cost center that a balancing entry for the journal line is posted to."
+    },
+    {
+      "no": 27,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "G/L Entry No.",
+      "tooltip": "Specifies the entry number of the corresponding general ledger entry that is associated with this cost entry. For combined entries, the entry number of the last general ledger entry is saved in the field. This is the entry with the highest entry number."
+    },
+    {
+      "no": 30,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 31,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Cost Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Allocated",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Allocation Description",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Allocation ID",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Additional-Currency Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Add.-Currency Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Add.-Currency Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Budget Name",
+      "tooltip": ""
+    }
+  ]
+}

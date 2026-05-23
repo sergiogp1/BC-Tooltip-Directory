@@ -1,0 +1,58 @@
+{
+  "id": 5069,
+  "name": "Salutation Formula",
+  "slug": "5069_salutation_formula",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Salutation Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Salutation Type",
+      "tooltip": "Specifies whether the salutation is formal or informal. Make your selection by clicking the field."
+    },
+    {
+      "no": 4,
+      "name": "Salutation",
+      "tooltip": "Specifies the salutation itself."
+    },
+    {
+      "no": 5,
+      "name": "Name 1",
+      "tooltip": "Specifies a salutation. The options are: Job Title, First Name, Middle Name, Surname, Initials and Company Name."
+    },
+    {
+      "no": 6,
+      "name": "Name 2",
+      "tooltip": "Specifies a salutation. The options are: Job Title, First Name, Middle Name, Surname, Initials and Company Name."
+    },
+    {
+      "no": 7,
+      "name": "Name 3",
+      "tooltip": "Specifies a salutation. The options are: Job Title, First Name, Middle Name, Surname, Initials and Company Name."
+    },
+    {
+      "no": 8,
+      "name": "Name 4",
+      "tooltip": "Specifies a salutation. The options are: Job Title, First Name, Middle Name, Surname, Initials and Company Name."
+    },
+    {
+      "no": 9,
+      "name": "Name 5",
+      "tooltip": "Specifies a salutation."
+    },
+    {
+      "no": 10,
+      "name": "Contact No. Filter",
+      "tooltip": ""
+    }
+  ]
+}

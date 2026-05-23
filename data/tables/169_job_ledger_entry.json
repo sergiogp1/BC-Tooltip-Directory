@@ -1,0 +1,413 @@
+{
+  "id": 169,
+  "name": "Job Ledger Entry",
+  "slug": "169_job_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the project."
+    },
+    {
+      "no": 3,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date for the entry."
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the project ledger entry."
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the type of account to which the project ledger entry is posted."
+    },
+    {
+      "no": 7,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description of the project ledger entry."
+    },
+    {
+      "no": 9,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity that was posted on the entry."
+    },
+    {
+      "no": 11,
+      "name": "Direct Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in the local currency, of one unit of the selected item or resource."
+    },
+    {
+      "no": 12,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 13,
+      "name": "Total Cost (LCY)",
+      "tooltip": "Specifies the total cost of the posted entry in local currency. If you update the project ledger costs for item ledger cost adjustments, this field will be adjusted to include the item cost adjustments."
+    },
+    {
+      "no": 14,
+      "name": "Unit Price (LCY)",
+      "tooltip": "Specifies the price, in LCY, of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 15,
+      "name": "Total Price (LCY)",
+      "tooltip": "Specifies the total price (in local currency) of the posted entry."
+    },
+    {
+      "no": 16,
+      "name": "Resource Group No.",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 19,
+      "name": "Job Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies the relevant location code if an item is posted."
+    },
+    {
+      "no": 29,
+      "name": "Job Posting Group",
+      "tooltip": "Specifies the posting group that was used when the entry was posted. The value depends on the account type. For inventoriable items, the field contains the Inventory Posting Group. For other account types the field is blank."
+    },
+    {
+      "no": 30,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 31,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 32,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 33,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 38,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 40,
+      "name": "Shpt. Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Amt. to Post to G/L",
+      "tooltip": "Specifies the amount that will be posted to the general ledger."
+    },
+    {
+      "no": 61,
+      "name": "Amt. Posted to G/L",
+      "tooltip": "Specifies the amount that has been posted to the general ledger."
+    },
+    {
+      "no": 64,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of the entry. There are two types of entries:"
+    },
+    {
+      "no": 75,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 77,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 81,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 82,
+      "name": "Entry/Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Additional-Currency Total Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "Add.-Currency Total Price",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Add.-Currency Line Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 1000,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 1001,
+      "name": "Line Amount (LCY)",
+      "tooltip": "Specifies the value in the local currency of products on the entry."
+    },
+    {
+      "no": 1002,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 1003,
+      "name": "Total Cost",
+      "tooltip": "Specifies the total cost for the posted entry, in the currency specified for the project."
+    },
+    {
+      "no": 1004,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 1005,
+      "name": "Total Price",
+      "tooltip": "Specifies the total price for the posted entry, in the currency specified for the project."
+    },
+    {
+      "no": 1006,
+      "name": "Line Amount",
+      "tooltip": "Specifies the value of products on the entry."
+    },
+    {
+      "no": 1007,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the line discount amount for the posted entry, in the currency specified for the project."
+    },
+    {
+      "no": 1008,
+      "name": "Line Discount Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1009,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1010,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1016,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 1017,
+      "name": "Ledger Entry Type",
+      "tooltip": "Specifies the entry type that the project ledger entry is linked to."
+    },
+    {
+      "no": 1018,
+      "name": "Ledger Entry No.",
+      "tooltip": "Specifies the entry number (Resource, Item or G/L) to which the project ledger entry is linked."
+    },
+    {
+      "no": 1019,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number if the project ledger entry Specifies an item usage that was posted with serial number tracking."
+    },
+    {
+      "no": 1020,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number if the project ledger entry Specifies an item usage that was posted with lot number tracking."
+    },
+    {
+      "no": 1021,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the line discount percent of the posted entry."
+    },
+    {
+      "no": 1022,
+      "name": "Line Type",
+      "tooltip": ""
+    },
+    {
+      "no": 1023,
+      "name": "Original Unit Cost (LCY)",
+      "tooltip": "Specifies the unit cost of the posted entry in local currency at the time the entry was posted. It does not include any item cost adjustments."
+    },
+    {
+      "no": 1024,
+      "name": "Original Total Cost (LCY)",
+      "tooltip": "Specifies the total cost of the posted entry in local currency at the time the entry was posted. It does not include any item cost adjustments."
+    },
+    {
+      "no": 1025,
+      "name": "Original Unit Cost",
+      "tooltip": "Specifies the unit cost for the posted entry at the time of posting, in the currency specified for the project. No item cost adjustments are included."
+    },
+    {
+      "no": 1026,
+      "name": "Original Total Cost",
+      "tooltip": "Specifies the total cost for the posted entry at the time of posting, in the currency specified for the project. No item cost adjustments are included."
+    },
+    {
+      "no": 1027,
+      "name": "Original Total Cost (ACY)",
+      "tooltip": "Specifies the total cost of the posted entry in the additional reporting currency at the time of posting. No item cost adjustments are included."
+    },
+    {
+      "no": 1028,
+      "name": "Adjusted",
+      "tooltip": "Specifies whether a project ledger entry has been modified or adjusted. The value in this field is inserted by the Adjust Cost - Item Entries batch job. The Adjusted check box is selected if applicable."
+    },
+    {
+      "no": 1029,
+      "name": "DateTime Adjusted",
+      "tooltip": "Specifies the time stamp of a project ledger entry adjustment or modification."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5405,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": ""
+    }
+  ]
+}

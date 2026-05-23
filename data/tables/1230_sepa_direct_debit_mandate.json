@@ -1,0 +1,73 @@
+{
+  "id": 1230,
+  "name": "SEPA Direct Debit Mandate",
+  "slug": "1230_sepa_direct_debit_mandate",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the direct-debit mandate."
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer that the direct-debit mandate is activated for."
+    },
+    {
+      "no": 3,
+      "name": "Customer Bank Account Code",
+      "tooltip": "Specifies customer bank account that the direct-debit mandate is activated for."
+    },
+    {
+      "no": 4,
+      "name": "Valid From",
+      "tooltip": "Specifies the date when the direct-debit mandate starts."
+    },
+    {
+      "no": 5,
+      "name": "Valid To",
+      "tooltip": "Specifies the date when the direct-debit mandate ends."
+    },
+    {
+      "no": 6,
+      "name": "Date of Signature",
+      "tooltip": "Specifies when the direct-debit mandate was signed by the customer."
+    },
+    {
+      "no": 7,
+      "name": "Type of Payment",
+      "tooltip": "Specifies if the direct-debit transaction is the first or the last according to the expected number of direct-debit transactions that you entered in the Expected Number of Debits field."
+    },
+    {
+      "no": 8,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 9,
+      "name": "Expected Number of Debits",
+      "tooltip": "Specifies how many direct-debit transactions you expect to perform using the direct-debit mandate. This field is used to calculate when to enter First or Last in the Sequence Type field in the Direct Debit Collect. Entries window."
+    },
+    {
+      "no": 10,
+      "name": "Debit Counter",
+      "tooltip": "Specifies how many direct-debit transactions have been performed using the direct-debit mandate."
+    },
+    {
+      "no": 11,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Closed",
+      "tooltip": "Specifies that the direct-debit mandate is closed, for example because the date in the Valid To field has been exceeded."
+    },
+    {
+      "no": 13,
+      "name": "Ignore Exp. Number of Debits",
+      "tooltip": "Specifies that the direct-debit mandate will not be closed automatically when the debit counter reaches the expected number of debits."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 5854,
+  "name": "Invt. Shipment Header",
+  "slug": "5854_invt_shipment_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Posting Description",
+      "tooltip": "Specifies any text that is entered to accompany the posting, for example for information to auditors."
+    },
+    {
+      "no": 5,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 6,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 7,
+      "name": "Location Code",
+      "tooltip": "Specifies the warehouse or other place where the involved items are handled or stored."
+    },
+    {
+      "no": 8,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 9,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 10,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the name of the salesperson who is assigned to the customer."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 20,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 24,
+      "name": "Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "No. Printed",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Correction",
+      "tooltip": "Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to an account."
+    },
+    {
+      "no": 31,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

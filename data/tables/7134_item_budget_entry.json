@@ -1,0 +1,103 @@
+{
+  "id": 7134,
+  "name": "Item Budget Entry",
+  "slug": "7134_item_budget_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Budget Name",
+      "tooltip": "Specifies the name of the item budget that the entry belongs to."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date of this item budget entry."
+    },
+    {
+      "no": 5,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that this budget entry applies to."
+    },
+    {
+      "no": 6,
+      "name": "Source Type",
+      "tooltip": "Specifies the source type of this budget entry."
+    },
+    {
+      "no": 7,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the budget figure."
+    },
+    {
+      "no": 9,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of this item budget entry."
+    },
+    {
+      "no": 10,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the cost amount of this item budget entry."
+    },
+    {
+      "no": 11,
+      "name": "Sales Amount",
+      "tooltip": "Specifies the sales amount of this item budget line entry."
+    },
+    {
+      "no": 13,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the location that this item budget entry is linked to."
+    },
+    {
+      "no": 15,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 17,
+      "name": "Budget Dimension 1 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 1 code that this item budget entry is linked to."
+    },
+    {
+      "no": 18,
+      "name": "Budget Dimension 2 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 2 code that this item budget entry is linked to."
+    },
+    {
+      "no": 19,
+      "name": "Budget Dimension 3 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 3 Code that this item budget entry is linked to."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    }
+  ]
+}

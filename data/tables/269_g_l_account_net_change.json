@@ -1,0 +1,28 @@
+{
+  "id": 269,
+  "name": "G/L Account Net Change",
+  "slug": "269_g_l_account_net_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the bank account that is being reconciled."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 3,
+      "name": "Net Change in Jnl.",
+      "tooltip": "Specifies the net change that will occur on the bank when you post the journal."
+    },
+    {
+      "no": 4,
+      "name": "Balance after Posting",
+      "tooltip": "Specifies the current balance on the bank account."
+    }
+  ]
+}

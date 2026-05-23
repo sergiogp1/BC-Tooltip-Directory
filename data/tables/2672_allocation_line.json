@@ -1,0 +1,78 @@
+{
+  "id": 2672,
+  "name": "Allocation Line",
+  "slug": "2672_allocation_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Allocation Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Destination Account Type",
+      "tooltip": "Specifies the type of the Destination Account."
+    },
+    {
+      "no": 4,
+      "name": "Destination Account Number",
+      "tooltip": "Specifies the number of the Destination Account."
+    },
+    {
+      "no": 5,
+      "name": "Destination Account Name",
+      "tooltip": "Specifies the name of the Destination Account."
+    },
+    {
+      "no": 6,
+      "name": "Amount",
+      "tooltip": "Specifies the amount to be allocated to the Destination Account."
+    },
+    {
+      "no": 10,
+      "name": "Breakdown Account Number",
+      "tooltip": "Specifies the number of the Breakdown Account that is used to calculate the amount to be distributed to the destination account."
+    },
+    {
+      "no": 11,
+      "name": "Breakdown Account Balance",
+      "tooltip": "Specifies the balance of the Breakdown Account that is used to calculate the amount to be distributed to the destination account."
+    },
+    {
+      "no": 12,
+      "name": "Breakdown Account Name",
+      "tooltip": "Specifies the name of the Breakdown Account that is used to calculate the amount to be distributed to the destination account."
+    },
+    {
+      "no": 13,
+      "name": "Percentage",
+      "tooltip": "Specifies the percentage that is used to calculate the amount to be assinged to the destination account."
+    },
+    {
+      "no": 20,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity to be allocated to the Destination Account."
+    },
+    {
+      "no": 37,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

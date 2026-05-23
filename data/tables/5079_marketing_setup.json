@@ -1,0 +1,258 @@
+{
+  "id": 5079,
+  "name": "Marketing Setup",
+  "slug": "5079_marketing_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Contact Nos.",
+      "tooltip": "Specifies the code for the number series to use when assigning numbers to contacts."
+    },
+    {
+      "no": 3,
+      "name": "Campaign Nos.",
+      "tooltip": "Specifies the code for the number series to use when assigning numbers to campaigns."
+    },
+    {
+      "no": 4,
+      "name": "Segment Nos.",
+      "tooltip": "Specifies the code for the number series to use when assigning numbers to segments."
+    },
+    {
+      "no": 5,
+      "name": "To-do Nos.",
+      "tooltip": "Specifies the code for the number series to use when assigning numbers to tasks."
+    },
+    {
+      "no": 6,
+      "name": "Opportunity Nos.",
+      "tooltip": "Specifies the code for the number series to use when assigning numbers to opportunities."
+    },
+    {
+      "no": 7,
+      "name": "Bus. Rel. Code for Customers",
+      "tooltip": "Specifies the business relation code that identifies that a contact is also a customer."
+    },
+    {
+      "no": 8,
+      "name": "Bus. Rel. Code for Vendors",
+      "tooltip": "Specifies the business relation code that identifies that a contact is also a vendor."
+    },
+    {
+      "no": 9,
+      "name": "Bus. Rel. Code for Bank Accs.",
+      "tooltip": "Specifies the business relation code that identifies that a contact is also a bank account."
+    },
+    {
+      "no": 10,
+      "name": "Bus. Rel. Code for Employees",
+      "tooltip": "Specifies the business relation code that identifies that a contact is also an employee."
+    },
+    {
+      "no": 22,
+      "name": "Inherit Salesperson Code",
+      "tooltip": "Specifies that you want to copy the salesperson code from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 23,
+      "name": "Inherit Territory Code",
+      "tooltip": "Specifies that you want to copy the territory code from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 24,
+      "name": "Inherit Country/Region Code",
+      "tooltip": "Specifies that you want to copy the country/region code from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 25,
+      "name": "Inherit Language Code",
+      "tooltip": "Specifies that you want to copy the language code from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 26,
+      "name": "Inherit Address Details",
+      "tooltip": "Specifies that you want to copy the address details from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 27,
+      "name": "Inherit Communication Details",
+      "tooltip": "Specifies that you want to copy the communication details, such as telex and fax numbers, from the contact card of a company to the contact card for the individual contact person or people working for that company."
+    },
+    {
+      "no": 28,
+      "name": "Default Salesperson Code",
+      "tooltip": "Specifies the salesperson code to assign automatically to contacts when they are created."
+    },
+    {
+      "no": 29,
+      "name": "Default Territory Code",
+      "tooltip": "Specifies the territory code to automatically assign to contacts when they are created."
+    },
+    {
+      "no": 30,
+      "name": "Default Country/Region Code",
+      "tooltip": "Specifies the country/region code to assign automatically to contacts when they are created."
+    },
+    {
+      "no": 31,
+      "name": "Default Language Code",
+      "tooltip": "Specifies the language code to assign automatically to contacts when they are created."
+    },
+    {
+      "no": 32,
+      "name": "Default Format Region",
+      "tooltip": "Specifies the region format to assign automatically to contacts when they are created."
+    },
+    {
+      "no": 33,
+      "name": "Default Sales Cycle Code",
+      "tooltip": "Specifies the sales cycle code to automatically assign to opportunities when they are created."
+    },
+    {
+      "no": 35,
+      "name": "Attachment Storage Type",
+      "tooltip": "Specifies how you want to store attachments. The following options exist:"
+    },
+    {
+      "no": 36,
+      "name": "Attachment Storage Location",
+      "tooltip": "Specifies the drive and path to the location where you want attachments stored if you selected Disk File in the Attachment Storage Type field."
+    },
+    {
+      "no": 37,
+      "name": "Autosearch for Duplicates",
+      "tooltip": "Specifies that you want to search automatically for duplicates each time a contact is created or modified."
+    },
+    {
+      "no": 38,
+      "name": "Search Hit %",
+      "tooltip": "Specifies the level of precision to apply when searching for duplicates."
+    },
+    {
+      "no": 39,
+      "name": "Maintain Dupl. Search Strings",
+      "tooltip": "Specifies the automatic update of search strings used to search for duplicates. You can set up search strings in the Duplicate Search String Setup table."
+    },
+    {
+      "no": 50,
+      "name": "Mergefield Language ID",
+      "tooltip": "Specifies the language ID of the Windows language to use for naming the merge fields shown when editing an attachment in Microsoft Word."
+    },
+    {
+      "no": 51,
+      "name": "Def. Company Salutation Code",
+      "tooltip": "Specifies the salutation code to assign automatically to contact companies when they are created."
+    },
+    {
+      "no": 52,
+      "name": "Default Person Salutation Code",
+      "tooltip": "Specifies the salutation code to assign automatically to contact persons when they are created."
+    },
+    {
+      "no": 53,
+      "name": "Default Correspondence Type",
+      "tooltip": "Specifies the preferred type of correspondence for the interaction. NOTE: If you use the Web client, you must not select the Hard Copy option because printing is not possible from the web client."
+    },
+    {
+      "no": 56,
+      "name": "Queue Folder Path",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Queue Folder UID",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Storage Folder Path",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Storage Folder UID",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Default To-do Date Calculation",
+      "tooltip": "Specifies the task date calculation formula to use to calculate the ending date for tasks in Business Central if you haven't entered any due date in the Outlook task. If you leave the field blank, today's date is applied."
+    },
+    {
+      "no": 69,
+      "name": "Autodiscovery E-Mail Address",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Email Batch Size",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Exchange Service URL",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Exchange Account User Name",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Exchange Account Password Key",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "WebHook Run Notification As",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Cust. Template Company Code",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Cust. Template Person Code",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Exchange Tenant Id Key",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Exchange Client Id",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Exchange Client Secret Key",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Email Logging Enabled",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Exchange Redirect URL",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Inherit Format Region",
+      "tooltip": ""
+    }
+  ]
+}

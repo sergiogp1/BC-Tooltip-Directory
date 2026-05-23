@@ -1,0 +1,733 @@
+{
+  "id": 83,
+  "name": "Item Journal Line",
+  "slug": "83_item_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies the name of the journal template, the basis of the journal batch, that the entries were posted from."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the journal line."
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item on the journal line."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date for the entry."
+    },
+    {
+      "no": 5,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of transaction that will be posted from the item journal line."
+    },
+    {
+      "no": 6,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the journal line."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item on the journal line."
+    },
+    {
+      "no": 9,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the inventory location where the item on the journal line will be registered."
+    },
+    {
+      "no": 10,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Source Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item to be included on the journal line."
+    },
+    {
+      "no": 15,
+      "name": "Invoiced Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Unit Amount",
+      "tooltip": "Specifies the price of one unit of the item on the journal line."
+    },
+    {
+      "no": 17,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 18,
+      "name": "Amount",
+      "tooltip": "Specifies the line's net amount."
+    },
+    {
+      "no": 22,
+      "name": "Discount Amount",
+      "tooltip": "Specifies the discount amount of this entry on the line."
+    },
+    {
+      "no": 23,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies the code for the salesperson or purchaser who is linked to the sale or purchase on the journal line."
+    },
+    {
+      "no": 26,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Applies-to Entry",
+      "tooltip": "Specifies if the quantity on the journal line must be applied to an already-posted entry. In that case, enter the entry number that the quantity will be applied to."
+    },
+    {
+      "no": 32,
+      "name": "Item Shpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 35,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 37,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 39,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Shpt. Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 42,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 43,
+      "name": "Recurring Method",
+      "tooltip": "Specifies a recurring method, if you have indicated that the journal is recurring."
+    },
+    {
+      "no": 44,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date, if any, of the item carrying the item tracking number."
+    },
+    {
+      "no": 45,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies a recurring frequency if it is indicated that the journal is recurring."
+    },
+    {
+      "no": 46,
+      "name": "Drop Shipment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Transaction Type",
+      "tooltip": "Specifies the type of transaction that the document represents, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 48,
+      "name": "Transport Method",
+      "tooltip": "Specifies the transport method, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 49,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 50,
+      "name": "New Location Code",
+      "tooltip": "Specifies the new location to link the items on this journal line."
+    },
+    {
+      "no": 51,
+      "name": "New Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the new dimension value code that will link to the items on the journal line."
+    },
+    {
+      "no": 52,
+      "name": "New Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the new dimension value code that will link to the items on the journal line."
+    },
+    {
+      "no": 53,
+      "name": "Qty. (Calculated)",
+      "tooltip": "Specifies the quantity on hand of the item."
+    },
+    {
+      "no": 54,
+      "name": "Qty. (Phys. Inventory)",
+      "tooltip": "Specifies the quantity on hand of the item as determined from a physical count."
+    },
+    {
+      "no": 55,
+      "name": "Last Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Phys. Inventory",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 58,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 59,
+      "name": "Entry/Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 62,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 63,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Reserved Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Unit Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Source Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Document Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "VAT Reporting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Order Type",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the order that created the entry."
+    },
+    {
+      "no": 92,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the line number of the order that created the entry."
+    },
+    {
+      "no": 101,
+      "name": "Applies-to Rem. Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 481,
+      "name": "New Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 904,
+      "name": "Assemble to Order",
+      "tooltip": ""
+    },
+    {
+      "no": 1000,
+      "name": "Job No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1001,
+      "name": "Job Task No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1002,
+      "name": "Job Purchase",
+      "tooltip": ""
+    },
+    {
+      "no": 1030,
+      "name": "Job Contract Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies a bin code for the item."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5406,
+      "name": "New Bin Code",
+      "tooltip": "Specifies the new bin code to link to the items on this journal line."
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5408,
+      "name": "Derived from Blanket Order",
+      "tooltip": ""
+    },
+    {
+      "no": 5410,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5411,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5413,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5415,
+      "name": "Invoiced Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5468,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the quantity of the item reserved for the line."
+    },
+    {
+      "no": 5560,
+      "name": "Level",
+      "tooltip": ""
+    },
+    {
+      "no": 5561,
+      "name": "Flushing Method",
+      "tooltip": "Specifies how consumption of the item (component) is calculated and handled in production processes. Manual: Enter and post consumption in the consumption journal manually. Forward: Automatically posts consumption according to the production order component lines when the first operation starts. Backward: Automatically calculates and posts consumption according to the production order component lines when the production order is finished. Pick + Forward / Pick + Backward: Variations with warehousing."
+    },
+    {
+      "no": 5562,
+      "name": "Changed by User",
+      "tooltip": ""
+    },
+    {
+      "no": 5701,
+      "name": "Originally Ordered No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5702,
+      "name": "Originally Ordered Var. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5703,
+      "name": "Out-of-Stock Substitution",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5705,
+      "name": "Nonstock",
+      "tooltip": ""
+    },
+    {
+      "no": 5706,
+      "name": "Purchasing Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies a reference to the item number as defined by the item's barcode."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5791,
+      "name": "Planned Delivery Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5793,
+      "name": "Order Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5800,
+      "name": "Value Entry Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5801,
+      "name": "Item Charge No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5802,
+      "name": "Inventory Value (Calculated)",
+      "tooltip": "Specifies the calculated inventory value of the item at the specified posting date."
+    },
+    {
+      "no": 5803,
+      "name": "Inventory Value (Revalued)",
+      "tooltip": "Specifies the new inventory value."
+    },
+    {
+      "no": 5804,
+      "name": "Variance Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5805,
+      "name": "Inventory Value Per",
+      "tooltip": ""
+    },
+    {
+      "no": 5806,
+      "name": "Partial Revaluation",
+      "tooltip": ""
+    },
+    {
+      "no": 5807,
+      "name": "Applies-from Entry",
+      "tooltip": "Specifies the number of the outbound item ledger entry, whose cost is forwarded to the inbound item ledger entry."
+    },
+    {
+      "no": 5808,
+      "name": "Invoice No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5809,
+      "name": "Unit Cost (Calculated)",
+      "tooltip": "Specifies the current unit cost of this item before revaluation."
+    },
+    {
+      "no": 5810,
+      "name": "Unit Cost (Revalued)",
+      "tooltip": "Specifies the revalued unit cost of this item."
+    },
+    {
+      "no": 5811,
+      "name": "Applied Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 5812,
+      "name": "Update Standard Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 5813,
+      "name": "Amount (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5817,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 5818,
+      "name": "Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 5819,
+      "name": "Applies-to Value Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 5820,
+      "name": "Invoice-to Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5830,
+      "name": "Type",
+      "tooltip": "Specifies the journal type, which is either Work Center or Machine Center."
+    },
+    {
+      "no": 5831,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5858,
+      "name": "Cap. Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure code for the capacity usage."
+    },
+    {
+      "no": 5859,
+      "name": "Qty. per Cap. Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5887,
+      "name": "Unit Cost Calculation",
+      "tooltip": ""
+    },
+    {
+      "no": 5888,
+      "name": "Subcontracting",
+      "tooltip": ""
+    },
+    {
+      "no": 6500,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the item."
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number of the item."
+    },
+    {
+      "no": 6502,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the warranty expiration date of the item."
+    },
+    {
+      "no": 6503,
+      "name": "New Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6504,
+      "name": "New Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6505,
+      "name": "New Item Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6506,
+      "name": "Item Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the package number of the item."
+    },
+    {
+      "no": 6516,
+      "name": "New Package No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6600,
+      "name": "Return Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the method that will be used for price calculation in the item journal line."
+    },
+    {
+      "no": 7315,
+      "name": "Warehouse Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 7316,
+      "name": "Direct Transfer",
+      "tooltip": ""
+    },
+    {
+      "no": 7380,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7381,
+      "name": "Phys Invt Counting Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 99000755,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 99000756,
+      "name": "Single-Level Material Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000757,
+      "name": "Single-Level Capacity Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000758,
+      "name": "Single-Level Subcontrd. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000759,
+      "name": "Single-Level Cap. Ovhd Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000760,
+      "name": "Single-Level Mfg. Ovhd Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000761,
+      "name": "Rolled-up Material Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000762,
+      "name": "Rolled-up Capacity Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000763,
+      "name": "Rolled-up Subcontracted Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000764,
+      "name": "Rolled-up Mfg. Ovhd Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000765,
+      "name": "Rolled-up Cap. Overhead Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000766,
+      "name": "Single-Lvl Mat. Non-Invt. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000767,
+      "name": "Rolled-up Mat. Non-Invt. Cost",
+      "tooltip": ""
+    }
+  ]
+}

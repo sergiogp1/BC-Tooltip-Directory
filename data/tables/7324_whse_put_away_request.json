@@ -1,0 +1,43 @@
+{
+  "id": 7324,
+  "name": "Whse. Put-away Request",
+  "slug": "7324_whse_put_away_request",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that created the warehouse put-away request."
+    },
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the warehouse document that should be put away."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location in which the request is occurring."
+    },
+    {
+      "no": 4,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone code where the bin on the request is located."
+    },
+    {
+      "no": 5,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 7,
+      "name": "Completely Put Away",
+      "tooltip": "Specifies that all the items on the warehouse source document have been put away."
+    },
+    {
+      "no": 8,
+      "name": "Status",
+      "tooltip": ""
+    }
+  ]
+}

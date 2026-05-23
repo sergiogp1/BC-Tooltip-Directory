@@ -1,0 +1,73 @@
+{
+  "id": 6505,
+  "name": "Lot No. Information",
+  "slug": "6505_lot_no_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies this number from the Tracking Specification table when a lot number information record is created."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 3,
+      "name": "Lot No.",
+      "tooltip": "Specifies this number from the Tracking Specification table when a lot number information record is created."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the lot no. information record."
+    },
+    {
+      "no": 11,
+      "name": "Test Quality",
+      "tooltip": "Specifies the quality of a given lot if you have inspected the items."
+    },
+    {
+      "no": 12,
+      "name": "Certificate Number",
+      "tooltip": "Specifies the number provided by the supplier to indicate that the batch or lot meets the specified requirements."
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 14,
+      "name": "Comment",
+      "tooltip": "Specifies that a comment has been recorded for the lot number."
+    },
+    {
+      "no": 20,
+      "name": "Inventory",
+      "tooltip": "Specifies the inventory quantity of the specified lot number."
+    },
+    {
+      "no": 21,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Bin Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Expired Inventory",
+      "tooltip": "Specifies the inventory of the lot number with an expiration date before the posting date on the associated document."
+    }
+  ]
+}

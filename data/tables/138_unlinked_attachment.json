@@ -1,0 +1,33 @@
+{
+  "id": 138,
+  "name": "Unlinked Attachment",
+  "slug": "138_unlinked_attachment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 3,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies when the record was created."
+    },
+    {
+      "no": 5,
+      "name": "File Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the file type."
+    },
+    {
+      "no": 8,
+      "name": "Content",
+      "tooltip": ""
+    },
+    {
+      "no": 8000,
+      "name": "Id",
+      "tooltip": "Specifies the record ID."
+    }
+  ]
+}

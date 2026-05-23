@@ -1,0 +1,63 @@
+{
+  "id": 771,
+  "name": "Analysis Report Chart Line",
+  "slug": "771_analysis_report_chart_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Analysis Line Line No.",
+      "tooltip": "Specifies the number of the analysis report line that the specific chart is based on."
+    },
+    {
+      "no": 4,
+      "name": "Analysis Column Line No.",
+      "tooltip": "Specifies the number of the analysis report column that the advanced chart is based on."
+    },
+    {
+      "no": 6,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Analysis Line Template Name",
+      "tooltip": "Specifies the name. This field is intended only for internal use."
+    },
+    {
+      "no": 8,
+      "name": "Analysis Column Template Name",
+      "tooltip": "Specifies the name. This field is intended only for internal use."
+    },
+    {
+      "no": 10,
+      "name": "Original Measure Name",
+      "tooltip": "Specifies the analysis report columns or lines that you select to insert in the Analysis Report Chart Setup window."
+    },
+    {
+      "no": 15,
+      "name": "Measure Name",
+      "tooltip": "Specifies the analysis report columns or lines that the measures on the y-axis in the specific chart are based on."
+    },
+    {
+      "no": 20,
+      "name": "Measure Value",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Chart Type",
+      "tooltip": "Specifies how the analysis report values are represented graphically in the specific chart."
+    }
+  ]
+}

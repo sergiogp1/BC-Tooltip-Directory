@@ -1,0 +1,53 @@
+{
+  "id": 502,
+  "name": "Reminder Attachment Text",
+  "slug": "502_reminder_attachment_text",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language code for the text communications."
+    },
+    {
+      "no": 3,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "File Name",
+      "tooltip": "Specifies the file name of the attachment."
+    },
+    {
+      "no": 5,
+      "name": "Beginning Line",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Inline Fee Description",
+      "tooltip": "Specifies the description line that will appear in the attachment along side the fee."
+    },
+    {
+      "no": 7,
+      "name": "Ending Line",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Beginning Lines",
+      "tooltip": "Shows if there are beginning lines for the current language."
+    },
+    {
+      "no": 11,
+      "name": "Ending Lines",
+      "tooltip": "Shows if there are ending lines for the current language."
+    }
+  ]
+}

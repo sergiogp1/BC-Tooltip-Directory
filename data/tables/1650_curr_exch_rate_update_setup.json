@@ -1,0 +1,48 @@
+{
+  "id": 1650,
+  "name": "Curr. Exch. Rate Update Setup",
+  "slug": "1650_curr_exch_rate_update_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the setup of a service to update currency exchange rates."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the setup of a service to update currency exchange rates."
+    },
+    {
+      "no": 3,
+      "name": "Web Service URL",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Enabled",
+      "tooltip": "Specifies if the currency exchange rate service is enabled."
+    },
+    {
+      "no": 10,
+      "name": "Service Provider",
+      "tooltip": "Specifies the name of the service provider."
+    },
+    {
+      "no": 11,
+      "name": "Terms of Service",
+      "tooltip": "Specifies the URL of the service provider's terms of service."
+    },
+    {
+      "no": 20,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Log Web Requests",
+      "tooltip": "Specifies whether to log exceptions that occur when connecting to the service. The log is located in the server Temp folder."
+    }
+  ]
+}

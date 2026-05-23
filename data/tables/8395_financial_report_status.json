@@ -1,0 +1,28 @@
+{
+  "id": 8395,
+  "name": "Financial Report Status",
+  "slug": "8395_financial_report_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the unique code of the status."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the status name."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the status description."
+    },
+    {
+      "no": 4,
+      "name": "Blocked",
+      "tooltip": "Specifies if the status is considered a blocked status. Financial reports with a blocked status are hidden from users without permission edit permission on Financial Report Status."
+    }
+  ]
+}

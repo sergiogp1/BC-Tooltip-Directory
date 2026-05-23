@@ -1,0 +1,38 @@
+{
+  "id": 726,
+  "name": "Custom Address Format Line",
+  "slug": "726_custom_address_format_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Field Position",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Separator",
+      "tooltip": "Specifies separator symbol."
+    },
+    {
+      "no": 5,
+      "name": "Field ID",
+      "tooltip": "Specifies reference field ID."
+    },
+    {
+      "no": 6,
+      "name": "Field Name",
+      "tooltip": "Specifies reference address field name."
+    },
+    {
+      "no": 7,
+      "name": "Line No.",
+      "tooltip": ""
+    }
+  ]
+}

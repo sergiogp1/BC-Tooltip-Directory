@@ -1,0 +1,148 @@
+{
+  "id": 5410,
+  "name": "Prod. Order Capacity Need",
+  "slug": "5410_prod_order_capacity_need",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Status",
+      "tooltip": "Specifies the status of the production order."
+    },
+    {
+      "no": 2,
+      "name": "Prod. Order No.",
+      "tooltip": "Specifies the number of the related production order."
+    },
+    {
+      "no": 3,
+      "name": "Routing No.",
+      "tooltip": "Specifies the routing number."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Operation No.",
+      "tooltip": "Specifies the operation number."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the type of capacity need. Here you can see whether this capacity need is for a machine center or a work center."
+    },
+    {
+      "no": 7,
+      "name": "No.",
+      "tooltip": "Specifies the Number of the machine center or work center depending on the entry in the Type field."
+    },
+    {
+      "no": 8,
+      "name": "Work Center No.",
+      "tooltip": "Specifies the work center number of the capacity need. If this capacity need occurs at a machine center that is assigned to a work center, that work center number will be shown here. If the capacity need is for a work center, the No. field and this field will show the same number."
+    },
+    {
+      "no": 9,
+      "name": "Work Center Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Routing Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Date",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Starting Time",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Ending Time",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Allocated Time",
+      "tooltip": "Specifies the capacity need of planned operations."
+    },
+    {
+      "no": 16,
+      "name": "Send-Ahead Type",
+      "tooltip": "Specifies if the send-ahead quantity is of type Input, Output, or Both."
+    },
+    {
+      "no": 17,
+      "name": "Time Type",
+      "tooltip": "Specifies the time type of the capacity need. Two options are available: Setup Time and Run Time."
+    },
+    {
+      "no": 18,
+      "name": "Needed Time",
+      "tooltip": "Specifies how much time is required to meet the needs resulting from the specified capacity."
+    },
+    {
+      "no": 19,
+      "name": "Needed Time (ms)",
+      "tooltip": "Specifies how much time (in ms) is required to meet the needs resulting from the specified capacity."
+    },
+    {
+      "no": 21,
+      "name": "Lot Size",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Concurrent Capacities",
+      "tooltip": "Specifies the concurrent capacity of the operation."
+    },
+    {
+      "no": 23,
+      "name": "Efficiency",
+      "tooltip": "Specifies the efficiency of the production order capacity need."
+    },
+    {
+      "no": 26,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the date and the starting time, which are combined in a format called \"starting date-time\"."
+    },
+    {
+      "no": 27,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the date and the ending time, which are combined in a format called \"ending date-time\"."
+    },
+    {
+      "no": 31,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Worksheet Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Worksheet Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Active",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Requested Only",
+      "tooltip": ""
+    }
+  ]
+}

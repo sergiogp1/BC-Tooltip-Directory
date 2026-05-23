@@ -1,0 +1,18 @@
+{
+  "id": 286,
+  "name": "Territory",
+  "slug": "286_territory",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a territory code."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies a description of the territory."
+    }
+  ]
+}

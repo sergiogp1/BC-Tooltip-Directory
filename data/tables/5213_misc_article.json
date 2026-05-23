@@ -1,0 +1,18 @@
+{
+  "id": 5213,
+  "name": "Misc. Article",
+  "slug": "5213_misc_article",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the miscellaneous article."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the miscellaneous articles."
+    }
+  ]
+}

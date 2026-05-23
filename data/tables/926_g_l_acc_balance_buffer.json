@@ -1,0 +1,43 @@
+{
+  "id": 926,
+  "name": "G/L Acc. Balance Buffer",
+  "slug": "926_g_l_acc_balance_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the start date of the period defined on the line for the bank account balance."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the debit amount for the period on the line."
+    },
+    {
+      "no": 11,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the credit amount for the period on the line."
+    },
+    {
+      "no": 12,
+      "name": "Net Change",
+      "tooltip": "Specifies changes in the actual general ledger amount."
+    }
+  ]
+}

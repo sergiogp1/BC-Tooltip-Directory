@@ -1,0 +1,113 @@
+{
+  "id": 1304,
+  "name": "Sales Price and Line Disc Buff",
+  "slug": "1304_sales_price_and_line_disc_buff",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the sales line price or discount."
+    },
+    {
+      "no": 2,
+      "name": "Sales Code",
+      "tooltip": "Specifies the sales code of the price or discount. The sales code depends on the value in the Sales Type field. The code can represent an individual customer, a customer discount group, or for all customers."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that must be used on the sales document line to warrant the sales price or discount."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the sales line discount is valid."
+    },
+    {
+      "no": 5,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 6,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 7,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies if the price that is granted includes VAT."
+    },
+    {
+      "no": 10,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies if an invoice discount will be calculated when the sales price is offered."
+    },
+    {
+      "no": 11,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the VAT business posting group for customers who you want to apply the sales price to. This price includes VAT."
+    },
+    {
+      "no": 13,
+      "name": "Sales Type",
+      "tooltip": "Specifies the sales type of the price or discount. The sales type defines whether the sales price or discount is for an individual customer, a customer discount group, or for all customers."
+    },
+    {
+      "no": 14,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the quantity that must be entered on the sales document to warrant the sales price or discount."
+    },
+    {
+      "no": 15,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date to which the sales line discount is valid."
+    },
+    {
+      "no": 21,
+      "name": "Type",
+      "tooltip": "Specifies if the discount is valid for an item or for an item discount group."
+    },
+    {
+      "no": 1300,
+      "name": "Line Type",
+      "tooltip": "Specifies if the line is for a sales price or a sales line discount."
+    },
+    {
+      "no": 1301,
+      "name": "Loaded Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1302,
+      "name": "Loaded Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 1303,
+      "name": "Loaded Customer No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1304,
+      "name": "Loaded Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant that must be used on the sales document line to warrant the sales price or discount."
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies if line discounts are allowed."
+    }
+  ]
+}

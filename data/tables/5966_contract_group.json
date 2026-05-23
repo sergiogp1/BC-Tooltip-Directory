@@ -1,0 +1,33 @@
+{
+  "id": 5966,
+  "name": "Contract Group",
+  "slug": "5966_contract_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the contract group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the contract group."
+    },
+    {
+      "no": 3,
+      "name": "Disc. on Contr. Orders Only",
+      "tooltip": "Specifies that contract/service discounts only apply to service lines linked to service orders created for the service contracts in the contract group."
+    },
+    {
+      "no": 4,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Contract Gain/Loss Amount",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5056,
+  "name": "Contact Mailing Group",
+  "slug": "5056_contact_mailing_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact to which you assign a mailing group."
+    },
+    {
+      "no": 2,
+      "name": "Mailing Group Code",
+      "tooltip": "Specifies the mailing group code. This field is not editable."
+    },
+    {
+      "no": 3,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact to which you assign a mailing group."
+    },
+    {
+      "no": 4,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the contact company. If the contact you assign the mailing group is a person, this field contains the name of the company for which the contact works."
+    },
+    {
+      "no": 5,
+      "name": "Mailing Group Description",
+      "tooltip": "Specifies the description of the mailing group you have chosen to assign the contact."
+    }
+  ]
+}

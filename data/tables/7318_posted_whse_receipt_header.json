@@ -1,0 +1,73 @@
+{
+  "id": 7318,
+  "name": "Posted Whse. Receipt Header",
+  "slug": "7318_posted_whse_receipt_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the items were received."
+    },
+    {
+      "no": 3,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    },
+    {
+      "no": 4,
+      "name": "Assignment Date",
+      "tooltip": "Specifies the date when the user was assigned the activity."
+    },
+    {
+      "no": 5,
+      "name": "Assignment Time",
+      "tooltip": "Specifies the time when the user was assigned the activity."
+    },
+    {
+      "no": 7,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 8,
+      "name": "Zone Code",
+      "tooltip": "Specifies the code of the zone on this posted receipt header."
+    },
+    {
+      "no": 9,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 11,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the receipt."
+    },
+    {
+      "no": 13,
+      "name": "Vendor Shipment No.",
+      "tooltip": "Specifies the vendor's shipment number. It is inserted in the corresponding field on the source document during posting."
+    },
+    {
+      "no": 14,
+      "name": "Whse. Receipt No.",
+      "tooltip": "Specifies the number of the warehouse receipt that the posted warehouse receipt concerns."
+    },
+    {
+      "no": 15,
+      "name": "Document Status",
+      "tooltip": "Specifies the status of the posted warehouse receipt."
+    }
+  ]
+}

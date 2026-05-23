@@ -1,0 +1,673 @@
+{
+  "id": 5990,
+  "name": "Service Shipment Header",
+  "slug": "5990_service_shipment_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer who owns the items on the service order."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 5,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 6,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 7,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer to whom you sent the invoice."
+    },
+    {
+      "no": 8,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional line of the address."
+    },
+    {
+      "no": 9,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 10,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer's billing address."
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": "Specifies a reference to the customer."
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of thethe name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 19,
+      "name": "Order Date",
+      "tooltip": "Specifies the date when the related order was created."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the shipment was posted."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the shipment method for the shipment."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the location, such as warehouse or distribution center, from where the items on the order were shipped."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Customer Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for various amounts on the shipment."
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson assigned to the service order."
+    },
+    {
+      "no": 44,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the service order from which the shipment was created."
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": "Specifies how many times the document has been printed."
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "EU 3-Party Trade",
+      "tooltip": "Specifies if the transaction is related to trade with a third party within the EU."
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer."
+    },
+    {
+      "no": 80,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer on the posted service shipment."
+    },
+    {
+      "no": 81,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer of the posted service shipment."
+    },
+    {
+      "no": 82,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 83,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 84,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact person at the customer company."
+    },
+    {
+      "no": 85,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the postal code of the customer's billing address."
+    },
+    {
+      "no": 86,
+      "name": "Bill-to County",
+      "tooltip": "Specifies the state, province or county for the customer that the invoice is sent to."
+    },
+    {
+      "no": 87,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the customer's billing address."
+    },
+    {
+      "no": 88,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 89,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county related to the posted service shipment."
+    },
+    {
+      "no": 90,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 100,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's numbering system."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies which shipping agent is used to transport the items on the service document to the customer."
+    },
+    {
+      "no": 109,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Order No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "Company Bank Account Code",
+      "tooltip": ""
+    },
+    {
+      "no": 200,
+      "name": "Work Description",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5052,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact person at the customer's site."
+    },
+    {
+      "no": 5053,
+      "name": "Bill-to Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 5794,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies which shipping agent service is used to transport the items on the service document to the customer."
+    },
+    {
+      "no": 5796,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5902,
+      "name": "Description",
+      "tooltip": "Specifies a description of the order from which the shipment was posted."
+    },
+    {
+      "no": 5904,
+      "name": "Service Order Type",
+      "tooltip": "Specifies the type of the service order from which the shipment was created."
+    },
+    {
+      "no": 5905,
+      "name": "Link Service to Service Item",
+      "tooltip": "Specifies the value in this field from the Link Service to Service Item field on the service header."
+    },
+    {
+      "no": 5907,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the posted service order."
+    },
+    {
+      "no": 5911,
+      "name": "Allocated Hours",
+      "tooltip": "Specifies the number of hours allocated to the items within the posted service order."
+    },
+    {
+      "no": 5915,
+      "name": "Phone No.",
+      "tooltip": "Specifies the customer phone number."
+    },
+    {
+      "no": 5916,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the customer."
+    },
+    {
+      "no": 5917,
+      "name": "Phone No. 2",
+      "tooltip": "Specifies your customer's alternate phone number."
+    },
+    {
+      "no": 5918,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5921,
+      "name": "No. of Unallocated Items",
+      "tooltip": ""
+    },
+    {
+      "no": 5923,
+      "name": "Order Time",
+      "tooltip": "Specifies the time when the service order was created."
+    },
+    {
+      "no": 5924,
+      "name": "Default Response Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 5925,
+      "name": "Actual Response Time (Hours)",
+      "tooltip": "Specifies the hours since the creation of the service order, to the time when the order status was changed from Pending to In Process."
+    },
+    {
+      "no": 5926,
+      "name": "Service Time (Hours)",
+      "tooltip": "Specifies the total time in hours that the service on the service order has taken."
+    },
+    {
+      "no": 5927,
+      "name": "Response Date",
+      "tooltip": "Specifies the approximate date when work on the service order started."
+    },
+    {
+      "no": 5928,
+      "name": "Response Time",
+      "tooltip": "Specifies the approximate time when work on the service order started."
+    },
+    {
+      "no": 5929,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the service on the shipment."
+    },
+    {
+      "no": 5930,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the service on the shipment."
+    },
+    {
+      "no": 5931,
+      "name": "Finishing Date",
+      "tooltip": "Specifies the date when the service is finished."
+    },
+    {
+      "no": 5932,
+      "name": "Finishing Time",
+      "tooltip": "Specifies the time when the service is finished."
+    },
+    {
+      "no": 5933,
+      "name": "Contract Serv. Hours Exist",
+      "tooltip": ""
+    },
+    {
+      "no": 5934,
+      "name": "Reallocation Needed",
+      "tooltip": ""
+    },
+    {
+      "no": 5936,
+      "name": "Notify Customer",
+      "tooltip": "Specifies in what way the customer wants to receive notifications about the service completed."
+    },
+    {
+      "no": 5937,
+      "name": "Max. Labor Unit Price",
+      "tooltip": ""
+    },
+    {
+      "no": 5938,
+      "name": "Warning Status",
+      "tooltip": "Specifies the warning status for the response time on the original service order."
+    },
+    {
+      "no": 5939,
+      "name": "No. of Allocations",
+      "tooltip": ""
+    },
+    {
+      "no": 5940,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the contract associated with the service order."
+    },
+    {
+      "no": 5951,
+      "name": "Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5952,
+      "name": "Customer Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5953,
+      "name": "Resource Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5954,
+      "name": "Contract Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5955,
+      "name": "Ship-to Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5956,
+      "name": "Ship-to E-Mail",
+      "tooltip": "Specifies the email address at the address that the items are shipped to."
+    },
+    {
+      "no": 5957,
+      "name": "Resource Group Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5958,
+      "name": "Ship-to Phone",
+      "tooltip": "Specifies the customer phone number."
+    },
+    {
+      "no": 5959,
+      "name": "Ship-to Phone 2",
+      "tooltip": "Specifies an additional phone number at address that the items are shipped to."
+    },
+    {
+      "no": 5966,
+      "name": "Service Zone Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5968,
+      "name": "Service Zone Code",
+      "tooltip": "Specifies the service zone code assigned to the customer."
+    },
+    {
+      "no": 5981,
+      "name": "Expected Finishing Date",
+      "tooltip": "Specifies the date when service on the order is expected to be finished."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 9001,
+      "name": "Quote No.",
+      "tooltip": "Specifies the number of the service quote document if a quote was used to start the service process."
+    }
+  ]
+}

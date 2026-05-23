@@ -1,0 +1,43 @@
+{
+  "id": 747,
+  "name": "VAT Report Archive",
+  "slug": "747_vat_report_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Report Type",
+      "tooltip": "Specifies if you want to create a new VAT report, or if you want to change a previously submitted report."
+    },
+    {
+      "no": 2,
+      "name": "VAT Report No.",
+      "tooltip": "Specifies the number of the VAT Report."
+    },
+    {
+      "no": 4,
+      "name": "Submitted By",
+      "tooltip": "Specifies the name of the person who submitted the VAT Report."
+    },
+    {
+      "no": 5,
+      "name": "Submission Message BLOB",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Submittion Date",
+      "tooltip": "Specifies the date that the VAT Report was submitted."
+    },
+    {
+      "no": 7,
+      "name": "Response Message BLOB",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Response Received Date",
+      "tooltip": "Specifies the date when the response was received."
+    }
+  ]
+}

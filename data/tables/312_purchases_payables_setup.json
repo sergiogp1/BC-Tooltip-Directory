@@ -1,0 +1,368 @@
+{
+  "id": 312,
+  "name": "Purchases & Payables Setup",
+  "slug": "312_purchases_payables_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Discount Posting",
+      "tooltip": "Specifies the type of purchase discounts to post separately. No Discounts: Discounts are not posted separately but instead will subtract the discount before posting. Invoice Discounts: The invoice discount and invoice amount are posted simultaneously, based on the Purch. Inv. Disc. Account field in the General Posting Setup window. Line Discounts: The line discount and the invoice amount will be posted simultaneously, based on Purch. Line Disc. Account field in the General Posting Setup window. All Discounts: The invoice and line discounts and the invoice amount will be posted simultaneously, based on the Purch. Inv. Disc. Account field and Purch. Line. Disc. Account fields in the General Posting Setup window."
+    },
+    {
+      "no": 6,
+      "name": "Receipt on Invoice",
+      "tooltip": "Specifies that a posted receipt and a posted invoice are automatically created when you post an invoice."
+    },
+    {
+      "no": 7,
+      "name": "Invoice Rounding",
+      "tooltip": "Specifies if amounts are rounded for purchase invoices. Rounding is applied as specified in the Inv. Rounding Precision (LCY) field in the General Ledger Setup window."
+    },
+    {
+      "no": 8,
+      "name": "Ext. Doc. No. Mandatory",
+      "tooltip": "Specifies if it is mandatory to enter an external document number in the External Document No. field on a purchase header or the External Document No. field on a general journal line."
+    },
+    {
+      "no": 9,
+      "name": "Vendor Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to vendors."
+    },
+    {
+      "no": 10,
+      "name": "Quote Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase quotes. To see the number series that have been set up in the No. Series table, click the field."
+    },
+    {
+      "no": 11,
+      "name": "Order Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase orders. To see the number series that have been set up in the No. Series table, click the field."
+    },
+    {
+      "no": 12,
+      "name": "Invoice Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase invoices."
+    },
+    {
+      "no": 13,
+      "name": "Posted Invoice Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted purchase invoices."
+    },
+    {
+      "no": 14,
+      "name": "Credit Memo Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase credit memos."
+    },
+    {
+      "no": 15,
+      "name": "Posted Credit Memo Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted purchase credit memos."
+    },
+    {
+      "no": 16,
+      "name": "Posted Receipt Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted receipts."
+    },
+    {
+      "no": 17,
+      "name": "Posted Self-Billing Inv. Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted self-billing purchase invoices."
+    },
+    {
+      "no": 19,
+      "name": "Blanket Order Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to blanket purchase orders."
+    },
+    {
+      "no": 20,
+      "name": "Calc. Inv. Discount",
+      "tooltip": "Specifies if the invoice discount amount is automatically calculated with purchase documents. If this check box is selected, then the invoice discount amount is calculated automatically, based on purchase lines where the Allow Invoice Disc. field is selected."
+    },
+    {
+      "no": 21,
+      "name": "Appln. between Currencies",
+      "tooltip": "Specifies whether it is allowed to apply vendor payments in different currencies. None: All entries involved in one application must be in the same currency. EMU: You can apply entries in euro and one of the old national currencies (for EMU countries/regions) to one another. All: You can apply entries in different currencies to one another. The entries can be in any currency."
+    },
+    {
+      "no": 22,
+      "name": "Copy Comments Blanket to Order",
+      "tooltip": "Specifies whether to copy comments from blanket purchase orders to purchase orders."
+    },
+    {
+      "no": 23,
+      "name": "Copy Comments Order to Invoice",
+      "tooltip": "Specifies whether to copy comments from purchase orders to purchase invoices."
+    },
+    {
+      "no": 24,
+      "name": "Copy Comments Order to Receipt",
+      "tooltip": "Specifies whether to copy comments from purchase orders to receipts."
+    },
+    {
+      "no": 25,
+      "name": "Allow VAT Difference",
+      "tooltip": "Specifies whether to allow the manual adjustment of VAT amounts in purchase documents."
+    },
+    {
+      "no": 26,
+      "name": "Calc. Inv. Disc. per VAT ID",
+      "tooltip": "Specifies whether the invoice discount is calculated according to the VAT identifier that is defined in the VAT posting setup. If you choose not to select this check box, the invoice discount will be calculated based on the invoice total."
+    },
+    {
+      "no": 27,
+      "name": "Posted Prepmt. Inv. Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted purchase prepayment invoices."
+    },
+    {
+      "no": 28,
+      "name": "Posted Prepmt. Cr. Memo Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase prepayment credit memos."
+    },
+    {
+      "no": 29,
+      "name": "Check Prepmt. when Posting",
+      "tooltip": "Specifies that you cannot receive or invoice an order that has an unpaid prepayment amount."
+    },
+    {
+      "no": 33,
+      "name": "Prepmt. Auto Update Frequency",
+      "tooltip": "Specifies how often the job must run that automatically updates the status of orders that are pending prepayment."
+    },
+    {
+      "no": 35,
+      "name": "Default Posting Date",
+      "tooltip": "Specifies which date must be used as the default posting date on purchase documents. If you select Work Date, the Posting Date field will be populated with the work date at the time of creating a new purchase document. If you select No Date, the Posting Date field will be empty by default and you must manually enter a posting date before posting."
+    },
+    {
+      "no": 36,
+      "name": "Default Qty. to Receive",
+      "tooltip": "Specifies the default value for the Qty. to Receive field on purchase order lines and the Return Qty. to Ship field on purchase return order lines. If you choose Blank, the quantity to receive is not automatically calculated."
+    },
+    {
+      "no": 38,
+      "name": "Post with Job Queue",
+      "tooltip": "Specifies if you use job queues to post purchase documents in the background."
+    },
+    {
+      "no": 39,
+      "name": "Job Queue Category Code",
+      "tooltip": "Specifies the code for the category of the job queue that you want to associate with background posting."
+    },
+    {
+      "no": 40,
+      "name": "Job Queue Priority for Post",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Post & Print with Job Queue",
+      "tooltip": "Specifies if you use job queues to post and print purchase documents in the background."
+    },
+    {
+      "no": 42,
+      "name": "Job Q. Prio. for Post & Print",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Notify On Success",
+      "tooltip": "Specifies a setting that has no effect. Legacy field."
+    },
+    {
+      "no": 46,
+      "name": "Allow Document Deletion Before",
+      "tooltip": "Specifies if and when posted purchase invoices and credit memos can be deleted. If you enter a date, posted purchase documents with a posting date on or after this date cannot be deleted."
+    },
+    {
+      "no": 47,
+      "name": "Report Output Type",
+      "tooltip": "Specifies the output of the report that will be scheduled with a job queue entry when the Post and Print with Job Queue check box is selected."
+    },
+    {
+      "no": 49,
+      "name": "Document Default Line Type",
+      "tooltip": "Specifies the default value for the Type field on the first line in new purchase documents. If needed, you can change the value on the line."
+    },
+    {
+      "no": 51,
+      "name": "Default G/L Account Quantity",
+      "tooltip": "Specifies that Quantity is set to 1 on lines of type G/L Account."
+    },
+    {
+      "no": 52,
+      "name": "Archive Quotes",
+      "tooltip": "Specifies if you want to automatically archive purchase quotes when: deleted, processed or printed."
+    },
+    {
+      "no": 53,
+      "name": "Archive Orders",
+      "tooltip": "Specifies if you want to automatically archive purchase orders when: deleted, posted or printed."
+    },
+    {
+      "no": 54,
+      "name": "Archive Blanket Orders",
+      "tooltip": "Specifies if you want to automatically archive purchase blanket orders when: deleted, processed or printed."
+    },
+    {
+      "no": 55,
+      "name": "Archive Return Orders",
+      "tooltip": "Specifies if you want to automatically archive purchase return orders when deleted or posted."
+    },
+    {
+      "no": 56,
+      "name": "Ignore Updated Addresses",
+      "tooltip": "Specifies if changes to addresses made on purchase documents are copied to the vendor card. By default, changes are copied to the vendor card."
+    },
+    {
+      "no": 57,
+      "name": "Create Item from Item No.",
+      "tooltip": "Specifies if the system will suggest to create a new item when no item matches the number that you enter in the No. Field on purchase lines."
+    },
+    {
+      "no": 58,
+      "name": "Copy Vendor Name to Entries",
+      "tooltip": "Specifies if you want the name on vendor cards to be copied to vendor ledger entries during posting."
+    },
+    {
+      "no": 59,
+      "name": "Copy Inv. No. To Pmt. Ref.",
+      "tooltip": "Specifies if the value of the Vendor Invoice No. field must be copied to the Payment Reference field during posting unless the Payment Reference field is not blank."
+    },
+    {
+      "no": 160,
+      "name": "Disable Search by Name",
+      "tooltip": "Specifies that you can change the names of vendors on open purchase documents. The change applies only to the documents."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for the same vendor in purchase documents."
+    },
+    {
+      "no": 176,
+      "name": "Check Multiple Posting Groups",
+      "tooltip": "Specifies implementation method of checking which posting groups can be used for the vendor."
+    },
+    {
+      "no": 200,
+      "name": "P. Invoice Template Name",
+      "tooltip": "Specifies that you can select the journal template to use for posting purchase invoices."
+    },
+    {
+      "no": 201,
+      "name": "P. Cr. Memo Template Name",
+      "tooltip": "Specifies that you can select the journal template to use for posting purchase credit memos."
+    },
+    {
+      "no": 202,
+      "name": "P. Prep. Inv. Template Name",
+      "tooltip": "Specifies which general journal template to use for purchase prepayment invoices."
+    },
+    {
+      "no": 203,
+      "name": "P. Prep. Cr.Memo Template Name",
+      "tooltip": "Specifies which general journal template to use for purchase prepayment credit memos."
+    },
+    {
+      "no": 204,
+      "name": "IC Purch. Invoice Templ. Name",
+      "tooltip": "Specifies the intercompany journal template to use for purchase invoices."
+    },
+    {
+      "no": 205,
+      "name": "IC Purch. Cr. Memo Templ. Name",
+      "tooltip": "Specifies the intercompany journal template to use for posting purchase credit memos."
+    },
+    {
+      "no": 210,
+      "name": "Copy Line Descr. to G/L Entry",
+      "tooltip": "Specifies that the description on document lines of type G/L Account will be carried to the resulting general ledger entries."
+    },
+    {
+      "no": 1217,
+      "name": "Debit Acc. for Non-Item Lines",
+      "tooltip": "Specifies the G/L account that is automatically inserted on purchase lines of type debit that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor's item number will be converted to a purchase line of type G/L Account, and the No. field on the purchase line will contain the account that you select in the G/L Account for Non-Item Lines field."
+    },
+    {
+      "no": 1218,
+      "name": "Credit Acc. for Non-Item Lines",
+      "tooltip": "Specifies the G/L account that is automatically inserted on purchase lines of type credit that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor's item number will be converted to a purchase line of type G/L Account, and the No. field on the purchase line will contain the account that you select in the G/L Account for Non-Item Lines field."
+    },
+    {
+      "no": 5775,
+      "name": "Auto Post Non-Invt. via Whse.",
+      "tooltip": "Specifies if non-inventory item lines in a purchase document will be posted automatically when the document is posted via warehouse. None: Do not automatically post non-inventory item lines. Attached/Assigned: Post item charges and other non-inventory item lines assigned or attached to regular items. All: Post all non-inventory item lines."
+    },
+    {
+      "no": 5800,
+      "name": "Posted Return Shpt. Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to posted return shipments."
+    },
+    {
+      "no": 5801,
+      "name": "Copy Cmts Ret.Ord. to Ret.Shpt",
+      "tooltip": "Specifies that comments are copied from the purchase return order to the posted return shipment."
+    },
+    {
+      "no": 5802,
+      "name": "Copy Cmts Ret.Ord. to Cr. Memo",
+      "tooltip": "Specifies whether to copy comments from purchase return orders to purchase credit memos."
+    },
+    {
+      "no": 6600,
+      "name": "Return Order Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to new purchase return orders."
+    },
+    {
+      "no": 6601,
+      "name": "Return Shipment on Credit Memo",
+      "tooltip": "Specifies that a posted return shipment and a posted purchase credit memo are automatically created when you post a credit memo."
+    },
+    {
+      "no": 6602,
+      "name": "Exact Cost Reversing Mandatory",
+      "tooltip": "Specifies that a return transaction cannot be posted unless the Appl.-to Item Entry field on the purchase order line specifies an entry."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the price calculation method that will be default for purchase transactions."
+    },
+    {
+      "no": 7001,
+      "name": "Price List Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to purchase price lists."
+    },
+    {
+      "no": 7002,
+      "name": "Allow Editing Active Price",
+      "tooltip": "Specifies it the existing active purchase price line can be modified or removed, or a new price line can be added to the active price list."
+    },
+    {
+      "no": 7003,
+      "name": "Default Price List Code",
+      "tooltip": "Specifies the code of the existing purchase price list that stores all new price lines created in the price worksheet page."
+    },
+    {
+      "no": 7004,
+      "name": "Link Doc. Date To Posting Date",
+      "tooltip": "Specifies whether the document date changes when the posting date is modified."
+    },
+    {
+      "no": 10500,
+      "name": "Posting Date Check on Posting",
+      "tooltip": "Specifies if you want to see a warning when you post a purchase document with a posting date that is different from the Work Date."
+    },
+    {
+      "no": 11320,
+      "name": "Check Doc. Total Amounts",
+      "tooltip": "Specifies if you want the Doc. Amount Incl. VAT field in Purchase Invoice and Purchase Credit Memo to be compared to the sum of the VAT amounts fields in the purchase lines. If the amounts are not the same, you will be notified when posting the document. The totals will always be checked for invoices received from e-documents."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 5380,
+  "name": "Man. Integration Table Mapping",
+  "slug": "5380_man_integration_table_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the integration table."
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Integration Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Integration Table UID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Int. Tbl. Modified On Id",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Sync Only Coupled Records",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Direction",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Table Config Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Int. Tbl. Config Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Table Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Integration Table Filter",
+      "tooltip": ""
+    }
+  ]
+}

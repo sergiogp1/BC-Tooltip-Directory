@@ -1,0 +1,378 @@
+{
+  "id": 254,
+  "name": "VAT Entry",
+  "slug": "254_vat_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 3,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the VAT entry's posting date."
+    },
+    {
+      "no": 5,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the VAT entry."
+    },
+    {
+      "no": 6,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type that the VAT entry belongs to."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the type of the VAT entry."
+    },
+    {
+      "no": 8,
+      "name": "Base",
+      "tooltip": "Specifies the amount that the VAT amount (the amount shown in the Amount field) is calculated from."
+    },
+    {
+      "no": 9,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the VAT entry in LCY."
+    },
+    {
+      "no": 10,
+      "name": "VAT Calculation Type",
+      "tooltip": "Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group."
+    },
+    {
+      "no": 12,
+      "name": "Bill-to/Pay-to No.",
+      "tooltip": "Specifies the number of the bill-to customer or pay-to vendor that the entry is linked to."
+    },
+    {
+      "no": 13,
+      "name": "EU 3-Party Trade",
+      "tooltip": "Specifies if the transaction is related to trade with a third party within the EU."
+    },
+    {
+      "no": 14,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Closed by Entry No.",
+      "tooltip": "Specifies the number of the VAT entry that has closed the entry, if the VAT entry was closed with the Calc. and Post VAT Settlement batch job."
+    },
+    {
+      "no": 18,
+      "name": "Closed",
+      "tooltip": "Specifies whether the VAT entry has been closed by the Calc. and Post VAT Settlement batch job."
+    },
+    {
+      "no": 19,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 20,
+      "name": "Internal Ref. No.",
+      "tooltip": "Specifies the internal reference number for the line."
+    },
+    {
+      "no": 21,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Unrealized Amount",
+      "tooltip": "Specifies the unrealized VAT amount for this line if you use unrealized VAT."
+    },
+    {
+      "no": 23,
+      "name": "Unrealized Base",
+      "tooltip": "Specifies the unrealized base amount if you use unrealized VAT."
+    },
+    {
+      "no": 24,
+      "name": "Remaining Unrealized Amount",
+      "tooltip": "Specifies the amount that remains unrealized in the VAT entry."
+    },
+    {
+      "no": 25,
+      "name": "Remaining Unrealized Base",
+      "tooltip": "Specifies the amount of base that remains unrealized in the VAT entry."
+    },
+    {
+      "no": 26,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Tax Jurisdiction Code",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Tax Group Used",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Tax Type",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Tax on Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Sales Tax Connection No.",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Unrealized VAT Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 40,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 43,
+      "name": "Additional-Currency Amount",
+      "tooltip": "Specifies the amount of the VAT entry. The amount is in the additional reporting currency."
+    },
+    {
+      "no": 44,
+      "name": "Additional-Currency Base",
+      "tooltip": "Specifies the amount that the VAT amount is calculated from if you post in an additional reporting currency."
+    },
+    {
+      "no": 45,
+      "name": "Add.-Currency Unrealized Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Add.-Currency Unrealized Base",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Add.-Curr. Rem. Unreal. Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Add.-Curr. Rem. Unreal. Base",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "VAT Difference",
+      "tooltip": "Specifies the difference between the calculated VAT amount and a VAT amount that you have entered manually."
+    },
+    {
+      "no": 52,
+      "name": "Add.-Curr. VAT Difference",
+      "tooltip": "Specifies, in the additional reporting currency, the VAT difference that arises when you make a correction to a VAT amount on a sales or purchase document."
+    },
+    {
+      "no": 53,
+      "name": "Ship-to/Order Address Code",
+      "tooltip": "Specifies the address code of the ship-to customer or order-from vendor that the entry is linked to."
+    },
+    {
+      "no": 54,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 55,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the VAT registration number of the customer or vendor that the entry is linked to."
+    },
+    {
+      "no": 56,
+      "name": "Reversed",
+      "tooltip": "Specifies if the entry has been part of a reverse transaction."
+    },
+    {
+      "no": 57,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry. If the field Specifies a number, the entry cannot be reversed again."
+    },
+    {
+      "no": 58,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 59,
+      "name": "EU Service",
+      "tooltip": "Specifies if this VAT entry is to be reported as a service in the periodic VAT reports."
+    },
+    {
+      "no": 60,
+      "name": "Base Before Pmt. Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Source Currency VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Source Currency VAT Base",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Source Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Source Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Realized Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Realized Base",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Add.-Curr. Realized Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Add.-Curr. Realized Base",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "G/L Acc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the VAT date on the VAT entry. This is either the date that the document was created or posted, depending on your setting on the General Ledger Setup page."
+    },
+    {
+      "no": 6200,
+      "name": "Non-Deductible VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 6201,
+      "name": "Non-Deductible VAT Base",
+      "tooltip": "Specifies the amount of VAT that is not deducted due to the type of goods or services purchased."
+    },
+    {
+      "no": 6202,
+      "name": "Non-Deductible VAT Amount",
+      "tooltip": "Specifies the amount of the transaction for which VAT is not applied, due to the type of goods or services purchased."
+    },
+    {
+      "no": 6203,
+      "name": "Non-Deductible VAT Base ACY",
+      "tooltip": "Specifies the amount of VAT that is not deducted due to the type of goods or services purchased. The amount is in the additional reporting currency."
+    },
+    {
+      "no": 6204,
+      "name": "Non-Deductible VAT Amount ACY",
+      "tooltip": "Specifies the amount of the transaction for which VAT is not applied, due to the type of goods or services purchased. The amount is in the additional reporting currency."
+    },
+    {
+      "no": 6205,
+      "name": "Non-Deductible VAT Diff.",
+      "tooltip": "Specifies the difference between the calculated Non-Deductible VAT amount and a Non-Deductible VAT amount that you have entered manually."
+    },
+    {
+      "no": 6206,
+      "name": "Non-Deductible VAT Diff. ACY",
+      "tooltip": ""
+    }
+  ]
+}

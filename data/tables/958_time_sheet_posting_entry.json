@@ -1,0 +1,48 @@
+{
+  "id": 958,
+  "name": "Time Sheet Posting Entry",
+  "slug": "958_time_sheet_posting_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Time Sheet No.",
+      "tooltip": "Specifies the number of a time sheet."
+    },
+    {
+      "no": 3,
+      "name": "Time Sheet Line No.",
+      "tooltip": "Specifies the number of a time sheet line."
+    },
+    {
+      "no": 4,
+      "name": "Time Sheet Date",
+      "tooltip": "Specifies the date for which time usage information was entered in a time sheet."
+    },
+    {
+      "no": 5,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of hours that have been posted for that date in the time sheet."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number that was generated or created for the time sheet during posting."
+    },
+    {
+      "no": 7,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the posted document."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description that is contained in the details about the time sheet line."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 387,
+  "name": "Allocation Policy",
+  "slug": "387_allocation_policy",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the step number of the allocation policy."
+    },
+    {
+      "no": 3,
+      "name": "Allocation Rule",
+      "tooltip": "Specifies the name of the allocation policy. Click or tap the AssistEdit button to see an example of how the allocation policy will be applied."
+    }
+  ]
+}

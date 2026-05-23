@@ -1,0 +1,158 @@
+{
+  "id": 8613,
+  "name": "Config. Package Table",
+  "slug": "8613_config_package_table",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": "Specifies the code for the package that data will be imported to."
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the table ID."
+    },
+    {
+      "no": 3,
+      "name": "Table Name",
+      "tooltip": "Specifies the table name."
+    },
+    {
+      "no": 4,
+      "name": "No. of Package Records",
+      "tooltip": "Specifies the count of the number of configuration package records."
+    },
+    {
+      "no": 5,
+      "name": "No. of Package Errors",
+      "tooltip": "Specifies the count of the number of package errors."
+    },
+    {
+      "no": 7,
+      "name": "Imported Date and Time",
+      "tooltip": "Specifies the date and time that migration records were imported from Excel or from an .xml file."
+    },
+    {
+      "no": 8,
+      "name": "Exported Date and Time",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Comments",
+      "tooltip": "Specifies a comment in which you can provide a description"
+    },
+    {
+      "no": 10,
+      "name": "Created Date and Time",
+      "tooltip": "Specifies the date and time that the configuration package was created. The field is updated each time you save the package."
+    },
+    {
+      "no": 11,
+      "name": "Company Filter (Source Table)",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Table Caption",
+      "tooltip": "Specifies the caption of the table that is part of the migration process. The name comes from the Caption property of the table."
+    },
+    {
+      "no": 13,
+      "name": "Data Template",
+      "tooltip": "Specifies the name of the data template that is being used as part of the migration process."
+    },
+    {
+      "no": 14,
+      "name": "Package Processing Order",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 16,
+      "name": "Processing Order",
+      "tooltip": "Specifies the number of the processing order. This is used to track the migration process."
+    },
+    {
+      "no": 17,
+      "name": "No. of Fields Included",
+      "tooltip": "Specifies the count of the number of fields that are included in the migration table."
+    },
+    {
+      "no": 18,
+      "name": "No. of Fields Available",
+      "tooltip": "Specifies the count of the number of fields that are available in the migration table."
+    },
+    {
+      "no": 19,
+      "name": "No. of Fields to Validate",
+      "tooltip": "Specifies the number of fields to validate. The count of the number of fields to validate is based on how many fields in the table have the Validate Field check box selected."
+    },
+    {
+      "no": 20,
+      "name": "Package Caption",
+      "tooltip": "Specifies a name for the configuration package."
+    },
+    {
+      "no": 21,
+      "name": "Imported by User ID",
+      "tooltip": "Specifies the ID of the user who has imported the package."
+    },
+    {
+      "no": 22,
+      "name": "Created by User ID",
+      "tooltip": "Specifies the ID of the user who created the configuration package."
+    },
+    {
+      "no": 24,
+      "name": "Dimensions as Columns",
+      "tooltip": "Specifies whether dimensions should be displayed in columns. If you select No, then the dimensions are not displayed in any format."
+    },
+    {
+      "no": 25,
+      "name": "Filtered",
+      "tooltip": "Specifies whether the package is filtered. This field is set depending on filter settings you have specified."
+    },
+    {
+      "no": 26,
+      "name": "Skip Table Triggers",
+      "tooltip": "Specifies whether codeunit triggers related to tables should be skipped during the configuration process."
+    },
+    {
+      "no": 27,
+      "name": "Delete Recs Before Processing",
+      "tooltip": "Specifies whether table records should be deleted before the migration process is begun."
+    },
+    {
+      "no": 28,
+      "name": "Processing Report ID",
+      "tooltip": "Specifies the codeunit that has been set up to process data before you apply it to a Business Central database. By default, Business Central uses codeunit 8621."
+    },
+    {
+      "no": 29,
+      "name": "Parent Table ID",
+      "tooltip": "Specifies the table that holds the configuration data."
+    },
+    {
+      "no": 30,
+      "name": "Validated",
+      "tooltip": "Specifies if the package does not include data for this table."
+    },
+    {
+      "no": 31,
+      "name": "Delayed Insert",
+      "tooltip": "Specifies if a package with this code does not exist already."
+    },
+    {
+      "no": 32,
+      "name": "Cross-Column Filter",
+      "tooltip": ""
+    }
+  ]
+}

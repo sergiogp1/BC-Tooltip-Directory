@@ -1,0 +1,163 @@
+{
+  "id": 179,
+  "name": "Reversal Entry",
+  "slug": "179_reversal_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Entry Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 4,
+      "name": "G/L Register No.",
+      "tooltip": "Specifies the number of the general ledger register, where the general ledger entry in this record was posted."
+    },
+    {
+      "no": 5,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 6,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 7,
+      "name": "Transaction No.",
+      "tooltip": "Specifies the number of the transaction that was reversed."
+    },
+    {
+      "no": 8,
+      "name": "Source Type",
+      "tooltip": "Specifies the source type that applies to the source number that is shown in the Source No. field."
+    },
+    {
+      "no": 9,
+      "name": "Source No.",
+      "tooltip": "Specifies where the entry originated."
+    },
+    {
+      "no": 10,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the record."
+    },
+    {
+      "no": 12,
+      "name": "Amount",
+      "tooltip": "Specifies the amount on the entry to be reversed."
+    },
+    {
+      "no": 13,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 14,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 15,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the amount of the entry in LCY."
+    },
+    {
+      "no": 16,
+      "name": "Debit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent debits, expressed in LCY."
+    },
+    {
+      "no": 17,
+      "name": "Credit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent credits, expressed in LCY."
+    },
+    {
+      "no": 18,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is included in the total amount."
+    },
+    {
+      "no": 19,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date for the entry."
+    },
+    {
+      "no": 20,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type that the entry belongs to."
+    },
+    {
+      "no": 21,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the transaction that created the entry."
+    },
+    {
+      "no": 22,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the reversal was posted to."
+    },
+    {
+      "no": 23,
+      "name": "Account Name",
+      "tooltip": "Specifies erroneous postings that you want to undo by using the Reverse function."
+    },
+    {
+      "no": 25,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 26,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 27,
+      "name": "FA Posting Category",
+      "tooltip": "Specifies the posting category that is used for fixed assets."
+    },
+    {
+      "no": 28,
+      "name": "FA Posting Type",
+      "tooltip": "Specifies the posting type, if Account Type field contains Fixed Asset."
+    },
+    {
+      "no": 30,
+      "name": "Reversal Type",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Source Currency Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Source Currency VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Source Currency Code",
+      "tooltip": ""
+    }
+  ]
+}

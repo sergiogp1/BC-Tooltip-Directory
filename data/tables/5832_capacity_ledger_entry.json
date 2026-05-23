@@ -1,0 +1,203 @@
+{
+  "id": 5832,
+  "name": "Capacity Ledger Entry",
+  "slug": "5832_capacity_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the entry."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the type of capacity entry."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the entry."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 10,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of this entry, in base units of measure."
+    },
+    {
+      "no": 15,
+      "name": "Invoiced Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Item Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "SIFT Bucket No.",
+      "tooltip": "Specifies an automatically generated number that is used by the system to enable better concurrency."
+    },
+    {
+      "no": 28,
+      "name": "Cap. Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure code for the capacity usage."
+    },
+    {
+      "no": 29,
+      "name": "Qty. per Cap. Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 34,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 42,
+      "name": "Completely Invoiced",
+      "tooltip": "Specifies if the entry has been fully invoiced or if more posted invoices are expected."
+    },
+    {
+      "no": 56,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number."
+    },
+    {
+      "no": 57,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 58,
+      "name": "Unit of Measure Code",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Direct Cost",
+      "tooltip": "Specifies the direct cost in LCY of the quantity posting."
+    },
+    {
+      "no": 72,
+      "name": "Overhead Cost",
+      "tooltip": "Specifies the overhead cost in LCY of the quantity posting."
+    },
+    {
+      "no": 76,
+      "name": "Direct Cost (ACY)",
+      "tooltip": "Specifies the direct cost in the additional reporting currency."
+    },
+    {
+      "no": 77,
+      "name": "Overhead Cost (ACY)",
+      "tooltip": "Specifies the overhead cost in the additional reporting currency."
+    },
+    {
+      "no": 78,
+      "name": "Subcontracting",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Reversed",
+      "tooltip": "Specifies if the entry has been part of a reverse transaction."
+    },
+    {
+      "no": 88,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry that replaced the original entry in the reverse transaction."
+    },
+    {
+      "no": 89,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 90,
+      "name": "Order Type",
+      "tooltip": "Specifies which type of order the entry was created in."
+    },
+    {
+      "no": 91,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the order that created the entry."
+    },
+    {
+      "no": 92,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the line number of the order that created the entry."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": 7302,
+  "name": "Bin Content",
+  "slug": "7302_bin_content",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code of the bin."
+    },
+    {
+      "no": 2,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone code of the bin."
+    },
+    {
+      "no": 3,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 4,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that will be stored in the bin."
+    },
+    {
+      "no": 10,
+      "name": "Bin Type Code",
+      "tooltip": "Specifies the code of the bin type that was selected for this bin."
+    },
+    {
+      "no": 11,
+      "name": "Warehouse Class Code",
+      "tooltip": "Specifies the warehouse class code. Only items with the same warehouse class can be stored in this bin."
+    },
+    {
+      "no": 12,
+      "name": "Block Movement",
+      "tooltip": "Specifies how the movement of a particular item, or bin content, into or out of this bin, is blocked."
+    },
+    {
+      "no": 15,
+      "name": "Min. Qty.",
+      "tooltip": "Specifies the minimum number of units of the item that you want to have in the bin at all times."
+    },
+    {
+      "no": 16,
+      "name": "Max. Qty.",
+      "tooltip": "Specifies the maximum number of units of the item that you want to have in the bin."
+    },
+    {
+      "no": 21,
+      "name": "Bin Ranking",
+      "tooltip": "Specifies the bin ranking."
+    },
+    {
+      "no": 26,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Pick Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Neg. Adjmt. Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Put-away Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Pos. Adjmt. Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Fixed",
+      "tooltip": "Specifies that the item (bin content) has been associated with this bin, and that the bin should normally contain the item."
+    },
+    {
+      "no": 40,
+      "name": "Cross-Dock Bin",
+      "tooltip": "Specifies if the bin content is in a cross-dock bin."
+    },
+    {
+      "no": 41,
+      "name": "Default",
+      "tooltip": "Specifies if the bin is the default bin for the associated item."
+    },
+    {
+      "no": 50,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies how many units of the item, in the base unit of measure, are stored in the bin."
+    },
+    {
+      "no": 51,
+      "name": "Pick Quantity (Base)",
+      "tooltip": "Specifies how many units of the item, in the base unit of measure, will be picked from the bin."
+    },
+    {
+      "no": 52,
+      "name": "Negative Adjmt. Qty. (Base)",
+      "tooltip": "Specifies how many item units, in the base unit of measure, will be posted on journal lines as negative quantities."
+    },
+    {
+      "no": 53,
+      "name": "Put-away Quantity (Base)",
+      "tooltip": "Specifies how many units of the item, in the base unit of measure, will be put away in the bin."
+    },
+    {
+      "no": 54,
+      "name": "Positive Adjmt. Qty. (Base)",
+      "tooltip": "Specifies how many item units, in the base unit of measure, will be posted on journal lines as positive quantities."
+    },
+    {
+      "no": 55,
+      "name": "ATO Components Pick Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "ATO Components Pick Qty (Base)",
+      "tooltip": "Specifies how many assemble-to-order units are picked for assembly."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure that are in the unit of measure specified for the item in the bin."
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 6500,
+      "name": "Lot No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6501,
+      "name": "Serial No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6502,
+      "name": "Dedicated",
+      "tooltip": "Specifies if the bin is used as a dedicated bin, which means that its bin content is available only to certain resources."
+    },
+    {
+      "no": 6503,
+      "name": "Unit of Measure Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No. Filter",
+      "tooltip": ""
+    }
+  ]
+}

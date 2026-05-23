@@ -1,0 +1,28 @@
+{
+  "id": 5917,
+  "name": "Fault Reason Code",
+  "slug": "5917_fault_reason_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the fault reason."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the fault reason code."
+    },
+    {
+      "no": 3,
+      "name": "Exclude Warranty Discount",
+      "tooltip": "Specifies that you want to exclude a warranty discount for the service item assigned this fault reason code."
+    },
+    {
+      "no": 4,
+      "name": "Exclude Contract Discount",
+      "tooltip": "Specifies that you want to exclude a contract/service discount for the service item assigned this fault reason code."
+    }
+  ]
+}

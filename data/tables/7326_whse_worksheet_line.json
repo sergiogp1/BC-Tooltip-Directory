@@ -1,0 +1,233 @@
+{
+  "id": 7326,
+  "name": "Whse. Worksheet Line",
+  "slug": "7326_whse_worksheet_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 7,
+      "name": "Source Line No.",
+      "tooltip": "Specifies the line number of the source document that the entry originates from."
+    },
+    {
+      "no": 8,
+      "name": "Source Subline No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Source Document",
+      "tooltip": "Specifies the type of document that the line relates to."
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number of the item for information use."
+    },
+    {
+      "no": 12,
+      "name": "From Zone Code",
+      "tooltip": "Specifies the zone from which the items should be taken."
+    },
+    {
+      "no": 13,
+      "name": "From Bin Code",
+      "tooltip": "Specifies the code of the bin from which the items should be taken."
+    },
+    {
+      "no": 14,
+      "name": "To Bin Code",
+      "tooltip": "Specifies the code of the bin into which the items should be placed."
+    },
+    {
+      "no": 15,
+      "name": "To Zone Code",
+      "tooltip": "Specifies the code of the zone in which the items should be placed."
+    },
+    {
+      "no": 16,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that the line concerns."
+    },
+    {
+      "no": 17,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the item you want to move."
+    },
+    {
+      "no": 18,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity that should be handled in the base unit of measure."
+    },
+    {
+      "no": 19,
+      "name": "Qty. Outstanding",
+      "tooltip": "Specifies the quantity that still needs to be handled."
+    },
+    {
+      "no": 20,
+      "name": "Qty. Outstanding (Base)",
+      "tooltip": "Specifies the quantity that still needs to be handled, expressed in the base unit of measure."
+    },
+    {
+      "no": 21,
+      "name": "Qty. to Handle",
+      "tooltip": "Specifies how many units of the item you want to move."
+    },
+    {
+      "no": 22,
+      "name": "Qty. to Handle (Base)",
+      "tooltip": "Specifies the quantity you want to handle, in the base unit of measure."
+    },
+    {
+      "no": 23,
+      "name": "Qty. Handled",
+      "tooltip": "Specifies the quantity that has been handled and registered."
+    },
+    {
+      "no": 24,
+      "name": "Qty. Handled (Base)",
+      "tooltip": "Specifies the quantity that has been handled and registered, in the base unit of measure."
+    },
+    {
+      "no": 27,
+      "name": "From Unit of Measure Code",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Qty. per From Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item on the line."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 35,
+      "name": "Sorting Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date of the line."
+    },
+    {
+      "no": 39,
+      "name": "Destination Type",
+      "tooltip": "Specifies the type of destination associated with the warehouse worksheet line."
+    },
+    {
+      "no": 40,
+      "name": "Destination No.",
+      "tooltip": "Specifies the number of the customer, vendor, or location for which the items should be processed."
+    },
+    {
+      "no": 41,
+      "name": "Shipping Agent Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Shipping Agent Service Code",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Shipment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Shipping Advice",
+      "tooltip": "Specifies the shipping advice on the warehouse shipment line associated with this worksheet line."
+    },
+    {
+      "no": 45,
+      "name": "Shipment Date",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Whse. Document Type",
+      "tooltip": "Specifies the type of warehouse document this line is associated with."
+    },
+    {
+      "no": 47,
+      "name": "Whse. Document No.",
+      "tooltip": "Specifies the number of the warehouse document."
+    },
+    {
+      "no": 48,
+      "name": "Whse. Document Line No.",
+      "tooltip": "Specifies the number of the line in the warehouse document that is the basis for the worksheet line."
+    },
+    {
+      "no": 50,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    }
+  ]
+}

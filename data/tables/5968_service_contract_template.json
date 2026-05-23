@@ -1,0 +1,108 @@
+{
+  "id": 5968,
+  "name": "Service Contract Template",
+  "slug": "5968_service_contract_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service contract."
+    },
+    {
+      "no": 3,
+      "name": "Invoice Period",
+      "tooltip": "Specifies the invoice period for the service contract."
+    },
+    {
+      "no": 4,
+      "name": "Max. Labor Unit Price",
+      "tooltip": "Specifies the maximum unit price that can be set for a resource on lines for service orders associated with the service contract."
+    },
+    {
+      "no": 5,
+      "name": "Combine Invoices",
+      "tooltip": "Specifies you want to combine invoices for this service contract with invoices for other service contracts with the same bill-to customer."
+    },
+    {
+      "no": 6,
+      "name": "Prepaid",
+      "tooltip": "Specifies that this service contract is prepaid."
+    },
+    {
+      "no": 7,
+      "name": "Service Zone Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Default Response Time (Hours)",
+      "tooltip": "Specifies the default response time for the service contract created from this service contract template."
+    },
+    {
+      "no": 10,
+      "name": "Contract Lines on Invoice",
+      "tooltip": "Specifies you want contract lines to appear as text on the invoice."
+    },
+    {
+      "no": 11,
+      "name": "Default Service Period",
+      "tooltip": "Specifies the default service period for the items in the contract."
+    },
+    {
+      "no": 14,
+      "name": "Invoice after Service",
+      "tooltip": "Specifies you can only invoice the contract if you have posted a service order linked to the contract since you last invoiced the contract."
+    },
+    {
+      "no": 15,
+      "name": "Allow Unbalanced Amounts",
+      "tooltip": "Specifies if the contents of the Calcd. Annual Amount field are copied into the Annual Amount field in the service contract or contract quote."
+    },
+    {
+      "no": 16,
+      "name": "Contract Group Code",
+      "tooltip": "Specifies the contract group code of the service contract."
+    },
+    {
+      "no": 17,
+      "name": "Service Order Type",
+      "tooltip": "Specifies the service order type assigned to service orders linked to this service contract."
+    },
+    {
+      "no": 18,
+      "name": "Automatic Credit Memos",
+      "tooltip": "Specifies that a credit memo is created when you remove a contract line from the service contract under certain conditions."
+    },
+    {
+      "no": 20,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Price Update Period",
+      "tooltip": "Specifies the price update period for this service contract."
+    },
+    {
+      "no": 22,
+      "name": "Price Inv. Increase Code",
+      "tooltip": "Specifies all billable prices for the project task, expressed in the local currency."
+    },
+    {
+      "no": 23,
+      "name": "Serv. Contract Acc. Gr. Code",
+      "tooltip": "Specifies the code associated with the service contract account group."
+    }
+  ]
+}

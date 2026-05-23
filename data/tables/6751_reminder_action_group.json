@@ -1,0 +1,43 @@
+{
+  "id": 6751,
+  "name": "Reminder Action Group",
+  "slug": "6751_reminder_action_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique code for the reminder action group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the reminder action group."
+    },
+    {
+      "no": 3,
+      "name": "Schedule",
+      "tooltip": "Specifies the cadence of the automation job. The cadence determines how often the automation job is run."
+    },
+    {
+      "no": 4,
+      "name": "Start DateTime",
+      "tooltip": "Specifies the date and time when the automation job is started for the first time."
+    },
+    {
+      "no": 6,
+      "name": "Next Run Date Formula",
+      "tooltip": "Specifies the formula that is used to calculate the date and time when the automation job is run next time."
+    },
+    {
+      "no": 7,
+      "name": "Blocked",
+      "tooltip": "Specifies whether the reminder action group is blocked. Blocked reminder action groups cannot be used in the system."
+    },
+    {
+      "no": 12,
+      "name": "Reminder Terms",
+      "tooltip": ""
+    }
+  ]
+}

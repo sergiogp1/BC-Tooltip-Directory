@@ -1,0 +1,23 @@
+{
+  "id": 6670,
+  "name": "Returns-Related Document",
+  "slug": "6670_returns_related_document",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the related document."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    }
+  ]
+}

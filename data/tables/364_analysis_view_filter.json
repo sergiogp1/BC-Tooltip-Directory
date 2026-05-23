@@ -1,0 +1,23 @@
+{
+  "id": 364,
+  "name": "Analysis View Filter",
+  "slug": "364_analysis_view_filter",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis View Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the dimension that the analysis view is based on."
+    },
+    {
+      "no": 3,
+      "name": "Dimension Value Filter",
+      "tooltip": "Specifies the dimension value that the analysis view is based on."
+    }
+  ]
+}

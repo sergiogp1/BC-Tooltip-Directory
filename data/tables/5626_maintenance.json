@@ -1,0 +1,18 @@
+{
+  "id": 5626,
+  "name": "Maintenance",
+  "slug": "5626_maintenance",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a maintenance code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the maintenance type."
+    }
+  ]
+}

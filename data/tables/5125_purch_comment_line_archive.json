@@ -1,0 +1,53 @@
+{
+  "id": 5125,
+  "name": "Purch. Comment Line Archive",
+  "slug": "5125_purch_comment_line_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the version number of the archived document."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies the document line number of the quote or order to which the comment applies."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the line number for the comment."
+    },
+    {
+      "no": 7,
+      "name": "Document Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Version No.",
+      "tooltip": ""
+    }
+  ]
+}

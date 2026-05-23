@@ -1,0 +1,53 @@
+{
+  "id": 801,
+  "name": "Online Map Parameter Setup",
+  "slug": "801_online_map_parameter_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a descriptive code for the map that you set up, for example, BING."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the country/region. If you have selected the country/region code, the name is automatically inserted into this field."
+    },
+    {
+      "no": 3,
+      "name": "Map Service",
+      "tooltip": "Specifies the URL for the online map."
+    },
+    {
+      "no": 4,
+      "name": "Directions Service",
+      "tooltip": "Specifies the URL for directions an on online map."
+    },
+    {
+      "no": 5,
+      "name": "Comment",
+      "tooltip": "Specifies a comment. The field is optional, and you can enter a maximum of 30 characters, both numbers and letters."
+    },
+    {
+      "no": 6,
+      "name": "URL Encode Non-ASCII Chars",
+      "tooltip": "Specifies whether the URL is Non-ASCII encoded."
+    },
+    {
+      "no": 7,
+      "name": "Miles/Kilometers Option List",
+      "tooltip": "Specifies the options that measure the route distance."
+    },
+    {
+      "no": 8,
+      "name": "Quickest/Shortest Option List",
+      "tooltip": "Specifies the option for calculating the quickest or the shortest route."
+    },
+    {
+      "no": 9,
+      "name": "Directions from Location Serv.",
+      "tooltip": "Specifies the URL for directions from your location an on online map."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 256,
+  "name": "VAT Statement Line",
+  "slug": "256_vat_statement_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Statement Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Row No.",
+      "tooltip": "Specifies a number that identifies the line."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT statement line."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies what the VAT statement line will include."
+    },
+    {
+      "no": 7,
+      "name": "Account Totaling",
+      "tooltip": "Specifies an account interval or a series of account numbers."
+    },
+    {
+      "no": 8,
+      "name": "Gen. Posting Type",
+      "tooltip": "Specifies the type of transaction."
+    },
+    {
+      "no": 9,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 10,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 11,
+      "name": "Row Totaling",
+      "tooltip": "Specifies a row-number interval or a series of row numbers."
+    },
+    {
+      "no": 12,
+      "name": "Amount Type",
+      "tooltip": "Specifies if the VAT statement line shows the VAT amounts or the base amounts on which the VAT is calculated."
+    },
+    {
+      "no": 13,
+      "name": "Calculate with",
+      "tooltip": "Specifies whether amounts on the VAT statement will be calculated with their original sign or with the sign reversed."
+    },
+    {
+      "no": 14,
+      "name": "Print",
+      "tooltip": "Specifies whether the VAT statement line will be printed on the report that contains the finished VAT statement."
+    },
+    {
+      "no": 15,
+      "name": "Print with",
+      "tooltip": "Specifies whether amounts on the VAT statement will be printed with their original sign or with the sign reversed."
+    },
+    {
+      "no": 16,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "New Page",
+      "tooltip": "Specifies whether a new page should begin immediately after this line when the VAT statement is printed. To start a new page after this line, place a check mark in the field."
+    },
+    {
+      "no": 18,
+      "name": "Tax Jurisdiction Code",
+      "tooltip": "Specifies a tax jurisdiction code for the statement."
+    },
+    {
+      "no": 19,
+      "name": "Use Tax",
+      "tooltip": "Specifies whether to use only entries from the VAT Entry table that are marked as Use Tax to be totaled on this line."
+    },
+    {
+      "no": 20,
+      "name": "Box No.",
+      "tooltip": "Specifies the number on the box that the VAT statement applies to."
+    }
+  ]
+}

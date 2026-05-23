@@ -1,0 +1,98 @@
+{
+  "id": 7354,
+  "name": "Bin",
+  "slug": "7354_bin",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Location Code",
+      "tooltip": "Specifies the location from which you opened the Bins window."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a code that uniquely describes the bin."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the bin."
+    },
+    {
+      "no": 4,
+      "name": "Zone Code",
+      "tooltip": "Specifies the code of the zone in which the bin is located."
+    },
+    {
+      "no": 5,
+      "name": "Adjustment Bin",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Bin Type Code",
+      "tooltip": "Specifies the code of the bin type that applies to the bin."
+    },
+    {
+      "no": 11,
+      "name": "Warehouse Class Code",
+      "tooltip": "Specifies the code of the warehouse class that applies to the bin."
+    },
+    {
+      "no": 12,
+      "name": "Block Movement",
+      "tooltip": "Specifies how the movement of an item, or bin content, into or out of this bin, is blocked."
+    },
+    {
+      "no": 20,
+      "name": "Special Equipment Code",
+      "tooltip": "Specifies the code of the equipment needed when working in the bin."
+    },
+    {
+      "no": 21,
+      "name": "Bin Ranking",
+      "tooltip": "Specifies the ranking of the bin. Items in the highest-ranking bins (with the highest number in the field) will be picked first."
+    },
+    {
+      "no": 22,
+      "name": "Maximum Cubage",
+      "tooltip": "Specifies the maximum cubage (volume) that the bin can hold."
+    },
+    {
+      "no": 23,
+      "name": "Maximum Weight",
+      "tooltip": "Specifies the maximum weight that this bin can hold."
+    },
+    {
+      "no": 30,
+      "name": "Empty",
+      "tooltip": "Specifies that the bin Specifies no items."
+    },
+    {
+      "no": 32,
+      "name": "Item Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Variant Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Default",
+      "tooltip": "Specifies if the bin is the default bin for an item."
+    },
+    {
+      "no": 40,
+      "name": "Cross-Dock Bin",
+      "tooltip": "Specifies if the bin is considered a cross-dock bin."
+    },
+    {
+      "no": 41,
+      "name": "Dedicated",
+      "tooltip": "Specifies that quantities in the bin are protected from being picked for other demands."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5085,
+  "name": "Contact Duplicate",
+  "slug": "5085_contact_duplicate",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact for which a duplicate has been found."
+    },
+    {
+      "no": 2,
+      "name": "Duplicate Contact No.",
+      "tooltip": "Specifies the contact number of the duplicate that was found."
+    },
+    {
+      "no": 3,
+      "name": "Separate Contacts",
+      "tooltip": "Specifies that the two contacts are not true duplicates, but separate contacts."
+    },
+    {
+      "no": 4,
+      "name": "No. of Matching Strings",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact for which a duplicate has been found."
+    },
+    {
+      "no": 6,
+      "name": "Duplicate Contact Name",
+      "tooltip": "Specifies the name of the contact that has been identified as a possible duplicate."
+    }
+  ]
+}

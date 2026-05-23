@@ -1,0 +1,78 @@
+{
+  "id": 8623,
+  "name": "Config. Package",
+  "slug": "8623_config_package",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the configuration package."
+    },
+    {
+      "no": 2,
+      "name": "Package Name",
+      "tooltip": "Specifies the name of the package."
+    },
+    {
+      "no": 4,
+      "name": "Language ID",
+      "tooltip": "Specifies the ID of the Windows language to use for the configuration package. Choose the field and select a language ID from the list."
+    },
+    {
+      "no": 5,
+      "name": "No. of Tables",
+      "tooltip": "Specifies the number of tables that the package contains."
+    },
+    {
+      "no": 6,
+      "name": "Product Version",
+      "tooltip": "Specifies the version of the product that you are configuring. You can use this field to help differentiate among various versions of a solution."
+    },
+    {
+      "no": 11,
+      "name": "Exclude Config. Tables",
+      "tooltip": "Specifies whether to exclude configuration tables from the package. Select the check box to exclude these types of tables."
+    },
+    {
+      "no": 12,
+      "name": "Processing Order",
+      "tooltip": "Specifies the order in which the package is to be processed."
+    },
+    {
+      "no": 13,
+      "name": "No. of Records",
+      "tooltip": "Specifies the number of records in the package."
+    },
+    {
+      "no": 16,
+      "name": "No. of Errors",
+      "tooltip": "Specifies the count of package errors. One line reflects one field of a record that failed validation."
+    },
+    {
+      "no": 17,
+      "name": "Import Status",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Apply Status",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Min. Count For Async Import",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Import Error",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Apply Error",
+      "tooltip": ""
+    }
+  ]
+}

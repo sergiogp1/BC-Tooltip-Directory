@@ -1,0 +1,313 @@
+{
+  "id": 79,
+  "name": "Company Information",
+  "slug": "79_company_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the company's name and corporate form. For example, Inc. or Ltd."
+    },
+    {
+      "no": 3,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Address",
+      "tooltip": "Specifies the company's address."
+    },
+    {
+      "no": 5,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 6,
+      "name": "City",
+      "tooltip": "Specifies the company's city."
+    },
+    {
+      "no": 7,
+      "name": "Phone No.",
+      "tooltip": "Specifies the company's telephone number."
+    },
+    {
+      "no": 8,
+      "name": "Phone No. 2",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Fax No.",
+      "tooltip": "Specifies the company's fax number."
+    },
+    {
+      "no": 11,
+      "name": "Giro No.",
+      "tooltip": "Specifies the company's giro number."
+    },
+    {
+      "no": 12,
+      "name": "Bank Name",
+      "tooltip": "Specifies the name of the bank the company uses."
+    },
+    {
+      "no": 13,
+      "name": "Bank Branch No.",
+      "tooltip": "Specifies the bank's branch number."
+    },
+    {
+      "no": 14,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the company's bank account number."
+    },
+    {
+      "no": 15,
+      "name": "Payment Routing No.",
+      "tooltip": "Specifies the company's payment routing number."
+    },
+    {
+      "no": 17,
+      "name": "Customs Permit No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Customs Permit Date",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the company's VAT registration number."
+    },
+    {
+      "no": 20,
+      "name": "Registration No.",
+      "tooltip": "Specifies the company's registration number. You can enter a maximum of 20 characters, both numbers and letters."
+    },
+    {
+      "no": 21,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the location to which items for the company should be shipped."
+    },
+    {
+      "no": 23,
+      "name": "Ship-to Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address of the location to which items for the company should be shipped."
+    },
+    {
+      "no": 25,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 26,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the company's ship-to address."
+    },
+    {
+      "no": 27,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code that corresponds to the company's ship-to address."
+    },
+    {
+      "no": 29,
+      "name": "Picture",
+      "tooltip": "Specifies the picture that has been set up for the company, such as a company logo."
+    },
+    {
+      "no": 30,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 31,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county of the company's address."
+    },
+    {
+      "no": 32,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 33,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the county of the company's shipping address."
+    },
+    {
+      "no": 34,
+      "name": "E-Mail",
+      "tooltip": "Specifies the company's email address."
+    },
+    {
+      "no": 35,
+      "name": "Home Page",
+      "tooltip": "Specifies your company's web site."
+    },
+    {
+      "no": 36,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 37,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 38,
+      "name": "IBAN",
+      "tooltip": "Specifies the international bank account number of your primary bank account."
+    },
+    {
+      "no": 39,
+      "name": "SWIFT Code",
+      "tooltip": "Specifies the SWIFT code (international bank identifier code) of your primary bank."
+    },
+    {
+      "no": 40,
+      "name": "Industrial Classification",
+      "tooltip": "Specifies the company's industrial classification code."
+    },
+    {
+      "no": 46,
+      "name": "System Indicator",
+      "tooltip": "Specifies how you want to use the Company Badge when you are working with different companies of Business Central."
+    },
+    {
+      "no": 47,
+      "name": "Custom System Indicator Text",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "System Indicator Style",
+      "tooltip": "Specifies if you want to apply a certain style to the Company Badge. Having different styles on badges can make it easier to recognize the company that you are currently working with."
+    },
+    {
+      "no": 50,
+      "name": "Allow Blank Payment Info.",
+      "tooltip": "Specifies if you are allowed to create a sales invoice without filling the setup fields on this FastTab."
+    },
+    {
+      "no": 51,
+      "name": "Contact Person",
+      "tooltip": "Specifies the name of the contact person in your company."
+    },
+    {
+      "no": 52,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 90,
+      "name": "GLN",
+      "tooltip": "Specifies your company in connection with electronic document exchange."
+    },
+    {
+      "no": 92,
+      "name": "EORI Number",
+      "tooltip": "Specifies the Economic Operators Registration and Identification number that is used when you exchange information with the customs authorities due to trade into or out of the European Union."
+    },
+    {
+      "no": 95,
+      "name": "Use GLN in Electronic Document",
+      "tooltip": "Specifies whether the GLN is used in electronic documents as a party identification number."
+    },
+    {
+      "no": 96,
+      "name": "Picture - Last Mod. Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Created DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Demo Company",
+      "tooltip": ""
+    },
+    {
+      "no": 200,
+      "name": "Alternative Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 201,
+      "name": "Default Language Code",
+      "tooltip": "Specifies a default language code to be used for e.g. printing sales and purchase documents instead of the user language."
+    },
+    {
+      "no": 300,
+      "name": "Brand Color Value",
+      "tooltip": ""
+    },
+    {
+      "no": 301,
+      "name": "Brand Color Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code for the default responsibility center."
+    },
+    {
+      "no": 5791,
+      "name": "Check-Avail. Period Calc.",
+      "tooltip": "Specifies a date formula that defines the length of the period after the planned shipment date on demand lines in which the system checks availability for the demand line in question."
+    },
+    {
+      "no": 5792,
+      "name": "Check-Avail. Time Bucket",
+      "tooltip": "Specifies how frequently the system checks supply-demand events to discover if the item on the demand line is available on its shipment date."
+    },
+    {
+      "no": 7600,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies the code for the base calendar that you want to assign to your company."
+    },
+    {
+      "no": 7601,
+      "name": "Cal. Convergence Time Frame",
+      "tooltip": "Specifies how dates based on calendar and calendar-related documents are calculated."
+    }
+  ]
+}

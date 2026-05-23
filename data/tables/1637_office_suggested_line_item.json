@@ -1,0 +1,38 @@
+{
+  "id": 1637,
+  "name": "Office Suggested Line Item",
+  "slug": "1637_office_suggested_line_item",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Add",
+      "tooltip": "Specifies whether to add this item to the document"
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Item Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Matches",
+      "tooltip": ""
+    }
+  ]
+}

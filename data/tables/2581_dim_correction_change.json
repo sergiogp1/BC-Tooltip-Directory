@@ -1,0 +1,48 @@
+{
+  "id": 2581,
+  "name": "Dim Correction Change",
+  "slug": "2581_dim_correction_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Dimension Correction Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the code of the dimension change."
+    },
+    {
+      "no": 3,
+      "name": "Dimension Value",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "New Value",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "New Value ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Change Type",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Dimension Values",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Dimension Value Count",
+      "tooltip": ""
+    }
+  ]
+}

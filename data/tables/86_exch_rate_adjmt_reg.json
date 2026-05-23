@@ -1,0 +1,93 @@
+{
+  "id": 86,
+  "name": "Exch. Rate Adjmt. Reg.",
+  "slug": "86_exch_rate_adjmt_reg",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Creation Date",
+      "tooltip": "Specifies the posting date for the exchange rate adjustment register."
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the account type that was adjusted for exchange rate fluctuations when you ran the Adjust Exchange Rates batch job."
+    },
+    {
+      "no": 4,
+      "name": "Posting Group",
+      "tooltip": "Specifies the posting group of the exchange rate adjustment register on this line."
+    },
+    {
+      "no": 5,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code for the currency whose exchange rate was adjusted."
+    },
+    {
+      "no": 6,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Adjusted Base",
+      "tooltip": "Specifies the amount that was adjusted by the batch job for customer, vendor and/or bank ledger entries."
+    },
+    {
+      "no": 8,
+      "name": "Adjusted Base (LCY)",
+      "tooltip": "Specifies the amount in LCY that was adjusted by the batch job for G/L, customer, vendor and/or bank ledger entries."
+    },
+    {
+      "no": 9,
+      "name": "Adjusted Amt. (LCY)",
+      "tooltip": "Specifies the amount by which the batch job has adjusted G/L, customer, vendor and/or bank ledger entries for exchange rate fluctuations."
+    },
+    {
+      "no": 10,
+      "name": "Adjusted Base (Add.-Curr.)",
+      "tooltip": "Specifies the additional-reporting-currency amount the batch job has adjusted G/L, customer, and other entries for exchange rate fluctuations."
+    },
+    {
+      "no": 11,
+      "name": "Adjusted Amt. (Add.-Curr.)",
+      "tooltip": "Specifies the additional-reporting-currency amount the batch job has adjusted G/L, customer, and other entries for exchange rate fluctuations."
+    },
+    {
+      "no": 14,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Adjusted Customers",
+      "tooltip": "Specifies the number of customer ledger entries with remaining amount that was adjusted."
+    },
+    {
+      "no": 22,
+      "name": "Adjusted Vendors",
+      "tooltip": "Specifies the number of vendor ledger entries with remaining amount that was adjusted."
+    },
+    {
+      "no": 23,
+      "name": "Adjustment Amount",
+      "tooltip": "Specifies the total adjustment amount of exchange rate adjustment ledger entries."
+    },
+    {
+      "no": 24,
+      "name": "Adjusted Employees",
+      "tooltip": "Specifies the number of emplooyee ledger entries with remaining amount that was adjusted."
+    }
+  ]
+}

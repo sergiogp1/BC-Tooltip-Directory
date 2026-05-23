@@ -1,0 +1,18 @@
+{
+  "id": 5210,
+  "name": "Cause of Inactivity",
+  "slug": "5210_cause_of_inactivity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a cause of inactivity code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the cause of inactivity."
+    }
+  ]
+}

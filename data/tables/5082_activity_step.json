@@ -1,0 +1,38 @@
+{
+  "id": 5082,
+  "name": "Activity Step",
+  "slug": "5082_activity_step",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Activity Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Step No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies the type of the step. There are three options:"
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the description of the step."
+    },
+    {
+      "no": 5,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the step."
+    },
+    {
+      "no": 6,
+      "name": "Date Formula",
+      "tooltip": "Specifies the date formula that determines how to calculate when the step should be completed."
+    }
+  ]
+}

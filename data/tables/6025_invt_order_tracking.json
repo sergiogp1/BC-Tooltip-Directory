@@ -1,0 +1,58 @@
+{
+  "id": 6025,
+  "name": "Invt. Order Tracking",
+  "slug": "6025_invt_order_tracking",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number."
+    },
+    {
+      "no": 2,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number."
+    },
+    {
+      "no": 3,
+      "name": "Package No.",
+      "tooltip": "Specifies the lot number."
+    },
+    {
+      "no": 4,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date."
+    },
+    {
+      "no": 10,
+      "name": "Qty. Recorded (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Qty. Expected (Base)",
+      "tooltip": "Specifies the expected base quantity."
+    },
+    {
+      "no": 20,
+      "name": "Qty. To Transfer",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Outstanding Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Open",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Line No.",
+      "tooltip": ""
+    }
+  ]
+}

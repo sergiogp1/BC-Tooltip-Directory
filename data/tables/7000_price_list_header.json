@@ -1,0 +1,118 @@
+{
+  "id": 7000,
+  "name": "Price List Header",
+  "slug": "7000_price_list_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the unique identifier of the price list."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the price list."
+    },
+    {
+      "no": 3,
+      "name": "Source Group",
+      "tooltip": "Specifies whether the prices come from groups of customers, vendors or projects."
+    },
+    {
+      "no": 4,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Source No.",
+      "tooltip": "Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 6,
+      "name": "Parent Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Source ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Price Type",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Amount Type",
+      "tooltip": "Specifies whether the price list defines prices, discounts, or both."
+    },
+    {
+      "no": 10,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the price list."
+    },
+    {
+      "no": 11,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the price is valid."
+    },
+    {
+      "no": 12,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last date that the price is valid."
+    },
+    {
+      "no": 13,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies if prices include VAT."
+    },
+    {
+      "no": 14,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the default VAT business posting group code."
+    },
+    {
+      "no": 15,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies whether line discounts are allowed. You can change this value on the lines."
+    },
+    {
+      "no": 16,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies whether invoice discount is allowed. You can change this value on the lines."
+    },
+    {
+      "no": 17,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Status",
+      "tooltip": "Specifies whether the price list is in Draft status and can be edited, Inactive and cannot be edited or used, or Active and can be edited (when Allow Editing Active Price is enabled) and used for price calculations."
+    },
+    {
+      "no": 19,
+      "name": "Filter Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Allow Updating Defaults",
+      "tooltip": "Specifies whether users can change the values in the fields on the price list lines that contain default values from the header. This does not affect the ability to allow line or invoice discounts."
+    },
+    {
+      "no": 21,
+      "name": "Assign-to No.",
+      "tooltip": "Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 22,
+      "name": "Assign-to Parent No.",
+      "tooltip": "Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity."
+    }
+  ]
+}

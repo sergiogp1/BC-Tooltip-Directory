@@ -1,0 +1,18 @@
+{
+  "id": 5916,
+  "name": "Symptom Code",
+  "slug": "5916_symptom_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the symptom."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the symptom code."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 5346,
+  "name": "CRM Pricelevel",
+  "slug": "5346_crm_pricelevel",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "PriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "BeginDate",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "PaymentMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "FreightTermsCode",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "EndDate",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "StateCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 15,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "StatusCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 17,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "OrganizationIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": "Specifies the currency that amounts are shown in."
+    },
+    {
+      "no": 26,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "ExchangeRate",
+      "tooltip": "Specifies the currency exchange rate."
+    },
+    {
+      "no": 31,
+      "name": "CompanyId",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 92,
+  "name": "Customer Posting Group",
+  "slug": "92_customer_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the identifier for the customer posting group. This is what you choose when you assign the group to an entity or document."
+    },
+    {
+      "no": 2,
+      "name": "Receivables Account",
+      "tooltip": "Specifies the general ledger account to use when you post receivables from customers in this posting group."
+    },
+    {
+      "no": 7,
+      "name": "Service Charge Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post service charges for customers in this posting group."
+    },
+    {
+      "no": 8,
+      "name": "Payment Disc. Debit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post payment discounts granted to customers in this posting group."
+    },
+    {
+      "no": 9,
+      "name": "Invoice Rounding Account",
+      "tooltip": "Specifies the general ledger account to use when you post amounts that result from invoice rounding when you post transactions for customers."
+    },
+    {
+      "no": 10,
+      "name": "Additional Fee Account",
+      "tooltip": "Specifies the general ledger account to use when you post additional fees from reminders and finance charge memos for customers in this posting group."
+    },
+    {
+      "no": 11,
+      "name": "Interest Account",
+      "tooltip": "Specifies the general ledger account to use when you post interest from reminders and finance charge memos for customers in this posting group."
+    },
+    {
+      "no": 12,
+      "name": "Debit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 13,
+      "name": "Credit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 14,
+      "name": "Debit Rounding Account",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences from a remaining amount."
+    },
+    {
+      "no": 15,
+      "name": "Credit Rounding Account",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences from a remaining amount."
+    },
+    {
+      "no": 16,
+      "name": "Payment Disc. Credit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post reductions in payment discounts granted to customers in this posting group."
+    },
+    {
+      "no": 17,
+      "name": "Payment Tolerance Debit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post payment tolerance and payments for sales. This applies to this particular combination of business group and product group."
+    },
+    {
+      "no": 18,
+      "name": "Payment Tolerance Credit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post payment tolerance and payments for sales. This applies to this particular combination of business group and product group."
+    },
+    {
+      "no": 19,
+      "name": "Add. Fee per Line Account",
+      "tooltip": "Specifies the general ledger account that additional fees are posted to."
+    },
+    {
+      "no": 20,
+      "name": "Description",
+      "tooltip": "Specifies the description for the customer posting group."
+    },
+    {
+      "no": 21,
+      "name": "View All Accounts on Lookup",
+      "tooltip": "Specifies that all possible accounts are shown when you look up from a field. If the check box is not selected, then only accounts related to the involved account category are shown."
+    }
+  ]
+}

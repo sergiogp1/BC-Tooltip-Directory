@@ -1,0 +1,73 @@
+{
+  "id": 5555,
+  "name": "Permission Conflicts Overview",
+  "slug": "5555_permission_conflicts_overview",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "PermissionSetID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Basic",
+      "tooltip": "Specifies whether it is included in the Basic License."
+    },
+    {
+      "no": 4,
+      "name": "Team Member",
+      "tooltip": "Specifies whether it is included in the Team Member License."
+    },
+    {
+      "no": 5,
+      "name": "Essential",
+      "tooltip": "Specifies whether it is included in the Essential License."
+    },
+    {
+      "no": 6,
+      "name": "Premium",
+      "tooltip": "Specifies whether it is included in the Premium License."
+    },
+    {
+      "no": 7,
+      "name": "Device",
+      "tooltip": "Specifies whether it is included in the Device License."
+    },
+    {
+      "no": 8,
+      "name": "External Accountant",
+      "tooltip": "Specifies whether it is included in the External Accountant License."
+    },
+    {
+      "no": 9,
+      "name": "Internal Admin",
+      "tooltip": "Specifies whether it is included in the Internal Admin License."
+    },
+    {
+      "no": 10,
+      "name": "Delegated Admin",
+      "tooltip": "Specifies whether it is included in the Delegated Admin License."
+    },
+    {
+      "no": 11,
+      "name": "HelpDesk",
+      "tooltip": "Specifies whether it is included in the HelpDesk License."
+    },
+    {
+      "no": 12,
+      "name": "Viral",
+      "tooltip": "Specifies whether it is included in the Dynamics 365 Business Central for IWs License."
+    },
+    {
+      "no": 13,
+      "name": "D365 Admin",
+      "tooltip": "Specifies whether it is included in the Dynamics 365 Admin License."
+    }
+  ]
+}

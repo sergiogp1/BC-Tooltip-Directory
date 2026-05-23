@@ -1,0 +1,23 @@
+{
+  "id": 9179,
+  "name": "Application Area Buffer",
+  "slug": "9179_application_area_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Application Area",
+      "tooltip": "Specifies the scope of the application functionality for which fields and actions are shown. Fields and action for non-selected application areas are hidden to simplify the user interface."
+    },
+    {
+      "no": 3,
+      "name": "Selected",
+      "tooltip": "Specifies that fields and actions for the application area are shown in the user interface."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 183,
+  "name": "Copy Gen. Journal Parameters",
+  "slug": "183_copy_gen_journal_parameters",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies journal template is used to copy posted journal lines."
+    },
+    {
+      "no": 3,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies journal batch is used to copy posted journal lines."
+    },
+    {
+      "no": 4,
+      "name": "Replace Posting Date",
+      "tooltip": "Specifies if the posting date will be validated with the value of current field while copy posted journal lines. If you leave this field blank original Posting Date will be used in Target Journal."
+    },
+    {
+      "no": 5,
+      "name": "Replace Document No.",
+      "tooltip": "Specifies if the document number will be replaced with the value of current field while copy posted journal lines. If you leave this field blank original Document No. will be used in Target Journal."
+    },
+    {
+      "no": 6,
+      "name": "Reverse Sign",
+      "tooltip": "Specifies if the amount will be replaced with the opposite value while copy posted journal lines. If you leave this field disabled original amount will be used in Target Journal."
+    }
+  ]
+}

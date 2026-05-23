@@ -1,0 +1,73 @@
+{
+  "id": 832,
+  "name": "Workflows Entries Buffer",
+  "slug": "832_workflows_entries_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Created by Application",
+      "tooltip": "Specifies the integrated app or product that the approval request comes from."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Workflow Step Instance ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Initiated By User ID",
+      "tooltip": "Specifies the User ID which has initiated the approval."
+    },
+    {
+      "no": 6,
+      "name": "To Be Approved By User ID",
+      "tooltip": "Specifies the user ID that needs to approve the action."
+    },
+    {
+      "no": 7,
+      "name": "Date-Time Initiated",
+      "tooltip": "Specifies the date and time that the approvals were initiated."
+    },
+    {
+      "no": 8,
+      "name": "Last Date-Time Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Last Modified By User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the approval on the line."
+    },
+    {
+      "no": 11,
+      "name": "Response",
+      "tooltip": "Specifies the related workflow response."
+    },
+    {
+      "no": 12,
+      "name": "Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Due Date",
+      "tooltip": "Specifies when the approval is due."
+    }
+  ]
+}

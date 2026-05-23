@@ -1,0 +1,53 @@
+{
+  "id": 184,
+  "name": "Payment Rec. Related Entry",
+  "slug": "184_payment_rec_related_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the Entry No. that was created by the Posted Payment Reconciliation Journal."
+    },
+    {
+      "no": 2,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of the entry that was created by the posted payment reconciliation journal."
+    },
+    {
+      "no": 3,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Unapplied",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Reversed",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "ToUnapply",
+      "tooltip": "Specifies if the entry created by the posted payment reconciliation journal will be unapplied."
+    },
+    {
+      "no": 9,
+      "name": "ToReverse",
+      "tooltip": "Specifies if the entry created by the posted payment reconciliation journal will be reversed."
+    }
+  ]
+}

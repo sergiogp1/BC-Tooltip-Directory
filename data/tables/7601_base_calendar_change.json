@@ -1,0 +1,38 @@
+{
+  "id": 7601,
+  "name": "Base Calendar Change",
+  "slug": "7601_base_calendar_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies the code of the base calendar in the entry."
+    },
+    {
+      "no": 2,
+      "name": "Recurring System",
+      "tooltip": "Specifies whether a date or day is a recurring nonworking day. It can be either Annual Recurring or Weekly Recurring."
+    },
+    {
+      "no": 3,
+      "name": "Date",
+      "tooltip": "Specifies the date to change associated with the base calendar in this entry."
+    },
+    {
+      "no": 4,
+      "name": "Day",
+      "tooltip": "Specifies the day of the week associated with this change entry."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description of the change in this entry."
+    },
+    {
+      "no": 6,
+      "name": "Nonworking",
+      "tooltip": "Specifies that the date entry was defined as a nonworking day when the base calendar was set up."
+    }
+  ]
+}

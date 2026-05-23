@@ -1,0 +1,28 @@
+{
+  "id": 551,
+  "name": "VAT Rate Change Conversion",
+  "slug": "551_vat_rate_change_conversion",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "From Code",
+      "tooltip": "Specifies the current general product posting group that will be changed in connection with the VAT rate conversion."
+    },
+    {
+      "no": 3,
+      "name": "To Code",
+      "tooltip": "Specifies the new general product posting group that will result from the conversion in connection with the VAT rate conversion."
+    },
+    {
+      "no": 10,
+      "name": "Converted Date",
+      "tooltip": "Specifies the date on which the VAT rate change conversion was performed."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1801,
+  "name": "Data Migration Entity",
+  "slug": "1801_data_migration_entity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table to be migrated."
+    },
+    {
+      "no": 3,
+      "name": "No. of Records",
+      "tooltip": "Specifies the number of records in the table to be migrated."
+    },
+    {
+      "no": 4,
+      "name": "Selected",
+      "tooltip": "Specifies whether the table will be migrated. If the check box is selected, then the table will be migrated."
+    },
+    {
+      "no": 5,
+      "name": "Balance",
+      "tooltip": "Specifies the total monetary value, in your local currency, of all entities in the table."
+    },
+    {
+      "no": 6,
+      "name": "Post",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Posting Date",
+      "tooltip": ""
+    }
+  ]
+}

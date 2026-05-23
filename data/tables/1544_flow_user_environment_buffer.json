@@ -1,0 +1,33 @@
+{
+  "id": 1544,
+  "name": "Flow User Environment Buffer",
+  "slug": "1544_flow_user_environment_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Environment ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Environment Display Name",
+      "tooltip": "Specifies the name of the Power Platform environment."
+    },
+    {
+      "no": 3,
+      "name": "Default",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Enabled",
+      "tooltip": "Specifies if the Power Platform environment is selected."
+    },
+    {
+      "no": 5,
+      "name": "Linked",
+      "tooltip": "Specifies whether this is the Dataverse environment that your admin linked to the current Business Central environment."
+    }
+  ]
+}

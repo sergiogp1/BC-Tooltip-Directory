@@ -1,0 +1,43 @@
+{
+  "id": 6027,
+  "name": "Pstd.Exp.Invt.Order.Tracking",
+  "slug": "6027_pstd_exp_invt_order_tracking",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Order No",
+      "tooltip": "Specifies the document number of the Posted Inventory Order."
+    },
+    {
+      "no": 2,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the line number of the Posted Inventory Order Line."
+    },
+    {
+      "no": 3,
+      "name": "Serial No.",
+      "tooltip": "Specifies the expected Serial No."
+    },
+    {
+      "no": 4,
+      "name": "Lot No.",
+      "tooltip": "Specifies the expected Lot No."
+    },
+    {
+      "no": 5,
+      "name": "Package No.",
+      "tooltip": "Specifies the expected Package No."
+    },
+    {
+      "no": 6,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expected Expiration Date"
+    },
+    {
+      "no": 30,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the expected quantity of Serial No., Lot No. and Package No. that relates to the Base Unit of Measure Code, in the Posted Inventory Order Line."
+    }
+  ]
+}

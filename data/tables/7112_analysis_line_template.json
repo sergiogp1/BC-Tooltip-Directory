@@ -1,0 +1,33 @@
+{
+  "id": 7112,
+  "name": "Analysis Line Template",
+  "slug": "7112_analysis_line_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the analysis line template."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the analysis line template."
+    },
+    {
+      "no": 4,
+      "name": "Default Column Template Name",
+      "tooltip": "Specifies the column template name that you have set up for this analysis report."
+    },
+    {
+      "no": 5,
+      "name": "Item Analysis View Code",
+      "tooltip": "Specifies the name of the analysis view that the analysis report is based on."
+    }
+  ]
+}

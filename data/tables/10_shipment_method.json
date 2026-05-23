@@ -1,0 +1,28 @@
+{
+  "id": 10,
+  "name": "Shipment Method",
+  "slug": "10_shipment_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the shipment method."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the shipment method."
+    },
+    {
+      "no": 8,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    }
+  ]
+}

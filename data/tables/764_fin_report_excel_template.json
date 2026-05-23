@@ -1,0 +1,33 @@
+{
+  "id": 764,
+  "name": "Fin. Report Excel Template",
+  "slug": "764_fin_report_excel_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Financial Report Name",
+      "tooltip": "Specifies the name of the financial report."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code of the layout."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the Excel Layout to help users understand what the layout does."
+    },
+    {
+      "no": 4,
+      "name": "Template",
+      "tooltip": "Specifies the Excel layout file."
+    },
+    {
+      "no": 5,
+      "name": "File Name",
+      "tooltip": "Specifies the file name of the layout when exported. If not specified the financial report name will be used instead."
+    }
+  ]
+}

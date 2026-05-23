@@ -1,0 +1,228 @@
+{
+  "id": 7312,
+  "name": "Warehouse Entry",
+  "slug": "7312_warehouse_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number of the warehouse document line or warehouse journal line that was registered."
+    },
+    {
+      "no": 4,
+      "name": "Registering Date",
+      "tooltip": "Specifies the date the entry was registered."
+    },
+    {
+      "no": 5,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location to which the entry is linked."
+    },
+    {
+      "no": 6,
+      "name": "Zone Code",
+      "tooltip": "Specifies the code of the zone to which the entry is linked."
+    },
+    {
+      "no": 7,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the warehouse entry."
+    },
+    {
+      "no": 9,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item in the entry."
+    },
+    {
+      "no": 10,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item in the warehouse entry."
+    },
+    {
+      "no": 11,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity of the entry, in the base unit of measure."
+    },
+    {
+      "no": 12,
+      "name": "Warehouse Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "SIFT Bucket No.",
+      "tooltip": "Specifies an automatically generated number that is used by the system to enable better concurrency."
+    },
+    {
+      "no": 20,
+      "name": "Source Type",
+      "tooltip": "Specifies the table number that is the source of the entry line, for example, 39 for a purchase line, 37 for a sales line."
+    },
+    {
+      "no": 21,
+      "name": "Source Subtype",
+      "tooltip": "Specifies the source subtype of the document to which the warehouse entry line relates."
+    },
+    {
+      "no": 22,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 23,
+      "name": "Source Line No.",
+      "tooltip": "Specifies the line number of the source document that the entry originates from."
+    },
+    {
+      "no": 24,
+      "name": "Source Subline No.",
+      "tooltip": "Specifies the source subline number of the document from which the entry originates."
+    },
+    {
+      "no": 25,
+      "name": "Source Document",
+      "tooltip": "Specifies the type of document that the line relates to."
+    },
+    {
+      "no": 26,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 33,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 35,
+      "name": "Bin Type Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Cubage",
+      "tooltip": "Specifies the total cubage of the items on the warehouse entry line."
+    },
+    {
+      "no": 41,
+      "name": "Weight",
+      "tooltip": "Specifies the weight of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 45,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies the name of the journal template, the basis of the journal batch, that the entries were posted from."
+    },
+    {
+      "no": 50,
+      "name": "Whse. Document No.",
+      "tooltip": "Specifies the number of the warehouse document from which this entry originated."
+    },
+    {
+      "no": 51,
+      "name": "Whse. Document Type",
+      "tooltip": "Specifies the type of the document from which this entry originated."
+    },
+    {
+      "no": 52,
+      "name": "Whse. Document Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Entry Type",
+      "tooltip": "Specifies the entry type, which can be Negative Adjmt., Positive Adjmt., or Movement."
+    },
+    {
+      "no": 60,
+      "name": "Reference Document",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure that are in the unit of measure specified for the item on the line."
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 6500,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number."
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number assigned to the warehouse entry."
+    },
+    {
+      "no": 6502,
+      "name": "Warranty Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6503,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date of the serial number."
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the package number assigned to the warehouse entry."
+    },
+    {
+      "no": 7380,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7381,
+      "name": "Phys Invt Counting Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 7382,
+      "name": "Dedicated",
+      "tooltip": ""
+    }
+  ]
+}

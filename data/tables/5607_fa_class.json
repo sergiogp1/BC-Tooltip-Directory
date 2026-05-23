@@ -1,0 +1,18 @@
+{
+  "id": 5607,
+  "name": "FA Class",
+  "slug": "5607_fa_class",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the class that the fixed asset belongs to."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the fixed asset class."
+    }
+  ]
+}

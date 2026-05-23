@@ -1,0 +1,33 @@
+{
+  "id": 5216,
+  "name": "Confidential Information",
+  "slug": "5216_confidential_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Confidential Code",
+      "tooltip": "Specifies a code to define the type of confidential information."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the confidential information."
+    },
+    {
+      "no": 5,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment is associated with the entry."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 2671,
+  "name": "Alloc. Account Distribution",
+  "slug": "2671_alloc_account_distribution",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Allocation Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Share",
+      "tooltip": "Specifies the Share that is used for the variable account distributions."
+    },
+    {
+      "no": 7,
+      "name": "Percent",
+      "tooltip": "Specifies the Percent that is used for the variable account distributions."
+    },
+    {
+      "no": 8,
+      "name": "Share Updated at",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Destination Account Type",
+      "tooltip": "Specifies the account type that the amount will be posted to."
+    },
+    {
+      "no": 10,
+      "name": "Destination Account Number",
+      "tooltip": "Specifies the account number that the amount will be posted to. You can select Destination Account Number if Destination Account Type field is G/L Account or Bank Account. If Destination Account Type field is Inherit from Parent, Destination Account Number and Destination Account Type will be taken from the line when the Allocation Account No. field is set."
+    },
+    {
+      "no": 19,
+      "name": "Breakdown Account Type",
+      "tooltip": "Specifies the account type the that is used to calculate percentage for the distributions."
+    },
+    {
+      "no": 20,
+      "name": "Breakdown Account Number",
+      "tooltip": "Specifies the code of the Account that is used to calculate percentage for the distributions."
+    },
+    {
+      "no": 21,
+      "name": "Calculation Period",
+      "tooltip": "Specifies the period to use to calculate the account balance that is used as a percentage for the distributions."
+    },
+    {
+      "no": 23,
+      "name": "Dimension 1 Filter",
+      "tooltip": "Specifies the code for Global Dimension 1, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 24,
+      "name": "Dimension 2 Filter",
+      "tooltip": "Specifies the code for Global Dimension 2, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 25,
+      "name": "Dimension 3 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 26,
+      "name": "Dimension 4 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 27,
+      "name": "Dimension 5 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 28,
+      "name": "Dimension 6 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 29,
+      "name": "Dimension 7 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 30,
+      "name": "Dimension 8 Filter",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, that will be used to filter Ledger Entries when cacluating balance."
+    },
+    {
+      "no": 35,
+      "name": "Business Unit Code Filter",
+      "tooltip": "Specifies the filter for the Business Unit Code, that will be used to filter Ledger Entries when calculating balance."
+    },
+    {
+      "no": 37,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

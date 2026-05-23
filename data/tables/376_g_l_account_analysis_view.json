@@ -1,0 +1,288 @@
+{
+  "id": 376,
+  "name": "G/L Account (Analysis View)",
+  "slug": "376_g_l_account_analysis_view",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the general ledger account."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Account Type",
+      "tooltip": "Specifies the purpose of the account. Total: Used to total a series of balances on accounts from many different account groupings. To use Total, leave this field blank. Begin-Total: A marker for the beginning of a series of accounts to be totaled that ends with an End-Total account. End-Total: A total of a series of accounts that starts with the preceding Begin-Total account. The total is defined in the Totaling field."
+    },
+    {
+      "no": 5,
+      "name": "Account Source",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Income/Balance",
+      "tooltip": "Specifies whether a general ledger account is an income statement account or a balance sheet account."
+    },
+    {
+      "no": 10,
+      "name": "Debit/Credit",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "No. 2",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Direct Posting",
+      "tooltip": "Specifies whether you will be able to post directly or only indirectly to this general ledger account."
+    },
+    {
+      "no": 16,
+      "name": "Reconciliation Account",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "New Page",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "No. of Blank Lines",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Cash Flow Forecast Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the G/L account balance on the last date included in the Date Filter field."
+    },
+    {
+      "no": 32,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the account balance during the time period in the Date Filter field."
+    },
+    {
+      "no": 33,
+      "name": "Budgeted Amount",
+      "tooltip": "Specifies either the G/L account's total budget or, if you have specified a name in the Budget Name field, a specific budget."
+    },
+    {
+      "no": 34,
+      "name": "Totaling",
+      "tooltip": "Specifies an account interval or a list of account numbers. The entries of the account will be totaled to give a total balance. How entries are totaled depends on the value in the Account Type field."
+    },
+    {
+      "no": 35,
+      "name": "Budget Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Balance",
+      "tooltip": "Specifies the balance on this account."
+    },
+    {
+      "no": 37,
+      "name": "Budgeted at Date",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Consol. Debit Acc.",
+      "tooltip": "Specifies the account number in a consolidated company to transfer credit balances."
+    },
+    {
+      "no": 41,
+      "name": "Consol. Credit Acc.",
+      "tooltip": "Specifies the account number in a consolidated company to transfer credit balances."
+    },
+    {
+      "no": 42,
+      "name": "Business Unit Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Gen. Posting Type",
+      "tooltip": "Specifies the type of transaction."
+    },
+    {
+      "no": 44,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 45,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 47,
+      "name": "Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Automatic Ext. Texts",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Budgeted Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Budgeted Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 58,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 60,
+      "name": "Additional-Currency Net Change",
+      "tooltip": "Specifies the net change in the account balance."
+    },
+    {
+      "no": 61,
+      "name": "Add.-Currency Balance at Date",
+      "tooltip": "Specifies the G/L account balance, in the additional reporting currency, on the last date included in the Date Filter field."
+    },
+    {
+      "no": 62,
+      "name": "Additional-Currency Balance",
+      "tooltip": "Specifies the balance on this account, in the additional reporting currency."
+    },
+    {
+      "no": 63,
+      "name": "Exchange Rate Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Add.-Currency Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Add.-Currency Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Analysis View Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Dimension 3 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Dimension 4 Filter",
+      "tooltip": ""
+    }
+  ]
+}

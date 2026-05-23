@@ -1,0 +1,53 @@
+{
+  "id": 326,
+  "name": "Tax Setup",
+  "slug": "326_tax_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Auto. Create Tax Details",
+      "tooltip": "Specifies that the required tax information is created automatically."
+    },
+    {
+      "no": 3,
+      "name": "Non-Taxable Tax Group Code",
+      "tooltip": "Specifies the group code for non-taxable sales."
+    },
+    {
+      "no": 6,
+      "name": "Tax Account (Sales)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated tax."
+    },
+    {
+      "no": 7,
+      "name": "Tax Account (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated tax."
+    },
+    {
+      "no": 8,
+      "name": "Unreal. Tax Acc. (Sales)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized tax on sales transaction."
+    },
+    {
+      "no": 9,
+      "name": "Unreal. Tax Acc. (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized tax on purchase transactions."
+    },
+    {
+      "no": 10,
+      "name": "Reverse Charge (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated reverse-charge tax on purchase transactions."
+    },
+    {
+      "no": 11,
+      "name": "Unreal. Rev. Charge (Purch.)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized reverse-charge tax on purchase transactions."
+    }
+  ]
+}

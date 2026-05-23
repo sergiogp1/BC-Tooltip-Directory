@@ -1,0 +1,18 @@
+{
+  "id": 5068,
+  "name": "Salutation",
+  "slug": "5068_salutation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the salutation code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the salutation."
+    }
+  ]
+}

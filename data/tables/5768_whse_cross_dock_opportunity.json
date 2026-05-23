@@ -1,0 +1,188 @@
+{
+  "id": 5768,
+  "name": "Whse. Cross-Dock Opportunity",
+  "slug": "5768_whse_cross_dock_opportunity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Source Name/No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Source Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "From Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "From Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "From Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "From Source Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "From Source Subline No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "From Source Document",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "To Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "To Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "To Source No.",
+      "tooltip": "Specifies the number of the source document for which items can be cross-docked."
+    },
+    {
+      "no": 14,
+      "name": "To Source Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "To Source Subline No.",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "To Source Document",
+      "tooltip": "Specifies the type of source document for which the cross-dock opportunity can be used, such as sales order."
+    },
+    {
+      "no": 17,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number of the items that can be cross-docked."
+    },
+    {
+      "no": 18,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 19,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 20,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure in which the item has been received."
+    },
+    {
+      "no": 21,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location on the warehouse receipt line related to this cross-dock opportunity."
+    },
+    {
+      "no": 24,
+      "name": "Qty. Needed",
+      "tooltip": "Specifies the quantity that is still needed on the document for which the items can be cross-docked."
+    },
+    {
+      "no": 25,
+      "name": "Qty. Needed (Base)",
+      "tooltip": "Specifies the quantity that is needed to complete the outbound source document line, in the base unit of measure."
+    },
+    {
+      "no": 26,
+      "name": "Qty. to Cross-Dock",
+      "tooltip": "Specifies the quantity that is ready to cross-dock."
+    },
+    {
+      "no": 27,
+      "name": "Qty. to Cross-Dock (Base)",
+      "tooltip": "Specifies the quantity, in the base units of measure, that is ready to cross-dock."
+    },
+    {
+      "no": 28,
+      "name": "Qty. Cross-Docked (Base)",
+      "tooltip": "Specifies the quantity, in the base units of measure, that have been cross-docked."
+    },
+    {
+      "no": 29,
+      "name": "Total Qty. Needed (Base)",
+      "tooltip": "Specifies the remaining quantity that the program will suggest to put into the cross-dock bin on the put-away document that is created when the receipt is posted."
+    },
+    {
+      "no": 36,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies the number of units of the item on the line reserved for the source document line."
+    },
+    {
+      "no": 37,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the number of units of the item on the line reserved for the related source document line."
+    },
+    {
+      "no": 39,
+      "name": "To-Src. Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure code on the source document line that needs the cross-dock opportunity item."
+    },
+    {
+      "no": 40,
+      "name": "To-Src. Qty. per Unit of Meas.",
+      "tooltip": "Specifies the quantity of base units of measure, on the source document line, that needs the cross-dock opportunity items."
+    },
+    {
+      "no": 41,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the outbound warehouse activity should be started."
+    },
+    {
+      "no": 42,
+      "name": "Pick Qty.",
+      "tooltip": "Specifies the quantity of the item that is on pick instructions for the outbound source document, but that has not yet been registered as picked."
+    },
+    {
+      "no": 43,
+      "name": "Pick Qty. (Base)",
+      "tooltip": "Specifies the quantity of the item that is on pick instructions for the outbound source document, but that has not yet been registered as picked."
+    },
+    {
+      "no": 44,
+      "name": "Picked Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Picked Qty. (Base)",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": 80,
+  "name": "Gen. Journal Template",
+  "slug": "80_gen_journal_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the journal template you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a brief description of the journal template you are creating."
+    },
+    {
+      "no": 5,
+      "name": "Test Report ID",
+      "tooltip": "Specifies the test report that is printed when you click Test Report."
+    },
+    {
+      "no": 6,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 7,
+      "name": "Posting Report ID",
+      "tooltip": "Specifies the posting report that is printed when you choose Post and Print."
+    },
+    {
+      "no": 8,
+      "name": "Force Posting Report",
+      "tooltip": "Specifies whether a report is printed automatically when you post."
+    },
+    {
+      "no": 9,
+      "name": "Type",
+      "tooltip": "Specifies the journal type."
+    },
+    {
+      "no": 10,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 11,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 12,
+      "name": "Recurring",
+      "tooltip": "Specifies whether the journal template will be a recurring journal."
+    },
+    {
+      "no": 15,
+      "name": "Test Report Caption",
+      "tooltip": "Specifies the name of the test report that is printed when you print a journal under this journal template."
+    },
+    {
+      "no": 16,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    },
+    {
+      "no": 17,
+      "name": "Posting Report Caption",
+      "tooltip": "Specifies the name of the report that is printed when you print the journal."
+    },
+    {
+      "no": 18,
+      "name": "Force Doc. Balance",
+      "tooltip": "Specifies whether transactions that are posted in the general journal must balance by document number and document type."
+    },
+    {
+      "no": 19,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 20,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 21,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 22,
+      "name": "Posting No. Series",
+      "tooltip": "Specifies the code for the number series that will be used to assign document numbers to ledger entries that are posted from journals using this template."
+    },
+    {
+      "no": 23,
+      "name": "Copy VAT Setup to Jnl. Lines",
+      "tooltip": "Specifies whether the program to calculate VAT for accounts and balancing accounts on the journal line of the selected journal template."
+    },
+    {
+      "no": 24,
+      "name": "Allow VAT Difference",
+      "tooltip": "Specifies whether to allow the manual adjustment of VAT amounts in journals."
+    },
+    {
+      "no": 25,
+      "name": "Cust. Receipt Report ID",
+      "tooltip": "Specifies how to print customer receipts when you post."
+    },
+    {
+      "no": 26,
+      "name": "Cust. Receipt Report Caption",
+      "tooltip": "Specifies how to print customer receipts when you post."
+    },
+    {
+      "no": 27,
+      "name": "Vendor Receipt Report ID",
+      "tooltip": "Specifies how to print vendor receipts when you post."
+    },
+    {
+      "no": 28,
+      "name": "Vendor Receipt Report Caption",
+      "tooltip": "Specifies how to print vendor receipts when you post."
+    },
+    {
+      "no": 30,
+      "name": "Increment Batch Name",
+      "tooltip": "Specifies if batch names using this template are automatically incremented. Example: The posting following BATCH001 is automatically named BATCH002."
+    },
+    {
+      "no": 31,
+      "name": "Copy to Posted Jnl. Lines",
+      "tooltip": "Specifies whether the journal lines to be copied to posted journal lines of the selected journal template."
+    },
+    {
+      "no": 32,
+      "name": "Allow Posting Date From",
+      "tooltip": "Specifies the earliest date when posting to the journal template is allowed."
+    },
+    {
+      "no": 33,
+      "name": "Allow Posting Date To",
+      "tooltip": "Specifies the last date when posting to the journal template is allowed."
+    },
+    {
+      "no": 34,
+      "name": "Unlink Inc. Doc On Posting",
+      "tooltip": "Specifies whether the the incoming document will be unlinked from the journal when it is posted. This option can be enabled only for recurring journals."
+    },
+    {
+      "no": 35,
+      "name": "Allow Posting From DateFormula",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Allow Posting To DateFormula",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 8629,
+  "name": "Config. Field Map",
+  "slug": "8629_config_field_map",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Old Value",
+      "tooltip": "Specifies the old value in the data that you want to map to new value. Usually, the value is one that is based on an option list."
+    },
+    {
+      "no": 6,
+      "name": "New Value",
+      "tooltip": "Specifies the value in the data in Business Central to which you want to map the old value. Usually, the value is one that is in an existing option list."
+    },
+    {
+      "no": 7,
+      "name": "ID",
+      "tooltip": ""
+    }
+  ]
+}

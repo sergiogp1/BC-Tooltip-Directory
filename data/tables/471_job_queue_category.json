@@ -1,0 +1,28 @@
+{
+  "id": 471,
+  "name": "Job Queue Category",
+  "slug": "471_job_queue_category",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the category of job queue. You can enter a maximum of 10 characters, both numbers and letters."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the job queue category. You can enter a maximum of 30 characters, both numbers and letters."
+    },
+    {
+      "no": 3,
+      "name": "Recovery Task Id",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Recovery Task Start Time",
+      "tooltip": ""
+    }
+  ]
+}

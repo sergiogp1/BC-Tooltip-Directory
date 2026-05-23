@@ -1,0 +1,88 @@
+{
+  "id": 1507,
+  "name": "Workflow Step Buffer",
+  "slug": "1507_workflow_step_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Order",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Indent",
+      "tooltip": "Specifies the relationship of the workflow step under parent workflow steps."
+    },
+    {
+      "no": 3,
+      "name": "Event Description",
+      "tooltip": "Specifies the workflow event that triggers the related workflow response."
+    },
+    {
+      "no": 4,
+      "name": "Condition",
+      "tooltip": "Specifies the condition that moderates the workflow event that you specified in the Event Description field. When you choose the field, the Event Conditions window opens in which you can specify condition values for predefined lists of relevant fields."
+    },
+    {
+      "no": 5,
+      "name": "Response Description",
+      "tooltip": "Specifies the workflow response."
+    },
+    {
+      "no": 7,
+      "name": "Event Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Response Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Workflow Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Parent Event Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Previous Workflow Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Response Description Style",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Entry Point",
+      "tooltip": "Specifies the workflow step that starts the workflow. The first workflow step is always of type Entry Point."
+    },
+    {
+      "no": 15,
+      "name": "Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Next Step Description",
+      "tooltip": "Specifies another workflow step than the next one in the sequence that you want to start, for example, because the event on the workflow step failed to meet a condition."
+    },
+    {
+      "no": 17,
+      "name": "Argument",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Template",
+      "tooltip": ""
+    }
+  ]
+}

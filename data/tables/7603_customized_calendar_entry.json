@@ -1,0 +1,43 @@
+{
+  "id": 7603,
+  "name": "Customized Calendar Entry",
+  "slug": "7603_customized_calendar_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Type",
+      "tooltip": "Specifies whether this customized calendar entry was set up for your company, a customer, vendor, location, shipping agent, or a service."
+    },
+    {
+      "no": 2,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Additional Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies which base calendar was used as the basis for this customized calendar."
+    },
+    {
+      "no": 5,
+      "name": "Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Nonworking",
+      "tooltip": ""
+    }
+  ]
+}

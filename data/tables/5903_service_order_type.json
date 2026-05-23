@@ -1,0 +1,18 @@
+{
+  "id": 5903,
+  "name": "Service Order Type",
+  "slug": "5903_service_order_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the service order type."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service order type."
+    }
+  ]
+}

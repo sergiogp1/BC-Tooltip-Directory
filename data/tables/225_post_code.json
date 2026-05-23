@@ -1,0 +1,38 @@
+{
+  "id": 225,
+  "name": "Post Code",
+  "slug": "225_post_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the postal code that is associated with a city."
+    },
+    {
+      "no": 2,
+      "name": "City",
+      "tooltip": "Specifies the city linked to the postal code in the Code field."
+    },
+    {
+      "no": 3,
+      "name": "Search City",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 5,
+      "name": "County",
+      "tooltip": "Specifies a county name."
+    },
+    {
+      "no": 30,
+      "name": "Time Zone",
+      "tooltip": "Specifies the time zone for the selected post code."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 5619,
+  "name": "FA Journal Template",
+  "slug": "5619_fa_journal_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the journal template you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the journal template you are creating."
+    },
+    {
+      "no": 5,
+      "name": "Test Report ID",
+      "tooltip": "Specifies the report that will be printed if you choose to print a test report from a journal batch."
+    },
+    {
+      "no": 6,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 7,
+      "name": "Posting Report ID",
+      "tooltip": "Specifies the report that is printed when you click Post and Print from a journal batch."
+    },
+    {
+      "no": 8,
+      "name": "Force Posting Report",
+      "tooltip": "Specifies whether a report is printed automatically when you post."
+    },
+    {
+      "no": 10,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 11,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 12,
+      "name": "Recurring",
+      "tooltip": "Specifies whether the journal template will be a recurring journal."
+    },
+    {
+      "no": 13,
+      "name": "Test Report Caption",
+      "tooltip": "Specifies the name of the report that is specified in the Test Report ID field."
+    },
+    {
+      "no": 14,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    },
+    {
+      "no": 15,
+      "name": "Posting Report Caption",
+      "tooltip": "Specifies the name of the report that is specified in the Posting Report ID field."
+    },
+    {
+      "no": 16,
+      "name": "Maint. Posting Report ID",
+      "tooltip": "Specifies the report that is printed when you post a journal line, where the FA Posting Type field = Maintenance, by clicking Post and Print."
+    },
+    {
+      "no": 17,
+      "name": "Maint. Posting Report Caption",
+      "tooltip": "Specifies the name of the report that is specified in the Maint. Posting Report ID field."
+    },
+    {
+      "no": 18,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 19,
+      "name": "Posting No. Series",
+      "tooltip": "Specifies the code for the number series used to assign document numbers to ledger entries posted from journals."
+    },
+    {
+      "no": 30,
+      "name": "Increment Batch Name",
+      "tooltip": "Specifies if batch names using this template are automatically incremented. Example: The posting following BATCH001 is automatically named BATCH002."
+    }
+  ]
+}

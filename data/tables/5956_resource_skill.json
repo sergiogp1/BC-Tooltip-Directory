@@ -1,0 +1,38 @@
+{
+  "id": 5956,
+  "name": "Resource Skill",
+  "slug": "5956_resource_skill",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": "Specifies the skill type associated with the entry."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Skill Code",
+      "tooltip": "Specifies the code of the skill you want to assign."
+    },
+    {
+      "no": 4,
+      "name": "Assigned From",
+      "tooltip": "Specifies the object, such as item or service item group, from which the skill code was assigned."
+    },
+    {
+      "no": 5,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Source Code",
+      "tooltip": ""
+    }
+  ]
+}

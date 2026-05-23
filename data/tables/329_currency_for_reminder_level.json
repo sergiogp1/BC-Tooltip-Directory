@@ -1,0 +1,33 @@
+{
+  "id": 329,
+  "name": "Currency for Reminder Level",
+  "slug": "329_currency_for_reminder_level",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Reminder Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code for the currency in which you want to set up additional fees for reminders."
+    },
+    {
+      "no": 4,
+      "name": "Additional Fee",
+      "tooltip": "Specifies the amount of the additional fee in foreign currency that will be added on the reminder."
+    },
+    {
+      "no": 5,
+      "name": "Add. Fee per Line",
+      "tooltip": "Specifies that the fee is distributed on individual reminder lines."
+    }
+  ]
+}

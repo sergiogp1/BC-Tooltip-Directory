@@ -1,0 +1,38 @@
+{
+  "id": 280,
+  "name": "Extended Text Line",
+  "slug": "280_extended_text_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Text No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Text",
+      "tooltip": "Specifies the text. You can use both numbers and letters. There are no restrictions as to the number of lines you can use."
+    }
+  ]
+}

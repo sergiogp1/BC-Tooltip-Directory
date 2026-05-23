@@ -1,0 +1,43 @@
+{
+  "id": 503,
+  "name": "Reminder Email Text",
+  "slug": "503_reminder_email_text",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language code for the text communications."
+    },
+    {
+      "no": 3,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Subject",
+      "tooltip": "Specifies the subject of the generated email."
+    },
+    {
+      "no": 5,
+      "name": "Greeting",
+      "tooltip": "Specifies the first lines at the beginning of the email."
+    },
+    {
+      "no": 6,
+      "name": "Body Text",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Closing",
+      "tooltip": "Specifies the last lines at the end of the email."
+    }
+  ]
+}

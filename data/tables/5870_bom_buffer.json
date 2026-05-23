@@ -1,0 +1,273 @@
+{
+  "id": 5870,
+  "name": "BOM Buffer",
+  "slug": "5870_bom_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the item's position in the BOM structure. Lower-level items are indented under their parents."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies the item's description."
+    },
+    {
+      "no": 6,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 7,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window."
+    },
+    {
+      "no": 8,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Replenishment System",
+      "tooltip": "Specifies the item's replenishment system."
+    },
+    {
+      "no": 10,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Is Leaf",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Bottleneck",
+      "tooltip": "Specifies which item in the BOM structure restricts you from making a larger quantity than what is shown in the Able to Make Top Item field."
+    },
+    {
+      "no": 20,
+      "name": "Lot Size",
+      "tooltip": "Specifies the item's lot size. The value is copied from the Lot Size field on the item card."
+    },
+    {
+      "no": 21,
+      "name": "Low-Level Code",
+      "tooltip": "Specifies the item's level in the BOM structure."
+    },
+    {
+      "no": 22,
+      "name": "Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Parent",
+      "tooltip": "Specifies how many units of the component are required to assemble or produce one unit of the parent."
+    },
+    {
+      "no": 31,
+      "name": "Qty. per Top Item",
+      "tooltip": "Specifies how many units of the component are required to assemble or produce one unit of the top item."
+    },
+    {
+      "no": 32,
+      "name": "Able to Make Top Item",
+      "tooltip": "Specifies how many units of the BOM item on the top line can be assembled or produced."
+    },
+    {
+      "no": 33,
+      "name": "Able to Make Parent",
+      "tooltip": "Specifies how many units of the BOM item on the collapsible line above it can be assembled or produced."
+    },
+    {
+      "no": 35,
+      "name": "Available Quantity",
+      "tooltip": "Specifies how many units of the item on the line are available, regardless of how many parents you can make with the item."
+    },
+    {
+      "no": 36,
+      "name": "Gross Requirement",
+      "tooltip": "Specifies the total demand for the item."
+    },
+    {
+      "no": 37,
+      "name": "Scheduled Receipts",
+      "tooltip": "Specifies how many units of the item are inbound on orders."
+    },
+    {
+      "no": 38,
+      "name": "Unused Quantity",
+      "tooltip": "Specifies the part of the item's total availability that is not required to make the quantities that are shown in the fields."
+    },
+    {
+      "no": 40,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies how long it takes to replenish the item, by purchase, assembly, or production."
+    },
+    {
+      "no": 41,
+      "name": "Lead-Time Offset",
+      "tooltip": "Specifies the total number of days that are required to assemble or produce the item."
+    },
+    {
+      "no": 42,
+      "name": "Rolled-up Lead-Time Offset",
+      "tooltip": "Specifies the cumulative lead time of components under a parent item."
+    },
+    {
+      "no": 43,
+      "name": "Needed by Date",
+      "tooltip": "Specifies when the item must be available to make the parent or top item."
+    },
+    {
+      "no": 45,
+      "name": "Safety Lead Time",
+      "tooltip": "Specifies any safety lead time that is defined for the item."
+    },
+    {
+      "no": 50,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 52,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 54,
+      "name": "Overhead Rate",
+      "tooltip": "Specifies the item's overhead rate."
+    },
+    {
+      "no": 55,
+      "name": "Scrap %",
+      "tooltip": "Specifies the percentage of the item that you expect to be scrapped in the production process."
+    },
+    {
+      "no": 56,
+      "name": "Scrap Qty. per Parent",
+      "tooltip": "Specifies how many units of the item are scrapped to output the top item quantity."
+    },
+    {
+      "no": 57,
+      "name": "Scrap Qty. per Top Item",
+      "tooltip": "Specifies how many units of the item are scrapped to output the parent item quantity."
+    },
+    {
+      "no": 59,
+      "name": "Resource Usage Type",
+      "tooltip": "Specifies how the cost of the resource on the assembly BOM is allocated during assembly."
+    },
+    {
+      "no": 61,
+      "name": "Single-Level Material Cost",
+      "tooltip": "Specifies the total material cost of all components on the parent item's BOM."
+    },
+    {
+      "no": 62,
+      "name": "Single-Level Capacity Cost",
+      "tooltip": "Specifies the capacity costs related to the item's parent item only."
+    },
+    {
+      "no": 63,
+      "name": "Single-Level Subcontrd. Cost",
+      "tooltip": "Specifies the single-level cost of outsourcing operations to a subcontractor."
+    },
+    {
+      "no": 64,
+      "name": "Single-Level Cap. Ovhd Cost",
+      "tooltip": "Specifies the single-level capacity overhead cost."
+    },
+    {
+      "no": 65,
+      "name": "Single-Level Mfg. Ovhd Cost",
+      "tooltip": "Specifies the single-level manufacturing overhead cost."
+    },
+    {
+      "no": 66,
+      "name": "Single-Level Scrap Cost",
+      "tooltip": "Specifies the cost of material at this BOM level that will eventually be scrapped in order to produce the parent item."
+    },
+    {
+      "no": 71,
+      "name": "Rolled-up Material Cost",
+      "tooltip": "Specifies the material cost of all items at all levels of the parent item's BOM, added to the material cost of the item itself."
+    },
+    {
+      "no": 72,
+      "name": "Rolled-up Capacity Cost",
+      "tooltip": "Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM."
+    },
+    {
+      "no": 73,
+      "name": "Rolled-up Subcontracted Cost",
+      "tooltip": "Specifies the single-level cost of outsourcing operations to a subcontractor."
+    },
+    {
+      "no": 74,
+      "name": "Rolled-up Capacity Ovhd. Cost",
+      "tooltip": "Specifies the rolled-up manufacturing overhead cost of the item."
+    },
+    {
+      "no": 75,
+      "name": "Rolled-up Mfg. Ovhd Cost",
+      "tooltip": "Specifies the item's overhead capacity cost rolled up from underlying item levels."
+    },
+    {
+      "no": 76,
+      "name": "Rolled-up Scrap Cost",
+      "tooltip": "Specifies the cost of all component material that will eventually be scrapped to produce the parent item."
+    },
+    {
+      "no": 77,
+      "name": "Single-Lvl Mat. Non-Invt. Cost",
+      "tooltip": "Specifies the total non inventory material cost of all components on the parent item's BOM."
+    },
+    {
+      "no": 78,
+      "name": "Rolled-up Mat. Non-Invt. Cost",
+      "tooltip": "Specifies the non inventory material cost of all items at all levels of the parent item's BOM, added to the non inventory material cost of the item itself."
+    },
+    {
+      "no": 81,
+      "name": "Total Cost",
+      "tooltip": "Specifies the sum of all cost at this BOM level."
+    },
+    {
+      "no": 82,
+      "name": "BOM Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure of the BOM item."
+    },
+    {
+      "no": 83,
+      "name": "Qty. per BOM Line",
+      "tooltip": "Specifies how many units of the component are required to assemble or produce one unit of the item on the BOM line."
+    },
+    {
+      "no": 84,
+      "name": "Inventoriable",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Calculation Formula",
+      "tooltip": ""
+    }
+  ]
+}

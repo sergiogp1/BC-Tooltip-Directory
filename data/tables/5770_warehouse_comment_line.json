@@ -1,0 +1,43 @@
+{
+  "id": 5770,
+  "name": "Warehouse Comment Line",
+  "slug": "5770_warehouse_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date",
+      "tooltip": "Specifies the date when the comment was created."
+    },
+    {
+      "no": 6,
+      "name": "Code",
+      "tooltip": "Specifies the code for the comment."
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": "Specifies the comment."
+    }
+  ]
+}

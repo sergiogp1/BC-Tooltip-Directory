@@ -1,0 +1,288 @@
+{
+  "id": 5405,
+  "name": "Production Order",
+  "slug": "5405_production_order",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Status",
+      "tooltip": "Specifies the status of the production order."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the production order."
+    },
+    {
+      "no": 4,
+      "name": "Search Description",
+      "tooltip": "Specifies the search description."
+    },
+    {
+      "no": 5,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional part of the production order description."
+    },
+    {
+      "no": 6,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date on which you created the production order."
+    },
+    {
+      "no": 7,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the production order card was last modified."
+    },
+    {
+      "no": 9,
+      "name": "Source Type",
+      "tooltip": "Specifies the source type of the production order."
+    },
+    {
+      "no": 10,
+      "name": "Source No.",
+      "tooltip": "Specifies the item number or number of the source document that the entry originates from."
+    },
+    {
+      "no": 11,
+      "name": "Routing No.",
+      "tooltip": "Specifies the routing number used for this production order."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 15,
+      "name": "Inventory Posting Group",
+      "tooltip": "Specifies links between business transactions made for the item and an inventory account in the general ledger, to group amounts for that item type."
+    },
+    {
+      "no": 16,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 17,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 19,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the production order."
+    },
+    {
+      "no": 21,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the production order."
+    },
+    {
+      "no": 22,
+      "name": "Ending Time",
+      "tooltip": "Specifies the ending time of the production order."
+    },
+    {
+      "no": 23,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the production order."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date of the production order."
+    },
+    {
+      "no": 25,
+      "name": "Finished Date",
+      "tooltip": "Specifies the actual finishing date of a finished production order."
+    },
+    {
+      "no": 28,
+      "name": "Blocked",
+      "tooltip": "Specifies that the posting of consumption and output transactions for the released production order is blocked."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 32,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code to which you want to post the finished product from this production order."
+    },
+    {
+      "no": 33,
+      "name": "Bin Code",
+      "tooltip": "Specifies a bin to which you want to post the finished items."
+    },
+    {
+      "no": 34,
+      "name": "Replan Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Replan Ref. Status",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Low-Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the item or the family to produce (production quantity)."
+    },
+    {
+      "no": 41,
+      "name": "Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Cost Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Work Center Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Capacity Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Capacity No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Expected Operation Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Expected Component Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Actual Time Used",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Allocated Capacity Need",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Expected Capacity Need",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Planned Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Firm Planned Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Simulated Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Expected Material Ovhd. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Expected Capacity Ovhd. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Inventory Adjmt. Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the starting date and starting time of the production order."
+    },
+    {
+      "no": 99,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the ending date and ending time of the production order."
+    },
+    {
+      "no": 110,
+      "name": "Document Put-away Status",
+      "tooltip": "Specifies the status of the warehouse put-away."
+    },
+    {
+      "no": 200,
+      "name": "Reopened",
+      "tooltip": "Specifies if the production order is reopened."
+    },
+    {
+      "no": 290,
+      "name": "Manual Scheduling",
+      "tooltip": "Specifies that the End/Due Dates on the production have been scheduled manually."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7300,
+      "name": "Completely Picked",
+      "tooltip": "Specifies whether all production components have been completely picked."
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    }
+  ]
+}

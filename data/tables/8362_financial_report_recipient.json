@@ -1,0 +1,28 @@
+{
+  "id": 8362,
+  "name": "Financial Report Recipient",
+  "slug": "8362_financial_report_recipient",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Financial Report Name",
+      "tooltip": "Specifies the name of the financial report."
+    },
+    {
+      "no": 2,
+      "name": "Financial Report Schedule Code",
+      "tooltip": "Specifies the financial report schedule code."
+    },
+    {
+      "no": 3,
+      "name": "User ID",
+      "tooltip": "Specifies the user that will receive the financial report."
+    },
+    {
+      "no": 4,
+      "name": "User Full Name",
+      "tooltip": "Specifies the full name of the user."
+    }
+  ]
+}

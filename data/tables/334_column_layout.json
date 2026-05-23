@@ -1,0 +1,148 @@
+{
+  "id": 334,
+  "name": "Column Layout",
+  "slug": "334_column_layout",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Column Layout Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number for the financial report column."
+    },
+    {
+      "no": 3,
+      "name": "Column No.",
+      "tooltip": "Specifies a number for the column in the analysis view."
+    },
+    {
+      "no": 4,
+      "name": "Column Header",
+      "tooltip": "Specifies a header for the column."
+    },
+    {
+      "no": 5,
+      "name": "Column Type",
+      "tooltip": "Specifies the analysis column type, which determines how the amounts in the column are calculated."
+    },
+    {
+      "no": 6,
+      "name": "Ledger Entry Type",
+      "tooltip": "Specifies the type of ledger entries that will be included in the amounts in the financial report column."
+    },
+    {
+      "no": 7,
+      "name": "Amount Type",
+      "tooltip": "Specifies the type of entries that will be included in the amounts in the financial report column."
+    },
+    {
+      "no": 8,
+      "name": "Formula",
+      "tooltip": "Specifies a formula. The result of the formula will appear in the column when the financial report is printed."
+    },
+    {
+      "no": 9,
+      "name": "Comparison Date Formula",
+      "tooltip": "Specifies a date formula that specifies which dates should be used to calculate the amount in this column."
+    },
+    {
+      "no": 10,
+      "name": "Show Opposite Sign",
+      "tooltip": "Specifies whether to show debits in reports as negative amounts (that is, with a minus sign) and credits as positive amounts."
+    },
+    {
+      "no": 11,
+      "name": "Show",
+      "tooltip": "Specifies when you want the amounts in the column to be shown in reports."
+    },
+    {
+      "no": 12,
+      "name": "Rounding Factor",
+      "tooltip": "Specifies a rounding factor for amounts in the column."
+    },
+    {
+      "no": 13,
+      "name": "Show Indented Lines",
+      "tooltip": "Specifies that indented lines are shown."
+    },
+    {
+      "no": 14,
+      "name": "Comparison Period Formula",
+      "tooltip": "Specifies a period formula that specifies the accounting periods you want to use to calculate the amount in this column."
+    },
+    {
+      "no": 15,
+      "name": "Business Unit Totaling",
+      "tooltip": "Specifies which business unit amounts will be totaled in this column."
+    },
+    {
+      "no": 16,
+      "name": "Dimension 1 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled in this column. If the column type of the column is Formula, you must not enter anything in this field. Also, if you do not wish the amounts on the line to be filtered by dimension, you should leave this field blank."
+    },
+    {
+      "no": 17,
+      "name": "Dimension 2 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled in this column. If the column type of the column is Formula, you must not enter anything in this field. Also, if you do not wish the amounts on the line to be filtered by dimension, you should leave this field blank."
+    },
+    {
+      "no": 18,
+      "name": "Dimension 3 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled in this column. If the column type is Formula, you must not enter anything in this field. Also, if you do not wish the amounts on the line to be filtered by dimension, you should leave this field blank."
+    },
+    {
+      "no": 19,
+      "name": "Dimension 4 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled in this column. If the column type is Formula, you must not enter anything in this field. Also, if you do not wish the amounts on the line to be filtered by dimension, you should leave this field blank."
+    },
+    {
+      "no": 20,
+      "name": "Cost Center Totaling",
+      "tooltip": "Specifies which cost center amounts will be totaled in this column."
+    },
+    {
+      "no": 21,
+      "name": "Cost Object Totaling",
+      "tooltip": "Specifies which cost object amounts will be totaled in this column."
+    },
+    {
+      "no": 30,
+      "name": "Comparison Period Formula LCID",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Budget Name",
+      "tooltip": "Specifies which budget amounts will be totaled in this column."
+    },
+    {
+      "no": 40,
+      "name": "Hide Currency Symbol",
+      "tooltip": "Specifies whether to hide currency symbols when a calculated result is not a currency."
+    },
+    {
+      "no": 41,
+      "name": "Include Date In Header",
+      "tooltip": "Specifies how the ending date of the Date Filter applied to the column is displayed on the Column Header."
+    },
+    {
+      "no": 42,
+      "name": "G/L Account Totaling",
+      "tooltip": "Specifies which G/L accounts will be totalled in this column. Note that this filter will be applied in addition to any G/L account filters from the row definition lines."
+    },
+    {
+      "no": 43,
+      "name": "Show in ACY",
+      "tooltip": "Specifies whether amounts are shown in the Additional Reporting Currency."
+    },
+    {
+      "no": 44,
+      "name": "Internal Description",
+      "tooltip": "Specifies the internal description for the column definition line that highlights complex logic or areas needing review for the next report designer."
+    }
+  ]
+}

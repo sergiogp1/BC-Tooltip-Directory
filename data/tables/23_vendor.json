@@ -1,0 +1,738 @@
+{
+  "id": 23,
+  "name": "Vendor",
+  "slug": "23_vendor",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the vendor's name."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the vendor's address."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the vendor's city."
+    },
+    {
+      "no": 8,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact when you do business with this vendor."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the phone number."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Our Account No.",
+      "tooltip": "Specifies your account number with the vendor, if you have one."
+    },
+    {
+      "no": 15,
+      "name": "Territory Code",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Budgeted Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Vendor Posting Group",
+      "tooltip": "Specifies the vendor's market type to link business transactions made for the vendor with the appropriate account in the general ledger."
+    },
+    {
+      "no": 22,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code that is inserted by default when you create purchase documents or journal lines for the vendor."
+    },
+    {
+      "no": 24,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 25,
+      "name": "Registration Number",
+      "tooltip": "Specifies the vendor's registration number."
+    },
+    {
+      "no": 26,
+      "name": "Statistics Group",
+      "tooltip": "Specifies the statistics group."
+    },
+    {
+      "no": 27,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a formula that calculates the payment due date, payment discount date, and payment discount amount."
+    },
+    {
+      "no": 28,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": "Specifies the code for the involved finance charges in case of late payment."
+    },
+    {
+      "no": 29,
+      "name": "Purchaser Code",
+      "tooltip": "Specifies which purchaser is assigned to the vendor."
+    },
+    {
+      "no": 30,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 31,
+      "name": "Shipping Agent Code",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Invoice Disc. Code",
+      "tooltip": "Specifies the vendor's invoice discount code. When you set up a new vendor card, the number you have entered in the No. field is automatically inserted."
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 38,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Blocked",
+      "tooltip": "Specifies whether transactions with this vendor are restricted. Use this field to control vendor activity, such as temporarily halting payments or fully blocking a vendor due to compliance or business decisions. The field can have one of the following values: (blank) - No restrictions, all transactions are allowed. All - All transactions with this vendor are blocked. You cannot create or post any documents or journals with the vendor. Payment - Only payment transactions are blocked. You can still create and post purchase documents, but you cannot make payments to the vendor."
+    },
+    {
+      "no": 45,
+      "name": "Pay-to Vendor No.",
+      "tooltip": "Specifies the vendor's pay-to vendor (who should receive invoices)."
+    },
+    {
+      "no": 46,
+      "name": "Priority",
+      "tooltip": "Specifies the importance of the vendor when suggesting payments using the Suggest Vendor Payments function."
+    },
+    {
+      "no": 47,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how to make payment, such as with bank transfer, cash, or check."
+    },
+    {
+      "no": 48,
+      "name": "Format Region",
+      "tooltip": "Specifies the region format to be used on printouts for this vendor."
+    },
+    {
+      "no": 52,
+      "name": "First Transaction Date",
+      "tooltip": "Specifies the date of the first transaction with the vendor."
+    },
+    {
+      "no": 53,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the vendor card was last modified."
+    },
+    {
+      "no": 55,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Balance",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Balance (LCY)",
+      "tooltip": "Specifies the total value of your completed purchases from the vendor in the current fiscal year. It is calculated from amounts including VAT on all completed purchase invoices and credit memos."
+    },
+    {
+      "no": 60,
+      "name": "Net Change",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Net Change (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Purchases (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Inv. Discounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Pmt. Discounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Balance Due",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Balance Due (LCY)",
+      "tooltip": "Specifies the total value of your unpaid purchases from the vendor in the current fiscal year. It is calculated from amounts including VAT on all open purchase invoices and credit memos."
+    },
+    {
+      "no": 69,
+      "name": "Payments",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Invoice Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Cr. Memo Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Finance Charge Memo Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Payments (LCY)",
+      "tooltip": "Specifies the sum of payments paid to the vendor."
+    },
+    {
+      "no": 75,
+      "name": "Inv. Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Cr. Memo Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Fin. Charge Memo Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Outstanding Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Amt. Rcd. Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Application Method",
+      "tooltip": "Specifies how to apply payments to entries for this vendor."
+    },
+    {
+      "no": 82,
+      "name": "Prices Including VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT."
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the vendor's fax number."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the vendor's VAT registration number."
+    },
+    {
+      "no": 88,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's trade type to link transactions made for this vendor with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 90,
+      "name": "GLN",
+      "tooltip": "Specifies the vendor in connection with electronic document receiving."
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the post code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 93,
+      "name": "EORI Number",
+      "tooltip": "Specifies the Economic Operators Registration and Identification number that is used when you exchange information with the customs authorities due to trade into or out of the European Union."
+    },
+    {
+      "no": 97,
+      "name": "Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Debit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Credit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the vendor's email address."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the vendor's web site."
+    },
+    {
+      "no": 104,
+      "name": "Reminder Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Reminder Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies a tax area code for the company."
+    },
+    {
+      "no": 109,
+      "name": "Tax Liable",
+      "tooltip": "Specifies if the customer is liable for sales tax."
+    },
+    {
+      "no": 110,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 111,
+      "name": "Currency Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Outstanding Orders (LCY)",
+      "tooltip": "Specifies the sum of outstanding orders (in LCY) to this vendor."
+    },
+    {
+      "no": 114,
+      "name": "Amt. Rcd. Not Invoiced (LCY)",
+      "tooltip": "Specifies the total invoice amount (in LCY) for the items you have received but not yet been invoiced for."
+    },
+    {
+      "no": 116,
+      "name": "Block Payment Tolerance",
+      "tooltip": "Specifies if the vendor allows payment tolerance."
+    },
+    {
+      "no": 117,
+      "name": "Pmt. Disc. Tolerance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Pmt. Tolerance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the vendor's IC partner code, if the vendor is one of your intercompany partners."
+    },
+    {
+      "no": 120,
+      "name": "Refunds",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Refunds (LCY)",
+      "tooltip": "Specifies the sum of refunds paid to the vendor."
+    },
+    {
+      "no": 122,
+      "name": "Other Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Other Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "Prepayment %",
+      "tooltip": "Specifies a prepayment percentage that applies to all orders for this vendor, regardless of the items or services on the order lines."
+    },
+    {
+      "no": 125,
+      "name": "Outstanding Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "Outstanding Invoices (LCY)",
+      "tooltip": "Specifies the sum of the vendor's outstanding purchase invoices in LCY."
+    },
+    {
+      "no": 130,
+      "name": "Pay-to No. Of Archived Doc.",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "Buy-from No. Of Archived Doc.",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Partner Type",
+      "tooltip": "Specifies if the vendor is a person or a company."
+    },
+    {
+      "no": 133,
+      "name": "Intrastat Partner Type",
+      "tooltip": "Specifies for Intrastat reporting if the vendor is a person or a company."
+    },
+    {
+      "no": 134,
+      "name": "Exclude from Pmt. Practices",
+      "tooltip": "Specifies that the vendor must be excluded from Payment Practices calculations."
+    },
+    {
+      "no": 135,
+      "name": "Company Size Code",
+      "tooltip": "Specifies the size of the vendor's company."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture of the vendor, for example, a logo."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 160,
+      "name": "Disable Search by Name",
+      "tooltip": "Specifies that you can change the vendor name on open purchase documents. The change applies only to the documents."
+    },
+    {
+      "no": 170,
+      "name": "Creditor No.",
+      "tooltip": "Specifies the number of the vendor."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for posting business transactions for this customer."
+    },
+    {
+      "no": 180,
+      "name": "Self-Billing Agreement",
+      "tooltip": "Specifies the value of the Self-Billing Agreement field."
+    },
+    {
+      "no": 288,
+      "name": "Preferred Bank Account Code",
+      "tooltip": "Specifies the vendor bank account that will be used by default on payment journal lines for export to a payment bank file."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the vendor is coupled to an account in Dataverse."
+    },
+    {
+      "no": 840,
+      "name": "Cash Flow Payment Terms Code",
+      "tooltip": "Specifies a payment term that will be used for calculating cash flow."
+    },
+    {
+      "no": 5049,
+      "name": "Primary Contact No.",
+      "tooltip": "Specifies the primary contact number for the vendor."
+    },
+    {
+      "no": 5061,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the vendor's mobile telephone number."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 5701,
+      "name": "Location Code",
+      "tooltip": "Specifies the warehouse location where items from the vendor must be received by default."
+    },
+    {
+      "no": 5790,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the default price calculation method."
+    },
+    {
+      "no": 7177,
+      "name": "No. of Pstd. Receipts",
+      "tooltip": "Specifies the number of posted purchase receipts that exist for the vendor."
+    },
+    {
+      "no": 7178,
+      "name": "No. of Pstd. Invoices",
+      "tooltip": "Specifies the number of posted purchase invoices that exist for the vendor."
+    },
+    {
+      "no": 7179,
+      "name": "No. of Pstd. Return Shipments",
+      "tooltip": "Specifies the number of posted return shipments that exist for the vendor."
+    },
+    {
+      "no": 7180,
+      "name": "No. of Pstd. Credit Memos",
+      "tooltip": "Specifies the number of posted purchase credit memos that exist for the vendor."
+    },
+    {
+      "no": 7181,
+      "name": "Pay-to No. of Orders",
+      "tooltip": "Specifies the number of posted orders that exist for the vendor."
+    },
+    {
+      "no": 7182,
+      "name": "Pay-to No. of Invoices",
+      "tooltip": "Specifies the amount that relates to invoices."
+    },
+    {
+      "no": 7183,
+      "name": "Pay-to No. of Return Orders",
+      "tooltip": "Specifies how many return orders have been registered for the customer when the customer acts as the pay-to customer."
+    },
+    {
+      "no": 7184,
+      "name": "Pay-to No. of Credit Memos",
+      "tooltip": "Specifies the amount that relates to credit memos."
+    },
+    {
+      "no": 7185,
+      "name": "Pay-to No. of Pstd. Receipts",
+      "tooltip": "Specifies the number of posted receipts that exist for the vendor."
+    },
+    {
+      "no": 7186,
+      "name": "Pay-to No. of Pstd. Invoices",
+      "tooltip": "Specifies the amount that relates to posted invoices."
+    },
+    {
+      "no": 7187,
+      "name": "Pay-to No. of Pstd. Return S.",
+      "tooltip": "Specifies the number of posted return shipments that exist for the vendor."
+    },
+    {
+      "no": 7188,
+      "name": "Pay-to No. of Pstd. Cr. Memos",
+      "tooltip": "Specifies the amount that relates to credit memos."
+    },
+    {
+      "no": 7189,
+      "name": "No. of Quotes",
+      "tooltip": "Specifies the number of purchase quotes that exist for the vendor."
+    },
+    {
+      "no": 7190,
+      "name": "No. of Blanket Orders",
+      "tooltip": "Specifies the number of purchase blanket orders that exist for the vendor."
+    },
+    {
+      "no": 7191,
+      "name": "No. of Orders",
+      "tooltip": "Specifies the number of purchase orders that exist for the vendor."
+    },
+    {
+      "no": 7192,
+      "name": "No. of Invoices",
+      "tooltip": "Specifies the number of unposted purchase invoices that exist for the vendor."
+    },
+    {
+      "no": 7193,
+      "name": "No. of Return Orders",
+      "tooltip": "Specifies the number of purchase return orders that exist for the vendor."
+    },
+    {
+      "no": 7194,
+      "name": "No. of Credit Memos",
+      "tooltip": "Specifies the number of unposted purchase credit memos that exist for the vendor."
+    },
+    {
+      "no": 7195,
+      "name": "No. of Order Addresses",
+      "tooltip": ""
+    },
+    {
+      "no": 7196,
+      "name": "Pay-to No. of Quotes",
+      "tooltip": "Specifies the number of quotes that exist for the vendor."
+    },
+    {
+      "no": 7197,
+      "name": "Pay-to No. of Blanket Orders",
+      "tooltip": "Specifies the number of blanket orders."
+    },
+    {
+      "no": 7198,
+      "name": "No. of Incoming Documents",
+      "tooltip": "Specifies incoming documents, such as vendor invoices in PDF or as image files, that you can manually or automatically convert to document records, such as purchase invoices. The external files that represent incoming documents can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries."
+    },
+    {
+      "no": 7600,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies a customizable calendar for delivery planning that holds the vendor's working days and holidays."
+    },
+    {
+      "no": 7601,
+      "name": "Document Sending Profile",
+      "tooltip": "Specifies the preferred method of sending documents to this vendor, so that you do not have to select a sending option every time that you post and send a document to the vendor. Documents to this vendor will be sent using the specified sending profile and will override the default document sending profile."
+    },
+    {
+      "no": 7602,
+      "name": "Validate EU Vat Reg. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7603,
+      "name": "Copy Buy-from Add. to Qte From",
+      "tooltip": "Specifies which vendor address is inserted on purchase quotes that you create for the vendor."
+    },
+    {
+      "no": 8001,
+      "name": "Currency Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "Payment Terms Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8003,
+      "name": "Payment Method Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8510,
+      "name": "Over-Receipt Code",
+      "tooltip": "Specifies the policy that will be used for the vendor if more items than ordered are received."
+    }
+  ]
+}

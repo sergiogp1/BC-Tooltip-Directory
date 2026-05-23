@@ -1,0 +1,278 @@
+{
+  "id": 8627,
+  "name": "Config. Setup",
+  "slug": "8627_config_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of your company that you are configuring."
+    },
+    {
+      "no": 3,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Address",
+      "tooltip": "Specifies an address for the company that you are configuring."
+    },
+    {
+      "no": 5,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 6,
+      "name": "City",
+      "tooltip": "Specifies the city where the company that you are configuring is located."
+    },
+    {
+      "no": 7,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number of the company that you are configuring."
+    },
+    {
+      "no": 8,
+      "name": "Phone No. 2",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Fax No.",
+      "tooltip": "Specifies fax number of the company that you are configuring."
+    },
+    {
+      "no": 11,
+      "name": "Giro No.",
+      "tooltip": "Specifies the giro number of the company that you are configuring."
+    },
+    {
+      "no": 12,
+      "name": "Bank Name",
+      "tooltip": "Specifies the name of the bank the company uses."
+    },
+    {
+      "no": 13,
+      "name": "Bank Branch No.",
+      "tooltip": "Specifies the branch number of the bank that the company that you are configuring uses."
+    },
+    {
+      "no": 14,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the bank account number of the company that you are configuring."
+    },
+    {
+      "no": 15,
+      "name": "Payment Routing No.",
+      "tooltip": "Specifies the payment routing number of the company that you are configuring."
+    },
+    {
+      "no": 17,
+      "name": "Customs Permit No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Customs Permit Date",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the customer's VAT registration number."
+    },
+    {
+      "no": 20,
+      "name": "Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Ship-to Name",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Ship-to Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Ship-to Address",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Ship-to Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Ship-to City",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Ship-to Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Picture",
+      "tooltip": "Specifies the picture that has been set up for the company, for example, a company logo."
+    },
+    {
+      "no": 30,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 31,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Ship-to Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the company that you are configuring."
+    },
+    {
+      "no": 35,
+      "name": "Home Page",
+      "tooltip": "Specifies your company's web site."
+    },
+    {
+      "no": 36,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 37,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "IBAN",
+      "tooltip": "Specifies the international bank account number of the primary bank account of the company that you are configuring."
+    },
+    {
+      "no": 39,
+      "name": "SWIFT Code",
+      "tooltip": "Specifies the SWIFT code (international bank identifier code) of the primary bank of the company that you are configuring."
+    },
+    {
+      "no": 40,
+      "name": "Industrial Classification",
+      "tooltip": "Specifies the type of industry that the company that you are configuring is."
+    },
+    {
+      "no": 500,
+      "name": "Logo Position on Documents",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": ""
+    },
+    {
+      "no": 5791,
+      "name": "Check-Avail. Period Calc.",
+      "tooltip": ""
+    },
+    {
+      "no": 5792,
+      "name": "Check-Avail. Time Bucket",
+      "tooltip": ""
+    },
+    {
+      "no": 7600,
+      "name": "Base Calendar Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7601,
+      "name": "Cal. Convergence Time Frame",
+      "tooltip": ""
+    },
+    {
+      "no": 8600,
+      "name": "Package File Name",
+      "tooltip": ""
+    },
+    {
+      "no": 8601,
+      "name": "Package Code",
+      "tooltip": "Specifies the code of the configuration package."
+    },
+    {
+      "no": 8602,
+      "name": "Language ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8603,
+      "name": "Product Version",
+      "tooltip": ""
+    },
+    {
+      "no": 8604,
+      "name": "Package Name",
+      "tooltip": "Specifies the name of the package that contains the configuration information."
+    },
+    {
+      "no": 8605,
+      "name": "Your Profile Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8606,
+      "name": "Your Profile App ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8607,
+      "name": "Your Profile Scope",
+      "tooltip": ""
+    },
+    {
+      "no": 8608,
+      "name": "Package File",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 7499,
+  "name": "Item From Picture Buffer",
+  "slug": "7499_item_from_picture_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "PrimaryKey",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "ItemMediaSet",
+      "tooltip": "Specifies the media set for the new item."
+    },
+    {
+      "no": 11,
+      "name": "ItemMediaFileName",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "ItemTemplateCode",
+      "tooltip": "Specifies the template to apply to the new item."
+    },
+    {
+      "no": 25,
+      "name": "ItemCategoryCode",
+      "tooltip": "Specifies the item category for the new item."
+    },
+    {
+      "no": 30,
+      "name": "ItemDescription",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "AnalysisResult",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "AnalysisResultPreview",
+      "tooltip": ""
+    }
+  ]
+}

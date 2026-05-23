@@ -1,0 +1,43 @@
+{
+  "id": 5138,
+  "name": "Comment Line Archive",
+  "slug": "5138_comment_line_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date the comment was created."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment itself."
+    },
+    {
+      "no": 20,
+      "name": "Version No.",
+      "tooltip": ""
+    }
+  ]
+}

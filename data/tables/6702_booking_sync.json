@@ -1,0 +1,73 @@
+{
+  "id": 6702,
+  "name": "Booking Sync",
+  "slug": "6702_booking_sync",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Booking Mailbox Address",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Booking Mailbox Name",
+      "tooltip": "Specifies the Bookings company with which to synchronize customers and services."
+    },
+    {
+      "no": 4,
+      "name": "User ID",
+      "tooltip": "Specifies the user on behalf of which to run the synchronize operation."
+    },
+    {
+      "no": 5,
+      "name": "Last Customer Sync",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Last Service Sync",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Enabled",
+      "tooltip": "Specifies whether to allow synchronization to occur periodically in the background."
+    },
+    {
+      "no": 8,
+      "name": "Sync Customers",
+      "tooltip": "Specifies whether to synchronize Bookings customers."
+    },
+    {
+      "no": 9,
+      "name": "Customer Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Sync Services",
+      "tooltip": "Specifies whether to synchronize services."
+    },
+    {
+      "no": 13,
+      "name": "Item Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Item Template Code",
+      "tooltip": "Specifies the template to use when creating new service items from the Bookings company."
+    },
+    {
+      "no": 15,
+      "name": "Customer Templ. Code",
+      "tooltip": "Specifies the customer template to use when creating new Customers from the Bookings company."
+    }
+  ]
+}

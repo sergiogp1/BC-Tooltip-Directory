@@ -1,0 +1,533 @@
+{
+  "id": 167,
+  "name": "Job",
+  "slug": "167_job",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the project number."
+    },
+    {
+      "no": 2,
+      "name": "Search Description",
+      "tooltip": "Specifies an additional description of the project for searching purposes."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a short description of the project."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer who pays for the project."
+    },
+    {
+      "no": 12,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date on which you set up the project."
+    },
+    {
+      "no": 13,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date on which the project actually starts."
+    },
+    {
+      "no": 14,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date on which the project is expected to be completed."
+    },
+    {
+      "no": 19,
+      "name": "Status",
+      "tooltip": "Specifies a current status of the project. You can change the status for the project as it progresses. Final calculations can be made on completed projects."
+    },
+    {
+      "no": 20,
+      "name": "Person Responsible",
+      "tooltip": "Specifies the name of the person responsible for the project. You can select a name from the list of resources available in the Resource List window. The name is copied from the No. field in the Resource table. You can choose the field to see a list of resources."
+    },
+    {
+      "no": 21,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Job Posting Group",
+      "tooltip": "Specifies a project posting group code for a project. To see the available codes, choose the field."
+    },
+    {
+      "no": 24,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 29,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the project card was last modified."
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code of the project."
+    },
+    {
+      "no": 36,
+      "name": "Bin Code",
+      "tooltip": "Specifies a bin code for specific location of the project."
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": "Specifies the language to be used on printouts for this project."
+    },
+    {
+      "no": 49,
+      "name": "Scheduled Res. Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Resource Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Resource Gr. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Scheduled Res. Gr. Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer who pays for the project."
+    },
+    {
+      "no": 59,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer to whom you will send the invoice."
+    },
+    {
+      "no": 60,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional line of the address."
+    },
+    {
+      "no": 61,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 63,
+      "name": "Bill-to County",
+      "tooltip": "Specifies the county code of the customer's billing address."
+    },
+    {
+      "no": 64,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the postal code of the customer who pays for the project."
+    },
+    {
+      "no": 66,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the customer's billing address."
+    },
+    {
+      "no": 68,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer who pays for the project."
+    },
+    {
+      "no": 80,
+      "name": "Task Billing Method",
+      "tooltip": "Specify whether to use the customer specified for the project for all tasks or allow people to specify different customers. One customer lets you invoice only the customer specified for the project. Multiple customers lets you invoice customers specified on each task, which can be different customers."
+    },
+    {
+      "no": 117,
+      "name": "Reserve",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": ""
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 1000,
+      "name": "WIP Method",
+      "tooltip": "Specifies the method that is used to calculate the value of work in process for the project."
+    },
+    {
+      "no": 1001,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the project. By default, the currency code is empty. If you enter a foreign currency code, it results in the project being planned and invoiced in that currency."
+    },
+    {
+      "no": 1002,
+      "name": "Bill-to Contact No.",
+      "tooltip": "Specifies the number of the contact person at the customer's billing address."
+    },
+    {
+      "no": 1003,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer who pays for the project."
+    },
+    {
+      "no": 1004,
+      "name": "Planning Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 1005,
+      "name": "Total WIP Cost Amount",
+      "tooltip": "Specifies the total WIP cost amount that was last calculated for the project. The WIP cost amount is the value in the WIP Cost Project WIP Entries window minus the value of the Recognized Cost Project WIP Entries window. For projects with Sales Value or Percentage of Completion WIP methods, the WIP cost amount is normally 0."
+    },
+    {
+      "no": 1006,
+      "name": "Total WIP Cost G/L Amount",
+      "tooltip": "Specifies the total WIP Cost amount that was last posted to the G/L for the project. The WIP Cost Amount for the project is the value WIP Cost Project WIP G/L Entries less the value of the Recognized Cost Project WIP G/L Entries. For projects with WIP Methods of Sales Value or Percentage of Completion, the WIP Cost Amount is normally 0."
+    },
+    {
+      "no": 1007,
+      "name": "WIP Entries Exist",
+      "tooltip": ""
+    },
+    {
+      "no": 1008,
+      "name": "WIP Posting Date",
+      "tooltip": "Specifies the posting date that was entered when the Project Calculate WIP batch job was last run."
+    },
+    {
+      "no": 1009,
+      "name": "WIP G/L Posting Date",
+      "tooltip": "Specifies the posting date that was entered when the Project Post WIP to General Ledger batch job was last run."
+    },
+    {
+      "no": 1011,
+      "name": "Invoice Currency Code",
+      "tooltip": "Specifies the currency code you want to apply when creating invoices for a project. By default, the invoice currency code for a project is based on what currency code is defined on the customer card."
+    },
+    {
+      "no": 1012,
+      "name": "Exch. Calculation (Cost)",
+      "tooltip": "Specifies how project costs are calculated if you change the Currency Date or the Currency Code fields on a project planning Line or run the Change Project Planning Line Dates batch job. Fixed LCY option: The project costs in the local currency are fixed. Any change in the currency exchange rate will change the value of project costs in a foreign currency. Fixed FCY option: The project costs in a foreign currency are fixed. Any change in the currency exchange rate will change the value of project costs in the local currency."
+    },
+    {
+      "no": 1013,
+      "name": "Exch. Calculation (Price)",
+      "tooltip": "Specifies how project sales prices are calculated if you change the Currency Date or the Currency Code fields on a project planning Line or run the Change Project Planning Line Dates batch job. Fixed LCY option: The project prices in the local currency are fixed. Any change in the currency exchange rate will change the value of project prices in a foreign currency. Fixed FCY option: The project prices in a foreign currency are fixed. Any change in the currency exchange rate will change the value of project prices in the local currency."
+    },
+    {
+      "no": 1014,
+      "name": "Allow Schedule/Contract Lines",
+      "tooltip": "Specifies if you can add planning lines of both type Budget and type Billable to the project."
+    },
+    {
+      "no": 1015,
+      "name": "Complete",
+      "tooltip": ""
+    },
+    {
+      "no": 1017,
+      "name": "Recog. Sales Amount",
+      "tooltip": "Specifies the difference in recognized sales for the project."
+    },
+    {
+      "no": 1018,
+      "name": "Recog. Sales G/L Amount",
+      "tooltip": "Specifies the total recognized sales amount that was last posted to the general ledger for the project. The recognized sales G/L amount for the project is the sum of the entries in the Recognized Sales Project WIP G/L Entries window."
+    },
+    {
+      "no": 1019,
+      "name": "Recog. Costs Amount",
+      "tooltip": "Specifies the recognized cost amount that was last calculated for the project. The value is the sum of the entries in the Recognized Cost Project WIP Entries window."
+    },
+    {
+      "no": 1020,
+      "name": "Recog. Costs G/L Amount",
+      "tooltip": "Specifies the total Recognized Cost amount that was last posted to the general ledger for the project. The Recognized Cost G/L amount for the project is the sum of the Recognized Cost Project WIP G/L Entries."
+    },
+    {
+      "no": 1021,
+      "name": "Total WIP Sales Amount",
+      "tooltip": "Specifies the total WIP sales amount that was last calculated for the project. The WIP sales amount is the value in the WIP Sales Project WIP Entries window minus the value of the Recognized Sales Project WIP Entries window. For projects with the Cost Value or Cost of Sales WIP methods, the WIP sales amount is normally 0."
+    },
+    {
+      "no": 1022,
+      "name": "Total WIP Sales G/L Amount",
+      "tooltip": "Specifies the total WIP sales amount that was last calculated for the project. It is calculated as the value in the WIP Sales field minus the value in the Recognized Sales field in the Project G/L WIP Entries window. For projects that use the Cost Value or Cost of Sales WIP methods, the WIP sales amount is normally 0."
+    },
+    {
+      "no": 1023,
+      "name": "WIP Completion Calculated",
+      "tooltip": ""
+    },
+    {
+      "no": 1024,
+      "name": "Next Invoice Date",
+      "tooltip": "Specifies the next invoice date for the project."
+    },
+    {
+      "no": 1025,
+      "name": "Apply Usage Link",
+      "tooltip": "Specifies whether usage entries, from the project journal or purchase line, for example, are linked to project planning lines. Select this check box if you want to be able to track the quantities and amounts of the remaining work needed to complete a project and to create a relationship between demand planning, usage, and sales. On a project card, you can select this check box if there are no existing project planning lines that include type Budget that have been posted. The usage link only applies to project planning lines that include type Budget."
+    },
+    {
+      "no": 1026,
+      "name": "WIP Warnings",
+      "tooltip": "Specifies whether or not there are WIP warnings associated with a project."
+    },
+    {
+      "no": 1027,
+      "name": "WIP Posting Method",
+      "tooltip": "Specifies how WIP posting is performed. Per Project: The total WIP costs and the sales value is used to calculate WIP. Per Project Ledger Entry: The accumulated values of WIP costs and sales are used to calculate WIP."
+    },
+    {
+      "no": 1028,
+      "name": "Applied Costs G/L Amount",
+      "tooltip": "Specifies the sum of all applied costs of the selected project."
+    },
+    {
+      "no": 1029,
+      "name": "Applied Sales G/L Amount",
+      "tooltip": "Specifies the sum of all applied costs of the selected project."
+    },
+    {
+      "no": 1030,
+      "name": "Calc. Recog. Sales Amount",
+      "tooltip": "Specifies the sum of the recognized costs of the involved project tasks."
+    },
+    {
+      "no": 1031,
+      "name": "Calc. Recog. Costs Amount",
+      "tooltip": "Specifies the sum of the recognized costs of the involved project tasks."
+    },
+    {
+      "no": 1032,
+      "name": "Calc. Recog. Sales G/L Amount",
+      "tooltip": "Specifies the sum of the recognized sales general ledger amount that is associated with project tasks for the project."
+    },
+    {
+      "no": 1033,
+      "name": "Calc. Recog. Costs G/L Amount",
+      "tooltip": "Specifies the sum of the recognized costs general ledger amount that is associated with project tasks for the project."
+    },
+    {
+      "no": 1034,
+      "name": "WIP Completion Posted",
+      "tooltip": ""
+    },
+    {
+      "no": 1035,
+      "name": "Over Budget",
+      "tooltip": ""
+    },
+    {
+      "no": 1036,
+      "name": "Project Manager",
+      "tooltip": "Specifies the person assigned as the manager for this project."
+    },
+    {
+      "no": 2000,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 2001,
+      "name": "Sell-to Customer Name",
+      "tooltip": "Specifies the name of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 2002,
+      "name": "Sell-to Customer Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 2003,
+      "name": "Sell-to Address",
+      "tooltip": "Specifies the address where the customer is located."
+    },
+    {
+      "no": 2004,
+      "name": "Sell-to Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 2005,
+      "name": "Sell-to City",
+      "tooltip": "Specifies the city of the customer on the sales document."
+    },
+    {
+      "no": 2006,
+      "name": "Sell-to Contact",
+      "tooltip": "Specifies the name of the person to contact at the customer."
+    },
+    {
+      "no": 2007,
+      "name": "Sell-to Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 2008,
+      "name": "Sell-to County",
+      "tooltip": "Specifies the state, province or county of the address."
+    },
+    {
+      "no": 2009,
+      "name": "Sell-to Country/Region Code",
+      "tooltip": "Specifies the country or region of the address."
+    },
+    {
+      "no": 2010,
+      "name": "Sell-to Phone No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2011,
+      "name": "Sell-to E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 2012,
+      "name": "Sell-to Contact No.",
+      "tooltip": "Specifies the number of the contact person that the sales document will be sent to."
+    },
+    {
+      "no": 3000,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies the code for another shipment address than the customer's own address, which is entered by default."
+    },
+    {
+      "no": 3001,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name that products on the sales document will be shipped to."
+    },
+    {
+      "no": 3002,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name that products on the sales document will be shipped to."
+    },
+    {
+      "no": 3003,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that products on the sales document will be shipped to."
+    },
+    {
+      "no": 3004,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 3005,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the customer on the sales document."
+    },
+    {
+      "no": 3006,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that products on the sales document will be shipped to."
+    },
+    {
+      "no": 3007,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 3008,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the state, province or county of the address."
+    },
+    {
+      "no": 3009,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the customer's country/region."
+    },
+    {
+      "no": 3997,
+      "name": "No. of Archived Versions",
+      "tooltip": "Specifies the number of archived versions of this project."
+    },
+    {
+      "no": 4000,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 4001,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4002,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4003,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference. The content will be printed on sales documents."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the default method of the unit price calculation."
+    },
+    {
+      "no": 7001,
+      "name": "Cost Calculation Method",
+      "tooltip": "Specifies the default method of the unit cost calculation."
+    },
+    {
+      "no": 7300,
+      "name": "Completely Picked",
+      "tooltip": "Specifies whether all items on the project planning lines have been completely picked."
+    }
+  ]
+}

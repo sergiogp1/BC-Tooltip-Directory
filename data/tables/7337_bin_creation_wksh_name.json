@@ -1,0 +1,38 @@
+{
+  "id": 7337,
+  "name": "Bin Creation Wksh. Name",
+  "slug": "7337_bin_creation_wksh_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies a name for the worksheet."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description for the worksheet."
+    },
+    {
+      "no": 7,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code for which the worksheet should be used."
+    },
+    {
+      "no": 21,
+      "name": "Template Type",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this worksheet."
+    }
+  ]
+}

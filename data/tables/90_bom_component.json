@@ -1,0 +1,98 @@
+{
+  "id": 90,
+  "name": "BOM Component",
+  "slug": "90_bom_component",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Parent Item No.",
+      "tooltip": "Specifies the number of the assembly item that the assembly BOM component belongs to."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies if the assembly BOM component is an item or a resource."
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Assembly BOM",
+      "tooltip": "Specifies if the assembly BOM component is an assembly BOM."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description of the assembly BOM component."
+    },
+    {
+      "no": 7,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 8,
+      "name": "Quantity per",
+      "tooltip": "Specifies how many units of the component are required to produce or assemble the parent item."
+    },
+    {
+      "no": 9,
+      "name": "Position",
+      "tooltip": "Specifies the position of the component on the bill of material."
+    },
+    {
+      "no": 10,
+      "name": "Position 2",
+      "tooltip": "Specifies the component's position in the assembly BOM structure."
+    },
+    {
+      "no": 11,
+      "name": "Position 3",
+      "tooltip": "Specifies the third reference number for the component position on a bill of material, such as the alternate position number of a component on a print card."
+    },
+    {
+      "no": 12,
+      "name": "Machine No.",
+      "tooltip": "Specifies a machine that should be used when processing the component on this line of the assembly BOM."
+    },
+    {
+      "no": 13,
+      "name": "Lead-Time Offset",
+      "tooltip": "Specifies the total number of days required to assemble the item on the assembly BOM line."
+    },
+    {
+      "no": 14,
+      "name": "BOM Description",
+      "tooltip": "Specifies a description of the assembly BOM if the item on the line is an assembly BOM."
+    },
+    {
+      "no": 20,
+      "name": "Resource Usage Type",
+      "tooltip": "Specifies how the cost of the resource on the assembly BOM is allocated during assembly."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5900,
+      "name": "Installed in Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5901,
+      "name": "Installed in Item No.",
+      "tooltip": "Specifies which service item the component on the line is used in."
+    }
+  ]
+}

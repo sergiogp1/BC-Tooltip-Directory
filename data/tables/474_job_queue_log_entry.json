@@ -1,0 +1,103 @@
+{
+  "id": 474,
+  "name": "Job Queue Log Entry",
+  "slug": "474_job_queue_log_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the job queue entry in the log."
+    },
+    {
+      "no": 3,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 4,
+      "name": "Start Date/Time",
+      "tooltip": "Specifies the date and time when the job was started."
+    },
+    {
+      "no": 5,
+      "name": "End Date/Time",
+      "tooltip": "Specifies the date and time when the job ended."
+    },
+    {
+      "no": 6,
+      "name": "Object Type to Run",
+      "tooltip": "Specifies the type of the object that is to be run for the job."
+    },
+    {
+      "no": 7,
+      "name": "Object ID to Run",
+      "tooltip": "Specifies the ID of the object that is to be run for the job."
+    },
+    {
+      "no": 8,
+      "name": "Object Caption to Run",
+      "tooltip": "Specifies the name or caption of the object that was run for the job."
+    },
+    {
+      "no": 9,
+      "name": "Status",
+      "tooltip": "Specifies the status of the running of the job queue entry in a log."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the job queue entry in the log."
+    },
+    {
+      "no": 11,
+      "name": "Error Message",
+      "tooltip": "Specifies an error that occurred in the job queue."
+    },
+    {
+      "no": 17,
+      "name": "Job Queue Category Code",
+      "tooltip": "Specifies the category code for the entry in the job queue log."
+    },
+    {
+      "no": 18,
+      "name": "Error Call Stack",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Parameter String",
+      "tooltip": "Specifies the parameter string of the corresponding job."
+    },
+    {
+      "no": 20,
+      "name": "Error Message Register Id",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "XML",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "System Task Id",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "User Session ID",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "User Service Instance ID",
+      "tooltip": ""
+    }
+  ]
+}

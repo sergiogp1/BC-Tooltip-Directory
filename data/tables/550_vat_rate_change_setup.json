@@ -1,0 +1,148 @@
+{
+  "id": 550,
+  "name": "VAT Rate Change Setup",
+  "slug": "550_vat_rate_change_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Update Gen. Prod. Post. Groups",
+      "tooltip": "Specifies the VAT rate change for general product posting groups."
+    },
+    {
+      "no": 15,
+      "name": "Update G/L Accounts",
+      "tooltip": "Specifies the VAT rate change for general ledger accounts."
+    },
+    {
+      "no": 17,
+      "name": "Update Items",
+      "tooltip": "Specifies the VAT rate change for items."
+    },
+    {
+      "no": 18,
+      "name": "Update Item Templates",
+      "tooltip": "Specifies that VAT rate changes are updated for item categories."
+    },
+    {
+      "no": 19,
+      "name": "Update Item Charges",
+      "tooltip": "Specifies the VAT rate change for item charges."
+    },
+    {
+      "no": 21,
+      "name": "Update Resources",
+      "tooltip": "Specifies the VAT rate change for resources."
+    },
+    {
+      "no": 30,
+      "name": "Update Gen. Journal Lines",
+      "tooltip": "Specifies the VAT rate change for general journal lines."
+    },
+    {
+      "no": 31,
+      "name": "Update Gen. Journal Allocation",
+      "tooltip": "Specifies the VAT rate change for general journal allocation."
+    },
+    {
+      "no": 32,
+      "name": "Update Std. Gen. Jnl. Lines",
+      "tooltip": "Specifies the VAT rate change for standard general journal lines."
+    },
+    {
+      "no": 33,
+      "name": "Update Res. Journal Lines",
+      "tooltip": "Specifies the VAT rate change for resource journal lines."
+    },
+    {
+      "no": 35,
+      "name": "Update Job Journal Lines",
+      "tooltip": "Specifies the VAT rate change for job journal lines."
+    },
+    {
+      "no": 37,
+      "name": "Update Requisition Lines",
+      "tooltip": "Specifies the VAT rate change for requisition lines."
+    },
+    {
+      "no": 39,
+      "name": "Update Std. Item Jnl. Lines",
+      "tooltip": "Specifies the VAT rate change for standard item journal lines."
+    },
+    {
+      "no": 50,
+      "name": "Update Sales Documents",
+      "tooltip": "Specifies the VAT rate change for sales documents."
+    },
+    {
+      "no": 55,
+      "name": "Update Purchase Documents",
+      "tooltip": "Specifies the VAT rate change for purchase documents."
+    },
+    {
+      "no": 70,
+      "name": "Update Reminders",
+      "tooltip": "Specifies the VAT rate change for reminders."
+    },
+    {
+      "no": 75,
+      "name": "Update Finance Charge Memos",
+      "tooltip": "Specifies the VAT rate change for finance charge memos."
+    },
+    {
+      "no": 90,
+      "name": "VAT Rate Change Tool Completed",
+      "tooltip": "Specifies if the VAT rate change conversion is complete."
+    },
+    {
+      "no": 91,
+      "name": "Ignore Status on Sales Docs.",
+      "tooltip": "Specifies that all existing sales documents regardless of status, including documents with a status of released, are updated."
+    },
+    {
+      "no": 92,
+      "name": "Ignore Status on Purch. Docs.",
+      "tooltip": "Specifies all existing purchase documents regardless of status, including documents with a status of released, are updated."
+    },
+    {
+      "no": 93,
+      "name": "Perform Conversion",
+      "tooltip": "Specifies that the VAT rate conversion is performed on existing data."
+    },
+    {
+      "no": 100,
+      "name": "Item Filter",
+      "tooltip": "Specifies which items will be updated by setting appropriate filters."
+    },
+    {
+      "no": 101,
+      "name": "Account Filter",
+      "tooltip": "Specifies which accounts will be updated by setting appropriate filters."
+    },
+    {
+      "no": 102,
+      "name": "Resource Filter",
+      "tooltip": "Specifies which resources will be updated by setting appropriate filters."
+    },
+    {
+      "no": 110,
+      "name": "Update Unit Price For G/L Acc.",
+      "tooltip": "Specifies that the unit price must be updated for document lines that have the type G/L Account."
+    },
+    {
+      "no": 111,
+      "name": "Upd. Unit Price For Item Chrg.",
+      "tooltip": "Specifies that the unit price must be updated for document lines that have the type Charge (Item)."
+    },
+    {
+      "no": 112,
+      "name": "Upd. Unit Price For FA",
+      "tooltip": "Specifies that the unit price must be updated for document lines that have the type Fixed Asset."
+    }
+  ]
+}

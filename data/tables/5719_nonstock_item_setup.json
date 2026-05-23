@@ -1,0 +1,23 @@
+{
+  "id": 5719,
+  "name": "Nonstock Item Setup",
+  "slug": "5719_nonstock_item_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No. Format",
+      "tooltip": "Specifies the format of the catalog item number that appears on the item card."
+    },
+    {
+      "no": 3,
+      "name": "No. Format Separator",
+      "tooltip": "Specifies the character that separates the elements of your catalog item number format, if the format uses both a code and a number."
+    }
+  ]
+}

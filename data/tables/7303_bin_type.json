@@ -1,0 +1,38 @@
+{
+  "id": 7303,
+  "name": "Bin Type",
+  "slug": "7303_bin_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique code for the bin type."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description of the bin type."
+    },
+    {
+      "no": 10,
+      "name": "Receive",
+      "tooltip": "Specifies to use the bin for items that have just arrived at the warehouse."
+    },
+    {
+      "no": 11,
+      "name": "Ship",
+      "tooltip": "Specifies to use the bin for items that are about to be shipped out of the warehouse."
+    },
+    {
+      "no": 12,
+      "name": "Put Away",
+      "tooltip": "Specifies to use the bin for items that are being put away, such as receipts and internal put-always."
+    },
+    {
+      "no": 13,
+      "name": "Pick",
+      "tooltip": "Specifies to use the bin for items that can be picked for shipment, internal picks, and production."
+    }
+  ]
+}

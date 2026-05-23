@@ -1,0 +1,33 @@
+{
+  "id": 131,
+  "name": "Incoming Documents Setup",
+  "slug": "131_incoming_documents_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "General Journal Template Name",
+      "tooltip": "Specifies the type of the general journal that new journal lines are created in when you choose the Journal Line button in the Incoming Documents window."
+    },
+    {
+      "no": 3,
+      "name": "General Journal Batch Name",
+      "tooltip": "Specifies the subtype of the general journal that new journal lines are created in when you choose the Journal Line button in the Incoming Documents window."
+    },
+    {
+      "no": 5,
+      "name": "Require Approval To Create",
+      "tooltip": "Specifies whether the incoming document line must be approved before a document or journal line can be created from the Incoming Documents window."
+    },
+    {
+      "no": 6,
+      "name": "Require Approval To Post",
+      "tooltip": ""
+    }
+  ]
+}

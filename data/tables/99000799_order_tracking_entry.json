@@ -1,0 +1,128 @@
+{
+  "id": 99000799,
+  "name": "Order Tracking Entry",
+  "slug": "99000799_order_tracking_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Supplied by",
+      "tooltip": "Specifies the source of the supply that fills the demand you track from, such as, a production order line."
+    },
+    {
+      "no": 3,
+      "name": "Demanded by",
+      "tooltip": "Specifies the source of the demand that the supply is tracked from."
+    },
+    {
+      "no": 8,
+      "name": "Shipment Date",
+      "tooltip": "Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time."
+    },
+    {
+      "no": 9,
+      "name": "Expected Receipt Date",
+      "tooltip": "Specifies the date when the tracked items are expected to enter the inventory."
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that has been tracked in this entry."
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity, in the base unit of measure, of the item that has been tracked in this entry."
+    },
+    {
+      "no": 14,
+      "name": "Level",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "For Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "For Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "For ID",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "For Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "For Prod. Order Line",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "For Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "From Type",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "From Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "From ID",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "From Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "From Prod. Order Line",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "From Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the line that the items are tracked from."
+    },
+    {
+      "no": 41,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the line that the items are tracked from."
+    },
+    {
+      "no": 42,
+      "name": "Name",
+      "tooltip": "Specifies the name of the line that the items are tracked from."
+    },
+    {
+      "no": 43,
+      "name": "Warning",
+      "tooltip": "Specifies there is a date conflict in the order tracking entries for this line."
+    }
+  ]
+}

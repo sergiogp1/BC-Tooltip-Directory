@@ -1,0 +1,298 @@
+{
+  "id": 156,
+  "name": "Resource",
+  "slug": "156_resource",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies whether the resource is a person or a machine."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies a description of the resource."
+    },
+    {
+      "no": 4,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 5,
+      "name": "Name 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 6,
+      "name": "Address",
+      "tooltip": "Specifies the address of the resouce."
+    },
+    {
+      "no": 7,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": "Specifies the city of the resouce."
+    },
+    {
+      "no": 9,
+      "name": "Social Security No.",
+      "tooltip": "Specifies the person's social security number or the machine's serial number."
+    },
+    {
+      "no": 10,
+      "name": "Job Title",
+      "tooltip": "Specifies the person's job title."
+    },
+    {
+      "no": 11,
+      "name": "Education",
+      "tooltip": "Specifies the training, education, or certification level of the person."
+    },
+    {
+      "no": 12,
+      "name": "Contract Class",
+      "tooltip": "Specifies the contract class for the person."
+    },
+    {
+      "no": 13,
+      "name": "Employment Date",
+      "tooltip": "Specifies the date when the person began working for you or the date when the machine was placed in service."
+    },
+    {
+      "no": 14,
+      "name": "Resource Group No.",
+      "tooltip": "Specifies the resource group that this resource is assigned to."
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Base Unit of Measure",
+      "tooltip": "Specifies the base unit used to measure the resource, such as hour, piece, or kilometer. The base unit of measure also serves as the conversion basis for alternate units of measure."
+    },
+    {
+      "no": 19,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 20,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 21,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 22,
+      "name": "Profit %",
+      "tooltip": "Specifies the profit margin that you want to sell the resource at. You can enter a profit percentage manually or have it entered according to the Price/Profit Calculation field"
+    },
+    {
+      "no": 23,
+      "name": "Price/Profit Calculation",
+      "tooltip": "Specifies the relationship between the Unit Cost, Unit Price, and Profit Percentage fields associated with this resource."
+    },
+    {
+      "no": 24,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 25,
+      "name": "Vendor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the date of the most recent change of information in the Resource Card window."
+    },
+    {
+      "no": 27,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 39,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Unit of Measure Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Capacity",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Qty. on Order (Job)",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Qty. Quoted (Job)",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Usage (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Usage (Cost)",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Usage (Price)",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Sales (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Sales (Cost)",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Sales (Price)",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Chargeable Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 53,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 54,
+      "name": "County",
+      "tooltip": "Specifies a special region, to which the resource belongs."
+    },
+    {
+      "no": 55,
+      "name": "Automatic Ext. Texts",
+      "tooltip": "Specifies that an Extended Text Header will be added on sales or purchase documents for this resource."
+    },
+    {
+      "no": 56,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 59,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 60,
+      "name": "IC Partner Purch. G/L Acc. No.",
+      "tooltip": "Specifies the intercompany g/l account number in your partner's company that the amount for this resource is posted to."
+    },
+    {
+      "no": 61,
+      "name": "Unit Group Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture that has been inserted for the resource."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the resource is coupled to an entity in Dataverse."
+    },
+    {
+      "no": 900,
+      "name": "Qty. on Assembly Order",
+      "tooltip": ""
+    },
+    {
+      "no": 950,
+      "name": "Use Time Sheet",
+      "tooltip": "Specifies if a resource uses a time sheet to record time allocated to various tasks."
+    },
+    {
+      "no": 951,
+      "name": "Time Sheet Owner User ID",
+      "tooltip": "Specifies the name of the owner of the time sheet."
+    },
+    {
+      "no": 952,
+      "name": "Time Sheet Approver User ID",
+      "tooltip": "Specifies the ID of the approver of the time sheet."
+    },
+    {
+      "no": 1700,
+      "name": "Default Deferral Template Code",
+      "tooltip": "Specifies the default template that governs how to defer revenues and expenses to the periods when they occurred."
+    }
+  ]
+}

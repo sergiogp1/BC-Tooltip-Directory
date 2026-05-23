@@ -1,0 +1,93 @@
+{
+  "id": 1112,
+  "name": "Cost Center",
+  "slug": "1112_cost_center",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the cost center."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cost center."
+    },
+    {
+      "no": 3,
+      "name": "Cost Subtype",
+      "tooltip": "Specifies the subtype of the cost center. This is an information field and is not used for any other purposes. Choose the field to select the cost subtype."
+    },
+    {
+      "no": 4,
+      "name": "Cost Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the account balance during the time period in the Date Filter field."
+    },
+    {
+      "no": 7,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the cost type balance on the last date that is included in the Date Filter field. The contents of the field are calculated by using the entries in the Amount field in the Cost Entry table."
+    },
+    {
+      "no": 8,
+      "name": "Balance to Allocate",
+      "tooltip": "Specifies the balance that has not yet been allocated. The entry in the Allocated field determines if the entry is included in the Balance to Allocate field. The value in the Allocated field is set automatically during the cost allocation."
+    },
+    {
+      "no": 9,
+      "name": "Responsible Person",
+      "tooltip": "Specifies the person who is responsible for the chart of cost centers."
+    },
+    {
+      "no": 10,
+      "name": "Sorting Order",
+      "tooltip": "Specifies the sorting order of the cost centers."
+    },
+    {
+      "no": 11,
+      "name": "Comment",
+      "tooltip": "Specifies a comment that applies."
+    },
+    {
+      "no": 12,
+      "name": "Line Type",
+      "tooltip": "Specifies the purpose of the cost object, such as Cost Object, Heading, or Begin-Total. Newly created cost objects are automatically assigned the Cost Object type, but you can change this."
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 14,
+      "name": "New Page",
+      "tooltip": "Specifies if you want a new page to start immediately after this cost center when you print the chart of cash flow accounts."
+    },
+    {
+      "no": 15,
+      "name": "Blank Line",
+      "tooltip": "Specifies whether you want a blank line to appear immediately after this cost center when you print the chart of cost centers. The New Page, Blank Line, and Indentation fields define the layout of the chart of cost centers."
+    },
+    {
+      "no": 16,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Totaling",
+      "tooltip": "Specifies an account interval or a list of account numbers. The entries of the account will be totaled to give a total balance. How entries are totaled depends on the value in the Account Type field."
+    }
+  ]
+}

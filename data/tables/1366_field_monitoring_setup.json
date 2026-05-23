@@ -1,0 +1,43 @@
+{
+  "id": 1366,
+  "name": "Field Monitoring Setup",
+  "slug": "1366_field_monitoring_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Monitor Status",
+      "tooltip": "Specifies the monitor status"
+    },
+    {
+      "no": 4,
+      "name": "Notification Count",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "User Id",
+      "tooltip": "Specifies the user ID"
+    },
+    {
+      "no": 7,
+      "name": "Email Account Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Email Account Name",
+      "tooltip": "Specifies the email account that will send the notification email. Typically, this is a system account that is not associated with a user."
+    },
+    {
+      "no": 9,
+      "name": "Email Connector",
+      "tooltip": ""
+    }
+  ]
+}

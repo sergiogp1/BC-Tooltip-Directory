@@ -1,0 +1,23 @@
+{
+  "id": 2023,
+  "name": "Image Analysis Scenario",
+  "slug": "2023_image_analysis_scenario",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Scenario Name",
+      "tooltip": "Specifies the identifier for a scenario where Image Analysis can be used inside Business Central."
+    },
+    {
+      "no": 2,
+      "name": "Company Name",
+      "tooltip": "Specifies the company where this setting applies (empty means all companies)."
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": "Specifies whether Image Analysis can be used or not for this scenario."
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "id": 5342,
+  "name": "CRM Contact",
+  "slug": "5342_crm_contact",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "DefaultPriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "CustomerSizeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "CustomerTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "PreferredContactMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "LeadSourceCode",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "ParticipatesInWorkflow",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "IsBackofficeCustomer",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Salutation",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "JobTitle",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "FirstName",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Department",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "NickName",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "MiddleName",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "LastName",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Suffix",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "YomiFirstName",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "FullName",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 24,
+      "name": "YomiMiddleName",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "YomiLastName",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Anniversary",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "BirthDate",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "GovernmentId",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "YomiFullName",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "EmployeeId",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "GenderCode",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "AnnualIncome",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "HasChildrenCode",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "EducationCode",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "WebSiteUrl",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 37,
+      "name": "FamilyStatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "FtpSiteUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "EMailAddress1",
+      "tooltip": "Specifies the email address."
+    },
+    {
+      "no": 40,
+      "name": "SpousesName",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "AssistantName",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "EMailAddress2",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "AssistantPhone",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "EMailAddress3",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "DoNotPhone",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "ManagerName",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "ManagerPhone",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "DoNotFax",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "DoNotEMail",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "DoNotPostalMail",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "DoNotBulkEMail",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "DoNotBulkPostalMail",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "AccountRoleCode",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "TerritoryCode",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "CreditLimit",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "CreditOnHold",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "NumberOfChildren",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "ChildrensNames",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "MobilePhone",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 65,
+      "name": "Pager",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 66,
+      "name": "Telephone1",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 67,
+      "name": "Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Fax",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 70,
+      "name": "Aging30",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "StateCode",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Aging60",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Aging90",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ParentContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "ParentContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "AccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "DefaultPriceLevelIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Address1_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Address1_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Address1_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Address1_PrimaryContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Address1_Line1",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 84,
+      "name": "Address1_Line2",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 85,
+      "name": "Address1_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "Address1_City",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 87,
+      "name": "Address1_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Address1_County",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "Address1_Country",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 90,
+      "name": "Address1_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Address1_PostalCode",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 92,
+      "name": "Address1_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Address1_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Address1_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "Address1_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Address1_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Address1_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Address1_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Address1_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Address2_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Address2_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Address2_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Address2_PrimaryContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Address2_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "Address2_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Address2_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Address2_City",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Address2_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Address2_County",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Address2_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Address2_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Address2_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "Address2_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "Address2_FreightTermsCode",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "Address2_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Address2_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "Address2_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Address2_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Address2_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Address2_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Address2_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "Address2_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 128,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "PreferredSystemUserId",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "MasterId",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "PreferredAppointmentDayCode",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "PreferredAppointmentTimeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "DoNotSendMM",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "ParentCustomerId",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Merged",
+      "tooltip": ""
+    },
+    {
+      "no": 136,
+      "name": "ExternalUserIdentifier",
+      "tooltip": ""
+    },
+    {
+      "no": 137,
+      "name": "LastUsedInCampaign",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "MasterContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 139,
+      "name": "PreferredSystemUserIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "ParentCustomerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 141,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 142,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 143,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 144,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 145,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 146,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 147,
+      "name": "AnnualIncome_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 148,
+      "name": "CreditLimit_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 149,
+      "name": "Aging60_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 150,
+      "name": "Aging90_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 151,
+      "name": "Aging30_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 152,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 153,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 154,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 155,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 156,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 157,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 158,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 159,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 160,
+      "name": "Address2_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 161,
+      "name": "Address1_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 162,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 163,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 164,
+      "name": "Address3_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 165,
+      "name": "Address3_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 166,
+      "name": "Address3_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 167,
+      "name": "Address3_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 168,
+      "name": "Address3_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 169,
+      "name": "Address3_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "Address3_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 171,
+      "name": "Address3_City",
+      "tooltip": ""
+    },
+    {
+      "no": 172,
+      "name": "Business2",
+      "tooltip": ""
+    },
+    {
+      "no": 173,
+      "name": "Callback",
+      "tooltip": ""
+    },
+    {
+      "no": 174,
+      "name": "Company",
+      "tooltip": ""
+    },
+    {
+      "no": 175,
+      "name": "Home2",
+      "tooltip": ""
+    },
+    {
+      "no": 176,
+      "name": "Address3_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 177,
+      "name": "Address3_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 178,
+      "name": "Address3_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 179,
+      "name": "Address3_FreightTermsCode",
+      "tooltip": ""
+    },
+    {
+      "no": 180,
+      "name": "Address3_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 181,
+      "name": "Address3_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 182,
+      "name": "Address3_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 183,
+      "name": "Address3_PrimaryContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 184,
+      "name": "Address3_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 185,
+      "name": "Address3_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 186,
+      "name": "Address3_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 187,
+      "name": "Address3_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 188,
+      "name": "Address3_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 189,
+      "name": "Address3_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 190,
+      "name": "Address3_County",
+      "tooltip": ""
+    },
+    {
+      "no": 191,
+      "name": "Address3_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 192,
+      "name": "CompanyId",
+      "tooltip": ""
+    },
+    {
+      "no": 193,
+      "name": "PaymentTermsCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 194,
+      "name": "Address1_FreightTermsCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 195,
+      "name": "Address1_ShippingMethodCodeEnum",
+      "tooltip": ""
+    }
+  ]
+}

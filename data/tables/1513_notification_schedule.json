@@ -1,0 +1,83 @@
+{
+  "id": 1513,
+  "name": "Notification Schedule",
+  "slug": "1513_notification_schedule",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Notification Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Recurrence",
+      "tooltip": "Specifies the recurrence pattern in which the user receives notifications. The value in this field is displayed in the Schedule field in the Notification Setup window."
+    },
+    {
+      "no": 4,
+      "name": "Time",
+      "tooltip": "Specifies what time of the day the user receives notifications when the value in the Recurrence field is different from Instantly.."
+    },
+    {
+      "no": 5,
+      "name": "Daily Frequency",
+      "tooltip": "Specifies on which type of days the user receives notifications when the value in the Recurrence field is Daily. Select Weekday to receive notifications every work day of the week. Select Daily to receive notifications every day of the week, including weekends."
+    },
+    {
+      "no": 6,
+      "name": "Monday",
+      "tooltip": "Specifies that the user receives notifications on Mondays."
+    },
+    {
+      "no": 7,
+      "name": "Tuesday",
+      "tooltip": "Specifies that the user receives notifications on Tuesdays."
+    },
+    {
+      "no": 8,
+      "name": "Wednesday",
+      "tooltip": "Specifies that the user receives notifications on Wednesdays."
+    },
+    {
+      "no": 9,
+      "name": "Thursday",
+      "tooltip": "Specifies that the user receives notifications on Thursdays."
+    },
+    {
+      "no": 10,
+      "name": "Friday",
+      "tooltip": "Specifies that the user receives notifications on Fridays."
+    },
+    {
+      "no": 11,
+      "name": "Saturday",
+      "tooltip": "Specifies that the user receives notifications on Saturdays."
+    },
+    {
+      "no": 12,
+      "name": "Sunday",
+      "tooltip": "Specifies that the user receives notifications on Sundays."
+    },
+    {
+      "no": 13,
+      "name": "Date of Month",
+      "tooltip": "Specifies that the user receives notifications on the first, last, or a specific date of the month. Select Custom to specify a specific day in the Monthly Notification Date field."
+    },
+    {
+      "no": 14,
+      "name": "Monthly Notification Date",
+      "tooltip": "Specifies that the user receives notifications once a month on the date in this field when the value in the Date of Month field is Custom."
+    },
+    {
+      "no": 15,
+      "name": "Last Scheduled Job",
+      "tooltip": ""
+    }
+  ]
+}

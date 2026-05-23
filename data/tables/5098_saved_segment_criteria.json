@@ -1,0 +1,28 @@
+{
+  "id": 5098,
+  "name": "Saved Segment Criteria",
+  "slug": "5098_saved_segment_criteria",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the saved segment criteria."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the saved segment criteria."
+    },
+    {
+      "no": 4,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 5,
+      "name": "No. of Actions",
+      "tooltip": "Specifies the number of actions that make up the segment criteria."
+    }
+  ]
+}

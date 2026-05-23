@@ -1,0 +1,93 @@
+{
+  "id": 8616,
+  "name": "Config. Package Field",
+  "slug": "8616_config_package_field",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID for the table that is part of the migration process."
+    },
+    {
+      "no": 3,
+      "name": "Field ID",
+      "tooltip": "Specifies the ID of the field for the table that is part of the migration process."
+    },
+    {
+      "no": 4,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field for the table that is part of the migration process. The name comes from the Name property for the field."
+    },
+    {
+      "no": 5,
+      "name": "Field Caption",
+      "tooltip": "Specifies the caption of the field for the table that is part of the migration process. The caption comes from the Caption property for the field."
+    },
+    {
+      "no": 6,
+      "name": "Validate Field",
+      "tooltip": "Specifies whether the information in a field is to be validated during migration. Select the check box if you want to enable validation for the field. This is useful when you want to limit data to a prescribed set of options."
+    },
+    {
+      "no": 7,
+      "name": "Include Field",
+      "tooltip": "Specifies whether the field is included in the migration. Select the check box to include the field in the migration process. By default, when you select the check box, the Field Caption check box is also selected. You can clear this check box if you do not want to enable validation for the field."
+    },
+    {
+      "no": 8,
+      "name": "Localize Field",
+      "tooltip": "Specifies whether the field is to be localized."
+    },
+    {
+      "no": 9,
+      "name": "Relation Table ID",
+      "tooltip": "Specifies the ID for the table that contains a field that is related to the one in the migration table. For example, the Post Code table has a relationship with the City field in the Company Information migration table."
+    },
+    {
+      "no": 10,
+      "name": "Relation Table Caption",
+      "tooltip": "Specifies the name of the table with a relationship to the migration field."
+    },
+    {
+      "no": 11,
+      "name": "Dimension",
+      "tooltip": "Specifies whether the field in the table is part of the dimension definition set."
+    },
+    {
+      "no": 12,
+      "name": "Primary Key",
+      "tooltip": "Specifies whether the field is part of the definition of the primary key for the table."
+    },
+    {
+      "no": 13,
+      "name": "Processing Order",
+      "tooltip": "Specifies the order in which the data from the fields in the package should be applied. If your business logic requires that a certain field be filled in before another field can contain data, you can use the Processing Order field to specify the appropriate order. To specify the order, use the Move Up and Move Down commands on the Actions tab in the Config. Package Fields window. When you export the configuration information to Excel, the order that you specify for processing is the order in which the fields will be listed in columns in Excel."
+    },
+    {
+      "no": 14,
+      "name": "Create Missing Codes",
+      "tooltip": "Specifies whether you can create additional values in the database during the configuration migration process. Select the check box to indicate that additional codes can be added to that field in Business Central during the import of data from Excel."
+    },
+    {
+      "no": 15,
+      "name": "Mapping Exists",
+      "tooltip": "Specifies whether the field has a mapping assigned to it that is to be used during data migration."
+    },
+    {
+      "no": 16,
+      "name": "AutoIncrement",
+      "tooltip": "Specifies whether the field has the AutoIncrement property set to Yes, but is not part of the definition of the primary key for the table."
+    },
+    {
+      "no": 20,
+      "name": "XML Field Name",
+      "tooltip": ""
+    }
+  ]
+}

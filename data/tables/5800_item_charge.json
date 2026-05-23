@@ -1,0 +1,48 @@
+{
+  "id": 5800,
+  "name": "Item Charge",
+  "slug": "5800_item_charge",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item charge number that you are setting up."
+    },
+    {
+      "no": 3,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item charge's product type to link transactions made for this item charge with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 4,
+      "name": "Tax Group Code",
+      "tooltip": "Specifies the sales tax group code that this item charge belongs to."
+    },
+    {
+      "no": 5,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 6,
+      "name": "Search Description",
+      "tooltip": "Specifies text to search for when you do not know the number of the item charge."
+    },
+    {
+      "no": 7,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    }
+  ]
+}

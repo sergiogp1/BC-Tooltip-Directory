@@ -1,0 +1,133 @@
+{
+  "id": 6084,
+  "name": "Service Line Price Adjmt.",
+  "slug": "6084_service_line_price_adjmt",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Service Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Service Item Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item that is registered in the Service Item table."
+    },
+    {
+      "no": 6,
+      "name": "Serv. Price Adjmt. Gr. Code",
+      "tooltip": "Specifies the code of the service price adjustment group that applies to the posted service line."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the type of this line, which can be item, resource, cost, or general ledger Account."
+    },
+    {
+      "no": 8,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": "Specifies the service item, resource, or service cost, of which the price is going to be adjusted."
+    },
+    {
+      "no": 10,
+      "name": "Quantity",
+      "tooltip": "Specifies the value of the service line that will be adjusted."
+    },
+    {
+      "no": 14,
+      "name": "Amount",
+      "tooltip": "Specifies the total net amount on the service line."
+    },
+    {
+      "no": 15,
+      "name": "New Amount",
+      "tooltip": "Specifies the amount to invoice."
+    },
+    {
+      "no": 16,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 17,
+      "name": "New Unit Price",
+      "tooltip": "Specifies the unit price of the item, resource, or cost specified on the service line."
+    },
+    {
+      "no": 18,
+      "name": "Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Discount %",
+      "tooltip": "Specifies the discount percentage you want to provide on the amount on the corresponding service line."
+    },
+    {
+      "no": 20,
+      "name": "Discount Amount",
+      "tooltip": "Specifies the discount you want to provide on the amount on this service line."
+    },
+    {
+      "no": 21,
+      "name": "Amount incl. VAT",
+      "tooltip": "Specifies the total amount that the service line is going to be adjusted, including VAT."
+    },
+    {
+      "no": 22,
+      "name": "New Amount incl. VAT",
+      "tooltip": "Specifies a new amount, including VAT."
+    },
+    {
+      "no": 24,
+      "name": "Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Adjustment Type",
+      "tooltip": "Specifies the adjustment type for this line."
+    },
+    {
+      "no": 26,
+      "name": "Service Price Group Code",
+      "tooltip": "Specifies the code of the service price adjustment group associated with the service item on this line."
+    },
+    {
+      "no": 27,
+      "name": "Manually Adjusted",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Vat %",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "New Amount Excl. VAT",
+      "tooltip": ""
+    }
+  ]
+}

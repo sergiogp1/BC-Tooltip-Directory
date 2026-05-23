@@ -1,0 +1,123 @@
+{
+  "id": 951,
+  "name": "Time Sheet Line",
+  "slug": "951_time_sheet_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Time Sheet No.",
+      "tooltip": "Specifies the number of the time sheet."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Time Sheet Starting Date",
+      "tooltip": "Specifies the starting date for a time sheet."
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the type of time sheet line."
+    },
+    {
+      "no": 6,
+      "name": "Job No.",
+      "tooltip": "Specifies the number for the project associated with the time sheet line."
+    },
+    {
+      "no": 7,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number for the project task associated with the time sheet line."
+    },
+    {
+      "no": 9,
+      "name": "Cause of Absence Code",
+      "tooltip": "Specifies a list of standard absence codes, from which you may select one."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the time sheet line."
+    },
+    {
+      "no": 11,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 12,
+      "name": "Approver ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Service Order No.",
+      "tooltip": "Specifies the service order number that is associated with the time sheet line."
+    },
+    {
+      "no": 14,
+      "name": "Service Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Total Quantity",
+      "tooltip": "Specifies the total number of hours that have been entered on a time sheet."
+    },
+    {
+      "no": 17,
+      "name": "Chargeable",
+      "tooltip": "Specifies if the usage that you are posting is chargeable."
+    },
+    {
+      "no": 18,
+      "name": "Assembly Order No.",
+      "tooltip": "Specifies the assembly order number that is associated with the time sheet line."
+    },
+    {
+      "no": 19,
+      "name": "Assembly Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Status",
+      "tooltip": "Specifies information about the status of a time sheet line."
+    },
+    {
+      "no": 21,
+      "name": "Approved By",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Approval Date",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Posted",
+      "tooltip": "Specifies if the time sheet line has been archived."
+    },
+    {
+      "no": 26,
+      "name": "Comment",
+      "tooltip": "Specifies that a comment about this document has been entered."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "Job Id",
+      "tooltip": ""
+    }
+  ]
+}

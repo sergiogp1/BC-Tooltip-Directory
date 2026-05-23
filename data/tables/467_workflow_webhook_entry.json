@@ -1,0 +1,58 @@
+{
+  "id": 467,
+  "name": "Workflow Webhook Entry",
+  "slug": "467_workflow_webhook_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Workflow Step Instance ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Initiated By User ID",
+      "tooltip": "Specifies the User ID which has initiated the workflow."
+    },
+    {
+      "no": 7,
+      "name": "Response",
+      "tooltip": "Specifies the affected workflow response."
+    },
+    {
+      "no": 8,
+      "name": "Response Argument",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Date-Time Initiated",
+      "tooltip": "Specifies the date and time of the workflow entries."
+    },
+    {
+      "no": 11,
+      "name": "Last Date-Time Modified",
+      "tooltip": "Specifies when the workflow entry was last modified."
+    },
+    {
+      "no": 13,
+      "name": "Last Modified By User ID",
+      "tooltip": "Specifies the user who last modified the workflow entry."
+    },
+    {
+      "no": 15,
+      "name": "Data ID",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Record ID",
+      "tooltip": ""
+    }
+  ]
+}

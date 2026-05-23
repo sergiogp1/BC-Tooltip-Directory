@@ -1,0 +1,438 @@
+{
+  "id": 5349,
+  "name": "CRM Incident",
+  "slug": "5349_crm_incident",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "IncidentId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "ContractId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ActualServiceUnits",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "CaseOriginCode",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "BilledServiceUnits",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "CaseTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "ProductSerialNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Title",
+      "tooltip": "Specifies the name of the case."
+    },
+    {
+      "no": 11,
+      "name": "ProductId",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "ContractServiceLevelCode",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "ContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "IsDecrementing",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "CreatedOn",
+      "tooltip": "Specifies when the sales order was created."
+    },
+    {
+      "no": 18,
+      "name": "TicketNumber",
+      "tooltip": "Specifies the number of the case."
+    },
+    {
+      "no": 19,
+      "name": "PriorityCode",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "CustomerSatisfactionCode",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "IncidentStageCode",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "FollowupBy",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "StateCode",
+      "tooltip": "Specifies the status of the case."
+    },
+    {
+      "no": 28,
+      "name": "SeverityCode",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "ResponsibleContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "AccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "ContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "ResponsibleContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "ContractIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "ProductIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "CustomerId",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "CustomerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "ServiceStage",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "ExistingCase",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "CheckEmail",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "ActivitiesComplete",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "FollowUpTaskCreated",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "NumberOfChildIncidents",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "MessageTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "BlockedProfile",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "MasterId",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "MasterIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "ParentCaseId",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "DecrementEntitlementTerm",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "ParentCaseIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "SentimentValue",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "InfluenceScore",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Merged",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "RouteCase",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ResolveBy",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "ResponseBy",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "CustomerContacted",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "IsEscalated",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "EscalatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "PrimaryContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "PrimaryContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "FirstResponseSent",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "FirstResponseSLAStatus",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "ResolveBySLAStatus",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "OnHoldTime",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "LastOnHoldTime",
+      "tooltip": ""
+    }
+  ]
+}

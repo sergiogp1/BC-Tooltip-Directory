@@ -1,0 +1,103 @@
+{
+  "id": 7316,
+  "name": "Warehouse Receipt Header",
+  "slug": "7316_warehouse_receipt_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location in which the items are being received."
+    },
+    {
+      "no": 3,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    },
+    {
+      "no": 4,
+      "name": "Assignment Date",
+      "tooltip": "Specifies the date when the user was assigned the activity."
+    },
+    {
+      "no": 5,
+      "name": "Assignment Time",
+      "tooltip": "Specifies the time when the user was assigned the activity."
+    },
+    {
+      "no": 6,
+      "name": "Sorting Method",
+      "tooltip": "Specifies the method by which the receipts are sorted."
+    },
+    {
+      "no": 7,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone in which the items are being received if you are using directed put-away and pick."
+    },
+    {
+      "no": 9,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 10,
+      "name": "Document Status",
+      "tooltip": "Specifies the status of the warehouse receipt."
+    },
+    {
+      "no": 11,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the warehouse receipt."
+    },
+    {
+      "no": 13,
+      "name": "Vendor Shipment No.",
+      "tooltip": "Specifies the vendor's shipment number. It is inserted in the corresponding field on the source document during posting."
+    },
+    {
+      "no": 16,
+      "name": "Cross-Dock Zone Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Cross-Dock Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Create Posted Header",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Receiving No.",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Last Receiving No.",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Receiving No. Series",
+      "tooltip": ""
+    }
+  ]
+}

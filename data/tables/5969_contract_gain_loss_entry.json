@@ -1,0 +1,63 @@
+{
+  "id": 5969,
+  "name": "Contract Gain/Loss Entry",
+  "slug": "5969_contract_gain_loss_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Contract No.",
+      "tooltip": "Specifies the contract number linked to this contract gain/loss entry."
+    },
+    {
+      "no": 3,
+      "name": "Contract Group Code",
+      "tooltip": "Specifies the contract group code linked to this contract gain/loss entry."
+    },
+    {
+      "no": 4,
+      "name": "Change Date",
+      "tooltip": "Specifies the date when the change on the service contract occurred."
+    },
+    {
+      "no": 5,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 6,
+      "name": "Type of Change",
+      "tooltip": "Specifies the type of change on the service contract."
+    },
+    {
+      "no": 8,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 9,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer number that is linked to this contract gain/loss entry."
+    },
+    {
+      "no": 10,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 11,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 12,
+      "name": "Amount",
+      "tooltip": "Specifies the change in annual amount on the service contract."
+    }
+  ]
+}

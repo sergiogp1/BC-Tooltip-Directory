@@ -1,0 +1,18 @@
+{
+  "id": 5955,
+  "name": "Skill Code",
+  "slug": "5955_skill_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the skill."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the skill code."
+    }
+  ]
+}

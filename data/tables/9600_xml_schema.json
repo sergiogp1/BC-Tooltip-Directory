@@ -1,0 +1,43 @@
+{
+  "id": 9600,
+  "name": "XML Schema",
+  "slug": "9600_xml_schema",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the XML schema."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the XML schema file that has been loaded for the line."
+    },
+    {
+      "no": 3,
+      "name": "Target Namespace",
+      "tooltip": "Specifies the namespace of the XML schema file that has been loaded for the line."
+    },
+    {
+      "no": 4,
+      "name": "XSD",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Path",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Target Namespace Aliases",
+      "tooltip": ""
+    }
+  ]
+}

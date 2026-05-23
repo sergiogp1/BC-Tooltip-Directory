@@ -1,0 +1,53 @@
+{
+  "id": 5214,
+  "name": "Misc. Article Information",
+  "slug": "5214_misc_article_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": "Specifies a number for the employee."
+    },
+    {
+      "no": 2,
+      "name": "Misc. Article Code",
+      "tooltip": "Specifies a code to define the type of miscellaneous article."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the miscellaneous article."
+    },
+    {
+      "no": 5,
+      "name": "From Date",
+      "tooltip": "Specifies the date when the employee first received the miscellaneous article."
+    },
+    {
+      "no": 6,
+      "name": "To Date",
+      "tooltip": "Specifies the date when the employee no longer possesses the miscellaneous article."
+    },
+    {
+      "no": 7,
+      "name": "In Use",
+      "tooltip": "Specifies that the miscellaneous article is in use."
+    },
+    {
+      "no": 8,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment is associated with this entry."
+    },
+    {
+      "no": 9,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the miscellaneous article."
+    }
+  ]
+}

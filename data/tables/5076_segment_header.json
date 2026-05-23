@@ -1,0 +1,143 @@
+{
+  "id": 5076,
+  "name": "Segment Header",
+  "slug": "5076_segment_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the segment."
+    },
+    {
+      "no": 3,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign for which the segment has been created."
+    },
+    {
+      "no": 4,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson responsible for this segment and/or interaction."
+    },
+    {
+      "no": 5,
+      "name": "Correspondence Type (Default)",
+      "tooltip": "Specifies the preferred type of correspondence for the interaction. NOTE: If you use the Web client, you must not select the Hard Copy option because printing is not possible from the web client."
+    },
+    {
+      "no": 6,
+      "name": "Interaction Template Code",
+      "tooltip": "Specifies the interaction template code of the interaction involving the segment."
+    },
+    {
+      "no": 7,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 8,
+      "name": "Unit Duration (Min.)",
+      "tooltip": "Specifies the duration of a single interaction created for this segment."
+    },
+    {
+      "no": 9,
+      "name": "Attachment No.",
+      "tooltip": "Specifies if the linked attachment is inherited or unique."
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date that the segment was created."
+    },
+    {
+      "no": 11,
+      "name": "Campaign Target",
+      "tooltip": "Specifies that the segment is part of the target of the campaign to which it is linked."
+    },
+    {
+      "no": 12,
+      "name": "Information Flow",
+      "tooltip": "Specifies the direction of the information that is part of the interaction created for the segment. There are two options: Inbound and Outbound."
+    },
+    {
+      "no": 13,
+      "name": "Initiated By",
+      "tooltip": "Specifies whether the interaction recorded for this segment was initiated by your company or by one of your contacts. The Us option indicates that your company was the initiator; the Them option indicates that a contact was the initiator."
+    },
+    {
+      "no": 14,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Campaign Response",
+      "tooltip": "Specifies that the interaction created for the segment is the response to a campaign."
+    },
+    {
+      "no": 16,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines within the segment."
+    },
+    {
+      "no": 17,
+      "name": "Cost (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Duration (Min.)",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Language Code (Default)",
+      "tooltip": "Specifies the language code for the segment."
+    },
+    {
+      "no": 20,
+      "name": "Interaction Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "No. of Criteria Actions",
+      "tooltip": "Specifies the number of actions you have taken when modifying the segmentation criteria, that is, when adding contacts to the segment, refining, or reducing it."
+    },
+    {
+      "no": 22,
+      "name": "Send Word Docs. as Attmt.",
+      "tooltip": "Specifies that the Microsoft Word document should be sent as an attachment in the e-mail message."
+    },
+    {
+      "no": 23,
+      "name": "Ignore Contact Corres. Type",
+      "tooltip": "Specifies that the correspondence type that you select in the Correspondence Type (Default) field should be used. If there is no check mark, the program uses the correspondence type selected on the Contact Card."
+    },
+    {
+      "no": 24,
+      "name": "Subject (Default)",
+      "tooltip": "Specifies the subject of the segment. The text in the field is used as the subject in e-mails and in Word documents."
+    },
+    {
+      "no": 25,
+      "name": "Campaign Description",
+      "tooltip": "Specifies a description of the campaign to which the segment is related. The description is copied from the campaign card."
+    },
+    {
+      "no": 26,
+      "name": "Word Template Code",
+      "tooltip": "Specifies the Word Template code to use for merging."
+    },
+    {
+      "no": 27,
+      "name": "Modified Word Template",
+      "tooltip": "Specifies if the Word Template is modified. Use the \"Modify Word Template\" action to modify the Word Template."
+    }
+  ]
+}

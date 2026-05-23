@@ -1,0 +1,208 @@
+{
+  "id": 5876,
+  "name": "Phys. Invt. Order Line",
+  "slug": "5876_phys_invt_order_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line."
+    },
+    {
+      "no": 12,
+      "name": "On Recording Lines",
+      "tooltip": "Specifies if the item exists on one or more physical inventory recording lines."
+    },
+    {
+      "no": 20,
+      "name": "Item No.",
+      "tooltip": "Specifies the item to be counted."
+    },
+    {
+      "no": 21,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 22,
+      "name": "Location Code",
+      "tooltip": "Specifies the location where the item must be counted."
+    },
+    {
+      "no": 23,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the item must be counted."
+    },
+    {
+      "no": 30,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item."
+    },
+    {
+      "no": 31,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional description of the item."
+    },
+    {
+      "no": 32,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the unit of measure, such as bottle or piece, that is currently used for the item."
+    },
+    {
+      "no": 40,
+      "name": "Base Unit of Measure Code",
+      "tooltip": "Specifies the base unit of measure that is set up for the item."
+    },
+    {
+      "no": 50,
+      "name": "Qty. Expected (Base)",
+      "tooltip": "Specifies the expected inventory quantity in the base unit of measure."
+    },
+    {
+      "no": 51,
+      "name": "Qty. Exp. Calculated",
+      "tooltip": "Specifies if the Qty. Expected (Base) field has been updated with the Calculate Expected Qty. function."
+    },
+    {
+      "no": 53,
+      "name": "Use Item Tracking",
+      "tooltip": "Specifies that the counting of the item is done by counting its serial, lot and package numbers."
+    },
+    {
+      "no": 54,
+      "name": "Qty. Exp. Tracking (Base)",
+      "tooltip": "Specifies the item's expected inventory of serial, lot and package numbers in the base unit of measure."
+    },
+    {
+      "no": 55,
+      "name": "Last Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Unit Amount",
+      "tooltip": "Specifies the sum of unit costs for the item quantity on the line."
+    },
+    {
+      "no": 62,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the unit costs of the item, which will be used when posting the physical inventory."
+    },
+    {
+      "no": 70,
+      "name": "No. Finished Rec.-Lines",
+      "tooltip": "Specifies how many of the related physical inventory recordings are closed."
+    },
+    {
+      "no": 71,
+      "name": "Qty. Recorded (Base)",
+      "tooltip": "Specifies the counted quantity in the base unit of measure on the physical inventory order line."
+    },
+    {
+      "no": 72,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the difference between the Qty. Expected (Base) and the Qty. Recorded (Base) fields."
+    },
+    {
+      "no": 73,
+      "name": "Entry Type",
+      "tooltip": "Specifies if the difference in the Quantity (Base) field on the related closed recording is positive or negative."
+    },
+    {
+      "no": 74,
+      "name": "Pos. Qty. (Base)",
+      "tooltip": "Specifies the positive difference between the Qty. Expected (Base) and the Qty. Recorded (Base) fields."
+    },
+    {
+      "no": 75,
+      "name": "Neg. Qty. (Base)",
+      "tooltip": "Specifies the negative difference between the Qty. Expected (Base) and the Qty. Recorded (Base) fields."
+    },
+    {
+      "no": 76,
+      "name": "Without Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Recorded Without Order",
+      "tooltip": "Specifies that no physical inventory order lines existed for the recorded item, and that the line was generated based on the related recording."
+    },
+    {
+      "no": 90,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 91,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 100,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number where the item can be found normally."
+    },
+    {
+      "no": 110,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies a reference to the item number as defined by the item's barcode."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7380,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7381,
+      "name": "Phys Invt Counting Period Type",
+      "tooltip": ""
+    }
+  ]
+}

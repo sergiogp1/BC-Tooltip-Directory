@@ -1,0 +1,43 @@
+{
+  "id": 9656,
+  "name": "Report Layout Update Log",
+  "slug": "9656_report_layout_update_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Status",
+      "tooltip": "Specifies the status of the report layout update."
+    },
+    {
+      "no": 3,
+      "name": "Field Name",
+      "tooltip": "Specifies the field or element in the report layout that the update pertains to."
+    },
+    {
+      "no": 4,
+      "name": "Message",
+      "tooltip": "Specifies detailed information about the update to the report layout. This information is useful when an error occurs to help you fix the error."
+    },
+    {
+      "no": 5,
+      "name": "Report ID",
+      "tooltip": "Specifies the ID of the report object that uses the custom report layout."
+    },
+    {
+      "no": 6,
+      "name": "Layout Description",
+      "tooltip": "Specifies a description of the report layout."
+    },
+    {
+      "no": 7,
+      "name": "Layout Type",
+      "tooltip": "Specifies the file type of the report layout. The following table includes the types that are available:"
+    }
+  ]
+}

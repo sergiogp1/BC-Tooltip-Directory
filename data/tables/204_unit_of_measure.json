@@ -1,0 +1,43 @@
+{
+  "id": 204,
+  "name": "Unit of Measure",
+  "slug": "204_unit_of_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the unit of measure, which you can select on item and resource cards from where it is copied to."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the unit of measure."
+    },
+    {
+      "no": 3,
+      "name": "International Standard Code",
+      "tooltip": "Specifies the unit of measure code expressed according to the UNECERec20 standard in connection with electronic sending of sales documents. For example, when sending sales documents through the PEPPOL service, the value in this field is used to populate the UnitCode element in the Product group."
+    },
+    {
+      "no": 4,
+      "name": "Symbol",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the unit of measure is coupled to a unit group in Dynamics 365 Sales."
+    }
+  ]
+}

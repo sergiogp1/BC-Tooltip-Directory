@@ -1,0 +1,143 @@
+{
+  "id": 5393,
+  "name": "CDS Company",
+  "slug": "5393_cds_company",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "CompanyId",
+      "tooltip": "Specifies the ID of the company."
+    },
+    {
+      "no": 2,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "statecode",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "statuscode",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "ExternalId",
+      "tooltip": "Specifies the ID of the Dataverse company."
+    },
+    {
+      "no": 21,
+      "name": "DefaultOwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Name",
+      "tooltip": "Specifies the name of the company."
+    },
+    {
+      "no": 23,
+      "name": "DefaultOwningTeamName",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    }
+  ]
+}

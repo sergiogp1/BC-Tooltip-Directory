@@ -1,0 +1,543 @@
+{
+  "id": 246,
+  "name": "Requisition Line",
+  "slug": "246_requisition_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": "Specifies the name of the requisition worksheet template."
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the requisition worksheet line."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the type of requisition worksheet line you are creating."
+    },
+    {
+      "no": 5,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description of the purchase order."
+    },
+    {
+      "no": 7,
+      "name": "Description 2",
+      "tooltip": "Specifies additional text describing the entry, or a remark about the requisition worksheet line."
+    },
+    {
+      "no": 8,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity to be purchased."
+    },
+    {
+      "no": 9,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor who will ship the items in the purchase order."
+    },
+    {
+      "no": 10,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 12,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when you can expect to receive the items."
+    },
+    {
+      "no": 13,
+      "name": "Requester ID",
+      "tooltip": "Specifies the ID of the user who is ordering the items on the line."
+    },
+    {
+      "no": 14,
+      "name": "Confirmed",
+      "tooltip": "Specifies whether the items on the line have been approved for purchase."
+    },
+    {
+      "no": 15,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 16,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 17,
+      "name": "Location Code",
+      "tooltip": "Specifies a code for an inventory location where the items that are being ordered will be registered."
+    },
+    {
+      "no": 18,
+      "name": "Recurring Method",
+      "tooltip": "Specifies a recurring method, if you have indicated in the Recurring field that the worksheet is a recurring requisition worksheet."
+    },
+    {
+      "no": 19,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the last date on which the recurring requisition worksheet will be converted to a purchase order."
+    },
+    {
+      "no": 20,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies a recurring frequency, if it is indicated in the Recurring field that the worksheet is a recurring requisition worksheet."
+    },
+    {
+      "no": 21,
+      "name": "Order Date",
+      "tooltip": "Specifies the order date that will apply to the requisition worksheet line."
+    },
+    {
+      "no": 22,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 23,
+      "name": "Sales Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Sales Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer."
+    },
+    {
+      "no": 26,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 28,
+      "name": "Order Address Code",
+      "tooltip": "Specifies the order address of the related vendor."
+    },
+    {
+      "no": 29,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the requisition lines."
+    },
+    {
+      "no": 30,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies how many units of this item have been reserved."
+    },
+    {
+      "no": 43,
+      "name": "Purchaser Code",
+      "tooltip": "Specifies which purchaser is assigned to the vendor."
+    },
+    {
+      "no": 73,
+      "name": "Drop Shipment",
+      "tooltip": "Specifies if demand is for drop shipment or not."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin of the item on the line."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5405,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5406,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5408,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies that when the quantity field is updated, this field is updated."
+    },
+    {
+      "no": 5431,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies that when the reserved quantity field is updated, this field is updated."
+    },
+    {
+      "no": 5520,
+      "name": "Demand Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5521,
+      "name": "Demand Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 5522,
+      "name": "Demand Order No.",
+      "tooltip": "Specifies the number of the demanded order that represents the planning line."
+    },
+    {
+      "no": 5525,
+      "name": "Demand Line No.",
+      "tooltip": "Specifies the line number of the demand, such as a sales order line."
+    },
+    {
+      "no": 5526,
+      "name": "Demand Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5527,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 5530,
+      "name": "Demand Date",
+      "tooltip": "Specifies the demanded date of the demand that the planning line represents."
+    },
+    {
+      "no": 5532,
+      "name": "Demand Quantity",
+      "tooltip": "Specifies the quantity needed relating to the purchase order line item."
+    },
+    {
+      "no": 5533,
+      "name": "Demand Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5538,
+      "name": "Needed Quantity",
+      "tooltip": "Specifies the demand quantity that is not available and must be ordered to meet the demand represented on the planning line."
+    },
+    {
+      "no": 5539,
+      "name": "Needed Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5540,
+      "name": "Reserve",
+      "tooltip": "Specifies whether the item on the planning line has a setting of Always in the Reserve field on its item card."
+    },
+    {
+      "no": 5541,
+      "name": "Qty. per UOM (Demand)",
+      "tooltip": ""
+    },
+    {
+      "no": 5542,
+      "name": "Unit Of Measure Code (Demand)",
+      "tooltip": ""
+    },
+    {
+      "no": 5552,
+      "name": "Supply From",
+      "tooltip": "Specifies a value, according to the selected replenishment system, before a supply order can be created for the line."
+    },
+    {
+      "no": 5553,
+      "name": "Original Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5554,
+      "name": "Original Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5560,
+      "name": "Level",
+      "tooltip": ""
+    },
+    {
+      "no": 5563,
+      "name": "Demand Qty. Available",
+      "tooltip": "Specifies how many of the demand quantity are available."
+    },
+    {
+      "no": 5590,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5701,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5702,
+      "name": "Nonstock",
+      "tooltip": ""
+    },
+    {
+      "no": 5703,
+      "name": "Purchasing Code",
+      "tooltip": "Specifies the code for a special procurement method, such as drop shipment."
+    },
+    {
+      "no": 5706,
+      "name": "Transfer-from Code",
+      "tooltip": "Specifies the code of the location that items are transferred from."
+    },
+    {
+      "no": 5707,
+      "name": "Transfer Shipment Date",
+      "tooltip": "Specifies the shipment date of the transfer order proposal."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the method that will be used for price calculation in the requisition line."
+    },
+    {
+      "no": 7002,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage used to calculate the purchase line discount."
+    },
+    {
+      "no": 7100,
+      "name": "Blanket Purch. Order Exists",
+      "tooltip": "Specifies if a blanket purchase order exists for the item on the requisition line."
+    },
+    {
+      "no": 7110,
+      "name": "Custom Sorting Order",
+      "tooltip": ""
+    },
+    {
+      "no": 99000755,
+      "name": "MPS Order",
+      "tooltip": "Specifies whether the requisition worksheet line is an MPS order, that is, whether it is linked to a demand forecast or a sales order."
+    },
+    {
+      "no": 99000756,
+      "name": "Planning Flexibility",
+      "tooltip": "Specifies whether the supply, represented by the requisition worksheet line, is considered by the planning system, when calculating action messages."
+    },
+    {
+      "no": 99000757,
+      "name": "Routing Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 99000882,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 99000883,
+      "name": "Gen. Business Posting Group",
+      "tooltip": "Specifies the code of the general business posting group to be used for the item when you post the planning worksheet."
+    },
+    {
+      "no": 99000884,
+      "name": "Low-Level Code",
+      "tooltip": "Specifies the planning level of this item entry in the planning worksheet."
+    },
+    {
+      "no": 99000888,
+      "name": "Original Quantity",
+      "tooltip": "Specifies the quantity stated on the production or purchase order, when an action message proposes to change the quantity on an order."
+    },
+    {
+      "no": 99000889,
+      "name": "Finished Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 99000890,
+      "name": "Remaining Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 99000891,
+      "name": "Original Due Date",
+      "tooltip": "Specifies the due date stated on the production or purchase order, when an action message proposes to reschedule an order."
+    },
+    {
+      "no": 99000894,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the manufacturing process, if the planned supply is a production order."
+    },
+    {
+      "no": 99000895,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the manufacturing process."
+    },
+    {
+      "no": 99000896,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the manufacturing process, if the planned supply is a production order."
+    },
+    {
+      "no": 99000897,
+      "name": "Ending Time",
+      "tooltip": "Specifies the ending time for the manufacturing process."
+    },
+    {
+      "no": 99000899,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 99000900,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 99000901,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 99000902,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total costs for the requisition worksheet line."
+    },
+    {
+      "no": 99000903,
+      "name": "Replenishment System",
+      "tooltip": "Specifies which kind of order to use to create replenishment orders and order proposals."
+    },
+    {
+      "no": 99000904,
+      "name": "Ref. Order No.",
+      "tooltip": "Specifies the number of the relevant production or purchase order."
+    },
+    {
+      "no": 99000905,
+      "name": "Ref. Order Type",
+      "tooltip": "Specifies whether the order is a purchase order, a production order, or a transfer order."
+    },
+    {
+      "no": 99000906,
+      "name": "Ref. Order Status",
+      "tooltip": "Specifies the status of the production order."
+    },
+    {
+      "no": 99000907,
+      "name": "Ref. Line No.",
+      "tooltip": "Specifies the number of the purchase or production order line."
+    },
+    {
+      "no": 99000908,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 99000910,
+      "name": "Expected Component Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 99000911,
+      "name": "Finished Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 99000912,
+      "name": "Remaining Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 99000913,
+      "name": "Related to Planning Line",
+      "tooltip": ""
+    },
+    {
+      "no": 99000914,
+      "name": "Planning Level",
+      "tooltip": "Indicates the planning level of the item in multi-level production orders. The planning level is calculated only for items that have Make-to-Order specified in the Manufacturing Policy field."
+    },
+    {
+      "no": 99000915,
+      "name": "Planning Line Origin",
+      "tooltip": ""
+    },
+    {
+      "no": 99000916,
+      "name": "Action Message",
+      "tooltip": "Specifies an action to take to rebalance the demand-supply situation."
+    },
+    {
+      "no": 99000917,
+      "name": "Accept Action Message",
+      "tooltip": "Specifies whether to accept the action message proposed for the line."
+    },
+    {
+      "no": 99000918,
+      "name": "Net Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 99000919,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the starting date and the starting time, which are combined in a format called \"starting date-time\"."
+    },
+    {
+      "no": 99000920,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the ending date and the ending time, which are combined in a format called \"ending date-time\"."
+    },
+    {
+      "no": 99000921,
+      "name": "Order Promising ID",
+      "tooltip": ""
+    },
+    {
+      "no": 99000922,
+      "name": "Order Promising Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 99000923,
+      "name": "Order Promising Line ID",
+      "tooltip": ""
+    }
+  ]
+}

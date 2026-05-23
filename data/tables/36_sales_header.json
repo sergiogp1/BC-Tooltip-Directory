@@ -1,0 +1,923 @@
+{
+  "id": 36,
+  "name": "Sales Header",
+  "slug": "36_sales_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 5,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the customer to whom you will send the invoice, when different from the customer that you are selling to."
+    },
+    {
+      "no": 6,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 7,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer that you will send the invoice to."
+    },
+    {
+      "no": 8,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional part of the billing address."
+    },
+    {
+      "no": 9,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the billing address."
+    },
+    {
+      "no": 10,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the billing address"
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference. The contents will be printed on sales documents."
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies the code for another shipment address than the customer's own address, which is entered by default."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name that products on the sales document will be shipped to."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that products on the sales document will be shipped to. By default, the field is filled with the value in the Address field on the customer card or with the value in the Address field in the Ship-to Address window."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the shipping address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the shipping address."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that products on the sales document will be shipped to."
+    },
+    {
+      "no": 19,
+      "name": "Order Date",
+      "tooltip": "Specifies the date the order was created. The order date is also used to determine the prices and discounts on the document."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the sales document was posted."
+    },
+    {
+      "no": 21,
+      "name": "Shipment Date",
+      "tooltip": "Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": "Specifies additional posting information for the document. After you post the document, the description can add detail to vendor and customer ledger entries."
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a formula that calculates the payment due date, payment discount date, and payment discount amount."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies when the related sales invoice must be paid."
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": "Specifies the payment discount percentage granted if the customer pays on or before the date entered in the Pmt. Discount Date field."
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": "Specifies the date on which the amount in the entry must be paid for a payment discount to be granted."
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies how items on the sales document are shipped to the customer."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the location where the items are to be received. When you select the customer and the customer has a location assigned, the value is taken from the Customer card. If the customer has no location, but a Responsibility Center is populated, the location code is taken from the Responsibility Center. If neither is specified, the value is taken from Company Information. This field acts as the default location for new lines. You can update the location code for individual lines as needed."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Customer Posting Group",
+      "tooltip": "Specifies the customer s market type to link business transactions to."
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that is used on the entry."
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT."
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": "Specifies the language to be used on printouts for this document."
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": "Specifies the format to be used on printouts for this document."
+    },
+    {
+      "no": 43,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the name of the sales person who is assigned to the customer."
+    },
+    {
+      "no": 45,
+      "name": "Order Class",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "On Hold",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": "Specifies the type of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": "Specifies the number of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Recalculate Invoice Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Ship",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Invoice",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Print Posted Documents",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Amount",
+      "tooltip": "Specifies the sum of amounts on all the lines in the document. This will include invoice discounts."
+    },
+    {
+      "no": 61,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the sum of amounts, including VAT, on all the lines in the document. This will include invoice discounts."
+    },
+    {
+      "no": 62,
+      "name": "Shipping No.",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Last Shipping No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Last Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Prepayment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Last Prepayment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Prepmt. Cr. Memo No.",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Last Prepmt. Cr. Memo No.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the VAT registration number for customers."
+    },
+    {
+      "no": 71,
+      "name": "Combine Shipments",
+      "tooltip": "Specifies whether the order will be included when you use the Combine Shipments function."
+    },
+    {
+      "no": 72,
+      "name": "Registration Number",
+      "tooltip": "Specifies the customer's registration number."
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the document."
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the general business posting group that the sales document is linked to. The general business posting group is used to link the sales document to the appropriate general ledger account."
+    },
+    {
+      "no": 75,
+      "name": "EU 3-Party Trade",
+      "tooltip": "Specifies if the transaction is related to trade with a third party within the EU."
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": "Specifies the type of transaction that the document represents, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": "Specifies the transport method, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": "Specifies the country or region code for the VAT."
+    },
+    {
+      "no": 79,
+      "name": "Sell-to Customer Name",
+      "tooltip": "Specifies the name of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 80,
+      "name": "Sell-to Customer Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 81,
+      "name": "Sell-to Address",
+      "tooltip": "Specifies the customer's address."
+    },
+    {
+      "no": 82,
+      "name": "Sell-to Address 2",
+      "tooltip": "Specifies an additional part of the customer's address."
+    },
+    {
+      "no": 83,
+      "name": "Sell-to City",
+      "tooltip": "Specifies the city of the customer's address."
+    },
+    {
+      "no": 84,
+      "name": "Sell-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer."
+    },
+    {
+      "no": 85,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the postal code of the billing address."
+    },
+    {
+      "no": 86,
+      "name": "Bill-to County",
+      "tooltip": "Specifies the county of the address."
+    },
+    {
+      "no": 87,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": "Specifies the country or region of the address."
+    },
+    {
+      "no": 88,
+      "name": "Sell-to Post Code",
+      "tooltip": "Specifies the postal code of the customer's address."
+    },
+    {
+      "no": 89,
+      "name": "Sell-to County",
+      "tooltip": "Specifies the county of the address."
+    },
+    {
+      "no": 90,
+      "name": "Sell-to Country/Region Code",
+      "tooltip": "Specifies the country or region of the address."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the shipping address."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the county of the address."
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region of the shipping address."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Exit Point",
+      "tooltip": "Specifies the point of exit through which you ship the items out of your country/region, for reporting to Intrastat."
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": "Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to a customer account. If you place a check mark in this field when posting a corrective entry, the system will post a negative debit instead of a credit or a negative credit instead of a debit. Correction flag does not affect how inventory reconciled with general ledger."
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 100,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": "Specifies the country or region of origin for the purpose of Intrastat reporting."
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": "Specifies a specification of the document's transaction, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how to make payment, such as with bank transfer, cash, or check."
+    },
+    {
+      "no": 105,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies which shipping agent is used to transport the items on the sales document to the customer."
+    },
+    {
+      "no": 106,
+      "name": "Package Tracking No.",
+      "tooltip": "Specifies the shipping agent's package number."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Shipping No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area code for the customer."
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": "Specifies if this vendor charges you sales tax for purchases."
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 117,
+      "name": "Reserve",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Applies-to ID",
+      "tooltip": "Specifies the ID of entries that will be applied to when you choose the Apply Entries action."
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Status",
+      "tooltip": "Specifies whether the record is open, waiting to be approved, invoiced for prepayment, or released to the next stage of processing."
+    },
+    {
+      "no": 121,
+      "name": "Invoice Discount Calculation",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Invoice Discount Value",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Send IC Document",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "IC Status",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "Sell-to IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "Bill-to IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "IC Reference Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "IC Direction",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "Prepayment %",
+      "tooltip": "Specifies the prepayment percentage to use to calculate the prepayment for sales."
+    },
+    {
+      "no": 131,
+      "name": "Prepayment No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Compress Prepayment",
+      "tooltip": "Specifies that prepayments on the sales order are combined if they have the same general ledger account for prepayments or the same dimensions."
+    },
+    {
+      "no": 133,
+      "name": "Prepayment Due Date",
+      "tooltip": "Specifies when the prepayment invoice for this sales order is due."
+    },
+    {
+      "no": 134,
+      "name": "Prepmt. Cr. Memo No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Prepmt. Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "Prepmt. Pmt. Discount Date",
+      "tooltip": "Specifies the last date the customer can pay the prepayment invoice and still receive a payment discount on the prepayment amount."
+    },
+    {
+      "no": 139,
+      "name": "Prepmt. Payment Terms Code",
+      "tooltip": "Specifies the code that represents the payment terms for prepayment invoices related to the sales document."
+    },
+    {
+      "no": 140,
+      "name": "Prepmt. Payment Discount %",
+      "tooltip": "Specifies the payment discount percent granted on the prepayment if the customer pays on or before the date entered in the Prepmt. Pmt. Discount Date field."
+    },
+    {
+      "no": 151,
+      "name": "Quote No.",
+      "tooltip": "Specifies the number of the sales quote that the sales invoice was created from. You can track the number to sales quote documents that you have printed, saved, or emailed."
+    },
+    {
+      "no": 152,
+      "name": "Quote Valid Until Date",
+      "tooltip": "Specifies how long the quote is valid."
+    },
+    {
+      "no": 153,
+      "name": "Quote Sent to Customer",
+      "tooltip": ""
+    },
+    {
+      "no": 154,
+      "name": "Quote Accepted",
+      "tooltip": "Specifies that the quote was accepted by the customer."
+    },
+    {
+      "no": 155,
+      "name": "Quote Accepted Date",
+      "tooltip": "Specifies when the quote was accepted by the customer."
+    },
+    {
+      "no": 160,
+      "name": "Job Queue Status",
+      "tooltip": "Specifies the status of a job queue entry or task that handles the posting of sales credit memos."
+    },
+    {
+      "no": 161,
+      "name": "Job Queue Entry ID",
+      "tooltip": ""
+    },
+    {
+      "no": 163,
+      "name": "Company Bank Account Code",
+      "tooltip": "Specifies the bank account to use for bank information when the document is printed."
+    },
+    {
+      "no": 165,
+      "name": "Incoming Document Entry No.",
+      "tooltip": "Specifies the number of the incoming document that this sales document is created for."
+    },
+    {
+      "no": 166,
+      "name": "Alt. VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 167,
+      "name": "Alt. Gen. Bus Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 168,
+      "name": "Alt. VAT Bus Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "IsTest",
+      "tooltip": ""
+    },
+    {
+      "no": 171,
+      "name": "Sell-to Phone No.",
+      "tooltip": "Specifies the telephone number of the contact person that the sales document will be sent to."
+    },
+    {
+      "no": 172,
+      "name": "Sell-to E-Mail",
+      "tooltip": "Specifies the email address of the contact person that the sales document will be sent to."
+    },
+    {
+      "no": 178,
+      "name": "Journal Templ. Name",
+      "tooltip": "Specifies the name of the journal template in which the sales header is to be posted."
+    },
+    {
+      "no": 179,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the date used to include entries on VAT reports in a VAT period. This is either the date that the document was created or posted, depending on your setting on the General Ledger Setup page."
+    },
+    {
+      "no": 181,
+      "name": "Rcvd.-from Count./Region Code",
+      "tooltip": "Specifies the country or region from which the items are returned for the purpose of Intrastat reporting."
+    },
+    {
+      "no": 185,
+      "name": "Last Email Sent Time",
+      "tooltip": ""
+    },
+    {
+      "no": 186,
+      "name": "Last Email Sent Message Id",
+      "tooltip": ""
+    },
+    {
+      "no": 200,
+      "name": "Work Description",
+      "tooltip": ""
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 300,
+      "name": "Amt. Ship. Not Inv. (LCY)",
+      "tooltip": "Specifies the sum, in LCY, for items that have been shipped but not yet been invoiced. The amount is calculated as Amount Including VAT x Qty. Shipped Not Invoiced / Quantity."
+    },
+    {
+      "no": 301,
+      "name": "Amt. Ship. Not Inv. (LCY) Base",
+      "tooltip": "Specifies the sum, in LCY, for items that have been shipped but not yet been invoiced. The amount is calculated as Amount Including VAT x Qty. Shipped Not Invoiced / Quantity."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 600,
+      "name": "Payment Service Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the sales order is coupled to an order in Dynamics 365 Sales."
+    },
+    {
+      "no": 1200,
+      "name": "Direct Debit Mandate ID",
+      "tooltip": "Specifies the direct-debit mandate that the customer has signed to allow direct debit collection of payments."
+    },
+    {
+      "no": 1305,
+      "name": "Invoice Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 5043,
+      "name": "No. of Archived Versions",
+      "tooltip": "Specifies the number of archived versions for this document."
+    },
+    {
+      "no": 5048,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 5050,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
+    },
+    {
+      "no": 5052,
+      "name": "Sell-to Contact No.",
+      "tooltip": "Specifies the number of the contact person at the customer."
+    },
+    {
+      "no": 5053,
+      "name": "Bill-to Contact No.",
+      "tooltip": "Specifies the number of the contact person at the billing address."
+    },
+    {
+      "no": 5055,
+      "name": "Opportunity No.",
+      "tooltip": "Specifies the number of the opportunity that the sales quote is assigned to."
+    },
+    {
+      "no": 5056,
+      "name": "Sell-to Customer Templ. Code",
+      "tooltip": "Specifies the code for the template to create a new customer"
+    },
+    {
+      "no": 5057,
+      "name": "Bill-to Customer Templ. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 5750,
+      "name": "Shipping Advice",
+      "tooltip": "Specifies if the customer accepts partial shipment of orders."
+    },
+    {
+      "no": 5751,
+      "name": "Shipped Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 5752,
+      "name": "Completely Shipped",
+      "tooltip": "Specifies if all the items on the order have been shipped or, in the case of inbound items, completely received."
+    },
+    {
+      "no": 5753,
+      "name": "Posting from Whse. Ref.",
+      "tooltip": ""
+    },
+    {
+      "no": 5754,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5755,
+      "name": "Shipped",
+      "tooltip": ""
+    },
+    {
+      "no": 5756,
+      "name": "Last Shipment Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5790,
+      "name": "Requested Delivery Date",
+      "tooltip": "Specifies the date that the customer has asked for the order to be delivered."
+    },
+    {
+      "no": 5791,
+      "name": "Promised Delivery Date",
+      "tooltip": "Specifies the date that you have promised to deliver the order, as a result of the Order Promising function."
+    },
+    {
+      "no": 5792,
+      "name": "Shipping Time",
+      "tooltip": "Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered."
+    },
+    {
+      "no": 5793,
+      "name": "Outbound Whse. Handling Time",
+      "tooltip": "Specifies a date formula for the time it takes to get items ready to ship from this location. The time element is used in the calculation of the delivery date as follows: Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date + Shipping Time = Planned Delivery Date."
+    },
+    {
+      "no": 5794,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies which shipping agent service is used to transport the items on the sales document to the customer."
+    },
+    {
+      "no": 5795,
+      "name": "Late Order Shipping",
+      "tooltip": "Indicates a delay in the shipment of one or more lines, or that the shipment date is either the same as or earlier than the work date."
+    },
+    {
+      "no": 5796,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5800,
+      "name": "Receive",
+      "tooltip": ""
+    },
+    {
+      "no": 5801,
+      "name": "Return Receipt No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5802,
+      "name": "Return Receipt No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 5803,
+      "name": "Last Return Receipt No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 7200,
+      "name": "Get Shipment Used",
+      "tooltip": ""
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    }
+  ]
+}

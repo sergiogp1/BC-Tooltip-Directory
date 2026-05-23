@@ -1,0 +1,58 @@
+{
+  "id": 1060,
+  "name": "Payment Service Setup",
+  "slug": "1060_payment_service_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the payment service type."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the payment service."
+    },
+    {
+      "no": 4,
+      "name": "Enabled",
+      "tooltip": "Specifies that the payment service is enabled."
+    },
+    {
+      "no": 5,
+      "name": "Always Include on Documents",
+      "tooltip": "Specifies that the payment service is always available in the Payment Service field on outgoing sales documents."
+    },
+    {
+      "no": 6,
+      "name": "Setup Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Setup Page ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Terms of Service",
+      "tooltip": "Specifies a link to the Terms of Service page for the payment service."
+    },
+    {
+      "no": 100,
+      "name": "Available",
+      "tooltip": "Specifies that the icon and link to the payment service will be inserted on the outgoing sales document."
+    },
+    {
+      "no": 101,
+      "name": "Management Codeunit ID",
+      "tooltip": ""
+    }
+  ]
+}

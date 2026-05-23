@@ -1,0 +1,48 @@
+{
+  "id": 1700,
+  "name": "Deferral Template",
+  "slug": "1700_deferral_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Deferral Code",
+      "tooltip": "Specifies a code for deferral template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the record."
+    },
+    {
+      "no": 3,
+      "name": "Deferral Account",
+      "tooltip": "Specifies the G/L account that the deferred expenses are posted to."
+    },
+    {
+      "no": 4,
+      "name": "Deferral %",
+      "tooltip": "Specifies how much of the total amount will be deferred."
+    },
+    {
+      "no": 5,
+      "name": "Calc. Method",
+      "tooltip": "Specifies how the Amount field for each period is calculated."
+    },
+    {
+      "no": 6,
+      "name": "Start Date",
+      "tooltip": "Specifies when to start calculating deferral amounts."
+    },
+    {
+      "no": 7,
+      "name": "No. of Periods",
+      "tooltip": "Specifies how many accounting periods the total amounts will be deferred to."
+    },
+    {
+      "no": 8,
+      "name": "Period Description",
+      "tooltip": "Specifies a description that will be shown on entries for the deferral posting."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 5712,
+  "name": "Copy Location Buffer",
+  "slug": "5712_copy_location_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Source Location Code",
+      "tooltip": "Specifies the code of the location that you want to copy the data from."
+    },
+    {
+      "no": 3,
+      "name": "Target Location Code",
+      "tooltip": "Specifies the code of the new location that you want to copy the data to."
+    },
+    {
+      "no": 11,
+      "name": "Zones",
+      "tooltip": "Specifies if zones are also copied to the new location."
+    },
+    {
+      "no": 12,
+      "name": "Bins",
+      "tooltip": "Specifies if bins are also copied to the new location. Bins can only be copied if zones are also being copied."
+    },
+    {
+      "no": 13,
+      "name": "Warehouse Employees",
+      "tooltip": "Specifies if warehouse employees are also copied to the new location."
+    },
+    {
+      "no": 14,
+      "name": "Inventory Posting Setup",
+      "tooltip": "Specifies if inventory posting setup is also copied to the new location."
+    },
+    {
+      "no": 15,
+      "name": "Dimensions",
+      "tooltip": "Specifies if dimensions are also copied to the new location."
+    },
+    {
+      "no": 16,
+      "name": "Transfer Routes",
+      "tooltip": "Specifies if transfer routes are also copied to the new location."
+    },
+    {
+      "no": 100,
+      "name": "Show Created Location",
+      "tooltip": "Specifies if the copied location is shown after it is created."
+    }
+  ]
+}

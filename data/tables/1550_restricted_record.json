@@ -1,0 +1,23 @@
+{
+  "id": 1550,
+  "name": "Restricted Record",
+  "slug": "1550_restricted_record",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the record in the Restricted Record table."
+    },
+    {
+      "no": 2,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Details",
+      "tooltip": "Specifies details about what imposed the restriction on the record."
+    }
+  ]
+}

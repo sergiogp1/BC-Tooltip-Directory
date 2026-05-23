@@ -1,0 +1,28 @@
+{
+  "id": 9165,
+  "name": "Support Contact Information",
+  "slug": "9165_support_contact_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Email",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "URL",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 318,
+  "name": "Tax Area",
+  "slug": "318_tax_area",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code you want to assign to this tax area. You can enter up to 20 characters, both numbers and letters. It is a good idea to enter a code that is easy to remember."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the tax area. For example, if you use a number as the tax code, you might want to describe the tax area in this field."
+    },
+    {
+      "no": 10,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    }
+  ]
+}

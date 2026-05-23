@@ -1,0 +1,58 @@
+{
+  "id": 5401,
+  "name": "Item Variant",
+  "slug": "5401_item_variant",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify the variant."
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item card from which you opened the Item Variant Translations window."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies text that describes the item variant."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": "Specifies the item variant in more detail than the Description field."
+    },
+    {
+      "no": 5,
+      "name": "Item Id",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example an item variant that is placed in quarantine."
+    },
+    {
+      "no": 92,
+      "name": "Picture",
+      "tooltip": "Specifies the picture that has been inserted for the item variant."
+    },
+    {
+      "no": 8003,
+      "name": "Sales Blocked",
+      "tooltip": "Specifies that the item variant cannot be entered on sales documents, except return orders and credit memos, and journals."
+    },
+    {
+      "no": 8004,
+      "name": "Purchasing Blocked",
+      "tooltip": "Specifies that the item variant cannot be entered on purchase documents, except return orders and credit memos, and journals."
+    },
+    {
+      "no": 8010,
+      "name": "Service Blocked",
+      "tooltip": "Specifies that the item variant cannot be entered on service items, service contracts and service documents, except credit memos."
+    }
+  ]
+}

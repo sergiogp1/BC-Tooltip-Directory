@@ -1,0 +1,33 @@
+{
+  "id": 983,
+  "name": "Document Search Result",
+  "slug": "983_document_search_result",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Doc. No.",
+      "tooltip": "Specifies information about a non-posted document that is found using the Document Search window during manual payment processing."
+    },
+    {
+      "no": 3,
+      "name": "Amount",
+      "tooltip": "Specifies information about a non-posted document that is found using the Document Search window during manual payment processing."
+    },
+    {
+      "no": 4,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies information about a non-posted document that is found using the Document Search window during manual payment processing."
+    }
+  ]
+}

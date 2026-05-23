@@ -1,0 +1,213 @@
+{
+  "id": 7022,
+  "name": "Price Worksheet Line",
+  "slug": "7022_price_worksheet_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Price List Code",
+      "tooltip": "Specifies the unique identifier of the price list."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Source No.",
+      "tooltip": "Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 5,
+      "name": "Parent Source No.",
+      "tooltip": "Specifies the project to which the prices are assigned. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 6,
+      "name": "Source ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Asset Type",
+      "tooltip": "Specifies the type of the product."
+    },
+    {
+      "no": 8,
+      "name": "Asset No.",
+      "tooltip": "Specifies the identifier of the product. If no product is selected, the price and discount values will apply to all products of the selected product type for which those values are not specified. For example, if you choose Item as the product type but do not specify a specific item, the price will apply to all items for which a price is not specified."
+    },
+    {
+      "no": 9,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 10,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the price list line."
+    },
+    {
+      "no": 11,
+      "name": "Work Type Code",
+      "tooltip": "Specifies the work type code for the resource."
+    },
+    {
+      "no": 12,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the price is valid."
+    },
+    {
+      "no": 13,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last date that the price is valid."
+    },
+    {
+      "no": 14,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the minimum quantity of the product."
+    },
+    {
+      "no": 15,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure for the product."
+    },
+    {
+      "no": 16,
+      "name": "Amount Type",
+      "tooltip": "Specifies whether the price list line defines prices, discounts, or both."
+    },
+    {
+      "no": 17,
+      "name": "Unit Price",
+      "tooltip": "Specifies the new unit price of the product."
+    },
+    {
+      "no": 18,
+      "name": "Cost Factor",
+      "tooltip": "Specifies the unit cost factor for project-related prices, if you have agreed with your customer that he should pay certain item usage by cost value plus a certain percent value to cover your overhead expenses."
+    },
+    {
+      "no": 19,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the unit cost of the resource."
+    },
+    {
+      "no": 20,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the line discount percentage for the product."
+    },
+    {
+      "no": 21,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies if a line discount will be calculated when the price is offered."
+    },
+    {
+      "no": 22,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies if an invoice discount will be calculated when the price is offered."
+    },
+    {
+      "no": 23,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies if the price includes VAT."
+    },
+    {
+      "no": 24,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the VAT business posting group for customers for whom you want the price (which includes VAT) to apply."
+    },
+    {
+      "no": 25,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Asset ID",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Line Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Price Type",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Status",
+      "tooltip": "Specifies whether the price list line is in Draft status and can be edited, Inactive and cannot be edited or used, or Active and used for price calculations."
+    },
+    {
+      "no": 31,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the new direct unit cost of the product."
+    },
+    {
+      "no": 32,
+      "name": "Source Group",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Product No.",
+      "tooltip": "Specifies the identifier of the product. If no product is selected, the price and discount values will apply to all products of the selected product type for which those values are not specified. For example, if you choose Item as the product type but do not specify a specific item, the price will apply to all items for which a price is not specified."
+    },
+    {
+      "no": 34,
+      "name": "Assign-to No.",
+      "tooltip": "Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 35,
+      "name": "Assign-to Parent No.",
+      "tooltip": "Specifies the project to which the prices are assigned. If you choose an entity, the price list will be used only for that entity."
+    },
+    {
+      "no": 36,
+      "name": "Variant Code Lookup",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 37,
+      "name": "Unit of Measure Code Lookup",
+      "tooltip": "Specifies the unit of measure for the product."
+    },
+    {
+      "no": 100,
+      "name": "Existing Line",
+      "tooltip": "Specifies if the current line is a copy of the existing price list line."
+    },
+    {
+      "no": 101,
+      "name": "Existing Unit Price",
+      "tooltip": "Specifies the current unit price of the product."
+    },
+    {
+      "no": 102,
+      "name": "Existing Direct Unit Cost",
+      "tooltip": "Specifies the current direct unit cost of the product."
+    },
+    {
+      "no": 103,
+      "name": "Existing Unit Cost",
+      "tooltip": "Specifies the current unit cost of the product."
+    }
+  ]
+}

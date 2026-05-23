@@ -1,0 +1,53 @@
+{
+  "id": 5842,
+  "name": "Cost Adjmt. Action Message",
+  "slug": "5842_cost_adjmt_action_message",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry assigned by the auto-increment process."
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the type of the cost adjustment action message."
+    },
+    {
+      "no": 3,
+      "name": "Message",
+      "tooltip": "Specifies the message text of the cost adjustment action message."
+    },
+    {
+      "no": 4,
+      "name": "Next Check Date/Time",
+      "tooltip": "Specifies the date and time when the next check of the cost adjustment action message is scheduled."
+    },
+    {
+      "no": 5,
+      "name": "Importance",
+      "tooltip": "Specifies the importance of the cost adjustment action message."
+    },
+    {
+      "no": 9,
+      "name": "Table Id",
+      "tooltip": "Specifies the table ID of the record related to the action message."
+    },
+    {
+      "no": 10,
+      "name": "System ID",
+      "tooltip": "Specifies the unique identifier of the record related to the action message."
+    },
+    {
+      "no": 20,
+      "name": "Active",
+      "tooltip": "Specifies if the cost adjustment action message is active or not."
+    },
+    {
+      "no": 100,
+      "name": "Custom Dimensions",
+      "tooltip": "Specifies the custom dimensions of the cost adjustment action message that contains additional information."
+    }
+  ]
+}

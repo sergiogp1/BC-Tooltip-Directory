@@ -1,0 +1,83 @@
+{
+  "id": 1206,
+  "name": "Credit Transfer Entry",
+  "slug": "1206_credit_transfer_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Credit Transfer Register No.",
+      "tooltip": "Specifies the number of the credit-transfer register entry in the Credit Transfer Registers window that the credit transfer entry relates to."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the type of account that received payment with the credit transfer. If the type is Debitor, then the credit transfer was a refund."
+    },
+    {
+      "no": 4,
+      "name": "Account No.",
+      "tooltip": "Specifies the number of the vendor, or debitor, who received payment with the credit transfer. If the Account Type field contains Debitor, then the credit transfer was a refund."
+    },
+    {
+      "no": 5,
+      "name": "Applies-to Entry No.",
+      "tooltip": "Specifies the entry number of the purchase invoice that the vendor ledger entry behind this credit transfer was applied to."
+    },
+    {
+      "no": 6,
+      "name": "Transfer Date",
+      "tooltip": "Specifies when the SEPA credit transfer is made. The value is copied from the Posting Date field on the payment line for the purchase invoice."
+    },
+    {
+      "no": 7,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that the SEPA credit transfer was made in. To process payments using SEPA Credit Transfer, the currency on the purchase invoice must be EURO."
+    },
+    {
+      "no": 8,
+      "name": "Transfer Amount",
+      "tooltip": "Specifies the amount that is paid with the SEPA credit transfer."
+    },
+    {
+      "no": 9,
+      "name": "Transaction ID",
+      "tooltip": "Specifies the ID of the credit transfer. The ID is defined from the value in the Identifier field in the Credit Transfer Register field plus the value in the Entry No. field, divided by a slash. For example, DABA00113/3."
+    },
+    {
+      "no": 10,
+      "name": "Canceled",
+      "tooltip": "Specifies if the exported payment file for this credit transfer register entry has been canceled."
+    },
+    {
+      "no": 11,
+      "name": "Recipient Bank Acc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Message to Recipient",
+      "tooltip": "Specifies the text that was entered in the Message to Recipient field on the payment journal line that this credit transfer file was exported from."
+    },
+    {
+      "no": 13,
+      "name": "Recipient IBAN",
+      "tooltip": "Specifies the IBAN of the creditor bank account that was used on the payment journal line that this credit transfer file was exported from."
+    },
+    {
+      "no": 14,
+      "name": "Recipient Bank Account No.",
+      "tooltip": "Specifies the number of the creditor bank account that was used on the payment journal line that this credit transfer file was exported from."
+    },
+    {
+      "no": 15,
+      "name": "Recipient Name",
+      "tooltip": "Specifies the recipient of the exported credit transfer, typically a vendor."
+    }
+  ]
+}

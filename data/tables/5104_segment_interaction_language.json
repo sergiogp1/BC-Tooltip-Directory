@@ -1,0 +1,43 @@
+{
+  "id": 5104,
+  "name": "Segment Interaction Language",
+  "slug": "5104_segment_interaction_language",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Segment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Segment Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the description of the Segment Interaction Language. This field will not be displayed in the Word attachment."
+    },
+    {
+      "no": 5,
+      "name": "Attachment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Subject",
+      "tooltip": "Specifies the subject text. The text in the field is used as the subject in e-mails and Word documents."
+    },
+    {
+      "no": 7,
+      "name": "Word Template Code",
+      "tooltip": ""
+    }
+  ]
+}

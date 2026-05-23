@@ -1,0 +1,83 @@
+{
+  "id": 87,
+  "name": "Date Compr. Register",
+  "slug": "87_date_compr_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date that the date compression took place."
+    },
+    {
+      "no": 3,
+      "name": "Table Caption",
+      "tooltip": "Specifies the name of the table that was compressed."
+    },
+    {
+      "no": 4,
+      "name": "Period Length",
+      "tooltip": "Specifies the time interval of entries combined into one for the period defined in the Starting Date and Ending Date fields in the batch job."
+    },
+    {
+      "no": 5,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last date in the period for which entries were compressed."
+    },
+    {
+      "no": 6,
+      "name": "No. of New Records",
+      "tooltip": "Specifies the number of new entries that were created by the date compression."
+    },
+    {
+      "no": 7,
+      "name": "No. Records Deleted",
+      "tooltip": "Specifies the number of entries that were deleted during the date compression."
+    },
+    {
+      "no": 8,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 9,
+      "name": "Filter",
+      "tooltip": "Specifies the filters that were placed on the date compression."
+    },
+    {
+      "no": 10,
+      "name": "Starting Date",
+      "tooltip": "Specifies the first date in the period for which entries were compressed."
+    },
+    {
+      "no": 11,
+      "name": "Table ID",
+      "tooltip": "Specifies the number of the table that was compressed."
+    },
+    {
+      "no": 12,
+      "name": "Register No.",
+      "tooltip": "Specifies the number of the register that was created by the date compression and that contains the compressed entries."
+    },
+    {
+      "no": 13,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 14,
+      "name": "Retain Field Contents",
+      "tooltip": "Specifies a list of the fields whose contents the user chose to retain in the date compression."
+    },
+    {
+      "no": 15,
+      "name": "Retain Totals",
+      "tooltip": "Specifies a list of the quantity fields that the user chose to retain when they ran the date compression batch job."
+    }
+  ]
+}

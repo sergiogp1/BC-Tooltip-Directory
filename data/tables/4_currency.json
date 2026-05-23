@@ -1,0 +1,263 @@
+{
+  "id": 4,
+  "name": "Currency",
+  "slug": "4_currency",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a currency code that you can select. The code must comply with ISO 4217."
+    },
+    {
+      "no": 2,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the last date on which any information in the Currency table was modified."
+    },
+    {
+      "no": 3,
+      "name": "Last Date Adjusted",
+      "tooltip": "Specifies when the exchange rates were last adjusted, that is, the last date on which the Adjust Exchange Rates batch job was run."
+    },
+    {
+      "no": 4,
+      "name": "ISO Code",
+      "tooltip": "Specifies a three-letter currency code defined in ISO 4217."
+    },
+    {
+      "no": 5,
+      "name": "ISO Numeric Code",
+      "tooltip": "Specifies a three-digit code number defined in ISO 4217."
+    },
+    {
+      "no": 6,
+      "name": "Unrealized Gains Acc.",
+      "tooltip": "Specifies the general ledger account number to which unrealized exchange rate gains will be posted when the Adjust Exchange Rates batch job is run."
+    },
+    {
+      "no": 7,
+      "name": "Realized Gains Acc.",
+      "tooltip": "Specifies the general ledger account number to which realized exchange rate gains will be posted."
+    },
+    {
+      "no": 8,
+      "name": "Unrealized Losses Acc.",
+      "tooltip": "Specifies the general ledger account number to which unrealized exchange rate losses will be posted when the Adjust Exchange Rates batch job is run."
+    },
+    {
+      "no": 9,
+      "name": "Realized Losses Acc.",
+      "tooltip": "Specifies the general ledger account number to which realized exchange rate losses will be posted."
+    },
+    {
+      "no": 10,
+      "name": "Invoice Rounding Precision",
+      "tooltip": "Specifies the size of the interval to be used when rounding amounts in this currency. You can specify invoice rounding for each currency in the Currency table."
+    },
+    {
+      "no": 12,
+      "name": "Invoice Rounding Type",
+      "tooltip": "Specifies whether an invoice amount will be rounded up or down. The program uses this information together with the interval for rounding that you have specified in the Invoice Rounding Precision field."
+    },
+    {
+      "no": 13,
+      "name": "Amount Rounding Precision",
+      "tooltip": "Specifies the size of the interval to be used when rounding amounts in this currency."
+    },
+    {
+      "no": 14,
+      "name": "Unit-Amount Rounding Precision",
+      "tooltip": "Specifies the size of the interval to be used when rounding unit amounts (that is, item prices per unit) in this currency."
+    },
+    {
+      "no": 15,
+      "name": "Description",
+      "tooltip": "Specifies a text to describe the currency code."
+    },
+    {
+      "no": 17,
+      "name": "Amount Decimal Places",
+      "tooltip": "Specifies the number of decimal places the program will display for amounts in this currency."
+    },
+    {
+      "no": 18,
+      "name": "Unit-Amount Decimal Places",
+      "tooltip": "Specifies the number of decimal places the program will display for amounts in this currency."
+    },
+    {
+      "no": 19,
+      "name": "Customer Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Vendor Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Cust. Ledg. Entries in Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Customer Balance",
+      "tooltip": "Specifies the payment amount that the customer owes for completed sales."
+    },
+    {
+      "no": 26,
+      "name": "Customer Outstanding Orders",
+      "tooltip": "Specifies the number of orders for which payment has not been made."
+    },
+    {
+      "no": 27,
+      "name": "Customer Shipped Not Invoiced",
+      "tooltip": "Specifies the number of orders that are shipped but not invoiced."
+    },
+    {
+      "no": 28,
+      "name": "Customer Balance Due",
+      "tooltip": "Specifies the payment amount that the customer owes you for completed sales where the payment date is exceeded."
+    },
+    {
+      "no": 29,
+      "name": "Vendor Ledg. Entries in Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Vendor Balance",
+      "tooltip": "Specifies the payment amount that you owe the vendor for completed purchases."
+    },
+    {
+      "no": 31,
+      "name": "Vendor Outstanding Orders",
+      "tooltip": "Specifies the number of orders for which payment has not been made."
+    },
+    {
+      "no": 32,
+      "name": "Vendor Amt. Rcd. Not Invoiced",
+      "tooltip": "Specifies the number of orders that are shipped but not invoiced."
+    },
+    {
+      "no": 33,
+      "name": "Vendor Balance Due",
+      "tooltip": "Specifies the payment amount that you owe the vendor for completed purchases where the payment date is exceeded."
+    },
+    {
+      "no": 34,
+      "name": "Customer Balance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Vendor Balance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Realized G/L Gains Account",
+      "tooltip": "Specifies the general ledger account to post exchange rate gains to for currency adjustments between LCY and the additional reporting currency."
+    },
+    {
+      "no": 41,
+      "name": "Realized G/L Losses Account",
+      "tooltip": "Specifies the general ledger account to post exchange rate gains to for currency adjustments between LCY and the additional reporting currency."
+    },
+    {
+      "no": 44,
+      "name": "Appln. Rounding Precision",
+      "tooltip": "Specifies the size of the interval that will be allowed as a rounding difference when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 45,
+      "name": "EMU Currency",
+      "tooltip": "Specifies whether the currency is an EMU currency, for example DEM or EUR."
+    },
+    {
+      "no": 46,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Residual Gains Account",
+      "tooltip": "Specifies the general ledger account to post residual amount gains to, if you post in the general ledger application area in both LCY and an additional reporting currency."
+    },
+    {
+      "no": 48,
+      "name": "Residual Losses Account",
+      "tooltip": "Specifies the general ledger account to post residual amount losses to, if you post in the general ledger application area in both LCY and an additional reporting currency."
+    },
+    {
+      "no": 50,
+      "name": "Conv. LCY Rndg. Debit Acc.",
+      "tooltip": "Specifies conversion information that must also contain a debit account if you wish to insert correction lines for rounding differences in the general journals using the Insert Conv. LCY Rndg. Lines function."
+    },
+    {
+      "no": 51,
+      "name": "Conv. LCY Rndg. Credit Acc.",
+      "tooltip": "Specifies conversion information that must also contain a credit account if you wish to insert correction lines for rounding differences in the general journals using the Insert Conv. LCY Rndg. Lines function."
+    },
+    {
+      "no": 52,
+      "name": "Max. VAT Difference Allowed",
+      "tooltip": "Specifies the maximum VAT correction amount allowed for the currency."
+    },
+    {
+      "no": 53,
+      "name": "VAT Rounding Type",
+      "tooltip": "Specifies how the program will round VAT when calculated for this currency."
+    },
+    {
+      "no": 54,
+      "name": "Payment Tolerance %",
+      "tooltip": "Specifies the percentage that the payment or refund is allowed to be, less than the amount on the invoice or credit memo."
+    },
+    {
+      "no": 55,
+      "name": "Max. Payment Tolerance Amount",
+      "tooltip": "Specifies the maximum allowed amount that the payment or refund can differ from the amount on the invoice or credit memo."
+    },
+    {
+      "no": 56,
+      "name": "Symbol",
+      "tooltip": "Specifies the symbol for the currency, for example, $ for US dollars."
+    },
+    {
+      "no": 57,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 166,
+      "name": "Currency Symbol Position",
+      "tooltip": "Specifies the position of the currency symbol in relation to the amount."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the currency is coupled to a currency in Dataverse."
+    }
+  ]
+}

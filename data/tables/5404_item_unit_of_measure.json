@@ -1,0 +1,58 @@
+{
+  "id": 5404,
+  "name": "Item Unit of Measure",
+  "slug": "5404_item_unit_of_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item card from which you opened the Item Units of Measure window."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a unit of measure code that has been set up in the Unit of Measure table."
+    },
+    {
+      "no": 3,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies how many of the base unit of measure are contained in one unit of the item."
+    },
+    {
+      "no": 4,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the item unit of measure is coupled to a unit of measure in Dynamics 365 Sales."
+    },
+    {
+      "no": 7300,
+      "name": "Length",
+      "tooltip": "Specifies the length of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 7301,
+      "name": "Width",
+      "tooltip": "Specifies the width of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 7302,
+      "name": "Height",
+      "tooltip": "Specifies the height of one item unit when measured in the unit of measure in the Code field."
+    },
+    {
+      "no": 7303,
+      "name": "Cubage",
+      "tooltip": "Specifies the volume (cubage) of one item unit in the unit of measure in the Code field."
+    },
+    {
+      "no": 7304,
+      "name": "Weight",
+      "tooltip": "Specifies the weight of one item unit when measured in the specified unit of measure."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 7118,
+  "name": "Analysis Column",
+  "slug": "7118_analysis_column",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Analysis Column Template",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Column No.",
+      "tooltip": "Specifies a number for the column in the analysis view."
+    },
+    {
+      "no": 5,
+      "name": "Column Header",
+      "tooltip": "Specifies a header for the column as you want it to appear on printed reports."
+    },
+    {
+      "no": 6,
+      "name": "Column Type",
+      "tooltip": "Specifies the analysis column type, which determines how the amounts in the column are calculated."
+    },
+    {
+      "no": 7,
+      "name": "Ledger Entry Type",
+      "tooltip": "Specifies the type of ledger entries that will be included in the amounts in the analysis column."
+    },
+    {
+      "no": 8,
+      "name": "Formula",
+      "tooltip": "Specifies a formula for how data is shown in the column when the analysis report is printed."
+    },
+    {
+      "no": 9,
+      "name": "Comparison Date Formula",
+      "tooltip": "Specifies a date formula that specifies which dates should be used to calculate the amount in this column."
+    },
+    {
+      "no": 10,
+      "name": "Show Opposite Sign",
+      "tooltip": "Specifies if you want purchases and positive adjustments to be shown as negative amounts and sales and negative adjustments to be shown as positive amounts."
+    },
+    {
+      "no": 11,
+      "name": "Show",
+      "tooltip": "Specifies when you want the amounts in the column to be shown in reports."
+    },
+    {
+      "no": 12,
+      "name": "Rounding Factor",
+      "tooltip": "Specifies a rounding factor for the amounts in the column."
+    },
+    {
+      "no": 13,
+      "name": "Comparison Period Formula",
+      "tooltip": "Specifies a period formula that specifies the accounting periods you want to use to calculate the amount in this column."
+    },
+    {
+      "no": 14,
+      "name": "Analysis Type Code",
+      "tooltip": "Specifies the analysis type to apply to the column."
+    },
+    {
+      "no": 15,
+      "name": "Item Ledger Entry Type Filter",
+      "tooltip": "Specifies the filter that applies to the item ledger entry type that you want this column to be calculated from."
+    },
+    {
+      "no": 16,
+      "name": "Value Entry Type Filter",
+      "tooltip": "Specifies the filter that applies to the item value entry type that you want this column to be calculated from."
+    },
+    {
+      "no": 17,
+      "name": "Value Type",
+      "tooltip": "Specifies the source data that the source data type in the Analysis Type Code field, in the Analysis Columns window, is based on."
+    },
+    {
+      "no": 18,
+      "name": "Invoiced",
+      "tooltip": "Specifies if you want the analysis report to be based on invoiced amounts. If left field blank, the report will be based on expected amounts."
+    },
+    {
+      "no": 30,
+      "name": "Comparison Period Formula LCID",
+      "tooltip": ""
+    }
+  ]
+}

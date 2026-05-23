@@ -1,0 +1,38 @@
+{
+  "id": 213,
+  "name": "Alt. Cust. VAT Reg.",
+  "slug": "213_alt_cust_vat_reg",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer number."
+    },
+    {
+      "no": 3,
+      "name": "VAT Country/Region Code",
+      "tooltip": "Specifies the country or region code for the VAT"
+    },
+    {
+      "no": 4,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the VAT registration number."
+    },
+    {
+      "no": 5,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the customer's trade type to link transactions made for this customer with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 6,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the customer's VAT specification to link transactions made for this customer to."
+    }
+  ]
+}

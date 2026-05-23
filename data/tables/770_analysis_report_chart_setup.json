@@ -1,0 +1,68 @@
+{
+  "id": 770,
+  "name": "Analysis Report Chart Setup",
+  "slug": "770_analysis_report_chart_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the specific chart."
+    },
+    {
+      "no": 10,
+      "name": "Analysis Area",
+      "tooltip": "Specifies if the analysis report chart shows values for sales, purchase, or inventory."
+    },
+    {
+      "no": 20,
+      "name": "Analysis Report Name",
+      "tooltip": "Specifies the name of the analysis report that is used to generate the specific chart that is shown in, for example, the Sales Performance window."
+    },
+    {
+      "no": 21,
+      "name": "Analysis Line Template Name",
+      "tooltip": "Specifies the name of the analysis line template that is used to generate the specific chart that is shown in, for example, the Sales Performance window."
+    },
+    {
+      "no": 22,
+      "name": "Analysis Column Template Name",
+      "tooltip": "Specifies the name of the analysis column template that is used to generate the chart that is shown in, for example, the Sales Performance window."
+    },
+    {
+      "no": 30,
+      "name": "Base X-Axis on",
+      "tooltip": "Specifies how the values from the selected analysis report are displayed in the specific chart."
+    },
+    {
+      "no": 31,
+      "name": "Start Date",
+      "tooltip": "Specifies the first date on which analysis report values are included in the chart."
+    },
+    {
+      "no": 32,
+      "name": "End Date",
+      "tooltip": "Specifies the last date on which analysis report values are included in the chart."
+    },
+    {
+      "no": 41,
+      "name": "Period Length",
+      "tooltip": "Specifies the length of periods in the chart."
+    },
+    {
+      "no": 42,
+      "name": "No. of Periods",
+      "tooltip": "Specifies how many periods are shown in the chart."
+    },
+    {
+      "no": 50,
+      "name": "Last Viewed",
+      "tooltip": ""
+    }
+  ]
+}

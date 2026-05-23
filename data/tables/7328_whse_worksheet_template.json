@@ -1,0 +1,33 @@
+{
+  "id": 7328,
+  "name": "Whse. Worksheet Template",
+  "slug": "7328_whse_worksheet_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name you enter for the warehouse worksheet template you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the warehouse worksheet template you are creating."
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies information about the activity you can plan in the warehouse worksheets that will be defined by this template."
+    },
+    {
+      "no": 4,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 5,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 419,
+  "name": "IC Inbox Jnl. Line",
+  "slug": "419_ic_inbox_jnl_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the code of the intercompany partner that the transaction is related to if the entry was created from an intercompany transaction."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Account Type",
+      "tooltip": "Specifies the purpose of the account. Newly created accounts are automatically assigned the Posting account type, but you can change this."
+    },
+    {
+      "no": 5,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the entry on the journal line will be posted to."
+    },
+    {
+      "no": 6,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount (including VAT) that the journal line consists of."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description for the transaction on the journal line."
+    },
+    {
+      "no": 8,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is included in the total amount."
+    },
+    {
+      "no": 9,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that is used on the entry."
+    },
+    {
+      "no": 11,
+      "name": "Due Date",
+      "tooltip": "Specifies when the related invoice must be paid."
+    },
+    {
+      "no": 12,
+      "name": "Payment Discount %",
+      "tooltip": "Specifies the payment discount percentage that is granted if you pay on or before the date entered in the Pmt. Discount Date field. The discount percentage is specified in the Payment Terms Code field."
+    },
+    {
+      "no": 13,
+      "name": "Payment Discount Date",
+      "tooltip": "Specifies the last date on which the amount in the journal line must be paid for the order to qualify for a payment discount if the line is an invoice journal line."
+    },
+    {
+      "no": 14,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the item are specified on the line."
+    },
+    {
+      "no": 15,
+      "name": "Transaction Source",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Document No.",
+      "tooltip": ""
+    }
+  ]
+}

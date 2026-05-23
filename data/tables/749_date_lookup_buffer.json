@@ -1,0 +1,33 @@
+{
+  "id": 749,
+  "name": "Date Lookup Buffer",
+  "slug": "749_date_lookup_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Period Start",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Period No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the time period associated with the date lookup."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5073,
+  "name": "Campaign Status",
+  "slug": "5073_campaign_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the campaign status."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the campaign status."
+    }
+  ]
+}

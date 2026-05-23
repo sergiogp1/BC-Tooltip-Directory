@@ -1,0 +1,38 @@
+{
+  "id": 6083,
+  "name": "Serv. Price Adjustment Detail",
+  "slug": "6083_serv_price_adjustment_detail",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Serv. Price Adjmt. Gr. Code",
+      "tooltip": "Specifies the code of the service price adjustment group that applies to the posted service line."
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the type for the service item line to be adjusted."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Work Type",
+      "tooltip": "Specifies the work type of the resource."
+    },
+    {
+      "no": 5,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies the service item, resource, resource group, or service cost, of which the price will be adjusted, based on the value selected in the Type field."
+    }
+  ]
+}

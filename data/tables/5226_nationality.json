@@ -1,0 +1,18 @@
+{
+  "id": 5226,
+  "name": "Nationality",
+  "slug": "5226_nationality",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the value of the Code field."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the value of the Description field."
+    }
+  ]
+}

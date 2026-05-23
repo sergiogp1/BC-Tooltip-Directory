@@ -1,0 +1,83 @@
+{
+  "id": 5091,
+  "name": "Sales Cycle Stage",
+  "slug": "5091_sales_cycle_stage",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Sales Cycle Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Stage",
+      "tooltip": "Specifies the number of the stage within the sales cycle."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the sales cycle stage."
+    },
+    {
+      "no": 4,
+      "name": "Completed %",
+      "tooltip": "Specifies the percentage of the sales cycle that has been completed when the opportunity reaches this stage."
+    },
+    {
+      "no": 5,
+      "name": "Activity Code",
+      "tooltip": "Specifies the code of the activity linked to this sales cycle stage (if there is one)."
+    },
+    {
+      "no": 6,
+      "name": "Quote Required",
+      "tooltip": "Specifies that a quote is required at this stage before the opportunity can move to the next stage in the sales cycle."
+    },
+    {
+      "no": 7,
+      "name": "Allow Skip",
+      "tooltip": "Specifies that it is possible to skip this stage and move the opportunity to the next stage."
+    },
+    {
+      "no": 8,
+      "name": "Comment",
+      "tooltip": "Specifies that comments exist for this sales cycle stage."
+    },
+    {
+      "no": 9,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of opportunities that are currently at this stage in the sales cycle. This field is not editable."
+    },
+    {
+      "no": 10,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the estimated value of all the open opportunities that are at this stage of the sales cycle. This field is not editable."
+    },
+    {
+      "no": 11,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the calculated current value of all the open opportunities that are at this stage in the sales cycle. This field is not editable."
+    },
+    {
+      "no": 12,
+      "name": "Average No. of Days",
+      "tooltip": "Specifies the average number of days the opportunities have remained at this stage of the sales cycle. This field is not editable."
+    },
+    {
+      "no": 13,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Date Formula",
+      "tooltip": "Specifies how dates for planned activities are calculated when you run the Opportunity - Details report."
+    },
+    {
+      "no": 15,
+      "name": "Chances of Success %",
+      "tooltip": "Specifies the percentage of success that has been achieved when the opportunity reaches this stage."
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": 5077,
+  "name": "Segment Line",
+  "slug": "5077_segment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Segment No.",
+      "tooltip": "Specifies the number of the segment to which this segment line belongs."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 3,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact to which this segment line applies."
+    },
+    {
+      "no": 4,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign for which the segment line has been created."
+    },
+    {
+      "no": 5,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the salesperson who is responsible for this interaction."
+    },
+    {
+      "no": 6,
+      "name": "Correspondence Type",
+      "tooltip": "Specifies the type of correspondence for the interaction. NOTE: If you use the Web client, you must not select the Hard Copy option because printing is not possible from the web client."
+    },
+    {
+      "no": 7,
+      "name": "Interaction Template Code",
+      "tooltip": "Specifies the interaction template code of the interaction involving the contact on this segment line."
+    },
+    {
+      "no": 8,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the cost of the interaction with the contact that this segment line applies to."
+    },
+    {
+      "no": 9,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the duration of the interaction with the contact."
+    },
+    {
+      "no": 10,
+      "name": "Attachment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Campaign Response",
+      "tooltip": "Specifies that the interaction created for the segment is the response to a campaign. For example, coupons that are sent as a response to a campaign."
+    },
+    {
+      "no": 12,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact to which the segment line applies. The program automatically fills in this field when you fill in the Contact No. field on the line."
+    },
+    {
+      "no": 13,
+      "name": "Information Flow",
+      "tooltip": "Specifies the direction of the interaction, inbound or outbound."
+    },
+    {
+      "no": 14,
+      "name": "Initiated By",
+      "tooltip": "Specifies if the interaction was initiated by your company or by one of your contacts. The Us option indicates that your company was the initiator; the Them option indicates that a contact was the initiator."
+    },
+    {
+      "no": 15,
+      "name": "Contact Alt. Address Code",
+      "tooltip": "Specifies the code of the contact's alternate address to use for this interaction."
+    },
+    {
+      "no": 16,
+      "name": "Evaluation",
+      "tooltip": "Specifies the evaluation of the interaction involving the contact in the segment."
+    },
+    {
+      "no": 17,
+      "name": "Campaign Target",
+      "tooltip": "Specifies that the segment involved in this interaction is the target of a campaign. This is used to measure the response rate of a campaign."
+    },
+    {
+      "no": 18,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the company for which the contact works. If the contact is a company, this field contains the company's name."
+    },
+    {
+      "no": 19,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 22,
+      "name": "Description",
+      "tooltip": "Specifies what the interaction is about."
+    },
+    {
+      "no": 23,
+      "name": "Date",
+      "tooltip": "Specifies the date the segment line was created."
+    },
+    {
+      "no": 24,
+      "name": "Time of Interaction",
+      "tooltip": "Specifies the time when the call to the contact started."
+    },
+    {
+      "no": 25,
+      "name": "Attempt Failed",
+      "tooltip": "Specifies the attempt failed of the contact to whom the segment line applies."
+    },
+    {
+      "no": 26,
+      "name": "To-do No.",
+      "tooltip": "Specifies the To-do number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 27,
+      "name": "Contact Company No.",
+      "tooltip": "Specifies the contact company number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 28,
+      "name": "Campaign Entry No.",
+      "tooltip": "Specifies the campaign entry number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 29,
+      "name": "Interaction Group Code",
+      "tooltip": "Specifies the interaction group code of the contact to whom the segment line applies."
+    },
+    {
+      "no": 31,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type of the contact to whom the segment line applies."
+    },
+    {
+      "no": 32,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 33,
+      "name": "Send Word Doc. As Attmt.",
+      "tooltip": "Specifies that the Microsoft Word document that is linked to that segment line should be sent as an attachment in the e-mail message."
+    },
+    {
+      "no": 34,
+      "name": "Contact Via",
+      "tooltip": "Specifies the telephone number you used when calling the contact, or the e-mail address you used when sending an e-mail to the contact."
+    },
+    {
+      "no": 35,
+      "name": "Version No.",
+      "tooltip": "Specifies the version number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 36,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Subject",
+      "tooltip": "Specifies the subject of the segment line. The text in the field is used as the subject in e-mails and Word documents."
+    },
+    {
+      "no": 44,
+      "name": "Opportunity No.",
+      "tooltip": "Specifies the opportunity number of the contact to whom the segment line applies."
+    },
+    {
+      "no": 50,
+      "name": "Contact Phone No.",
+      "tooltip": "Specifies the telephone number of the contact to whom the segment line applies. The number will be filled in for you if you choose a contact in the Contact No. field on the line."
+    },
+    {
+      "no": 51,
+      "name": "Contact Mobile Phone No.",
+      "tooltip": "Specifies the mobile telephone number of the contact to whom the segment line applies. The number will be filled in for you if you choose a contact in the Contact No. field on the line."
+    },
+    {
+      "no": 52,
+      "name": "Contact Email",
+      "tooltip": "Specifies the email address of the contact to whom the segment line applies. The address will be filled in for you if you choose a contact in the Contact No. field on the line."
+    },
+    {
+      "no": 53,
+      "name": "Word Template Code",
+      "tooltip": "Specifies the Word Template code to use for merging."
+    },
+    {
+      "no": 54,
+      "name": "Merged",
+      "tooltip": ""
+    },
+    {
+      "no": 9501,
+      "name": "Wizard Step",
+      "tooltip": "Specifies the wizard step of the contact to whom the segment line applies."
+    },
+    {
+      "no": 9502,
+      "name": "Wizard Contact Name",
+      "tooltip": "Specifies the contact that you are interacting with."
+    },
+    {
+      "no": 9503,
+      "name": "Opportunity Description",
+      "tooltip": "Specifies the opportunity description of the contact to whom the segment line applies."
+    },
+    {
+      "no": 9504,
+      "name": "Campaign Description",
+      "tooltip": "Specifies the campaign that is related to the segment. The description is copied from the campaign card."
+    },
+    {
+      "no": 9505,
+      "name": "Interaction Successful",
+      "tooltip": "Specifies if the interaction was successful for the contact to whom the segment line applies."
+    },
+    {
+      "no": 9506,
+      "name": "Dial Contact",
+      "tooltip": "Specifies the dial contact of the contact to whom the segment line applies."
+    },
+    {
+      "no": 9507,
+      "name": "Mail Contact",
+      "tooltip": "Specifies the mail contact of the contact to whom the segment line applies."
+    }
+  ]
+}

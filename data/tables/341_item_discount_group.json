@@ -1,0 +1,18 @@
+{
+  "id": 341,
+  "name": "Item Discount Group",
+  "slug": "341_item_discount_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the item discount group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the item discount group."
+    }
+  ]
+}

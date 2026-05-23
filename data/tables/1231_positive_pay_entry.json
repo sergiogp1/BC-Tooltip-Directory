@@ -1,0 +1,63 @@
+{
+  "id": 1231,
+  "name": "Positive Pay Entry",
+  "slug": "1231_positive_pay_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the bank account number. If you select Balance at Date, the balance as of the last day in the relevant time interval is displayed."
+    },
+    {
+      "no": 2,
+      "name": "Upload Date-Time",
+      "tooltip": "Specifies when the Positive Pay file was uploaded."
+    },
+    {
+      "no": 5,
+      "name": "Last Upload Date",
+      "tooltip": "Specifies the last date that you exported a Positive Pay file."
+    },
+    {
+      "no": 6,
+      "name": "Last Upload Time",
+      "tooltip": "Specifies the last time that you exported a Positive Pay file."
+    },
+    {
+      "no": 7,
+      "name": "Number of Uploads",
+      "tooltip": "Specifies how many times the related Positive Pay file was uploaded."
+    },
+    {
+      "no": 8,
+      "name": "Number of Checks",
+      "tooltip": "Specifies how many checks were processed with the Positive Pay entry."
+    },
+    {
+      "no": 9,
+      "name": "Number of Voids",
+      "tooltip": "Specifies how many of the related checks were voided."
+    },
+    {
+      "no": 10,
+      "name": "Check Amount",
+      "tooltip": "Specifies the amount on the check."
+    },
+    {
+      "no": 11,
+      "name": "Void Amount",
+      "tooltip": "Specifies the amount in the Positive Pay file that is related to voided checks."
+    },
+    {
+      "no": 12,
+      "name": "Confirmation Number",
+      "tooltip": "Specifies the confirmation number that you receive when the file upload to the bank is successful."
+    },
+    {
+      "no": 13,
+      "name": "Exported File",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 7355,
+  "name": "Report Selection Warehouse",
+  "slug": "7355_report_selection_warehouse",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Usage",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Sequence",
+      "tooltip": "Specifies a number that indicates where this report is in the printing order."
+    },
+    {
+      "no": 3,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 4,
+      "name": "Report Caption",
+      "tooltip": "Specifies the display name of the report."
+    }
+  ]
+}

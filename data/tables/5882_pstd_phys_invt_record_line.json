@@ -1,0 +1,133 @@
+{
+  "id": 5882,
+  "name": "Pstd. Phys. Invt. Record Line",
+  "slug": "5882_pstd_phys_invt_record_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Order No.",
+      "tooltip": "Specifies the Order No. of the table physical inventory recording line."
+    },
+    {
+      "no": 2,
+      "name": "Recording No.",
+      "tooltip": "Specifies the Recording No. of the table physical inventory recording line."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the Line No. of the table physical inventory recording line."
+    },
+    {
+      "no": 16,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the Order Line No. of the table physical inventory recording line."
+    },
+    {
+      "no": 17,
+      "name": "Recorded without Order",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Item No.",
+      "tooltip": "Specifies the Item No. of the table physical inventory recording line."
+    },
+    {
+      "no": 21,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 22,
+      "name": "Location Code",
+      "tooltip": "Specifies the Location Code of the table physical inventory recording line."
+    },
+    {
+      "no": 23,
+      "name": "Bin Code",
+      "tooltip": "Specifies the Bin Code of the table physical inventory recording line."
+    },
+    {
+      "no": 30,
+      "name": "Description",
+      "tooltip": "Specifies the Description of the table physical inventory recording line."
+    },
+    {
+      "no": 31,
+      "name": "Description 2",
+      "tooltip": "Specifies the Description 2 of the table physical inventory recording line."
+    },
+    {
+      "no": 32,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the unit of measure used for the item, for example bottle or piece."
+    },
+    {
+      "no": 40,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 41,
+      "name": "Quantity",
+      "tooltip": "Specifies the Quantity of the table physical inventory recording line."
+    },
+    {
+      "no": 42,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the Quantity (Base) of the table physical inventory recording line."
+    },
+    {
+      "no": 43,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Recorded",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Use Item Tracking",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Shelf No.",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Date Recorded",
+      "tooltip": "Specifies the Date Recorded of the table physical inventory recording line."
+    },
+    {
+      "no": 101,
+      "name": "Time Recorded",
+      "tooltip": "Specifies the Time Recorded of the table physical inventory recording line."
+    },
+    {
+      "no": 102,
+      "name": "Person Recorded",
+      "tooltip": "Specifies the Person Recorded of the table physical inventory recording line."
+    },
+    {
+      "no": 130,
+      "name": "Serial No.",
+      "tooltip": "Specifies the Serial No. of the table physical inventory recording line."
+    },
+    {
+      "no": 131,
+      "name": "Lot No.",
+      "tooltip": "Specifies the Lot No. of the table physical inventory recording line."
+    },
+    {
+      "no": 132,
+      "name": "Package No.",
+      "tooltip": "Specifies the Package No. of the table physical inventory recording line."
+    }
+  ]
+}

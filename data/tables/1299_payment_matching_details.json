@@ -1,0 +1,38 @@
+{
+  "id": 1299,
+  "name": "Payment Matching Details",
+  "slug": "1299_payment_matching_details",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Statement Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Message",
+      "tooltip": "Specifies if a message with additional match details exists."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 1225,
+  "name": "Data Exch. Field Mapping",
+  "slug": "1225_data_exch_field_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Column No.",
+      "tooltip": "Specifies the number of the column in the external file that is mapped to the field in the Target Table ID field, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": "Specifies the number of the field in the external file that is mapped to the field in the Target Table ID field, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 5,
+      "name": "Optional",
+      "tooltip": "Specifies that the map will be skipped if the field is empty. If you do not select this check box, then an export error will occur if the field is empty. When the Use as Intermediate Table check box is selected, the Validate Only check box specifies that the element-to-field map is not used to convert data, but only to validate data."
+    },
+    {
+      "no": 6,
+      "name": "Use Default Value",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Default Value",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Data Exch. Line Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Multiplier",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Target Table ID",
+      "tooltip": "Specifies the table that the value in the Column Caption field is mapped to, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 11,
+      "name": "Target Field ID",
+      "tooltip": "Specifies the field in the target table that the value in the Column Caption field is mapped to, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 12,
+      "name": "Target Table Caption",
+      "tooltip": "Specifies the name of the table in the Target Table ID field, which is the table that the value in the Column Caption field is mapped to, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 14,
+      "name": "Target Table Field Caption",
+      "tooltip": "Specifies the name of the field in the target table that the value in the Column Caption field is mapped to, when you are using an intermediate table for data import."
+    },
+    {
+      "no": 20,
+      "name": "Transformation Rule",
+      "tooltip": "Specifies the rule that transforms imported text to a supported value before it can be mapped to a specified field in Microsoft Dynamics 365. When you choose a value in this field, the same value is entered in the Transformation Rule field in the Data Exch. Field Mapping Buf. table and vice versa."
+    },
+    {
+      "no": 21,
+      "name": "Overwrite Value",
+      "tooltip": "Specifies that the current value will be overwritten by a new value."
+    },
+    {
+      "no": 30,
+      "name": "Priority",
+      "tooltip": "Specifies the order that the field mappings must be processed. The field mapping with the highest number will be processed first."
+    }
+  ]
+}

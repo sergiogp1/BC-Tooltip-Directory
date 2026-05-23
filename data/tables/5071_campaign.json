@@ -1,0 +1,198 @@
+{
+  "id": 5071,
+  "name": "Campaign",
+  "slug": "5071_campaign",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the campaign."
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date on which the campaign is valid. There are certain rules for how dates should be entered."
+    },
+    {
+      "no": 4,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last day on which this campaign is valid."
+    },
+    {
+      "no": 5,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson responsible for the campaign."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the date when the campaign card was last modified. This field is not editable."
+    },
+    {
+      "no": 8,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 10,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 11,
+      "name": "Status Code",
+      "tooltip": "Specifies the status code for the campaign."
+    },
+    {
+      "no": 12,
+      "name": "Target Contacts Contacted",
+      "tooltip": "Specifies the number of target contacts that you have contacted with this campaign. The field is not editable."
+    },
+    {
+      "no": 13,
+      "name": "Contacts Responded",
+      "tooltip": "Specifies the number of contacts who have responded to the campaign. This field is not editable."
+    },
+    {
+      "no": 14,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the total time it took to complete all the interactions linked to the campaign. This field is not editable."
+    },
+    {
+      "no": 16,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the total cost of all the interactions created as part of the campaign. This field is not editable."
+    },
+    {
+      "no": 17,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of opportunities created as part of this campaign. This field is not editable."
+    },
+    {
+      "no": 18,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the estimated value of the opportunities created as part of this campaign. This field is not editable."
+    },
+    {
+      "no": 19,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the calculated current value of the opportunities linked to the campaign. This field is not editable."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Action Taken Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Sales Cycle Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Sales Cycle Stage Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Probability % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Completed % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Contact Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Contact Company Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Estimated Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Calcd. Current Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Chances of Success % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Task Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Task Closed Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Priority Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Team Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Salesperson Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Opportunity Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Task Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Close Opportunity Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Activated",
+      "tooltip": "Specifies if a sales lines price discount has been activated. After you set up a campaign and create segments for it, you can create discounts for targeted audiences."
+    }
+  ]
+}

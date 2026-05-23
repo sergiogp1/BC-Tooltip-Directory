@@ -1,0 +1,28 @@
+{
+  "id": 5874,
+  "name": "BOM Warning Log",
+  "slug": "5874_bom_warning_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Warning Description",
+      "tooltip": "Specifies the description of the warning associated with the entry."
+    },
+    {
+      "no": 6,
+      "name": "Table ID",
+      "tooltip": "Specifies the table ID associated with the entry."
+    },
+    {
+      "no": 7,
+      "name": "Table Position",
+      "tooltip": "Specifies the table position associated with the entry."
+    }
+  ]
+}

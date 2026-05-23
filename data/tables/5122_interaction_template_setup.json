@@ -1,0 +1,163 @@
+{
+  "id": 5122,
+  "name": "Interaction Template Setup",
+  "slug": "5122_interaction_template_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Sales Invoices",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales invoices as interactions."
+    },
+    {
+      "no": 3,
+      "name": "Sales Cr. Memo",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales credit memos as interactions."
+    },
+    {
+      "no": 4,
+      "name": "Sales Ord. Cnfrmn.",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales order confirmations as interactions."
+    },
+    {
+      "no": 5,
+      "name": "Sales Quotes",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales quotes as interactions."
+    },
+    {
+      "no": 6,
+      "name": "Purch Invoices",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase invoices as interactions."
+    },
+    {
+      "no": 7,
+      "name": "Purch Cr Memos",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase credit memos as interactions."
+    },
+    {
+      "no": 8,
+      "name": "Purch. Orders",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase orders as interactions."
+    },
+    {
+      "no": 9,
+      "name": "Purch. Quotes",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase quotes as interactions."
+    },
+    {
+      "no": 10,
+      "name": "E-Mails",
+      "tooltip": "Specifies the code of the interaction template to use when recording e-mails as interactions."
+    },
+    {
+      "no": 11,
+      "name": "Cover Sheets",
+      "tooltip": "Specifies the code of the interaction template to use when recording cover sheets as interactions."
+    },
+    {
+      "no": 12,
+      "name": "Outg. Calls",
+      "tooltip": "Specifies the code of the interaction template to use when recording outgoing phone calls as interactions."
+    },
+    {
+      "no": 13,
+      "name": "Sales Blnkt. Ord",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales blanket orders as interactions."
+    },
+    {
+      "no": 14,
+      "name": "Serv Ord Post",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Sales Shpt. Note",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales shipment notes as interactions."
+    },
+    {
+      "no": 16,
+      "name": "Sales Statement",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales statements as interactions."
+    },
+    {
+      "no": 17,
+      "name": "Sales Rmdr.",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales reminders as interactions."
+    },
+    {
+      "no": 18,
+      "name": "Serv Ord Create",
+      "tooltip": "Specifies the code of the interaction template to use when recording the creation of service orders as interactions."
+    },
+    {
+      "no": 19,
+      "name": "Purch Blnkt Ord",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase blanket orders as interactions."
+    },
+    {
+      "no": 20,
+      "name": "Purch. Rcpt.",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase receipts as interactions."
+    },
+    {
+      "no": 21,
+      "name": "Sales Return Order",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales return orders as interactions."
+    },
+    {
+      "no": 22,
+      "name": "Sales Return Receipt",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales return receipts as interactions."
+    },
+    {
+      "no": 23,
+      "name": "Sales Finance Charge Memo",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales finance charge memos as interactions."
+    },
+    {
+      "no": 24,
+      "name": "Purch. Return Shipment",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase return shipments as interactions."
+    },
+    {
+      "no": 25,
+      "name": "Purch. Return Ord. Cnfrmn.",
+      "tooltip": "Specifies the code of the interaction template to use when recording purchase return order confirmations as interactions."
+    },
+    {
+      "no": 27,
+      "name": "Service Contract",
+      "tooltip": "Specifies the code of the interaction template to use when recording service contracts as interactions."
+    },
+    {
+      "no": 28,
+      "name": "Service Contract Quote",
+      "tooltip": "Specifies the code of the interaction template to use when recording service contract quotes as interactions."
+    },
+    {
+      "no": 29,
+      "name": "Service Quote",
+      "tooltip": "Specifies the code of the interaction template to use when recording service quotes as interactions."
+    },
+    {
+      "no": 30,
+      "name": "Meeting Invitation",
+      "tooltip": "Specifies the code of the interaction template to use when recording meeting invitations as interactions."
+    },
+    {
+      "no": 35,
+      "name": "E-Mail Draft",
+      "tooltip": "Specifies the code of the interaction template to use when recording e-mail draft as interactions."
+    },
+    {
+      "no": 40,
+      "name": "Sales Draft Invoices",
+      "tooltip": "Specifies the code of the interaction template to use when recording sales draft invoices as interactions."
+    }
+  ]
+}

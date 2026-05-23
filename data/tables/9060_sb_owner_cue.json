@@ -1,0 +1,103 @@
+{
+  "id": 9060,
+  "name": "SB Owner Cue",
+  "slug": "9060_sb_owner_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Released Sales Quotes",
+      "tooltip": "Specifies the number of released sales quotes that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Open Sales Orders",
+      "tooltip": "Specifies the number of open sales orders that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Released Sales Orders",
+      "tooltip": "Specifies the number of released sales orders that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Released Purchase Orders",
+      "tooltip": "Specifies the number of released purchase orders that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Overdue Sales Documents",
+      "tooltip": "Specifies the number of overdue sales invoices that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Customers - Blocked",
+      "tooltip": "Specifies the number of blocked customers that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 9,
+      "name": "Purchase Documents Due Today",
+      "tooltip": "Specifies the number of purchase invoices that are displayed in the Order Cue in the Business Manager Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 10,
+      "name": "Vendors - Payment on Hold",
+      "tooltip": "Specifies the number of vendors with payments on hold that are displayed in the Small Business Owner Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 11,
+      "name": "Sales Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Unpaid Sales Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Overdue Sales Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Sales Quotes",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Due Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Overdue Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Purchase Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Unpaid Purchase Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Overdue Purchase Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": 14,
+  "name": "Location",
+  "slug": "14_location",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a location code for the warehouse or distribution center where your items are handled and stored before being sold."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name or address of the location."
+    },
+    {
+      "no": 130,
+      "name": "Default Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5701,
+      "name": "Address",
+      "tooltip": "Specifies the location address."
+    },
+    {
+      "no": 5702,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 5703,
+      "name": "City",
+      "tooltip": "Specifies the city of the location."
+    },
+    {
+      "no": 5704,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number of the location."
+    },
+    {
+      "no": 5705,
+      "name": "Phone No. 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5706,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5707,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number of the location."
+    },
+    {
+      "no": 5713,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the contact person at the location"
+    },
+    {
+      "no": 5714,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 5715,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 5718,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the location."
+    },
+    {
+      "no": 5719,
+      "name": "Home Page",
+      "tooltip": "Specifies the location's web site."
+    },
+    {
+      "no": 5720,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 5724,
+      "name": "Use As In-Transit",
+      "tooltip": "Specifies that this location is an in-transit location."
+    },
+    {
+      "no": 5726,
+      "name": "Require Put-away",
+      "tooltip": "Specifies if the location requires a dedicated warehouse activity when putting items away."
+    },
+    {
+      "no": 5727,
+      "name": "Require Pick",
+      "tooltip": "Specifies if the location requires a dedicated warehouse activity when picking items."
+    },
+    {
+      "no": 5728,
+      "name": "Cross-Dock Due Date Calc.",
+      "tooltip": "Specifies the cross-dock due date calculation."
+    },
+    {
+      "no": 5729,
+      "name": "Use Cross-Docking",
+      "tooltip": "Specifies if the location supports movement of items directly from the receiving dock to the shipping dock."
+    },
+    {
+      "no": 5730,
+      "name": "Require Receive",
+      "tooltip": "Specifies if the location requires a receipt document when receiving items."
+    },
+    {
+      "no": 5731,
+      "name": "Require Shipment",
+      "tooltip": "Specifies if the location requires a shipment document when shipping items."
+    },
+    {
+      "no": 5732,
+      "name": "Bin Mandatory",
+      "tooltip": "Specifies if the location requires that a bin code is specified on all item transactions."
+    },
+    {
+      "no": 5733,
+      "name": "Directed Put-away and Pick",
+      "tooltip": "Specifies if the location requires advanced warehouse functionality, such as calculated bin suggestion."
+    },
+    {
+      "no": 5734,
+      "name": "Default Bin Selection",
+      "tooltip": "Specifies the method used to select the default bin."
+    },
+    {
+      "no": 5790,
+      "name": "Outbound Whse. Handling Time",
+      "tooltip": "Specifies a date formula for the time it takes to get items ready to ship from this location. The time element is used in the calculation of the delivery date as follows: Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date + Shipping Time = Planned Delivery Date."
+    },
+    {
+      "no": 5791,
+      "name": "Inbound Whse. Handling Time",
+      "tooltip": "Specifies the time it takes to make items part of available inventory, after the items have been posted as received."
+    },
+    {
+      "no": 7305,
+      "name": "Put-away Template Code",
+      "tooltip": "Specifies the put-away template to be used at this location."
+    },
+    {
+      "no": 7306,
+      "name": "Use Put-away Worksheet",
+      "tooltip": "Specifies if put-aways for posted warehouse receipts must be created with the put-away worksheet. If the check box is not selected, put-aways are created directly when you post a warehouse receipt or production output."
+    },
+    {
+      "no": 7307,
+      "name": "Pick According to FEFO",
+      "tooltip": "Specifies whether to use the First-Expired-First-Out (FEFO) method to determine which items to pick, according to expiration dates."
+    },
+    {
+      "no": 7308,
+      "name": "Allow Breakbulk",
+      "tooltip": "Specifies that an order can be fulfilled with items stored in alternate units of measure, if an item stored in the requested unit of measure is not found. This feature is applicable only with directed put-away and pick locations."
+    },
+    {
+      "no": 7309,
+      "name": "Bin Capacity Policy",
+      "tooltip": "Specifies how bins are automatically filled, according to their capacity."
+    },
+    {
+      "no": 7310,
+      "name": "Pick Bin Policy",
+      "tooltip": "Specifies how bins are automatically selected for inventory picks."
+    },
+    {
+      "no": 7311,
+      "name": "Check Whse. Class",
+      "tooltip": "Specifies if the warehouse class should be checked."
+    },
+    {
+      "no": 7312,
+      "name": "Put-away Bin Policy",
+      "tooltip": ""
+    },
+    {
+      "no": 7313,
+      "name": "Open Shop Floor Bin Code",
+      "tooltip": "Specifies the bin that functions as the default open shop floor bin."
+    },
+    {
+      "no": 7317,
+      "name": "Adjustment Bin Code",
+      "tooltip": "Specifies the code of the bin in which you record observed differences in inventory quantities."
+    },
+    {
+      "no": 7319,
+      "name": "Always Create Put-away Line",
+      "tooltip": "Specifies that a put-away line is created, even if an appropriate zone and bin in which to place the items cannot be found."
+    },
+    {
+      "no": 7320,
+      "name": "Always Create Pick Line",
+      "tooltip": "Specifies that a pick line is created, even if an appropriate zone and bin from which to pick the item cannot be found."
+    },
+    {
+      "no": 7321,
+      "name": "Special Equipment",
+      "tooltip": "Specifies where the program will first looks for special equipment designated for warehouse activities."
+    },
+    {
+      "no": 7323,
+      "name": "Receipt Bin Code",
+      "tooltip": "Specifies the default receipt bin code."
+    },
+    {
+      "no": 7325,
+      "name": "Shipment Bin Code",
+      "tooltip": "Specifies the default shipment bin code."
+    },
+    {
+      "no": 7326,
+      "name": "Cross-Dock Bin Code",
+      "tooltip": "Specifies the bin code that is used by default for the receipt of items to be cross-docked."
+    },
+    {
+      "no": 7330,
+      "name": "To-Assembly Bin Code",
+      "tooltip": "Specifies the bin in the assembly area where components are placed by default before they can be consumed in assembly."
+    },
+    {
+      "no": 7331,
+      "name": "From-Assembly Bin Code",
+      "tooltip": "Specifies the bin in the assembly area where finished assembly items are posted to when they are assembled to stock."
+    },
+    {
+      "no": 7332,
+      "name": "Asm.-to-Order Shpt. Bin Code",
+      "tooltip": "Specifies the bin where finished assembly items are posted to when they are assembled to a linked sales order."
+    },
+    {
+      "no": 7333,
+      "name": "To-Job Bin Code",
+      "tooltip": "Specifies the bin where an item will be put away or picked in warehouse and inventory processes at this location. For example, when you choose this location on a project planning line, this bin will be suggested."
+    },
+    {
+      "no": 7334,
+      "name": "Asm. Consump. Whse. Handling",
+      "tooltip": "Specifies the warehouse handling for consumption in assembly scenarios."
+    },
+    {
+      "no": 7335,
+      "name": "Job Consump. Whse. Handling",
+      "tooltip": "Specifies the warehouse handling for consumption in project scenarios."
+    },
+    {
+      "no": 7600,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies a customizable calendar for planning that holds the location's working days and holidays."
+    },
+    {
+      "no": 7700,
+      "name": "Use ADCS",
+      "tooltip": "Specifies the automatic data capture system that warehouse employees must use to keep track of items within the warehouse."
+    }
+  ]
+}

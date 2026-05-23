@@ -1,0 +1,48 @@
+{
+  "id": 7700,
+  "name": "Miniform Header",
+  "slug": "7700_miniform_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique code for a specific miniform."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies your description of the miniform with the code on the header."
+    },
+    {
+      "no": 12,
+      "name": "No. of Records in List",
+      "tooltip": "Specifies the number of records that will be sent to the handheld if the miniform on the header is either Selection List or Data List."
+    },
+    {
+      "no": 13,
+      "name": "Form Type",
+      "tooltip": "Specifies the form type of the miniform."
+    },
+    {
+      "no": 15,
+      "name": "Start Miniform",
+      "tooltip": "Specifies that this field is the first miniform that will be shown to the user when starting up a handheld."
+    },
+    {
+      "no": 20,
+      "name": "Handling Codeunit",
+      "tooltip": "Specifies the number of the codeunit containing the code that handles this miniform."
+    },
+    {
+      "no": 21,
+      "name": "Next Miniform",
+      "tooltip": "Specifies which form will be shown next when a selection is made in a Data List form or when the last field is entered on a Card form."
+    },
+    {
+      "no": 25,
+      "name": "XMLin",
+      "tooltip": ""
+    }
+  ]
+}

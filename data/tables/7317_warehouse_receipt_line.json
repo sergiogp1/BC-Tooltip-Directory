@@ -1,0 +1,213 @@
+{
+  "id": 7317,
+  "name": "Warehouse Receipt Line",
+  "slug": "7317_warehouse_receipt_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number."
+    },
+    {
+      "no": 3,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 7,
+      "name": "Source Line No.",
+      "tooltip": "Specifies the line number of the source document that the entry originates from."
+    },
+    {
+      "no": 9,
+      "name": "Source Document",
+      "tooltip": "Specifies the type of document that the line relates to."
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the items should be received."
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number of the item for information use."
+    },
+    {
+      "no": 12,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 13,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone in which the items are being received."
+    },
+    {
+      "no": 14,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is expected to be received."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity that should be received."
+    },
+    {
+      "no": 16,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity to be received, in the base unit of measure."
+    },
+    {
+      "no": 19,
+      "name": "Qty. Outstanding",
+      "tooltip": "Specifies the quantity that still needs to be handled."
+    },
+    {
+      "no": 20,
+      "name": "Qty. Outstanding (Base)",
+      "tooltip": "Specifies the quantity that still needs to be handled, in the base unit of measure."
+    },
+    {
+      "no": 21,
+      "name": "Qty. to Receive",
+      "tooltip": "Specifies the quantity of items that remains to be received."
+    },
+    {
+      "no": 22,
+      "name": "Qty. to Receive (Base)",
+      "tooltip": "Specifies the Qty. to Receive in the base unit of measure."
+    },
+    {
+      "no": 23,
+      "name": "Qty. Received",
+      "tooltip": "Specifies the quantity for this line that has been posted as received."
+    },
+    {
+      "no": 24,
+      "name": "Qty. Received (Base)",
+      "tooltip": "Specifies the quantity received, in the base unit of measure."
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure, that are in the unit of measure specified for the item on the line."
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item in the line."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies a second description of the item on the line."
+    },
+    {
+      "no": 34,
+      "name": "Status",
+      "tooltip": "Specifies the status of the warehouse receipt."
+    },
+    {
+      "no": 35,
+      "name": "Sorting Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the date on which you expect to receive the items on the line."
+    },
+    {
+      "no": 37,
+      "name": "Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Cubage",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Not upd. by Src. Doc. Post.",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Posting from Whse. Ref.",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Qty. to Cross-Dock",
+      "tooltip": "Specifies the suggested quantity to put into the cross-dock bin on the put-away document when the receipt is posted."
+    },
+    {
+      "no": 51,
+      "name": "Qty. to Cross-Dock (Base)",
+      "tooltip": "Specifies the suggested base quantity to put into the cross-dock bin on the put-away document hen the receipt is posted."
+    },
+    {
+      "no": 52,
+      "name": "Cross-Dock Zone Code",
+      "tooltip": "Specifies the zone code that will be used for the quantity of items to be cross-docked."
+    },
+    {
+      "no": 53,
+      "name": "Cross-Dock Bin Code",
+      "tooltip": "Specifies the bin code that will be used for the quantity of items to be cross-docked."
+    },
+    {
+      "no": 55,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 8509,
+      "name": "Over-Receipt Quantity",
+      "tooltip": "Specifies over-receipt quantity."
+    },
+    {
+      "no": 8510,
+      "name": "Over-Receipt Code",
+      "tooltip": "Specifies over-receip code."
+    }
+  ]
+}

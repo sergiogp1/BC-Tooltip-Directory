@@ -1,0 +1,28 @@
+{
+  "id": 78,
+  "name": "Printer Selection",
+  "slug": "78_printer_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user for whom you want to define permissions."
+    },
+    {
+      "no": 2,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 3,
+      "name": "Printer Name",
+      "tooltip": "Specifies the printer that the user will be allowed to use or on which the report will be printed."
+    },
+    {
+      "no": 4,
+      "name": "Report Caption",
+      "tooltip": "Specifies the display name of the report."
+    }
+  ]
+}

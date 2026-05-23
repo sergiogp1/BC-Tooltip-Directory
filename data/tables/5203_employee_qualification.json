@@ -1,0 +1,73 @@
+{
+  "id": 5203,
+  "name": "Employee Qualification",
+  "slug": "5203_employee_qualification",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": "Specifies a number for the employee."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Qualification Code",
+      "tooltip": "Specifies a qualification code for the employee."
+    },
+    {
+      "no": 4,
+      "name": "From Date",
+      "tooltip": "Specifies the date when the employee started working on obtaining this qualification."
+    },
+    {
+      "no": 5,
+      "name": "To Date",
+      "tooltip": "Specifies the date when the employee is considered to have obtained this qualification."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies a type for the qualification, which specifies where the qualification was obtained."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the qualification."
+    },
+    {
+      "no": 8,
+      "name": "Institution/Company",
+      "tooltip": "Specifies the institution from which the employee obtained the qualification."
+    },
+    {
+      "no": 9,
+      "name": "Cost",
+      "tooltip": "Specifies the cost of the qualification."
+    },
+    {
+      "no": 10,
+      "name": "Course Grade",
+      "tooltip": "Specifies the grade that the employee received for the course, specified by the qualification on this line."
+    },
+    {
+      "no": 11,
+      "name": "Employee Status",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies whether a comment was entered for this entry."
+    },
+    {
+      "no": 13,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the date when the qualification on this line expires."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1302,
+  "name": "Dimensions Template",
+  "slug": "1302_dimensions_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the code for the default dimension."
+    },
+    {
+      "no": 4,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the dimension value code to suggest as the default dimension."
+    },
+    {
+      "no": 5,
+      "name": "Value Posting",
+      "tooltip": "Specifies how default dimensions and their values must be used."
+    },
+    {
+      "no": 50,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Table Id",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Master Record Template Code",
+      "tooltip": ""
+    }
+  ]
+}

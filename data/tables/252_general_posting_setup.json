@@ -1,0 +1,168 @@
+{
+  "id": 252,
+  "name": "General Posting Setup",
+  "slug": "252_general_posting_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 2,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 10,
+      "name": "Sales Account",
+      "tooltip": "Specifies the number of the general ledger sales account to which the program will post sales transactions with this particular combination of business group and product group."
+    },
+    {
+      "no": 11,
+      "name": "Sales Line Disc. Account",
+      "tooltip": "Specifies the general ledger account number to post customer/item and quantity discounts when you post sales transactions with this particular combination of business group and product group."
+    },
+    {
+      "no": 12,
+      "name": "Sales Inv. Disc. Account",
+      "tooltip": "Specifies the general ledger account number to which to post sales invoice discount amounts when you post sales transactions for this particular combination of business group and product group. To see the account numbers in the"
+    },
+    {
+      "no": 13,
+      "name": "Sales Pmt. Disc. Debit Acc.",
+      "tooltip": "Specifies the general ledger account number to post granted sales payment discount amounts when you post payments for sales with this particular combination of business group and product group."
+    },
+    {
+      "no": 14,
+      "name": "Purch. Account",
+      "tooltip": "Specifies the general ledger account number to which the program will post purchase transactions with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 15,
+      "name": "Purch. Line Disc. Account",
+      "tooltip": "Specifies the general ledger account number to which to post purchase line discount amounts with this particular combination of business group and product group."
+    },
+    {
+      "no": 16,
+      "name": "Purch. Inv. Disc. Account",
+      "tooltip": "Specifies the general ledger account number to which to post purchase invoice discount amounts with this particular combination of business group and product group."
+    },
+    {
+      "no": 17,
+      "name": "Purch. Pmt. Disc. Credit Acc.",
+      "tooltip": "Specifies the general ledger account number to which to post received purchase payment discount amounts when you post payments for purchases with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 18,
+      "name": "COGS Account",
+      "tooltip": "Specifies the general ledger account number to which to post the cost of goods sold with this particular combination of business group and product group."
+    },
+    {
+      "no": 19,
+      "name": "Inventory Adjmt. Account",
+      "tooltip": "Specifies the general ledger account number to post inventory adjustments with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 27,
+      "name": "Sales Credit Memo Account",
+      "tooltip": "Specifies the general ledger account number to which the program will post transactions involving sales credit memos for this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 28,
+      "name": "Purch. Credit Memo Account",
+      "tooltip": "Specifies the general ledger account number to which the program will post transactions involving purchase credit memos for this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 30,
+      "name": "Sales Pmt. Disc. Credit Acc.",
+      "tooltip": "Specifies the general ledger account number to which to post reductions in sales payment discount amounts when you post payments for sales with this particular combination of business group and product group."
+    },
+    {
+      "no": 31,
+      "name": "Purch. Pmt. Disc. Debit Acc.",
+      "tooltip": "Specifies the general ledger account number to which to post reductions in purchase payment discount amounts when you post payments for purchases with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 32,
+      "name": "Sales Pmt. Tol. Debit Acc.",
+      "tooltip": "Specifies the number of the G/L account to which you want the program to post payment tolerance for purchases with this combination."
+    },
+    {
+      "no": 33,
+      "name": "Sales Pmt. Tol. Credit Acc.",
+      "tooltip": "Specifies the number of the G/L account to which you want the program to post payment tolerance for purchases with this combination."
+    },
+    {
+      "no": 34,
+      "name": "Purch. Pmt. Tol. Debit Acc.",
+      "tooltip": "Specifies the number of the G/L account to which you want the program to post payment tolerance for purchases with this combination."
+    },
+    {
+      "no": 35,
+      "name": "Purch. Pmt. Tol. Credit Acc.",
+      "tooltip": "Specifies the number of the G/L account to which you want the program to post payment tolerance for purchases with this combination."
+    },
+    {
+      "no": 36,
+      "name": "Sales Prepayments Account",
+      "tooltip": "Specifies the number of the general ledger account to post purchase prepayment amounts to."
+    },
+    {
+      "no": 37,
+      "name": "Purch. Prepayments Account",
+      "tooltip": "Specifies the number of the general ledger account to post purchase prepayment amounts to."
+    },
+    {
+      "no": 50,
+      "name": "Description",
+      "tooltip": "Specifies a description of the general posting setup."
+    },
+    {
+      "no": 51,
+      "name": "View All Accounts on Lookup",
+      "tooltip": "Specifies that all possible accounts are shown when you look up from a field. If the check box is not selected, then only accounts related to the involved account category are shown."
+    },
+    {
+      "no": 52,
+      "name": "Blocked",
+      "tooltip": "Specifies if this particular combination of general business posting group and general product posting group is blocked."
+    },
+    {
+      "no": 5600,
+      "name": "Purch. FA Disc. Account",
+      "tooltip": "Specifies the account the line and invoice discount will be posted to when a check mark is placed in the Subtract Disc. in Purch. Inv. field."
+    },
+    {
+      "no": 5801,
+      "name": "Invt. Accrual Acc. (Interim)",
+      "tooltip": "Specifies the number of the G/L account to which you want to post expected inventory adjustments (positive and negative)."
+    },
+    {
+      "no": 5803,
+      "name": "COGS Account (Interim)",
+      "tooltip": "Specifies the number of the interim G/L account to which you want the program to post the expected cost of goods sold with this combination of business group and product group."
+    },
+    {
+      "no": 6000,
+      "name": "Direct Cost Non-Inv. App. Acc.",
+      "tooltip": "Specifies the general ledger account number to post the direct cost non-inventory applied with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 99000752,
+      "name": "Direct Cost Applied Account",
+      "tooltip": "Specifies the general ledger account number to post the direct cost applied with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 99000753,
+      "name": "Overhead Applied Account",
+      "tooltip": "Specifies the general ledger account number to post the overhead applied with this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 99000754,
+      "name": "Purchase Variance Account",
+      "tooltip": "Specifies the general ledger account number to post the direct cost applied with this particular combination of business posting group and product posting group."
+    }
+  ]
+}

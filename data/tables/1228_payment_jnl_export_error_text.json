@@ -1,0 +1,48 @@
+{
+  "id": 1228,
+  "name": "Payment Jnl. Export Error Text",
+  "slug": "1228_payment_jnl_export_error_text",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Journal Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Error Text",
+      "tooltip": "Specifies the error that is shown in the Payment Journal window in case payment lines cannot be exported."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Additional Information",
+      "tooltip": "Specifies more information that may help you resolve the error."
+    },
+    {
+      "no": 8,
+      "name": "Support URL",
+      "tooltip": "Specifies a web page containing information that may help you resolve the error."
+    }
+  ]
+}

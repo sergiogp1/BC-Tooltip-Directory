@@ -1,0 +1,53 @@
+{
+  "id": 6754,
+  "name": "Reminder Automation Error",
+  "slug": "6754_reminder_automation_error",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ReminderActionId",
+      "tooltip": "Specifies the id of the reminder action that caused the error."
+    },
+    {
+      "no": 3,
+      "name": "Error Text",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Error Call Stack",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Error Text Short",
+      "tooltip": "Specifies the error message. Invoke the error message to see the full error message."
+    },
+    {
+      "no": 6,
+      "name": "Run Id",
+      "tooltip": "Specifies the id of the reminder action job that caused the error."
+    },
+    {
+      "no": 7,
+      "name": "Error Type",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Reminder Action Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Dismissed",
+      "tooltip": ""
+    }
+  ]
+}

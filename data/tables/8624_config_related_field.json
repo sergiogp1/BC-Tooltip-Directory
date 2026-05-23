@@ -1,0 +1,38 @@
+{
+  "id": 8624,
+  "name": "Config. Related Field",
+  "slug": "8624_config_related_field",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Field ID",
+      "tooltip": "Specifies the ID of the field in the related table."
+    },
+    {
+      "no": 3,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field in the configuration table that is related to the relation table."
+    },
+    {
+      "no": 4,
+      "name": "Field Caption",
+      "tooltip": "Specifies the caption of the field in the configuration table that is related to the relation table."
+    },
+    {
+      "no": 8,
+      "name": "Relation Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Relation Table Name",
+      "tooltip": ""
+    }
+  ]
+}

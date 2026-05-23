@@ -1,0 +1,18 @@
+{
+  "id": 7304,
+  "name": "Warehouse Class",
+  "slug": "7304_warehouse_class",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the warehouse class."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the warehouse class."
+    }
+  ]
+}

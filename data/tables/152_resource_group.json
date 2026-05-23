@@ -1,0 +1,93 @@
+{
+  "id": 152,
+  "name": "Resource Group",
+  "slug": "152_resource_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies a short description of the resource group."
+    },
+    {
+      "no": 22,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Capacity",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Qty. on Order (Job)",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Qty. Quoted (Job)",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Unit of Measure Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Usage (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Usage (Cost)",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Usage (Price)",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Sales (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Sales (Cost)",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Sales (Price)",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Chargeable Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "No. of Resources Assigned",
+      "tooltip": ""
+    }
+  ]
+}

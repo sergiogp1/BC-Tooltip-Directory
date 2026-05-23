@@ -1,0 +1,23 @@
+{
+  "id": 200,
+  "name": "Work Type",
+  "slug": "200_work_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify the work type."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of this work type."
+    },
+    {
+      "no": 3,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    }
+  ]
+}

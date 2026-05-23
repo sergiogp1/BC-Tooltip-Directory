@@ -1,0 +1,308 @@
+{
+  "id": 5407,
+  "name": "Prod. Order Component",
+  "slug": "5407_prod_order_component",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Status",
+      "tooltip": "Specifies the status of the production order to which the component list belongs."
+    },
+    {
+      "no": 2,
+      "name": "Prod. Order No.",
+      "tooltip": "Specifies the number of the related production order."
+    },
+    {
+      "no": 3,
+      "name": "Prod. Order Line No.",
+      "tooltip": "Specifies the number of the production order line to which the component list belongs."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is a component in the production order component list."
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item on the line."
+    },
+    {
+      "no": 13,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 14,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Position",
+      "tooltip": "Specifies the position of the component on the bill of material."
+    },
+    {
+      "no": 16,
+      "name": "Position 2",
+      "tooltip": "Specifies the components position in the BOM. It is copied from the production BOM when you calculate the production order."
+    },
+    {
+      "no": 17,
+      "name": "Position 3",
+      "tooltip": "Specifies the third reference number for the component position on a bill of material, such as the alternate position number of a component on a print card."
+    },
+    {
+      "no": 18,
+      "name": "Lead-Time Offset",
+      "tooltip": "Specifies the lead-time offset for the component line. It is copied from the corresponding field in the production BOM when you calculate the production order."
+    },
+    {
+      "no": 19,
+      "name": "Routing Link Code",
+      "tooltip": "Specifies the routing link code when you calculate the production order."
+    },
+    {
+      "no": 20,
+      "name": "Scrap %",
+      "tooltip": "Specifies the percentage of the item that you expect to be scrapped in the production process."
+    },
+    {
+      "no": 21,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 22,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Expected Quantity",
+      "tooltip": "Specifies the quantity of the component expected to be consumed during the production of the quantity on this line."
+    },
+    {
+      "no": 26,
+      "name": "Remaining Quantity",
+      "tooltip": "Specifies the difference between the finished and planned quantities, or zero if the finished quantity is greater than the remaining quantity."
+    },
+    {
+      "no": 27,
+      "name": "Act. Consumption (Qty)",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Flushing Method",
+      "tooltip": "Specifies how consumption of the item (component) is calculated and handled in production processes. Manual: Enter and post consumption in the consumption journal manually. Forward: Automatically posts consumption according to the production order component lines when the first operation starts. Backward: Automatically calculates and posts consumption according to the production order component lines when the production order is finished. Pick + Forward / Pick + Backward: Variations with warehousing."
+    },
+    {
+      "no": 29,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    },
+    {
+      "no": 30,
+      "name": "Location Code",
+      "tooltip": "Specifies the location where the component is stored. It is copied from the corresponding field on the production order line."
+    },
+    {
+      "no": 31,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 32,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 33,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin in which the component is to be placed before it is consumed."
+    },
+    {
+      "no": 35,
+      "name": "Supplied-by Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Planning Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Item Low-Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Length",
+      "tooltip": "Specifies the length of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 41,
+      "name": "Width",
+      "tooltip": "Specifies the width of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 42,
+      "name": "Weight",
+      "tooltip": "Specifies the weight of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 43,
+      "name": "Depth",
+      "tooltip": "Specifies the depth of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 44,
+      "name": "Calculation Formula",
+      "tooltip": "Specifies how to calculate the Quantity field."
+    },
+    {
+      "no": 45,
+      "name": "Quantity per",
+      "tooltip": "Specifies how many units of the component are required to produce the parent item."
+    },
+    {
+      "no": 50,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 51,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total cost on the line by multiplying the unit cost by the quantity."
+    },
+    {
+      "no": 52,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the production order component must be available for consumption. The date is copied from the Starting Date field on the related production order line."
+    },
+    {
+      "no": 53,
+      "name": "Due Time",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Remaining Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the reserved quantity of the item in base units of measure."
+    },
+    {
+      "no": 71,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies how many units of this item have been reserved."
+    },
+    {
+      "no": 73,
+      "name": "Expected Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Due Date-Time",
+      "tooltip": "Specifies the due date and the due time, which are combined in a format called \"due date-time\"."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5702,
+      "name": "Substitution Available",
+      "tooltip": "Specifies if an item substitute is available for the production order component."
+    },
+    {
+      "no": 5703,
+      "name": "Original Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Original Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5750,
+      "name": "Pick Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 7300,
+      "name": "Qty. Picked",
+      "tooltip": "Specifies the quantity of the item you have picked for the component line."
+    },
+    {
+      "no": 7301,
+      "name": "Qty. Picked (Base)",
+      "tooltip": "Specifies the quantity of the item you have picked for the component line."
+    },
+    {
+      "no": 7302,
+      "name": "Completely Picked",
+      "tooltip": ""
+    },
+    {
+      "no": 7303,
+      "name": "Pick Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 99000754,
+      "name": "Direct Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000755,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 99000756,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 99000757,
+      "name": "Direct Cost Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 99000758,
+      "name": "Overhead Amount",
+      "tooltip": ""
+    }
+  ]
+}

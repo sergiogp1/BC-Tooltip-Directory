@@ -1,0 +1,213 @@
+{
+  "id": 5335,
+  "name": "Integration Table Mapping",
+  "slug": "5335_integration_table_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the integration table mapping entry."
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Integration Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Synch. Codeunit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Integration Table UID Fld. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Int. Tbl. Modified On Fld. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Int. Table UID Field Type",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Table Config Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Int. Tbl. Config Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Direction",
+      "tooltip": "Specifies the synchronization direction."
+    },
+    {
+      "no": 11,
+      "name": "Int. Tbl. Caption Prefix",
+      "tooltip": "Specifies text that appears before the caption of the integration table wherever the caption is used."
+    },
+    {
+      "no": 12,
+      "name": "Synch. Int. Tbl. Mod. On Fltr.",
+      "tooltip": "Specifies a date/time filter that uses the date on which records were modified to determine which records to synchronize to the integration system. The filter is based on the SystemModifiedAt field on the Business Central table records."
+    },
+    {
+      "no": 13,
+      "name": "Synch. Modified On Filter",
+      "tooltip": "Specifies a date/time filter that uses the date on which records were modified to determine which records to synchronize from the system you are integrating with. The filter is based on the Modified On field on the integration table records."
+    },
+    {
+      "no": 14,
+      "name": "Table Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Integration Table Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Synch. Only Coupled Records",
+      "tooltip": "Specifies if the synchronization engine will process only currently coupled records or couple the newly created records as well."
+    },
+    {
+      "no": 17,
+      "name": "Parent Name",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Graph Delta Token",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Int. Tbl. Delta Token Fld. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Int. Tbl. ChangeKey Fld. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Int. Tbl. State Fld. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Delete After Synchronization",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "BC Rec Page Id",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "CDS Rec Page Id",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Deletion-Conflict Resolution",
+      "tooltip": "Specifies the action to take when a coupled record is deleted in one of the connected applications."
+    },
+    {
+      "no": 26,
+      "name": "Update-Conflict Resolution",
+      "tooltip": "Specifies the action to take when a coupled record is updated in both of the connected applications."
+    },
+    {
+      "no": 27,
+      "name": "Uncouple Codeunit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Coupling Codeunit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Synch. After Bulk Coupling",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Dependency Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Create New in Case of No Match",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Disable Event Job Resch.",
+      "tooltip": "Specifies if event-based rescheduling of synchronization jobs should be turned off for this table mapping."
+    },
+    {
+      "no": 34,
+      "name": "Multi Company Synch. Enabled",
+      "tooltip": "Specifies if the multi-company synchronization is enabled for this mapping."
+    },
+    {
+      "no": 35,
+      "name": "Table Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "No. of Errors",
+      "tooltip": "Specifies the number of errors for this mapping."
+    },
+    {
+      "no": 99,
+      "name": "No. of Skipped",
+      "tooltip": "Specifies the number of records that are excluded from the synchronization because of repetitive errors."
+    },
+    {
+      "no": 100,
+      "name": "Full Sync is Running",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Full Sync Session ID",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Last Full Sync Start DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "User Defined",
+      "tooltip": "Specifies if the field is generated manually through the integration table mapping wizard."
+    }
+  ]
+}

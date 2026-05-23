@@ -1,0 +1,43 @@
+{
+  "id": 8615,
+  "name": "Config. Package Data",
+  "slug": "8615_config_package_data",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": "Specifies the code of the package that contains the data that is being created."
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Value",
+      "tooltip": "Specifies the value that has been entered for the field in the configuration package record. As needed, you can update and modify the information in this field, which you can use for comments. You can also correct the errors that are preventing the record from being part of the configuration. This is indicated when the Invalid check box is selected."
+    },
+    {
+      "no": 6,
+      "name": "Invalid",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "BLOB Value",
+      "tooltip": ""
+    }
+  ]
+}

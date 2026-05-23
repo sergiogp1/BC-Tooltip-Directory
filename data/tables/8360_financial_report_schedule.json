@@ -1,0 +1,108 @@
+{
+  "id": 8360,
+  "name": "Financial Report Schedule",
+  "slug": "8360_financial_report_schedule",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Financial Report Name",
+      "tooltip": "Specifies the name of the financial report."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code of the schedule."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description."
+    },
+    {
+      "no": 4,
+      "name": "Export to Excel",
+      "tooltip": "Specifies if the report will be exported to Excel."
+    },
+    {
+      "no": 5,
+      "name": "Export to PDF",
+      "tooltip": "Specifies if the report will be exported to PDF."
+    },
+    {
+      "no": 6,
+      "name": "Excel Template Code",
+      "tooltip": "Specifies the Excel template used when exporting to Excel. If not specified, the template on the financial report definition is used instead."
+    },
+    {
+      "no": 7,
+      "name": "Send Email",
+      "tooltip": "Specifies if the exported Excel or PDF file will be sent to users via email. You can specify who will receive the email in Financial Report Recipients."
+    },
+    {
+      "no": 8,
+      "name": "Next Run Date/Time",
+      "tooltip": "Specifies the next date and time this schedule will run."
+    },
+    {
+      "no": 9,
+      "name": "Recurrence Run Date Formula",
+      "tooltip": "Specifies the date formula that is used to calculate the next time this schedule will run. For example use CM+1M to run the report at the end of every month."
+    },
+    {
+      "no": 10,
+      "name": "Expiration Date/Time",
+      "tooltip": "Specifies the date and time when the schedule is to expire, after which the schedule will not be run."
+    },
+    {
+      "no": 11,
+      "name": "Report Filters",
+      "tooltip": "Specifies the filters used when exporting this schedule to Excel."
+    },
+    {
+      "no": 12,
+      "name": "Report Parameters",
+      "tooltip": "Specifies the parameters used when exporting this schedule to PDF."
+    },
+    {
+      "no": 13,
+      "name": "Financial Report Row Group",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Financial Report Column Group",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Start Date Filter Formula",
+      "tooltip": "Specifies the date formula used to automatically calculate the start date of the report date filter. If not specified, the value on the financial report definition is used instead."
+    },
+    {
+      "no": 16,
+      "name": "End Date Filter Formula",
+      "tooltip": "Specifies the date formula used to automatically calculate the end date of the report date filter. If not specified, the value on the financial report definition is used instead."
+    },
+    {
+      "no": 17,
+      "name": "Date Filter Period Formula",
+      "tooltip": "Specifies the period formula used to automatically calculate the report date filter. If not specified, the value on the financial report definition is used instead."
+    },
+    {
+      "no": 18,
+      "name": "Date Filter Period Formula LID",
+      "tooltip": "Specifies the period formula language ID."
+    },
+    {
+      "no": 19,
+      "name": "No. of Recipients",
+      "tooltip": "Specifies the number of recipients that will receive the financial report."
+    },
+    {
+      "no": 20,
+      "name": "Custom Filters",
+      "tooltip": "Specifies if the schedule will export the PDF and Excel reports with custom filters. Uncheck this field to clear the custom filters. If not specified, the filters on the financial report definition is used instead."
+    }
+  ]
+}

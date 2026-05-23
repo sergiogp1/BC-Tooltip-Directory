@@ -1,0 +1,53 @@
+{
+  "id": 5090,
+  "name": "Sales Cycle",
+  "slug": "5090_sales_cycle",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the sales cycle."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the sales cycle."
+    },
+    {
+      "no": 3,
+      "name": "Probability Calculation",
+      "tooltip": "Specifies the method to use to calculate the probability of opportunities completing the sales cycle. There are four options:"
+    },
+    {
+      "no": 4,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 5,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of opportunities that you have created using the sales cycle. This field is not editable."
+    },
+    {
+      "no": 6,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the estimated value of all the open opportunities that you have assigned to the sales cycle. This field is not editable."
+    },
+    {
+      "no": 7,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the calculated current value of all the open opportunities that you have assigned to the sales cycle. This field is not editable."
+    },
+    {
+      "no": 8,
+      "name": "Comment",
+      "tooltip": "Specifies that you have assigned comments to the sales cycle."
+    },
+    {
+      "no": 9,
+      "name": "Date Filter",
+      "tooltip": ""
+    }
+  ]
+}

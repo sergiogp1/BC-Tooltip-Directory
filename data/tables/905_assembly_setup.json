@@ -1,0 +1,63 @@
+{
+  "id": 905,
+  "name": "Assembly Setup",
+  "slug": "905_assembly_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Stockout Warning",
+      "tooltip": "Specifies whether the assembly availability warning appears during sales order entry."
+    },
+    {
+      "no": 10,
+      "name": "Assembly Order Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to assembly orders when they are created."
+    },
+    {
+      "no": 20,
+      "name": "Assembly Quote Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to assembly quotes when they are created."
+    },
+    {
+      "no": 30,
+      "name": "Blanket Assembly Order Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to assembly blanket orders when they are created."
+    },
+    {
+      "no": 50,
+      "name": "Posted Assembly Order Nos.",
+      "tooltip": "Specifies the number series code used to assign numbers to assembly orders when they are posted."
+    },
+    {
+      "no": 100,
+      "name": "Copy Component Dimensions from",
+      "tooltip": "Specifies how dimension codes are distributed to assembly components when they are consumed in assembly order posting."
+    },
+    {
+      "no": 110,
+      "name": "Default Location for Orders",
+      "tooltip": "Specifies at which location assembly orders are created by default."
+    },
+    {
+      "no": 120,
+      "name": "Copy Comments when Posting",
+      "tooltip": "Specifies that comments on assembly order lines are copied to the resulting posted documents."
+    },
+    {
+      "no": 130,
+      "name": "Create Movements Automatically",
+      "tooltip": "Specifies that an inventory movement for the required components is created automatically when you create an inventory pick."
+    },
+    {
+      "no": 140,
+      "name": "Default Gen. Bus. Post. Group",
+      "tooltip": "Specifies the general business posting group that is used by default for assembly orders."
+    }
+  ]
+}

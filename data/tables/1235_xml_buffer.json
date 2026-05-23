@@ -1,0 +1,68 @@
+{
+  "id": 1235,
+  "name": "XML Buffer",
+  "slug": "1235_xml_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the imported record."
+    },
+    {
+      "no": 4,
+      "name": "Path",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Value",
+      "tooltip": "Specifies the value of the imported record."
+    },
+    {
+      "no": 6,
+      "name": "Depth",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Parent Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Data Type",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Node Number",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Namespace",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Import ID",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Value BLOB",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": 950,
+  "name": "Time Sheet Header",
+  "slug": "950_time_sheet_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date for a time sheet."
+    },
+    {
+      "no": 4,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date for a time sheet."
+    },
+    {
+      "no": 5,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource for the time sheet."
+    },
+    {
+      "no": 6,
+      "name": "Resource Name",
+      "tooltip": "Specifies the name of the resource for the time sheet."
+    },
+    {
+      "no": 7,
+      "name": "Owner User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Approver User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description for the time sheet."
+    },
+    {
+      "no": 11,
+      "name": "Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Open Exists",
+      "tooltip": "Specifies if there are time sheet lines with the status Open."
+    },
+    {
+      "no": 13,
+      "name": "Submitted Exists",
+      "tooltip": "Specifies if there are time sheet lines with the status Submitted."
+    },
+    {
+      "no": 14,
+      "name": "Rejected Exists",
+      "tooltip": "Specifies whether there are time sheet lines with the status Rejected."
+    },
+    {
+      "no": 15,
+      "name": "Approved Exists",
+      "tooltip": "Specifies whether there are time sheet lines with the status Approved."
+    },
+    {
+      "no": 16,
+      "name": "Posted Exists",
+      "tooltip": "Specifies whether there are time sheet lines with the status Posted."
+    },
+    {
+      "no": 18,
+      "name": "Lines Exist",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Quantity",
+      "tooltip": "Specifies the total number of hours that are registered on the time sheet."
+    },
+    {
+      "no": 21,
+      "name": "Posted Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Comment",
+      "tooltip": "Specifies that a comment about this document has been entered."
+    },
+    {
+      "no": 30,
+      "name": "Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Job No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Job Task No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Posted Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Quantity Open",
+      "tooltip": "Specifies the number of hours for the time sheet with status Open."
+    },
+    {
+      "no": 41,
+      "name": "Quantity Submitted",
+      "tooltip": "Specifies the number of hours for the time sheet with status Submitted."
+    },
+    {
+      "no": 42,
+      "name": "Quantity Approved",
+      "tooltip": "Specifies the number of hours for the time sheet with status Approved."
+    },
+    {
+      "no": 43,
+      "name": "Quantity Rejected",
+      "tooltip": "Specifies the number of hours for the time sheet with status Rejected."
+    }
+  ]
+}

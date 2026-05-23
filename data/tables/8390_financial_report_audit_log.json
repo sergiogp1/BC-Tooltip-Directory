@@ -1,0 +1,43 @@
+{
+  "id": 8390,
+  "name": "Financial Report Audit Log",
+  "slug": "8390_financial_report_audit_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the entry number."
+    },
+    {
+      "no": 2,
+      "name": "Report Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Report Description",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "User",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Format",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Scheduled",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Date Filter Type",
+      "tooltip": ""
+    }
+  ]
+}

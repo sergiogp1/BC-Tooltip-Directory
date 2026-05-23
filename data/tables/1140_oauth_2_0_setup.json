@@ -1,0 +1,133 @@
+{
+  "id": 1140,
+  "name": "OAuth 2.0 Setup",
+  "slug": "1140_oauth_2_0_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description."
+    },
+    {
+      "no": 3,
+      "name": "Service URL",
+      "tooltip": "Specifies the service URL."
+    },
+    {
+      "no": 4,
+      "name": "Redirect URL",
+      "tooltip": "Specifies the redirect URL."
+    },
+    {
+      "no": 5,
+      "name": "Client ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Client Secret",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Access Token",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Refresh Token",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Authorization URL Path",
+      "tooltip": "Specifies the authorization URL path."
+    },
+    {
+      "no": 10,
+      "name": "Access Token URL Path",
+      "tooltip": "Specifies the access token URL path."
+    },
+    {
+      "no": 11,
+      "name": "Refresh Token URL Path",
+      "tooltip": "Specifies the refresh token URL path."
+    },
+    {
+      "no": 12,
+      "name": "Scope",
+      "tooltip": "Specifies the scope."
+    },
+    {
+      "no": 13,
+      "name": "Authorization Response Type",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Token DataScope",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Activity Log ID",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Daily Limit",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Daily Count",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Latest Datetime",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Access Token Due DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Feature GUID",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Code Challenge Method",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Code Verifier",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Use Nonce",
+      "tooltip": ""
+    }
+  ]
+}

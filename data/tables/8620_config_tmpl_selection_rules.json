@@ -1,0 +1,38 @@
+{
+  "id": 8620,
+  "name": "Config. Tmpl. Selection Rules",
+  "slug": "8620_config_tmpl_selection_rules",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies the table that the template applies to."
+    },
+    {
+      "no": 2,
+      "name": "Template Code",
+      "tooltip": "Specifies the config template that should be applied"
+    },
+    {
+      "no": 5,
+      "name": "Selection Criteria",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description for the API template selection."
+    },
+    {
+      "no": 10,
+      "name": "Order",
+      "tooltip": "Specifies the order of the entry."
+    },
+    {
+      "no": 11,
+      "name": "Page ID",
+      "tooltip": "Specifies the API web service page that the template applies to."
+    }
+  ]
+}

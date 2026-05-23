@@ -1,0 +1,48 @@
+{
+  "id": 99000786,
+  "name": "Routing Version",
+  "slug": "99000786_routing_version",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Version Code",
+      "tooltip": "Specifies the version code of the routing."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description for the routing version."
+    },
+    {
+      "no": 10,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date for this routing version."
+    },
+    {
+      "no": 20,
+      "name": "Status",
+      "tooltip": "Specifies the status of this routing version."
+    },
+    {
+      "no": 21,
+      "name": "Type",
+      "tooltip": "Specifies in which order operations in the routing are performed."
+    },
+    {
+      "no": 22,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "No. Series",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 752,
+  "name": "Standard Item Journal",
+  "slug": "752_standard_item_journal",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the record in the line of the journal."
+    }
+  ]
+}

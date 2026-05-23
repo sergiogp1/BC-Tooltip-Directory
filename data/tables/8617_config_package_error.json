@@ -1,0 +1,58 @@
+{
+  "id": 8617,
+  "name": "Config. Package Error",
+  "slug": "8617_config_package_error",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the number of the migration table to which the error applies."
+    },
+    {
+      "no": 3,
+      "name": "Record No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field in the migration table to which the error applies."
+    },
+    {
+      "no": 6,
+      "name": "Error Text",
+      "tooltip": "Specifies the text of the error in the migration field. You can use information contained in the error text to fix migration problems before you attempt to apply migration data to the database."
+    },
+    {
+      "no": 7,
+      "name": "Field Caption",
+      "tooltip": "Specifies the caption of the migration field to which the error applies."
+    },
+    {
+      "no": 8,
+      "name": "Error Type",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Table Caption",
+      "tooltip": "Specifies the caption of the migration table to which the error applies."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 5557,
+  "name": "Permission Conflicts",
+  "slug": "5557_permission_conflicts",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 3,
+      "name": "Object Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Object ID",
+      "tooltip": "Specifies the Object ID"
+    },
+    {
+      "no": 5,
+      "name": "Object Name",
+      "tooltip": "Specifies the Object Name"
+    },
+    {
+      "no": 6,
+      "name": "Read Permission",
+      "tooltip": "Specifies the permission assigned to the access type, or whether it is in conflict with the product license. For details about a conflict, click the word Conflict."
+    },
+    {
+      "no": 7,
+      "name": "Insert Permission",
+      "tooltip": "Specifies the permission assigned to the access type, or whether it is in conflict with the product license. For details about a conflict, click the word Conflict."
+    },
+    {
+      "no": 8,
+      "name": "Modify Permission",
+      "tooltip": "Specifies the permission assigned to the access type, or whether it is in conflict with the product license. For details about a conflict, click the word Conflict."
+    },
+    {
+      "no": 9,
+      "name": "Delete Permission",
+      "tooltip": "Specifies the permission assigned to the access type, or whether it is in conflict with the product license. For details about a conflict, click the word Conflict."
+    },
+    {
+      "no": 10,
+      "name": "Execute Permission",
+      "tooltip": "Specifies the permission assigned to the access type, or whether it is in conflict with the product license. For details about a conflict, click the word Conflict."
+    },
+    {
+      "no": 11,
+      "name": "Entitlement Read Permission",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Entitlement Insert Permission",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Entitlement Modify Permission",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Entitlement Delete Permission",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Entitlement Execute Permission",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "License Type",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "User Defined",
+      "tooltip": ""
+    }
+  ]
+}

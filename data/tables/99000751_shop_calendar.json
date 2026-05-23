@@ -1,0 +1,18 @@
+{
+  "id": 99000751,
+  "name": "Shop Calendar",
+  "slug": "99000751_shop_calendar",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify for this shop calendar."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the shop calendar."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 133,
+  "name": "Incoming Document Attachment",
+  "slug": "133_incoming_document_attachment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Incoming Document Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Created Date-Time",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Created By User Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "File Extension",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Content",
+      "tooltip": "Specifies the content of the attachment."
+    },
+    {
+      "no": 9,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Document Table No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Document Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Document No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Journal Template Name Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Journal Batch Name Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Journal Line No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Default",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Use for OCR",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "External Document Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "OCR Service Document Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Generated from OCR",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Main Attachment",
+      "tooltip": ""
+    }
+  ]
+}

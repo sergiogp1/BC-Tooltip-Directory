@@ -1,0 +1,38 @@
+{
+  "id": 388,
+  "name": "Dimension Translation",
+  "slug": "388_dimension_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language ID",
+      "tooltip": "Specifies a language code."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the dimension code."
+    },
+    {
+      "no": 4,
+      "name": "Code Caption",
+      "tooltip": "Specifies the name of the dimension code as you want it to appear as a field name after the Language ID code is selected."
+    },
+    {
+      "no": 5,
+      "name": "Filter Caption",
+      "tooltip": "Specifies the dimension filter caption."
+    },
+    {
+      "no": 6,
+      "name": "Language Name",
+      "tooltip": "Specifies the name of the language."
+    }
+  ]
+}

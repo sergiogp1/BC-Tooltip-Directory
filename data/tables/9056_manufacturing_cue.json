@@ -1,0 +1,83 @@
+{
+  "id": 9056,
+  "name": "Manufacturing Cue",
+  "slug": "9056_manufacturing_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Planned Prod. Orders - All",
+      "tooltip": "Specifies the number of planned production orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Firm Plan. Prod. Orders - All",
+      "tooltip": "Specifies the number of firm planned production orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Released Prod. Orders - All",
+      "tooltip": "Specifies the number of released production orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Prod. BOMs under Development",
+      "tooltip": "Specifies the number of production BOMs that are under development that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Routings under Development",
+      "tooltip": "Specifies the routings under development that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Purchase Orders",
+      "tooltip": "Specifies the number of purchase orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Prod. Orders Routings-in Queue",
+      "tooltip": "Specifies how many production order routing lines are in queue. The documents are filtered by today's date. Finished production orders are excluded."
+    },
+    {
+      "no": 9,
+      "name": "Prod. Orders Routings-in Prog.",
+      "tooltip": "Specifies how many production order routing lines are in progress. The documents are filtered by today's date. Only released production orders are included."
+    },
+    {
+      "no": 10,
+      "name": "Invt. Picks to Production",
+      "tooltip": "Specifies the number of inventory picks that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 11,
+      "name": "Invt. Put-aways from Prod.",
+      "tooltip": "Specifies the number of inventory put-always from production that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 12,
+      "name": "Rlsd. Prod. Orders Until Today",
+      "tooltip": "Specifies the number of released production orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 13,
+      "name": "Simulated Prod. Orders",
+      "tooltip": "Specifies the number of simulated production orders that are displayed in the Manufacturing Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

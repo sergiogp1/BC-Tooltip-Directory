@@ -1,0 +1,113 @@
+{
+  "id": 5624,
+  "name": "FA Reclass. Journal Line",
+  "slug": "5624_fa_reclass_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 5,
+      "name": "New FA No.",
+      "tooltip": "Specifies the number of the fixed asset you want to reclassify to."
+    },
+    {
+      "no": 6,
+      "name": "FA Posting Date",
+      "tooltip": "Specifies the posting date of the related fixed asset transaction, such as a depreciation."
+    },
+    {
+      "no": 7,
+      "name": "Posting Date",
+      "tooltip": "Specifies the same date as the FA Posting Date field when the line is posted."
+    },
+    {
+      "no": 8,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 9,
+      "name": "Reclassify Acq. Cost Amount",
+      "tooltip": "Specifies the acquisition amount you want to reclassify."
+    },
+    {
+      "no": 10,
+      "name": "Reclassify Acq. Cost %",
+      "tooltip": "Specifies the percentage of the acquisition cost you want to reclassify."
+    },
+    {
+      "no": 11,
+      "name": "Reclassify Acquisition Cost",
+      "tooltip": "Specifies the reclassification of the acquisition cost for the fixed asset entered in the FA No. field, to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 12,
+      "name": "Reclassify Depreciation",
+      "tooltip": "Specifies the reclassification of the accumulated depreciation for the fixed asset entered in the FA No. field, to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 13,
+      "name": "Reclassify Write-Down",
+      "tooltip": "Specifies the reclassification of all write-down entries for the fixed asset entered in the FA No. field to the fixed asset you have entered in the New FA No. field."
+    },
+    {
+      "no": 14,
+      "name": "Reclassify Appreciation",
+      "tooltip": "Specifies the reclassification of all appreciation entries for the fixed asset entered in the FA No. field to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 15,
+      "name": "Reclassify Custom 1",
+      "tooltip": "Specifies the reclassification of all custom 1 entries for the fixed asset entered in the FA No. field to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 16,
+      "name": "Reclassify Custom 2",
+      "tooltip": "Specifies the reclassification of all custom 2 entries for the fixed asset entered in the FA No. field to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 17,
+      "name": "Reclassify Salvage Value",
+      "tooltip": "Specifies the salvage value for the fixed asset to be reclassified to the fixed asset entered in the New FA No. field."
+    },
+    {
+      "no": 18,
+      "name": "Insert Bal. Account",
+      "tooltip": "Specifies whether to create one or more balancing entry lines in the FA general ledger journal or FA Journal."
+    },
+    {
+      "no": 19,
+      "name": "Description",
+      "tooltip": "Specifies the description of the asset entered in the FA No field. field."
+    },
+    {
+      "no": 20,
+      "name": "Document No.",
+      "tooltip": "Specifies a value depending on how you have set up the number series that is assigned to the current journal batch."
+    },
+    {
+      "no": 22,
+      "name": "Calc. DB1 Depr. Amount",
+      "tooltip": "Specifies that the Reclassify function fills in the Temp. Ending Date and Temp. Fixed Depr. Amount fields on the FA depreciation book."
+    }
+  ]
+}

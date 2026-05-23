@@ -1,0 +1,88 @@
+{
+  "id": 1701,
+  "name": "Deferral Header",
+  "slug": "1701_deferral_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Deferral Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Gen. Jnl. Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Gen. Jnl. Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Deferral Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Amount to Defer",
+      "tooltip": "Specifies the amount to defer per period."
+    },
+    {
+      "no": 9,
+      "name": "Amount to Defer (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Calc. Method",
+      "tooltip": "Specifies how the Amount field for each period is calculated. Straight-Line: Calculated per the number of periods, distributed by period length. Equal Per Period: Calculated per the number of periods, distributed evenly on periods. Days Per Period: Calculated per the number of days in the period. User-Defined: Not calculated. You must manually fill the Amount field for each period."
+    },
+    {
+      "no": 11,
+      "name": "Start Date",
+      "tooltip": "Specifies when to start calculating deferral amounts."
+    },
+    {
+      "no": 12,
+      "name": "No. of Periods",
+      "tooltip": "Specifies how many accounting periods the total amounts will be deferred to."
+    },
+    {
+      "no": 13,
+      "name": "Schedule Description",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Initial Amount to Defer",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Schedule Line Total",
+      "tooltip": ""
+    }
+  ]
+}

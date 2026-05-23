@@ -1,0 +1,103 @@
+{
+  "id": 5394,
+  "name": "CDS Solution",
+  "slug": "5394_cds_solution",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "SolutionId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "InstalledOn",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "IsVisible",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "IsManaged",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "UniqueName",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "FriendlyName",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Version",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "PinpointSolutionId",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "PinpointSolutionDefaultLocale",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "PinpointPublisherId",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "PinpointAssetId",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "SolutionPackageVersion",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "ParentSolutionId",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "SolutionType",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "UpdatedOn",
+      "tooltip": ""
+    }
+  ]
+}

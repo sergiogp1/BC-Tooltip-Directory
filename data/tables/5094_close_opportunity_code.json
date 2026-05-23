@@ -1,0 +1,28 @@
+{
+  "id": 5094,
+  "name": "Close Opportunity Code",
+  "slug": "5094_close_opportunity_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for closing the opportunity."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the reason for closing the opportunity."
+    },
+    {
+      "no": 3,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of opportunities closed using this close opportunity code. This field is not editable."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies whether the opportunity was a success or a failure."
+    }
+  ]
+}

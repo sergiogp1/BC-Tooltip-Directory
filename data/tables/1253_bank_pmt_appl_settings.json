@@ -1,0 +1,73 @@
+{
+  "id": 1253,
+  "name": "Bank Pmt. Appl. Settings",
+  "slug": "1253_bank_pmt_appl_settings",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "PrimaryKey",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Vendor Ledger Entries Matching",
+      "tooltip": "Specifies if automatic matching should be enabled for Vendor Ledger Entries."
+    },
+    {
+      "no": 4,
+      "name": "Cust. Ledger Entries Matching",
+      "tooltip": "Specifies if automatic matching should be enabled for Customer Ledger Entries."
+    },
+    {
+      "no": 5,
+      "name": "Bank Ledger Entries Matching",
+      "tooltip": "Specifies if automatic matching should be enabled for Bank Ledger Entries."
+    },
+    {
+      "no": 6,
+      "name": "RelatedParty Name Matching",
+      "tooltip": "Specifies which algorithm to use to determaine related party. Set this value to disabled if your bank statements do not include the name of the related party name."
+    },
+    {
+      "no": 7,
+      "name": "Bank Ledg Closing Doc No Match",
+      "tooltip": "Specifies if the algorithm should search Vendor and Customer Ledger Entries when matching Bank Ledger Entries. This functionality should be used only if your process requires it, otherwise it has a high performance impact."
+    },
+    {
+      "no": 8,
+      "name": "Apply Man. Disable Suggestions",
+      "tooltip": "Specifies if the suggestions should be disabled for Apply Manually page. Use this setting if the opening of Apply Manually page takes too long."
+    },
+    {
+      "no": 9,
+      "name": "Enable Apply Immediatelly",
+      "tooltip": "Specifies if certain rules should be applied immediatelly. If this value is set to true, if the rule is matched, then the system will not look for alternatives for the specific line. If this value is set to false, the system will search for alternatives, resulting in a higher confidence match."
+    },
+    {
+      "no": 10,
+      "name": "Empl. Ledger Entries Matching",
+      "tooltip": "Specifies if automatic matching should be enabled for Employee Ledger Entries."
+    },
+    {
+      "no": 11,
+      "name": "Vend Ledg Hidden In Apply Man",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Cust Ledg Hidden In Apply Man",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Bank Ledg Hidden In Apply Man",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Empl Ledg Hidden In Apply Man",
+      "tooltip": ""
+    }
+  ]
+}

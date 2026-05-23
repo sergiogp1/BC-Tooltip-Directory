@@ -1,0 +1,58 @@
+{
+  "id": 477,
+  "name": "Report Inbox",
+  "slug": "477_report_inbox",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 3,
+      "name": "Report Output",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies the date and time that the scheduled report was processed from the job queue."
+    },
+    {
+      "no": 5,
+      "name": "Job Queue Log Entry ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Output Type",
+      "tooltip": "Specifies the output type of the scheduled report."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the scheduled report that was processed from the job queue."
+    },
+    {
+      "no": 8,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 9,
+      "name": "Report Name",
+      "tooltip": "Specifies the name of the report."
+    },
+    {
+      "no": 10,
+      "name": "Read",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 160,
+  "name": "Res. Capacity Entry",
+  "slug": "160_res_capacity_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the corresponding resource."
+    },
+    {
+      "no": 3,
+      "name": "Resource Group No.",
+      "tooltip": "Specifies the number of the corresponding resource group assigned to the resource."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date for which the capacity entry is valid."
+    },
+    {
+      "no": 5,
+      "name": "Capacity",
+      "tooltip": "Specifies the capacity that is calculated and recorded. The capacity is in the unit of measure."
+    }
+  ]
+}

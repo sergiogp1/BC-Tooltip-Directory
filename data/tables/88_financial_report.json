@@ -1,0 +1,178 @@
+{
+  "id": 88,
+  "name": "Financial Report",
+  "slug": "88_financial_report",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the unique name (code) of the financial report."
+    },
+    {
+      "no": 3,
+      "name": "UseAmountsInAddCurrency",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "PeriodType",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ShowLinesWithShowNo",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Dim1Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Dim2Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Dim3Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Dim4Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "CostCenterFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "CostObjectFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "CashFlowFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "GLBudgetFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "CostBudgetFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "DateFilter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Excel Template Code",
+      "tooltip": "Specifies the Excel Layout that will be used when exporting to Excel."
+    },
+    {
+      "no": 17,
+      "name": "NegativeAmountFormat",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "PeriodTypeDefault",
+      "tooltip": "Specifies by which period amounts are displayed."
+    },
+    {
+      "no": 19,
+      "name": "NegativeAmountFormatDefault",
+      "tooltip": "Specifies the default negative amount format for this financial report."
+    },
+    {
+      "no": 50,
+      "name": "Description",
+      "tooltip": "Specifies a title of the financial report. The text is shown as a title on the final report when you run it to get a PDF or to print it."
+    },
+    {
+      "no": 51,
+      "name": "Financial Report Row Group",
+      "tooltip": "Specifies the row definition (code) to be used for this financial report."
+    },
+    {
+      "no": 52,
+      "name": "Financial Report Column Group",
+      "tooltip": "Specifies the column definition (code) to be used for this financial report."
+    },
+    {
+      "no": 53,
+      "name": "Internal Description",
+      "tooltip": "Specifies the internal description of this financial report."
+    },
+    {
+      "no": 54,
+      "name": "Introductory Paragraph",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Closing Paragraph",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "StartDateFilterFormula",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "EndDateFilterFormula",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "DateFilterPeriodFormula",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "DateFilterPeriodFormulaLID",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "LogoPositionDefault",
+      "tooltip": "Specifies how your company logo is displayed on the financial report."
+    },
+    {
+      "no": 61,
+      "name": "DimPerspective",
+      "tooltip": "Specifies the dimension perspective to be used for the financial report."
+    },
+    {
+      "no": 62,
+      "name": "Last Run by User",
+      "tooltip": "Specifies the last date-time this report was run by you."
+    },
+    {
+      "no": 63,
+      "name": "CategoryCode",
+      "tooltip": "Specifies the category code for the financial report."
+    },
+    {
+      "no": 64,
+      "name": "Status",
+      "tooltip": "Specifies the status code for the financial report. The status code helps you organize the lifecycle of your financial reports."
+    },
+    {
+      "no": 65,
+      "name": "Status Blocked",
+      "tooltip": "Specifies the status code is a blocked status."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 6515,
+  "name": "Package No. Information",
+  "slug": "6515_package_no_information",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 3,
+      "name": "Package No.",
+      "tooltip": "Specifies the customs declaration number."
+    },
+    {
+      "no": 5,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description associated with this line."
+    },
+    {
+      "no": 12,
+      "name": "Certificate Number",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 14,
+      "name": "Comment",
+      "tooltip": "Specifies the comment associated with this line."
+    },
+    {
+      "no": 20,
+      "name": "Inventory",
+      "tooltip": "Specifies the quantity on inventory with this line."
+    },
+    {
+      "no": 21,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Bin Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Expired Inventory",
+      "tooltip": ""
+    }
+  ]
+}

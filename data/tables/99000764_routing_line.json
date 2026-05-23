@@ -1,0 +1,183 @@
+{
+  "id": 99000764,
+  "name": "Routing Line",
+  "slug": "99000764_routing_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Version Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Operation No.",
+      "tooltip": "Specifies the operation number for this routing line."
+    },
+    {
+      "no": 5,
+      "name": "Next Operation No.",
+      "tooltip": "Specifies the next operation number. You use this field if you use parallel routings."
+    },
+    {
+      "no": 6,
+      "name": "Previous Operation No.",
+      "tooltip": "Specifies the previous operation number, which is automatically assigned."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the kind of capacity type to use for the actual operation."
+    },
+    {
+      "no": 8,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 9,
+      "name": "Work Center No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Work Center Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 12,
+      "name": "Setup Time",
+      "tooltip": "Specifies the setup time of the operation."
+    },
+    {
+      "no": 13,
+      "name": "Run Time",
+      "tooltip": "Specifies the run time of the operation."
+    },
+    {
+      "no": 14,
+      "name": "Wait Time",
+      "tooltip": "Specifies the wait time according to the value in the Wait Time Unit of Measure field."
+    },
+    {
+      "no": 15,
+      "name": "Move Time",
+      "tooltip": "Specifies the move time according to the value in the Move Time Unit of Measure field."
+    },
+    {
+      "no": 16,
+      "name": "Fixed Scrap Quantity",
+      "tooltip": "Specifies the fixed scrap quantity."
+    },
+    {
+      "no": 17,
+      "name": "Lot Size",
+      "tooltip": "Specifies the number of items that are included in the same operation at the same time. The run time on routing lines is reduced proportionally to the lot size. For example, if the lot size is two pieces, the run time will be reduced by half."
+    },
+    {
+      "no": 18,
+      "name": "Scrap Factor %",
+      "tooltip": "Specifies the scrap factor in percent."
+    },
+    {
+      "no": 19,
+      "name": "Setup Time Unit of Meas. Code",
+      "tooltip": "Specifies the unit of measure code that applies to the setup time of the operation."
+    },
+    {
+      "no": 20,
+      "name": "Run Time Unit of Meas. Code",
+      "tooltip": "Specifies the unit of measure code that applies to the run time of the operation."
+    },
+    {
+      "no": 21,
+      "name": "Wait Time Unit of Meas. Code",
+      "tooltip": "Specifies the unit of measure code that applies to the wait time."
+    },
+    {
+      "no": 22,
+      "name": "Move Time Unit of Meas. Code",
+      "tooltip": "Specifies the unit of measure code that applies to the move time."
+    },
+    {
+      "no": 23,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    },
+    {
+      "no": 27,
+      "name": "Minimum Process Time",
+      "tooltip": "Specifies a minimum process time."
+    },
+    {
+      "no": 28,
+      "name": "Maximum Process Time",
+      "tooltip": "Specifies a maximum process time."
+    },
+    {
+      "no": 30,
+      "name": "Concurrent Capacities",
+      "tooltip": "Specifies the number of machines or persons that are working concurrently."
+    },
+    {
+      "no": 31,
+      "name": "Send-Ahead Quantity",
+      "tooltip": "Specifies the send-ahead quantity."
+    },
+    {
+      "no": 34,
+      "name": "Routing Link Code",
+      "tooltip": "Specifies the routing link code."
+    },
+    {
+      "no": 35,
+      "name": "Standard Task Code",
+      "tooltip": "Specifies a standard task."
+    },
+    {
+      "no": 40,
+      "name": "Unit Cost per",
+      "tooltip": "Specifies the unit cost for this operation if it is different than the unit cost on the work center or machine center card."
+    },
+    {
+      "no": 41,
+      "name": "Recalculate",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Sequence No. (Forward)",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Sequence No. (Backward)",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Fixed Scrap Qty. (Accum.)",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Scrap Factor % (Accumulated)",
+      "tooltip": ""
+    }
+  ]
+}

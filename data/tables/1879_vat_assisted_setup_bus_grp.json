@@ -1,0 +1,28 @@
+{
+  "id": 1879,
+  "name": "VAT Assisted Setup Bus. Grp.",
+  "slug": "1879_vat_assisted_setup_bus_grp",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the posting group that determines how to calculate and post VAT for customers and vendors. The number of VAT posting groups that you set up can depend on local legislation and whether you trade both domestically and internationally."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT business posting group."
+    },
+    {
+      "no": 3,
+      "name": "Selected",
+      "tooltip": "Specifies if the VAT business posting group is included on the part."
+    },
+    {
+      "no": 4,
+      "name": "Default",
+      "tooltip": ""
+    }
+  ]
+}

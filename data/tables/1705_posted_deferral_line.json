@@ -1,0 +1,68 @@
+{
+  "id": 1705,
+  "name": "Posted Deferral Line",
+  "slug": "1705_posted_deferral_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Deferral Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Gen. Jnl. Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date for the entry."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the record."
+    },
+    {
+      "no": 9,
+      "name": "Amount",
+      "tooltip": "Specifies the line's net amount."
+    },
+    {
+      "no": 10,
+      "name": "Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Deferral Account",
+      "tooltip": ""
+    }
+  ]
+}

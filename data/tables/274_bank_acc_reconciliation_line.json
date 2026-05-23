@@ -1,0 +1,173 @@
+{
+  "id": 274,
+  "name": "Bank Acc. Reconciliation Line",
+  "slug": "274_bank_acc_reconciliation_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies a number of your choice that will appear on the reconciliation line."
+    },
+    {
+      "no": 5,
+      "name": "Transaction Date",
+      "tooltip": "Specifies the date when the payment represented by the journal line was recorded in the bank account."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description for the transaction on the reconciliation line."
+    },
+    {
+      "no": 7,
+      "name": "Statement Amount",
+      "tooltip": "Specifies the amount of the transaction on the bank's statement shown on this reconciliation line."
+    },
+    {
+      "no": 8,
+      "name": "Difference",
+      "tooltip": "Specifies the difference between the amount in the Statement Amount field and the amount in the Applied Amount field."
+    },
+    {
+      "no": 9,
+      "name": "Applied Amount",
+      "tooltip": "Specifies the amount that has been applied to one or more open entries."
+    },
+    {
+      "no": 11,
+      "name": "Applied Entries",
+      "tooltip": "Specifies for a journal line where the payment has been applied, how many entries the payment has been applied to."
+    },
+    {
+      "no": 12,
+      "name": "Value Date",
+      "tooltip": "Specifies the value date of the transaction on the bank reconciliation line."
+    },
+    {
+      "no": 13,
+      "name": "Ready for Application",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Check No.",
+      "tooltip": "Specifies the check number for the transaction on the reconciliation line."
+    },
+    {
+      "no": 15,
+      "name": "Related-Party Name",
+      "tooltip": "Specifies the name of the customer or vendor who made the payment that is represented by the journal line."
+    },
+    {
+      "no": 16,
+      "name": "Additional Transaction Info",
+      "tooltip": "Specifies additional information on the bank statement line for the payment."
+    },
+    {
+      "no": 17,
+      "name": "Data Exch. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Data Exch. Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Statement Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Account Type",
+      "tooltip": "Specifies the type of account that the payment application will be posted to when you post the worksheet."
+    },
+    {
+      "no": 22,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the payment application will be posted to when you post the worksheet."
+    },
+    {
+      "no": 23,
+      "name": "Transaction Text",
+      "tooltip": "Specifies the text that the customer or vendor entered on that payment transaction that is represented by the journal line."
+    },
+    {
+      "no": 24,
+      "name": "Related-Party Bank Acc. No.",
+      "tooltip": "Specifies the bank account number of the customer or vendor who made the payment."
+    },
+    {
+      "no": 25,
+      "name": "Related-Party Address",
+      "tooltip": "Specifies the address of the customer or vendor who made the payment that is represented by the journal line."
+    },
+    {
+      "no": 26,
+      "name": "Related-Party City",
+      "tooltip": "Specifies the city name of the customer or vendor."
+    },
+    {
+      "no": 27,
+      "name": "Payment Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up on the General Ledger Setup page."
+    },
+    {
+      "no": 32,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up om the General Ledger Setup page."
+    },
+    {
+      "no": 50,
+      "name": "Match Confidence",
+      "tooltip": "Specifies the quality of the automatic payment application on the journal line."
+    },
+    {
+      "no": 51,
+      "name": "Match Quality",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Sorting Order",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Parent Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Transaction ID",
+      "tooltip": "Specifies the ID of the imported bank transaction."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

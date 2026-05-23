@@ -1,0 +1,48 @@
+{
+  "id": 99000774,
+  "name": "Family Line",
+  "slug": "99000774_family_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Family No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the line number of the product family line."
+    },
+    {
+      "no": 8,
+      "name": "Item No.",
+      "tooltip": "Specifies which items belong to a family."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description for the product family line."
+    },
+    {
+      "no": 11,
+      "name": "Description 2",
+      "tooltip": "Specifies an extended description if there is not enough space in the Description field."
+    },
+    {
+      "no": 12,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 20,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity for the item in this family line."
+    },
+    {
+      "no": 25,
+      "name": "Low-Level Code",
+      "tooltip": ""
+    }
+  ]
+}

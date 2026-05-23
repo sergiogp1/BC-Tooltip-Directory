@@ -1,0 +1,53 @@
+{
+  "id": 345,
+  "name": "Reservation Wksh. Batch",
+  "slug": "345_reservation_wksh_batch",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the reservation worksheet you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a brief description of the reservation worksheet name you are creating."
+    },
+    {
+      "no": 11,
+      "name": "Demand Type",
+      "tooltip": "Specifies the type of demand that the reservation worksheet will be used for."
+    },
+    {
+      "no": 12,
+      "name": "Start Date Formula",
+      "tooltip": "Specifies the formula that is used to calculate the start date for the reservation worksheet."
+    },
+    {
+      "no": 13,
+      "name": "End Date Formula",
+      "tooltip": "Specifies the formula that is used to calculate the end date for the reservation worksheet."
+    },
+    {
+      "no": 21,
+      "name": "Item Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Variant Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this worksheet batch."
+    }
+  ]
+}

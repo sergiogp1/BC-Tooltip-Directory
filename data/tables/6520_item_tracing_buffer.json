@@ -1,0 +1,138 @@
+{
+  "id": 6520,
+  "name": "Item Tracing Buffer",
+  "slug": "6520_item_tracing_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Parent Item Ledger Entry No.",
+      "tooltip": "Specifies the parent of the traced item ledger entry."
+    },
+    {
+      "no": 3,
+      "name": "Level",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the traced item."
+    },
+    {
+      "no": 5,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the traced item was posted."
+    },
+    {
+      "no": 6,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of the traced entry."
+    },
+    {
+      "no": 7,
+      "name": "Source Type",
+      "tooltip": "Specifies the type of record, such as Sales Header, that the item is traced from."
+    },
+    {
+      "no": 8,
+      "name": "Source No.",
+      "tooltip": "Specifies the number of the source document that the entry originates from."
+    },
+    {
+      "no": 9,
+      "name": "Source Name",
+      "tooltip": "Specifies the name of the record that the item is traced from."
+    },
+    {
+      "no": 10,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the traced document."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the traced item."
+    },
+    {
+      "no": 12,
+      "name": "Location Code",
+      "tooltip": "Specifies the location of the traced item."
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the traced item in the line."
+    },
+    {
+      "no": 14,
+      "name": "Remaining Quantity",
+      "tooltip": "Specifies the quantity in the Quantity field that remains to be processed."
+    },
+    {
+      "no": 16,
+      "name": "Open",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Positive",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 19,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number to be traced."
+    },
+    {
+      "no": 20,
+      "name": "Lot No.",
+      "tooltip": "Specifies the traced lot number."
+    },
+    {
+      "no": 21,
+      "name": "Item Ledger Entry No.",
+      "tooltip": "Specifies the number of the traced item ledger entry."
+    },
+    {
+      "no": 22,
+      "name": "Created by",
+      "tooltip": "Specifies the user who created the traced record."
+    },
+    {
+      "no": 23,
+      "name": "Created on",
+      "tooltip": "Specifies the date when the traced record was created."
+    },
+    {
+      "no": 24,
+      "name": "Record Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Item Description",
+      "tooltip": "Specifies a description of the item."
+    },
+    {
+      "no": 26,
+      "name": "Already Traced",
+      "tooltip": "Specifies if additional transaction history under this line has already been traced by other lines above it."
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the traced package number."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 99000780,
+  "name": "Capacity Unit of Measure",
+  "slug": "99000780_capacity_unit_of_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the unit code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the unit of measure."
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies the type of unit of measure."
+    }
+  ]
+}

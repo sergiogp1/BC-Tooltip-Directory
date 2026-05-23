@@ -1,0 +1,48 @@
+{
+  "id": 356,
+  "name": "Dim. Value per Account",
+  "slug": "356_dim_value_per_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Dimension Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the code for the dimension value."
+    },
+    {
+      "no": 6,
+      "name": "Dimension Value Name",
+      "tooltip": "Specifies a descriptive name for the dimension value."
+    },
+    {
+      "no": 7,
+      "name": "Dimension Value Type",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Allowed",
+      "tooltip": "Specifies whether the related record can be posted in transactions."
+    }
+  ]
+}

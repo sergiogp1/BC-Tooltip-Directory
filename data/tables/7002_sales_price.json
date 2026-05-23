@@ -1,0 +1,88 @@
+{
+  "id": 7002,
+  "name": "Sales Price",
+  "slug": "7002_sales_price",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item for which the sales price is valid."
+    },
+    {
+      "no": 2,
+      "name": "Sales Code",
+      "tooltip": "Specifies the code that belongs to the Sales Type."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code for the currency of the sales price."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the sales price is valid."
+    },
+    {
+      "no": 5,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 7,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies if the sales price includes VAT."
+    },
+    {
+      "no": 10,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies if an invoice discount will be calculated when the sales price is offered."
+    },
+    {
+      "no": 11,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the VAT business posting group for customers for whom you want the sales price (which includes VAT) to apply."
+    },
+    {
+      "no": 13,
+      "name": "Sales Type",
+      "tooltip": "Specifies the sales price type, which defines whether the price is for an individual, group, all customers, or a campaign."
+    },
+    {
+      "no": 14,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the minimum sales quantity required to warrant the sales price."
+    },
+    {
+      "no": 15,
+      "name": "Ending Date",
+      "tooltip": "Specifies the calendar date when the sales price agreement ends."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies if a line discount will be calculated when the sales price is offered."
+    }
+  ]
+}

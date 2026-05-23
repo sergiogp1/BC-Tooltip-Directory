@@ -1,0 +1,63 @@
+{
+  "id": 180,
+  "name": "G/L Account Where-Used",
+  "slug": "180_g_l_account_where_used",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the object number of the setup table where the G/L account is used."
+    },
+    {
+      "no": 3,
+      "name": "Table Name",
+      "tooltip": "Specifies the Table Name of the setup table where the G/L account is used."
+    },
+    {
+      "no": 5,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field in the setup table where the G/L account is used."
+    },
+    {
+      "no": 6,
+      "name": "Line",
+      "tooltip": "Specifies a reference to Line in the setup table, where the G/L account is used. For example, the reference could be a posting group code."
+    },
+    {
+      "no": 7,
+      "name": "G/L Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "G/L Account Name",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Key 1",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Key 2",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Key 3",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Key 4",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 504,
+  "name": "Reminder Attachment Text Line",
+  "slug": "504_reminder_attachment_text_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Position",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Text",
+      "tooltip": "Specifies the text of the reminder attachment beginning line for the selected language."
+    }
+  ]
+}

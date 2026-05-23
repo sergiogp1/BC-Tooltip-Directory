@@ -1,0 +1,23 @@
+{
+  "id": 1827,
+  "name": "Business Unit Setup",
+  "slug": "1827_business_unit_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Company Name",
+      "tooltip": "Specifies the name of the company."
+    },
+    {
+      "no": 2,
+      "name": "Include",
+      "tooltip": "Specifies if the business unit is include on the subform."
+    },
+    {
+      "no": 3,
+      "name": "Completed",
+      "tooltip": ""
+    }
+  ]
+}

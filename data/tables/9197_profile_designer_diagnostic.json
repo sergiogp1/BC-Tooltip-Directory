@@ -1,0 +1,38 @@
+{
+  "id": 9197,
+  "name": "Profile Designer Diagnostic",
+  "slug": "9197_profile_designer_diagnostic",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Import ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Diagnostics ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Profile App ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Profile ID",
+      "tooltip": "Specifies an ID that is used to identify the profile (role). There can be more than one profile with the same ID if they come from different extensions."
+    },
+    {
+      "no": 5,
+      "name": "Severity",
+      "tooltip": "Specifies the severity of this diagnostics message."
+    },
+    {
+      "no": 6,
+      "name": "Message",
+      "tooltip": "Indicates whether adding or replacing the profile was successful. Choose the link for more details."
+    }
+  ]
+}

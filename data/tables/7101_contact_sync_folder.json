@@ -1,0 +1,28 @@
+{
+  "id": 7101,
+  "name": "Contact Sync Folder",
+  "slug": "7101_contact_sync_folder",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Folder ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Display Name",
+      "tooltip": "Select this folder"
+    },
+    {
+      "no": 4,
+      "name": "Parent Id",
+      "tooltip": ""
+    }
+  ]
+}

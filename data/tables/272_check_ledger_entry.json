@@ -1,0 +1,143 @@
+{
+  "id": 272,
+  "name": "Check Ledger Entry",
+  "slug": "272_check_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the bank account used for the check ledger entry."
+    },
+    {
+      "no": 3,
+      "name": "Bank Account Ledger Entry No.",
+      "tooltip": "Specifies the entry number of the bank account ledger entry from which the check ledger entry was created."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the check ledger entry."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type linked to the check ledger entry. For example, Payment."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the check ledger entry."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a printing description for the check ledger entry."
+    },
+    {
+      "no": 8,
+      "name": "Amount",
+      "tooltip": "Specifies the amount on the check ledger entry."
+    },
+    {
+      "no": 9,
+      "name": "Check Date",
+      "tooltip": "Specifies the check date if a check is printed."
+    },
+    {
+      "no": 10,
+      "name": "Check No.",
+      "tooltip": "Specifies the check number if a check is printed."
+    },
+    {
+      "no": 11,
+      "name": "Check Type",
+      "tooltip": "Specifies the type check, such as Manual."
+    },
+    {
+      "no": 12,
+      "name": "Bank Payment Type",
+      "tooltip": "Specifies the code for the payment type to be used for the entry on the journal line."
+    },
+    {
+      "no": 13,
+      "name": "Entry Status",
+      "tooltip": "Specifies the printing (and posting) status of the check ledger entry."
+    },
+    {
+      "no": 14,
+      "name": "Original Entry Status",
+      "tooltip": "Specifies the status of the entry before you changed it."
+    },
+    {
+      "no": 15,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 16,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 17,
+      "name": "Open",
+      "tooltip": "Specifies whether the entry has been fully applied to."
+    },
+    {
+      "no": 18,
+      "name": "Statement Status",
+      "tooltip": "Specifies that the structure of the lines is based on the chart of cost types. You define up to seven cost centers and cost objects that appear as columns in the report."
+    },
+    {
+      "no": 19,
+      "name": "Statement No.",
+      "tooltip": "Specifies the bank account statement that the check ledger entry has been applied to, if the Statement Status is Bank Account Ledger Applied or Check Ledger Applied."
+    },
+    {
+      "no": 20,
+      "name": "Statement Line No.",
+      "tooltip": "Specifies the statement line that the check ledger entry has been applied to, if the Statement Status is Bank Account Ledger Applied or Check Ledger Applied."
+    },
+    {
+      "no": 21,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 22,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 23,
+      "name": "Data Exch. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Data Exch. Voided Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Positive Pay Exported",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Record ID to Print",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Print Gen Jnl Line SystemId",
+      "tooltip": ""
+    }
+  ]
+}

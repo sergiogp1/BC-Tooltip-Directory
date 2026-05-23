@@ -1,0 +1,248 @@
+{
+  "id": 6502,
+  "name": "Item Tracking Code",
+  "slug": "6502_item_tracking_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item tracking code."
+    },
+    {
+      "no": 3,
+      "name": "Warranty Date Formula",
+      "tooltip": "Specifies the formula that calculates the warranty date entered in the Warranty Date field on item tracking line."
+    },
+    {
+      "no": 5,
+      "name": "Man. Warranty Date Entry Reqd.",
+      "tooltip": "Specifies that a warranty date must be entered manually."
+    },
+    {
+      "no": 6,
+      "name": "Man. Expir. Date Entry Reqd.",
+      "tooltip": "Specifies that items that use this item tracking code must have an expiration date, and that you must enter the expiration date manually. The date formula specified in the Expiration Calculation field on the item card will be ignored."
+    },
+    {
+      "no": 8,
+      "name": "Strict Expiration Posting",
+      "tooltip": "Specifies if the expiration date is considered when you sell items. For example, you cannot post a sales order for an item that has passed its expiration date."
+    },
+    {
+      "no": 9,
+      "name": "Use Expiration Dates",
+      "tooltip": "Specifies that items that use this item tracking code can have an expiration date. This will enable checks for expiration dates, which can affect performance for documents with many Item Tracking Lines."
+    },
+    {
+      "no": 11,
+      "name": "SN Specific Tracking",
+      "tooltip": "Specifies that when handling an outbound unit of the item in question, you must always specify which existing serial number to handle."
+    },
+    {
+      "no": 13,
+      "name": "SN Info. Inbound Must Exist",
+      "tooltip": "Specifies that serial numbers on inbound document lines must have an information record in the Serial No. Information Card."
+    },
+    {
+      "no": 14,
+      "name": "SN Info. Outbound Must Exist",
+      "tooltip": "Specifies that serial numbers on outbound document lines must have an information record in the Serial No. Information Card."
+    },
+    {
+      "no": 15,
+      "name": "SN Warehouse Tracking",
+      "tooltip": "Specifies that warehouse document lines require serial numbers."
+    },
+    {
+      "no": 21,
+      "name": "SN Purchase Inbound Tracking",
+      "tooltip": "Specifies that inbound purchase document lines require serial numbers."
+    },
+    {
+      "no": 22,
+      "name": "SN Purchase Outbound Tracking",
+      "tooltip": "Specifies that outbound purchase document lines require serial numbers."
+    },
+    {
+      "no": 23,
+      "name": "SN Sales Inbound Tracking",
+      "tooltip": "Specifies that inbound sales document lines require serial numbers."
+    },
+    {
+      "no": 24,
+      "name": "SN Sales Outbound Tracking",
+      "tooltip": "Specifies that outbound sales document lines require serial numbers."
+    },
+    {
+      "no": 25,
+      "name": "SN Pos. Adjmt. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type positive entry require serial numbers."
+    },
+    {
+      "no": 26,
+      "name": "SN Pos. Adjmt. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type positive entry require serial numbers."
+    },
+    {
+      "no": 27,
+      "name": "SN Neg. Adjmt. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type negative entry require serial numbers."
+    },
+    {
+      "no": 28,
+      "name": "SN Neg. Adjmt. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type negative entry require serial numbers."
+    },
+    {
+      "no": 29,
+      "name": "SN Transfer Tracking",
+      "tooltip": "Specifies that transfer order lines require serial numbers."
+    },
+    {
+      "no": 34,
+      "name": "Create SN Info on Posting",
+      "tooltip": "Specifies that if the Serial No. Information card is missing for the document line, the card will be created during posting."
+    },
+    {
+      "no": 41,
+      "name": "Lot Specific Tracking",
+      "tooltip": "Specifies that when handling an outbound unit, always specify which existing lot number to handle."
+    },
+    {
+      "no": 43,
+      "name": "Lot Info. Inbound Must Exist",
+      "tooltip": "Specifies that lot numbers on inbound document lines must have an information record in the Lot No. Information Card."
+    },
+    {
+      "no": 44,
+      "name": "Lot Info. Outbound Must Exist",
+      "tooltip": "Specifies that lot numbers on outbound document lines must have an information record in the Lot No. Information Card."
+    },
+    {
+      "no": 45,
+      "name": "Lot Warehouse Tracking",
+      "tooltip": "Specifies that warehouse document lines require a lot number."
+    },
+    {
+      "no": 51,
+      "name": "Lot Purchase Inbound Tracking",
+      "tooltip": "Specifies that inbound purchase document lines require a lot number."
+    },
+    {
+      "no": 52,
+      "name": "Lot Purchase Outbound Tracking",
+      "tooltip": "Specifies that outbound purchase document lines require a lot number."
+    },
+    {
+      "no": 53,
+      "name": "Lot Sales Inbound Tracking",
+      "tooltip": "Specifies that inbound sales document lines require a lot number."
+    },
+    {
+      "no": 54,
+      "name": "Lot Sales Outbound Tracking",
+      "tooltip": "Specifies that outbound sales document lines require a lot number."
+    },
+    {
+      "no": 55,
+      "name": "Lot Pos. Adjmt. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type positive entry require a lot number."
+    },
+    {
+      "no": 56,
+      "name": "Lot Pos. Adjmt. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type positive entry require a lot number."
+    },
+    {
+      "no": 57,
+      "name": "Lot Neg. Adjmt. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type negative entry require a lot number."
+    },
+    {
+      "no": 58,
+      "name": "Lot Neg. Adjmt. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type negative entry require a lot number."
+    },
+    {
+      "no": 59,
+      "name": "Lot Transfer Tracking",
+      "tooltip": "Specifies that transfer order lines require a lot number."
+    },
+    {
+      "no": 64,
+      "name": "Create Lot No. Info on posting",
+      "tooltip": "Specifies that if the Lot No. Information card is missing for the document line, the card will be created during posting."
+    },
+    {
+      "no": 70,
+      "name": "Package Specific Tracking",
+      "tooltip": "Specifies that when handling an outbound unit, always specify which existing package number to handle."
+    },
+    {
+      "no": 71,
+      "name": "Package Warehouse Tracking",
+      "tooltip": "Specifies that warehouse document lines require a package number."
+    },
+    {
+      "no": 73,
+      "name": "Package Info. Inb. Must Exist",
+      "tooltip": "Specifies that package numbers on inbound document lines must have an information record in the Package No. Information Card."
+    },
+    {
+      "no": 74,
+      "name": "Package Info. Outb. Must Exist",
+      "tooltip": "Specifies that package numbers on outbound document lines must have an information record in the Package No. Information Card."
+    },
+    {
+      "no": 75,
+      "name": "Package Purchase Inb. Tracking",
+      "tooltip": "Specifies that inbound purchase document lines require a package number."
+    },
+    {
+      "no": 76,
+      "name": "Package Purch. Outb. Tracking",
+      "tooltip": "Specifies that outbound purchase document lines require a package number."
+    },
+    {
+      "no": 77,
+      "name": "Package Sales Inbound Tracking",
+      "tooltip": "Specifies that inbound sales document lines require a package number."
+    },
+    {
+      "no": 78,
+      "name": "Package Sales Outb. Tracking",
+      "tooltip": "Specifies that outbound sales document lines require a package number."
+    },
+    {
+      "no": 79,
+      "name": "Package Pos. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type positive entry require a package number."
+    },
+    {
+      "no": 80,
+      "name": "Package Pos. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type positive entry require a package number."
+    },
+    {
+      "no": 81,
+      "name": "Package Neg. Inb. Tracking",
+      "tooltip": "Specifies that inbound item journal lines of type negative entry require a package number."
+    },
+    {
+      "no": 82,
+      "name": "Package Neg. Outb. Tracking",
+      "tooltip": "Specifies that outbound item journal lines of type negative entry require a package number."
+    },
+    {
+      "no": 83,
+      "name": "Package Transfer Tracking",
+      "tooltip": "Specifies that transfer order lines require a package number."
+    }
+  ]
+}

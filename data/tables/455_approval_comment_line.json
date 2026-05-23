@@ -1,0 +1,53 @@
+{
+  "id": 455,
+  "name": "Approval Comment Line",
+  "slug": "455_approval_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who created this approval comment."
+    },
+    {
+      "no": 6,
+      "name": "Date and Time",
+      "tooltip": "Specifies the date and time when the comment was made."
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": "Specifies the comment. You can enter a maximum of 250 characters, both numbers and letters."
+    },
+    {
+      "no": 8,
+      "name": "Record ID to Approve",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Workflow Step Instance ID",
+      "tooltip": ""
+    }
+  ]
+}

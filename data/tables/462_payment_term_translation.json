@@ -1,0 +1,23 @@
+{
+  "id": 462,
+  "name": "Payment Term Translation",
+  "slug": "462_payment_term_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Payment Term",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the translation of the payment term."
+    }
+  ]
+}

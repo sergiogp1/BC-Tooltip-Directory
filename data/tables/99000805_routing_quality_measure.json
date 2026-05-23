@@ -1,0 +1,53 @@
+{
+  "id": 99000805,
+  "name": "Routing Quality Measure",
+  "slug": "99000805_routing_quality_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Qlty Measure Code",
+      "tooltip": "Specifies the quality measure code."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the quality measure."
+    },
+    {
+      "no": 11,
+      "name": "Min. Value",
+      "tooltip": "Specifies the minimum value that must be met."
+    },
+    {
+      "no": 12,
+      "name": "Max. Value",
+      "tooltip": "Specifies the maximum value that may be achieved."
+    },
+    {
+      "no": 13,
+      "name": "Mean Tolerance",
+      "tooltip": "Specifies the acceptable mean tolerance."
+    },
+    {
+      "no": 20,
+      "name": "Version Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Operation No.",
+      "tooltip": ""
+    }
+  ]
+}

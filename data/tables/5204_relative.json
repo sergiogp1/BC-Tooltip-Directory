@@ -1,0 +1,18 @@
+{
+  "id": 5204,
+  "name": "Relative",
+  "slug": "5204_relative",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the employee's relative or other close contact."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the employee's relative or other close contact."
+    }
+  ]
+}

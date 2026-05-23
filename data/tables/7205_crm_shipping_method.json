@@ -1,0 +1,18 @@
+{
+  "id": 7205,
+  "name": "CRM Shipping Method",
+  "slug": "7205_crm_shipping_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Option Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    }
+  ]
+}

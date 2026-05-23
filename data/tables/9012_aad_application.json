@@ -1,0 +1,48 @@
+{
+  "id": 9012,
+  "name": "AAD Application",
+  "slug": "9012_aad_application",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Client Id",
+      "tooltip": "Specifies the client ID for the app."
+    },
+    {
+      "no": 2,
+      "name": "State",
+      "tooltip": "Specifies if the app is enabled or disabled."
+    },
+    {
+      "no": 5,
+      "name": "App ID",
+      "tooltip": "Specifies the app ID of the extension."
+    },
+    {
+      "no": 6,
+      "name": "App Name",
+      "tooltip": "Specifies the app name of the extension."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description of the app. The description will be automatically added in the User Name field of the card the first time the app is enabled."
+    },
+    {
+      "no": 11,
+      "name": "Contact Information",
+      "tooltip": "Specifies the contact information of the app."
+    },
+    {
+      "no": 12,
+      "name": "Permission Granted",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "User ID",
+      "tooltip": ""
+    }
+  ]
+}

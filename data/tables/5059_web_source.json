@@ -1,0 +1,28 @@
+{
+  "id": 5059,
+  "name": "Web Source",
+  "slug": "5059_web_source",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the Web source."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the Web source."
+    },
+    {
+      "no": 3,
+      "name": "URL",
+      "tooltip": "Specifies the URL to use to search for information about the contact on the Internet."
+    },
+    {
+      "no": 4,
+      "name": "Comment",
+      "tooltip": "Specifies whether a comment has been assigned to this Web source."
+    }
+  ]
+}

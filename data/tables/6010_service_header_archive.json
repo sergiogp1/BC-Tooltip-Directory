@@ -1,0 +1,778 @@
+{
+  "id": 6010,
+  "name": "Service Header Archive",
+  "slug": "6010_service_header_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer who owns the items in the service document."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 5,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 6,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 7,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer to whom you will send the invoice."
+    },
+    {
+      "no": 8,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional line of the address."
+    },
+    {
+      "no": 9,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 10,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer's billing address."
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": "Specifies a customer reference, which will be used when printing service documents."
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that the items are shipped to."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 19,
+      "name": "Order Date",
+      "tooltip": "Specifies the date when the order was created."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the service document should be posted."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a formula that calculates the payment due date, payment discount date, and payment discount amount."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies when the related invoice must be paid."
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": "Specifies the percentage of payment discount given, if the customer pays by the date entered in the Pmt. Discount Date field."
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": "Specifies the date on which the amount in the entry must be paid for a payment discount to be granted."
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the location from where inventory items to the customer on the sales document are to be shipped by default."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Customer Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that is used on the entry."
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT."
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies which salesperson is associated with the sales list."
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Shipping No.",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Last Shipping No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Last Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Combine Shipments",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "EU 3-Party Trade",
+      "tooltip": "Specifies if the transaction is related to trade with a third party within the EU."
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": "Specifies the type of transaction that the document represents, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": "Specifies the transport method, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer to whom the items on the document will be shipped."
+    },
+    {
+      "no": 80,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer to whom the service will be shipped."
+    },
+    {
+      "no": 82,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 83,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 84,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact who will receive the service."
+    },
+    {
+      "no": 85,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the post code of the customer's billing address."
+    },
+    {
+      "no": 86,
+      "name": "Bill-to County",
+      "tooltip": "Specifies the state, province or county of the bill-to customer related to the service order."
+    },
+    {
+      "no": 87,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": "Specifies the customer's country/region."
+    },
+    {
+      "no": 88,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 89,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county related to the service order."
+    },
+    {
+      "no": 90,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the state, province or county related to the service order."
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Exit Point",
+      "tooltip": "Specifies the point of exit through which you ship the items out of your country/region, for reporting to Intrastat."
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 100,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's numbering system."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": "Specifies the area of the customer or vendor, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": "Specifies a specification of the document's transaction, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how to make payment, such as with bank transfer, cash, or check."
+    },
+    {
+      "no": 105,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies the code for the shipping agent who is transporting the items."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Shipping No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": "Specifies if the customer or vendor is liable for sales tax."
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 117,
+      "name": "Reserve",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Applies-to ID",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Status",
+      "tooltip": "Specifies the service order status, which reflects the repair or maintenance status of all service items on the service order."
+    },
+    {
+      "no": 121,
+      "name": "Invoice Discount Calculation",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Invoice Discount Value",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "Company Bank Account Code",
+      "tooltip": "Specifies the bank account to use for bank information when the document is printed."
+    },
+    {
+      "no": 130,
+      "name": "Release Status",
+      "tooltip": "Specifies if items in the Service Lines window are ready to be handled in warehouse activities."
+    },
+    {
+      "no": 131,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the date used to include entries on VAT reports in a VAT period. This is either the date that the document was created or posted, depending on your setting on the General Ledger Setup page."
+    },
+    {
+      "no": 145,
+      "name": "No. of Archived Versions",
+      "tooltip": ""
+    },
+    {
+      "no": 165,
+      "name": "Incoming Document Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 178,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 200,
+      "name": "Work Description",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1200,
+      "name": "Direct Debit Mandate ID",
+      "tooltip": "Specifies the direct-debit mandate that the customer has signed to allow direct debit collection of payments."
+    },
+    {
+      "no": 3998,
+      "name": "Source Doc. Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 3999,
+      "name": "Last Archived Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5043,
+      "name": "Interaction Exist",
+      "tooltip": "Specifies that the archived document is linked to an interaction log entry."
+    },
+    {
+      "no": 5044,
+      "name": "Time Archived",
+      "tooltip": "Specifies what time the document was archived."
+    },
+    {
+      "no": 5045,
+      "name": "Date Archived",
+      "tooltip": "Specifies the date when the document was archived."
+    },
+    {
+      "no": 5046,
+      "name": "Archived By",
+      "tooltip": "Specifies the user ID of the person who archived this document."
+    },
+    {
+      "no": 5047,
+      "name": "Version No.",
+      "tooltip": "Specifies the version number of the archived document."
+    },
+    {
+      "no": 5048,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 5052,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact to whom you will deliver the service."
+    },
+    {
+      "no": 5053,
+      "name": "Bill-to Contact No.",
+      "tooltip": "Specifies the number of the contact person at the customer's billing address."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 5750,
+      "name": "Shipping Advice",
+      "tooltip": "Specifies information about whether the customer will accept a partial shipment of the order."
+    },
+    {
+      "no": 5754,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5792,
+      "name": "Shipping Time",
+      "tooltip": "Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered."
+    },
+    {
+      "no": 5794,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent."
+    },
+    {
+      "no": 5796,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5902,
+      "name": "Description",
+      "tooltip": "Specifies a short description of the service document, such as Order 2001."
+    },
+    {
+      "no": 5904,
+      "name": "Service Order Type",
+      "tooltip": "Specifies the type of this service order."
+    },
+    {
+      "no": 5905,
+      "name": "Link Service to Service Item",
+      "tooltip": "Specifies that service lines for items and resources must be linked to a service item line."
+    },
+    {
+      "no": 5907,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the service order."
+    },
+    {
+      "no": 5911,
+      "name": "Allocated Hours",
+      "tooltip": "Specifies the number of hours allocated to the items in this service order."
+    },
+    {
+      "no": 5915,
+      "name": "Phone No.",
+      "tooltip": "Specifies the phone number of the customer in this service order."
+    },
+    {
+      "no": 5916,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the customer in this service order."
+    },
+    {
+      "no": 5917,
+      "name": "Phone No. 2",
+      "tooltip": "Specifies your customer's alternate phone number."
+    },
+    {
+      "no": 5918,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5921,
+      "name": "No. of Unallocated Items",
+      "tooltip": "Specifies the number of service items in this order that are not allocated to resources."
+    },
+    {
+      "no": 5923,
+      "name": "Order Time",
+      "tooltip": "Specifies the time when the service order was created."
+    },
+    {
+      "no": 5924,
+      "name": "Default Response Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 5925,
+      "name": "Actual Response Time (Hours)",
+      "tooltip": "Specifies the number of hours from order creation, to when the service order status changes from Pending, to In Process."
+    },
+    {
+      "no": 5926,
+      "name": "Service Time (Hours)",
+      "tooltip": "Specifies the total time in hours that the service specified in the order has taken."
+    },
+    {
+      "no": 5927,
+      "name": "Response Date",
+      "tooltip": "Specifies the estimated date when work on the order should start, that is, when the service order status changes from Pending, to In Process."
+    },
+    {
+      "no": 5928,
+      "name": "Response Time",
+      "tooltip": "Specifies the estimated time when work on the order starts, that is, when the service order status changes from Pending, to In Process."
+    },
+    {
+      "no": 5929,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the service, that is, the date when the order status changes from Pending, to In Process for the first time."
+    },
+    {
+      "no": 5930,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the service, that is, the time when the order status changes from Pending, to In Process for the first time."
+    },
+    {
+      "no": 5931,
+      "name": "Finishing Date",
+      "tooltip": "Specifies the finishing date of the service, that is, the date when the Status field changes to Finished."
+    },
+    {
+      "no": 5932,
+      "name": "Finishing Time",
+      "tooltip": "Specifies the finishing time of the service, that is, the time when the Status field changes to Finished."
+    },
+    {
+      "no": 5936,
+      "name": "Notify Customer",
+      "tooltip": "Specifies how the customer wants to receive notifications about service completion."
+    },
+    {
+      "no": 5937,
+      "name": "Max. Labor Unit Price",
+      "tooltip": "Specifies the maximum unit price that can be set for a resource (for example, a technician) on all service lines linked to this order."
+    },
+    {
+      "no": 5938,
+      "name": "Warning Status",
+      "tooltip": "Specifies the response time warning status for the order."
+    },
+    {
+      "no": 5939,
+      "name": "No. of Allocations",
+      "tooltip": "Specifies the number of resource allocations to service items in this order."
+    },
+    {
+      "no": 5940,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the contract associated with the order."
+    },
+    {
+      "no": 5953,
+      "name": "Resource Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5955,
+      "name": "Ship-to Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5956,
+      "name": "Ship-to E-Mail",
+      "tooltip": "Specifies the email address at the address that the items are shipped to."
+    },
+    {
+      "no": 5957,
+      "name": "Resource Group Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5958,
+      "name": "Ship-to Phone",
+      "tooltip": "Specifies the phone number of the address where the service items in the order are located."
+    },
+    {
+      "no": 5959,
+      "name": "Ship-to Phone 2",
+      "tooltip": "Specifies an additional phone number at address that the items are shipped to."
+    },
+    {
+      "no": 5968,
+      "name": "Service Zone Code",
+      "tooltip": "Specifies the service zone code of the customer's ship-to address in the service order."
+    },
+    {
+      "no": 5981,
+      "name": "Expected Finishing Date",
+      "tooltip": "Specifies the date when service on the order is expected to be finished."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    },
+    {
+      "no": 9001,
+      "name": "Service Quote No.",
+      "tooltip": "Specifies the number of the service quote that the service order was created from. You can track the number to service quote documents that you have printed, saved, or emailed."
+    }
+  ]
+}

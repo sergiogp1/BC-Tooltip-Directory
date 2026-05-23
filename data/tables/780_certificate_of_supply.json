@@ -1,0 +1,68 @@
+{
+  "id": 780,
+  "name": "Certificate of Supply",
+  "slug": "780_certificate_of_supply",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the posted document to which the certificate of supply applies."
+    },
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the posted shipment document associated with the certificate of supply."
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": "Specifies the status for documents where you must receive a signed certificate of supply from the customer."
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Receipt Date",
+      "tooltip": "Specifies the receipt date of the signed certificate of supply."
+    },
+    {
+      "no": 6,
+      "name": "Printed",
+      "tooltip": "Specifies whether the certificate of supply has been printed and sent to the customer."
+    },
+    {
+      "no": 7,
+      "name": "Customer/Vendor Name",
+      "tooltip": "Specifies the name of the customer or vendor."
+    },
+    {
+      "no": 8,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 9,
+      "name": "Shipment/Posting Date",
+      "tooltip": "Specifies the date that the posted shipment was shipped or posted."
+    },
+    {
+      "no": 10,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 11,
+      "name": "Customer/Vendor No.",
+      "tooltip": "Specifies the number of the customer or vendor."
+    },
+    {
+      "no": 12,
+      "name": "Vehicle Registration No.",
+      "tooltip": "Specifies the vehicle registration number associated with the shipment."
+    }
+  ]
+}

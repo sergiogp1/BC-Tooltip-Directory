@@ -1,0 +1,103 @@
+{
+  "id": 339,
+  "name": "Item Application Entry",
+  "slug": "339_item_application_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Item Ledger Entry No.",
+      "tooltip": "Specifies one or more item application entries for each inventory transaction that is posted."
+    },
+    {
+      "no": 3,
+      "name": "Inbound Item Entry No.",
+      "tooltip": "Specifies the number of the item ledger entry corresponding to the inventory increase or positive quantity in inventory."
+    },
+    {
+      "no": 4,
+      "name": "Outbound Item Entry No.",
+      "tooltip": "Specifies the number of the item ledger entry corresponding to the inventory decrease for this entry."
+    },
+    {
+      "no": 11,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the item that is being applied from the inventory decrease in the Outbound Item Entry No. field, to the inventory increase in the Inbound Item Entry No. field."
+    },
+    {
+      "no": 20,
+      "name": "Item Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date that corresponds to the posting date of the item ledger entry, for which this item application entry was created."
+    },
+    {
+      "no": 23,
+      "name": "Transferred-from Entry No.",
+      "tooltip": "Specifies the item ledger entry number of the original inventory increase of the item if the item application entry originates from a transfer."
+    },
+    {
+      "no": 25,
+      "name": "Creation Date",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Created By User",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Last Modified Date",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Last Modified By User",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number"
+    },
+    {
+      "no": 102,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code"
+    },
+    {
+      "no": 103,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant code of the item."
+    },
+    {
+      "no": 111,
+      "name": "Latest Valuation Date",
+      "tooltip": "Specifies the latest valuation date of the item ledger entry."
+    },
+    {
+      "no": 5800,
+      "name": "Cost Application",
+      "tooltip": "Specifies that the application entry should have the cost forwarded or simply included in an average cost calculation."
+    },
+    {
+      "no": 5804,
+      "name": "Output Completely Invd. Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5805,
+      "name": "Outbound Entry is Updated",
+      "tooltip": "Specifies that the cost of the related outbound item entry is already updated. If the field is selected, then the cost adjustment routine will not try to update any previous related outbound entries."
+    }
+  ]
+}

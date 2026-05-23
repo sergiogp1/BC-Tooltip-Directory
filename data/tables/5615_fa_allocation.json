@@ -1,0 +1,58 @@
+{
+  "id": 5615,
+  "name": "FA Allocation",
+  "slug": "5615_fa_allocation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number to allocate to for the fixed asset allocation type on this line."
+    },
+    {
+      "no": 5,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Allocation %",
+      "tooltip": "Specifies the percentage to use when allocating the amount for the allocation type."
+    },
+    {
+      "no": 8,
+      "name": "Allocation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Account Name",
+      "tooltip": "Specifies the name of the account on this allocation line."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

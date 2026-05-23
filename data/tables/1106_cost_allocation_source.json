@@ -1,0 +1,83 @@
+{
+  "id": 1106,
+  "name": "Cost Allocation Source",
+  "slug": "1106_cost_allocation_source",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID that applies to the cost allocation."
+    },
+    {
+      "no": 2,
+      "name": "Level",
+      "tooltip": "Specifies by which level the cost allocation posting is done. For example, this makes sure that costs are allocated at level 1 from the ADM cost center to the WORKSHOP and PROD cost centers, before they are allocated at level 2 from the PROD cost center to the FURNITURE, CHAIRS, and PAINT cost objects."
+    },
+    {
+      "no": 3,
+      "name": "Valid From",
+      "tooltip": "Specifies the date when the cost allocation starts."
+    },
+    {
+      "no": 4,
+      "name": "Valid To",
+      "tooltip": "Specifies the date that the cost allocation ends."
+    },
+    {
+      "no": 5,
+      "name": "Cost Type Range",
+      "tooltip": "Specifies a cost type range to define which cost types are allocated. If all costs that are incurred by the cost center are allocated, you do not have to set a cost type range."
+    },
+    {
+      "no": 6,
+      "name": "Cost Center Code",
+      "tooltip": "Specifies the cost center code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 7,
+      "name": "Cost Object Code",
+      "tooltip": "Specifies the cost object code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 8,
+      "name": "Variant",
+      "tooltip": "Specifies the variant of the cost allocation."
+    },
+    {
+      "no": 10,
+      "name": "Credit to Cost Type",
+      "tooltip": "Specifies the cost type to which the credit posting is posted. The costs that are allocated are credited to the source cost center. It is useful to set up a helping cost type to later identify the allocation postings in the statistics and reports."
+    },
+    {
+      "no": 20,
+      "name": "Comment",
+      "tooltip": "Specifies a comment that applies to the cost allocation."
+    },
+    {
+      "no": 22,
+      "name": "Total Share",
+      "tooltip": "Specifies the sum of the shares allocated."
+    },
+    {
+      "no": 30,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 60,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the cost allocation was last modified."
+    },
+    {
+      "no": 61,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 100,
+      "name": "Allocation Source Type",
+      "tooltip": "Specifies if the allocation comes from both budgeted and actual costs, only budgeted costs, or only actual costs."
+    }
+  ]
+}

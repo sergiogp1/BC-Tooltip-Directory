@@ -1,0 +1,168 @@
+{
+  "id": 91,
+  "name": "User Setup",
+  "slug": "91_user_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 2,
+      "name": "Allow Posting From",
+      "tooltip": "Specifies the earliest date on which the user is allowed to post to the company."
+    },
+    {
+      "no": 3,
+      "name": "Allow Posting To",
+      "tooltip": "Specifies the last date on which the user is allowed to post to the company."
+    },
+    {
+      "no": 4,
+      "name": "Register Time",
+      "tooltip": "Specifies whether to register the user's time usage defined as the time spent from when the user logs in to when the user logs out. Unexpected interruptions, such as idle session timeout, terminal server idle session timeout, or a client crash are not recorded."
+    },
+    {
+      "no": 5,
+      "name": "Allow Deferral Posting From",
+      "tooltip": "Specifies the earliest date on which the user is allowed to post deferrals to the company."
+    },
+    {
+      "no": 6,
+      "name": "Allow Deferral Posting To",
+      "tooltip": "Specifies the last date on which the user is allowed to post deferrals to the company."
+    },
+    {
+      "no": 10,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies the code for the salesperson or purchaser for the user."
+    },
+    {
+      "no": 11,
+      "name": "Approver ID",
+      "tooltip": "Specifies the user ID of the person who must approve records that are made by the user in the User ID field before the record can be released."
+    },
+    {
+      "no": 12,
+      "name": "Sales Amount Approval Limit",
+      "tooltip": "Specifies the maximum amount in LCY that this user is allowed to approve for this record."
+    },
+    {
+      "no": 13,
+      "name": "Purchase Amount Approval Limit",
+      "tooltip": "Specifies the maximum amount in LCY that this user is allowed to approve for this record."
+    },
+    {
+      "no": 14,
+      "name": "Unlimited Sales Approval",
+      "tooltip": "Specifies that the user on this line is allowed to approve sales records with no maximum amount. If you select this check box, then you cannot fill the Sales Amount Approval Limit field."
+    },
+    {
+      "no": 15,
+      "name": "Unlimited Purchase Approval",
+      "tooltip": "Specifies that the user on this line is allowed to approve purchase records with no maximum amount. If you select this check box, then you cannot fill the Purchase Amount Approval Limit field."
+    },
+    {
+      "no": 16,
+      "name": "Substitute",
+      "tooltip": "Specifies the User ID of the user who acts as a substitute for the original approver."
+    },
+    {
+      "no": 17,
+      "name": "E-Mail",
+      "tooltip": "Specifies the user's email address."
+    },
+    {
+      "no": 18,
+      "name": "Phone No.",
+      "tooltip": "Specifies the user's phone number."
+    },
+    {
+      "no": 19,
+      "name": "Request Amount Approval Limit",
+      "tooltip": "Specifies the maximum amount in LCY that this user is allowed to approve for this record."
+    },
+    {
+      "no": 20,
+      "name": "Unlimited Request Approval",
+      "tooltip": "Specifies that the user on this line can approve all purchase quotes regardless of their amount. If you select this check box, then you cannot fill the Request Amount Approval Limit field."
+    },
+    {
+      "no": 21,
+      "name": "Approval Administrator",
+      "tooltip": "Specifies the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests."
+    },
+    {
+      "no": 22,
+      "name": "Allow VAT Date From",
+      "tooltip": "Specifies the earliest date on which the user is allowed to post VAT to the company books is allowed."
+    },
+    {
+      "no": 23,
+      "name": "Allow VAT Date To",
+      "tooltip": "Specifies the last date on which the user is allowed to post VAT to the company books is allowed."
+    },
+    {
+      "no": 31,
+      "name": "License Type",
+      "tooltip": "Specifies the user's License Type."
+    },
+    {
+      "no": 80,
+      "name": "Sales Invoice Posting Policy",
+      "tooltip": "Specify if you want user who posts warehouse shipment, sales shipments, or inventory pick to be able to post invoice/credit-memo as well."
+    },
+    {
+      "no": 90,
+      "name": "Purch. Invoice Posting Policy",
+      "tooltip": "Specify if you want user who posts purchase receipt or inventory put-away to be able to post invoice/credit-memo as well."
+    },
+    {
+      "no": 950,
+      "name": "Time Sheet Admin.",
+      "tooltip": "Specifies if a user is a time sheet administrator. A time sheet administrator can access any time sheet and then edit, change, or delete it."
+    },
+    {
+      "no": 5600,
+      "name": "Allow FA Posting From",
+      "tooltip": ""
+    },
+    {
+      "no": 5601,
+      "name": "Allow FA Posting To",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Sales Resp. Ctr. Filter",
+      "tooltip": "Specifies the code for the responsibility center to which you want to assign the user."
+    },
+    {
+      "no": 5701,
+      "name": "Purchase Resp. Ctr. Filter",
+      "tooltip": "Specifies the code for the responsibility center to which you want to assign the user."
+    },
+    {
+      "no": 5900,
+      "name": "Service Resp. Ctr. Filter",
+      "tooltip": "Specifies the code for the responsibility center you want to assign to the user. The user will only be able to see service documents for the responsibility center specified in the field. This responsibility center will also be the default responsibility center when the user creates new service documents."
+    },
+    {
+      "no": 5980,
+      "name": "Service Invoice Posting Policy",
+      "tooltip": "Specify if you want user who posts warehouse shipment or service shipments to be able to post invoice/credit-memo as well."
+    },
+    {
+      "no": 5991,
+      "name": "Allow Posting From DateFormula",
+      "tooltip": "Specifies a date formula to calculate the earliest date, relative to today's date, on which posting to the company books is allowed."
+    },
+    {
+      "no": 5992,
+      "name": "Allow Posting To DateFormula",
+      "tooltip": "Specifies a date formula to calculate the latest date, relative to today's date, on which posting to the company books is allowed."
+    }
+  ]
+}

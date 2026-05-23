@@ -1,0 +1,23 @@
+{
+  "id": 7506,
+  "name": "Filter Item Attributes Buffer",
+  "slug": "7506_filter_item_attributes_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Attribute",
+      "tooltip": "Specifies the name of the attribute to filter on."
+    },
+    {
+      "no": 2,
+      "name": "Value",
+      "tooltip": "Specifies the value of the filter. You can use single values or filter expressions, such as >,<,>=,<=,|,&, and 1..100."
+    },
+    {
+      "no": 3,
+      "name": "ID",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 259,
+  "name": "Transport Method",
+  "slug": "259_transport_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the transport method."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the transport method."
+    }
+  ]
+}

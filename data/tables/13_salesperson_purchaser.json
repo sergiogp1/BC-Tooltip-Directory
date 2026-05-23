@@ -1,0 +1,223 @@
+{
+  "id": 13,
+  "name": "Salesperson/Purchaser",
+  "slug": "13_salesperson_purchaser",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 3,
+      "name": "Commission %",
+      "tooltip": "Specifies the percentage to use to calculate the salesperson's commission."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture that has been inserted for the salesperson or purchaser."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the salesperson/purchaser is coupled to a user in Dataverse."
+    },
+    {
+      "no": 5050,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 5051,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 5052,
+      "name": "E-Mail",
+      "tooltip": "Specifies the salesperson's email address."
+    },
+    {
+      "no": 5053,
+      "name": "Phone No.",
+      "tooltip": "Specifies the salesperson's or purchaser's telephone number."
+    },
+    {
+      "no": 5054,
+      "name": "Next Task Date",
+      "tooltip": "Specifies the date of the next task assigned to the salesperson."
+    },
+    {
+      "no": 5055,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of open opportunities handled by the salesperson."
+    },
+    {
+      "no": 5056,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the total estimated value of all the opportunities handled by the salesperson. The field is not editable."
+    },
+    {
+      "no": 5057,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the total calculated current value of all the opportunities handled by the salesperson. The field is not editable."
+    },
+    {
+      "no": 5058,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5059,
+      "name": "No. of Interactions",
+      "tooltip": "Specifies the number of interactions handled by this salesperson."
+    },
+    {
+      "no": 5060,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the total cost of all the interactions handled by the salesperson. The field is not editable."
+    },
+    {
+      "no": 5061,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the total duration of all the interactions handled by the salesperson. The field is not editable."
+    },
+    {
+      "no": 5062,
+      "name": "Job Title",
+      "tooltip": "Specifies the salesperson's job title."
+    },
+    {
+      "no": 5063,
+      "name": "Action Taken Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5064,
+      "name": "Sales Cycle Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5065,
+      "name": "Sales Cycle Stage Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5066,
+      "name": "Probability % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5067,
+      "name": "Completed % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5068,
+      "name": "Avg. Estimated Value (LCY)",
+      "tooltip": "Specifies the average estimated value of the opportunities handled by the salesperson."
+    },
+    {
+      "no": 5069,
+      "name": "Avg.Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the average calculated current value of the opportunities handled by that salesperson."
+    },
+    {
+      "no": 5070,
+      "name": "Contact Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5071,
+      "name": "Contact Company Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5072,
+      "name": "Campaign Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5073,
+      "name": "Estimated Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5074,
+      "name": "Calcd. Current Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5075,
+      "name": "Chances of Success % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5076,
+      "name": "Task Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5077,
+      "name": "Closed Task Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5078,
+      "name": "Priority Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5079,
+      "name": "Team Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5082,
+      "name": "Opportunity Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 5083,
+      "name": "Task Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 5084,
+      "name": "Close Opportunity Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5085,
+      "name": "Search E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 5086,
+      "name": "E-Mail 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5087,
+      "name": "Blocked",
+      "tooltip": "Specifies whether this Salesperson can be assigned for new documents"
+    }
+  ]
+}

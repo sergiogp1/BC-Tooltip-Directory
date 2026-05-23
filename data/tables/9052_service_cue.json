@@ -1,0 +1,68 @@
+{
+  "id": 9052,
+  "name": "Service Cue",
+  "slug": "9052_service_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Service Orders - in Process",
+      "tooltip": "Specifies the number of in process service orders that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Service Orders - Finished",
+      "tooltip": "Specifies the finished service orders that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Service Orders - Inactive",
+      "tooltip": "Specifies the number of inactive service orders that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Open Service Quotes",
+      "tooltip": "Specifies the number of open service quotes that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Open Service Contract Quotes",
+      "tooltip": "Specifies the number of open service contract quotes that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Service Contracts to Expire",
+      "tooltip": "Specifies the number of service contracts set to expire that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Service Orders - Today",
+      "tooltip": "Specifies the number of in-service orders that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 9,
+      "name": "Service Orders - to Follow-up",
+      "tooltip": "Specifies the number of service orders that have been marked for follow up that are displayed in the Service Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Responsibility Center Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

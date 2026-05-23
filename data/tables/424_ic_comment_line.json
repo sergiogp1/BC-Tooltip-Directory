@@ -1,0 +1,48 @@
+{
+  "id": 424,
+  "name": "IC Comment Line",
+  "slug": "424_ic_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date",
+      "tooltip": "Specifies the date the comment was created."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment."
+    },
+    {
+      "no": 7,
+      "name": "Transaction Source",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Created By IC Partner Code",
+      "tooltip": "The IC Partner Code of the company that created the comment."
+    }
+  ]
+}

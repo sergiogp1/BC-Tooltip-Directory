@@ -1,0 +1,58 @@
+{
+  "id": 6013,
+  "name": "Service Comment Line Archive",
+  "slug": "6013_service_comment_line_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Table Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the service comment."
+    },
+    {
+      "no": 7,
+      "name": "Comment Date",
+      "tooltip": "Specifies the date when the comment was entered."
+    },
+    {
+      "no": 8,
+      "name": "Table Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Version No.",
+      "tooltip": ""
+    }
+  ]
+}

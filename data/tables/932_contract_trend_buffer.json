@@ -1,0 +1,58 @@
+{
+  "id": 932,
+  "name": "Contract Trend Buffer",
+  "slug": "932_contract_trend_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the starting date of the period that you want to view."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Prepaid Income",
+      "tooltip": "Specifies the total income (in LCY) that has been posted to the prepaid account for the service contract in the periods specified in the Period Start field."
+    },
+    {
+      "no": 11,
+      "name": "Posted Income",
+      "tooltip": "Specifies the total income (in LCY) that has been posted to the general ledger for the service contract in the periods specified in the Period Start field."
+    },
+    {
+      "no": 12,
+      "name": "Posted Cost",
+      "tooltip": "Specifies the cost of the service contract based on its service usage in the periods specified in the Period Start field."
+    },
+    {
+      "no": 13,
+      "name": "Discount Amount",
+      "tooltip": "Specifies the amount of discount being applied for the line."
+    },
+    {
+      "no": 15,
+      "name": "Profit",
+      "tooltip": "Specifies the profit (posted incom0e minus posted cost in LCY) for the service contract in the periods specified in the Period Start field."
+    },
+    {
+      "no": 16,
+      "name": "Profit %",
+      "tooltip": "Specifies the profit percentage for the service contract in the periods specified in the Period Start field."
+    }
+  ]
+}

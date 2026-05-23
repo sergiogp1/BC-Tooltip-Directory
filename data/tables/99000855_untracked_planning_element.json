@@ -1,0 +1,83 @@
+{
+  "id": 99000855,
+  "name": "Untracked Planning Element",
+  "slug": "99000855_untracked_planning_element",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Worksheet Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Worksheet Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Track Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item in the requisition line for which untracked planning surplus exists."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 13,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code in the requisition line associated with the untracked planning surplus."
+    },
+    {
+      "no": 21,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Source ID",
+      "tooltip": "Specifies the identification code for the source of the untracked planning quantity."
+    },
+    {
+      "no": 70,
+      "name": "Parameter Value",
+      "tooltip": "Specifies the value of this planning parameter."
+    },
+    {
+      "no": 71,
+      "name": "Untracked Quantity",
+      "tooltip": "Specifies how much this planning parameter contributed to the total surplus quantity."
+    },
+    {
+      "no": 72,
+      "name": "Track Quantity From",
+      "tooltip": "Specifies how much the total surplus quantity is, including the quantity from this entry."
+    },
+    {
+      "no": 73,
+      "name": "Track Quantity To",
+      "tooltip": "Specifies what the surplus quantity would be without the quantity from this entry."
+    },
+    {
+      "no": 74,
+      "name": "Source",
+      "tooltip": "Specifies what the source of this untracked surplus quantity is."
+    },
+    {
+      "no": 75,
+      "name": "Warning Level",
+      "tooltip": ""
+    }
+  ]
+}

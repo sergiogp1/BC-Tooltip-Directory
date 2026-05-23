@@ -1,0 +1,28 @@
+{
+  "id": 572,
+  "name": "Finance Charge Interest Rate",
+  "slug": "572_finance_charge_interest_rate",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Start Date",
+      "tooltip": "Specifies the start date for the interest rate."
+    },
+    {
+      "no": 3,
+      "name": "Interest Rate",
+      "tooltip": "Specifies the interest rate percentage."
+    },
+    {
+      "no": 4,
+      "name": "Interest Period (Days)",
+      "tooltip": "Specifies the number of days in the interest period."
+    }
+  ]
+}

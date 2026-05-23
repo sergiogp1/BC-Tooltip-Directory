@@ -1,0 +1,68 @@
+{
+  "id": 7380,
+  "name": "Phys. Invt. Item Selection",
+  "slug": "7380_phys_invt_item_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item for which the cycle counting can be performed."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the cycle counting is performed."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item."
+    },
+    {
+      "no": 5,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number of the item for informational use."
+    },
+    {
+      "no": 6,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": "Specifies the code of the counting period that indicates how often you want to count the item or stockkeeping unit in a physical inventory."
+    },
+    {
+      "no": 7,
+      "name": "Last Counting Date",
+      "tooltip": "Specifies the last date when the counting period for the item or stockkeeping unit was updated."
+    },
+    {
+      "no": 9,
+      "name": "Count Frequency per Year",
+      "tooltip": "Specifies the number of times you want the item or stockkeeping unit to be counted each year."
+    },
+    {
+      "no": 10,
+      "name": "Selected",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Phys Invt Counting Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Next Counting Start Date",
+      "tooltip": "Specifies the starting date of the next counting period."
+    },
+    {
+      "no": 13,
+      "name": "Next Counting End Date",
+      "tooltip": "Specifies the ending date of the next counting period."
+    }
+  ]
+}

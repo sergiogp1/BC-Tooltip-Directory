@@ -1,0 +1,18 @@
+{
+  "id": 5081,
+  "name": "Activity",
+  "slug": "5081_activity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the activity."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the activity."
+    }
+  ]
+}

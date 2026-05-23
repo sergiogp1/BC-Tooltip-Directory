@@ -1,0 +1,28 @@
+{
+  "id": 5058,
+  "name": "Contact Industry Group",
+  "slug": "5058_contact_industry_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact company you are assigning industry groups."
+    },
+    {
+      "no": 2,
+      "name": "Industry Group Code",
+      "tooltip": "Specifies the industry group code. This field is not editable."
+    },
+    {
+      "no": 3,
+      "name": "Industry Group Description",
+      "tooltip": "Specifies the description of the industry group you have assigned to the contact."
+    },
+    {
+      "no": 4,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact company you are assigning an industry group."
+    }
+  ]
+}

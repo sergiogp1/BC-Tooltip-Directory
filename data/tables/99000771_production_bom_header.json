@@ -1,0 +1,68 @@
+{
+  "id": 99000771,
+  "name": "Production BOM Header",
+  "slug": "99000771_production_bom_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description for the production BOM."
+    },
+    {
+      "no": 11,
+      "name": "Description 2",
+      "tooltip": "Specifies an extended description for the BOM if there is not enough space in the Description field."
+    },
+    {
+      "no": 12,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 21,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies the manufacturing batch unit of measure."
+    },
+    {
+      "no": 22,
+      "name": "Low-Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Creation Date",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the last date that was modified."
+    },
+    {
+      "no": 45,
+      "name": "Status",
+      "tooltip": "Specifies the status of the production BOM."
+    },
+    {
+      "no": 50,
+      "name": "Version Nos.",
+      "tooltip": "Specifies the version number series that the production BOM versions refer to."
+    },
+    {
+      "no": 51,
+      "name": "No. Series",
+      "tooltip": ""
+    }
+  ]
+}

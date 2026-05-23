@@ -1,0 +1,68 @@
+{
+  "id": 5089,
+  "name": "Contact Profile Answer",
+  "slug": "5089_contact_profile_answer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact to which you have assigned this questionnaire."
+    },
+    {
+      "no": 2,
+      "name": "Contact Company No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Profile Questionnaire Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Answer",
+      "tooltip": "Specifies your contact's answer to the question."
+    },
+    {
+      "no": 6,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the company for which the contact works, if the contact is a person."
+    },
+    {
+      "no": 7,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact to which you have assigned the questionnaire."
+    },
+    {
+      "no": 8,
+      "name": "Profile Questionnaire Priority",
+      "tooltip": "Specifies the priority of the questionnaire that the profile answer is linked to. There are five options: Very Low, Low, Normal, High, and Very High."
+    },
+    {
+      "no": 9,
+      "name": "Answer Priority",
+      "tooltip": "Specifies the priority of the profile answer. There are five options:"
+    },
+    {
+      "no": 10,
+      "name": "Last Date Updated",
+      "tooltip": "Specifies the date when the contact profile answer was last updated. This field shows the first date when the questions used to rate this contact has been given points."
+    },
+    {
+      "no": 11,
+      "name": "Questions Answered (%)",
+      "tooltip": "Specifies the number of questions in percentage of total questions that have scored points based on the question you used for your rating."
+    },
+    {
+      "no": 5088,
+      "name": "Profile Questionnaire Value",
+      "tooltip": ""
+    }
+  ]
+}

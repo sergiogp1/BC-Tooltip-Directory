@@ -1,0 +1,28 @@
+{
+  "id": 5721,
+  "name": "Purchasing",
+  "slug": "5721_purchasing",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for a purchasing activity."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the purchasing activity specified by the code."
+    },
+    {
+      "no": 3,
+      "name": "Drop Shipment",
+      "tooltip": "Specifies if your vendor ships the items directly to your customer."
+    },
+    {
+      "no": 4,
+      "name": "Special Order",
+      "tooltip": "Specifies that this purchase activity includes arranging for a special order."
+    }
+  ]
+}

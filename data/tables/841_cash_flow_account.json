@@ -1,0 +1,103 @@
+{
+  "id": 841,
+  "name": "Cash Flow Account",
+  "slug": "841_cash_flow_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cash flow account."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Account Type",
+      "tooltip": "Specifies the purpose of the cash flow account. Newly created cash flow accounts are automatically assigned the Entry account type, but you can change this."
+    },
+    {
+      "no": 5,
+      "name": "Comment",
+      "tooltip": "Specifies the comment for the record."
+    },
+    {
+      "no": 6,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 7,
+      "name": "New Page",
+      "tooltip": "Specifies if you want a new page to start immediately after this cash flow account when you print the chart of cash flow accounts."
+    },
+    {
+      "no": 8,
+      "name": "No. of Blank Lines",
+      "tooltip": "Specifies the number of blank lines that you want to be inserted before this cash flow account in the chart of cash flow accounts."
+    },
+    {
+      "no": 9,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Cash Flow Forecast Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Amount",
+      "tooltip": "Specifies the cash flow amount."
+    },
+    {
+      "no": 29,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Totaling",
+      "tooltip": "Specifies an account interval or a list of account numbers. The entries of the account will be totaled to give a total balance. How entries are totaled depends on the value in the Account Type field."
+    },
+    {
+      "no": 35,
+      "name": "Source Type",
+      "tooltip": "Specifies the source type that applies to the source number that is shown in the Source No. field."
+    },
+    {
+      "no": 36,
+      "name": "G/L Integration",
+      "tooltip": "Specifies if the cash flow account has integration with the general ledger. When a cash flow account has integration with the general ledger, either the balances of the general ledger accounts or their budgeted values are used in the cash flow forecast."
+    },
+    {
+      "no": 37,
+      "name": "G/L Account Filter",
+      "tooltip": "Specifies that only the cash flow entries that are registered to the filtered general ledger accounts are included in the cash flow forecast."
+    }
+  ]
+}

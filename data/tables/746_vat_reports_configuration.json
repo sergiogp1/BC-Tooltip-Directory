@@ -1,0 +1,78 @@
+{
+  "id": 746,
+  "name": "VAT Reports Configuration",
+  "slug": "746_vat_reports_configuration",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Report Type",
+      "tooltip": "Specifies if you want to create a new VAT report, or if you want to change a previously submitted report."
+    },
+    {
+      "no": 2,
+      "name": "VAT Report Version",
+      "tooltip": "Specifies the version of the VAT report."
+    },
+    {
+      "no": 3,
+      "name": "Suggest Lines Codeunit ID",
+      "tooltip": "Specifies whether an ID is suggested automatically."
+    },
+    {
+      "no": 4,
+      "name": "Suggest Lines Codeunit Caption",
+      "tooltip": "Specifies whether a caption is suggested automatically."
+    },
+    {
+      "no": 5,
+      "name": "Content Codeunit ID",
+      "tooltip": "Specifies the codeunit ID."
+    },
+    {
+      "no": 6,
+      "name": "Content Codeunit Caption",
+      "tooltip": "Specifies the codeunit caption code."
+    },
+    {
+      "no": 7,
+      "name": "Submission Codeunit ID",
+      "tooltip": "Specifies the ID associated with the submission codeunit."
+    },
+    {
+      "no": 8,
+      "name": "Submission Codeunit Caption",
+      "tooltip": "Specifies the caption associated with the submission codeunit."
+    },
+    {
+      "no": 9,
+      "name": "Response Handler Codeunit ID",
+      "tooltip": "Specifies the codeunit ID of the response handler."
+    },
+    {
+      "no": 10,
+      "name": "Resp. Handler Codeunit Caption",
+      "tooltip": "Specifies the name of the caption that related to the line."
+    },
+    {
+      "no": 11,
+      "name": "Validate Codeunit ID",
+      "tooltip": "Specifies the codeunit ID for the VAT Report line."
+    },
+    {
+      "no": 12,
+      "name": "Validate Codeunit Caption",
+      "tooltip": "Specifies the caption for the codeunit VAT Report."
+    },
+    {
+      "no": 13,
+      "name": "VAT Statement Template",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "VAT Statement Name",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 1512,
+  "name": "Notification Setup",
+  "slug": "1512_notification_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Notification Type",
+      "tooltip": "Specifies what type of event the notification is about."
+    },
+    {
+      "no": 3,
+      "name": "Notification Method",
+      "tooltip": "Specifies the code of the notification method that is used to create notifications for the user."
+    },
+    {
+      "no": 5,
+      "name": "Schedule",
+      "tooltip": "Specifies when the user receives notifications. The value is copied from the Recurrence field in the Notification Schedule window."
+    }
+  ]
+}

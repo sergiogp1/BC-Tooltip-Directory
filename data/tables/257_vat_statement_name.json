@@ -1,0 +1,28 @@
+{
+  "id": 257,
+  "name": "VAT Statement Name",
+  "slug": "257_vat_statement_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Statement Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the VAT statement name."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT statement name."
+    },
+    {
+      "no": 4,
+      "name": "Date Filter",
+      "tooltip": ""
+    }
+  ]
+}

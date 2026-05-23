@@ -1,0 +1,233 @@
+{
+  "id": 5065,
+  "name": "Interaction Log Entry",
+  "slug": "5065_interaction_log_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact involved in this interaction. This field is not editable."
+    },
+    {
+      "no": 3,
+      "name": "Contact Company No.",
+      "tooltip": "Specifies the number of the contact company."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date that you have entered in the Date field in the Create Interaction wizard or the Segment window when you created the interaction. The field is not editable."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies the description of the interaction."
+    },
+    {
+      "no": 6,
+      "name": "Information Flow",
+      "tooltip": "Specifies the direction of information flow recorded by the interaction. There are two options: Outbound (the information was received by your contact) and Inbound (the information was received by your company)."
+    },
+    {
+      "no": 7,
+      "name": "Initiated By",
+      "tooltip": "Specifies who initiated the interaction. There are two options: Us (the interaction was initiated by your company) and Them (the interaction was initiated by your contact)."
+    },
+    {
+      "no": 8,
+      "name": "Attachment No.",
+      "tooltip": "Specifies if the linked attachment is inherited or unique."
+    },
+    {
+      "no": 9,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the cost of the interaction."
+    },
+    {
+      "no": 10,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the duration of the interaction."
+    },
+    {
+      "no": 11,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who logged this entry. This field is not editable."
+    },
+    {
+      "no": 12,
+      "name": "Interaction Group Code",
+      "tooltip": "Specifies the code of the interaction group used to create this interaction. This field is not editable."
+    },
+    {
+      "no": 13,
+      "name": "Interaction Template Code",
+      "tooltip": "Specifies the code for the interaction template used to create the interaction. This field is not editable."
+    },
+    {
+      "no": 14,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign (if any) to which the interaction is linked. This field is not editable."
+    },
+    {
+      "no": 15,
+      "name": "Campaign Entry No.",
+      "tooltip": "Specifies the number of the campaign entry to which the interaction log entry is linked."
+    },
+    {
+      "no": 16,
+      "name": "Campaign Response",
+      "tooltip": "Specifies whether the interaction records a response to a campaign."
+    },
+    {
+      "no": 17,
+      "name": "Campaign Target",
+      "tooltip": "Specifies whether the interaction is applied to contacts that are part of the campaign target. This field is not editable."
+    },
+    {
+      "no": 18,
+      "name": "Segment No.",
+      "tooltip": "Specifies the number of the segment. This field is valid only for interactions created for segments, and is not editable."
+    },
+    {
+      "no": 19,
+      "name": "Evaluation",
+      "tooltip": "Specifies the evaluation of the interaction. There are five options: Very Positive, Positive, Neutral, Negative, and Very Negative."
+    },
+    {
+      "no": 20,
+      "name": "Time of Interaction",
+      "tooltip": "Specifies the time when the interaction was created. This field is not editable."
+    },
+    {
+      "no": 21,
+      "name": "Attempt Failed",
+      "tooltip": "Specifies whether the interaction records an failed attempt to reach the contact. This field is not editable."
+    },
+    {
+      "no": 23,
+      "name": "To-do No.",
+      "tooltip": "Specifies the number of the task if the interaction has been created to complete a task. This field is not editable."
+    },
+    {
+      "no": 24,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code for the salesperson who carried out the interaction."
+    },
+    {
+      "no": 25,
+      "name": "Delivery Status",
+      "tooltip": "Specifies the status of the delivery of the attachment. There are three options:"
+    },
+    {
+      "no": 26,
+      "name": "Canceled",
+      "tooltip": "Specifies whether the interaction has been canceled. The field is not editable."
+    },
+    {
+      "no": 27,
+      "name": "Correspondence Type",
+      "tooltip": "Specifies the type of correspondence of the attachment in the interaction template. This field is not editable."
+    },
+    {
+      "no": 28,
+      "name": "Contact Alt. Address Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Logged Segment Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document if there is one that the interaction log entry records. You cannot change the contents of this field."
+    },
+    {
+      "no": 31,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the document (if any) that the interaction log entry records."
+    },
+    {
+      "no": 32,
+      "name": "Version No.",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Contact Via",
+      "tooltip": "Specifies the telephone number that you used when calling the contact."
+    },
+    {
+      "no": 35,
+      "name": "Send Word Docs. as Attmt.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Interaction Language Code",
+      "tooltip": "Specifies the language code for the interaction for the interaction log. The code is copied from the language code of the interaction template, if one is specified."
+    },
+    {
+      "no": 37,
+      "name": "E-Mail Logged",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Subject",
+      "tooltip": "Specifies the subject text that will be used for this interaction."
+    },
+    {
+      "no": 39,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact for which an interaction has been logged."
+    },
+    {
+      "no": 40,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the contact company for which an interaction has been logged."
+    },
+    {
+      "no": 43,
+      "name": "Comment",
+      "tooltip": "Specifies that a comment exists for this interaction log entry."
+    },
+    {
+      "no": 44,
+      "name": "Opportunity No.",
+      "tooltip": "Specifies the number of the opportunity to which the interaction is linked."
+    },
+    {
+      "no": 45,
+      "name": "Postponed",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Word Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Merged",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Modified Word Template",
+      "tooltip": ""
+    }
+  ]
+}

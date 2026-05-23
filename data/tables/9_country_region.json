@@ -1,0 +1,63 @@
+{
+  "id": 9,
+  "name": "Country/Region",
+  "slug": "9_country_region",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 4,
+      "name": "ISO Code",
+      "tooltip": "Specifies a two-letter country code defined in ISO 3166-1."
+    },
+    {
+      "no": 5,
+      "name": "ISO Numeric Code",
+      "tooltip": "Specifies a three-digit code number defined in ISO 3166-1."
+    },
+    {
+      "no": 6,
+      "name": "EU Country/Region Code",
+      "tooltip": "Specifies the EU code for the country/region you are doing business with."
+    },
+    {
+      "no": 7,
+      "name": "Intrastat Code",
+      "tooltip": "Specifies an INTRASTAT code for the country/region you are trading with."
+    },
+    {
+      "no": 8,
+      "name": "Address Format",
+      "tooltip": "Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format. NOTE: If the County field is filled in, then the county will be printed above the country/region unless you select the City+County+Post Code option."
+    },
+    {
+      "no": 9,
+      "name": "Contact Address Format",
+      "tooltip": "Specifies where you want the contact name to appear in mailing addresses."
+    },
+    {
+      "no": 10,
+      "name": "VAT Scheme",
+      "tooltip": "Specifies the national body that issues the VAT registration number for the country/region in connection with electronic document sending."
+    },
+    {
+      "no": 11,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "County Name",
+      "tooltip": "Specifies the name of the county."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 99000775,
+  "name": "Routing Comment Line",
+  "slug": "99000775_routing_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Operation No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Version Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date when the comment was created."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies the actual comment."
+    },
+    {
+      "no": 13,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comments."
+    }
+  ]
+}

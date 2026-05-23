@@ -1,0 +1,38 @@
+{
+  "id": 7604,
+  "name": "Where Used Base Calendar",
+  "slug": "7604_where_used_base_calendar",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Type",
+      "tooltip": "Specifies whether this customized calendar entry was set up for your company, a customer, vendor, location, shipping agent, or a service."
+    },
+    {
+      "no": 2,
+      "name": "Source Code",
+      "tooltip": "Specifies the source identity of the business partner the customized calendar is set up for."
+    },
+    {
+      "no": 3,
+      "name": "Additional Source Code",
+      "tooltip": "Specifies the code of the shipping agent service if the Source Type field contains Shipping Agent."
+    },
+    {
+      "no": 4,
+      "name": "Base Calendar Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Source Name",
+      "tooltip": "Specifies the source name associated with this entry."
+    },
+    {
+      "no": 6,
+      "name": "Customized Changes Exist",
+      "tooltip": "Specifies that this entry has used the base calendar to create a customized calendar."
+    }
+  ]
+}

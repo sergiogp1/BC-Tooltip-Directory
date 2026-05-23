@@ -1,0 +1,18 @@
+{
+  "id": 6080,
+  "name": "Service Price Group",
+  "slug": "6080_service_price_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the service price group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service price group."
+    }
+  ]
+}

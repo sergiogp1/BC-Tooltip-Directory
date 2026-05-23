@@ -1,0 +1,48 @@
+{
+  "id": 330,
+  "name": "Currency Exchange Rate",
+  "slug": "330_currency_exchange_rate",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code of the foreign currency on this line."
+    },
+    {
+      "no": 2,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date on which the exchange rate on this line comes into effect."
+    },
+    {
+      "no": 3,
+      "name": "Exchange Rate Amount",
+      "tooltip": "Specifies the amounts that are used to calculate exchange rates for the foreign currency on this line."
+    },
+    {
+      "no": 4,
+      "name": "Adjustment Exch. Rate Amount",
+      "tooltip": "Specifies the amounts that are used to calculate exchange rates that will be used by the Adjust Exchange Rates batch job."
+    },
+    {
+      "no": 5,
+      "name": "Relational Currency Code",
+      "tooltip": "Specifies how you want to set up the two currencies, one of the currencies can be LCY, for which you want to register exchange rates."
+    },
+    {
+      "no": 6,
+      "name": "Relational Exch. Rate Amount",
+      "tooltip": "Specifies the amounts that are used to calculate exchange rates for the foreign currency on this line."
+    },
+    {
+      "no": 7,
+      "name": "Fix Exchange Rate Amount",
+      "tooltip": "Specifies if the currency's exchange rate can be changed on invoices and journal lines."
+    },
+    {
+      "no": 8,
+      "name": "Relational Adjmt Exch Rate Amt",
+      "tooltip": "Specifies the amounts that are used to calculate exchange rates that will be used by the Adjust Exchange Rates batch job."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8610,
+  "name": "Config. Questionnaire",
+  "slug": "8610_config_questionnaire",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the configuration questionnaire that you are creating."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the configuration questionnaire."
+    }
+  ]
+}

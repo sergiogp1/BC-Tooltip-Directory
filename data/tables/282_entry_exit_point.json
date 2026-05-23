@@ -1,0 +1,18 @@
+{
+  "id": 282,
+  "name": "Entry/Exit Point",
+  "slug": "282_entry_exit_point",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the shipping location (Entry/Exit Point)."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the shipping location (Entry/Exit Point)."
+    }
+  ]
+}

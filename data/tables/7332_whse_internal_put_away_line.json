@@ -1,0 +1,133 @@
+{
+  "id": 7332,
+  "name": "Whse. Internal Put-away Line",
+  "slug": "7332_whse_internal_put_away_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line."
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the location of the internal put-away line."
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number that is recorded on the item card or the stockkeeping unit card of the item being moved."
+    },
+    {
+      "no": 12,
+      "name": "From Bin Code",
+      "tooltip": "Specifies the bin from which the items to be put away should be taken."
+    },
+    {
+      "no": 13,
+      "name": "From Zone Code",
+      "tooltip": "Specifies the zone from which the items to be put away should be taken."
+    },
+    {
+      "no": 14,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that you want to put away and have entered on the line."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity that should be put away."
+    },
+    {
+      "no": 16,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity that should be put away, in the base unit of measure."
+    },
+    {
+      "no": 19,
+      "name": "Qty. Outstanding",
+      "tooltip": "Specifies the quantity that still needs to be handled."
+    },
+    {
+      "no": 20,
+      "name": "Qty. Outstanding (Base)",
+      "tooltip": "Specifies the quantity that still needs to be handled, expressed in the base unit of measure."
+    },
+    {
+      "no": 23,
+      "name": "Qty. Put Away",
+      "tooltip": "Specifies the quantity of the line that is registered as put away."
+    },
+    {
+      "no": 24,
+      "name": "Qty. Put Away (Base)",
+      "tooltip": "Specifies the quantity of the line that is registered as put away, in the base unit of measure."
+    },
+    {
+      "no": 25,
+      "name": "Put-away Qty.",
+      "tooltip": "Specifies the quantity in the put-away instructions that is assigned to be put away."
+    },
+    {
+      "no": 26,
+      "name": "Put-away Qty. (Base)",
+      "tooltip": "Specifies the quantity in the put-away instructions assigned to be put away, in the base unit of measure."
+    },
+    {
+      "no": 27,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure, that are in the unit of measure, specified for the item on the line."
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item on the line."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies a second description of the item on the line, if any."
+    },
+    {
+      "no": 35,
+      "name": "Sorting Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the warehouse activity must be completed."
+    },
+    {
+      "no": 37,
+      "name": "Cubage",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Weight",
+      "tooltip": ""
+    }
+  ]
+}

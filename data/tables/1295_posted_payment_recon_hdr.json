@@ -1,0 +1,53 @@
+{
+  "id": 1295,
+  "name": "Posted Payment Recon. Hdr",
+  "slug": "1295_posted_payment_recon_hdr",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the bank account that the posted payment was processed for."
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": "Specifies the number of the bank statement that contained the line that represented the posted payment."
+    },
+    {
+      "no": 3,
+      "name": "Statement Ending Balance",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Statement Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Bank Statement",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Is Reconciled",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Is Reversed",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "G/L Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Entries found with G/L Reg.",
+      "tooltip": ""
+    }
+  ]
+}

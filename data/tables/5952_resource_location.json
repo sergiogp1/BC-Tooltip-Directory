@@ -1,0 +1,33 @@
+{
+  "id": 5952,
+  "name": "Resource Location",
+  "slug": "5952_resource_location",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code of the resource."
+    },
+    {
+      "no": 2,
+      "name": "Location Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource in the location."
+    },
+    {
+      "no": 4,
+      "name": "Resource Name",
+      "tooltip": "Specifies the name of the resource."
+    },
+    {
+      "no": 5,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when the resource becomes available in this location."
+    }
+  ]
+}

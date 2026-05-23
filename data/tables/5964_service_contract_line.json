@@ -1,0 +1,163 @@
+{
+  "id": 5964,
+  "name": "Service Contract Line",
+  "slug": "5964_service_contract_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contract Type",
+      "tooltip": "Specifies the type of the contract."
+    },
+    {
+      "no": 2,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the service contract or service contract quote associated with the service contract line."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Contract Status",
+      "tooltip": "Specifies the status of the contract."
+    },
+    {
+      "no": 5,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item that is subject to the service contract."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies billable profits for the job task that are related to G/L accounts, expressed in the local currency."
+    },
+    {
+      "no": 7,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the service item that is subject to the contract."
+    },
+    {
+      "no": 8,
+      "name": "Service Item Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer associated with the service contract."
+    },
+    {
+      "no": 10,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item linked to the service item in the service contract."
+    },
+    {
+      "no": 12,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 13,
+      "name": "Response Time (Hours)",
+      "tooltip": "Specifies the response time for the service item associated with the service contract."
+    },
+    {
+      "no": 14,
+      "name": "Last Planned Service Date",
+      "tooltip": "Specifies the date of the last planned service on this item."
+    },
+    {
+      "no": 15,
+      "name": "Next Planned Service Date",
+      "tooltip": "Specifies the date of the next planned service on the item included in the contract."
+    },
+    {
+      "no": 16,
+      "name": "Last Service Date",
+      "tooltip": "Specifies the date when the service item on the line was last serviced."
+    },
+    {
+      "no": 17,
+      "name": "Last Preventive Maint. Date",
+      "tooltip": "Specifies the date when the last time preventative service was performed on this item."
+    },
+    {
+      "no": 18,
+      "name": "Invoiced to Date",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Credit Memo Date",
+      "tooltip": "Specifies the date when you can create a credit memo for the service item that needs to be removed from the service contract."
+    },
+    {
+      "no": 20,
+      "name": "Contract Expiration Date",
+      "tooltip": "Specifies the date when a service item must be removed from the service contract. The default value is copied from the Expiration Date field in the header section. You can change it to a value that is earlier than the value in the Expiration Date field and later than the value in the Starting Date field in the header section of the service contract."
+    },
+    {
+      "no": 21,
+      "name": "Service Period",
+      "tooltip": "Specifies the period of time that must pass between each servicing of an item."
+    },
+    {
+      "no": 22,
+      "name": "Line Value",
+      "tooltip": "Specifies the value of the service item line in the contract or contract quote."
+    },
+    {
+      "no": 23,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 24,
+      "name": "Line Amount",
+      "tooltip": "Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line."
+    },
+    {
+      "no": 28,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 29,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the service contract."
+    },
+    {
+      "no": 30,
+      "name": "New Line",
+      "tooltip": "Specifies whether the service contract line is new or existing."
+    },
+    {
+      "no": 31,
+      "name": "Credited",
+      "tooltip": "Specifies if the service contract line has been credited."
+    },
+    {
+      "no": 32,
+      "name": "Line Cost",
+      "tooltip": "Specifies the calculated cost of the service item line in the service contract or contract quote."
+    },
+    {
+      "no": 33,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 34,
+      "name": "Profit",
+      "tooltip": "Specifies the profit, expressed as the difference between the Line Amount and Line Cost fields on the service contract line."
+    }
+  ]
+}

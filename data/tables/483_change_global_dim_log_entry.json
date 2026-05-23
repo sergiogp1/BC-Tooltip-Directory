@@ -1,0 +1,103 @@
+{
+  "id": 483,
+  "name": "Change Global Dim. Log Entry",
+  "slug": "483_change_global_dim_log_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Total Records",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Completed Records",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Progress",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Task ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Session ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Change Type 1",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Change Type 2",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Global Dim.1 Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Global Dim.2 Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Dim. Set ID Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Primary Key Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Parent Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Is Parent Table",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Earliest Start Date/Time",
+      "tooltip": "Specifies the earliest date and time when the job should be run."
+    },
+    {
+      "no": 18,
+      "name": "Remaining Duration",
+      "tooltip": "Specifies the remaining duration of the job."
+    },
+    {
+      "no": 19,
+      "name": "Server Instance ID",
+      "tooltip": ""
+    }
+  ]
+}

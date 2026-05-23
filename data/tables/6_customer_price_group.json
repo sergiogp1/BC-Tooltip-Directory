@@ -1,0 +1,53 @@
+{
+  "id": 6,
+  "name": "Customer Price Group",
+  "slug": "6_customer_price_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify the price group."
+    },
+    {
+      "no": 2,
+      "name": "Price Includes VAT",
+      "tooltip": "Specifies whether the prices given for this price group will include VAT."
+    },
+    {
+      "no": 5,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies whether the ordinary invoice discount calculation will apply to customers in this price group."
+    },
+    {
+      "no": 6,
+      "name": "VAT Bus. Posting Gr. (Price)",
+      "tooltip": "Specifies the VAT business posting group that determines the default VAT percentage to add to sales prices for customers in this group."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description of the customer price group."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the customer price group is coupled to a price list in Dynamics 365 Sales."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the price calculation method that will override the method set in the sales setup for customers in this group."
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies if a line discount will be calculated when the sales price is offered."
+    }
+  ]
+}

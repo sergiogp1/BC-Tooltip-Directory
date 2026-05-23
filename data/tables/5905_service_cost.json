@@ -1,0 +1,53 @@
+{
+  "id": 5905,
+  "name": "Service Cost",
+  "slug": "5905_service_cost",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the service cost."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service cost."
+    },
+    {
+      "no": 3,
+      "name": "Account No.",
+      "tooltip": "Specifies the general ledger account number to which the service cost will be posted."
+    },
+    {
+      "no": 4,
+      "name": "Default Unit Price",
+      "tooltip": "Specifies the default unit price of the cost that is copied to the service lines containing this service cost."
+    },
+    {
+      "no": 5,
+      "name": "Default Quantity",
+      "tooltip": "Specifies the default quantity that is copied to the service lines containing this service cost."
+    },
+    {
+      "no": 6,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 7,
+      "name": "Cost Type",
+      "tooltip": "Specifies the cost type."
+    },
+    {
+      "no": 8,
+      "name": "Service Zone Code",
+      "tooltip": "Specifies the code of the service zone, to which travel applies if the Cost Type is Travel."
+    },
+    {
+      "no": 9,
+      "name": "Default Unit Cost",
+      "tooltip": "Specifies the default unit cost that is copied to the service lines containing this service cost."
+    }
+  ]
+}

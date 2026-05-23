@@ -1,0 +1,103 @@
+{
+  "id": 5950,
+  "name": "Service Order Allocation",
+  "slug": "5950_service_order_allocation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Status",
+      "tooltip": "Specifies the status of the entry, such as active, non-active, or cancelled."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the service order associated with this entry."
+    },
+    {
+      "no": 4,
+      "name": "Allocation Date",
+      "tooltip": "Specifies the date when the resource allocation should start."
+    },
+    {
+      "no": 5,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource allocated to the service task in this entry."
+    },
+    {
+      "no": 6,
+      "name": "Resource Group No.",
+      "tooltip": "Specifies the number of the resource group allocated to the service task in this entry."
+    },
+    {
+      "no": 7,
+      "name": "Service Item Line No.",
+      "tooltip": "Specifies the number of the service item line linked to this entry."
+    },
+    {
+      "no": 8,
+      "name": "Allocated Hours",
+      "tooltip": "Specifies the hours allocated to the resource or resource group for the service task in this entry."
+    },
+    {
+      "no": 9,
+      "name": "Starting Time",
+      "tooltip": "Specifies the time when you want the allocation to start."
+    },
+    {
+      "no": 10,
+      "name": "Finishing Time",
+      "tooltip": "Specifies the time when you want the allocation to finish."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description for the service order allocation."
+    },
+    {
+      "no": 12,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 13,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item."
+    },
+    {
+      "no": 14,
+      "name": "Posted",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Service Item Description",
+      "tooltip": "Specifies a description of the service item in this entry."
+    },
+    {
+      "no": 16,
+      "name": "Service Item Serial No.",
+      "tooltip": "Specifies the serial number of the service item in this entry."
+    },
+    {
+      "no": 17,
+      "name": "Repair Status",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Service Started",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the document (Order or Quote) from which the allocation entry was created."
+    }
+  ]
+}

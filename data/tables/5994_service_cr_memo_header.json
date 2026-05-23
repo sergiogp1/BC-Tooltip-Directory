@@ -1,0 +1,693 @@
+{
+  "id": 5994,
+  "name": "Service Cr.Memo Header",
+  "slug": "5994_service_cr_memo_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer associated with the credit memo."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 5,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 6,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that you send or sent credit memo to."
+    },
+    {
+      "no": 7,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer to whom you sent the credit memo."
+    },
+    {
+      "no": 8,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional line of the address."
+    },
+    {
+      "no": 9,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 10,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer's billing address."
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference. The content will be printed on the related document."
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of thethe name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the credit memo was posted."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the shipment method for the shipment."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the location, such as warehouse or distribution center, where the credit memo was registered."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Customer Posting Group",
+      "tooltip": "Specifies the customer's market type to link business transactions to."
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amounts on the credit memo."
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson associated with the credit memo."
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": "Specifies how many times the document has been printed."
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Amount",
+      "tooltip": "Specifies the total credit memo amount excluding VAT."
+    },
+    {
+      "no": 61,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the total credit memo amount including VAT."
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "EU 3-Party Trade",
+      "tooltip": "Specifies if the transaction is related to trade with a third party within the EU."
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer to whom you shipped the service on the credit memo."
+    },
+    {
+      "no": 80,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer on the service invoice."
+    },
+    {
+      "no": 81,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer on the credit memo."
+    },
+    {
+      "no": 82,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 83,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 84,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact person at the customer company."
+    },
+    {
+      "no": 85,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the postal code of the customer's billing address."
+    },
+    {
+      "no": 86,
+      "name": "Bill-to County",
+      "tooltip": "Specifies the state, province or county of the address."
+    },
+    {
+      "no": 87,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": "Specifies the country/region in the customer's address."
+    },
+    {
+      "no": 88,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 89,
+      "name": "County",
+      "tooltip": "Specifies state, province or county."
+    },
+    {
+      "no": 90,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the state, province or county of the address that the items are shipped to."
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 100,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's numbering system."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies which shipping agent is used to transport the items on the service document to the customer."
+    },
+    {
+      "no": 107,
+      "name": "Pre-Assigned No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Pre-Assigned No.",
+      "tooltip": "Specifies the number of the credit memo from which the posted credit memo was created."
+    },
+    {
+      "no": 112,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": "Specifies that items, resources, or costs on the current credit memo line are liable to sales tax."
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "Company Bank Account Code",
+      "tooltip": "Specifies the bank account to use for bank information when the document is printed."
+    },
+    {
+      "no": 131,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the VAT date on the invoice."
+    },
+    {
+      "no": 200,
+      "name": "Work Description",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 710,
+      "name": "Document Exchange Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 711,
+      "name": "Document Exchange Status",
+      "tooltip": "Specifies the status of the document if you are using a document exchange service to send it as an electronic document. The status values are reported by the document exchange service."
+    },
+    {
+      "no": 712,
+      "name": "Doc. Exch. Original Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 5052,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5053,
+      "name": "Bill-to Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 5794,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies which shipping agent service is used to transport the items on the service document to the customer."
+    },
+    {
+      "no": 5902,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5904,
+      "name": "Service Order Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5905,
+      "name": "Link Service to Service Item",
+      "tooltip": ""
+    },
+    {
+      "no": 5907,
+      "name": "Priority",
+      "tooltip": ""
+    },
+    {
+      "no": 5911,
+      "name": "Allocated Hours",
+      "tooltip": ""
+    },
+    {
+      "no": 5915,
+      "name": "Phone No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5916,
+      "name": "E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 5917,
+      "name": "Phone No. 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5918,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5921,
+      "name": "No. of Unallocated Items",
+      "tooltip": ""
+    },
+    {
+      "no": 5923,
+      "name": "Order Time",
+      "tooltip": ""
+    },
+    {
+      "no": 5924,
+      "name": "Default Response Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 5925,
+      "name": "Actual Response Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 5926,
+      "name": "Service Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 5927,
+      "name": "Response Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5928,
+      "name": "Response Time",
+      "tooltip": ""
+    },
+    {
+      "no": 5929,
+      "name": "Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5930,
+      "name": "Starting Time",
+      "tooltip": ""
+    },
+    {
+      "no": 5931,
+      "name": "Finishing Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5932,
+      "name": "Finishing Time",
+      "tooltip": ""
+    },
+    {
+      "no": 5933,
+      "name": "Contract Serv. Hours Exist",
+      "tooltip": ""
+    },
+    {
+      "no": 5934,
+      "name": "Reallocation Needed",
+      "tooltip": ""
+    },
+    {
+      "no": 5936,
+      "name": "Notify Customer",
+      "tooltip": ""
+    },
+    {
+      "no": 5937,
+      "name": "Max. Labor Unit Price",
+      "tooltip": ""
+    },
+    {
+      "no": 5938,
+      "name": "Warning Status",
+      "tooltip": ""
+    },
+    {
+      "no": 5939,
+      "name": "No. of Allocations",
+      "tooltip": ""
+    },
+    {
+      "no": 5940,
+      "name": "Contract No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5951,
+      "name": "Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5952,
+      "name": "Customer Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5953,
+      "name": "Resource Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5954,
+      "name": "Contract Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5955,
+      "name": "Ship-to Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5956,
+      "name": "Ship-to E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 5957,
+      "name": "Resource Group Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5958,
+      "name": "Ship-to Phone",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 5959,
+      "name": "Ship-to Phone 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5966,
+      "name": "Service Zone Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5968,
+      "name": "Service Zone Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5981,
+      "name": "Expected Finishing Date",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 9001,
+      "name": "Quote No.",
+      "tooltip": ""
+    }
+  ]
+}

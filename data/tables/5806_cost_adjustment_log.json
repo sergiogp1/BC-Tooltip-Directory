@@ -1,0 +1,58 @@
+{
+  "id": 5806,
+  "name": "Cost Adjustment Log",
+  "slug": "5806_cost_adjustment_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry."
+    },
+    {
+      "no": 2,
+      "name": "Cost Adjustment Run Guid",
+      "tooltip": "Specifies the unique identifier of the cost adjustment run."
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": "Specifies the status of the cost adjustment run."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the starting date and time of the cost adjustment run."
+    },
+    {
+      "no": 5,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the duration of the cost adjustment run."
+    },
+    {
+      "no": 6,
+      "name": "Item Register No.",
+      "tooltip": "Specifies the item register number that is created for the cost adjustment run. Blank value indicates that the cost adjustment has not produced any new value entries."
+    },
+    {
+      "no": 7,
+      "name": "Item Filter",
+      "tooltip": "Specifies the item filter used for the cost adjustment run."
+    },
+    {
+      "no": 11,
+      "name": "Last Error",
+      "tooltip": "Specifies the last error that occurred during the cost adjustment run."
+    },
+    {
+      "no": 12,
+      "name": "Last Error Call Stack",
+      "tooltip": "Specifies the last error call stack that occurred during the cost adjustment run."
+    },
+    {
+      "no": 13,
+      "name": "Failed Item No.",
+      "tooltip": "Specifies the item number that failed during the cost adjustment run."
+    }
+  ]
+}

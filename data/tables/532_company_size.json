@@ -1,0 +1,18 @@
+{
+  "id": 532,
+  "name": "Company Size",
+  "slug": "532_company_size",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code that identifies the company size."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the company size."
+    }
+  ]
+}

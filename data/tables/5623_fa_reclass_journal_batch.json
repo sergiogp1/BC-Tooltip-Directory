@@ -1,0 +1,28 @@
+{
+  "id": 5623,
+  "name": "FA Reclass. Journal Batch",
+  "slug": "5623_fa_reclass_journal_batch",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the journal batch you are creating."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the journal batch that you are creating."
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this journal batch."
+    }
+  ]
+}

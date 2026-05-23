@@ -1,0 +1,68 @@
+{
+  "id": 762,
+  "name": "Account Schedules Chart Setup",
+  "slug": "762_account_schedules_chart_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the specific chart."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the specific chart."
+    },
+    {
+      "no": 10,
+      "name": "Account Schedule Name",
+      "tooltip": "Specifies the name of the account schedule that is used to generate the chart that is shown in the Finance Performance window."
+    },
+    {
+      "no": 20,
+      "name": "Column Layout Name",
+      "tooltip": "Specifies the name of the column layout in the account schedule that is used to generate the advanced chart that is shown in the Finance Performance window."
+    },
+    {
+      "no": 30,
+      "name": "Base X-Axis on",
+      "tooltip": "Specifies how the values from the selected account schedule are displayed in the specific chart."
+    },
+    {
+      "no": 31,
+      "name": "Start Date",
+      "tooltip": "Specifies the first date on which account schedule values are included in the chart."
+    },
+    {
+      "no": 32,
+      "name": "End Date",
+      "tooltip": "Specifies the last date on which account schedule values are included in the chart."
+    },
+    {
+      "no": 41,
+      "name": "Period Length",
+      "tooltip": "Specifies the length of periods in the chart."
+    },
+    {
+      "no": 42,
+      "name": "No. of Periods",
+      "tooltip": "Specifies how many periods are shown in the chart."
+    },
+    {
+      "no": 50,
+      "name": "Last Viewed",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Look Ahead",
+      "tooltip": ""
+    }
+  ]
+}

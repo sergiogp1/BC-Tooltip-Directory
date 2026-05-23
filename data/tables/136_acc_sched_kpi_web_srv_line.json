@@ -1,0 +1,18 @@
+{
+  "id": 136,
+  "name": "Acc. Sched. KPI Web Srv. Line",
+  "slug": "136_acc_sched_kpi_web_srv_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Acc. Schedule Name",
+      "tooltip": "Specifies the row definition that the KPI web service is based on. To view or edit the selected financial report, choose the Edit Row Definition button."
+    },
+    {
+      "no": 2,
+      "name": "Acc. Schedule Description",
+      "tooltip": "Specifies the description of the row definition that the KPI web service is based on."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 9062,
+  "name": "User Security Status",
+  "slug": "9062_user_security_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User Security ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User Name",
+      "tooltip": "Specifies the user's name. If the user is required to present credentials when starting the client, this is the name that the user must present."
+    },
+    {
+      "no": 3,
+      "name": "Full Name",
+      "tooltip": "Specifies the full name of the user."
+    },
+    {
+      "no": 13,
+      "name": "Reviewed",
+      "tooltip": "Specifies if an administrator has reviewed this new user. When a new user is created, this field is empty to indicate that the user must be set up."
+    },
+    {
+      "no": 15,
+      "name": "Belongs to User Group",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Users - To review",
+      "tooltip": "Specifies new users who have not yet been reviewed by an administrator."
+    },
+    {
+      "no": 22,
+      "name": "Users - Not Group Members",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "CDS Integration Errors",
+      "tooltip": "Specifies the number of errors related to data integration."
+    },
+    {
+      "no": 26,
+      "name": "Coupled Data Synch Errors",
+      "tooltip": "Specifies the number of errors that occurred in the latest synchronization of coupled data between Business Central and Dynamics 365 Sales."
+    },
+    {
+      "no": 27,
+      "name": "User Exists",
+      "tooltip": ""
+    }
+  ]
+}

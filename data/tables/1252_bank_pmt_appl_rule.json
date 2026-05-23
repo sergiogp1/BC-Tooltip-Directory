@@ -1,0 +1,53 @@
+{
+  "id": 1252,
+  "name": "Bank Pmt. Appl. Rule",
+  "slug": "1252_bank_pmt_appl_rule",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Match Confidence",
+      "tooltip": "Specifies your confidence in the application rule that you defined by the values in the Related Party Matched, Doc. No./Ext. Doc. No. Matched, and Amount Incl. Tolerance Matched fields on the line in the Payment Application Rules window."
+    },
+    {
+      "no": 2,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the application rule in relation to other application rules that are defined as lines in the Payment Application Rules window. 1 represents the highest priority."
+    },
+    {
+      "no": 3,
+      "name": "Related Party Matched",
+      "tooltip": "Specifies how much information on the payment reconciliation journal line must match the open entry before the application rule will apply the payment to the open entry."
+    },
+    {
+      "no": 4,
+      "name": "Doc. No./Ext. Doc. No. Matched",
+      "tooltip": "Specifies if text on the payment reconciliation journal line must match with the value in the Document No. field or the External Document No. field on the open entry before the application rule will be used to automatically apply the payment to the open entry."
+    },
+    {
+      "no": 5,
+      "name": "Amount Incl. Tolerance Matched",
+      "tooltip": "Specifies how many entries must match the amount including payment tolerance, before the application rule will be used to apply a payment to the open entry."
+    },
+    {
+      "no": 6,
+      "name": "Direct Debit Collect. Matched",
+      "tooltip": "Specifies if the Transaction ID value on the payment reconciliation journal line must match with the value in the related Transaction ID field in the Direct Debit Collect. Entries window."
+    },
+    {
+      "no": 30,
+      "name": "Score",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Review Required",
+      "tooltip": "Specifies if bank statement lines matched with this rule will be shown as recommended for review."
+    },
+    {
+      "no": 41,
+      "name": "Apply Immediatelly",
+      "tooltip": "Specifies whether to search for alternative ledger entries that this line can be applied to. If turned on, the value is applied to the first match and alternative ledger entries are not considered."
+    }
+  ]
+}

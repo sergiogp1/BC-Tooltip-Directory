@@ -1,0 +1,93 @@
+{
+  "id": 1173,
+  "name": "Document Attachment",
+  "slug": "1173_document_attachment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Attached Date",
+      "tooltip": "Specifies the date when the document was attached."
+    },
+    {
+      "no": 5,
+      "name": "File Name",
+      "tooltip": "Specifies the name of the attached file."
+    },
+    {
+      "no": 6,
+      "name": "File Type",
+      "tooltip": "Specifies the type of document that the attachment is."
+    },
+    {
+      "no": 7,
+      "name": "File Extension",
+      "tooltip": "Specifies the file extension of the attachment."
+    },
+    {
+      "no": 8,
+      "name": "Document Reference ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Attached By",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "User",
+      "tooltip": "Specifies the user who attached the document."
+    },
+    {
+      "no": 11,
+      "name": "Document Flow Purchase",
+      "tooltip": "Specifies if the attachment must flow to transactions."
+    },
+    {
+      "no": 12,
+      "name": "Document Flow Sales",
+      "tooltip": "Specifies if the attachment must flow to transactions."
+    },
+    {
+      "no": 13,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "VAT Report Config. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Document Flow Service",
+      "tooltip": "Specifies if the attachment must flow to transactions."
+    },
+    {
+      "no": 21,
+      "name": "Document Flow Production",
+      "tooltip": "Specifies if the attachment must flow to transactions."
+    }
+  ]
+}

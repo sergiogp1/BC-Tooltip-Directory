@@ -1,0 +1,23 @@
+{
+  "id": 750,
+  "name": "Standard General Journal",
+  "slug": "750_standard_general_journal",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify the standard general journal that you are about to save."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a text that indicates the purpose of the standard general journal."
+    }
+  ]
+}

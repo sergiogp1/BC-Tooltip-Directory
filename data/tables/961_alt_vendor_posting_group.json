@@ -1,0 +1,18 @@
+{
+  "id": 961,
+  "name": "Alt. Vendor Posting Group",
+  "slug": "961_alt_vendor_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Vendor Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Alt. Vendor Posting Group",
+      "tooltip": "Specifies the vendor group for posting business transactions to general general ledger accounts."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 6750,
+  "name": "Reminder Action",
+  "slug": "6750_reminder_action",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Type",
+      "tooltip": "Specifies the type of the action."
+    },
+    {
+      "no": 2,
+      "name": "Reminder Action Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Code",
+      "tooltip": "Specifies the code of the action."
+    },
+    {
+      "no": 8,
+      "name": "Order",
+      "tooltip": "Specifies the order in which the actions will be performed."
+    },
+    {
+      "no": 9,
+      "name": "Stop on Error",
+      "tooltip": "Specifies if the job should stop if an error occurs during this action. If not selected, the job will attempt to process all records and actions."
+    }
+  ]
+}

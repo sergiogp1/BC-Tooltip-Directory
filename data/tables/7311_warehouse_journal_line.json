@@ -1,0 +1,293 @@
+{
+  "id": 7311,
+  "name": "Warehouse Journal Line",
+  "slug": "7311_warehouse_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies the name of the journal template, the basis of the journal batch, that the entries were posted from."
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the warehouse journal line."
+    },
+    {
+      "no": 4,
+      "name": "Registering Date",
+      "tooltip": "Specifies the date the line is registered."
+    },
+    {
+      "no": 5,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location to which the journal line applies."
+    },
+    {
+      "no": 6,
+      "name": "From Zone Code",
+      "tooltip": "Specifies the code of the zone from which the item on the journal line is taken."
+    },
+    {
+      "no": 7,
+      "name": "From Bin Code",
+      "tooltip": "Specifies the code of the bin from which the item on the journal line is taken."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item."
+    },
+    {
+      "no": 9,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item on the journal line."
+    },
+    {
+      "no": 10,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item in the adjustment (positive or negative) or the reclassification."
+    },
+    {
+      "no": 11,
+      "name": "Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Qty. (Absolute)",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Qty. (Absolute, Base)",
+      "tooltip": "Specifies the quantity expressed as an absolute (positive) number, in the base unit of measure."
+    },
+    {
+      "no": 14,
+      "name": "Zone Code",
+      "tooltip": "Specifies the zone code where the bin on this line is located."
+    },
+    {
+      "no": 15,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 20,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Source Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Source Subline No.",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Source Document",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "To Zone Code",
+      "tooltip": "Specifies the code of the zone to which the item on the journal line will be moved."
+    },
+    {
+      "no": 28,
+      "name": "To Bin Code",
+      "tooltip": "Specifies the code of the bin to which the item on the journal line will be moved."
+    },
+    {
+      "no": 29,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 33,
+      "name": "Registering No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "From Bin Type Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Cubage",
+      "tooltip": "Specifies the total cubage of the items on the warehouse journal line."
+    },
+    {
+      "no": 41,
+      "name": "Weight",
+      "tooltip": "Specifies the weight of one item unit when measured in the specified unit of measure."
+    },
+    {
+      "no": 50,
+      "name": "Whse. Document No.",
+      "tooltip": "Specifies the warehouse document number of the journal line."
+    },
+    {
+      "no": 51,
+      "name": "Whse. Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Whse. Document Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Qty. (Calculated)",
+      "tooltip": "Specifies the quantity of the bin item that is calculated when you use the function, Calculate Inventory, in the Whse. Physical Inventory Journal."
+    },
+    {
+      "no": 54,
+      "name": "Qty. (Phys. Inventory)",
+      "tooltip": "Specifies the quantity of items in the bin that you have counted."
+    },
+    {
+      "no": 55,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of transaction that will be registered from the line."
+    },
+    {
+      "no": 56,
+      "name": "Phys. Inventory",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Reference Document",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 68,
+      "name": "Qty. (Calculated) (Base)",
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
+    },
+    {
+      "no": 69,
+      "name": "Qty. (Phys. Inventory) (Base)",
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure in the unit of measure specified for the item on the journal line."
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5408,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5409,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 6500,
+      "name": "Serial No.",
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
+    },
+    {
+      "no": 6502,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the last day of warranty for the item on the line."
+    },
+    {
+      "no": 6503,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the last date that the item on the line can be used."
+    },
+    {
+      "no": 6504,
+      "name": "New Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6505,
+      "name": "New Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6506,
+      "name": "New Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
+    },
+    {
+      "no": 6516,
+      "name": "New Package No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7380,
+      "name": "Phys Invt Counting Period Code",
+      "tooltip": "Specifies a code for the physical inventory counting period, if the counting period functionality was used when the line was created."
+    },
+    {
+      "no": 7381,
+      "name": "Phys Invt Counting Period Type",
+      "tooltip": "Specifies whether the physical inventory counting period was assigned to a stockkeeping unit or an item."
+    }
+  ]
+}

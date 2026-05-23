@@ -1,0 +1,253 @@
+{
+  "id": 900,
+  "name": "Assembly Header",
+  "slug": "900_assembly_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of assembly document the record represents in assemble-to-order scenarios."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number assigned to the assembly order from the number series that you set up in the Assembly Setup window."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the assembly item."
+    },
+    {
+      "no": 4,
+      "name": "Search Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 6,
+      "name": "Creation Date",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is being assembled with the assembly order."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the code of the item variant of the item that is being assembled."
+    },
+    {
+      "no": 15,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the code for the General Business Posting Group that applies to the entry."
+    },
+    {
+      "no": 19,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies the location to which you want to post output of the assembly item."
+    },
+    {
+      "no": 21,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 22,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 23,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date on which the assembly order is posted."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the assembled item is due to be available for use."
+    },
+    {
+      "no": 25,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when the assembly order is expected to start."
+    },
+    {
+      "no": 27,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date when the assembly order is expected to finish."
+    },
+    {
+      "no": 33,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin the assembly item is posted to as output and from where it is taken to storage or shipped if it is assembled to a sales order."
+    },
+    {
+      "no": 40,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the assembly item that you expect to assemble with the assembly order."
+    },
+    {
+      "no": 41,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Remaining Quantity",
+      "tooltip": "Specifies how many units of the assembly item remain to be posted as assembled output."
+    },
+    {
+      "no": 43,
+      "name": "Remaining Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Assembled Quantity",
+      "tooltip": "Specifies how many units of the assembly item are posted as assembled output."
+    },
+    {
+      "no": 45,
+      "name": "Assembled Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Quantity to Assemble",
+      "tooltip": "Specifies how many of the assembly item units you want to partially post. To post the full quantity on the assembly order, leave the field unchanged."
+    },
+    {
+      "no": 47,
+      "name": "Quantity to Assemble (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies how many units of the assembly item are reserved for this assembly order header."
+    },
+    {
+      "no": 49,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies how many assembly items, which are stated in the base unit of measure, are reserved for this assembly order header."
+    },
+    {
+      "no": 50,
+      "name": "Planning Flexibility",
+      "tooltip": "Specifies whether the supply represented by the assembly order is considered by the planning system when calculating action messages."
+    },
+    {
+      "no": 51,
+      "name": "MPS Order",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Assemble to Order",
+      "tooltip": "Specifies if the assembly order is linked to a sales order, which indicates that the item is assembled to order."
+    },
+    {
+      "no": 63,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 67,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total unit cost of the assembly order."
+    },
+    {
+      "no": 68,
+      "name": "Rolled-up Assembly Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 76,
+      "name": "Overhead Rate",
+      "tooltip": "Specifies the indirect cost of the assembly item as an absolute amount."
+    },
+    {
+      "no": 80,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies the unit of measure code of the assembly item."
+    },
+    {
+      "no": 81,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Status",
+      "tooltip": "Specifies if the document is open, waiting to be approved, invoiced for prepayment, or released to the next stage of processing."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    }
+  ]
+}

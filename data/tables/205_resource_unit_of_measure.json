@@ -1,0 +1,33 @@
+{
+  "id": 205,
+  "name": "Resource Unit of Measure",
+  "slug": "205_resource_unit_of_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies one of the unit of measure codes that has been set up in the Unit of Measure table."
+    },
+    {
+      "no": 3,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of units of the code. If, for example, the base unit of measure is hour, and the code is day, enter 8 in this field."
+    },
+    {
+      "no": 4,
+      "name": "Related to Base Unit of Meas.",
+      "tooltip": "Specifies that the unit of measure can be calculated into the base unit of measure. For example, 2 days equals 16 hours."
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the resource unit of measure is coupled to a unit of measure in Dynamics 365 Sales."
+    }
+  ]
+}

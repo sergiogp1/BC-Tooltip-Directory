@@ -1,0 +1,293 @@
+{
+  "id": 5851,
+  "name": "Invt. Document Line",
+  "slug": "5851_invt_document_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the related document."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line."
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the related document."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item."
+    },
+    {
+      "no": 9,
+      "name": "Location Code",
+      "tooltip": "Specifies the warehouse or other place where the involved items are handled or stored."
+    },
+    {
+      "no": 10,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units for this item."
+    },
+    {
+      "no": 16,
+      "name": "Unit Amount",
+      "tooltip": "Specifies the price per unit for this item."
+    },
+    {
+      "no": 17,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 18,
+      "name": "Amount",
+      "tooltip": "Specifies the transaction amount for this line."
+    },
+    {
+      "no": 23,
+      "name": "Salespers./Purch. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Applies-to Entry",
+      "tooltip": "Specifies if the quantity on the journal line should be applied to an already-posted document."
+    },
+    {
+      "no": 32,
+      "name": "Item Shpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 35,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 37,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 38,
+      "name": "Gross Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Net Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Unit Volume",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 55,
+      "name": "Last Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Unit Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5405,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5406,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5413,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity on the line expressed in base units of measure."
+    },
+    {
+      "no": 5470,
+      "name": "Reserved Quantity Inbnd.",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-to location."
+    },
+    {
+      "no": 5471,
+      "name": "Reserved Quantity Outbnd.",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-from location."
+    },
+    {
+      "no": 5472,
+      "name": "Reserved Qty. Inbnd. (Base)",
+      "tooltip": "Specifies the item base quantity that is reserved at the warehouse of the receiver."
+    },
+    {
+      "no": 5473,
+      "name": "Reserved Qty. Outbnd. (Base)",
+      "tooltip": "Specifies the item base quantity that is reserved at the warehouse of the receiver."
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5706,
+      "name": "Purchasing Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies a reference to the item number as defined by the item's barcode."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5801,
+      "name": "Item Charge No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5807,
+      "name": "Applies-from Entry",
+      "tooltip": "Specifies the entry number of the Sales Ledger or Purchase Ledger from which the document line was applied."
+    },
+    {
+      "no": 5811,
+      "name": "Applied Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 5812,
+      "name": "Update Standard Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 5813,
+      "name": "Amount (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5819,
+      "name": "Applies-to Value Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 12450,
+      "name": "FA No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12451,
+      "name": "FA Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12452,
+      "name": "Depreciation Book Code",
+      "tooltip": ""
+    }
+  ]
+}

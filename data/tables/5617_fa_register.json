@@ -1,0 +1,68 @@
+{
+  "id": 5617,
+  "name": "FA Register",
+  "slug": "5617_fa_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "From Entry No.",
+      "tooltip": "Specifies the first item entry number in the register."
+    },
+    {
+      "no": 3,
+      "name": "To Entry No.",
+      "tooltip": "Specifies the last FA entry number in the register."
+    },
+    {
+      "no": 4,
+      "name": "Creation Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 6,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 7,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    },
+    {
+      "no": 8,
+      "name": "Journal Type",
+      "tooltip": "Specifies the type of journal (G/L or Fixed Asset) that the entries were posted from."
+    },
+    {
+      "no": 9,
+      "name": "G/L Register No.",
+      "tooltip": "Specifies the number of the G/L register that was created when the entries were posted."
+    },
+    {
+      "no": 10,
+      "name": "From Maintenance Entry No.",
+      "tooltip": "Specifies the first maintenance entry number in the register."
+    },
+    {
+      "no": 11,
+      "name": "To Maintenance Entry No.",
+      "tooltip": "Specifies the last maintenance entry number in the register."
+    },
+    {
+      "no": 13,
+      "name": "Creation Time",
+      "tooltip": ""
+    }
+  ]
+}

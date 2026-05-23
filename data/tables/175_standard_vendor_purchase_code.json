@@ -1,0 +1,48 @@
+{
+  "id": 175,
+  "name": "Standard Vendor Purchase Code",
+  "slug": "175_standard_vendor_purchase_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor to which the standard purchase code is assigned."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a standard purchase code from the Standard Purchase Code table."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the standard purchase code."
+    },
+    {
+      "no": 13,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Insert Rec. Lines On Quotes",
+      "tooltip": "Specifies how you want to use standard purchase codes on purchase quotes."
+    },
+    {
+      "no": 16,
+      "name": "Insert Rec. Lines On Orders",
+      "tooltip": "Specifies how you want to use standard purchase codes on purchase orders."
+    },
+    {
+      "no": 17,
+      "name": "Insert Rec. Lines On Invoices",
+      "tooltip": "Specifies how you want to use standard purchase codes on purchase invoices."
+    },
+    {
+      "no": 18,
+      "name": "Insert Rec. Lines On Cr. Memos",
+      "tooltip": "Specifies how you want to use standard purchase codes on purchase credit memos."
+    }
+  ]
+}

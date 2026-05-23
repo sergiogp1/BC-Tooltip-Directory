@@ -1,0 +1,7914 @@
+{
+  "tables": [
+    {
+      "id": 3,
+      "name": "Payment Terms",
+      "slug": "3_payment_terms",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 4,
+      "name": "Currency",
+      "slug": "4_currency",
+      "fieldCount": 51,
+      "hasEmpty": true
+    },
+    {
+      "id": 5,
+      "name": "Finance Charge Terms",
+      "slug": "5_finance_charge_terms",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 6,
+      "name": "Customer Price Group",
+      "slug": "6_customer_price_group",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7,
+      "name": "Standard Text",
+      "slug": "7_standard_text",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 9,
+      "name": "Country/Region",
+      "slug": "9_country_region",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 10,
+      "name": "Shipment Method",
+      "slug": "10_shipment_method",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 11,
+      "name": "Country/Region Translation",
+      "slug": "11_country_region_translation",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 13,
+      "name": "Salesperson/Purchaser",
+      "slug": "13_salesperson_purchaser",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 14,
+      "name": "Location",
+      "slug": "14_location",
+      "fieldCount": 53,
+      "hasEmpty": true
+    },
+    {
+      "id": 15,
+      "name": "G/L Account",
+      "slug": "15_g_l_account",
+      "fieldCount": 71,
+      "hasEmpty": true
+    },
+    {
+      "id": 17,
+      "name": "G/L Entry",
+      "slug": "17_g_l_entry",
+      "fieldCount": 73,
+      "hasEmpty": true
+    },
+    {
+      "id": 18,
+      "name": "Customer",
+      "slug": "18_customer",
+      "fieldCount": 165,
+      "hasEmpty": true
+    },
+    {
+      "id": 19,
+      "name": "Cust. Invoice Disc.",
+      "slug": "19_cust_invoice_disc",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 21,
+      "name": "Cust. Ledger Entry",
+      "slug": "21_cust_ledger_entry",
+      "fieldCount": 90,
+      "hasEmpty": true
+    },
+    {
+      "id": 23,
+      "name": "Vendor",
+      "slug": "23_vendor",
+      "fieldCount": 146,
+      "hasEmpty": true
+    },
+    {
+      "id": 24,
+      "name": "Vendor Invoice Disc.",
+      "slug": "24_vendor_invoice_disc",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 25,
+      "name": "Vendor Ledger Entry",
+      "slug": "25_vendor_ledger_entry",
+      "fieldCount": 86,
+      "hasEmpty": true
+    },
+    {
+      "id": 27,
+      "name": "Item",
+      "slug": "27_item",
+      "fieldCount": 206,
+      "hasEmpty": true
+    },
+    {
+      "id": 30,
+      "name": "Item Translation",
+      "slug": "30_item_translation",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 31,
+      "name": "Item Picture Buffer",
+      "slug": "31_item_picture_buffer",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 32,
+      "name": "Item Ledger Entry",
+      "slug": "32_item_ledger_entry",
+      "fieldCount": 85,
+      "hasEmpty": true
+    },
+    {
+      "id": 33,
+      "name": "Intercompany Setup Diagnostic",
+      "slug": "33_intercompany_setup_diagnostic",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 36,
+      "name": "Sales Header",
+      "slug": "36_sales_header",
+      "fieldCount": 183,
+      "hasEmpty": true
+    },
+    {
+      "id": 37,
+      "name": "Sales Line",
+      "slug": "37_sales_line",
+      "fieldCount": 193,
+      "hasEmpty": true
+    },
+    {
+      "id": 38,
+      "name": "Purchase Header",
+      "slug": "38_purchase_header",
+      "fieldCount": 164,
+      "hasEmpty": true
+    },
+    {
+      "id": 39,
+      "name": "Purchase Line",
+      "slug": "39_purchase_line",
+      "fieldCount": 214,
+      "hasEmpty": true
+    },
+    {
+      "id": 42,
+      "name": "Rounding Method",
+      "slug": "42_rounding_method",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 43,
+      "name": "Purch. Comment Line",
+      "slug": "43_purch_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 44,
+      "name": "Sales Comment Line",
+      "slug": "44_sales_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 45,
+      "name": "G/L Register",
+      "slug": "45_g_l_register",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 46,
+      "name": "Item Register",
+      "slug": "46_item_register",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 50,
+      "name": "Accounting Period",
+      "slug": "50_accounting_period",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 51,
+      "name": "User Time Register",
+      "slug": "51_user_time_register",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 53,
+      "name": "Accounting Period Buffer",
+      "slug": "53_accounting_period_buffer",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 60,
+      "name": "Document Sending Profile",
+      "slug": "60_document_sending_profile",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 61,
+      "name": "Electronic Document Format",
+      "slug": "61_electronic_document_format",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 64,
+      "name": "Merge Duplicates Buffer",
+      "slug": "64_merge_duplicates_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 65,
+      "name": "Merge Duplicates Line Buffer",
+      "slug": "65_merge_duplicates_line_buffer",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 66,
+      "name": "Merge Duplicates Conflict",
+      "slug": "66_merge_duplicates_conflict",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 77,
+      "name": "Report Selections",
+      "slug": "77_report_selections",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 78,
+      "name": "Printer Selection",
+      "slug": "78_printer_selection",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 79,
+      "name": "Company Information",
+      "slug": "79_company_information",
+      "fieldCount": 61,
+      "hasEmpty": true
+    },
+    {
+      "id": 80,
+      "name": "Gen. Journal Template",
+      "slug": "80_gen_journal_template",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 81,
+      "name": "Gen. Journal Line",
+      "slug": "81_gen_journal_line",
+      "fieldCount": 213,
+      "hasEmpty": true
+    },
+    {
+      "id": 82,
+      "name": "Item Journal Template",
+      "slug": "82_item_journal_template",
+      "fieldCount": 18,
+      "hasEmpty": false
+    },
+    {
+      "id": 83,
+      "name": "Item Journal Line",
+      "slug": "83_item_journal_line",
+      "fieldCount": 145,
+      "hasEmpty": true
+    },
+    {
+      "id": 84,
+      "name": "Acc. Schedule Name",
+      "slug": "84_acc_schedule_name",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 85,
+      "name": "Acc. Schedule Line",
+      "slug": "85_acc_schedule_line",
+      "fieldCount": 39,
+      "hasEmpty": true
+    },
+    {
+      "id": 86,
+      "name": "Exch. Rate Adjmt. Reg.",
+      "slug": "86_exch_rate_adjmt_reg",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 87,
+      "name": "Date Compr. Register",
+      "slug": "87_date_compr_register",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 88,
+      "name": "Financial Report",
+      "slug": "88_financial_report",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 90,
+      "name": "BOM Component",
+      "slug": "90_bom_component",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 91,
+      "name": "User Setup",
+      "slug": "91_user_setup",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 92,
+      "name": "Customer Posting Group",
+      "slug": "92_customer_posting_group",
+      "fieldCount": 17,
+      "hasEmpty": false
+    },
+    {
+      "id": 93,
+      "name": "Vendor Posting Group",
+      "slug": "93_vendor_posting_group",
+      "fieldCount": 14,
+      "hasEmpty": false
+    },
+    {
+      "id": 94,
+      "name": "Inventory Posting Group",
+      "slug": "94_inventory_posting_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 95,
+      "name": "G/L Budget Name",
+      "slug": "95_g_l_budget_name",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 96,
+      "name": "G/L Budget Entry",
+      "slug": "96_g_l_budget_entry",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 97,
+      "name": "Comment Line",
+      "slug": "97_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 98,
+      "name": "General Ledger Setup",
+      "slug": "98_general_ledger_setup",
+      "fieldCount": 114,
+      "hasEmpty": true
+    },
+    {
+      "id": 99,
+      "name": "Item Vendor",
+      "slug": "99_item_vendor",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 110,
+      "name": "Sales Shipment Header",
+      "slug": "110_sales_shipment_header",
+      "fieldCount": 107,
+      "hasEmpty": true
+    },
+    {
+      "id": 111,
+      "name": "Sales Shipment Line",
+      "slug": "111_sales_shipment_line",
+      "fieldCount": 98,
+      "hasEmpty": true
+    },
+    {
+      "id": 112,
+      "name": "Sales Invoice Header",
+      "slug": "112_sales_invoice_header",
+      "fieldCount": 137,
+      "hasEmpty": true
+    },
+    {
+      "id": 113,
+      "name": "Sales Invoice Line",
+      "slug": "113_sales_invoice_line",
+      "fieldCount": 100,
+      "hasEmpty": true
+    },
+    {
+      "id": 114,
+      "name": "Sales Cr.Memo Header",
+      "slug": "114_sales_cr_memo_header",
+      "fieldCount": 123,
+      "hasEmpty": true
+    },
+    {
+      "id": 115,
+      "name": "Sales Cr.Memo Line",
+      "slug": "115_sales_cr_memo_line",
+      "fieldCount": 96,
+      "hasEmpty": true
+    },
+    {
+      "id": 120,
+      "name": "Purch. Rcpt. Header",
+      "slug": "120_purch_rcpt_header",
+      "fieldCount": 95,
+      "hasEmpty": true
+    },
+    {
+      "id": 121,
+      "name": "Purch. Rcpt. Line",
+      "slug": "121_purch_rcpt_line",
+      "fieldCount": 119,
+      "hasEmpty": true
+    },
+    {
+      "id": 122,
+      "name": "Purch. Inv. Header",
+      "slug": "122_purch_inv_header",
+      "fieldCount": 112,
+      "hasEmpty": true
+    },
+    {
+      "id": 123,
+      "name": "Purch. Inv. Line",
+      "slug": "123_purch_inv_line",
+      "fieldCount": 119,
+      "hasEmpty": true
+    },
+    {
+      "id": 124,
+      "name": "Purch. Cr. Memo Hdr.",
+      "slug": "124_purch_cr_memo_hdr",
+      "fieldCount": 104,
+      "hasEmpty": true
+    },
+    {
+      "id": 125,
+      "name": "Purch. Cr. Memo Line",
+      "slug": "125_purch_cr_memo_line",
+      "fieldCount": 114,
+      "hasEmpty": true
+    },
+    {
+      "id": 130,
+      "name": "Incoming Document",
+      "slug": "130_incoming_document",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 131,
+      "name": "Incoming Documents Setup",
+      "slug": "131_incoming_documents_setup",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 133,
+      "name": "Incoming Document Attachment",
+      "slug": "133_incoming_document_attachment",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 134,
+      "name": "Posted Docs. With No Inc. Buf.",
+      "slug": "134_posted_docs_with_no_inc_buf",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 135,
+      "name": "Acc. Sched. KPI Web Srv. Setup",
+      "slug": "135_acc_sched_kpi_web_srv_setup",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 136,
+      "name": "Acc. Sched. KPI Web Srv. Line",
+      "slug": "136_acc_sched_kpi_web_srv_line",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 137,
+      "name": "Inc. Doc. Attachment Overview",
+      "slug": "137_inc_doc_attachment_overview",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 138,
+      "name": "Unlinked Attachment",
+      "slug": "138_unlinked_attachment",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 140,
+      "name": "License Agreement",
+      "slug": "140_license_agreement",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 142,
+      "name": "Dispute Status",
+      "slug": "142_dispute_status",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 152,
+      "name": "Resource Group",
+      "slug": "152_resource_group",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 156,
+      "name": "Resource",
+      "slug": "156_resource",
+      "fieldCount": 58,
+      "hasEmpty": true
+    },
+    {
+      "id": 160,
+      "name": "Res. Capacity Entry",
+      "slug": "160_res_capacity_entry",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 167,
+      "name": "Job",
+      "slug": "167_job",
+      "fieldCount": 105,
+      "hasEmpty": true
+    },
+    {
+      "id": 169,
+      "name": "Job Ledger Entry",
+      "slug": "169_job_ledger_entry",
+      "fieldCount": 81,
+      "hasEmpty": true
+    },
+    {
+      "id": 170,
+      "name": "Standard Sales Code",
+      "slug": "170_standard_sales_code",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 171,
+      "name": "Standard Sales Line",
+      "slug": "171_standard_sales_line",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 172,
+      "name": "Standard Customer Sales Code",
+      "slug": "172_standard_customer_sales_code",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 173,
+      "name": "Standard Purchase Code",
+      "slug": "173_standard_purchase_code",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 174,
+      "name": "Standard Purchase Line",
+      "slug": "174_standard_purchase_line",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 175,
+      "name": "Standard Vendor Purchase Code",
+      "slug": "175_standard_vendor_purchase_code",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 179,
+      "name": "Reversal Entry",
+      "slug": "179_reversal_entry",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 180,
+      "name": "G/L Account Where-Used",
+      "slug": "180_g_l_account_where_used",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 181,
+      "name": "Posted Gen. Journal Line",
+      "slug": "181_posted_gen_journal_line",
+      "fieldCount": 191,
+      "hasEmpty": true
+    },
+    {
+      "id": 182,
+      "name": "Posted Gen. Journal Batch",
+      "slug": "182_posted_gen_journal_batch",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 183,
+      "name": "Copy Gen. Journal Parameters",
+      "slug": "183_copy_gen_journal_parameters",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 184,
+      "name": "Payment Rec. Related Entry",
+      "slug": "184_payment_rec_related_entry",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 186,
+      "name": "Exch. Rate Adjmt. Ledg. Entry",
+      "slug": "186_exch_rate_adjmt_ledg_entry",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 189,
+      "name": "VAT Setup",
+      "slug": "189_vat_setup",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 197,
+      "name": "Acc. Sched. KPI Buffer",
+      "slug": "197_acc_sched_kpi_buffer",
+      "fieldCount": 17,
+      "hasEmpty": false
+    },
+    {
+      "id": 200,
+      "name": "Work Type",
+      "slug": "200_work_type",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 201,
+      "name": "Resource Price",
+      "slug": "201_resource_price",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 202,
+      "name": "Resource Cost",
+      "slug": "202_resource_cost",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 203,
+      "name": "Res. Ledger Entry",
+      "slug": "203_res_ledger_entry",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 204,
+      "name": "Unit of Measure",
+      "slug": "204_unit_of_measure",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 205,
+      "name": "Resource Unit of Measure",
+      "slug": "205_resource_unit_of_measure",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 206,
+      "name": "Res. Journal Template",
+      "slug": "206_res_journal_template",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 207,
+      "name": "Res. Journal Line",
+      "slug": "207_res_journal_line",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 208,
+      "name": "Job Posting Group",
+      "slug": "208_job_posting_group",
+      "fieldCount": 16,
+      "hasEmpty": false
+    },
+    {
+      "id": 209,
+      "name": "Job Journal Template",
+      "slug": "209_job_journal_template",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 210,
+      "name": "Job Journal Line",
+      "slug": "210_job_journal_line",
+      "fieldCount": 87,
+      "hasEmpty": true
+    },
+    {
+      "id": 213,
+      "name": "Alt. Cust. VAT Reg.",
+      "slug": "213_alt_cust_vat_reg",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 220,
+      "name": "Business Unit",
+      "slug": "220_business_unit",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 221,
+      "name": "Gen. Jnl. Allocation",
+      "slug": "221_gen_jnl_allocation",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 222,
+      "name": "Ship-to Address",
+      "slug": "222_ship_to_address",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 224,
+      "name": "Order Address",
+      "slug": "224_order_address",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 225,
+      "name": "Post Code",
+      "slug": "225_post_code",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 226,
+      "name": "VAT Reg. No. Srv. Template",
+      "slug": "226_vat_reg_no_srv_template",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 227,
+      "name": "VAT Registration Log Details",
+      "slug": "227_vat_registration_log_details",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 232,
+      "name": "Gen. Journal Batch",
+      "slug": "232_gen_journal_batch",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 233,
+      "name": "Item Journal Batch",
+      "slug": "233_item_journal_batch",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 236,
+      "name": "Res. Journal Batch",
+      "slug": "236_res_journal_batch",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 237,
+      "name": "Job Journal Batch",
+      "slug": "237_job_journal_batch",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 240,
+      "name": "Resource Register",
+      "slug": "240_resource_register",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 241,
+      "name": "Job Register",
+      "slug": "241_job_register",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 244,
+      "name": "Req. Wksh. Template",
+      "slug": "244_req_wksh_template",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 245,
+      "name": "Requisition Wksh. Name",
+      "slug": "245_requisition_wksh_name",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 246,
+      "name": "Requisition Line",
+      "slug": "246_requisition_line",
+      "fieldCount": 107,
+      "hasEmpty": true
+    },
+    {
+      "id": 248,
+      "name": "VAT Reg. No. Srv Config",
+      "slug": "248_vat_reg_no_srv_config",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 249,
+      "name": "VAT Registration Log",
+      "slug": "249_vat_registration_log",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 250,
+      "name": "Gen. Business Posting Group",
+      "slug": "250_gen_business_posting_group",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 251,
+      "name": "Gen. Product Posting Group",
+      "slug": "251_gen_product_posting_group",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 252,
+      "name": "General Posting Setup",
+      "slug": "252_general_posting_setup",
+      "fieldCount": 32,
+      "hasEmpty": false
+    },
+    {
+      "id": 254,
+      "name": "VAT Entry",
+      "slug": "254_vat_entry",
+      "fieldCount": 74,
+      "hasEmpty": true
+    },
+    {
+      "id": 255,
+      "name": "VAT Statement Template",
+      "slug": "255_vat_statement_template",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 256,
+      "name": "VAT Statement Line",
+      "slug": "256_vat_statement_line",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 257,
+      "name": "VAT Statement Name",
+      "slug": "257_vat_statement_name",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 258,
+      "name": "Transaction Type",
+      "slug": "258_transaction_type",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 259,
+      "name": "Transport Method",
+      "slug": "259_transport_method",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 260,
+      "name": "Tariff Number",
+      "slug": "260_tariff_number",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 265,
+      "name": "Document Entry",
+      "slug": "265_document_entry",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 269,
+      "name": "G/L Account Net Change",
+      "slug": "269_g_l_account_net_change",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 270,
+      "name": "Bank Account",
+      "slug": "270_bank_account",
+      "fieldCount": 80,
+      "hasEmpty": true
+    },
+    {
+      "id": 271,
+      "name": "Bank Account Ledger Entry",
+      "slug": "271_bank_account_ledger_entry",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 272,
+      "name": "Check Ledger Entry",
+      "slug": "272_check_ledger_entry",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 273,
+      "name": "Bank Acc. Reconciliation",
+      "slug": "273_bank_acc_reconciliation",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 274,
+      "name": "Bank Acc. Reconciliation Line",
+      "slug": "274_bank_acc_reconciliation_line",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 275,
+      "name": "Bank Account Statement",
+      "slug": "275_bank_account_statement",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 276,
+      "name": "Bank Account Statement Line",
+      "slug": "276_bank_account_statement_line",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 277,
+      "name": "Bank Account Posting Group",
+      "slug": "277_bank_account_posting_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 278,
+      "name": "Job Journal Quantity",
+      "slug": "278_job_journal_quantity",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 279,
+      "name": "Extended Text Header",
+      "slug": "279_extended_text_header",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 280,
+      "name": "Extended Text Line",
+      "slug": "280_extended_text_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 281,
+      "name": "Phys. Inventory Ledger Entry",
+      "slug": "281_phys_inventory_ledger_entry",
+      "fieldCount": 38,
+      "hasEmpty": true
+    },
+    {
+      "id": 282,
+      "name": "Entry/Exit Point",
+      "slug": "282_entry_exit_point",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 284,
+      "name": "Area",
+      "slug": "284_area",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 285,
+      "name": "Transaction Specification",
+      "slug": "285_transaction_specification",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 286,
+      "name": "Territory",
+      "slug": "286_territory",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 287,
+      "name": "Customer Bank Account",
+      "slug": "287_customer_bank_account",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 288,
+      "name": "Vendor Bank Account",
+      "slug": "288_vendor_bank_account",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 289,
+      "name": "Payment Method",
+      "slug": "289_payment_method",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 290,
+      "name": "VAT Amount Line",
+      "slug": "290_vat_amount_line",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 291,
+      "name": "Shipping Agent",
+      "slug": "291_shipping_agent",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 292,
+      "name": "Reminder Terms",
+      "slug": "292_reminder_terms",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 293,
+      "name": "Reminder Level",
+      "slug": "293_reminder_level",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 294,
+      "name": "Reminder Text",
+      "slug": "294_reminder_text",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 295,
+      "name": "Reminder Header",
+      "slug": "295_reminder_header",
+      "fieldCount": 50,
+      "hasEmpty": true
+    },
+    {
+      "id": 296,
+      "name": "Reminder Line",
+      "slug": "296_reminder_line",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 297,
+      "name": "Issued Reminder Header",
+      "slug": "297_issued_reminder_header",
+      "fieldCount": 60,
+      "hasEmpty": true
+    },
+    {
+      "id": 298,
+      "name": "Issued Reminder Line",
+      "slug": "298_issued_reminder_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 299,
+      "name": "Reminder Comment Line",
+      "slug": "299_reminder_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 300,
+      "name": "Reminder/Fin. Charge Entry",
+      "slug": "300_reminder_fin_charge_entry",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 301,
+      "name": "Finance Charge Text",
+      "slug": "301_finance_charge_text",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 302,
+      "name": "Finance Charge Memo Header",
+      "slug": "302_finance_charge_memo_header",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 303,
+      "name": "Finance Charge Memo Line",
+      "slug": "303_finance_charge_memo_line",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 304,
+      "name": "Issued Fin. Charge Memo Header",
+      "slug": "304_issued_fin_charge_memo_header",
+      "fieldCount": 49,
+      "hasEmpty": true
+    },
+    {
+      "id": 305,
+      "name": "Issued Fin. Charge Memo Line",
+      "slug": "305_issued_fin_charge_memo_line",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 306,
+      "name": "Fin. Charge Comment Line",
+      "slug": "306_fin_charge_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 311,
+      "name": "Sales & Receivables Setup",
+      "slug": "311_sales_receivables_setup",
+      "fieldCount": 92,
+      "hasEmpty": true
+    },
+    {
+      "id": 312,
+      "name": "Purchases & Payables Setup",
+      "slug": "312_purchases_payables_setup",
+      "fieldCount": 72,
+      "hasEmpty": true
+    },
+    {
+      "id": 313,
+      "name": "Inventory Setup",
+      "slug": "313_inventory_setup",
+      "fieldCount": 54,
+      "hasEmpty": true
+    },
+    {
+      "id": 314,
+      "name": "Resources Setup",
+      "slug": "314_resources_setup",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 315,
+      "name": "Jobs Setup",
+      "slug": "315_jobs_setup",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 318,
+      "name": "Tax Area",
+      "slug": "318_tax_area",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 319,
+      "name": "Tax Area Line",
+      "slug": "319_tax_area_line",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 320,
+      "name": "Tax Jurisdiction",
+      "slug": "320_tax_jurisdiction",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 321,
+      "name": "Tax Group",
+      "slug": "321_tax_group",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 322,
+      "name": "Tax Detail",
+      "slug": "322_tax_detail",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 323,
+      "name": "VAT Business Posting Group",
+      "slug": "323_vat_business_posting_group",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 324,
+      "name": "VAT Product Posting Group",
+      "slug": "324_vat_product_posting_group",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 325,
+      "name": "VAT Posting Setup",
+      "slug": "325_vat_posting_setup",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 326,
+      "name": "Tax Setup",
+      "slug": "326_tax_setup",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 328,
+      "name": "Currency for Fin. Charge Terms",
+      "slug": "328_currency_for_fin_charge_terms",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 329,
+      "name": "Currency for Reminder Level",
+      "slug": "329_currency_for_reminder_level",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 330,
+      "name": "Currency Exchange Rate",
+      "slug": "330_currency_exchange_rate",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 333,
+      "name": "Column Layout Name",
+      "slug": "333_column_layout_name",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 334,
+      "name": "Column Layout",
+      "slug": "334_column_layout",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 335,
+      "name": "Resource Price Change",
+      "slug": "335_resource_price_change",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 336,
+      "name": "Tracking Specification",
+      "slug": "336_tracking_specification",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 337,
+      "name": "Reservation Entry",
+      "slug": "337_reservation_entry",
+      "fieldCount": 45,
+      "hasEmpty": true
+    },
+    {
+      "id": 338,
+      "name": "Entry Summary",
+      "slug": "338_entry_summary",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 339,
+      "name": "Item Application Entry",
+      "slug": "339_item_application_entry",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 340,
+      "name": "Customer Discount Group",
+      "slug": "340_customer_discount_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 341,
+      "name": "Item Discount Group",
+      "slug": "341_item_discount_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 343,
+      "name": "Item Application Entry History",
+      "slug": "343_item_application_entry_history",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 344,
+      "name": "VAT Reporting Code",
+      "slug": "344_vat_reporting_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 345,
+      "name": "Reservation Wksh. Batch",
+      "slug": "345_reservation_wksh_batch",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 346,
+      "name": "Reservation Wksh. Line",
+      "slug": "346_reservation_wksh_line",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 348,
+      "name": "Dimension",
+      "slug": "348_dimension",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 349,
+      "name": "Dimension Value",
+      "slug": "349_dimension_value",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 352,
+      "name": "Default Dimension",
+      "slug": "352_default_dimension",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 354,
+      "name": "Default Dimension Priority",
+      "slug": "354_default_dimension_priority",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 356,
+      "name": "Dim. Value per Account",
+      "slug": "356_dim_value_per_account",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 357,
+      "name": "Gen. Jnl. Dim. Filter",
+      "slug": "357_gen_jnl_dim_filter",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 359,
+      "name": "Reservation Worksheet Log",
+      "slug": "359_reservation_worksheet_log",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 361,
+      "name": "Analysis by Dim. Parameters",
+      "slug": "361_analysis_by_dim_parameters",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 362,
+      "name": "ECSL VAT Report Line",
+      "slug": "362_ecsl_vat_report_line",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 363,
+      "name": "Analysis View",
+      "slug": "363_analysis_view",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 364,
+      "name": "Analysis View Filter",
+      "slug": "364_analysis_view_filter",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 365,
+      "name": "Analysis View Entry",
+      "slug": "365_analysis_view_entry",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 366,
+      "name": "Analysis View Budget Entry",
+      "slug": "366_analysis_view_budget_entry",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 367,
+      "name": "Dimension Code Buffer",
+      "slug": "367_dimension_code_buffer",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 368,
+      "name": "Dimension Selection Buffer",
+      "slug": "368_dimension_selection_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 376,
+      "name": "G/L Account (Analysis View)",
+      "slug": "376_g_l_account_analysis_view",
+      "fieldCount": 56,
+      "hasEmpty": true
+    },
+    {
+      "id": 379,
+      "name": "Detailed Cust. Ledg. Entry",
+      "slug": "379_detailed_cust_ledg_entry",
+      "fieldCount": 38,
+      "hasEmpty": true
+    },
+    {
+      "id": 380,
+      "name": "Detailed Vendor Ledg. Entry",
+      "slug": "380_detailed_vendor_ledg_entry",
+      "fieldCount": 38,
+      "hasEmpty": true
+    },
+    {
+      "id": 381,
+      "name": "VAT Registration No. Format",
+      "slug": "381_vat_registration_no_format",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 387,
+      "name": "Allocation Policy",
+      "slug": "387_allocation_policy",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 388,
+      "name": "Dimension Translation",
+      "slug": "388_dimension_translation",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 402,
+      "name": "Change Log Setup",
+      "slug": "402_change_log_setup",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 404,
+      "name": "Change Log Setup (Field)",
+      "slug": "404_change_log_setup_field",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 405,
+      "name": "Change Log Entry",
+      "slug": "405_change_log_entry",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 410,
+      "name": "IC G/L Account",
+      "slug": "410_ic_g_l_account",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 411,
+      "name": "IC Dimension",
+      "slug": "411_ic_dimension",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 412,
+      "name": "IC Dimension Value",
+      "slug": "412_ic_dimension_value",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 413,
+      "name": "IC Partner",
+      "slug": "413_ic_partner",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 414,
+      "name": "IC Outbox Transaction",
+      "slug": "414_ic_outbox_transaction",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 415,
+      "name": "IC Outbox Jnl. Line",
+      "slug": "415_ic_outbox_jnl_line",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 416,
+      "name": "Handled IC Outbox Trans.",
+      "slug": "416_handled_ic_outbox_trans",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 417,
+      "name": "Handled IC Outbox Jnl. Line",
+      "slug": "417_handled_ic_outbox_jnl_line",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 418,
+      "name": "IC Inbox Transaction",
+      "slug": "418_ic_inbox_transaction",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 419,
+      "name": "IC Inbox Jnl. Line",
+      "slug": "419_ic_inbox_jnl_line",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 420,
+      "name": "Handled IC Inbox Trans.",
+      "slug": "420_handled_ic_inbox_trans",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 421,
+      "name": "Handled IC Inbox Jnl. Line",
+      "slug": "421_handled_ic_inbox_jnl_line",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 422,
+      "name": "IC Bank Account",
+      "slug": "422_ic_bank_account",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 423,
+      "name": "IC Inbox/Outbox Jnl. Line Dim.",
+      "slug": "423_ic_inbox_outbox_jnl_line_dim",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 424,
+      "name": "IC Comment Line",
+      "slug": "424_ic_comment_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 426,
+      "name": "IC Outbox Sales Header",
+      "slug": "426_ic_outbox_sales_header",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 427,
+      "name": "IC Outbox Sales Line",
+      "slug": "427_ic_outbox_sales_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 428,
+      "name": "IC Outbox Purchase Header",
+      "slug": "428_ic_outbox_purchase_header",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 429,
+      "name": "IC Outbox Purchase Line",
+      "slug": "429_ic_outbox_purchase_line",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 430,
+      "name": "Handled IC Outbox Sales Header",
+      "slug": "430_handled_ic_outbox_sales_header",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 431,
+      "name": "Handled IC Outbox Sales Line",
+      "slug": "431_handled_ic_outbox_sales_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 432,
+      "name": "Handled IC Outbox Purch. Hdr",
+      "slug": "432_handled_ic_outbox_purch_hdr",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 433,
+      "name": "Handled IC Outbox Purch. Line",
+      "slug": "433_handled_ic_outbox_purch_line",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 434,
+      "name": "IC Inbox Sales Header",
+      "slug": "434_ic_inbox_sales_header",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 435,
+      "name": "IC Inbox Sales Line",
+      "slug": "435_ic_inbox_sales_line",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 436,
+      "name": "IC Inbox Purchase Header",
+      "slug": "436_ic_inbox_purchase_header",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 437,
+      "name": "IC Inbox Purchase Line",
+      "slug": "437_ic_inbox_purchase_line",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 438,
+      "name": "Handled IC Inbox Sales Header",
+      "slug": "438_handled_ic_inbox_sales_header",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 439,
+      "name": "Handled IC Inbox Sales Line",
+      "slug": "439_handled_ic_inbox_sales_line",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 440,
+      "name": "Handled IC Inbox Purch. Header",
+      "slug": "440_handled_ic_inbox_purch_header",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 441,
+      "name": "Handled IC Inbox Purch. Line",
+      "slug": "441_handled_ic_inbox_purch_line",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 442,
+      "name": "IC Document Dimension",
+      "slug": "442_ic_document_dimension",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 443,
+      "name": "IC Setup",
+      "slug": "443_ic_setup",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 454,
+      "name": "Approval Entry",
+      "slug": "454_approval_entry",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 455,
+      "name": "Approval Comment Line",
+      "slug": "455_approval_comment_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 456,
+      "name": "Posted Approval Entry",
+      "slug": "456_posted_approval_entry",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 457,
+      "name": "Posted Approval Comment Line",
+      "slug": "457_posted_approval_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 458,
+      "name": "Overdue Approval Entry",
+      "slug": "458_overdue_approval_entry",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 459,
+      "name": "Sales Prepayment %",
+      "slug": "459_sales_prepayment",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 460,
+      "name": "Purchase Prepayment %",
+      "slug": "460_purchase_prepayment",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 462,
+      "name": "Payment Term Translation",
+      "slug": "462_payment_term_translation",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 463,
+      "name": "Shipment Method Translation",
+      "slug": "463_shipment_method_translation",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 466,
+      "name": "Payment Method Translation",
+      "slug": "466_payment_method_translation",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 467,
+      "name": "Workflow Webhook Entry",
+      "slug": "467_workflow_webhook_entry",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 469,
+      "name": "Workflow Webhook Subscription",
+      "slug": "469_workflow_webhook_subscription",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 471,
+      "name": "Job Queue Category",
+      "slug": "471_job_queue_category",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 472,
+      "name": "Job Queue Entry",
+      "slug": "472_job_queue_entry",
+      "fieldCount": 48,
+      "hasEmpty": true
+    },
+    {
+      "id": 474,
+      "name": "Job Queue Log Entry",
+      "slug": "474_job_queue_log_entry",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 477,
+      "name": "Report Inbox",
+      "slug": "477_report_inbox",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 480,
+      "name": "Dimension Set Entry",
+      "slug": "480_dimension_set_entry",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 482,
+      "name": "Reclas. Dimension Set Buffer",
+      "slug": "482_reclas_dimension_set_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 483,
+      "name": "Change Global Dim. Log Entry",
+      "slug": "483_change_global_dim_log_entry",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 484,
+      "name": "Change Global Dim. Header",
+      "slug": "484_change_global_dim_header",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 502,
+      "name": "Reminder Attachment Text",
+      "slug": "502_reminder_attachment_text",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 503,
+      "name": "Reminder Email Text",
+      "slug": "503_reminder_email_text",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 504,
+      "name": "Reminder Attachment Text Line",
+      "slug": "504_reminder_attachment_text_line",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 520,
+      "name": "Availability Info. Buffer",
+      "slug": "520_availability_info_buffer",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 532,
+      "name": "Company Size",
+      "slug": "532_company_size",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 550,
+      "name": "VAT Rate Change Setup",
+      "slug": "550_vat_rate_change_setup",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 551,
+      "name": "VAT Rate Change Conversion",
+      "slug": "551_vat_rate_change_conversion",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 552,
+      "name": "VAT Rate Change Log Entry",
+      "slug": "552_vat_rate_change_log_entry",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 560,
+      "name": "VAT Clause",
+      "slug": "560_vat_clause",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 561,
+      "name": "VAT Clause Translation",
+      "slug": "561_vat_clause_translation",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 562,
+      "name": "VAT Clause by Doc. Type",
+      "slug": "562_vat_clause_by_doc_type",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 563,
+      "name": "VAT Clause by Doc. Type Trans.",
+      "slug": "563_vat_clause_by_doc_type_trans",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 570,
+      "name": "G/L Account Category",
+      "slug": "570_g_l_account_category",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 572,
+      "name": "Finance Charge Interest Rate",
+      "slug": "572_finance_charge_interest_rate",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 589,
+      "name": "G/L Account Source Currency",
+      "slug": "589_g_l_account_source_currency",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 700,
+      "name": "Error Message",
+      "slug": "700_error_message",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 701,
+      "name": "Error Message Register",
+      "slug": "701_error_message_register",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 710,
+      "name": "Activity Log",
+      "slug": "710_activity_log",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 725,
+      "name": "Custom Address Format",
+      "slug": "725_custom_address_format",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 726,
+      "name": "Custom Address Format Line",
+      "slug": "726_custom_address_format_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 729,
+      "name": "Copy Item Buffer",
+      "slug": "729_copy_item_buffer",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 737,
+      "name": "VAT Return Period",
+      "slug": "737_vat_return_period",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 740,
+      "name": "VAT Report Header",
+      "slug": "740_vat_report_header",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 741,
+      "name": "VAT Report Line",
+      "slug": "741_vat_report_line",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 742,
+      "name": "VAT Statement Report Line",
+      "slug": "742_vat_statement_report_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 743,
+      "name": "VAT Report Setup",
+      "slug": "743_vat_report_setup",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 745,
+      "name": "VAT Report Error Log",
+      "slug": "745_vat_report_error_log",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 746,
+      "name": "VAT Reports Configuration",
+      "slug": "746_vat_reports_configuration",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 747,
+      "name": "VAT Report Archive",
+      "slug": "747_vat_report_archive",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 749,
+      "name": "Date Lookup Buffer",
+      "slug": "749_date_lookup_buffer",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 750,
+      "name": "Standard General Journal",
+      "slug": "750_standard_general_journal",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 751,
+      "name": "Standard General Journal Line",
+      "slug": "751_standard_general_journal_line",
+      "fieldCount": 76,
+      "hasEmpty": true
+    },
+    {
+      "id": 752,
+      "name": "Standard Item Journal",
+      "slug": "752_standard_item_journal",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 753,
+      "name": "Standard Item Journal Line",
+      "slug": "753_standard_item_journal_line",
+      "fieldCount": 49,
+      "hasEmpty": true
+    },
+    {
+      "id": 760,
+      "name": "Trailing Sales Orders Setup",
+      "slug": "760_trailing_sales_orders_setup",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 762,
+      "name": "Account Schedules Chart Setup",
+      "slug": "762_account_schedules_chart_setup",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 763,
+      "name": "Acc. Sched. Chart Setup Line",
+      "slug": "763_acc_sched_chart_setup_line",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 764,
+      "name": "Fin. Report Excel Template",
+      "slug": "764_fin_report_excel_template",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 770,
+      "name": "Analysis Report Chart Setup",
+      "slug": "770_analysis_report_chart_setup",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 771,
+      "name": "Analysis Report Chart Line",
+      "slug": "771_analysis_report_chart_line",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 777,
+      "name": "Online Bank Acc. Link",
+      "slug": "777_online_bank_acc_link",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 780,
+      "name": "Certificate of Supply",
+      "slug": "780_certificate_of_supply",
+      "fieldCount": 12,
+      "hasEmpty": false
+    },
+    {
+      "id": 800,
+      "name": "Online Map Setup",
+      "slug": "800_online_map_setup",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 801,
+      "name": "Online Map Parameter Setup",
+      "slug": "801_online_map_parameter_setup",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 823,
+      "name": "Name/Value Buffer",
+      "slug": "823_name_value_buffer",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 832,
+      "name": "Workflows Entries Buffer",
+      "slug": "832_workflows_entries_buffer",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 840,
+      "name": "Cash Flow Forecast",
+      "slug": "840_cash_flow_forecast",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 841,
+      "name": "Cash Flow Account",
+      "slug": "841_cash_flow_account",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 842,
+      "name": "Cash Flow Account Comment",
+      "slug": "842_cash_flow_account_comment",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 843,
+      "name": "Cash Flow Setup",
+      "slug": "843_cash_flow_setup",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 846,
+      "name": "Cash Flow Worksheet Line",
+      "slug": "846_cash_flow_worksheet_line",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 847,
+      "name": "Cash Flow Forecast Entry",
+      "slug": "847_cash_flow_forecast_entry",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 849,
+      "name": "Cash Flow Manual Revenue",
+      "slug": "849_cash_flow_manual_revenue",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 850,
+      "name": "Cash Flow Manual Expense",
+      "slug": "850_cash_flow_manual_expense",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 856,
+      "name": "Cash Flow Report Selection",
+      "slug": "856_cash_flow_report_selection",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 900,
+      "name": "Assembly Header",
+      "slug": "900_assembly_header",
+      "fieldCount": 49,
+      "hasEmpty": true
+    },
+    {
+      "id": 901,
+      "name": "Assembly Line",
+      "slug": "901_assembly_line",
+      "fieldCount": 49,
+      "hasEmpty": true
+    },
+    {
+      "id": 905,
+      "name": "Assembly Setup",
+      "slug": "905_assembly_setup",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 906,
+      "name": "Assembly Comment Line",
+      "slug": "906_assembly_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 910,
+      "name": "Posted Assembly Header",
+      "slug": "910_posted_assembly_header",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 911,
+      "name": "Posted Assembly Line",
+      "slug": "911_posted_assembly_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 920,
+      "name": "Res. Gr. Availability Buffer",
+      "slug": "920_res_gr_availability_buffer",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 921,
+      "name": "Item Turnover Buffer",
+      "slug": "921_item_turnover_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 922,
+      "name": "G/L Acc. Balance/Budget Buffer",
+      "slug": "922_g_l_acc_balance_budget_buffer",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 923,
+      "name": "Customer Sales Buffer",
+      "slug": "923_customer_sales_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 924,
+      "name": "Vendor Purchase Buffer",
+      "slug": "924_vendor_purchase_buffer",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 925,
+      "name": "Item Availability Buffer",
+      "slug": "925_item_availability_buffer",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 926,
+      "name": "G/L Acc. Balance Buffer",
+      "slug": "926_g_l_acc_balance_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 927,
+      "name": "Receivables-Payables Buffer",
+      "slug": "927_receivables_payables_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 928,
+      "name": "Res. Availability Buffer",
+      "slug": "928_res_availability_buffer",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 929,
+      "name": "Bank Account Balance Buffer",
+      "slug": "929_bank_account_balance_buffer",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 930,
+      "name": "Cash Flow Availability Buffer",
+      "slug": "930_cash_flow_availability_buffer",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 931,
+      "name": "Service Item Trend Buffer",
+      "slug": "931_service_item_trend_buffer",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 932,
+      "name": "Contract Trend Buffer",
+      "slug": "932_contract_trend_buffer",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 933,
+      "name": "Load Buffer",
+      "slug": "933_load_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 950,
+      "name": "Time Sheet Header",
+      "slug": "950_time_sheet_header",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 951,
+      "name": "Time Sheet Line",
+      "slug": "951_time_sheet_line",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 953,
+      "name": "Time Sheet Comment Line",
+      "slug": "953_time_sheet_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 954,
+      "name": "Time Sheet Header Archive",
+      "slug": "954_time_sheet_header_archive",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 955,
+      "name": "Time Sheet Line Archive",
+      "slug": "955_time_sheet_line_archive",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 957,
+      "name": "Time Sheet Cmt. Line Archive",
+      "slug": "957_time_sheet_cmt_line_archive",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 958,
+      "name": "Time Sheet Posting Entry",
+      "slug": "958_time_sheet_posting_entry",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 960,
+      "name": "Alt. Customer Posting Group",
+      "slug": "960_alt_customer_posting_group",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 961,
+      "name": "Alt. Vendor Posting Group",
+      "slug": "961_alt_vendor_posting_group",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 962,
+      "name": "Alt. Employee Posting Group",
+      "slug": "962_alt_employee_posting_group",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 980,
+      "name": "Payment Registration Setup",
+      "slug": "980_payment_registration_setup",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 981,
+      "name": "Payment Registration Buffer",
+      "slug": "981_payment_registration_buffer",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 983,
+      "name": "Document Search Result",
+      "slug": "983_document_search_result",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1001,
+      "name": "Job Task",
+      "slug": "1001_job_task",
+      "fieldCount": 75,
+      "hasEmpty": true
+    },
+    {
+      "id": 1002,
+      "name": "Job Task Dimension",
+      "slug": "1002_job_task_dimension",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1003,
+      "name": "Job Planning Line",
+      "slug": "1003_job_planning_line",
+      "fieldCount": 101,
+      "hasEmpty": true
+    },
+    {
+      "id": 1004,
+      "name": "Job WIP Entry",
+      "slug": "1004_job_wip_entry",
+      "fieldCount": 23,
+      "hasEmpty": false
+    },
+    {
+      "id": 1005,
+      "name": "Job WIP G/L Entry",
+      "slug": "1005_job_wip_g_l_entry",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 1006,
+      "name": "Job WIP Method",
+      "slug": "1006_job_wip_method",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1007,
+      "name": "Job WIP Warning",
+      "slug": "1007_job_wip_warning",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1012,
+      "name": "Job Resource Price",
+      "slug": "1012_job_resource_price",
+      "fieldCount": 12,
+      "hasEmpty": false
+    },
+    {
+      "id": 1013,
+      "name": "Job Item Price",
+      "slug": "1013_job_item_price",
+      "fieldCount": 12,
+      "hasEmpty": false
+    },
+    {
+      "id": 1014,
+      "name": "Job G/L Account Price",
+      "slug": "1014_job_g_l_account_price",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 1021,
+      "name": "Job WIP Total",
+      "slug": "1021_job_wip_total",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 1022,
+      "name": "Job Planning Line Invoice",
+      "slug": "1022_job_planning_line_invoice",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1050,
+      "name": "Additional Fee Setup",
+      "slug": "1050_additional_fee_setup",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 1052,
+      "name": "Reminder Terms Translation",
+      "slug": "1052_reminder_terms_translation",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 1060,
+      "name": "Payment Service Setup",
+      "slug": "1060_payment_service_setup",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1100,
+      "name": "Cost Journal Template",
+      "slug": "1100_cost_journal_template",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 1101,
+      "name": "Cost Journal Line",
+      "slug": "1101_cost_journal_line",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 1102,
+      "name": "Cost Journal Batch",
+      "slug": "1102_cost_journal_batch",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1103,
+      "name": "Cost Type",
+      "slug": "1103_cost_type",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 1104,
+      "name": "Cost Entry",
+      "slug": "1104_cost_entry",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 1105,
+      "name": "Cost Register",
+      "slug": "1105_cost_register",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 1106,
+      "name": "Cost Allocation Source",
+      "slug": "1106_cost_allocation_source",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 1107,
+      "name": "Cost Allocation Target",
+      "slug": "1107_cost_allocation_target",
+      "fieldCount": 22,
+      "hasEmpty": false
+    },
+    {
+      "id": 1108,
+      "name": "Cost Accounting Setup",
+      "slug": "1108_cost_accounting_setup",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1109,
+      "name": "Cost Budget Entry",
+      "slug": "1109_cost_budget_entry",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 1110,
+      "name": "Cost Budget Name",
+      "slug": "1110_cost_budget_name",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1111,
+      "name": "Cost Budget Register",
+      "slug": "1111_cost_budget_register",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 1112,
+      "name": "Cost Center",
+      "slug": "1112_cost_center",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 1113,
+      "name": "Cost Object",
+      "slug": "1113_cost_object",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 1140,
+      "name": "OAuth 2.0 Setup",
+      "slug": "1140_oauth_2_0_setup",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 1170,
+      "name": "User Task",
+      "slug": "1170_user_task",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 1173,
+      "name": "Document Attachment",
+      "slug": "1173_document_attachment",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 1175,
+      "name": "User Task Group",
+      "slug": "1175_user_task_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1176,
+      "name": "User Task Group Member",
+      "slug": "1176_user_task_group_member",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1181,
+      "name": "Data Privacy Records",
+      "slug": "1181_data_privacy_records",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1200,
+      "name": "Bank Export/Import Setup",
+      "slug": "1200_bank_export_import_setup",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1205,
+      "name": "Credit Transfer Register",
+      "slug": "1205_credit_transfer_register",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1206,
+      "name": "Credit Transfer Entry",
+      "slug": "1206_credit_transfer_entry",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 1207,
+      "name": "Direct Debit Collection",
+      "slug": "1207_direct_debit_collection",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1208,
+      "name": "Direct Debit Collection Entry",
+      "slug": "1208_direct_debit_collection_entry",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 1209,
+      "name": "Credit Trans Re-export History",
+      "slug": "1209_credit_trans_re_export_history",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1210,
+      "name": "SWIFT Code",
+      "slug": "1210_swift_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1213,
+      "name": "Data Exchange Type",
+      "slug": "1213_data_exchange_type",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1221,
+      "name": "Data Exch. Field",
+      "slug": "1221_data_exch_field",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1222,
+      "name": "Data Exch. Def",
+      "slug": "1222_data_exch_def",
+      "fieldCount": 17,
+      "hasEmpty": false
+    },
+    {
+      "id": 1223,
+      "name": "Data Exch. Column Def",
+      "slug": "1223_data_exch_column_def",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 1224,
+      "name": "Data Exch. Mapping",
+      "slug": "1224_data_exch_mapping",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1225,
+      "name": "Data Exch. Field Mapping",
+      "slug": "1225_data_exch_field_mapping",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 1227,
+      "name": "Data Exch. Line Def",
+      "slug": "1227_data_exch_line_def",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 1228,
+      "name": "Payment Jnl. Export Error Text",
+      "slug": "1228_payment_jnl_export_error_text",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1230,
+      "name": "SEPA Direct Debit Mandate",
+      "slug": "1230_sepa_direct_debit_mandate",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 1231,
+      "name": "Positive Pay Entry",
+      "slug": "1231_positive_pay_entry",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1232,
+      "name": "Positive Pay Entry Detail",
+      "slug": "1232_positive_pay_entry_detail",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1235,
+      "name": "XML Buffer",
+      "slug": "1235_xml_buffer",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1237,
+      "name": "Transformation Rule",
+      "slug": "1237_transformation_rule",
+      "fieldCount": 22,
+      "hasEmpty": false
+    },
+    {
+      "id": 1238,
+      "name": "Data Exch. Field Grouping",
+      "slug": "1238_data_exch_field_grouping",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1251,
+      "name": "Text-to-Account Mapping",
+      "slug": "1251_text_to_account_mapping",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1252,
+      "name": "Bank Pmt. Appl. Rule",
+      "slug": "1252_bank_pmt_appl_rule",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1253,
+      "name": "Bank Pmt. Appl. Settings",
+      "slug": "1253_bank_pmt_appl_settings",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 1262,
+      "name": "Isolated Certificate",
+      "slug": "1262_isolated_certificate",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1265,
+      "name": "Data Exch. Field Mapping Buf.",
+      "slug": "1265_data_exch_field_mapping_buf",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1270,
+      "name": "OCR Service Setup",
+      "slug": "1270_ocr_service_setup",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 1271,
+      "name": "OCR Service Document Template",
+      "slug": "1271_ocr_service_document_template",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1275,
+      "name": "Doc. Exch. Service Setup",
+      "slug": "1275_doc_exch_service_setup",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 1280,
+      "name": "Bank Clearing Standard",
+      "slug": "1280_bank_clearing_standard",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1284,
+      "name": "Outstanding Bank Transaction",
+      "slug": "1284_outstanding_bank_transaction",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1293,
+      "name": "Payment Application Proposal",
+      "slug": "1293_payment_application_proposal",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 1295,
+      "name": "Posted Payment Recon. Hdr",
+      "slug": "1295_posted_payment_recon_hdr",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1296,
+      "name": "Posted Payment Recon. Line",
+      "slug": "1296_posted_payment_recon_line",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 1299,
+      "name": "Payment Matching Details",
+      "slug": "1299_payment_matching_details",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 1302,
+      "name": "Dimensions Template",
+      "slug": "1302_dimensions_template",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1304,
+      "name": "Sales Price and Line Disc Buff",
+      "slug": "1304_sales_price_and_line_disc_buff",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 1307,
+      "name": "O365 Device Setup Instructions",
+      "slug": "1307_o365_device_setup_instructions",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 1310,
+      "name": "Chart Definition",
+      "slug": "1310_chart_definition",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1312,
+      "name": "Trial Balance Setup",
+      "slug": "1312_trial_balance_setup",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1313,
+      "name": "Activities Cue",
+      "slug": "1313_activities_cue",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 1315,
+      "name": "Purch. Price Line Disc. Buff.",
+      "slug": "1315_purch_price_line_disc_buff",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1366,
+      "name": "Field Monitoring Setup",
+      "slug": "1366_field_monitoring_setup",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1381,
+      "name": "Customer Templ.",
+      "slug": "1381_customer_templ",
+      "fieldCount": 77,
+      "hasEmpty": true
+    },
+    {
+      "id": 1382,
+      "name": "Item Templ.",
+      "slug": "1382_item_templ",
+      "fieldCount": 101,
+      "hasEmpty": true
+    },
+    {
+      "id": 1383,
+      "name": "Vendor Templ.",
+      "slug": "1383_vendor_templ",
+      "fieldCount": 62,
+      "hasEmpty": true
+    },
+    {
+      "id": 1384,
+      "name": "Employee Templ.",
+      "slug": "1384_employee_templ",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 1400,
+      "name": "Service Connection",
+      "slug": "1400_service_connection",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1431,
+      "name": "Named Forward Link",
+      "slug": "1431_named_forward_link",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1500,
+      "name": "Workflow Buffer",
+      "slug": "1500_workflow_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1501,
+      "name": "Workflow",
+      "slug": "1501_workflow",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1504,
+      "name": "Workflow Step Instance",
+      "slug": "1504_workflow_step_instance",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 1505,
+      "name": "Workflow - Table Relation",
+      "slug": "1505_workflow_table_relation",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 1507,
+      "name": "Workflow Step Buffer",
+      "slug": "1507_workflow_step_buffer",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 1508,
+      "name": "Workflow Category",
+      "slug": "1508_workflow_category",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1511,
+      "name": "Notification Entry",
+      "slug": "1511_notification_entry",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1512,
+      "name": "Notification Setup",
+      "slug": "1512_notification_setup",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1513,
+      "name": "Notification Schedule",
+      "slug": "1513_notification_schedule",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 1514,
+      "name": "Sent Notification Entry",
+      "slug": "1514_sent_notification_entry",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1515,
+      "name": "Dynamic Request Page Entity",
+      "slug": "1515_dynamic_request_page_entity",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 1516,
+      "name": "Dynamic Request Page Field",
+      "slug": "1516_dynamic_request_page_field",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 1518,
+      "name": "My Notifications",
+      "slug": "1518_my_notifications",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1520,
+      "name": "Workflow Event",
+      "slug": "1520_workflow_event",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1521,
+      "name": "Workflow Response",
+      "slug": "1521_workflow_response",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1523,
+      "name": "Workflow Step Argument",
+      "slug": "1523_workflow_step_argument",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 1524,
+      "name": "Workflow Rule",
+      "slug": "1524_workflow_rule",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1525,
+      "name": "Workflow - Record Change",
+      "slug": "1525_workflow_record_change",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1530,
+      "name": "Workflow Step Instance Archive",
+      "slug": "1530_workflow_step_instance_archive",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 1540,
+      "name": "Workflow User Group",
+      "slug": "1540_workflow_user_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1541,
+      "name": "Workflow User Group Member",
+      "slug": "1541_workflow_user_group_member",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1543,
+      "name": "Flow Service Configuration",
+      "slug": "1543_flow_service_configuration",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 1544,
+      "name": "Flow User Environment Buffer",
+      "slug": "1544_flow_user_environment_buffer",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1550,
+      "name": "Restricted Record",
+      "slug": "1550_restricted_record",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1570,
+      "name": "G/L Entry Posting Preview",
+      "slug": "1570_g_l_entry_posting_preview",
+      "fieldCount": 65,
+      "hasEmpty": true
+    },
+    {
+      "id": 1571,
+      "name": "VAT Entry Posting Preview",
+      "slug": "1571_vat_entry_posting_preview",
+      "fieldCount": 61,
+      "hasEmpty": true
+    },
+    {
+      "id": 1600,
+      "name": "Office Add-in Context",
+      "slug": "1600_office_add_in_context",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 1602,
+      "name": "Exchange Object",
+      "slug": "1602_exchange_object",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 1606,
+      "name": "Office Invoice",
+      "slug": "1606_office_invoice",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1610,
+      "name": "Office Add-in",
+      "slug": "1610_office_add_in",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1612,
+      "name": "Office Admin. Credentials",
+      "slug": "1612_office_admin_credentials",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1615,
+      "name": "Office Job Journal",
+      "slug": "1615_office_job_journal",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1620,
+      "name": "Office Document Selection",
+      "slug": "1620_office_document_selection",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 1626,
+      "name": "Office Contact Details",
+      "slug": "1626_office_contact_details",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1637,
+      "name": "Office Suggested Line Item",
+      "slug": "1637_office_suggested_line_item",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 1650,
+      "name": "Curr. Exch. Rate Update Setup",
+      "slug": "1650_curr_exch_rate_update_setup",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1660,
+      "name": "Payroll Setup",
+      "slug": "1660_payroll_setup",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 1661,
+      "name": "Import G/L Transaction",
+      "slug": "1661_import_g_l_transaction",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1670,
+      "name": "Option Lookup Buffer",
+      "slug": "1670_option_lookup_buffer",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1700,
+      "name": "Deferral Template",
+      "slug": "1700_deferral_template",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 1701,
+      "name": "Deferral Header",
+      "slug": "1701_deferral_header",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 1702,
+      "name": "Deferral Line",
+      "slug": "1702_deferral_line",
+      "fieldCount": 11,
+      "hasEmpty": false
+    },
+    {
+      "id": 1705,
+      "name": "Posted Deferral Line",
+      "slug": "1705_posted_deferral_line",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 1797,
+      "name": "Data Migration Error",
+      "slug": "1797_data_migration_error",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1799,
+      "name": "Data Migration Status",
+      "slug": "1799_data_migration_status",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 1800,
+      "name": "Data Migrator Registration",
+      "slug": "1800_data_migrator_registration",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 1801,
+      "name": "Data Migration Entity",
+      "slug": "1801_data_migration_entity",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 1804,
+      "name": "Approval Workflow Wizard",
+      "slug": "1804_approval_workflow_wizard",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 1806,
+      "name": "Data Migration Setup",
+      "slug": "1806_data_migration_setup",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 1827,
+      "name": "Business Unit Setup",
+      "slug": "1827_business_unit_setup",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 1830,
+      "name": "Consolidation Process",
+      "slug": "1830_consolidation_process",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1831,
+      "name": "Bus. Unit In Cons. Process",
+      "slug": "1831_bus_unit_in_cons_process",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 1833,
+      "name": "Consolidation Setup",
+      "slug": "1833_consolidation_setup",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1834,
+      "name": "Consolidation Log Entry",
+      "slug": "1834_consolidation_log_entry",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1877,
+      "name": "VAT Setup Posting Groups",
+      "slug": "1877_vat_setup_posting_groups",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 1878,
+      "name": "VAT Assisted Setup Templates",
+      "slug": "1878_vat_assisted_setup_templates",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 1879,
+      "name": "VAT Assisted Setup Bus. Grp.",
+      "slug": "1879_vat_assisted_setup_bus_grp",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 2020,
+      "name": "Image Analysis Setup",
+      "slug": "2020_image_analysis_setup",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 2023,
+      "name": "Image Analysis Scenario",
+      "slug": "2023_image_analysis_scenario",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 2121,
+      "name": "O365 Brand Color",
+      "slug": "2121_o365_brand_color",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 2224,
+      "name": "Remit Address",
+      "slug": "2224_remit_address",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 2580,
+      "name": "Dim Correction Blocked Setup",
+      "slug": "2580_dim_correction_blocked_setup",
+      "fieldCount": 1,
+      "hasEmpty": false
+    },
+    {
+      "id": 2581,
+      "name": "Dim Correction Change",
+      "slug": "2581_dim_correction_change",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 2582,
+      "name": "Dimension Correction",
+      "slug": "2582_dimension_correction",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 2585,
+      "name": "Dim Correct Selection Criteria",
+      "slug": "2585_dim_correct_selection_criteria",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 2670,
+      "name": "Allocation Account",
+      "slug": "2670_allocation_account",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 2671,
+      "name": "Alloc. Account Distribution",
+      "slug": "2671_alloc_account_distribution",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 2672,
+      "name": "Allocation Line",
+      "slug": "2672_allocation_line",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 2900,
+      "name": "Forecast Item Variant Loc",
+      "slug": "2900_forecast_item_variant_loc",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5050,
+      "name": "Contact",
+      "slug": "5050_contact",
+      "fieldCount": 86,
+      "hasEmpty": true
+    },
+    {
+      "id": 5051,
+      "name": "Contact Alt. Address",
+      "slug": "5051_contact_alt_address",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 5052,
+      "name": "Contact Alt. Addr. Date Range",
+      "slug": "5052_contact_alt_addr_date_range",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5053,
+      "name": "Business Relation",
+      "slug": "5053_business_relation",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5054,
+      "name": "Contact Business Relation",
+      "slug": "5054_contact_business_relation",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 5055,
+      "name": "Mailing Group",
+      "slug": "5055_mailing_group",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5056,
+      "name": "Contact Mailing Group",
+      "slug": "5056_contact_mailing_group",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 5057,
+      "name": "Industry Group",
+      "slug": "5057_industry_group",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5058,
+      "name": "Contact Industry Group",
+      "slug": "5058_contact_industry_group",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5059,
+      "name": "Web Source",
+      "slug": "5059_web_source",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5060,
+      "name": "Contact Web Source",
+      "slug": "5060_contact_web_source",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5061,
+      "name": "Rlshp. Mgt. Comment Line",
+      "slug": "5061_rlshp_mgt_comment_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5063,
+      "name": "Interaction Group",
+      "slug": "5063_interaction_group",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5064,
+      "name": "Interaction Template",
+      "slug": "5064_interaction_template",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5065,
+      "name": "Interaction Log Entry",
+      "slug": "5065_interaction_log_entry",
+      "fieldCount": 45,
+      "hasEmpty": true
+    },
+    {
+      "id": 5066,
+      "name": "Job Responsibility",
+      "slug": "5066_job_responsibility",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5067,
+      "name": "Contact Job Responsibility",
+      "slug": "5067_contact_job_responsibility",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 5068,
+      "name": "Salutation",
+      "slug": "5068_salutation",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5069,
+      "name": "Salutation Formula",
+      "slug": "5069_salutation_formula",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5070,
+      "name": "Organizational Level",
+      "slug": "5070_organizational_level",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5071,
+      "name": "Campaign",
+      "slug": "5071_campaign",
+      "fieldCount": 38,
+      "hasEmpty": true
+    },
+    {
+      "id": 5072,
+      "name": "Campaign Entry",
+      "slug": "5072_campaign_entry",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5073,
+      "name": "Campaign Status",
+      "slug": "5073_campaign_status",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5075,
+      "name": "Logged Segment",
+      "slug": "5075_logged_segment",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 5076,
+      "name": "Segment Header",
+      "slug": "5076_segment_header",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 5077,
+      "name": "Segment Line",
+      "slug": "5077_segment_line",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 5079,
+      "name": "Marketing Setup",
+      "slug": "5079_marketing_setup",
+      "fieldCount": 50,
+      "hasEmpty": true
+    },
+    {
+      "id": 5080,
+      "name": "To-do",
+      "slug": "5080_to_do",
+      "fieldCount": 56,
+      "hasEmpty": true
+    },
+    {
+      "id": 5081,
+      "name": "Activity",
+      "slug": "5081_activity",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5082,
+      "name": "Activity Step",
+      "slug": "5082_activity_step",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5083,
+      "name": "Team",
+      "slug": "5083_team",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5084,
+      "name": "Team Salesperson",
+      "slug": "5084_team_salesperson",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5085,
+      "name": "Contact Duplicate",
+      "slug": "5085_contact_duplicate",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5087,
+      "name": "Profile Questionnaire Header",
+      "slug": "5087_profile_questionnaire_header",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 5088,
+      "name": "Profile Questionnaire Line",
+      "slug": "5088_profile_questionnaire_line",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 5089,
+      "name": "Contact Profile Answer",
+      "slug": "5089_contact_profile_answer",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5090,
+      "name": "Sales Cycle",
+      "slug": "5090_sales_cycle",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5091,
+      "name": "Sales Cycle Stage",
+      "slug": "5091_sales_cycle_stage",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 5092,
+      "name": "Opportunity",
+      "slug": "5092_opportunity",
+      "fieldCount": 39,
+      "hasEmpty": true
+    },
+    {
+      "id": 5093,
+      "name": "Opportunity Entry",
+      "slug": "5093_opportunity_entry",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 5094,
+      "name": "Close Opportunity Code",
+      "slug": "5094_close_opportunity_code",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5095,
+      "name": "Duplicate Search String Setup",
+      "slug": "5095_duplicate_search_string_setup",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5097,
+      "name": "Segment Criteria Line",
+      "slug": "5097_segment_criteria_line",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 5098,
+      "name": "Saved Segment Criteria",
+      "slug": "5098_saved_segment_criteria",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5099,
+      "name": "Saved Segment Criteria Line",
+      "slug": "5099_saved_segment_criteria_line",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 5100,
+      "name": "Communication Method",
+      "slug": "5100_communication_method",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5102,
+      "name": "RM Matrix Management",
+      "slug": "5102_rm_matrix_management",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 5103,
+      "name": "Interaction Tmpl. Language",
+      "slug": "5103_interaction_tmpl_language",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5104,
+      "name": "Segment Interaction Language",
+      "slug": "5104_segment_interaction_language",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5107,
+      "name": "Sales Header Archive",
+      "slug": "5107_sales_header_archive",
+      "fieldCount": 169,
+      "hasEmpty": true
+    },
+    {
+      "id": 5108,
+      "name": "Sales Line Archive",
+      "slug": "5108_sales_line_archive",
+      "fieldCount": 165,
+      "hasEmpty": true
+    },
+    {
+      "id": 5109,
+      "name": "Purchase Header Archive",
+      "slug": "5109_purchase_header_archive",
+      "fieldCount": 150,
+      "hasEmpty": true
+    },
+    {
+      "id": 5110,
+      "name": "Purchase Line Archive",
+      "slug": "5110_purchase_line_archive",
+      "fieldCount": 180,
+      "hasEmpty": true
+    },
+    {
+      "id": 5111,
+      "name": "Rating",
+      "slug": "5111_rating",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5113,
+      "name": "Contact Dupl. Details Buffer",
+      "slug": "5113_contact_dupl_details_buffer",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5122,
+      "name": "Interaction Template Setup",
+      "slug": "5122_interaction_template_setup",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 5123,
+      "name": "Inter. Log Entry Comment Line",
+      "slug": "5123_inter_log_entry_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5125,
+      "name": "Purch. Comment Line Archive",
+      "slug": "5125_purch_comment_line_archive",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5126,
+      "name": "Sales Comment Line Archive",
+      "slug": "5126_sales_comment_line_archive",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5128,
+      "name": "Deferral Line Archive",
+      "slug": "5128_deferral_line_archive",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5135,
+      "name": "Job Archive",
+      "slug": "5135_job_archive",
+      "fieldCount": 97,
+      "hasEmpty": true
+    },
+    {
+      "id": 5136,
+      "name": "Job Task Archive",
+      "slug": "5136_job_task_archive",
+      "fieldCount": 75,
+      "hasEmpty": true
+    },
+    {
+      "id": 5137,
+      "name": "Job Planning Line Archive",
+      "slug": "5137_job_planning_line_archive",
+      "fieldCount": 102,
+      "hasEmpty": true
+    },
+    {
+      "id": 5138,
+      "name": "Comment Line Archive",
+      "slug": "5138_comment_line_archive",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5196,
+      "name": "To-do Interaction Language",
+      "slug": "5196_to_do_interaction_language",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5199,
+      "name": "Attendee",
+      "slug": "5199_attendee",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5200,
+      "name": "Employee",
+      "slug": "5200_employee",
+      "fieldCount": 78,
+      "hasEmpty": true
+    },
+    {
+      "id": 5201,
+      "name": "Alternative Address",
+      "slug": "5201_alternative_address",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 5202,
+      "name": "Qualification",
+      "slug": "5202_qualification",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5203,
+      "name": "Employee Qualification",
+      "slug": "5203_employee_qualification",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5204,
+      "name": "Relative",
+      "slug": "5204_relative",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5205,
+      "name": "Employee Relative",
+      "slug": "5205_employee_relative",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5206,
+      "name": "Cause of Absence",
+      "slug": "5206_cause_of_absence",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5207,
+      "name": "Employee Absence",
+      "slug": "5207_employee_absence",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5208,
+      "name": "Human Resource Comment Line",
+      "slug": "5208_human_resource_comment_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5209,
+      "name": "Union",
+      "slug": "5209_union",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 5210,
+      "name": "Cause of Inactivity",
+      "slug": "5210_cause_of_inactivity",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5211,
+      "name": "Employment Contract",
+      "slug": "5211_employment_contract",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5212,
+      "name": "Employee Statistics Group",
+      "slug": "5212_employee_statistics_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5213,
+      "name": "Misc. Article",
+      "slug": "5213_misc_article",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5214,
+      "name": "Misc. Article Information",
+      "slug": "5214_misc_article_information",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5215,
+      "name": "Confidential",
+      "slug": "5215_confidential",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5216,
+      "name": "Confidential Information",
+      "slug": "5216_confidential_information",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5217,
+      "name": "Grounds for Termination",
+      "slug": "5217_grounds_for_termination",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5218,
+      "name": "Human Resources Setup",
+      "slug": "5218_human_resources_setup",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5219,
+      "name": "HR Confidential Comment Line",
+      "slug": "5219_hr_confidential_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5220,
+      "name": "Human Resource Unit of Measure",
+      "slug": "5220_human_resource_unit_of_measure",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5221,
+      "name": "Employee Posting Group",
+      "slug": "5221_employee_posting_group",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 5222,
+      "name": "Employee Ledger Entry",
+      "slug": "5222_employee_ledger_entry",
+      "fieldCount": 61,
+      "hasEmpty": true
+    },
+    {
+      "id": 5223,
+      "name": "Detailed Employee Ledger Entry",
+      "slug": "5223_detailed_employee_ledger_entry",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 5226,
+      "name": "Nationality",
+      "slug": "5226_nationality",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5310,
+      "name": "Item Statistics Cache",
+      "slug": "5310_item_statistics_cache",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 5320,
+      "name": "Exchange Folder",
+      "slug": "5320_exchange_folder",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5325,
+      "name": "Table Config Template",
+      "slug": "5325_table_config_template",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5326,
+      "name": "Int. Table Config Template",
+      "slug": "5326_int_table_config_template",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5327,
+      "name": "Coupling Fields Buffer",
+      "slug": "5327_coupling_fields_buffer",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5330,
+      "name": "CRM Connection Setup",
+      "slug": "5330_crm_connection_setup",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 5332,
+      "name": "Coupling Record Buffer",
+      "slug": "5332_coupling_record_buffer",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 5334,
+      "name": "CRM Option Mapping",
+      "slug": "5334_crm_option_mapping",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5335,
+      "name": "Integration Table Mapping",
+      "slug": "5335_integration_table_mapping",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 5336,
+      "name": "Integration Field Mapping",
+      "slug": "5336_integration_field_mapping",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 5338,
+      "name": "Integration Synch. Job",
+      "slug": "5338_integration_synch_job",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 5339,
+      "name": "Integration Synch. Job Errors",
+      "slug": "5339_integration_synch_job_errors",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5340,
+      "name": "CRM Systemuser",
+      "slug": "5340_crm_systemuser",
+      "fieldCount": 120,
+      "hasEmpty": true
+    },
+    {
+      "id": 5341,
+      "name": "CRM Account",
+      "slug": "5341_crm_account",
+      "fieldCount": 152,
+      "hasEmpty": true
+    },
+    {
+      "id": 5342,
+      "name": "CRM Contact",
+      "slug": "5342_crm_contact",
+      "fieldCount": 192,
+      "hasEmpty": true
+    },
+    {
+      "id": 5343,
+      "name": "CRM Opportunity",
+      "slug": "5343_crm_opportunity",
+      "fieldCount": 111,
+      "hasEmpty": true
+    },
+    {
+      "id": 5345,
+      "name": "CRM Transactioncurrency",
+      "slug": "5345_crm_transactioncurrency",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 5346,
+      "name": "CRM Pricelevel",
+      "slug": "5346_crm_pricelevel",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 5348,
+      "name": "CRM Product",
+      "slug": "5348_crm_product",
+      "fieldCount": 62,
+      "hasEmpty": true
+    },
+    {
+      "id": 5349,
+      "name": "CRM Incident",
+      "slug": "5349_crm_incident",
+      "fieldCount": 86,
+      "hasEmpty": true
+    },
+    {
+      "id": 5351,
+      "name": "CRM Quote",
+      "slug": "5351_crm_quote",
+      "fieldCount": 98,
+      "hasEmpty": true
+    },
+    {
+      "id": 5353,
+      "name": "CRM Salesorder",
+      "slug": "5353_crm_salesorder",
+      "fieldCount": 105,
+      "hasEmpty": true
+    },
+    {
+      "id": 5354,
+      "name": "CRM Salesorderdetail",
+      "slug": "5354_crm_salesorderdetail",
+      "fieldCount": 76,
+      "hasEmpty": true
+    },
+    {
+      "id": 5361,
+      "name": "CRM Uom",
+      "slug": "5361_crm_uom",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 5362,
+      "name": "CRM Uomschedule",
+      "slug": "5362_crm_uomschedule",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 5364,
+      "name": "CRM Businessunit",
+      "slug": "5364_crm_businessunit",
+      "fieldCount": 79,
+      "hasEmpty": true
+    },
+    {
+      "id": 5370,
+      "name": "CRM Synch. Job Status Cue",
+      "slug": "5370_crm_synch_job_status_cue",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5372,
+      "name": "CDS Av. Virtual Table Buffer",
+      "slug": "5372_cds_av_virtual_table_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5373,
+      "name": "CRM Full Synch. Review Line",
+      "slug": "5373_crm_full_synch_review_line",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5374,
+      "name": "CRM Synch. Conflict Buffer",
+      "slug": "5374_crm_synch_conflict_buffer",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 5378,
+      "name": "Synth. Relation Mapping Buffer",
+      "slug": "5378_synth_relation_mapping_buffer",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 5380,
+      "name": "Man. Integration Table Mapping",
+      "slug": "5380_man_integration_table_mapping",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5383,
+      "name": "Integration Field",
+      "slug": "5383_integration_field",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 5384,
+      "name": "Man. Int. Field Mapping",
+      "slug": "5384_man_int_field_mapping",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5389,
+      "name": "CRM Role",
+      "slug": "5389_crm_role",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 5393,
+      "name": "CDS Company",
+      "slug": "5393_cds_company",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 5394,
+      "name": "CDS Solution",
+      "slug": "5394_cds_solution",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 5395,
+      "name": "Dataverse Entity Change",
+      "slug": "5395_dataverse_entity_change",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 5400,
+      "name": "Unit Group",
+      "slug": "5400_unit_group",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5401,
+      "name": "Item Variant",
+      "slug": "5401_item_variant",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5402,
+      "name": "Unit of Measure Translation",
+      "slug": "5402_unit_of_measure_translation",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5404,
+      "name": "Item Unit of Measure",
+      "slug": "5404_item_unit_of_measure",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5405,
+      "name": "Production Order",
+      "slug": "5405_production_order",
+      "fieldCount": 56,
+      "hasEmpty": true
+    },
+    {
+      "id": 5406,
+      "name": "Prod. Order Line",
+      "slug": "5406_prod_order_line",
+      "fieldCount": 65,
+      "hasEmpty": true
+    },
+    {
+      "id": 5407,
+      "name": "Prod. Order Component",
+      "slug": "5407_prod_order_component",
+      "fieldCount": 60,
+      "hasEmpty": true
+    },
+    {
+      "id": 5409,
+      "name": "Prod. Order Routing Line",
+      "slug": "5409_prod_order_routing_line",
+      "fieldCount": 63,
+      "hasEmpty": true
+    },
+    {
+      "id": 5410,
+      "name": "Prod. Order Capacity Need",
+      "slug": "5410_prod_order_capacity_need",
+      "fieldCount": 28,
+      "hasEmpty": true
+    },
+    {
+      "id": 5411,
+      "name": "Prod. Order Routing Tool",
+      "slug": "5411_prod_order_routing_tool",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5412,
+      "name": "Prod. Order Routing Personnel",
+      "slug": "5412_prod_order_routing_personnel",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5413,
+      "name": "Prod. Order Rtng Qlty Meas.",
+      "slug": "5413_prod_order_rtng_qlty_meas",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5414,
+      "name": "Prod. Order Comment Line",
+      "slug": "5414_prod_order_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5415,
+      "name": "Prod. Order Rtng Comment Line",
+      "slug": "5415_prod_order_rtng_comment_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5416,
+      "name": "Prod. Order Comp. Cmt Line",
+      "slug": "5416_prod_order_comp_cmt_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5430,
+      "name": "Planning Error Log",
+      "slug": "5430_planning_error_log",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5466,
+      "name": "API Entities Setup",
+      "slug": "5466_api_entities_setup",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 5487,
+      "name": "Balance Sheet Buffer",
+      "slug": "5487_balance_sheet_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5488,
+      "name": "Trial Balance Entity Buffer",
+      "slug": "5488_trial_balance_entity_buffer",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5499,
+      "name": "Aged Report Entity",
+      "slug": "5499_aged_report_entity",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 5503,
+      "name": "Acc. Schedule Line Entity",
+      "slug": "5503_acc_schedule_line_entity",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5525,
+      "name": "Manufacturing User Template",
+      "slug": "5525_manufacturing_user_template",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5531,
+      "name": "Inventory Page Data",
+      "slug": "5531_inventory_page_data",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 5555,
+      "name": "Permission Conflicts Overview",
+      "slug": "5555_permission_conflicts_overview",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5557,
+      "name": "Permission Conflicts",
+      "slug": "5557_permission_conflicts",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 5600,
+      "name": "Fixed Asset",
+      "slug": "5600_fixed_asset",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 5601,
+      "name": "FA Ledger Entry",
+      "slug": "5601_fa_ledger_entry",
+      "fieldCount": 81,
+      "hasEmpty": true
+    },
+    {
+      "id": 5603,
+      "name": "FA Setup",
+      "slug": "5603_fa_setup",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5604,
+      "name": "FA Posting Type Setup",
+      "slug": "5604_fa_posting_type_setup",
+      "fieldCount": 10,
+      "hasEmpty": false
+    },
+    {
+      "id": 5605,
+      "name": "FA Journal Setup",
+      "slug": "5605_fa_journal_setup",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 5606,
+      "name": "FA Posting Group",
+      "slug": "5606_fa_posting_group",
+      "fieldCount": 44,
+      "hasEmpty": false
+    },
+    {
+      "id": 5607,
+      "name": "FA Class",
+      "slug": "5607_fa_class",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5608,
+      "name": "FA Subclass",
+      "slug": "5608_fa_subclass",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5609,
+      "name": "FA Location",
+      "slug": "5609_fa_location",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5610,
+      "name": "Adv. Bonus Depreciation Setup",
+      "slug": "5610_adv_bonus_depreciation_setup",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5611,
+      "name": "Depreciation Book",
+      "slug": "5611_depreciation_book",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 5612,
+      "name": "FA Depreciation Book",
+      "slug": "5612_fa_depreciation_book",
+      "fieldCount": 66,
+      "hasEmpty": true
+    },
+    {
+      "id": 5615,
+      "name": "FA Allocation",
+      "slug": "5615_fa_allocation",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5616,
+      "name": "Maintenance Registration",
+      "slug": "5616_maintenance_registration",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5617,
+      "name": "FA Register",
+      "slug": "5617_fa_register",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5619,
+      "name": "FA Journal Template",
+      "slug": "5619_fa_journal_template",
+      "fieldCount": 17,
+      "hasEmpty": false
+    },
+    {
+      "id": 5620,
+      "name": "FA Journal Batch",
+      "slug": "5620_fa_journal_batch",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5621,
+      "name": "FA Journal Line",
+      "slug": "5621_fa_journal_line",
+      "fieldCount": 40,
+      "hasEmpty": true
+    },
+    {
+      "id": 5622,
+      "name": "FA Reclass. Journal Template",
+      "slug": "5622_fa_reclass_journal_template",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5623,
+      "name": "FA Reclass. Journal Batch",
+      "slug": "5623_fa_reclass_journal_batch",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5624,
+      "name": "FA Reclass. Journal Line",
+      "slug": "5624_fa_reclass_journal_line",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 5625,
+      "name": "Maintenance Ledger Entry",
+      "slug": "5625_maintenance_ledger_entry",
+      "fieldCount": 57,
+      "hasEmpty": true
+    },
+    {
+      "id": 5626,
+      "name": "Maintenance",
+      "slug": "5626_maintenance",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5628,
+      "name": "Insurance",
+      "slug": "5628_insurance",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 5629,
+      "name": "Ins. Coverage Ledger Entry",
+      "slug": "5629_ins_coverage_ledger_entry",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 5630,
+      "name": "Insurance Type",
+      "slug": "5630_insurance_type",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5633,
+      "name": "Insurance Journal Template",
+      "slug": "5633_insurance_journal_template",
+      "fieldCount": 14,
+      "hasEmpty": false
+    },
+    {
+      "id": 5634,
+      "name": "Insurance Journal Batch",
+      "slug": "5634_insurance_journal_batch",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5635,
+      "name": "Insurance Journal Line",
+      "slug": "5635_insurance_journal_line",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5636,
+      "name": "Insurance Register",
+      "slug": "5636_insurance_register",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 5640,
+      "name": "Main Asset Component",
+      "slug": "5640_main_asset_component",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5642,
+      "name": "Depreciation Table Header",
+      "slug": "5642_depreciation_table_header",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5643,
+      "name": "Depreciation Table Line",
+      "slug": "5643_depreciation_table_line",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5644,
+      "name": "FA Posting Type",
+      "slug": "5644_fa_posting_type",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5645,
+      "name": "FA Date Type",
+      "slug": "5645_fa_date_type",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5647,
+      "name": "FA Matrix Posting Type",
+      "slug": "5647_fa_matrix_posting_type",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 5650,
+      "name": "Total Value Insured",
+      "slug": "5650_total_value_insured",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5700,
+      "name": "Stockkeeping Unit",
+      "slug": "5700_stockkeeping_unit",
+      "fieldCount": 81,
+      "hasEmpty": true
+    },
+    {
+      "id": 5701,
+      "name": "Stockkeeping Unit Comment Line",
+      "slug": "5701_stockkeeping_unit_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5712,
+      "name": "Copy Location Buffer",
+      "slug": "5712_copy_location_buffer",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5714,
+      "name": "Responsibility Center",
+      "slug": "5714_responsibility_center",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 5715,
+      "name": "Item Substitution",
+      "slug": "5715_item_substitution",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 5716,
+      "name": "Substitution Condition",
+      "slug": "5716_substitution_condition",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5718,
+      "name": "Nonstock Item",
+      "slug": "5718_nonstock_item",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 5719,
+      "name": "Nonstock Item Setup",
+      "slug": "5719_nonstock_item_setup",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 5720,
+      "name": "Manufacturer",
+      "slug": "5720_manufacturer",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5721,
+      "name": "Purchasing",
+      "slug": "5721_purchasing",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5722,
+      "name": "Item Category",
+      "slug": "5722_item_category",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5740,
+      "name": "Transfer Header",
+      "slug": "5740_transfer_header",
+      "fieldCount": 55,
+      "hasEmpty": true
+    },
+    {
+      "id": 5741,
+      "name": "Transfer Line",
+      "slug": "5741_transfer_line",
+      "fieldCount": 62,
+      "hasEmpty": true
+    },
+    {
+      "id": 5742,
+      "name": "Transfer Route",
+      "slug": "5742_transfer_route",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5744,
+      "name": "Transfer Shipment Header",
+      "slug": "5744_transfer_shipment_header",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 5745,
+      "name": "Transfer Shipment Line",
+      "slug": "5745_transfer_shipment_line",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 5746,
+      "name": "Transfer Receipt Header",
+      "slug": "5746_transfer_receipt_header",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 5747,
+      "name": "Transfer Receipt Line",
+      "slug": "5747_transfer_receipt_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 5748,
+      "name": "Inventory Comment Line",
+      "slug": "5748_inventory_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5765,
+      "name": "Warehouse Request",
+      "slug": "5765_warehouse_request",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 5766,
+      "name": "Warehouse Activity Header",
+      "slug": "5766_warehouse_activity_header",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 5767,
+      "name": "Warehouse Activity Line",
+      "slug": "5767_warehouse_activity_line",
+      "fieldCount": 64,
+      "hasEmpty": true
+    },
+    {
+      "id": 5768,
+      "name": "Whse. Cross-Dock Opportunity",
+      "slug": "5768_whse_cross_dock_opportunity",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 5769,
+      "name": "Warehouse Setup",
+      "slug": "5769_warehouse_setup",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 5770,
+      "name": "Warehouse Comment Line",
+      "slug": "5770_warehouse_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5771,
+      "name": "Warehouse Source Filter",
+      "slug": "5771_warehouse_source_filter",
+      "fieldCount": 45,
+      "hasEmpty": true
+    },
+    {
+      "id": 5772,
+      "name": "Registered Whse. Activity Hdr.",
+      "slug": "5772_registered_whse_activity_hdr",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5773,
+      "name": "Registered Whse. Activity Line",
+      "slug": "5773_registered_whse_activity_line",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 5774,
+      "name": "Warehouse Pick Summary",
+      "slug": "5774_warehouse_pick_summary",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 5777,
+      "name": "Item Reference",
+      "slug": "5777_item_reference",
+      "fieldCount": 10,
+      "hasEmpty": false
+    },
+    {
+      "id": 5790,
+      "name": "Shipping Agent Services",
+      "slug": "5790_shipping_agent_services",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5800,
+      "name": "Item Charge",
+      "slug": "5800_item_charge",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5801,
+      "name": "Cost Adj. Item Bucket",
+      "slug": "5801_cost_adj_item_bucket",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5802,
+      "name": "Value Entry",
+      "slug": "5802_value_entry",
+      "fieldCount": 79,
+      "hasEmpty": true
+    },
+    {
+      "id": 5804,
+      "name": "Avg. Cost Adjmt. Entry Point",
+      "slug": "5804_avg_cost_adjmt_entry_point",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 5805,
+      "name": "Item Charge Assignment (Purch)",
+      "slug": "5805_item_charge_assignment_purch",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 5806,
+      "name": "Cost Adjustment Log",
+      "slug": "5806_cost_adjustment_log",
+      "fieldCount": 10,
+      "hasEmpty": false
+    },
+    {
+      "id": 5807,
+      "name": "Cost Adjustment Detailed Log",
+      "slug": "5807_cost_adjustment_detailed_log",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5809,
+      "name": "Item Charge Assignment (Sales)",
+      "slug": "5809_item_charge_assignment_sales",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 5813,
+      "name": "Inventory Posting Setup",
+      "slug": "5813_inventory_posting_setup",
+      "fieldCount": 13,
+      "hasEmpty": false
+    },
+    {
+      "id": 5814,
+      "name": "Inventory Period",
+      "slug": "5814_inventory_period",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5815,
+      "name": "Inventory Period Entry",
+      "slug": "5815_inventory_period_entry",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 5816,
+      "name": "Cost Adjustment Trace Log",
+      "slug": "5816_cost_adjustment_trace_log",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 5818,
+      "name": "Detailed Matched Order Line",
+      "slug": "5818_detailed_matched_order_line",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 5823,
+      "name": "G/L - Item Ledger Relation",
+      "slug": "5823_g_l_item_ledger_relation",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5830,
+      "name": "Availability Calc. Overview",
+      "slug": "5830_availability_calc_overview",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 5832,
+      "name": "Capacity Ledger Entry",
+      "slug": "5832_capacity_ledger_entry",
+      "fieldCount": 39,
+      "hasEmpty": true
+    },
+    {
+      "id": 5834,
+      "name": "Marketing Text Attributes",
+      "slug": "5834_marketing_text_attributes",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5840,
+      "name": "Standard Cost Worksheet Name",
+      "slug": "5840_standard_cost_worksheet_name",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5841,
+      "name": "Standard Cost Worksheet",
+      "slug": "5841_standard_cost_worksheet",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 5842,
+      "name": "Cost Adjmt. Action Message",
+      "slug": "5842_cost_adjmt_action_message",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 5846,
+      "name": "Inventory Report Entry",
+      "slug": "5846_inventory_report_entry",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 5847,
+      "name": "Average Cost Calc. Overview",
+      "slug": "5847_average_cost_calc_overview",
+      "fieldCount": 21,
+      "hasEmpty": true
+    },
+    {
+      "id": 5850,
+      "name": "Invt. Document Header",
+      "slug": "5850_invt_document_header",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 5851,
+      "name": "Invt. Document Line",
+      "slug": "5851_invt_document_line",
+      "fieldCount": 57,
+      "hasEmpty": true
+    },
+    {
+      "id": 5852,
+      "name": "Invt. Receipt Header",
+      "slug": "5852_invt_receipt_header",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5853,
+      "name": "Invt. Receipt Line",
+      "slug": "5853_invt_receipt_line",
+      "fieldCount": 47,
+      "hasEmpty": true
+    },
+    {
+      "id": 5854,
+      "name": "Invt. Shipment Header",
+      "slug": "5854_invt_shipment_header",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5855,
+      "name": "Invt. Shipment Line",
+      "slug": "5855_invt_shipment_line",
+      "fieldCount": 50,
+      "hasEmpty": true
+    },
+    {
+      "id": 5856,
+      "name": "Direct Trans. Header",
+      "slug": "5856_direct_trans_header",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 5857,
+      "name": "Direct Trans. Line",
+      "slug": "5857_direct_trans_line",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 5870,
+      "name": "BOM Buffer",
+      "slug": "5870_bom_buffer",
+      "fieldCount": 53,
+      "hasEmpty": true
+    },
+    {
+      "id": 5874,
+      "name": "BOM Warning Log",
+      "slug": "5874_bom_warning_log",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 5875,
+      "name": "Phys. Invt. Order Header",
+      "slug": "5875_phys_invt_order_header",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 5876,
+      "name": "Phys. Invt. Order Line",
+      "slug": "5876_phys_invt_order_line",
+      "fieldCount": 40,
+      "hasEmpty": true
+    },
+    {
+      "id": 5877,
+      "name": "Phys. Invt. Record Header",
+      "slug": "5877_phys_invt_record_header",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5878,
+      "name": "Phys. Invt. Record Line",
+      "slug": "5878_phys_invt_record_line",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 5879,
+      "name": "Pstd. Phys. Invt. Order Hdr",
+      "slug": "5879_pstd_phys_invt_order_hdr",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5880,
+      "name": "Pstd. Phys. Invt. Order Line",
+      "slug": "5880_pstd_phys_invt_order_line",
+      "fieldCount": 38,
+      "hasEmpty": true
+    },
+    {
+      "id": 5881,
+      "name": "Pstd. Phys. Invt. Record Hdr",
+      "slug": "5881_pstd_phys_invt_record_hdr",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5882,
+      "name": "Pstd. Phys. Invt. Record Line",
+      "slug": "5882_pstd_phys_invt_record_line",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 5883,
+      "name": "Phys. Invt. Comment Line",
+      "slug": "5883_phys_invt_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5884,
+      "name": "Pstd. Phys. Invt. Tracking",
+      "slug": "5884_pstd_phys_invt_tracking",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 5896,
+      "name": "Inventory Adjmt. Entry (Order)",
+      "slug": "5896_inventory_adjmt_entry_order",
+      "fieldCount": 29,
+      "hasEmpty": true
+    },
+    {
+      "id": 5900,
+      "name": "Service Header",
+      "slug": "5900_service_header",
+      "fieldCount": 157,
+      "hasEmpty": true
+    },
+    {
+      "id": 5901,
+      "name": "Service Item Line",
+      "slug": "5901_service_item_line",
+      "fieldCount": 63,
+      "hasEmpty": true
+    },
+    {
+      "id": 5902,
+      "name": "Service Line",
+      "slug": "5902_service_line",
+      "fieldCount": 156,
+      "hasEmpty": true
+    },
+    {
+      "id": 5903,
+      "name": "Service Order Type",
+      "slug": "5903_service_order_type",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5904,
+      "name": "Service Item Group",
+      "slug": "5904_service_item_group",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 5905,
+      "name": "Service Cost",
+      "slug": "5905_service_cost",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 5906,
+      "name": "Service Comment Line",
+      "slug": "5906_service_comment_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5907,
+      "name": "Service Ledger Entry",
+      "slug": "5907_service_ledger_entry",
+      "fieldCount": 63,
+      "hasEmpty": true
+    },
+    {
+      "id": 5908,
+      "name": "Warranty Ledger Entry",
+      "slug": "5908_warranty_ledger_entry",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 5910,
+      "name": "Service Hour",
+      "slug": "5910_service_hour",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5911,
+      "name": "Service Mgt. Setup",
+      "slug": "5911_service_mgt_setup",
+      "fieldCount": 70,
+      "hasEmpty": true
+    },
+    {
+      "id": 5912,
+      "name": "Service Document Log",
+      "slug": "5912_service_document_log",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5913,
+      "name": "Loaner",
+      "slug": "5913_loaner",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5914,
+      "name": "Loaner Entry",
+      "slug": "5914_loaner_entry",
+      "fieldCount": 13,
+      "hasEmpty": false
+    },
+    {
+      "id": 5915,
+      "name": "Fault Area",
+      "slug": "5915_fault_area",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5916,
+      "name": "Symptom Code",
+      "slug": "5916_symptom_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5917,
+      "name": "Fault Reason Code",
+      "slug": "5917_fault_reason_code",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5918,
+      "name": "Fault Code",
+      "slug": "5918_fault_code",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5919,
+      "name": "Resolution Code",
+      "slug": "5919_resolution_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5920,
+      "name": "Fault/Resol. Cod. Relationship",
+      "slug": "5920_fault_resol_cod_relationship",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5927,
+      "name": "Repair Status",
+      "slug": "5927_repair_status",
+      "fieldCount": 18,
+      "hasEmpty": false
+    },
+    {
+      "id": 5928,
+      "name": "Service Status Priority Setup",
+      "slug": "5928_service_status_priority_setup",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5929,
+      "name": "Service Shelf",
+      "slug": "5929_service_shelf",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5934,
+      "name": "Service Register",
+      "slug": "5934_service_register",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5935,
+      "name": "Service Email Queue",
+      "slug": "5935_service_email_queue",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5936,
+      "name": "Service Document Register",
+      "slug": "5936_service_document_register",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5940,
+      "name": "Service Item",
+      "slug": "5940_service_item",
+      "fieldCount": 82,
+      "hasEmpty": true
+    },
+    {
+      "id": 5941,
+      "name": "Service Item Component",
+      "slug": "5941_service_item_component",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5942,
+      "name": "Service Item Log",
+      "slug": "5942_service_item_log",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 5943,
+      "name": "Troubleshooting Header",
+      "slug": "5943_troubleshooting_header",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 5944,
+      "name": "Troubleshooting Line",
+      "slug": "5944_troubleshooting_line",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 5945,
+      "name": "Troubleshooting Setup",
+      "slug": "5945_troubleshooting_setup",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5950,
+      "name": "Service Order Allocation",
+      "slug": "5950_service_order_allocation",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 5952,
+      "name": "Resource Location",
+      "slug": "5952_resource_location",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5954,
+      "name": "Work-Hour Template",
+      "slug": "5954_work_hour_template",
+      "fieldCount": 10,
+      "hasEmpty": false
+    },
+    {
+      "id": 5955,
+      "name": "Skill Code",
+      "slug": "5955_skill_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5956,
+      "name": "Resource Skill",
+      "slug": "5956_resource_skill",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5957,
+      "name": "Service Zone",
+      "slug": "5957_service_zone",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 5958,
+      "name": "Resource Service Zone",
+      "slug": "5958_resource_service_zone",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5964,
+      "name": "Service Contract Line",
+      "slug": "5964_service_contract_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 5965,
+      "name": "Service Contract Header",
+      "slug": "5965_service_contract_header",
+      "fieldCount": 106,
+      "hasEmpty": true
+    },
+    {
+      "id": 5966,
+      "name": "Contract Group",
+      "slug": "5966_contract_group",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 5967,
+      "name": "Contract Change Log",
+      "slug": "5967_contract_change_log",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 5968,
+      "name": "Service Contract Template",
+      "slug": "5968_service_contract_template",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 5969,
+      "name": "Contract Gain/Loss Entry",
+      "slug": "5969_contract_gain_loss_entry",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 5970,
+      "name": "Filed Service Contract Header",
+      "slug": "5970_filed_service_contract_header",
+      "fieldCount": 103,
+      "hasEmpty": true
+    },
+    {
+      "id": 5971,
+      "name": "Filed Contract Line",
+      "slug": "5971_filed_contract_line",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 5972,
+      "name": "Contract/Service Discount",
+      "slug": "5972_contract_service_discount",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 5973,
+      "name": "Service Contract Account Group",
+      "slug": "5973_service_contract_account_group",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 5974,
+      "name": "Filed Serv. Contract Cmt. Line",
+      "slug": "5974_filed_serv_contract_cmt_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 5975,
+      "name": "Filed Contract Service Hour",
+      "slug": "5975_filed_contract_service_hour",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 5976,
+      "name": "Filed Contract/Serv. Discount",
+      "slug": "5976_filed_contract_serv_discount",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 5989,
+      "name": "Service Shipment Item Line",
+      "slug": "5989_service_shipment_item_line",
+      "fieldCount": 52,
+      "hasEmpty": true
+    },
+    {
+      "id": 5990,
+      "name": "Service Shipment Header",
+      "slug": "5990_service_shipment_header",
+      "fieldCount": 133,
+      "hasEmpty": true
+    },
+    {
+      "id": 5991,
+      "name": "Service Shipment Line",
+      "slug": "5991_service_shipment_line",
+      "fieldCount": 103,
+      "hasEmpty": true
+    },
+    {
+      "id": 5992,
+      "name": "Service Invoice Header",
+      "slug": "5992_service_invoice_header",
+      "fieldCount": 147,
+      "hasEmpty": true
+    },
+    {
+      "id": 5993,
+      "name": "Service Invoice Line",
+      "slug": "5993_service_invoice_line",
+      "fieldCount": 105,
+      "hasEmpty": true
+    },
+    {
+      "id": 5994,
+      "name": "Service Cr.Memo Header",
+      "slug": "5994_service_cr_memo_header",
+      "fieldCount": 137,
+      "hasEmpty": true
+    },
+    {
+      "id": 5995,
+      "name": "Service Cr.Memo Line",
+      "slug": "5995_service_cr_memo_line",
+      "fieldCount": 98,
+      "hasEmpty": true
+    },
+    {
+      "id": 5996,
+      "name": "Standard Service Code",
+      "slug": "5996_standard_service_code",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 5997,
+      "name": "Standard Service Line",
+      "slug": "5997_standard_service_line",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 5998,
+      "name": "Standard Service Item Gr. Code",
+      "slug": "5998_standard_service_item_gr_code",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 6010,
+      "name": "Service Header Archive",
+      "slug": "6010_service_header_archive",
+      "fieldCount": 154,
+      "hasEmpty": true
+    },
+    {
+      "id": 6011,
+      "name": "Service Item Line Archive",
+      "slug": "6011_service_item_line_archive",
+      "fieldCount": 51,
+      "hasEmpty": true
+    },
+    {
+      "id": 6012,
+      "name": "Service Line Archive",
+      "slug": "6012_service_line_archive",
+      "fieldCount": 154,
+      "hasEmpty": true
+    },
+    {
+      "id": 6013,
+      "name": "Service Comment Line Archive",
+      "slug": "6013_service_comment_line_archive",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 6014,
+      "name": "Service Order Allocat. Archive",
+      "slug": "6014_service_order_allocat_archive",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 6025,
+      "name": "Invt. Order Tracking",
+      "slug": "6025_invt_order_tracking",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 6026,
+      "name": "Exp. Invt. Order Tracking",
+      "slug": "6026_exp_invt_order_tracking",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 6027,
+      "name": "Pstd.Exp.Invt.Order.Tracking",
+      "slug": "6027_pstd_exp_invt_order_tracking",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 6080,
+      "name": "Service Price Group",
+      "slug": "6080_service_price_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 6081,
+      "name": "Serv. Price Group Setup",
+      "slug": "6081_serv_price_group_setup",
+      "fieldCount": 10,
+      "hasEmpty": false
+    },
+    {
+      "id": 6082,
+      "name": "Service Price Adjustment Group",
+      "slug": "6082_service_price_adjustment_group",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 6083,
+      "name": "Serv. Price Adjustment Detail",
+      "slug": "6083_serv_price_adjustment_detail",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 6084,
+      "name": "Service Line Price Adjmt.",
+      "slug": "6084_service_line_price_adjmt",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 6305,
+      "name": "Power BI Chart Buffer",
+      "slug": "6305_power_bi_chart_buffer",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 6310,
+      "name": "Power BI Customer Reports",
+      "slug": "6310_power_bi_customer_reports",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 6313,
+      "name": "Power BI Selection Element",
+      "slug": "6313_power_bi_selection_element",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 6502,
+      "name": "Item Tracking Code",
+      "slug": "6502_item_tracking_code",
+      "fieldCount": 48,
+      "hasEmpty": false
+    },
+    {
+      "id": 6504,
+      "name": "Serial No. Information",
+      "slug": "6504_serial_no_information",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 6505,
+      "name": "Lot No. Information",
+      "slug": "6505_lot_no_information",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 6506,
+      "name": "Item Tracking Comment",
+      "slug": "6506_item_tracking_comment",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 6515,
+      "name": "Package No. Information",
+      "slug": "6515_package_no_information",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 6520,
+      "name": "Item Tracing Buffer",
+      "slug": "6520_item_tracing_buffer",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 6550,
+      "name": "Whse. Item Tracking Line",
+      "slug": "6550_whse_item_tracking_line",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 6650,
+      "name": "Return Shipment Header",
+      "slug": "6650_return_shipment_header",
+      "fieldCount": 88,
+      "hasEmpty": true
+    },
+    {
+      "id": 6651,
+      "name": "Return Shipment Line",
+      "slug": "6651_return_shipment_line",
+      "fieldCount": 88,
+      "hasEmpty": true
+    },
+    {
+      "id": 6660,
+      "name": "Return Receipt Header",
+      "slug": "6660_return_receipt_header",
+      "fieldCount": 101,
+      "hasEmpty": true
+    },
+    {
+      "id": 6661,
+      "name": "Return Receipt Line",
+      "slug": "6661_return_receipt_line",
+      "fieldCount": 84,
+      "hasEmpty": true
+    },
+    {
+      "id": 6670,
+      "name": "Returns-Related Document",
+      "slug": "6670_returns_related_document",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 6700,
+      "name": "Exchange Sync",
+      "slug": "6700_exchange_sync",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 6702,
+      "name": "Booking Sync",
+      "slug": "6702_booking_sync",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 6704,
+      "name": "Booking Mailbox",
+      "slug": "6704_booking_mailbox",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 6707,
+      "name": "Booking Item",
+      "slug": "6707_booking_item",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 6750,
+      "name": "Reminder Action",
+      "slug": "6750_reminder_action",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 6751,
+      "name": "Reminder Action Group",
+      "slug": "6751_reminder_action_group",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 6752,
+      "name": "Reminder Action Log",
+      "slug": "6752_reminder_action_log",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 6753,
+      "name": "Reminder Action Group Log",
+      "slug": "6753_reminder_action_group_log",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 6754,
+      "name": "Reminder Automation Error",
+      "slug": "6754_reminder_automation_error",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 6755,
+      "name": "Send Reminders Setup",
+      "slug": "6755_send_reminders_setup",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 6756,
+      "name": "Issue Reminders Setup",
+      "slug": "6756_issue_reminders_setup",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 6757,
+      "name": "Create Reminders Setup",
+      "slug": "6757_create_reminders_setup",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7000,
+      "name": "Price List Header",
+      "slug": "7000_price_list_header",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 7001,
+      "name": "Price List Line",
+      "slug": "7001_price_list_line",
+      "fieldCount": 37,
+      "hasEmpty": true
+    },
+    {
+      "id": 7002,
+      "name": "Sales Price",
+      "slug": "7002_sales_price",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 7004,
+      "name": "Sales Line Discount",
+      "slug": "7004_sales_line_discount",
+      "fieldCount": 11,
+      "hasEmpty": false
+    },
+    {
+      "id": 7006,
+      "name": "Price Calculation Setup",
+      "slug": "7006_price_calculation_setup",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7008,
+      "name": "Dtld. Price Calculation Setup",
+      "slug": "7008_dtld_price_calculation_setup",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 7009,
+      "name": "Duplicate Price Line",
+      "slug": "7009_duplicate_price_line",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 7012,
+      "name": "Purchase Price",
+      "slug": "7012_purchase_price",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 7013,
+      "name": "Contact Sync Queue",
+      "slug": "7013_contact_sync_queue",
+      "fieldCount": 32,
+      "hasEmpty": true
+    },
+    {
+      "id": 7014,
+      "name": "Purchase Line Discount",
+      "slug": "7014_purchase_line_discount",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 7021,
+      "name": "Price Line Filters",
+      "slug": "7021_price_line_filters",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 7022,
+      "name": "Price Worksheet Line",
+      "slug": "7022_price_worksheet_line",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 7023,
+      "name": "Sales Price Worksheet",
+      "slug": "7023_sales_price_worksheet",
+      "fieldCount": 17,
+      "hasEmpty": false
+    },
+    {
+      "id": 7101,
+      "name": "Contact Sync Folder",
+      "slug": "7101_contact_sync_folder",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 7111,
+      "name": "Analysis Report Name",
+      "slug": "7111_analysis_report_name",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 7112,
+      "name": "Analysis Line Template",
+      "slug": "7112_analysis_line_template",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 7113,
+      "name": "Analysis Type",
+      "slug": "7113_analysis_type",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 7114,
+      "name": "Analysis Line",
+      "slug": "7114_analysis_line",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 7116,
+      "name": "Analysis Column Template",
+      "slug": "7116_analysis_column_template",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 7118,
+      "name": "Analysis Column",
+      "slug": "7118_analysis_column",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 7132,
+      "name": "Item Budget Name",
+      "slug": "7132_item_budget_name",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 7134,
+      "name": "Item Budget Entry",
+      "slug": "7134_item_budget_entry",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 7152,
+      "name": "Item Analysis View",
+      "slug": "7152_item_analysis_view",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 7153,
+      "name": "Item Analysis View Filter",
+      "slug": "7153_item_analysis_view_filter",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 7154,
+      "name": "Item Analysis View Entry",
+      "slug": "7154_item_analysis_view_entry",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 7156,
+      "name": "Item Analysis View Budg. Entry",
+      "slug": "7156_item_analysis_view_budg_entry",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 7158,
+      "name": "Analysis Dim. Selection Buffer",
+      "slug": "7158_analysis_dim_selection_buffer",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 7160,
+      "name": "ABC Analysis Setup",
+      "slug": "7160_abc_analysis_setup",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 7200,
+      "name": "CDS Connection Setup",
+      "slug": "7200_cds_connection_setup",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 7202,
+      "name": "CDS Environment",
+      "slug": "7202_cds_environment",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 7203,
+      "name": "CRM Payment Terms",
+      "slug": "7203_crm_payment_terms",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 7204,
+      "name": "CRM Freight Terms",
+      "slug": "7204_crm_freight_terms",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 7205,
+      "name": "CRM Shipping Method",
+      "slug": "7205_crm_shipping_method",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 7207,
+      "name": "CRM BC Virtual Table Config.",
+      "slug": "7207_crm_bc_virtual_table_config",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 7300,
+      "name": "Zone",
+      "slug": "7300_zone",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 7301,
+      "name": "Warehouse Employee",
+      "slug": "7301_warehouse_employee",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 7302,
+      "name": "Bin Content",
+      "slug": "7302_bin_content",
+      "fieldCount": 33,
+      "hasEmpty": true
+    },
+    {
+      "id": 7303,
+      "name": "Bin Type",
+      "slug": "7303_bin_type",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 7304,
+      "name": "Warehouse Class",
+      "slug": "7304_warehouse_class",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 7305,
+      "name": "Special Equipment",
+      "slug": "7305_special_equipment",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 7307,
+      "name": "Put-away Template Header",
+      "slug": "7307_put_away_template_header",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 7308,
+      "name": "Put-away Template Line",
+      "slug": "7308_put_away_template_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7309,
+      "name": "Warehouse Journal Template",
+      "slug": "7309_warehouse_journal_template",
+      "fieldCount": 15,
+      "hasEmpty": false
+    },
+    {
+      "id": 7310,
+      "name": "Warehouse Journal Batch",
+      "slug": "7310_warehouse_journal_batch",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 7311,
+      "name": "Warehouse Journal Line",
+      "slug": "7311_warehouse_journal_line",
+      "fieldCount": 57,
+      "hasEmpty": true
+    },
+    {
+      "id": 7312,
+      "name": "Warehouse Entry",
+      "slug": "7312_warehouse_entry",
+      "fieldCount": 44,
+      "hasEmpty": true
+    },
+    {
+      "id": 7313,
+      "name": "Warehouse Register",
+      "slug": "7313_warehouse_register",
+      "fieldCount": 8,
+      "hasEmpty": false
+    },
+    {
+      "id": 7316,
+      "name": "Warehouse Receipt Header",
+      "slug": "7316_warehouse_receipt_header",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 7317,
+      "name": "Warehouse Receipt Line",
+      "slug": "7317_warehouse_receipt_line",
+      "fieldCount": 41,
+      "hasEmpty": true
+    },
+    {
+      "id": 7318,
+      "name": "Posted Whse. Receipt Header",
+      "slug": "7318_posted_whse_receipt_header",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 7319,
+      "name": "Posted Whse. Receipt Line",
+      "slug": "7319_posted_whse_receipt_line",
+      "fieldCount": 43,
+      "hasEmpty": true
+    },
+    {
+      "id": 7320,
+      "name": "Warehouse Shipment Header",
+      "slug": "7320_warehouse_shipment_header",
+      "fieldCount": 23,
+      "hasEmpty": true
+    },
+    {
+      "id": 7321,
+      "name": "Warehouse Shipment Line",
+      "slug": "7321_warehouse_shipment_line",
+      "fieldCount": 44,
+      "hasEmpty": true
+    },
+    {
+      "id": 7322,
+      "name": "Posted Whse. Shipment Header",
+      "slug": "7322_posted_whse_shipment_header",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 7323,
+      "name": "Posted Whse. Shipment Line",
+      "slug": "7323_posted_whse_shipment_line",
+      "fieldCount": 31,
+      "hasEmpty": true
+    },
+    {
+      "id": 7324,
+      "name": "Whse. Put-away Request",
+      "slug": "7324_whse_put_away_request",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 7325,
+      "name": "Whse. Pick Request",
+      "slug": "7325_whse_pick_request",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 7326,
+      "name": "Whse. Worksheet Line",
+      "slug": "7326_whse_worksheet_line",
+      "fieldCount": 45,
+      "hasEmpty": true
+    },
+    {
+      "id": 7327,
+      "name": "Whse. Worksheet Name",
+      "slug": "7327_whse_worksheet_name",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 7328,
+      "name": "Whse. Worksheet Template",
+      "slug": "7328_whse_worksheet_template",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 7331,
+      "name": "Whse. Internal Put-away Header",
+      "slug": "7331_whse_internal_put_away_header",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 7332,
+      "name": "Whse. Internal Put-away Line",
+      "slug": "7332_whse_internal_put_away_line",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 7333,
+      "name": "Whse. Internal Pick Header",
+      "slug": "7333_whse_internal_pick_header",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 7334,
+      "name": "Whse. Internal Pick Line",
+      "slug": "7334_whse_internal_pick_line",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 7335,
+      "name": "Bin Template",
+      "slug": "7335_bin_template",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 7336,
+      "name": "Bin Creation Wksh. Template",
+      "slug": "7336_bin_creation_wksh_template",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 7337,
+      "name": "Bin Creation Wksh. Name",
+      "slug": "7337_bin_creation_wksh_name",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 7338,
+      "name": "Bin Creation Worksheet Line",
+      "slug": "7338_bin_creation_worksheet_line",
+      "fieldCount": 26,
+      "hasEmpty": true
+    },
+    {
+      "id": 7340,
+      "name": "Posted Invt. Put-away Header",
+      "slug": "7340_posted_invt_put_away_header",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 7341,
+      "name": "Posted Invt. Put-away Line",
+      "slug": "7341_posted_invt_put_away_line",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 7342,
+      "name": "Posted Invt. Pick Header",
+      "slug": "7342_posted_invt_pick_header",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 7343,
+      "name": "Posted Invt. Pick Line",
+      "slug": "7343_posted_invt_pick_line",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 7344,
+      "name": "Registered Invt. Movement Hdr.",
+      "slug": "7344_registered_invt_movement_hdr",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 7345,
+      "name": "Registered Invt. Movement Line",
+      "slug": "7345_registered_invt_movement_line",
+      "fieldCount": 36,
+      "hasEmpty": true
+    },
+    {
+      "id": 7346,
+      "name": "Internal Movement Header",
+      "slug": "7346_internal_movement_header",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 7347,
+      "name": "Internal Movement Line",
+      "slug": "7347_internal_movement_line",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 7351,
+      "name": "Lot Bin Buffer",
+      "slug": "7351_lot_bin_buffer",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 7354,
+      "name": "Bin",
+      "slug": "7354_bin",
+      "fieldCount": 18,
+      "hasEmpty": true
+    },
+    {
+      "id": 7355,
+      "name": "Report Selection Warehouse",
+      "slug": "7355_report_selection_warehouse",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 7380,
+      "name": "Phys. Invt. Item Selection",
+      "slug": "7380_phys_invt_item_selection",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 7381,
+      "name": "Phys. Invt. Counting Period",
+      "slug": "7381_phys_invt_counting_period",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 7389,
+      "name": "Warehouse Reason Code",
+      "slug": "7389_warehouse_reason_code",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 7499,
+      "name": "Item From Picture Buffer",
+      "slug": "7499_item_from_picture_buffer",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 7500,
+      "name": "Item Attribute",
+      "slug": "7500_item_attribute",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 7501,
+      "name": "Item Attribute Value",
+      "slug": "7501_item_attribute_value",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 7502,
+      "name": "Item Attribute Translation",
+      "slug": "7502_item_attribute_translation",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 7503,
+      "name": "Item Attr. Value Translation",
+      "slug": "7503_item_attr_value_translation",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 7504,
+      "name": "Item Attribute Value Selection",
+      "slug": "7504_item_attribute_value_selection",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7506,
+      "name": "Filter Item Attributes Buffer",
+      "slug": "7506_filter_item_attributes_buffer",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 7600,
+      "name": "Base Calendar",
+      "slug": "7600_base_calendar",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 7601,
+      "name": "Base Calendar Change",
+      "slug": "7601_base_calendar_change",
+      "fieldCount": 6,
+      "hasEmpty": false
+    },
+    {
+      "id": 7602,
+      "name": "Customized Calendar Change",
+      "slug": "7602_customized_calendar_change",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 7603,
+      "name": "Customized Calendar Entry",
+      "slug": "7603_customized_calendar_entry",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 7604,
+      "name": "Where Used Base Calendar",
+      "slug": "7604_where_used_base_calendar",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 7700,
+      "name": "Miniform Header",
+      "slug": "7700_miniform_header",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 7701,
+      "name": "Miniform Line",
+      "slug": "7701_miniform_line",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 7702,
+      "name": "Miniform Function Group",
+      "slug": "7702_miniform_function_group",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 7703,
+      "name": "Miniform Function",
+      "slug": "7703_miniform_function",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 7704,
+      "name": "Item Identifier",
+      "slug": "7704_item_identifier",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 7710,
+      "name": "ADCS User",
+      "slug": "7710_adcs_user",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 8360,
+      "name": "Financial Report Schedule",
+      "slug": "8360_financial_report_schedule",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 8361,
+      "name": "Financial Report Export Log",
+      "slug": "8361_financial_report_export_log",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 8362,
+      "name": "Financial Report Recipient",
+      "slug": "8362_financial_report_recipient",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 8363,
+      "name": "Dimension Perspective Name",
+      "slug": "8363_dimension_perspective_name",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 8364,
+      "name": "Dimension Perspective Line",
+      "slug": "8364_dimension_perspective_line",
+      "fieldCount": 12,
+      "hasEmpty": false
+    },
+    {
+      "id": 8390,
+      "name": "Financial Report Audit Log",
+      "slug": "8390_financial_report_audit_log",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8391,
+      "name": "Financial Report Category",
+      "slug": "8391_financial_report_category",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 8395,
+      "name": "Financial Report Status",
+      "slug": "8395_financial_report_status",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 8510,
+      "name": "Over-Receipt Code",
+      "slug": "8510_over_receipt_code",
+      "fieldCount": 5,
+      "hasEmpty": false
+    },
+    {
+      "id": 8610,
+      "name": "Config. Questionnaire",
+      "slug": "8610_config_questionnaire",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 8611,
+      "name": "Config. Question Area",
+      "slug": "8611_config_question_area",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8612,
+      "name": "Config. Question",
+      "slug": "8612_config_question",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 8613,
+      "name": "Config. Package Table",
+      "slug": "8613_config_package_table",
+      "fieldCount": 30,
+      "hasEmpty": true
+    },
+    {
+      "id": 8614,
+      "name": "Config. Package Record",
+      "slug": "8614_config_package_record",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 8615,
+      "name": "Config. Package Data",
+      "slug": "8615_config_package_data",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8616,
+      "name": "Config. Package Field",
+      "slug": "8616_config_package_field",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 8617,
+      "name": "Config. Package Error",
+      "slug": "8617_config_package_error",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 8618,
+      "name": "Config. Template Header",
+      "slug": "8618_config_template_header",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 8619,
+      "name": "Config. Template Line",
+      "slug": "8619_config_template_line",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 8620,
+      "name": "Config. Tmpl. Selection Rules",
+      "slug": "8620_config_tmpl_selection_rules",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 8621,
+      "name": "Config. Selection",
+      "slug": "8621_config_selection",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8622,
+      "name": "Config. Line",
+      "slug": "8622_config_line",
+      "fieldCount": 27,
+      "hasEmpty": true
+    },
+    {
+      "id": 8623,
+      "name": "Config. Package",
+      "slug": "8623_config_package",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 8624,
+      "name": "Config. Related Field",
+      "slug": "8624_config_related_field",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 8625,
+      "name": "Config. Related Table",
+      "slug": "8625_config_related_table",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 8626,
+      "name": "Config. Package Filter",
+      "slug": "8626_config_package_filter",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8627,
+      "name": "Config. Setup",
+      "slug": "8627_config_setup",
+      "fieldCount": 54,
+      "hasEmpty": true
+    },
+    {
+      "id": 8629,
+      "name": "Config. Field Map",
+      "slug": "8629_config_field_map",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 8631,
+      "name": "Config. Table Processing Rule",
+      "slug": "8631_config_table_processing_rule",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9009,
+      "name": "Permission Set Buffer",
+      "slug": "9009_permission_set_buffer",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 9012,
+      "name": "AAD Application",
+      "slug": "9012_aad_application",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 9042,
+      "name": "Team Member Cue",
+      "slug": "9042_team_member_cue",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 9045,
+      "name": "Acc. Payable Performance Chart",
+      "slug": "9045_acc_payable_performance_chart",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 9046,
+      "name": "Account Payable Cue",
+      "slug": "9046_account_payable_cue",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 9050,
+      "name": "Warehouse Basic Cue",
+      "slug": "9050_warehouse_basic_cue",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 9051,
+      "name": "Warehouse WMS Cue",
+      "slug": "9051_warehouse_wms_cue",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 9052,
+      "name": "Service Cue",
+      "slug": "9052_service_cue",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 9053,
+      "name": "Sales Cue",
+      "slug": "9053_sales_cue",
+      "fieldCount": 17,
+      "hasEmpty": true
+    },
+    {
+      "id": 9054,
+      "name": "Finance Cue",
+      "slug": "9054_finance_cue",
+      "fieldCount": 34,
+      "hasEmpty": true
+    },
+    {
+      "id": 9055,
+      "name": "Purchase Cue",
+      "slug": "9055_purchase_cue",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 9056,
+      "name": "Manufacturing Cue",
+      "slug": "9056_manufacturing_cue",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 9057,
+      "name": "Job Cue",
+      "slug": "9057_job_cue",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 9058,
+      "name": "Warehouse Worker WMS Cue",
+      "slug": "9058_warehouse_worker_wms_cue",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 9059,
+      "name": "Administration Cue",
+      "slug": "9059_administration_cue",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 9060,
+      "name": "SB Owner Cue",
+      "slug": "9060_sb_owner_cue",
+      "fieldCount": 19,
+      "hasEmpty": true
+    },
+    {
+      "id": 9061,
+      "name": "RapidStart Services Cue",
+      "slug": "9061_rapidstart_services_cue",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 9062,
+      "name": "User Security Status",
+      "slug": "9062_user_security_status",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 9063,
+      "name": "Relationship Mgmt. Cue",
+      "slug": "9063_relationship_mgmt_cue",
+      "fieldCount": 22,
+      "hasEmpty": true
+    },
+    {
+      "id": 9067,
+      "name": "Job Queue Notified Admin",
+      "slug": "9067_job_queue_notified_admin",
+      "fieldCount": 1,
+      "hasEmpty": false
+    },
+    {
+      "id": 9070,
+      "name": "Accounting Services Cue",
+      "slug": "9070_accounting_services_cue",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9144,
+      "name": "Approvals Activities Cue",
+      "slug": "9144_approvals_activities_cue",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 9150,
+      "name": "My Customer",
+      "slug": "9150_my_customer",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9151,
+      "name": "My Vendor",
+      "slug": "9151_my_vendor",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9152,
+      "name": "My Item",
+      "slug": "9152_my_item",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9153,
+      "name": "My Account",
+      "slug": "9153_my_account",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 9154,
+      "name": "My Job",
+      "slug": "9154_my_job",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 9155,
+      "name": "My Time Sheets",
+      "slug": "9155_my_time_sheets",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9160,
+      "name": "TempStack",
+      "slug": "9160_tempstack",
+      "fieldCount": 2,
+      "hasEmpty": true
+    },
+    {
+      "id": 9165,
+      "name": "Support Contact Information",
+      "slug": "9165_support_contact_information",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 9171,
+      "name": "Profile Import",
+      "slug": "9171_profile_import",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 9175,
+      "name": "Designer Diagnostic",
+      "slug": "9175_designer_diagnostic",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 9177,
+      "name": "Experience Tier Buffer",
+      "slug": "9177_experience_tier_buffer",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 9179,
+      "name": "Application Area Buffer",
+      "slug": "9179_application_area_buffer",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 9181,
+      "name": "Generic Chart Filter",
+      "slug": "9181_generic_chart_filter",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9183,
+      "name": "Generic Chart Query Column",
+      "slug": "9183_generic_chart_query_column",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 9185,
+      "name": "Generic Chart Captions Buffer",
+      "slug": "9185_generic_chart_captions_buffer",
+      "fieldCount": 4,
+      "hasEmpty": false
+    },
+    {
+      "id": 9186,
+      "name": "Generic Chart Memo Buffer",
+      "slug": "9186_generic_chart_memo_buffer",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 9197,
+      "name": "Profile Designer Diagnostic",
+      "slug": "9197_profile_designer_diagnostic",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 9600,
+      "name": "XML Schema",
+      "slug": "9600_xml_schema",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 9610,
+      "name": "XML Schema Element",
+      "slug": "9610_xml_schema_element",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 9611,
+      "name": "XML Schema Restriction",
+      "slug": "9611_xml_schema_restriction",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 9650,
+      "name": "Custom Report Layout",
+      "slug": "9650_custom_report_layout",
+      "fieldCount": 14,
+      "hasEmpty": true
+    },
+    {
+      "id": 9651,
+      "name": "Report Layout Selection",
+      "slug": "9651_report_layout_selection",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 9656,
+      "name": "Report Layout Update Log",
+      "slug": "9656_report_layout_update_log",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 9657,
+      "name": "Custom Report Selection",
+      "slug": "9657_custom_report_selection",
+      "fieldCount": 20,
+      "hasEmpty": true
+    },
+    {
+      "id": 9802,
+      "name": "Permission Set Link",
+      "slug": "9802_permission_set_link",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 9804,
+      "name": "Recorded Event Buffer",
+      "slug": "9804_recorded_event_buffer",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 9805,
+      "name": "Table Filter",
+      "slug": "9805_table_filter",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 9852,
+      "name": "Permission Buffer",
+      "slug": "9852_permission_buffer",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 9883,
+      "name": "Perm. Set Assignment Buffer",
+      "slug": "9883_perm_set_assignment_buffer",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 9994,
+      "name": "API Data Upgrade",
+      "slug": "9994_api_data_upgrade",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 130400,
+      "name": "CAL Test Suite",
+      "slug": "130400_cal_test_suite",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 130401,
+      "name": "CAL Test Line",
+      "slug": "130401_cal_test_line",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 130405,
+      "name": "CAL Test Result",
+      "slug": "130405_cal_test_result",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 130406,
+      "name": "CAL Test Coverage Map",
+      "slug": "130406_cal_test_coverage_map",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000750,
+      "name": "Work Shift",
+      "slug": "99000750_work_shift",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000751,
+      "name": "Shop Calendar",
+      "slug": "99000751_shop_calendar",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000752,
+      "name": "Shop Calendar Working Days",
+      "slug": "99000752_shop_calendar_working_days",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000753,
+      "name": "Shop Calendar Holiday",
+      "slug": "99000753_shop_calendar_holiday",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000754,
+      "name": "Work Center",
+      "slug": "99000754_work_center",
+      "fieldCount": 49,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000756,
+      "name": "Work Center Group",
+      "slug": "99000756_work_center_group",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000757,
+      "name": "Calendar Entry",
+      "slug": "99000757_calendar_entry",
+      "fieldCount": 16,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000758,
+      "name": "Machine Center",
+      "slug": "99000758_machine_center",
+      "fieldCount": 53,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000760,
+      "name": "Calendar Absence Entry",
+      "slug": "99000760_calendar_absence_entry",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000761,
+      "name": "Stop",
+      "slug": "99000761_stop",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000762,
+      "name": "Scrap",
+      "slug": "99000762_scrap",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000763,
+      "name": "Routing Header",
+      "slug": "99000763_routing_header",
+      "fieldCount": 10,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000764,
+      "name": "Routing Line",
+      "slug": "99000764_routing_line",
+      "fieldCount": 35,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000765,
+      "name": "Manufacturing Setup",
+      "slug": "99000765_manufacturing_setup",
+      "fieldCount": 35,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000770,
+      "name": "Manufacturing Comment Line",
+      "slug": "99000770_manufacturing_comment_line",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000771,
+      "name": "Production BOM Header",
+      "slug": "99000771_production_bom_header",
+      "fieldCount": 12,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000772,
+      "name": "Production BOM Line",
+      "slug": "99000772_production_bom_line",
+      "fieldCount": 25,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000773,
+      "name": "Family",
+      "slug": "99000773_family",
+      "fieldCount": 7,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000774,
+      "name": "Family Line",
+      "slug": "99000774_family_line",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000775,
+      "name": "Routing Comment Line",
+      "slug": "99000775_routing_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000776,
+      "name": "Production BOM Comment Line",
+      "slug": "99000776_production_bom_comment_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000777,
+      "name": "Routing Link",
+      "slug": "99000777_routing_link",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000778,
+      "name": "Standard Task",
+      "slug": "99000778_standard_task",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000779,
+      "name": "Production BOM Version",
+      "slug": "99000779_production_bom_version",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000780,
+      "name": "Capacity Unit of Measure",
+      "slug": "99000780_capacity_unit_of_measure",
+      "fieldCount": 3,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000781,
+      "name": "Standard Task Tool",
+      "slug": "99000781_standard_task_tool",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000782,
+      "name": "Standard Task Personnel",
+      "slug": "99000782_standard_task_personnel",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000783,
+      "name": "Standard Task Description",
+      "slug": "99000783_standard_task_description",
+      "fieldCount": 3,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000784,
+      "name": "Standard Task Quality Measure",
+      "slug": "99000784_standard_task_quality_measure",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000785,
+      "name": "Quality Measure",
+      "slug": "99000785_quality_measure",
+      "fieldCount": 2,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000786,
+      "name": "Routing Version",
+      "slug": "99000786_routing_version",
+      "fieldCount": 8,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000788,
+      "name": "Production Matrix BOM Line",
+      "slug": "99000788_production_matrix_bom_line",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000790,
+      "name": "Where-Used Line",
+      "slug": "99000790_where_used_line",
+      "fieldCount": 7,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000799,
+      "name": "Order Tracking Entry",
+      "slug": "99000799_order_tracking_entry",
+      "fieldCount": 24,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000800,
+      "name": "Sales Planning Line",
+      "slug": "99000800_sales_planning_line",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000802,
+      "name": "Routing Tool",
+      "slug": "99000802_routing_tool",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000803,
+      "name": "Routing Personnel",
+      "slug": "99000803_routing_personnel",
+      "fieldCount": 6,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000805,
+      "name": "Routing Quality Measure",
+      "slug": "99000805_routing_quality_measure",
+      "fieldCount": 9,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000829,
+      "name": "Planning Component",
+      "slug": "99000829_planning_component",
+      "fieldCount": 54,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000830,
+      "name": "Planning Routing Line",
+      "slug": "99000830_planning_routing_line",
+      "fieldCount": 52,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000832,
+      "name": "Item Availability Line",
+      "slug": "99000832_item_availability_line",
+      "fieldCount": 4,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000848,
+      "name": "Registered Absence",
+      "slug": "99000848_registered_absence",
+      "fieldCount": 9,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000851,
+      "name": "Production Forecast Name",
+      "slug": "99000851_production_forecast_name",
+      "fieldCount": 11,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000852,
+      "name": "Production Forecast Entry",
+      "slug": "99000852_production_forecast_entry",
+      "fieldCount": 12,
+      "hasEmpty": false
+    },
+    {
+      "id": 99000855,
+      "name": "Untracked Planning Element",
+      "slug": "99000855_untracked_planning_element",
+      "fieldCount": 15,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000866,
+      "name": "Capacity Constrained Resource",
+      "slug": "99000866_capacity_constrained_resource",
+      "fieldCount": 13,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000875,
+      "name": "Order Promising Setup",
+      "slug": "99000875_order_promising_setup",
+      "fieldCount": 5,
+      "hasEmpty": true
+    },
+    {
+      "id": 99000880,
+      "name": "Order Promising Line",
+      "slug": "99000880_order_promising_line",
+      "fieldCount": 24,
+      "hasEmpty": true
+    }
+  ]
+}

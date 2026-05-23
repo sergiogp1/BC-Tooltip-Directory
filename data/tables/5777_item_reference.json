@@ -1,0 +1,58 @@
+{
+  "id": 5777,
+  "name": "Item Reference",
+  "slug": "5777_item_reference",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number on the item card from which you opened the Item Reference Entries window."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 3,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 4,
+      "name": "Reference Type",
+      "tooltip": "Specifies the type of the reference entry."
+    },
+    {
+      "no": 5,
+      "name": "Reference Type No.",
+      "tooltip": "Specifies a customer number, a vendor number, or a bar code, depending on what you have selected in the Type field."
+    },
+    {
+      "no": 6,
+      "name": "Reference No.",
+      "tooltip": "Specifies the referenced item number. If you enter a reference between yours and your vendor's or customer's item number, then this number will override the standard item number when you enter the reference number on a sales or purchase document."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item linked to this reference. It will override the standard description when entered on an order."
+    },
+    {
+      "no": 9,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional description of the item linked to this reference."
+    },
+    {
+      "no": 10,
+      "name": "Starting Date",
+      "tooltip": "Specifies the first day from when the item reference is valid."
+    },
+    {
+      "no": 11,
+      "name": "Ending Date",
+      "tooltip": "Specifies the last day from when the item reference is valid."
+    }
+  ]
+}

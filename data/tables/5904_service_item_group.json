@@ -1,0 +1,38 @@
+{
+  "id": 5904,
+  "name": "Service Item Group",
+  "slug": "5904_service_item_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the service item group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service item group."
+    },
+    {
+      "no": 3,
+      "name": "Create Service Item",
+      "tooltip": "Specifies that when you ship an item associated with this group, the item is registered as a service item in the Service Item table."
+    },
+    {
+      "no": 4,
+      "name": "Default Contract Discount %",
+      "tooltip": "Specifies the discount percentage used as the default quote discount in a service contract quote."
+    },
+    {
+      "no": 5,
+      "name": "Default Serv. Price Group Code",
+      "tooltip": "Specifies the service price group code used as the default service price group in the Service Price Group table."
+    },
+    {
+      "no": 6,
+      "name": "Default Response Time (Hours)",
+      "tooltip": "Specifies the default response time for the service item group."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 5643,
+  "name": "Depreciation Table Line",
+  "slug": "5643_depreciation_table_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Depreciation Table Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Period No.",
+      "tooltip": "Specifies the number of the depreciation period that this line applies to."
+    },
+    {
+      "no": 3,
+      "name": "Period Depreciation %",
+      "tooltip": "Specifies the depreciation percentage to apply to the period for this line."
+    },
+    {
+      "no": 4,
+      "name": "No. of Units in Period",
+      "tooltip": "Specifies the units produced by the asset this depreciation table applies to, during the period when this line applies."
+    }
+  ]
+}

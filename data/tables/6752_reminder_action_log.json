@@ -1,0 +1,63 @@
+{
+  "id": 6752,
+  "name": "Reminder Action Log",
+  "slug": "6752_reminder_action_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Run Id",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Reminder Action Group ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Reminder Action ID",
+      "tooltip": "Specifies the reminder action that was performed."
+    },
+    {
+      "no": 5,
+      "name": "Total Records Processed",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Total Errors",
+      "tooltip": "Specifies the total number of errors that occurred during the action job."
+    },
+    {
+      "no": 7,
+      "name": "Last Record Processed",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the action."
+    },
+    {
+      "no": 11,
+      "name": "Status summary",
+      "tooltip": "Specifies the details of the last action job."
+    },
+    {
+      "no": 12,
+      "name": "Details",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "JobQueueID",
+      "tooltip": ""
+    }
+  ]
+}

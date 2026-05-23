@@ -1,0 +1,38 @@
+{
+  "id": 929,
+  "name": "Bank Account Balance Buffer",
+  "slug": "929_bank_account_balance_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the start date of the period defined on the line for the summary of the bank account balance."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Net Change",
+      "tooltip": "Specifies the net value of entries for the period shown in the left column."
+    },
+    {
+      "no": 11,
+      "name": "Net Change (LCY)",
+      "tooltip": "Specifies the net value of entries in LCY for the period shown in the left column."
+    }
+  ]
+}

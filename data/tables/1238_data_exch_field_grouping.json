@@ -1,0 +1,28 @@
+{
+  "id": 1238,
+  "name": "Data Exch. Field Grouping",
+  "slug": "1238_data_exch_field_grouping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Data Exch. Line Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field ID",
+      "tooltip": "Specifies the number of the field in the external file that is used for grouping."
+    }
+  ]
+}

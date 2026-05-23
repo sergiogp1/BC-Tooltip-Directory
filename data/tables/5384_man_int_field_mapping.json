@@ -1,0 +1,63 @@
+{
+  "id": 5384,
+  "name": "Man. Int. Field Mapping",
+  "slug": "5384_man_int_field_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Table Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Table Field Caption",
+      "tooltip": "Specifies the name of the field in Business Central."
+    },
+    {
+      "no": 30,
+      "name": "Integration Table Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Int. Table Field Caption",
+      "tooltip": "Specifies the name of the integration field to map to the Business Central field."
+    },
+    {
+      "no": 41,
+      "name": "Integration Table Field Name",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Direction",
+      "tooltip": "Specifies the synchronization direction."
+    },
+    {
+      "no": 60,
+      "name": "Const Value",
+      "tooltip": "Specifies the constant value that the mapped field will be set to."
+    },
+    {
+      "no": 70,
+      "name": "Validate Field",
+      "tooltip": "Specifies if the field should be validated during assignment."
+    },
+    {
+      "no": 80,
+      "name": "Validate Integr. Table Field",
+      "tooltip": "Specifies if the field should be validated during assignment in the integration table."
+    },
+    {
+      "no": 90,
+      "name": "Transformation Rule",
+      "tooltip": "Specifies a rule for transforming imported text to a supported value before it can be mapped to a specified field in Microsoft Dynamics 365."
+    }
+  ]
+}

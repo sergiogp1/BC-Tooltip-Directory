@@ -1,0 +1,48 @@
+{
+  "id": 701,
+  "name": "Error Message Register",
+  "slug": "701_error_message_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Created On",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Errors",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Warnings",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Information",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Message",
+      "tooltip": ""
+    }
+  ]
+}

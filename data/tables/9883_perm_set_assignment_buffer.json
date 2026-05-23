@@ -1,0 +1,33 @@
+{
+  "id": 9883,
+  "name": "Perm. Set Assignment Buffer",
+  "slug": "9883_perm_set_assignment_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "SecurityId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Code",
+      "tooltip": "Specifies the security group code."
+    },
+    {
+      "no": 4,
+      "name": "Name",
+      "tooltip": "Specifies the name of the security group."
+    },
+    {
+      "no": 5,
+      "name": "CompanyName",
+      "tooltip": "Specifies the company that the permission set applies to."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 5093,
+  "name": "Opportunity Entry",
+  "slug": "5093_opportunity_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Opportunity No.",
+      "tooltip": "Specifies the number of the opportunity to which this entry applies."
+    },
+    {
+      "no": 3,
+      "name": "Sales Cycle Code",
+      "tooltip": "Specifies the code of the sales cycle to which the opportunity is linked."
+    },
+    {
+      "no": 4,
+      "name": "Sales Cycle Stage",
+      "tooltip": "Specifies the sales cycle stage currently of the opportunity."
+    },
+    {
+      "no": 5,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Contact Company No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Salesperson Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Campaign No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Date of Change",
+      "tooltip": "Specifies the date this opportunity entry was last changed."
+    },
+    {
+      "no": 10,
+      "name": "Active",
+      "tooltip": "Specifies that the opportunity entry is active."
+    },
+    {
+      "no": 11,
+      "name": "Date Closed",
+      "tooltip": "Specifies the date that the opportunity was closed."
+    },
+    {
+      "no": 12,
+      "name": "Days Open",
+      "tooltip": "Specifies the number of days that the opportunity entry was open."
+    },
+    {
+      "no": 13,
+      "name": "Action Taken",
+      "tooltip": "Specifies the action that was taken when the entry was last updated. There are six options:"
+    },
+    {
+      "no": 14,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the estimated value of the opportunity entry."
+    },
+    {
+      "no": 15,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the calculated current value of the opportunity entry."
+    },
+    {
+      "no": 16,
+      "name": "Completed %",
+      "tooltip": "Specifies the percentage of the sales cycle that has been completed for this opportunity entry."
+    },
+    {
+      "no": 17,
+      "name": "Chances of Success %",
+      "tooltip": "Specifies the chances of success of the opportunity entry."
+    },
+    {
+      "no": 18,
+      "name": "Probability %",
+      "tooltip": "Specifies the probability of the opportunity resulting in a sale."
+    },
+    {
+      "no": 19,
+      "name": "Close Opportunity Code",
+      "tooltip": "Specifies the code for closing the opportunity."
+    },
+    {
+      "no": 20,
+      "name": "Previous Sales Cycle Stage",
+      "tooltip": "Specifies the sales cycle stage of the opportunity before this entry."
+    },
+    {
+      "no": 21,
+      "name": "Estimated Close Date",
+      "tooltip": "Specifies the estimated date when the opportunity entry will be closed."
+    },
+    {
+      "no": 9501,
+      "name": "Wizard Step",
+      "tooltip": ""
+    },
+    {
+      "no": 9502,
+      "name": "Cancel Old To Do",
+      "tooltip": "Specifies a task is to be cancelled from the opportunity."
+    },
+    {
+      "no": 9503,
+      "name": "Action Type",
+      "tooltip": "Specifies options that you can take when you reenter an opportunity to update it in the Update Opportunity window. Certain options are not available, depending on what stage you are in for your opportunity. For example, if you are in stage 1, you cannot select the Previous option."
+    },
+    {
+      "no": 9504,
+      "name": "Sales Cycle Stage Description",
+      "tooltip": "Specifies a description of the sales cycle stage."
+    }
+  ]
+}

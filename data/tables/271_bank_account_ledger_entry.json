@@ -1,0 +1,243 @@
+{
+  "id": 271,
+  "name": "Bank Account Ledger Entry",
+  "slug": "271_bank_account_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the bank account used for the entry."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's Posting Date."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type on the bank account entry. The document type will be Payment, Refund, or the field will be blank."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the bank account entry."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the bank account entry."
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code used in the entry."
+    },
+    {
+      "no": 13,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry denominated in the applicable foreign currency."
+    },
+    {
+      "no": 14,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the amount that remains to be applied to if the entry has not been completely applied to."
+    },
+    {
+      "no": 17,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the amount of the entry in LCY."
+    },
+    {
+      "no": 22,
+      "name": "Bank Acc. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 24,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 25,
+      "name": "Our Contact Code",
+      "tooltip": "Specifies the code for the employee who is responsible for the bank account."
+    },
+    {
+      "no": 27,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 28,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 36,
+      "name": "Open",
+      "tooltip": "Specifies whether the amount on the bank account entry has been fully applied to or if there is still a remaining amount that must be applied to."
+    },
+    {
+      "no": 43,
+      "name": "Positive",
+      "tooltip": "Specifies if the bank ledger entry is positive."
+    },
+    {
+      "no": 44,
+      "name": "Closed by Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Closed at Date",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 51,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 52,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 53,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Statement Status",
+      "tooltip": "Specifies the statement status of the bank account ledger entry."
+    },
+    {
+      "no": 56,
+      "name": "Statement No.",
+      "tooltip": "Specifies the bank account statement that the ledger entry has been applied to, if the Statement Status is Bank Account Ledger Applied."
+    },
+    {
+      "no": 57,
+      "name": "Statement Line No.",
+      "tooltip": "Specifies the number of the statement line that has been applied to by this ledger entry line."
+    },
+    {
+      "no": 58,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 59,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 60,
+      "name": "Debit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent debits, expressed in LCY."
+    },
+    {
+      "no": 61,
+      "name": "Credit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent credits, expressed in LCY."
+    },
+    {
+      "no": 62,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 64,
+      "name": "Reversed",
+      "tooltip": "Specifies if the entry has been part of a reverse transaction."
+    },
+    {
+      "no": 65,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry that replaced the original entry in the reverse transaction."
+    },
+    {
+      "no": 66,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 67,
+      "name": "Statement Date",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Check Ledger Entries",
+      "tooltip": "Specifies the check ledger entries that are associated with the bank account ledger entry."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 725,
+  "name": "Custom Address Format",
+  "slug": "725_custom_address_format",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line Position",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line Format",
+      "tooltip": "Specifies address format fields."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Field ID",
+      "tooltip": "Specifies reference field ID."
+    }
+  ]
+}

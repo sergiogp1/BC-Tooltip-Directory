@@ -1,0 +1,73 @@
+{
+  "id": 7331,
+  "name": "Whse. Internal Put-away Header",
+  "slug": "7331_whse_internal_put_away_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where the internal put-away is being performed."
+    },
+    {
+      "no": 3,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    },
+    {
+      "no": 4,
+      "name": "Assignment Date",
+      "tooltip": "Specifies the date when the user was assigned the activity."
+    },
+    {
+      "no": 5,
+      "name": "Assignment Time",
+      "tooltip": "Specifies the time when the user was assigned the activity."
+    },
+    {
+      "no": 6,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "From Bin Code",
+      "tooltip": "Specifies the bin from which the items to be put away should be taken."
+    },
+    {
+      "no": 9,
+      "name": "From Zone Code",
+      "tooltip": "Specifies the zone from which the items to be put away should be taken."
+    },
+    {
+      "no": 10,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the warehouse activity must be completed."
+    },
+    {
+      "no": 11,
+      "name": "Document Status",
+      "tooltip": "Specifies the status of the internal put-away."
+    },
+    {
+      "no": 12,
+      "name": "Sorting Method",
+      "tooltip": "Specifies the method by which the warehouse internal put-always are sorted."
+    },
+    {
+      "no": 13,
+      "name": "Status",
+      "tooltip": "Specifies the status of the internal put-away."
+    }
+  ]
+}

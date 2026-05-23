@@ -1,0 +1,23 @@
+{
+  "id": 328,
+  "name": "Currency for Fin. Charge Terms",
+  "slug": "328_currency_for_fin_charge_terms",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code for the currency in which you want to define finance charge terms."
+    },
+    {
+      "no": 4,
+      "name": "Additional Fee",
+      "tooltip": "Specifies a fee amount in foreign currency. The currency of this amount is determined by the currency code."
+    }
+  ]
+}

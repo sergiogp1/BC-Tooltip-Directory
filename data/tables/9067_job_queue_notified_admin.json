@@ -1,0 +1,13 @@
+{
+  "id": 9067,
+  "name": "Job Queue Notified Admin",
+  "slug": "9067_job_queue_notified_admin",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User Name",
+      "tooltip": "The User Name of the Job Queue Admin"
+    }
+  ]
+}

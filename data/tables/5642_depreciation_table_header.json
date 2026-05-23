@@ -1,0 +1,28 @@
+{
+  "id": 5642,
+  "name": "Depreciation Table Header",
+  "slug": "5642_depreciation_table_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the depreciation table."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the depreciation table."
+    },
+    {
+      "no": 3,
+      "name": "Period Length",
+      "tooltip": "Specifies the length of period that each of the depreciation table lines will apply to."
+    },
+    {
+      "no": 4,
+      "name": "Total No. of Units",
+      "tooltip": "Specifies the total number of units the asset is expected to produce in its lifetime."
+    }
+  ]
+}

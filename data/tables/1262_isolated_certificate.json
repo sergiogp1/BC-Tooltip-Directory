@@ -1,0 +1,58 @@
+{
+  "id": 1262,
+  "name": "Isolated Certificate",
+  "slug": "1262_isolated_certificate",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the identifier for the certificate."
+    },
+    {
+      "no": 2,
+      "name": "Scope",
+      "tooltip": "Specifies the availability of the certificate. Company gives all users in this specific company access to the certificate. User gives access to a specific user in any company. Company and User gives access to a specific user in the specific company."
+    },
+    {
+      "no": 4,
+      "name": "Expiry Date",
+      "tooltip": "Specifies the date on which the certificate will expire."
+    },
+    {
+      "no": 5,
+      "name": "Has Private Key",
+      "tooltip": "Specifies whether the certificate has a private key."
+    },
+    {
+      "no": 6,
+      "name": "Name",
+      "tooltip": "Specifies the name of the certificate."
+    },
+    {
+      "no": 7,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Company ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "ThumbPrint",
+      "tooltip": "Specifies the certificate thumbprint."
+    },
+    {
+      "no": 13,
+      "name": "Issued By",
+      "tooltip": "Specifies the certificate authority that issued the certificate."
+    },
+    {
+      "no": 14,
+      "name": "Issued To",
+      "tooltip": "Specifies the person, organization, or domain that the certificate was issued to."
+    }
+  ]
+}

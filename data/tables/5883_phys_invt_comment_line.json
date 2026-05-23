@@ -1,0 +1,43 @@
+{
+  "id": 5883,
+  "name": "Phys. Invt. Comment Line",
+  "slug": "5883_phys_invt_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Order No.",
+      "tooltip": "Specifies the document number of the physical inventory order to which the comment applies."
+    },
+    {
+      "no": 3,
+      "name": "Recording No.",
+      "tooltip": "Specifies the document number of the physical inventory recording to which the comment applies."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date when the comment was created."
+    },
+    {
+      "no": 11,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies the comment itself."
+    }
+  ]
+}

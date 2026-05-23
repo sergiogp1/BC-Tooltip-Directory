@@ -1,0 +1,28 @@
+{
+  "id": 561,
+  "name": "VAT Clause Translation",
+  "slug": "561_vat_clause_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Clause Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the translation of the VAT clause description. The translated version of the description is displayed as the VAT clause, based on the Language Code setting on the Customer card."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": "Specifies the translation of the additional VAT clause description."
+    }
+  ]
+}

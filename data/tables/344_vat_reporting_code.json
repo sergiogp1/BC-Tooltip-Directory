@@ -1,0 +1,18 @@
+{
+  "id": 344,
+  "name": "VAT Reporting Code",
+  "slug": "344_vat_reporting_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the VAT reporting code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the VAT reporting code."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 381,
+  "name": "VAT Registration No. Format",
+  "slug": "381_vat_registration_no_format",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Format",
+      "tooltip": "Specifies a format for a country's/region's VAT registration number."
+    }
+  ]
+}

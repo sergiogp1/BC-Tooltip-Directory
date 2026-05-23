@@ -1,0 +1,33 @@
+{
+  "id": 291,
+  "name": "Shipping Agent",
+  "slug": "291_shipping_agent",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a shipping agent code."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies a description of the shipping agent."
+    },
+    {
+      "no": 3,
+      "name": "Internet Address",
+      "tooltip": "Specifies the URL for the shipping agent's package tracking system. To let users track specific packages, add %1 to the URL. When users track a package, the tracking number will replace %1. Example, http://www.providername.com/track?awb=%1."
+    },
+    {
+      "no": 4,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the shipping agent has assigned to your company."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    }
+  ]
+}

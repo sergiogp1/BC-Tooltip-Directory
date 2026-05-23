@@ -1,0 +1,38 @@
+{
+  "id": 335,
+  "name": "Resource Price Change",
+  "slug": "335_resource_price_change",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the type of resource for which the alternate unit price is valid."
+    },
+    {
+      "no": 3,
+      "name": "Code",
+      "tooltip": "Specifies the resource code for which the alternate unit price is valid."
+    },
+    {
+      "no": 4,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 5,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code that the alternate unit price is in."
+    },
+    {
+      "no": 6,
+      "name": "Current Unit Price",
+      "tooltip": "Specifies the alternate unit price of the resource."
+    },
+    {
+      "no": 7,
+      "name": "New Unit Price",
+      "tooltip": "Specifies the new unit price that is valid for the selected combination of resource type, resource code, project number, or work type."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 5055,
+  "name": "Mailing Group",
+  "slug": "5055_mailing_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the mailing group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the mailing group."
+    },
+    {
+      "no": 3,
+      "name": "No. of Contacts",
+      "tooltip": "Specifies the number of contacts that have been assigned the mailing group. This field is not editable."
+    }
+  ]
+}

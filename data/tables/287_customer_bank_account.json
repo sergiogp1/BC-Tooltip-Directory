@@ -1,0 +1,138 @@
+{
+  "id": 287,
+  "name": "Customer Bank Account",
+  "slug": "287_customer_bank_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Customer No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify this customer bank account."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the bank where the customer has the bank account."
+    },
+    {
+      "no": 5,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Address",
+      "tooltip": "Specifies the address of the bank where the customer has the bank account."
+    },
+    {
+      "no": 7,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": "Specifies the city of the bank where the customer has the bank account."
+    },
+    {
+      "no": 9,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 10,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the bank employee regularly contacted in connection with this bank account."
+    },
+    {
+      "no": 11,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number of the bank where the customer has the bank account."
+    },
+    {
+      "no": 12,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Bank Branch No.",
+      "tooltip": "Specifies the number of the bank branch."
+    },
+    {
+      "no": 14,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number used by the bank for the bank account."
+    },
+    {
+      "no": 15,
+      "name": "Transit No.",
+      "tooltip": "Specifies a bank identification number of your own choice."
+    },
+    {
+      "no": 16,
+      "name": "Currency Code",
+      "tooltip": "Specifies the relevant currency code for the bank account."
+    },
+    {
+      "no": 17,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 18,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 19,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number of the bank where the customer has the bank account."
+    },
+    {
+      "no": 20,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 22,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address associated with the bank account."
+    },
+    {
+      "no": 23,
+      "name": "Home Page",
+      "tooltip": "Specifies the bank web site."
+    },
+    {
+      "no": 24,
+      "name": "IBAN",
+      "tooltip": "Specifies the bank account's international bank account number."
+    },
+    {
+      "no": 25,
+      "name": "SWIFT Code",
+      "tooltip": "Specifies the SWIFT code (international bank identifier code) of the bank where the customer has the account."
+    },
+    {
+      "no": 1211,
+      "name": "Bank Clearing Code",
+      "tooltip": "Specifies the code for bank clearing that is required according to the format standard you selected in the Bank Clearing Standard field."
+    },
+    {
+      "no": 1212,
+      "name": "Bank Clearing Standard",
+      "tooltip": "Specifies the format standard to be used in bank transfers if you use the Bank Clearing Code field to identify you as the sender."
+    }
+  ]
+}

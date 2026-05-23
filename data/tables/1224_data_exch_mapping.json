@@ -1,0 +1,68 @@
+{
+  "id": 1224,
+  "name": "Data Exch. Mapping",
+  "slug": "1224_data_exch_mapping",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": "Specifies the table that holds the fields to or from which data is exchanged according to the mapping."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the data exchange mapping setup."
+    },
+    {
+      "no": 4,
+      "name": "Mapping Codeunit",
+      "tooltip": "Specifies the codeunit that is used to map the specified columns or XML data elements to fields in Microsoft Dynamics 365."
+    },
+    {
+      "no": 6,
+      "name": "Data Exch. No. Field ID",
+      "tooltip": "Specifies the ID. This field is intended only for internal use."
+    },
+    {
+      "no": 7,
+      "name": "Data Exch. Line Field ID",
+      "tooltip": "Specifies the ID. This field is intended only for internal use."
+    },
+    {
+      "no": 8,
+      "name": "Data Exch. Line Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Pre-Mapping Codeunit",
+      "tooltip": "Specifies the codeunit that prepares the mapping between fields in Dynamics 365 and external data."
+    },
+    {
+      "no": 10,
+      "name": "Post-Mapping Codeunit",
+      "tooltip": "Specifies the codeunit that completes the mapping between fields in Dynamics 365 and the external data file or service."
+    },
+    {
+      "no": 20,
+      "name": "Use as Intermediate Table",
+      "tooltip": "Specifies that the table that you select in the Table ID field is an intermediate table where the imported data is stored before it is mapped to the target table."
+    },
+    {
+      "no": 21,
+      "name": "Key Index",
+      "tooltip": "Specifies the key index to sort the source records before exporting."
+    },
+    {
+      "no": 22,
+      "name": "Key",
+      "tooltip": "Specifies the key to sort the source records before exporting."
+    }
+  ]
+}

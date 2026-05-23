@@ -1,0 +1,48 @@
+{
+  "id": 412,
+  "name": "IC Dimension Value",
+  "slug": "412_ic_dimension_value",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Dimension Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the intercompany dimension code."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the intercompany dimension name."
+    },
+    {
+      "no": 4,
+      "name": "Dimension Value Type",
+      "tooltip": "Specifies the intercompany dimension value type."
+    },
+    {
+      "no": 5,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 6,
+      "name": "Map-to Dimension Code",
+      "tooltip": "Specifies the dimension code associated with the corresponding intercompany dimension."
+    },
+    {
+      "no": 7,
+      "name": "Map-to Dimension Value Code",
+      "tooltip": "Specifies which dimension value corresponds to the intercompany dimension value on the line."
+    },
+    {
+      "no": 8,
+      "name": "Indentation",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 7200,
+  "name": "CDS Connection Setup",
+  "slug": "7200_cds_connection_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Server Address",
+      "tooltip": "Specifies the URL of the Dataverse environment that you want to connect to."
+    },
+    {
+      "no": 3,
+      "name": "User Name",
+      "tooltip": "Specifies the name of the user that will be used to connect to the Dataverse environment and synchronize data. This must not be the administrator user account."
+    },
+    {
+      "no": 4,
+      "name": "User Password Key",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Is Enabled",
+      "tooltip": "Specifies whether data synchronization with the Dataverse environment is enabled. When you select this check box, you will be prompted to sign-in with an administrator user account and give consent to the app registration that will be used to connect to Dataverse. The account will be used one time to install and configure components that the integration requires."
+    },
+    {
+      "no": 61,
+      "name": "Business Events Enabled",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Proxy Version",
+      "tooltip": "Specifies the software development kit version that is used to connect to the Dataverse environment."
+    },
+    {
+      "no": 118,
+      "name": "CurrencyDecimalPrecision",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "BaseCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "BaseCurrencyPrecision",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "BaseCurrencySymbol",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Authentication Type",
+      "tooltip": "Specifies the authentication type that will be used to authenticate with the Dataverse environment."
+    },
+    {
+      "no": 136,
+      "name": "Connection String",
+      "tooltip": "Specifies the connection string that will be used to connect to the Dataverse environment."
+    },
+    {
+      "no": 137,
+      "name": "Domain",
+      "tooltip": ""
+    },
+    {
+      "no": 139,
+      "name": "Disable Reason",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Ownership Model",
+      "tooltip": "Specifies the type of owner that will be assigned to any row that is created while synchronizing from Business Central to Dataverse."
+    },
+    {
+      "no": 150,
+      "name": "Business Unit Id",
+      "tooltip": ""
+    },
+    {
+      "no": 151,
+      "name": "Business Unit Name",
+      "tooltip": "Specifies the business unit that you want to connect to in the Dataverse environment."
+    },
+    {
+      "no": 153,
+      "name": "Client Id",
+      "tooltip": "Specifies the ID of the Microsoft Entra application that will be used to connect to the Dataverse environment."
+    },
+    {
+      "no": 154,
+      "name": "Client Secret Key",
+      "tooltip": ""
+    },
+    {
+      "no": 155,
+      "name": "Redirect URL",
+      "tooltip": "Specifies the Redirect URL of the Microsoft Entra app registration that will be used to connect to the Dataverse environment."
+    },
+    {
+      "no": 156,
+      "name": "Virtual Tables Config Id",
+      "tooltip": ""
+    },
+    {
+      "no": 241,
+      "name": "BaseCurrencyCode",
+      "tooltip": ""
+    }
+  ]
+}

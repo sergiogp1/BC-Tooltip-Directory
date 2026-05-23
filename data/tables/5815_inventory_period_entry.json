@@ -1,0 +1,48 @@
+{
+  "id": 5815,
+  "name": "Inventory Period Entry",
+  "slug": "5815_inventory_period_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date that uniquely identifies an inventory period."
+    },
+    {
+      "no": 3,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 4,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date when the inventory period entry was created."
+    },
+    {
+      "no": 5,
+      "name": "Creation Time",
+      "tooltip": "Specifies the time when the inventory period entry was created."
+    },
+    {
+      "no": 6,
+      "name": "Closing Item Register No.",
+      "tooltip": "Specifies the number of the last item register in a closed inventory period."
+    },
+    {
+      "no": 7,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type for an inventory period entry, such as closed or re-opened."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies any useful information about the inventory period entry."
+    }
+  ]
+}

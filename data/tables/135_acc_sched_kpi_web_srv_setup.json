@@ -1,0 +1,58 @@
+{
+  "id": 135,
+  "name": "Acc. Sched. KPI Web Srv. Setup",
+  "slug": "135_acc_sched_kpi_web_srv_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Forecasted Values Start",
+      "tooltip": "Specifies at what point in time forecasted values are shown on the financial-report KPI graphic. The forecasted values are retrieved from the selected general ledger budget."
+    },
+    {
+      "no": 3,
+      "name": "G/L Budget Name",
+      "tooltip": "Specifies the name of the general ledger budget that provides budgeted values to the financial-report KPI web service."
+    },
+    {
+      "no": 4,
+      "name": "Period",
+      "tooltip": "Specifies the period that the financial-report KPI web service is based on."
+    },
+    {
+      "no": 5,
+      "name": "View By",
+      "tooltip": "Specifies which time interval the financial-report KPI is shown in."
+    },
+    {
+      "no": 6,
+      "name": "Web Service Name",
+      "tooltip": "Specifies the name of the financial-report KPI web service. This name will be shown under the displayed financial-report KPI."
+    },
+    {
+      "no": 7,
+      "name": "Published",
+      "tooltip": "Specifies if the financial-report KPI web service has been published. Published web services are listed in the Web Services window."
+    },
+    {
+      "no": 8,
+      "name": "Data Last Updated",
+      "tooltip": "Specifies the last time data was refreshed through the web service."
+    },
+    {
+      "no": 9,
+      "name": "Last G/L Entry Included",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Data Time To Live (hours)",
+      "tooltip": "Specifies how long data is stored in Business Central before being refreshed from the service. The longer the duration is the smaller the performance impact."
+    }
+  ]
+}

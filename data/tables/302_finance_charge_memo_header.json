@@ -1,0 +1,223 @@
+{
+  "id": 302,
+  "name": "Finance Charge Memo Header",
+  "slug": "302_finance_charge_memo_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer you want to create a finance charge memo for."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer the finance charge memo is for."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer the finance charge memo is for."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": "Specifies the city name of the customer the finance charge memo is for."
+    },
+    {
+      "no": 9,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the finance charge memo."
+    },
+    {
+      "no": 13,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact when you communicate with the customer the finance charge memo is for."
+    },
+    {
+      "no": 14,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference. The content will be printed on the related document."
+    },
+    {
+      "no": 15,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 16,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 17,
+      "name": "Customer Posting Group",
+      "tooltip": "Specifies the customer's market type to link business transactions to."
+    },
+    {
+      "no": 18,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the finance charge memo should be issued."
+    },
+    {
+      "no": 22,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 23,
+      "name": "Due Date",
+      "tooltip": "Specifies when payment of the amount on the finance charge memo is due."
+    },
+    {
+      "no": 25,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": "Specifies the code for the involved finance charges in case of late payment."
+    },
+    {
+      "no": 26,
+      "name": "Post Interest",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Post Additional Fee",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Remaining Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Interest Amount",
+      "tooltip": "Specifies the total of the interest amounts on the finance charge memo lines."
+    },
+    {
+      "no": 33,
+      "name": "Additional Fee",
+      "tooltip": "Specifies the total of the additional fee amounts on the finance charge memo lines."
+    },
+    {
+      "no": 34,
+      "name": "VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Issuing No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Issuing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the date used to include entries on VAT reports in a VAT period. This is either the date that the document was created or posted, depending on your setting on the General Ledger Setup page."
+    },
+    {
+      "no": 54,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 163,
+      "name": "Company Bank Account Code",
+      "tooltip": "Specifies the bank account to use for bank information when the document is printed."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    }
+  ]
+}

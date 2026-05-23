@@ -1,0 +1,73 @@
+{
+  "id": 99000866,
+  "name": "Capacity Constrained Resource",
+  "slug": "99000866_capacity_constrained_resource",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Capacity No.",
+      "tooltip": "Specifies the number of an existing machine center or work center to assign finite loading to."
+    },
+    {
+      "no": 2,
+      "name": "Capacity Type",
+      "tooltip": "Specifies the capacity type to apply finite loading to."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the work center or machine center associated with the capacity number on this line."
+    },
+    {
+      "no": 10,
+      "name": "Critical Load %",
+      "tooltip": "Specifies the percentage of the available capacity of a work center or machine center to apply load to. Operations on work centers or machine centers that are set up as constrained resources will always be planned serially. This means that if a constrained resource has multiple capacities, then those capacities can only be planned in sequence, not in parallel as they would be if the work or machine center was not set up as a constrained resource. In a constrained resource, the Capacity field on the work center or machine center is greater than 1."
+    },
+    {
+      "no": 11,
+      "name": "Dampener (% of Total Capacity)",
+      "tooltip": "Specifies the tolerance as a percent that you will allow the critical load percent to be exceeded for this work or machine center."
+    },
+    {
+      "no": 14,
+      "name": "Work Center No.",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Work Shift Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Capacity (Effective)",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Prod. Order Need Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Work Center Load Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Prod. Order Need Qty. for Plan",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Work Center Load Qty. for Plan",
+      "tooltip": ""
+    }
+  ]
+}

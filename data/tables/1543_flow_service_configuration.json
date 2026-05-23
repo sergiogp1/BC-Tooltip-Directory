@@ -1,0 +1,18 @@
+{
+  "id": 1543,
+  "name": "Flow Service Configuration",
+  "slug": "1543_flow_service_configuration",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Flow Service",
+      "tooltip": "Specifies the Power Automate service configuration: Production Service, Testing Service (TIP 1), or Testing Service (TIP 2)."
+    }
+  ]
+}

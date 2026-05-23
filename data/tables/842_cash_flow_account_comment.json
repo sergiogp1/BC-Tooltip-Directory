@@ -1,0 +1,38 @@
+{
+  "id": 842,
+  "name": "Cash Flow Account Comment",
+  "slug": "842_cash_flow_account_comment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date of the cash flow comment."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies the code of the record."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment for the record."
+    }
+  ]
+}

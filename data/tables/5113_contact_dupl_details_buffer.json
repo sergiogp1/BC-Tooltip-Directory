@@ -1,0 +1,28 @@
+{
+  "id": 5113,
+  "name": "Contact Dupl. Details Buffer",
+  "slug": "5113_contact_dupl_details_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field where the duplicate was found."
+    },
+    {
+      "no": 3,
+      "name": "Field Value",
+      "tooltip": "Specifies the value of the field where the duplicate was found."
+    },
+    {
+      "no": 4,
+      "name": "Duplicate Field Value",
+      "tooltip": "Specifies the value of the duplicate that was found."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": 441,
+  "name": "Handled IC Inbox Purch. Line",
+  "slug": "441_handled_ic_inbox_purch_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry. The description depends on what you chose in the Type field. If you did not choose Blank, the program will fill in the field when you enter something in the No. field."
+    },
+    {
+      "no": 12,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item that will be specified on the line."
+    },
+    {
+      "no": 22,
+      "name": "Direct Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Line Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 29,
+      "name": "Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the net amount, including VAT, for this line."
+    },
+    {
+      "no": 45,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 54,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Receipt No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Receipt Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Inv. Discount Amount",
+      "tooltip": "Specifies the total calculated invoice discount amount for the line."
+    },
+    {
+      "no": 73,
+      "name": "Drop Shipment",
+      "tooltip": "Specifies if your vendor ships the items directly to your customer."
+    },
+    {
+      "no": 91,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "VAT Base Amount",
+      "tooltip": "Specifies the amount that serves as a base for calculating the Amount Including VAT field."
+    },
+    {
+      "no": 100,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 103,
+      "name": "Line Amount",
+      "tooltip": "Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line."
+    },
+    {
+      "no": 104,
+      "name": "VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "IC Partner Ref. Type",
+      "tooltip": "Specifies the item or account in your IC partner's company that corresponds to the item or account on the line."
+    },
+    {
+      "no": 108,
+      "name": "IC Partner Reference",
+      "tooltip": "Specifies the IC partner. If the line is being sent to one of your intercompany partners, this field is used together with the IC Partner Ref. Type field to indicate the item or account in your partner's company that corresponds to the line."
+    },
+    {
+      "no": 125,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "IC Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "Transaction Source",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "IC Item Reference No.",
+      "tooltip": "Specifies the IC item reference. If the line is being sent to one of your intercompany partners, this field is used together with the IC Partner Ref. Type field to indicate the item reference in your partner's company that corresponds to the line."
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5790,
+      "name": "Requested Receipt Date",
+      "tooltip": "Specifies the date that you want the vendor to deliver your order. The field is used to calculate the latest date you can order, as follows: requested receipt date - lead time calculation = order date. If you do not need delivery on a specific date, you can leave the field blank."
+    },
+    {
+      "no": 5791,
+      "name": "Promised Receipt Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6600,
+      "name": "Return Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6601,
+      "name": "Return Shipment Line No.",
+      "tooltip": ""
+    }
+  ]
+}

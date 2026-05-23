@@ -1,0 +1,38 @@
+{
+  "id": 294,
+  "name": "Reminder Text",
+  "slug": "294_reminder_text",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Reminder Terms Code",
+      "tooltip": "Specifies the reminder terms code this text applies to."
+    },
+    {
+      "no": 2,
+      "name": "Reminder Level",
+      "tooltip": "Specifies the reminder level this text applies to."
+    },
+    {
+      "no": 3,
+      "name": "Position",
+      "tooltip": "Specifies whether the text will appear at the beginning or the end of the reminder."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Text",
+      "tooltip": "Specifies the text that you want to insert in the reminder."
+    },
+    {
+      "no": 55,
+      "name": "Email Text",
+      "tooltip": ""
+    }
+  ]
+}

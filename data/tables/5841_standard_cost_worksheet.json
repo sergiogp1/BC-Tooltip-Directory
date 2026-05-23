@@ -1,0 +1,168 @@
+{
+  "id": 5841,
+  "name": "Standard Cost Worksheet",
+  "slug": "5841_standard_cost_worksheet",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Standard Cost Worksheet Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies the type of worksheet line."
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies the description of the worksheet line."
+    },
+    {
+      "no": 6,
+      "name": "Implemented",
+      "tooltip": "Specifies that you have run the Implement Standard Cost Changes batch job."
+    },
+    {
+      "no": 7,
+      "name": "Replenishment System",
+      "tooltip": "Specifies the replenishment method for the items, for example, purchase or prod. order."
+    },
+    {
+      "no": 11,
+      "name": "Standard Cost",
+      "tooltip": "Specifies the unit cost that is used as an estimation to be adjusted with variances later. It is typically used in assembly and production where costs can vary."
+    },
+    {
+      "no": 12,
+      "name": "New Standard Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 13,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 14,
+      "name": "New Indirect Cost %",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 15,
+      "name": "Overhead Rate",
+      "tooltip": "Specifies the overhead rate."
+    },
+    {
+      "no": 16,
+      "name": "New Overhead Rate",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 21,
+      "name": "Single-Lvl Material Cost",
+      "tooltip": "Specifies the single-level material cost of the item."
+    },
+    {
+      "no": 22,
+      "name": "New Single-Lvl Material Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 23,
+      "name": "Single-Lvl Cap. Cost",
+      "tooltip": "Specifies the single-level capacity cost of the item."
+    },
+    {
+      "no": 24,
+      "name": "New Single-Lvl Cap. Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 25,
+      "name": "Single-Lvl Subcontrd Cost",
+      "tooltip": "Specifies the single-level subcontracted cost of the item."
+    },
+    {
+      "no": 26,
+      "name": "New Single-Lvl Subcontrd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 27,
+      "name": "Single-Lvl Cap. Ovhd Cost",
+      "tooltip": "Specifies the single-level capacity overhead cost of the item."
+    },
+    {
+      "no": 28,
+      "name": "New Single-Lvl Cap. Ovhd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 29,
+      "name": "Single-Lvl Mfg. Ovhd Cost",
+      "tooltip": "Specifies the single-level manufacturing overhead cost of the item."
+    },
+    {
+      "no": 30,
+      "name": "New Single-Lvl Mfg. Ovhd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 41,
+      "name": "Rolled-up Material Cost",
+      "tooltip": "Specifies the rolled-up material cost of the item."
+    },
+    {
+      "no": 42,
+      "name": "New Rolled-up Material Cost",
+      "tooltip": "Specifies the updated rolled-up material cost based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 43,
+      "name": "Rolled-up Cap. Cost",
+      "tooltip": "Specifies the rolled-up capacity cost of the item."
+    },
+    {
+      "no": 44,
+      "name": "New Rolled-up Cap. Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 45,
+      "name": "Rolled-up Subcontrd Cost",
+      "tooltip": "Specifies the rolled-up subcontracted cost of the item."
+    },
+    {
+      "no": 46,
+      "name": "New Rolled-up Subcontrd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 47,
+      "name": "Rolled-up Cap. Ovhd Cost",
+      "tooltip": "Specifies the rolled-up capacity overhead cost of the item."
+    },
+    {
+      "no": 48,
+      "name": "New Rolled-up Cap. Ovhd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    },
+    {
+      "no": 49,
+      "name": "Rolled-up Mfg. Ovhd Cost",
+      "tooltip": "Specifies the rolled-up manufacturing overhead cost of the item."
+    },
+    {
+      "no": 50,
+      "name": "New Rolled-up Mfg. Ovhd Cost",
+      "tooltip": "Specifies the updated value based on either the batch job or what you have entered manually."
+    }
+  ]
+}

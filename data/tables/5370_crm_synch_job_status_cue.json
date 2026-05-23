@@ -1,0 +1,33 @@
+{
+  "id": 5370,
+  "name": "CRM Synch. Job Status Cue",
+  "slug": "5370_crm_synch_job_status_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Failed Synch. Jobs",
+      "tooltip": "Specifies the number of failed Dynamics 365 Sales synchronization jobs in the job queue."
+    },
+    {
+      "no": 6,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Reset Date",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Object ID to Run",
+      "tooltip": ""
+    }
+  ]
+}

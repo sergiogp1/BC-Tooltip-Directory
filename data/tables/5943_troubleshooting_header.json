@@ -1,0 +1,23 @@
+{
+  "id": 5943,
+  "name": "Troubleshooting Header",
+  "slug": "5943_troubleshooting_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the troubleshooting issue."
+    },
+    {
+      "no": 3,
+      "name": "No. Series",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": 5378,
+  "name": "Synth. Relation Mapping Buffer",
+  "slug": "5378_synth_relation_mapping_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Synth. Relation Name",
+      "tooltip": "Specifies the name of the synthetic relation."
+    },
+    {
+      "no": 2,
+      "name": "Rel. Native Entity Name",
+      "tooltip": "Specifies the name of the native entity."
+    },
+    {
+      "no": 3,
+      "name": "Rel. Virtual Entity Name",
+      "tooltip": "Specifies the name of the virtual entity."
+    },
+    {
+      "no": 4,
+      "name": "Virtual Table Caption",
+      "tooltip": "Specifies the virtual table name."
+    },
+    {
+      "no": 5,
+      "name": "Virtual Table Logical Name",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Syncd. Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Syncd. Table External Name",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Syncd. Table Id",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Syncd. Field 1 Name",
+      "tooltip": "Specifies the column in the native Dataverse table that will be used to create the relation."
+    },
+    {
+      "no": 10,
+      "name": "Syncd. Field 1 External Name",
+      "tooltip": "Specifies the name of the native field used for the relation."
+    },
+    {
+      "no": 11,
+      "name": "Syncd. Field 1 Id",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Virtual Table Column 1 Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Virtual Table Column 1 Name",
+      "tooltip": "Specifies the name of the field in the virtual table used for the relation."
+    },
+    {
+      "no": 14,
+      "name": "Syncd. Field 2 Name",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Syncd. Field 2 External Name",
+      "tooltip": "Specifies the name of the native field used for the relation."
+    },
+    {
+      "no": 16,
+      "name": "Syncd. Field 2 Id",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Virtual Table Column 2 Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Virtual Table Column 2 Name",
+      "tooltip": "Specifies the name of the field in the virtual table used for the relation."
+    },
+    {
+      "no": 19,
+      "name": "Syncd. Field 3 Name",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Syncd. Field 3 External Name",
+      "tooltip": "Specifies the name of the native field used for the relation."
+    },
+    {
+      "no": 21,
+      "name": "Syncd. Field 3 Id",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Virtual Table Column 3 Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Virtual Table Column 3 Name",
+      "tooltip": "Specifies the name of the field in the virtual table used for the relation."
+    },
+    {
+      "no": 24,
+      "name": "Relation Id",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Relation Created",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Virtual Table Phys. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Virtual Table API Page Id",
+      "tooltip": "Specifies the virtual table API page ID in Business Central."
+    }
+  ]
+}

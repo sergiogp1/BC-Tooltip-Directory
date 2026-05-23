@@ -1,0 +1,33 @@
+{
+  "id": 99000788,
+  "name": "Production Matrix BOM Line",
+  "slug": "99000788_production_matrix_bom_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item included in one ore more of the production BOM versions."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 10,
+      "name": "Unit of Measure Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 12,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": 1523,
+  "name": "Workflow Step Argument",
+  "slug": "1523_workflow_step_argument",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "General Journal Template Name",
+      "tooltip": "Specifies the name of the general journal template that is used for this workflow step argument."
+    },
+    {
+      "no": 4,
+      "name": "General Journal Batch Name",
+      "tooltip": "Specifies the name of the general journal batch that is used for this workflow step argument."
+    },
+    {
+      "no": 5,
+      "name": "Notification User ID",
+      "tooltip": "Specifies the ID of the user that will be notified in connection with this workflow step argument."
+    },
+    {
+      "no": 6,
+      "name": "Notification User License Type",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Response Function Name",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Notify Sender",
+      "tooltip": "Specifies if the approval sender will be notified in connection with this workflow step argument."
+    },
+    {
+      "no": 9,
+      "name": "Link Target Page",
+      "tooltip": "Specifies a specific page that opens when a user chooses the link in a notification. If you do not fill this field, the page showing the involved record will open. The page must have the same source table as the record involved."
+    },
+    {
+      "no": 10,
+      "name": "Custom Link",
+      "tooltip": "Specifies a link that is inserted in the notification to link to a custom location."
+    },
+    {
+      "no": 11,
+      "name": "Event Conditions",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Approver Type",
+      "tooltip": "Specifies who is notified first about approval requests."
+    },
+    {
+      "no": 13,
+      "name": "Approver Limit Type",
+      "tooltip": "Specifies how approvers' approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the approval request."
+    },
+    {
+      "no": 14,
+      "name": "Workflow User Group Code",
+      "tooltip": "Specifies the workflow user group that is used in connection with this workflow step argument."
+    },
+    {
+      "no": 15,
+      "name": "Due Date Formula",
+      "tooltip": "Specifies in how many days the approval request must be resolved from the date when it was sent."
+    },
+    {
+      "no": 16,
+      "name": "Message",
+      "tooltip": "Specifies the message that will be shown as a response."
+    },
+    {
+      "no": 17,
+      "name": "Delegate After",
+      "tooltip": "Specifies if and when an approval request will automatically be delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested."
+    },
+    {
+      "no": 18,
+      "name": "Show Confirmation Message",
+      "tooltip": "Specifies that a confirmation message is shown to users after they request an approval."
+    },
+    {
+      "no": 19,
+      "name": "Table No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Field Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Approver User ID",
+      "tooltip": "Specifies the approver."
+    },
+    {
+      "no": 23,
+      "name": "Response Type",
+      "tooltip": "Specifies the response type for the workflow response. You cannot set options for this."
+    },
+    {
+      "no": 24,
+      "name": "Response User ID",
+      "tooltip": "Specifies the user necessary for an acceptable response."
+    },
+    {
+      "no": 25,
+      "name": "Notification Entry Type",
+      "tooltip": "Specifies the type of the notification."
+    },
+    {
+      "no": 100,
+      "name": "Response Option Group",
+      "tooltip": ""
+    }
+  ]
+}

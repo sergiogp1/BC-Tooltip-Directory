@@ -1,0 +1,313 @@
+{
+  "id": 5222,
+  "name": "Employee Ledger Entry",
+  "slug": "5222_employee_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the entry number that is assigned to the entry."
+    },
+    {
+      "no": 3,
+      "name": "Employee No.",
+      "tooltip": "Specifies the number of the employee account that the entry is linked to."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the employee entry's posting date."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the employee entry's document type."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the employee entry's document number."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the employee entry."
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 13,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry."
+    },
+    {
+      "no": 14,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the amount that remains to be applied to before the entry is totally applied to."
+    },
+    {
+      "no": 15,
+      "name": "Original Amt. (LCY)",
+      "tooltip": "Specifies the amount that the entry originally consisted of, in LCY."
+    },
+    {
+      "no": 16,
+      "name": "Remaining Amt. (LCY)",
+      "tooltip": "Specifies the amount that remains to be applied to before the entry is totally applied to."
+    },
+    {
+      "no": 17,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the amount of the entry in LCY."
+    },
+    {
+      "no": 22,
+      "name": "Employee Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 24,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 25,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies which purchaser is assigned to the employee."
+    },
+    {
+      "no": 27,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 28,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Open",
+      "tooltip": "Specifies whether the amount on the entry has been fully paid or there is still a remaining amount that must be applied to."
+    },
+    {
+      "no": 43,
+      "name": "Positive",
+      "tooltip": "Specifies if the entry to be applied is positive."
+    },
+    {
+      "no": 44,
+      "name": "Closed by Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Closed at Date",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Closed by Amount",
+      "tooltip": "Specifies the amount that the entry was finally applied to (closed) with."
+    },
+    {
+      "no": 47,
+      "name": "Applies-to ID",
+      "tooltip": "Specifies the ID of entries that will be applied to when you choose the Apply Entries action."
+    },
+    {
+      "no": 48,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of balancing account that is used for the entry."
+    },
+    {
+      "no": 52,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the balancing account that is used for the entry."
+    },
+    {
+      "no": 53,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Closed by Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 59,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 60,
+      "name": "Debit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Credit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Closed by Currency Code",
+      "tooltip": "Specifies the currency code of the entry that was applied to (and closed) this employee ledger entry."
+    },
+    {
+      "no": 66,
+      "name": "Closed by Currency Amount",
+      "tooltip": "Specifies the amount that was finally applied to (and closed) this employee ledger entry."
+    },
+    {
+      "no": 73,
+      "name": "Adjusted Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Original Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Original Amount",
+      "tooltip": "Specifies the amount of the original entry."
+    },
+    {
+      "no": 76,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Amount to Apply",
+      "tooltip": "Specifies the amount to apply."
+    },
+    {
+      "no": 86,
+      "name": "Applying Entry",
+      "tooltip": "Specifies whether the entry will be applied to when you choose the Apply Entries action."
+    },
+    {
+      "no": 87,
+      "name": "Reversed",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Reversed by Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "Reversed Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "Creditor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 171,
+      "name": "Payment Reference",
+      "tooltip": "Specifies the payment of the employee document."
+    },
+    {
+      "no": 172,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies the payment method that was used to make the payment that resulted in the entry."
+    },
+    {
+      "no": 289,
+      "name": "Message to Recipient",
+      "tooltip": "Specifies the message exported to the payment file when you use the Export Payments to File function in the Payment Journal window."
+    },
+    {
+      "no": 290,
+      "name": "Exported to Payment File",
+      "tooltip": "Specifies that the entry was created as a result of exporting a payment journal line."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

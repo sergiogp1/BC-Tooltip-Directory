@@ -1,0 +1,158 @@
+{
+  "id": 220,
+  "name": "Business Unit",
+  "slug": "220_business_unit",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the identifier for the business unit in the consolidated company."
+    },
+    {
+      "no": 2,
+      "name": "Consolidate",
+      "tooltip": "Specifies whether to include the business unit in the Consolidation report."
+    },
+    {
+      "no": 3,
+      "name": "Consolidation %",
+      "tooltip": "Specifies the percentage of each transaction for the business unit to include in the consolidation. For example, if a sales invoice is for $1000, and you specify 70%, consolidation will include $700 for the invoice. This is useful when you own only a percentage of a business unit."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the fiscal year that the business unit uses. Enter a date only if the business unit and consolidated company have different fiscal years."
+    },
+    {
+      "no": 5,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the business unit's fiscal year. Enter a date only if the business unit and the consolidated company have different fiscal years."
+    },
+    {
+      "no": 6,
+      "name": "Income Currency Factor",
+      "tooltip": "Specifies the exchange rate to use for balance sheet accounts."
+    },
+    {
+      "no": 7,
+      "name": "Balance Currency Factor",
+      "tooltip": "Specifies the exchange rate to use for income statement accounts."
+    },
+    {
+      "no": 8,
+      "name": "Exch. Rate Losses Acc.",
+      "tooltip": "Specifies the general ledger account that revenue losses due to exchange rates during consolidation are posted."
+    },
+    {
+      "no": 9,
+      "name": "Exch. Rate Gains Acc.",
+      "tooltip": "Specifies the general ledger account that revenue gained from exchange rates during consolidation is posted to."
+    },
+    {
+      "no": 10,
+      "name": "Residual Account",
+      "tooltip": "Specifies the general ledger account for residual amounts that occur during consolidation."
+    },
+    {
+      "no": 11,
+      "name": "Last Balance Currency Factor",
+      "tooltip": "Specifies the last closing currency factor used in the previous reconciliation. This will be used to adjust the balance entries."
+    },
+    {
+      "no": 12,
+      "name": "Name",
+      "tooltip": "Specifies the name of the business unit in the consolidated company."
+    },
+    {
+      "no": 13,
+      "name": "Company Name",
+      "tooltip": "Specifies the company that will become a business unit in the consolidated company."
+    },
+    {
+      "no": 14,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency to use for this business unit during consolidation."
+    },
+    {
+      "no": 15,
+      "name": "Comp. Exch. Rate Gains Acc.",
+      "tooltip": "Specifies the general ledger account where gains from exchange rates during consolidation are posted for accounts that use the Composite Rate in the Consol. Translation Method field."
+    },
+    {
+      "no": 16,
+      "name": "Comp. Exch. Rate Losses Acc.",
+      "tooltip": "Specifies the general ledger account where losses due to exchange rates during consolidation are posted for accounts that use the Composite Rate in the Consol. Translation Method field."
+    },
+    {
+      "no": 17,
+      "name": "Equity Exch. Rate Gains Acc.",
+      "tooltip": "Specifies the general ledger account for gains from exchange rates during consolidation are posted to for accounts that use the Equity Rate. If this field is blank, the account in the Exch. Rate Gains Acc. field is used."
+    },
+    {
+      "no": 18,
+      "name": "Equity Exch. Rate Losses Acc.",
+      "tooltip": "Specifies the general ledger account where losses due to exchange rates during consolidation are posted for accounts that use the Equity Rate. If this field is blank, the account in the Exch. Rate Losses Acc. field is used."
+    },
+    {
+      "no": 19,
+      "name": "Minority Exch. Rate Gains Acc.",
+      "tooltip": "Specifies the general ledger account where gains from exchange rates during consolidation are posted for business units that you do not own 100%. If this field is blank, the account in the Exch. Rate Gains Acc. field is used."
+    },
+    {
+      "no": 20,
+      "name": "Minority Exch. Rate Losses Acc",
+      "tooltip": "Specifies the general ledger account that losses due to exchange rates during consolidation are posted to for business units that you do not own 100%. If this field is blank, the account in the Exch. Rate Losses Acc. field is used."
+    },
+    {
+      "no": 21,
+      "name": "Currency Exchange Rate Table",
+      "tooltip": "Specifies where to get currency exchange rates from when importing consolidation data. If you choose Local, the currency exchange rate table in the current (local) company is used. If you choose Business Unit, the currency exchange rate table in the business unit is used."
+    },
+    {
+      "no": 22,
+      "name": "Data Source",
+      "tooltip": "Specifies whether data is retrieved in the local currency (LCY) or the additional reporting currency (ACY) from the business unit."
+    },
+    {
+      "no": 23,
+      "name": "File Format",
+      "tooltip": "Specifies the file format to use for the business unit data. If the business unit has version 3.70 or earlier, it must submit a .txt file. If the version is 4.00 or later, it must use an XML file."
+    },
+    {
+      "no": 24,
+      "name": "Last Run",
+      "tooltip": "Specifies the last date on which consolidation was run."
+    },
+    {
+      "no": 25,
+      "name": "Default Data Import Method",
+      "tooltip": "Specifies the data import method to use when importing data from the business unit. Database is for companies within the same environment and API is for companies in different environments."
+    },
+    {
+      "no": 26,
+      "name": "BC API URL",
+      "tooltip": "Specifies the URL for the API of the Business Central company from which data will be imported. You can get this value from the page \"Consolidation Setup\" in the Business Central company for this business unit."
+    },
+    {
+      "no": 27,
+      "name": "AAD Tenant ID",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "External Company Id",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "External Company Name",
+      "tooltip": "Specifies the company name of the Business Central company from which data will be imported."
+    },
+    {
+      "no": 30,
+      "name": "Log Requests",
+      "tooltip": "Specifies if requests should be logged for this Business Unit on the \"Consolidation Log Entry\" table. This is useful for troubleshooting."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 5920,
+  "name": "Fault/Resol. Cod. Relationship",
+  "slug": "5920_fault_resol_cod_relationship",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Fault Code",
+      "tooltip": "Specifies the fault code."
+    },
+    {
+      "no": 2,
+      "name": "Symptom Code",
+      "tooltip": "Specifies the symptom code."
+    },
+    {
+      "no": 3,
+      "name": "Fault Area Code",
+      "tooltip": "Specifies the fault area code."
+    },
+    {
+      "no": 4,
+      "name": "Resolution Code",
+      "tooltip": "Specifies the resolution code."
+    },
+    {
+      "no": 5,
+      "name": "Occurrences",
+      "tooltip": "Specifies the number of times the combination of fault code, symptom code, fault area, and resolution code occurs in the posted service lines."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description of the relationship between the fault code and the resolution code."
+    },
+    {
+      "no": 7,
+      "name": "Service Item Group Code",
+      "tooltip": "Specifies the code of the service item group linked to the relationship."
+    },
+    {
+      "no": 8,
+      "name": "Created Manually",
+      "tooltip": ""
+    }
+  ]
+}

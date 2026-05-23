@@ -1,0 +1,18 @@
+{
+  "id": 5720,
+  "name": "Manufacturer",
+  "slug": "5720_manufacturer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 10,
+      "name": "Code",
+      "tooltip": "Specifies the code you want to use for the manufacturer."
+    },
+    {
+      "no": 20,
+      "name": "Name",
+      "tooltip": "Specifies the name of the manufacturer."
+    }
+  ]
+}

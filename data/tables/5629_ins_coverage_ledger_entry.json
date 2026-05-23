@@ -1,0 +1,133 @@
+{
+  "id": 5629,
+  "name": "Ins. Coverage Ledger Entry",
+  "slug": "5629_ins_coverage_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Insurance No.",
+      "tooltip": "Specifies the number of the insurance policy the entry is linked to."
+    },
+    {
+      "no": 3,
+      "name": "Disposed FA",
+      "tooltip": "Specifies that the fixed asset linked to this entry has been disposed of."
+    },
+    {
+      "no": 4,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 5,
+      "name": "FA Description",
+      "tooltip": "Specifies a description of the fixed asset that the insurance entry is linked to."
+    },
+    {
+      "no": 6,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 7,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type that the entry belongs to."
+    },
+    {
+      "no": 8,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the entry."
+    },
+    {
+      "no": 10,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry."
+    },
+    {
+      "no": 16,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 17,
+      "name": "FA Class Code",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "FA Subclass Code",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "FA Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 21,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 22,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 24,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 25,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 27,
+      "name": "Index Entry",
+      "tooltip": "Specifies that this entry is an index entry."
+    },
+    {
+      "no": 28,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

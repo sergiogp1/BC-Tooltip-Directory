@@ -1,0 +1,58 @@
+{
+  "id": 1207,
+  "name": "Direct Debit Collection",
+  "slug": "1207_direct_debit_collection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Identifier",
+      "tooltip": "Specifies, together with the number series, which direct debit collection a direct-debit collection entry is related to."
+    },
+    {
+      "no": 3,
+      "name": "Created Date-Time",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Created by User",
+      "tooltip": "Specifies which user created the direct debit collection."
+    },
+    {
+      "no": 5,
+      "name": "Status",
+      "tooltip": "Specifies the status of the direct debit collection. The following options exist."
+    },
+    {
+      "no": 6,
+      "name": "No. of Transfers",
+      "tooltip": "Specifies how many direct debit transactions have been performed for the direct debit collection."
+    },
+    {
+      "no": 7,
+      "name": "To Bank Account No.",
+      "tooltip": "Specifies the number of the bank account that the direct debit collection will be transferred to."
+    },
+    {
+      "no": 8,
+      "name": "To Bank Account Name",
+      "tooltip": "Specifies the name of the bank account that the direct debit collection will be transferred to."
+    },
+    {
+      "no": 9,
+      "name": "Message ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Partner Type",
+      "tooltip": ""
+    }
+  ]
+}

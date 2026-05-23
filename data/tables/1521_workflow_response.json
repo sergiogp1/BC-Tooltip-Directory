@@ -1,0 +1,33 @@
+{
+  "id": 1521,
+  "name": "Workflow Response",
+  "slug": "1521_workflow_response",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Function Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the workflow response."
+    },
+    {
+      "no": 4,
+      "name": "Response Option Group",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Independent",
+      "tooltip": ""
+    }
+  ]
+}

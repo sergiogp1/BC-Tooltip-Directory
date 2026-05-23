@@ -1,0 +1,18 @@
+{
+  "id": 1175,
+  "name": "User Task Group",
+  "slug": "1175_user_task_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique ID for the group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the group."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 1205,
+  "name": "Credit Transfer Register",
+  "slug": "1205_credit_transfer_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Identifier",
+      "tooltip": "Specifies a serial number for a successful credit transfer. Failed file exports are excluded from the sequence of serial numbers. For more information, see the Status field."
+    },
+    {
+      "no": 3,
+      "name": "Created Date-Time",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Created by User",
+      "tooltip": "Specifies which user made the credit transfer."
+    },
+    {
+      "no": 5,
+      "name": "Status",
+      "tooltip": "Specifies the status of the payment file export for this credit transfer. The field is read-only."
+    },
+    {
+      "no": 6,
+      "name": "No. of Transfers",
+      "tooltip": "Specifies how many credit transfers the exported file covers."
+    },
+    {
+      "no": 7,
+      "name": "From Bank Account No.",
+      "tooltip": "Specifies the number of your bank account from which the credit transfer was made."
+    },
+    {
+      "no": 8,
+      "name": "From Bank Account Name",
+      "tooltip": "Specifies the name of your bank account from which the credit transfer was made."
+    },
+    {
+      "no": 9,
+      "name": "Exported File",
+      "tooltip": ""
+    }
+  ]
+}

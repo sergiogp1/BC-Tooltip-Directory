@@ -1,0 +1,88 @@
+{
+  "id": 99000757,
+  "name": "Calendar Entry",
+  "slug": "99000757_calendar_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Capacity Type",
+      "tooltip": "Specifies the type of capacity for the calendar entry."
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Work Shift Code",
+      "tooltip": "Specifies code for the work shift that the capacity refers to."
+    },
+    {
+      "no": 6,
+      "name": "Starting Time",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Ending Time",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Work Center No.",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Work Center Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Capacity (Total)",
+      "tooltip": "Specifies the total capacity of this calendar entry."
+    },
+    {
+      "no": 11,
+      "name": "Capacity (Effective)",
+      "tooltip": "Specifies the effective capacity of this calendar entry."
+    },
+    {
+      "no": 20,
+      "name": "Efficiency",
+      "tooltip": "Specifies the efficiency of this calendar entry."
+    },
+    {
+      "no": 21,
+      "name": "Capacity",
+      "tooltip": "Specifies the capacity of this calendar entry."
+    },
+    {
+      "no": 22,
+      "name": "Absence Efficiency",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Absence Capacity",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the date and the starting time, which are combined in a format called \"starting date-time\"."
+    },
+    {
+      "no": 25,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the date and the ending time, which are combined in a format called \"ending date-time\"."
+    }
+  ]
+}

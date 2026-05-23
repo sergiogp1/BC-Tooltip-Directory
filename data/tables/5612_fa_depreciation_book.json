@@ -1,0 +1,338 @@
+{
+  "id": 5612,
+  "name": "FA Depreciation Book",
+  "slug": "5612_fa_depreciation_book",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 2,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the depreciation book that is assigned to the fixed asset."
+    },
+    {
+      "no": 3,
+      "name": "Depreciation Method",
+      "tooltip": "Specifies how depreciation is calculated for the depreciation book."
+    },
+    {
+      "no": 4,
+      "name": "Depreciation Starting Date",
+      "tooltip": "Specifies the date on which depreciation of the fixed asset starts."
+    },
+    {
+      "no": 5,
+      "name": "Straight-Line %",
+      "tooltip": "Specifies the percentage to depreciate the fixed asset by the straight-line principle, but with a fixed yearly percentage."
+    },
+    {
+      "no": 6,
+      "name": "No. of Depreciation Years",
+      "tooltip": "Specifies the length of the depreciation period, expressed in years."
+    },
+    {
+      "no": 7,
+      "name": "No. of Depreciation Months",
+      "tooltip": "Specifies the length of the depreciation period, expressed in months."
+    },
+    {
+      "no": 8,
+      "name": "Fixed Depr. Amount",
+      "tooltip": "Specifies an amount to depreciate the fixed asset, by a fixed yearly amount."
+    },
+    {
+      "no": 9,
+      "name": "Declining-Balance %",
+      "tooltip": "Specifies the percentage to depreciate the fixed asset by the declining-balance principle, but with a fixed yearly percentage."
+    },
+    {
+      "no": 10,
+      "name": "Depreciation Table Code",
+      "tooltip": "Specifies the code of the depreciation table to use if you have selected the User-Defined option in the Depreciation Method field."
+    },
+    {
+      "no": 11,
+      "name": "Final Rounding Amount",
+      "tooltip": "Specifies the final rounding amount to use."
+    },
+    {
+      "no": 12,
+      "name": "Ending Book Value",
+      "tooltip": "Specifies the amount to use as the ending book value."
+    },
+    {
+      "no": 13,
+      "name": "FA Posting Group",
+      "tooltip": "Specifies which posting group is used for the depreciation book when posting fixed asset transactions."
+    },
+    {
+      "no": 14,
+      "name": "Depreciation Ending Date",
+      "tooltip": "Specifies the date on which depreciation of the fixed asset ends."
+    },
+    {
+      "no": 15,
+      "name": "Acquisition Cost",
+      "tooltip": "Specifies the total acquisition cost for the fixed asset."
+    },
+    {
+      "no": 16,
+      "name": "Depreciation",
+      "tooltip": "Specifies the total depreciation for the fixed asset."
+    },
+    {
+      "no": 17,
+      "name": "Book Value",
+      "tooltip": "Specifies the book value for the fixed asset."
+    },
+    {
+      "no": 18,
+      "name": "Proceeds on Disposal",
+      "tooltip": "Specifies the total proceeds on disposal for the fixed asset."
+    },
+    {
+      "no": 19,
+      "name": "Gain/Loss",
+      "tooltip": "Specifies the total gain (credit) or loss (debit) for the fixed asset."
+    },
+    {
+      "no": 20,
+      "name": "Write-Down",
+      "tooltip": "Specifies the total LCY amount of write-down entries for the fixed asset."
+    },
+    {
+      "no": 21,
+      "name": "Appreciation",
+      "tooltip": "Specifies the total appreciation for the fixed asset."
+    },
+    {
+      "no": 22,
+      "name": "Custom 1",
+      "tooltip": "Specifies the total LCY amount for custom 1 entries for the fixed asset."
+    },
+    {
+      "no": 23,
+      "name": "Custom 2",
+      "tooltip": "Specifies the total LCY amount for custom 2 entries for the fixed asset."
+    },
+    {
+      "no": 24,
+      "name": "Depreciable Basis",
+      "tooltip": "Specifies the depreciable basis amount for the fixed asset."
+    },
+    {
+      "no": 25,
+      "name": "Salvage Value",
+      "tooltip": "Specifies the estimated residual value of a fixed asset when it can no longer be used."
+    },
+    {
+      "no": 26,
+      "name": "Book Value on Disposal",
+      "tooltip": "Specifies the total LCY amount of entries posted with the Book Value on Disposal posting type. Entries of this kind are created when you post disposal of a fixed asset to a depreciation book where the Gross method has been selected in the Disposal Calculation Method field."
+    },
+    {
+      "no": 27,
+      "name": "Maintenance",
+      "tooltip": "Specifies the total maintenance cost for the fixed asset."
+    },
+    {
+      "no": 28,
+      "name": "Maintenance Code Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "FA Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Acquisition Date",
+      "tooltip": "Specifies the FA posting date of the first posted acquisition cost."
+    },
+    {
+      "no": 31,
+      "name": "G/L Acquisition Date",
+      "tooltip": "Specifies the G/L posting date of the first posted acquisition cost."
+    },
+    {
+      "no": 32,
+      "name": "Disposal Date",
+      "tooltip": "Specifies whether the fixed asset has been disposed of."
+    },
+    {
+      "no": 33,
+      "name": "Last Acquisition Cost Date",
+      "tooltip": "Specifies the total percentage of acquisition cost that can be allocated when acquisition cost is posted."
+    },
+    {
+      "no": 34,
+      "name": "Last Depreciation Date",
+      "tooltip": "Specifies the FA posting date of the last posted depreciation."
+    },
+    {
+      "no": 35,
+      "name": "Last Write-Down Date",
+      "tooltip": "Specifies the FA posting date of the last posted write-down."
+    },
+    {
+      "no": 36,
+      "name": "Last Appreciation Date",
+      "tooltip": "Specifies the sum that applies to appreciations."
+    },
+    {
+      "no": 37,
+      "name": "Last Custom 1 Date",
+      "tooltip": "Specifies the FA posting date of the last posted custom 1 entry."
+    },
+    {
+      "no": 38,
+      "name": "Last Custom 2 Date",
+      "tooltip": "Specifies the FA posting date of the last posted custom 2 entry."
+    },
+    {
+      "no": 39,
+      "name": "Last Salvage Value Date",
+      "tooltip": "Specifies if related salvage value entries are included in the batch job ."
+    },
+    {
+      "no": 40,
+      "name": "FA Exchange Rate",
+      "tooltip": "Specifies a decimal number, which will be used as an exchange rate when duplicating journal lines to this depreciation book."
+    },
+    {
+      "no": 41,
+      "name": "Fixed Depr. Amount below Zero",
+      "tooltip": "Specifies a positive amount if you have selected the Allow Depr. below Zero field in the depreciation book."
+    },
+    {
+      "no": 42,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "First User-Defined Depr. Date",
+      "tooltip": "Specifies the starting date for the user-defined depreciation table if you have entered a code in the Depreciation Table Code field."
+    },
+    {
+      "no": 44,
+      "name": "Use FA Ledger Check",
+      "tooltip": "Specifies which checks to perform before posting a journal line."
+    },
+    {
+      "no": 45,
+      "name": "Last Maintenance Date",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Depr. below Zero %",
+      "tooltip": "Specifies a percentage if you have selected the Allow Depr. below Zero field in the depreciation book."
+    },
+    {
+      "no": 47,
+      "name": "Projected Disposal Date",
+      "tooltip": "Specifies the date on which you want to dispose of the fixed asset."
+    },
+    {
+      "no": 48,
+      "name": "Projected Proceeds on Disposal",
+      "tooltip": "Specifies the expected proceeds from disposal of the fixed asset."
+    },
+    {
+      "no": 50,
+      "name": "Depr. Starting Date (Custom 1)",
+      "tooltip": "Specifies the starting date for depreciation of custom 1 entries."
+    },
+    {
+      "no": 51,
+      "name": "Depr. Ending Date (Custom 1)",
+      "tooltip": "Specifies the ending date for depreciation of custom 1 entries."
+    },
+    {
+      "no": 52,
+      "name": "Accum. Depr. % (Custom 1)",
+      "tooltip": "Specifies the total percentage for depreciation of custom 1 entries."
+    },
+    {
+      "no": 53,
+      "name": "Depr. This Year % (Custom 1)",
+      "tooltip": "Specifies the percentage for depreciation of custom 1 entries for the current year."
+    },
+    {
+      "no": 54,
+      "name": "Property Class (Custom 1)",
+      "tooltip": "Specifies the property class of the asset."
+    },
+    {
+      "no": 55,
+      "name": "Description",
+      "tooltip": "Specifies the value in the Description field on the fixed asset card."
+    },
+    {
+      "no": 56,
+      "name": "Main Asset/Component",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Component of Main Asset",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "FA Add.-Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Use Half-Year Convention",
+      "tooltip": "Specifies that the Half-Year Convention is to be applied to the selected depreciation method."
+    },
+    {
+      "no": 60,
+      "name": "Use DB% First Fiscal Year",
+      "tooltip": "Specifies that the depreciation methods DB1/SL and DB2/SL use the declining balance depreciation amount in the first fiscal year."
+    },
+    {
+      "no": 61,
+      "name": "Temp. Ending Date",
+      "tooltip": "Specifies the ending date of the period during which a temporary fixed depreciation amount will be used."
+    },
+    {
+      "no": 62,
+      "name": "Temp. Fixed Depr. Amount",
+      "tooltip": "Specifies a temporary fixed depreciation amount."
+    },
+    {
+      "no": 63,
+      "name": "Ignore Def. Ending Book Value",
+      "tooltip": "Specifies that the default ending book value is ignored, and the value in the Ending Book Value is used."
+    },
+    {
+      "no": 64,
+      "name": "Use Bonus Depreciation",
+      "tooltip": "Specifies if the bonus depreciation should be used in this book."
+    },
+    {
+      "no": 65,
+      "name": "Bonus Depr. Applied Amount",
+      "tooltip": "Specifies the amount of bonus depreciation that has been applied to the fixed asset."
+    },
+    {
+      "no": 66,
+      "name": "Bonus Depreciation %",
+      "tooltip": "Specifies the bonus depreciation percentage for this fixed asset."
+    },
+    {
+      "no": 70,
+      "name": "Default FA Depreciation Book",
+      "tooltip": "Specifies the depreciation book that is used by default on documents and journals when a fixed asset has more than one depreciation book. A fixed asset can have only one default depreciation book. If a depreciation book is not specified for a fixed asset, the default depreciation book from the fixed asset setup is used."
+    }
+  ]
+}

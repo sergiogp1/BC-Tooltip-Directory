@@ -1,0 +1,28 @@
+{
+  "id": 5973,
+  "name": "Service Contract Account Group",
+  "slug": "5973_service_contract_account_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code assigned to the service contract account group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service contract account group."
+    },
+    {
+      "no": 3,
+      "name": "Non-Prepaid Contract Acc.",
+      "tooltip": "Specifies the general ledger account number for the non-prepaid account."
+    },
+    {
+      "no": 4,
+      "name": "Prepaid Contract Acc.",
+      "tooltip": "Specifies the general ledger account number for the prepaid account."
+    }
+  ]
+}

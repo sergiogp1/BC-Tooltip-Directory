@@ -1,0 +1,28 @@
+{
+  "id": 562,
+  "name": "VAT Clause by Doc. Type",
+  "slug": "562_vat_clause_by_doc_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Clause Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type, which is used to provide a VAT description associated with a sales line on a sales invoice, credit memo, or other sales document."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the translation of the VAT clause description. The translated version of the description is displayed as the VAT clause, based on the Language Code setting on the customer card."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": "Specifies the translation of the additional VAT clause description."
+    }
+  ]
+}

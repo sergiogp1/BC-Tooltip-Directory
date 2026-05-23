@@ -1,0 +1,58 @@
+{
+  "id": 6081,
+  "name": "Serv. Price Group Setup",
+  "slug": "6081_serv_price_group_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Service Price Group Code",
+      "tooltip": "Specifies the code of the Service Price Adjustment Group that was assigned to the service item linked to this service line."
+    },
+    {
+      "no": 2,
+      "name": "Fault Area Code",
+      "tooltip": "Specifies a code for the fault area assigned to the given service price group."
+    },
+    {
+      "no": 3,
+      "name": "Cust. Price Group Code",
+      "tooltip": "Specifies the code of the customer price group associated with the given service price group."
+    },
+    {
+      "no": 4,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code assigned to the service price group."
+    },
+    {
+      "no": 5,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when the service hours become applicable to the service price group."
+    },
+    {
+      "no": 6,
+      "name": "Serv. Price Adjmt. Gr. Code",
+      "tooltip": "Specifies the code of the service price adjustment group that applies to the posted service line."
+    },
+    {
+      "no": 7,
+      "name": "Include Discounts",
+      "tooltip": "Specifies that any sales line or invoice discount set up for the customer will be deducted from the price of the item assigned to the service price group."
+    },
+    {
+      "no": 8,
+      "name": "Adjustment Type",
+      "tooltip": "Specifies the adjustment type for the service item line."
+    },
+    {
+      "no": 9,
+      "name": "Amount",
+      "tooltip": "Specifies the amount to which the price on the service price group is going to be adjusted."
+    },
+    {
+      "no": 10,
+      "name": "Include VAT",
+      "tooltip": "Specifies that the amount to be adjusted for the given service price group should include VAT."
+    }
+  ]
+}

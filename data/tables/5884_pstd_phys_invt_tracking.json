@@ -1,0 +1,83 @@
+{
+  "id": 5884,
+  "name": "Pstd. Phys. Invt. Tracking",
+  "slug": "5884_pstd_phys_invt_tracking",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item Tracking No.",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the appropriate field of the physical inventory tracking line."
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Location Code",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 14,
+      "name": "Quantity",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 15,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the item that is being handled on the document line."
+    },
+    {
+      "no": 18,
+      "name": "Positive",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Warranty Date",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Lot No.",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 5401,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5402,
+      "name": "Bin Code",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 5403,
+      "name": "Entry Type",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    }
+  ]
+}

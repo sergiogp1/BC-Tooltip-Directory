@@ -1,0 +1,28 @@
+{
+  "id": 1660,
+  "name": "Payroll Setup",
+  "slug": "1660_payroll_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "General Journal Template Name",
+      "tooltip": "Specifies the name of the general journal template that is used for import."
+    },
+    {
+      "no": 3,
+      "name": "General Journal Batch Name",
+      "tooltip": "Specifies the name of the general journal batch that is used for import."
+    },
+    {
+      "no": 10,
+      "name": "User Name",
+      "tooltip": "Specifies the user account."
+    }
+  ]
+}

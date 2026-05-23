@@ -1,0 +1,768 @@
+{
+  "id": 5341,
+  "name": "CRM Account",
+  "slug": "5341_crm_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "AccountCategoryCode",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "DefaultPriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "CustomerSizeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "PreferredContactMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "CustomerTypeCode",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 7,
+      "name": "AccountRatingCode",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "IndustryCode",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "TerritoryCode",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "AccountClassificationCode",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "BusinessTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "PrimaryContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "ParticipatesInWorkflow",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Name",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 20,
+      "name": "AccountNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Revenue",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "NumberOfEmployees",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "SIC",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "OwnershipCode",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "MarketCap",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "SharesOutstanding",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "TickerSymbol",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "StockExchange",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "WebSiteURL",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "FtpSiteURL",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "EMailAddress1",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "EMailAddress2",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "EMailAddress3",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "DoNotPhone",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "DoNotFax",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "DoNotEMail",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "DoNotPostalMail",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "DoNotBulkEMail",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "DoNotBulkPostalMail",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "CreditLimit",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "CreditOnHold",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "ParentAccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Aging30",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "StateCode",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Aging60",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Aging90",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "PrimaryContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "ParentAccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "DefaultPriceLevelIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Address1_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Address1_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Address1_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Address1_PrimaryContactName",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 65,
+      "name": "Address1_Line1",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 66,
+      "name": "Address1_Line2",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 67,
+      "name": "Address1_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Address1_City",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 69,
+      "name": "Address1_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Address1_County",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Address1_Country",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 72,
+      "name": "Address1_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Address1_PostalCode",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 74,
+      "name": "Address1_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Address1_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Address1_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Address1_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Address1_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Address1_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Address1_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Address1_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Address2_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Address2_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "Address2_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Address2_PrimaryContactName",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Address2_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "Address2_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Address2_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Address2_City",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Address2_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Address2_County",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Address2_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Address2_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "Address2_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Address2_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Address2_FreightTermsCode",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Address2_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Address2_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Address2_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Address2_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Address2_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Address2_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Address2_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Address2_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "PreferredAppointmentDayCode",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "PreferredSystemUserId",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "PreferredAppointmentTimeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Merged",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "DoNotSendMM",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "MasterId",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "LastUsedInCampaign",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "PreferredSystemUserIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "MasterAccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "CreditLimit_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 128,
+      "name": "Aging30_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "Revenue_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "Aging90_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "MarketCap_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Aging60_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "YomiName",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 136,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 137,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 139,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 141,
+      "name": "Address2_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 142,
+      "name": "Address1_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 143,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 144,
+      "name": "OpenDeals",
+      "tooltip": ""
+    },
+    {
+      "no": 145,
+      "name": "OpenDeals_Date",
+      "tooltip": ""
+    },
+    {
+      "no": 146,
+      "name": "OpenDeals_State",
+      "tooltip": ""
+    },
+    {
+      "no": 147,
+      "name": "OpenRevenue",
+      "tooltip": ""
+    },
+    {
+      "no": 148,
+      "name": "OpenRevenue_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 149,
+      "name": "OpenRevenue_Date",
+      "tooltip": ""
+    },
+    {
+      "no": 150,
+      "name": "OpenRevenue_State",
+      "tooltip": ""
+    },
+    {
+      "no": 200,
+      "name": "AccountStatiticsId",
+      "tooltip": ""
+    },
+    {
+      "no": 202,
+      "name": "CompanyId",
+      "tooltip": ""
+    },
+    {
+      "no": 203,
+      "name": "PaymentTermsCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 204,
+      "name": "Address1_FreightTermsCodeEnum",
+      "tooltip": ""
+    },
+    {
+      "no": 205,
+      "name": "Address1_ShippingMethodCodeEnum",
+      "tooltip": ""
+    }
+  ]
+}

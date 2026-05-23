@@ -1,0 +1,118 @@
+{
+  "id": 5628,
+  "name": "Insurance",
+  "slug": "5628_insurance",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Effective Date",
+      "tooltip": "Specifies the date from which the insurance policy is valid."
+    },
+    {
+      "no": 3,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the date to which the insurance policy is valid."
+    },
+    {
+      "no": 4,
+      "name": "Policy No.",
+      "tooltip": "Specifies the insurance policy number as stated on the actual insurance policy."
+    },
+    {
+      "no": 6,
+      "name": "Annual Premium",
+      "tooltip": "Specifies the amount of the annual insurance premium."
+    },
+    {
+      "no": 7,
+      "name": "Policy Coverage",
+      "tooltip": "Specifies if the fixed asset is insured at the right value."
+    },
+    {
+      "no": 10,
+      "name": "Total Value Insured",
+      "tooltip": "Specifies the total value of fixed assets linked to this insurance policy. This is the value of fixed assets for which insurance is required."
+    },
+    {
+      "no": 11,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Insurance Type",
+      "tooltip": "Specifies the type of insurance (for example, theft or fire) that is covered by this insurance policy."
+    },
+    {
+      "no": 13,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the insurance card was last modified."
+    },
+    {
+      "no": 14,
+      "name": "Insurance Vendor No.",
+      "tooltip": "Specifies the number of the vendor from whom you purchased this insurance policy."
+    },
+    {
+      "no": 15,
+      "name": "FA Class Code",
+      "tooltip": "Specifies a fixed asset class code to assign to the insurance policy."
+    },
+    {
+      "no": 16,
+      "name": "FA Subclass Code",
+      "tooltip": "Specifies a fixed asset subclass code to assign to the insurance policy."
+    },
+    {
+      "no": 17,
+      "name": "FA Location Code",
+      "tooltip": "Specifies the code of the location of the fixed asset(s) linked to the insurance policy."
+    },
+    {
+      "no": 18,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 33,
+      "name": "Description",
+      "tooltip": "Specifies a description of the insurance policy."
+    },
+    {
+      "no": 34,
+      "name": "Search Description",
+      "tooltip": "Specifies a search description for the insurance policy."
+    },
+    {
+      "no": 35,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "No. Series",
+      "tooltip": ""
+    }
+  ]
+}

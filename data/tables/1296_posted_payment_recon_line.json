@@ -1,0 +1,123 @@
+{
+  "id": 1296,
+  "name": "Posted Payment Recon. Line",
+  "slug": "1296_posted_payment_recon_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Statement Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Transaction Date",
+      "tooltip": "Specifies the date when the payment represented by the journal line was recorded in the bank account."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies the description of the posted payment."
+    },
+    {
+      "no": 7,
+      "name": "Statement Amount",
+      "tooltip": "Specifies the amount on the bank transaction that represents the posted payment."
+    },
+    {
+      "no": 8,
+      "name": "Difference",
+      "tooltip": "Specifies the difference between the amount in the Statement Amount field and the Applied Amount field."
+    },
+    {
+      "no": 9,
+      "name": "Applied Amount",
+      "tooltip": "Specifies the amount that was applied to the related invoice or credit memo before this payment was posted."
+    },
+    {
+      "no": 10,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Applied Entries",
+      "tooltip": "Specifies which customer or vendor ledger entries were applied in relation to posting the payment."
+    },
+    {
+      "no": 12,
+      "name": "Value Date",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Check No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Related-Party Name",
+      "tooltip": "Specifies information about the customer or vendor that the posted payment was for."
+    },
+    {
+      "no": 16,
+      "name": "Additional Transaction Info",
+      "tooltip": "Specifies information about the transaction as recorded on the bank statement line."
+    },
+    {
+      "no": 17,
+      "name": "Data Exch. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Data Exch. Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Account Type",
+      "tooltip": "Specifies the type of the account that the payment was posted to."
+    },
+    {
+      "no": 22,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the payment was posted to."
+    },
+    {
+      "no": 23,
+      "name": "Applied Document No.",
+      "tooltip": "Specifies the number of the document that the payment is applied to."
+    },
+    {
+      "no": 24,
+      "name": "Applied Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Transaction ID",
+      "tooltip": "Specifies the ID of the posted payment reconciliation."
+    },
+    {
+      "no": 71,
+      "name": "Reconciled",
+      "tooltip": ""
+    }
+  ]
+}

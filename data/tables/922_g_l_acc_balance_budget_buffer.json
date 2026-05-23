@@ -1,0 +1,63 @@
+{
+  "id": 922,
+  "name": "G/L Acc. Balance/Budget Buffer",
+  "slug": "922_g_l_acc_balance_budget_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period that you want to view."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the starting date of the period that you want to view."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the debit entries that have been posted to the account."
+    },
+    {
+      "no": 11,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the credit entries that have been posted to the account."
+    },
+    {
+      "no": 12,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the account balance during the time period in the Date Filter field."
+    },
+    {
+      "no": 13,
+      "name": "Budgeted Debit Amount",
+      "tooltip": "Specifies the total of the budget debit entries that have been posted to the account."
+    },
+    {
+      "no": 14,
+      "name": "Budgeted Credit Amount",
+      "tooltip": "Specifies the total of the budget credit entries that have been posted to the account."
+    },
+    {
+      "no": 15,
+      "name": "Budgeted Amount",
+      "tooltip": "Specifies the total of the budget entries that have been posted to the account."
+    },
+    {
+      "no": 16,
+      "name": "Balance/Budget Pct.",
+      "tooltip": "Specifies a summary of the debit and credit balances and the budgeted amounts for different time periods for the account that you select in the chart of accounts."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": 8612,
+  "name": "Config. Question",
+  "slug": "8612_config_question",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Questionnaire Code",
+      "tooltip": "Specifies the code for the questionnaire."
+    },
+    {
+      "no": 2,
+      "name": "Question Area Code",
+      "tooltip": "Specifies the code for the question area."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Question",
+      "tooltip": "Specifies a question that is to be answered on the setup questionnaire. On the Actions tab, in the Question group, choose Update Questions to auto populate the question list based on the fields in the table on which the question area is based. You can modify the text to be more meaningful to the person responsible for filling out the questionnaire. For example, you could rewrite the Name? question as What is the name of your company?"
+    },
+    {
+      "no": 5,
+      "name": "Answer Option",
+      "tooltip": "Specifies the format that the answer to the question needs to meet. For example, if you have a question about a name that needs to be answered, according to the name field format and data type set up in the database, the answer option can specify Text."
+    },
+    {
+      "no": 6,
+      "name": "Answer",
+      "tooltip": "Specifies the answer to the question. The answer to the question should match the format of the answer option and must be a value that the database supports. If it does not, then there will be an error when you apply the answer."
+    },
+    {
+      "no": 7,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Field ID",
+      "tooltip": "Specifies the ID of the field from the table that the question area manages."
+    },
+    {
+      "no": 9,
+      "name": "Reference",
+      "tooltip": "Specifies a url address. Use this field to provide a url address to a location that Specifies information about the question. For example, you could provide the address of a page that Specifies information about setup considerations that the person answering the questionnaire should consider."
+    },
+    {
+      "no": 10,
+      "name": "Question Origin",
+      "tooltip": "Specifies the origin of the question."
+    },
+    {
+      "no": 11,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field that is supporting the setup questionnaire area. The name comes from the Name property of the field."
+    },
+    {
+      "no": 12,
+      "name": "Field Caption",
+      "tooltip": "Specifies the caption of the field that is supporting the setup questionnaire area. The caption comes from the Caption property of the field."
+    }
+  ]
+}

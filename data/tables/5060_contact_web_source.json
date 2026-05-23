@@ -1,0 +1,33 @@
+{
+  "id": 5060,
+  "name": "Contact Web Source",
+  "slug": "5060_contact_web_source",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Web Source Code",
+      "tooltip": "Specifies the Web source code. This field is not editable."
+    },
+    {
+      "no": 3,
+      "name": "Search Word",
+      "tooltip": "Specifies the search word to search for information about the contact on the Internet."
+    },
+    {
+      "no": 4,
+      "name": "Web Source Description",
+      "tooltip": "Specifies the description of the Web source you have assigned to the contact."
+    },
+    {
+      "no": 5,
+      "name": "Contact Name",
+      "tooltip": ""
+    }
+  ]
+}

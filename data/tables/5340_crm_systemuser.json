@@ -1,0 +1,608 @@
+{
+  "id": 5340,
+  "name": "CRM Systemuser",
+  "slug": "5340_crm_systemuser",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "SystemUserId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "BusinessUnitId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "ParentSystemUserId",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "FirstName",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Salutation",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "MiddleName",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "LastName",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "PersonalEMailAddress",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "FullName",
+      "tooltip": "Specifies data from a corresponding column in a Dataverse table."
+    },
+    {
+      "no": 11,
+      "name": "NickName",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Title",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "InternalEMailAddress",
+      "tooltip": "Specifies the email address."
+    },
+    {
+      "no": 14,
+      "name": "JobTitle",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "MobileAlertEMail",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "PreferredEmailCode",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "HomePhone",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "MobilePhone",
+      "tooltip": "Specifies data from a corresponding field in a Dataverse entity. For more information about Dataverse, see Dataverse Help Center."
+    },
+    {
+      "no": 19,
+      "name": "PreferredPhoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "PreferredAddressCode",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "PhotoUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "DomainName",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "PassportLo",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "PassportHi",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "DisabledReason",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "EmployeeId",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "IsDisabled",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "GovernmentId",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "ParentSystemUserIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Address1_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Address1_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Address1_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Address1_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Address1_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Address1_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Address1_City",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Address1_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Address1_County",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Address1_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Address1_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Address1_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Address1_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Address1_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Address1_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Address1_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Address1_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Address1_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Address1_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Address1_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Address1_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Address2_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Address2_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Address2_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Address2_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Address2_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Address2_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Address2_City",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Address2_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Address2_County",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Address2_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Address2_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Address2_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Address2_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Address2_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Address2_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Address2_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Address2_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Address2_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Address2_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Address2_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Address2_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "BusinessUnitIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Skills",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "DisplayInServiceViews",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "SetupUser",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "WindowsLiveID",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "IncomingEmailDeliveryMethod",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "OutgoingEmailDeliveryMethod",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "AccessMode",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "InviteStatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "YomiFullName",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "YomiLastName",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "YomiMiddleName",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "YomiFirstName",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "IsIntegrationUser",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "DefaultFiltersPopulated",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "EmailRouterAccessApproval",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "CALType",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "IsLicensed",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "IsSyncWithDirectory",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "YammerEmailAddress",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "YammerUserId",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "UserLicenseType",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Address2_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Address1_Composite",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "IsEmailAddressApprovedByO365Ad",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "SharePointEmailAddress",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "ApplicationId",
+      "tooltip": ""
+    }
+  ]
+}

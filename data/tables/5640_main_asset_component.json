@@ -1,0 +1,23 @@
+{
+  "id": 5640,
+  "name": "Main Asset Component",
+  "slug": "5640_main_asset_component",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Main Asset No.",
+      "tooltip": "Specifies the number of the main asset. This is the asset for which components can be set up."
+    },
+    {
+      "no": 3,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the description linked to the fixed asset for the fixed asset number you entered in FA No. field."
+    }
+  ]
+}

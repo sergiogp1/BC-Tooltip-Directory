@@ -1,0 +1,83 @@
+{
+  "id": 320,
+  "name": "Tax Jurisdiction",
+  "slug": "320_tax_jurisdiction",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code you want to assign to this tax jurisdiction. You can enter up to 10 characters, both numbers and letters. It is a good idea to enter a code that is easy to remember."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the tax jurisdiction. For example, if the tax jurisdiction code is ATLANTA GA, enter the description as Atlanta, Georgia."
+    },
+    {
+      "no": 3,
+      "name": "Tax Account (Sales)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated tax on sales transactions."
+    },
+    {
+      "no": 4,
+      "name": "Tax Account (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated tax on purchase transactions."
+    },
+    {
+      "no": 5,
+      "name": "Report-to Jurisdiction",
+      "tooltip": "Specifies the tax jurisdiction you want to associate with the jurisdiction you are setting up. For example, if you are setting up a jurisdiction for Atlanta, Georgia, the report-to jurisdiction is Georgia because Georgia is the tax authority to which you report Atlanta sales tax."
+    },
+    {
+      "no": 6,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Tax Group Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Unreal. Tax Acc. (Sales)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized tax on sales transactions."
+    },
+    {
+      "no": 9,
+      "name": "Unreal. Tax Acc. (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized tax on purchase transactions."
+    },
+    {
+      "no": 10,
+      "name": "Reverse Charge (Purchases)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated reverse-charge tax on purchase transactions."
+    },
+    {
+      "no": 11,
+      "name": "Unreal. Rev. Charge (Purch.)",
+      "tooltip": "Specifies the general ledger account you want to use for posting calculated unrealized reverse-charge tax on purchase transactions."
+    },
+    {
+      "no": 12,
+      "name": "Unrealized VAT Type",
+      "tooltip": "Specifies how to handle unrealized tax, which is tax that is calculated but not due until the invoice is paid."
+    },
+    {
+      "no": 13,
+      "name": "Calculate Tax on Tax",
+      "tooltip": "Specifies whether to calculate the sales tax amount with the tax on tax principle."
+    },
+    {
+      "no": 14,
+      "name": "Adjust for Payment Discount",
+      "tooltip": "Specifies whether to recalculate tax amounts when you post payments that trigger payment discounts."
+    },
+    {
+      "no": 15,
+      "name": "Name",
+      "tooltip": ""
+    }
+  ]
+}

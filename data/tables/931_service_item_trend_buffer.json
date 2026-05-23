@@ -1,0 +1,63 @@
+{
+  "id": 931,
+  "name": "Service Item Trend Buffer",
+  "slug": "931_service_item_trend_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the start date of the period defined on the line for the service trend."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Prepaid Income",
+      "tooltip": "Specifies the total income (in LCY) that has been posted to the prepaid account with regard to the service item in the periods specified in the Period Start field."
+    },
+    {
+      "no": 11,
+      "name": "Posted Income",
+      "tooltip": "Specifies the total income (in LCY) that has been posted to the general ledger for the service item in the periods specified in the Period Start field."
+    },
+    {
+      "no": 12,
+      "name": "Parts Used",
+      "tooltip": "Specifies the cost of resources used in the specified period."
+    },
+    {
+      "no": 13,
+      "name": "Resources Used",
+      "tooltip": "Specifies the cost of spare parts used in the period shown in the Period Start field."
+    },
+    {
+      "no": 14,
+      "name": "Cost Used",
+      "tooltip": "Specifies the amount of service usage based on service cost for this service item."
+    },
+    {
+      "no": 15,
+      "name": "Profit",
+      "tooltip": "Specifies the profit (posted income minus posted cost in LCY) for the service item in the period specified in the Period Start field."
+    },
+    {
+      "no": 16,
+      "name": "Profit %",
+      "tooltip": "Specifies the profit percentage for the service item in the specified period."
+    }
+  ]
+}

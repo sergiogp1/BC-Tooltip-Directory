@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "name": "Country/Region Translation",
+  "slug": "11_country_region_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the Language Code."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the translation of the name."
+    }
+  ]
+}

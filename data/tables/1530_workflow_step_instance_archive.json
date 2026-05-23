@@ -1,0 +1,103 @@
+{
+  "id": 1530,
+  "name": "Workflow Step Instance Archive",
+  "slug": "1530_workflow_step_instance_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies, for the archived workflow step instance, the workflow step ID of the workflow step instance."
+    },
+    {
+      "no": 2,
+      "name": "Workflow Code",
+      "tooltip": "Specifies, for the archived workflow step instance, the workflow that the workflow step instance belongs to."
+    },
+    {
+      "no": 3,
+      "name": "Workflow Step ID",
+      "tooltip": "Specifies, for the archived workflow step instance, the workflow step ID of the workflow step instance."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies, for the archived workflow step instance, the workflow step instance."
+    },
+    {
+      "no": 9,
+      "name": "Entry Point",
+      "tooltip": "Specifies the workflow step that starts the workflow. The first workflow step is always of type Entry Point."
+    },
+    {
+      "no": 11,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies, for the archived workflow step instance, the date and time when the workflow step instance was created."
+    },
+    {
+      "no": 13,
+      "name": "Created By User ID",
+      "tooltip": "Specifies, for the workflow step instance, the user who created the workflow step instance."
+    },
+    {
+      "no": 14,
+      "name": "Last Modified Date-Time",
+      "tooltip": "Specifies, for the archived workflow step instance, the date and time when a user last participated in the workflow step instance."
+    },
+    {
+      "no": 15,
+      "name": "Last Modified By User ID",
+      "tooltip": "Specifies, for the archived workflow step instance, the date and time when a user last participated in the workflow step instance."
+    },
+    {
+      "no": 17,
+      "name": "Status",
+      "tooltip": "Specifies, for the archived workflow step instance, the status of the workflow step instance. Active means that the step instance in ongoing. Completed means that the workflow step instance is done. Ignored means that the workflow step instance was skipped in favor of another path."
+    },
+    {
+      "no": 18,
+      "name": "Previous Workflow Step ID",
+      "tooltip": "Specifies, for the archived workflow step instance, the step that you want to precede the step that you are specifying on the line. You use this field to specify branching of steps when one of multiple possible events does not occur and you want the following step to specify another possible event as a branch of the previous step. In this case, both steps have the same value in the Previous Workflow Step ID field."
+    },
+    {
+      "no": 19,
+      "name": "Next Workflow Step ID",
+      "tooltip": "Specifies, for the archived workflow step instance, another workflow step than the next one in the sequence that you want to start, for example, because the event on the workflow step failed to meet a condition."
+    },
+    {
+      "no": 21,
+      "name": "Type",
+      "tooltip": "Specifies, for the archived workflow step instance, if the workflow step instance is an event, a response, or a sub-workflow."
+    },
+    {
+      "no": 22,
+      "name": "Function Name",
+      "tooltip": "Specifies, for the archived workflow step instance, the name of the function that is used by the workflow step instance."
+    },
+    {
+      "no": 23,
+      "name": "Argument",
+      "tooltip": "Specifies, for the archived workflow step instance, the values of the parameters that are required by the workflow step instance."
+    },
+    {
+      "no": 30,
+      "name": "Original Workflow Code",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Original Workflow Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Sequence No.",
+      "tooltip": ""
+    }
+  ]
+}

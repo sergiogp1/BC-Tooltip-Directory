@@ -1,0 +1,33 @@
+{
+  "id": 1501,
+  "name": "Workflow",
+  "slug": "1501_workflow",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the workflow."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the workflow."
+    },
+    {
+      "no": 3,
+      "name": "Enabled",
+      "tooltip": "Specifies that the workflow will start when the event in the first entry-point workflow step occurs."
+    },
+    {
+      "no": 4,
+      "name": "Template",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Category",
+      "tooltip": "Specifies the category that the workflow belongs to."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 5741,
+  "name": "Transfer Line",
+  "slug": "5741_transfer_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number that is associated with the line or entry."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is transferred."
+    },
+    {
+      "no": 4,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the item that will be processed as the document stipulates."
+    },
+    {
+      "no": 5,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 6,
+      "name": "Qty. to Ship",
+      "tooltip": "Specifies the quantity of items that remain to be shipped."
+    },
+    {
+      "no": 7,
+      "name": "Qty. to Receive",
+      "tooltip": "Specifies the quantity of items that remains to be received."
+    },
+    {
+      "no": 8,
+      "name": "Quantity Shipped",
+      "tooltip": "Specifies how many units of the item on the line have been posted as shipped."
+    },
+    {
+      "no": 9,
+      "name": "Quantity Received",
+      "tooltip": "Specifies how many units of the item on the line have been posted as received."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 12,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 13,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 14,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity on the line expressed in base units of measure."
+    },
+    {
+      "no": 17,
+      "name": "Outstanding Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Qty. to Ship (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Qty. Shipped (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Qty. to Receive (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Qty. Received (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 24,
+      "name": "Outstanding Quantity",
+      "tooltip": "Specifies the quantity of the items that remains to be shipped."
+    },
+    {
+      "no": 25,
+      "name": "Gross Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Net Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Unit Volume",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 31,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description of the item being transferred."
+    },
+    {
+      "no": 33,
+      "name": "In-Transit Code",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Qty. in Transit",
+      "tooltip": "Specifies the quantity of the item that is in transit."
+    },
+    {
+      "no": 35,
+      "name": "Qty. in Transit (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Transfer-from Code",
+      "tooltip": "Specifies the code of the location that items are transferred from."
+    },
+    {
+      "no": 37,
+      "name": "Transfer-to Code",
+      "tooltip": "Specifies the code of the location that the items are transferred to."
+    },
+    {
+      "no": 38,
+      "name": "Shipment Date",
+      "tooltip": "Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time."
+    },
+    {
+      "no": 39,
+      "name": "Receipt Date",
+      "tooltip": "Specifies the date that you expect the transfer-to location to receive the items on this line."
+    },
+    {
+      "no": 40,
+      "name": "Derived From Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies the code for the shipping agent who is transporting the items."
+    },
+    {
+      "no": 42,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent."
+    },
+    {
+      "no": 43,
+      "name": "Appl.-to Item Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the document or journal line is applied to."
+    },
+    {
+      "no": 50,
+      "name": "Reserved Quantity Inbnd.",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-to location."
+    },
+    {
+      "no": 51,
+      "name": "Reserved Quantity Outbnd.",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-from location."
+    },
+    {
+      "no": 52,
+      "name": "Reserved Qty. Inbnd. (Base)",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-to location, expressed in base units of measure."
+    },
+    {
+      "no": 53,
+      "name": "Reserved Qty. Outbnd. (Base)",
+      "tooltip": "Specifies the quantity of the item reserved at the transfer-from location, expressed in the base unit of measure."
+    },
+    {
+      "no": 54,
+      "name": "Shipping Time",
+      "tooltip": "Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered."
+    },
+    {
+      "no": 55,
+      "name": "Reserved Quantity Shipped",
+      "tooltip": "Specifies how many units on the shipped transfer order are reserved."
+    },
+    {
+      "no": 56,
+      "name": "Reserved Qty. Shipped (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Direct Transfer",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5750,
+      "name": "Whse. Inbnd. Otsdg. Qty (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5751,
+      "name": "Whse Outbnd. Otsdg. Qty (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5752,
+      "name": "Completely Shipped",
+      "tooltip": ""
+    },
+    {
+      "no": 5753,
+      "name": "Completely Received",
+      "tooltip": ""
+    },
+    {
+      "no": 5793,
+      "name": "Outbound Whse. Handling Time",
+      "tooltip": "Specifies a date formula for the time it takes to get items ready to ship from this location. The time element is used in the calculation of the delivery date as follows: Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date + Shipping Time = Planned Delivery Date."
+    },
+    {
+      "no": 5794,
+      "name": "Inbound Whse. Handling Time",
+      "tooltip": "Specifies the time it takes to make items part of available inventory, after the items have been posted as received."
+    },
+    {
+      "no": 7300,
+      "name": "Transfer-from Bin Code",
+      "tooltip": "Specifies the code for the bin that the items are transferred from."
+    },
+    {
+      "no": 7301,
+      "name": "Transfer-To Bin Code",
+      "tooltip": "Specifies the code for the bin that the items are transferred to."
+    },
+    {
+      "no": 99000755,
+      "name": "Planning Flexibility",
+      "tooltip": "Specifies whether the supply represented by this line is considered by the planning system when calculating action messages."
+    }
+  ]
+}

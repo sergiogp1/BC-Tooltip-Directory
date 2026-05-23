@@ -1,0 +1,58 @@
+{
+  "id": 763,
+  "name": "Acc. Sched. Chart Setup Line",
+  "slug": "763_acc_sched_chart_setup_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Account Schedule Name",
+      "tooltip": "Specifies the account schedule name."
+    },
+    {
+      "no": 4,
+      "name": "Account Schedule Line No.",
+      "tooltip": "Specifies the number of the account schedule line that the chart is based on."
+    },
+    {
+      "no": 5,
+      "name": "Column Layout Name",
+      "tooltip": "Specifies the name. This field is intended only for internal use."
+    },
+    {
+      "no": 6,
+      "name": "Column Layout Line No.",
+      "tooltip": "Specifies the line number. This field is intended only for internal use."
+    },
+    {
+      "no": 10,
+      "name": "Original Measure Name",
+      "tooltip": "Specifies the account schedule columns or lines that you select to include in the Account Schedules Chart Setup window."
+    },
+    {
+      "no": 15,
+      "name": "Measure Name",
+      "tooltip": "Specifies the account schedule columns or lines that the measures on the y-axis in the specific chart are based on."
+    },
+    {
+      "no": 20,
+      "name": "Measure Value",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Chart Type",
+      "tooltip": "Specifies how the account schedule values are represented graphically in the chart."
+    }
+  ]
+}

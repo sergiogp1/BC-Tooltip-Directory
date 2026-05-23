@@ -1,0 +1,43 @@
+{
+  "id": 43,
+  "name": "Purch. Comment Line",
+  "slug": "43_purch_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date the comment was created."
+    },
+    {
+      "no": 5,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 6,
+      "name": "Comment",
+      "tooltip": "Specifies the comment itself."
+    },
+    {
+      "no": 7,
+      "name": "Document Line No.",
+      "tooltip": ""
+    }
+  ]
+}

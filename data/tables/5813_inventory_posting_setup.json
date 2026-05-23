@@ -1,0 +1,73 @@
+{
+  "id": 5813,
+  "name": "Inventory Posting Setup",
+  "slug": "5813_inventory_posting_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Location Code",
+      "tooltip": "Specifies the location of the inventory posting."
+    },
+    {
+      "no": 2,
+      "name": "Invt. Posting Group Code",
+      "tooltip": "Specifies the code for the inventory posting group, in the combination of location and inventory posting group, that you are setting up."
+    },
+    {
+      "no": 6,
+      "name": "Inventory Account",
+      "tooltip": "Specifies the number of the G/L account that item transactions with this combination of location and inventory posting group are posted to."
+    },
+    {
+      "no": 20,
+      "name": "Description",
+      "tooltip": "Specifies a description of a combination of inventory posting groups and locations."
+    },
+    {
+      "no": 21,
+      "name": "View All Accounts on Lookup",
+      "tooltip": "Specifies that all possible accounts are shown when you look up from a field. If the check box is not selected, then only accounts related to the involved account category are shown."
+    },
+    {
+      "no": 5800,
+      "name": "Inventory Account (Interim)",
+      "tooltip": "Specifies the number of the general ledger account to which to post transactions with the expected cost for items in this combination."
+    },
+    {
+      "no": 99000750,
+      "name": "WIP Account",
+      "tooltip": "Specifies the general ledger account number to which to post transactions for items in WIP inventory in this combination."
+    },
+    {
+      "no": 99000753,
+      "name": "Material Variance Account",
+      "tooltip": "Specifies the number of the general ledger account to which to post material variance transactions for items in this combination."
+    },
+    {
+      "no": 99000754,
+      "name": "Capacity Variance Account",
+      "tooltip": "Specifies the number of the general ledger account to which to post capacity variance transactions for items in this combination."
+    },
+    {
+      "no": 99000755,
+      "name": "Mfg. Overhead Variance Account",
+      "tooltip": "Specifies the general ledger account number to which to post manufacturing overhead variance transactions for items in this combination."
+    },
+    {
+      "no": 99000756,
+      "name": "Cap. Overhead Variance Account",
+      "tooltip": "Specifies the general ledger account number to which to post capacity overhead variance transactions for items in this combination."
+    },
+    {
+      "no": 99000757,
+      "name": "Subcontracted Variance Account",
+      "tooltip": "Specifies the general ledger account number to which to post subcontracted variance transactions for items in this combination."
+    },
+    {
+      "no": 99000758,
+      "name": "Mat. Non-Inv. Variance Acc.",
+      "tooltip": "Specifies the general ledger account number to which to post material non-inventory variance transactions for items in this combination."
+    }
+  ]
+}

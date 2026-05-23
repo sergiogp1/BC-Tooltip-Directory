@@ -1,0 +1,63 @@
+{
+  "id": 7202,
+  "name": "CDS Environment",
+  "slug": "7202_cds_environment",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "API Url",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Environment Name",
+      "tooltip": "Specifies the name of the Dataverse environment."
+    },
+    {
+      "no": 3,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Last Updated",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "State",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Unique Name",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Url",
+      "tooltip": "Specifies the URL of the Dataverse environment."
+    },
+    {
+      "no": 8,
+      "name": "Version",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Url Name",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Environment Id",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Linked",
+      "tooltip": "Specifies whether the Dataverse environment is the linked environment."
+    }
+  ]
+}

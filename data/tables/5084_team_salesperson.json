@@ -1,0 +1,28 @@
+{
+  "id": 5084,
+  "name": "Team Salesperson",
+  "slug": "5084_team_salesperson",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Team Code",
+      "tooltip": "Specifies the code of the team to which the salesperson belongs."
+    },
+    {
+      "no": 2,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson you want to register as part of the team."
+    },
+    {
+      "no": 3,
+      "name": "Team Name",
+      "tooltip": "Specifies the name of the team."
+    },
+    {
+      "no": 4,
+      "name": "Salesperson Name",
+      "tooltip": "Specifies the name of the salesperson you want to register as part of the team."
+    }
+  ]
+}

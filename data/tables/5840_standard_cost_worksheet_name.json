@@ -1,0 +1,18 @@
+{
+  "id": 5840,
+  "name": "Standard Cost Worksheet Name",
+  "slug": "5840_standard_cost_worksheet_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the worksheet."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the worksheet."
+    }
+  ]
+}

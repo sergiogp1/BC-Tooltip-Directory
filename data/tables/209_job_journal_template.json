@@ -1,0 +1,83 @@
+{
+  "id": 209,
+  "name": "Job Journal Template",
+  "slug": "209_job_journal_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of this journal template. You can enter a maximum of 10 characters, both numbers and letters."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the project journal template for easy identification."
+    },
+    {
+      "no": 5,
+      "name": "Test Report ID",
+      "tooltip": "Specifies the test report that is printed when you create a Test Report."
+    },
+    {
+      "no": 6,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 7,
+      "name": "Posting Report ID",
+      "tooltip": "Specifies the posting report you want to be associated with this journal. To see the available IDs, choose the field."
+    },
+    {
+      "no": 8,
+      "name": "Force Posting Report",
+      "tooltip": "Specifies whether a report is printed automatically when you post."
+    },
+    {
+      "no": 10,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 11,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 12,
+      "name": "Recurring",
+      "tooltip": "Specifies whether the journal is to contain recurring entries. Leave the field blank if the journal should not contain recurring entries."
+    },
+    {
+      "no": 13,
+      "name": "Test Report Caption",
+      "tooltip": "Specifies the name of the test report that you selected in the Test Report ID field."
+    },
+    {
+      "no": 14,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    },
+    {
+      "no": 15,
+      "name": "Posting Report Caption",
+      "tooltip": "Specifies the name of the posting report that is printed when you print the project journal."
+    },
+    {
+      "no": 16,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 17,
+      "name": "Posting No. Series",
+      "tooltip": "Specifies the code for the number series that will be used to assign document numbers to ledger entries that are posted from journals using this template."
+    },
+    {
+      "no": 30,
+      "name": "Increment Batch Name",
+      "tooltip": "Specifies if batch names using this template are automatically incremented. Example: The posting following BATCH001 is automatically named BATCH002."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5054,
+  "name": "Contact Business Relation",
+  "slug": "5054_contact_business_relation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the contact number of the company you are assigning a business relation."
+    },
+    {
+      "no": 2,
+      "name": "Business Relation Code",
+      "tooltip": "Specifies the business relation code."
+    },
+    {
+      "no": 3,
+      "name": "Link to Table",
+      "tooltip": "Specifies the name of the table to which the contact is linked. There are four possible options: &lt;blank&gt;, Vendor, Customer, and Bank Account."
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number assigned to the contact in the Customer, Vendor, Bank Account, or Employee table. This field is only valid for contacts recorded as customer, vendor, bank accounts or employees."
+    },
+    {
+      "no": 5,
+      "name": "Business Relation Description",
+      "tooltip": "Specifies the description for the business relation you have assigned to the contact. This field is not editable."
+    },
+    {
+      "no": 6,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact company to which you assign a business relation. This field is not editable."
+    }
+  ]
+}

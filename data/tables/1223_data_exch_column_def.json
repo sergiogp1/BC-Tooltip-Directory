@@ -1,0 +1,103 @@
+{
+  "id": 1223,
+  "name": "Data Exch. Column Def",
+  "slug": "1223_data_exch_column_def",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Column No.",
+      "tooltip": "Specifies the number that reflects the column's position on the line in the file."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the column."
+    },
+    {
+      "no": 4,
+      "name": "Show",
+      "tooltip": "Specifies that the element is shown in the data exchange definition."
+    },
+    {
+      "no": 5,
+      "name": "Data Type",
+      "tooltip": "Specifies if the data to be exchanged is of type Text, Date, or Decimal."
+    },
+    {
+      "no": 6,
+      "name": "Data Format",
+      "tooltip": "Specifies the format of the data, if any. For example, MM-DD-YYYY if the data type is Date."
+    },
+    {
+      "no": 7,
+      "name": "Data Formatting Culture",
+      "tooltip": "Specifies the culture of the data format, if any. For example, en-US if the data type is Decimal to ensure that comma is used as the .000 separator, according to the US format. This field is only relevant for import."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the column, for informational purposes."
+    },
+    {
+      "no": 10,
+      "name": "Data Exch. Line Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Length",
+      "tooltip": "Specifies the length of the fixed-width line that holds the column if the file is of type Fixed Text."
+    },
+    {
+      "no": 12,
+      "name": "Constant",
+      "tooltip": "Specifies any data that you want to export in this column, such as extra information about the payment type."
+    },
+    {
+      "no": 13,
+      "name": "Path",
+      "tooltip": "Specifies the position of the element in the related XML schema."
+    },
+    {
+      "no": 14,
+      "name": "Negative-Sign Identifier",
+      "tooltip": "Specifies the value that is used in the data file to identify negative amounts, in data files that cannot contain negative signs. This identifier is then used to reverse the identified amounts to negative signs during import."
+    },
+    {
+      "no": 15,
+      "name": "Text Padding Required",
+      "tooltip": "Specifies that the data must include text padding."
+    },
+    {
+      "no": 16,
+      "name": "Pad Character",
+      "tooltip": "Specifies that text padding."
+    },
+    {
+      "no": 17,
+      "name": "Justification",
+      "tooltip": "Specifies if the column justification is left or right."
+    },
+    {
+      "no": 18,
+      "name": "Use Node Name as Value",
+      "tooltip": "Specifies if the node name should be used as value for file types Xml or Json during import."
+    },
+    {
+      "no": 19,
+      "name": "Blank Zero",
+      "tooltip": "Specifies if the element is epmty if equal to 0."
+    },
+    {
+      "no": 20,
+      "name": "Export If Not Blank",
+      "tooltip": "Specifies if the value of this column must be exported only if it is not blank."
+    }
+  ]
+}

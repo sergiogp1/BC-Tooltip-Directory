@@ -1,0 +1,388 @@
+{
+  "id": 5354,
+  "name": "CRM Salesorderdetail",
+  "slug": "5354_crm_salesorderdetail",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "SalesOrderDetailId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "SalesOrderId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "SalesRepId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "IsProductOverridden",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "IsCopied",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "QuantityShipped",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 7,
+      "name": "LineItemNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "QuantityBackordered",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 9,
+      "name": "UoMId",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "QuantityCancelled",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 11,
+      "name": "ProductId",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "RequestDeliveryBy",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the item on the sales line."
+    },
+    {
+      "no": 14,
+      "name": "PricingErrorCode",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "ManualDiscountAmount",
+      "tooltip": "Specifies that the sales order is subject to manual discount."
+    },
+    {
+      "no": 16,
+      "name": "ProductDescription",
+      "tooltip": "Specifies if the item is a write-in product."
+    },
+    {
+      "no": 17,
+      "name": "VolumeDiscountAmount",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 18,
+      "name": "PricePerUnit",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 19,
+      "name": "BaseAmount",
+      "tooltip": "Specifies the net amount of all the lines."
+    },
+    {
+      "no": 20,
+      "name": "ExtendedAmount",
+      "tooltip": "Specifies the sales amount without rounding."
+    },
+    {
+      "no": 21,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "IsPriceOverridden",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "ShipTo_Name",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 24,
+      "name": "Tax",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 25,
+      "name": "CreatedOn",
+      "tooltip": "Specifies when the sales order was created."
+    },
+    {
+      "no": 26,
+      "name": "ShipTo_Line1",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 27,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "ShipTo_Line2",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 30,
+      "name": "ShipTo_Line3",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 31,
+      "name": "ModifiedOn",
+      "tooltip": "Specifies when the sales order was last modified."
+    },
+    {
+      "no": 32,
+      "name": "ShipTo_City",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 33,
+      "name": "ShipTo_StateOrProvince",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 34,
+      "name": "ShipTo_Country",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 35,
+      "name": "ShipTo_PostalCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 36,
+      "name": "WillCall",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 37,
+      "name": "ShipTo_Telephone",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 38,
+      "name": "ShipTo_Fax",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 39,
+      "name": "ShipTo_FreightTermsCode",
+      "tooltip": "Specifies the shipment method."
+    },
+    {
+      "no": 40,
+      "name": "ProductIdName",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 41,
+      "name": "UoMIdName",
+      "tooltip": "Specifies the unit in which the item is held in inventory."
+    },
+    {
+      "no": 42,
+      "name": "SalesRepIdName",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 43,
+      "name": "SalesOrderStateCode",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "ShipTo_ContactName",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 47,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "SalesOrderIsPriceLocked",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "ShipTo_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "ExchangeRate",
+      "tooltip": "Specifies the currency exchange rate."
+    },
+    {
+      "no": 56,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "BaseAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "PricePerUnit_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": "Specifies the currency that amounts are shown in."
+    },
+    {
+      "no": 61,
+      "name": "VolumeDiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "ExtendedAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Tax_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "ManualDiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "SequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "ParentBundleId",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "ProductTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "PropertyConfigurationStatus",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ProductAssociationId",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "BusinessCentralLineNumber",
+      "tooltip": ""
+    }
+  ]
+}

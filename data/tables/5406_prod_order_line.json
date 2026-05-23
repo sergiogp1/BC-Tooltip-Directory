@@ -1,0 +1,333 @@
+{
+  "id": 5406,
+  "name": "Prod. Order Line",
+  "slug": "5406_prod_order_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Status",
+      "tooltip": "Specifies a value that is copied from the corresponding field on the production order header."
+    },
+    {
+      "no": 2,
+      "name": "Prod. Order No.",
+      "tooltip": "Specifies the number of the related production order."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that is to be produced."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 13,
+      "name": "Description",
+      "tooltip": "Specifies the value of the Description field on the item card. If you enter a variant code, the variant description is copied to this field instead."
+    },
+    {
+      "no": 14,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional description."
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code, if the produced items should be stored in a specific location."
+    },
+    {
+      "no": 21,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 22,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 23,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin that the produced item is posted to as output, and from where it can be taken to storage or cross-docked."
+    },
+    {
+      "no": 35,
+      "name": "Standard Task Code",
+      "tooltip": "Specifies a standard task."
+    },
+    {
+      "no": 40,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity to be produced if you manually fill in this line."
+    },
+    {
+      "no": 41,
+      "name": "Finished Quantity",
+      "tooltip": "Specifies how much of the quantity on this line has been produced."
+    },
+    {
+      "no": 42,
+      "name": "Remaining Quantity",
+      "tooltip": "Specifies the difference between the finished and planned quantities, or zero if the finished quantity is greater than the remaining quantity."
+    },
+    {
+      "no": 45,
+      "name": "Scrap %",
+      "tooltip": "Specifies the percentage of the item that you expect to be scrapped in the production process."
+    },
+    {
+      "no": 47,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the produced item must be available. The date is copied from the header of the production order."
+    },
+    {
+      "no": 48,
+      "name": "Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Starting Time",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Ending Date",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Ending Time",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Planning Level Code",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Priority",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Production BOM No.",
+      "tooltip": "Specifies the number of the production BOM that is the basis for creating the Prod. Order Component list for this line."
+    },
+    {
+      "no": 61,
+      "name": "Routing No.",
+      "tooltip": "Specifies the number of the routing used as the basis for creating the production order routing for this line."
+    },
+    {
+      "no": 62,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Routing Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 66,
+      "name": "Put-away Status",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total cost on the line by multiplying the unit cost by the quantity."
+    },
+    {
+      "no": 68,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies how many units of this item have been reserved."
+    },
+    {
+      "no": 70,
+      "name": "Capacity Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Capacity No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Manual Scheduling",
+      "tooltip": "Specifies that the End/Due Dates on the production have been scheduled manually."
+    },
+    {
+      "no": 80,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item is measured, such as in pieces or tons. By default, the value in the Base Unit of Measure field on the item card is inserted. It will be changed if you switch Product BOM or Production BOM Version."
+    },
+    {
+      "no": 81,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity for this entry, in base units of measure."
+    },
+    {
+      "no": 82,
+      "name": "Finished Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Remaining Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the reserved quantity of the item, in base units of measure."
+    },
+    {
+      "no": 90,
+      "name": "Expected Operation Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Total Exp. Oper. Output (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Expected Component Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 198,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the entry's starting date and starting time, which is retrieved from the production order routing."
+    },
+    {
+      "no": 199,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the entry's ending date and ending time, which is retrieved from the production order routing."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5831,
+      "name": "Cost Amount (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5832,
+      "name": "Unit Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5850,
+      "name": "Qty. Put Away",
+      "tooltip": "Specifies the quantity that is put away."
+    },
+    {
+      "no": 5851,
+      "name": "Qty. Put Away (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5852,
+      "name": "Put-away Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 5853,
+      "name": "Put-away Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5854,
+      "name": "Lot No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5855,
+      "name": "Serial No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5856,
+      "name": "Package No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 99000750,
+      "name": "Production BOM Version Code",
+      "tooltip": "Specifies the version code of the production BOM."
+    },
+    {
+      "no": 99000751,
+      "name": "Routing Version Code",
+      "tooltip": "Specifies the version number of the routing."
+    },
+    {
+      "no": 99000752,
+      "name": "Routing Type",
+      "tooltip": ""
+    },
+    {
+      "no": 99000753,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 99000754,
+      "name": "MPS Order",
+      "tooltip": ""
+    },
+    {
+      "no": 99000755,
+      "name": "Planning Flexibility",
+      "tooltip": "Specifies whether the supply represented by this line is considered by the planning system when calculating action messages."
+    },
+    {
+      "no": 99000764,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 99000765,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    }
+  ]
+}

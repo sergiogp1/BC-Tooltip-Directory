@@ -1,0 +1,63 @@
+{
+  "id": 5935,
+  "name": "Service Email Queue",
+  "slug": "5935_service_email_queue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "To Address",
+      "tooltip": "Specifies the email address of the recipient when an email is sent to notify customers that their service items are ready."
+    },
+    {
+      "no": 3,
+      "name": "Copy-to Address",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Subject Line",
+      "tooltip": "Specifies the email subject line."
+    },
+    {
+      "no": 5,
+      "name": "Body Line",
+      "tooltip": "Specifies the text of the body of the email."
+    },
+    {
+      "no": 6,
+      "name": "Attachment Filename",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Sending Date",
+      "tooltip": "Specifies the date the message was sent."
+    },
+    {
+      "no": 8,
+      "name": "Sending Time",
+      "tooltip": "Specifies the time the message was sent."
+    },
+    {
+      "no": 9,
+      "name": "Status",
+      "tooltip": "Specifies the message status."
+    },
+    {
+      "no": 10,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document linked to this entry."
+    },
+    {
+      "no": 11,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the document linked to this entry."
+    }
+  ]
+}

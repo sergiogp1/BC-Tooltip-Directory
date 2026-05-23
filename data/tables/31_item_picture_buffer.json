@@ -1,0 +1,58 @@
+{
+  "id": 31,
+  "name": "Item Picture Buffer",
+  "slug": "31_item_picture_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "File Name",
+      "tooltip": "Specifies the name of the picture file. It must be the same as the item number."
+    },
+    {
+      "no": 2,
+      "name": "Picture",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that the picture is for."
+    },
+    {
+      "no": 4,
+      "name": "Item Description",
+      "tooltip": "Specifies the description of the item that the picture is for."
+    },
+    {
+      "no": 5,
+      "name": "Import Status",
+      "tooltip": "Specifies if the last import of the picture was been skipped, is pending, or is completed."
+    },
+    {
+      "no": 6,
+      "name": "Picture Already Exists",
+      "tooltip": "Specifies if a picture already exists for the item card."
+    },
+    {
+      "no": 7,
+      "name": "File Size (KB)",
+      "tooltip": "Specifies the size of the picture file."
+    },
+    {
+      "no": 8,
+      "name": "File Extension",
+      "tooltip": "Specifies the format of the picture file."
+    },
+    {
+      "no": 9,
+      "name": "Modified Date",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Modified Time",
+      "tooltip": "Specifies when the picture was last modified."
+    }
+  ]
+}

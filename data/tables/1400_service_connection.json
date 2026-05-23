@@ -1,0 +1,43 @@
+{
+  "id": 1400,
+  "name": "Service Connection",
+  "slug": "1400_service_connection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the service. The description is based on the name of the setup page that opens when you choose the Setup."
+    },
+    {
+      "no": 4,
+      "name": "Host Name",
+      "tooltip": "Specifies the name of the web service. This is typically a URL."
+    },
+    {
+      "no": 8,
+      "name": "Status",
+      "tooltip": "Specifies if the service is enabled or disabled."
+    },
+    {
+      "no": 10,
+      "name": "Page ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Assisted Setup Page ID",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": 25,
+  "name": "Vendor Ledger Entry",
+  "slug": "25_vendor_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor account that the entry is linked to."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies which purchase documents are due today."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the purchase document number."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the vendor entry."
+    },
+    {
+      "no": 8,
+      "name": "Vendor Name",
+      "tooltip": "Specifies the name of the vendor account that the entry is linked to."
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 13,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry."
+    },
+    {
+      "no": 14,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the amount that remains to be paid on the purchase documents that are due today."
+    },
+    {
+      "no": 15,
+      "name": "Original Amt. (LCY)",
+      "tooltip": "Specifies the amount that the entry originally consisted of, in LCY."
+    },
+    {
+      "no": 16,
+      "name": "Remaining Amt. (LCY)",
+      "tooltip": "Specifies the net amount of in the local currency. The amount is calculated using the Remaining Quantity, Line Discount %, and Unit Price (LCY) fields."
+    },
+    {
+      "no": 17,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the amount of the entry in LCY."
+    },
+    {
+      "no": 18,
+      "name": "Purchase (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Inv. Discount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Buy-from Vendor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Vendor Posting Group",
+      "tooltip": "Specifies the vendor's market type to link business transactions made for the vendor with the appropriate account in the general ledger."
+    },
+    {
+      "no": 23,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 24,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 25,
+      "name": "Purchaser Code",
+      "tooltip": "Specifies which purchaser is assigned to the vendor."
+    },
+    {
+      "no": 27,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 28,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 33,
+      "name": "On Hold",
+      "tooltip": "Specifies that the related entry represents an unpaid invoice for which either a payment suggestion, a reminder, or a finance charge memo exists."
+    },
+    {
+      "no": 34,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Open",
+      "tooltip": "Specifies whether the amount on the entry has been fully paid or there is still a remaining amount that must be applied to."
+    },
+    {
+      "no": 37,
+      "name": "Due Date",
+      "tooltip": "Specifies when the purchase document is due."
+    },
+    {
+      "no": 38,
+      "name": "Pmt. Discount Date",
+      "tooltip": "Specifies the date on which the amount in the entry must be paid for a payment discount to be granted."
+    },
+    {
+      "no": 39,
+      "name": "Original Pmt. Disc. Possible",
+      "tooltip": "Specifies the discount that you can obtain if the entry is applied to before the payment discount date."
+    },
+    {
+      "no": 40,
+      "name": "Pmt. Disc. Rcd.(LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Orig. Pmt. Disc. Possible(LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Positive",
+      "tooltip": "Specifies if the entry to be applied is positive."
+    },
+    {
+      "no": 44,
+      "name": "Closed by Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Closed at Date",
+      "tooltip": "Specifies the date at which the vendor ledger entry was closed."
+    },
+    {
+      "no": 46,
+      "name": "Closed by Amount",
+      "tooltip": "Specifies the amount that the entry was finally applied to (closed) with."
+    },
+    {
+      "no": 47,
+      "name": "Applies-to ID",
+      "tooltip": "Specifies the ID of entries that will be applied to when you choose the Apply Entries action."
+    },
+    {
+      "no": 48,
+      "name": "Journal Templ. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 51,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 52,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 53,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Closed by Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 59,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 60,
+      "name": "Debit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent debits, expressed in LCY."
+    },
+    {
+      "no": 61,
+      "name": "Credit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent credits, expressed in LCY."
+    },
+    {
+      "no": 62,
+      "name": "Document Date",
+      "tooltip": "Specifies the vendor entry's document date."
+    },
+    {
+      "no": 63,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 64,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Closed by Currency Code",
+      "tooltip": "Specifies the currency code of the entry that was applied to (and closed) this vendor ledger entry."
+    },
+    {
+      "no": 66,
+      "name": "Closed by Currency Amount",
+      "tooltip": "Specifies the amount that was finally applied to (and closed) this vendor ledger entry."
+    },
+    {
+      "no": 73,
+      "name": "Adjusted Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Original Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Original Amount",
+      "tooltip": "Specifies the amount of the original entry."
+    },
+    {
+      "no": 76,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Remaining Pmt. Disc. Possible",
+      "tooltip": "Specifies the remaining payment discount which can be received if the payment is made before the payment discount date."
+    },
+    {
+      "no": 78,
+      "name": "Pmt. Disc. Tolerance Date",
+      "tooltip": "Specifies the latest date the amount in the entry must be paid in order for payment discount tolerance to be granted."
+    },
+    {
+      "no": 79,
+      "name": "Max. Payment Tolerance",
+      "tooltip": "Specifies the maximum tolerated amount the entry can differ from the amount on the invoice or credit memo."
+    },
+    {
+      "no": 81,
+      "name": "Accepted Payment Tolerance",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Accepted Pmt. Disc. Tolerance",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Pmt. Tolerance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Amount to Apply",
+      "tooltip": "Specifies the amount to apply."
+    },
+    {
+      "no": 85,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the code of the intercompany partner that the transaction is related to if the entry was created from an intercompany transaction."
+    },
+    {
+      "no": 86,
+      "name": "Applying Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Reversed",
+      "tooltip": "Specifies if the entry has been part of a reverse transaction."
+    },
+    {
+      "no": 88,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry that replaced the original entry in the reverse transaction."
+    },
+    {
+      "no": 89,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 90,
+      "name": "Prepayment",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "Creditor No.",
+      "tooltip": "Specifies the vendor who sent the purchase invoice."
+    },
+    {
+      "no": 171,
+      "name": "Payment Reference",
+      "tooltip": "Specifies the payment of the purchase invoice."
+    },
+    {
+      "no": 172,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how to make payment, such as with bank transfer, cash, or check."
+    },
+    {
+      "no": 173,
+      "name": "Applies-to Ext. Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 175,
+      "name": "Invoice Received Date",
+      "tooltip": "Specifies the date when the vendor's invoice was received."
+    },
+    {
+      "no": 288,
+      "name": "Recipient Bank Account",
+      "tooltip": "Specifies the bank account to transfer the amount to."
+    },
+    {
+      "no": 289,
+      "name": "Message to Recipient",
+      "tooltip": "Specifies the message exported to the payment file when you use the Export Payments to File function in the Payment Journal window."
+    },
+    {
+      "no": 290,
+      "name": "Exported to Payment File",
+      "tooltip": "Specifies that the entry was created as a result of exporting a payment journal line."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 1000,
+      "name": "Remit-to Code",
+      "tooltip": "Specifies the address for the remit-to code."
+    },
+    {
+      "no": 1340,
+      "name": "Dispute Status",
+      "tooltip": "Specifies if there is an ongoing dispute for this document."
+    }
+  ]
+}

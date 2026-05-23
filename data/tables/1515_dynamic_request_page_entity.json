@@ -1,0 +1,53 @@
+{
+  "id": 1515,
+  "name": "Dynamic Request Page Entity",
+  "slug": "1515_dynamic_request_page_entity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the workflow event condition."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the workflow event condition."
+    },
+    {
+      "no": 3,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table that the workflow event condition applies to."
+    },
+    {
+      "no": 4,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table that the workflow event condition applies to."
+    },
+    {
+      "no": 5,
+      "name": "Table Caption",
+      "tooltip": "Specifies the caption of the table that the workflow event condition applies to."
+    },
+    {
+      "no": 6,
+      "name": "Related Table ID",
+      "tooltip": "Specifies the ID of the table that the workflow event condition applies to."
+    },
+    {
+      "no": 7,
+      "name": "Related Table Name",
+      "tooltip": "Specifies the name of the related table that the workflow event condition applies to."
+    },
+    {
+      "no": 8,
+      "name": "Related Table Caption",
+      "tooltip": "Specifies the caption of the related table that the workflow event condition applies to."
+    },
+    {
+      "no": 9,
+      "name": "Sequence No.",
+      "tooltip": "Specifies the order of approvers when an approval workflow involves more than one approver."
+    }
+  ]
+}

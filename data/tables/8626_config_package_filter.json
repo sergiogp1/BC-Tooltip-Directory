@@ -1,0 +1,43 @@
+{
+  "id": 8626,
+  "name": "Config. Package Filter",
+  "slug": "8626_config_package_filter",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Package Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Processing Rule No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Field ID",
+      "tooltip": "Specifies the ID of the field on which you want to filter records in the configuration table."
+    },
+    {
+      "no": 6,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field on which you want to filter records in the configuration table."
+    },
+    {
+      "no": 7,
+      "name": "Field Caption",
+      "tooltip": "Specifies the field caption of the field on which you want to filter records in the configuration table."
+    },
+    {
+      "no": 8,
+      "name": "Field Filter",
+      "tooltip": "Specifies the field filter value for a configuration package filter. By setting a value, you specify that only records with that value are included in the configuration package."
+    }
+  ]
+}

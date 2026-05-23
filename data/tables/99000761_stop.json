@@ -1,0 +1,18 @@
+{
+  "id": 99000761,
+  "name": "Stop",
+  "slug": "99000761_stop",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify why a machine center has stopped."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the stop code."
+    }
+  ]
+}

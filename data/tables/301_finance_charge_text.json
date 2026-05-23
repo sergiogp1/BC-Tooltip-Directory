@@ -1,0 +1,28 @@
+{
+  "id": 301,
+  "name": "Finance Charge Text",
+  "slug": "301_finance_charge_text",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": "Specifies the code for the involved finance charges in case of late payment."
+    },
+    {
+      "no": 2,
+      "name": "Position",
+      "tooltip": "Specifies whether the text will appear at the beginning or the end of the finance charge memo."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Text",
+      "tooltip": "Specifies the text that you want to insert in the finance charge memo."
+    }
+  ]
+}

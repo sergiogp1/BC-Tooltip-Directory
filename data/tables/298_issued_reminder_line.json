@@ -1,0 +1,163 @@
+{
+  "id": 298,
+  "name": "Issued Reminder Line",
+  "slug": "298_issued_reminder_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Reminder No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Attached to Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the line type."
+    },
+    {
+      "no": 5,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "No. of Reminders",
+      "tooltip": "Specifies a number that indicates the reminder level."
+    },
+    {
+      "no": 7,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the customer ledger entry that this reminder line is for."
+    },
+    {
+      "no": 8,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 9,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date of the customer ledger entry this reminder line is for."
+    },
+    {
+      "no": 10,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type of the customer ledger entry this reminder line is for."
+    },
+    {
+      "no": 11,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the customer ledger entry this reminder line is for."
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": "Specifies an entry description, based on the contents of the Type field."
+    },
+    {
+      "no": 13,
+      "name": "Original Amount",
+      "tooltip": "Specifies the original amount of the customer ledger entry that this reminder line is for."
+    },
+    {
+      "no": 14,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the remaining amount of the customer ledger entry this reminder line is for."
+    },
+    {
+      "no": 15,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 16,
+      "name": "Amount",
+      "tooltip": "Specifies the amount in the currency of the reminder."
+    },
+    {
+      "no": 17,
+      "name": "Interest Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "VAT Calculation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the VAT amount in the currency of the reminder."
+    },
+    {
+      "no": 22,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "VAT Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Line Type",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "VAT Clause Code",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Applies-To Document Type",
+      "tooltip": "Specifies the type of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 28,
+      "name": "Applies-To Document No.",
+      "tooltip": "Specifies the number of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 30,
+      "name": "Detailed Interest Rates Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Canceled",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    }
+  ]
+}

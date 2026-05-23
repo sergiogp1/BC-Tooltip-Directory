@@ -1,0 +1,38 @@
+{
+  "id": 362,
+  "name": "ECSL VAT Report Line",
+  "slug": "362_ecsl_vat_report_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": "Specifies the unique identifier for the line."
+    },
+    {
+      "no": 2,
+      "name": "Report No.",
+      "tooltip": "Specifies the unique identifier for the report."
+    },
+    {
+      "no": 3,
+      "name": "Country Code",
+      "tooltip": "Specifies country code of the customer used for the line calculation."
+    },
+    {
+      "no": 4,
+      "name": "Customer VAT Reg. No.",
+      "tooltip": "Specifies VAT Registration Number of the customer."
+    },
+    {
+      "no": 5,
+      "name": "Total Value Of Supplies",
+      "tooltip": "Specifies the total amount of the sold supplies."
+    },
+    {
+      "no": 6,
+      "name": "Transaction Indicator",
+      "tooltip": "Specifies the transaction number."
+    }
+  ]
+}

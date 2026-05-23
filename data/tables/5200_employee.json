@@ -1,0 +1,398 @@
+{
+  "id": 5200,
+  "name": "Employee",
+  "slug": "5200_employee",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies an identification number for the entry or record."
+    },
+    {
+      "no": 2,
+      "name": "First Name",
+      "tooltip": "Specifies the employee's first name."
+    },
+    {
+      "no": 3,
+      "name": "Middle Name",
+      "tooltip": "Specifies the employee's middle name."
+    },
+    {
+      "no": 4,
+      "name": "Last Name",
+      "tooltip": "Specifies the employee's last name."
+    },
+    {
+      "no": 5,
+      "name": "Initials",
+      "tooltip": "Specifies the employee's initials."
+    },
+    {
+      "no": 6,
+      "name": "Job Title",
+      "tooltip": "Specifies the employee's job title."
+    },
+    {
+      "no": 7,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 8,
+      "name": "Address",
+      "tooltip": "Specifies the employee's address."
+    },
+    {
+      "no": 9,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 10,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 11,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 12,
+      "name": "County",
+      "tooltip": "Specifies the county of the employee."
+    },
+    {
+      "no": 13,
+      "name": "Phone No.",
+      "tooltip": "Specifies the employee's telephone number."
+    },
+    {
+      "no": 14,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the employee's private telephone number."
+    },
+    {
+      "no": 15,
+      "name": "E-Mail",
+      "tooltip": "Specifies the employee's private email address."
+    },
+    {
+      "no": 16,
+      "name": "Alt. Address Code",
+      "tooltip": "Specifies a code for an alternate address."
+    },
+    {
+      "no": 17,
+      "name": "Alt. Address Start Date",
+      "tooltip": "Specifies the starting date when the alternate address is valid."
+    },
+    {
+      "no": 18,
+      "name": "Alt. Address End Date",
+      "tooltip": "Specifies the last day when the alternate address is valid."
+    },
+    {
+      "no": 20,
+      "name": "Birth Date",
+      "tooltip": "Specifies the employee's date of birth."
+    },
+    {
+      "no": 21,
+      "name": "Social Security No.",
+      "tooltip": "Specifies the social security number of the employee."
+    },
+    {
+      "no": 22,
+      "name": "Union Code",
+      "tooltip": "Specifies the employee's labor union membership code."
+    },
+    {
+      "no": 23,
+      "name": "Union Membership No.",
+      "tooltip": "Specifies the employee's labor union membership number."
+    },
+    {
+      "no": 24,
+      "name": "Gender",
+      "tooltip": "Specifies the gender with which the employee identifies."
+    },
+    {
+      "no": 25,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 26,
+      "name": "Manager No.",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Emplymt. Contract Code",
+      "tooltip": "Specifies the employment contract code for the employee."
+    },
+    {
+      "no": 28,
+      "name": "Statistics Group Code",
+      "tooltip": "Specifies a statistics group code to assign to the employee for statistical purposes."
+    },
+    {
+      "no": 29,
+      "name": "Employment Date",
+      "tooltip": "Specifies the date when the employee began to work for the company."
+    },
+    {
+      "no": 31,
+      "name": "Status",
+      "tooltip": "Specifies the employment status of the employee."
+    },
+    {
+      "no": 32,
+      "name": "Inactive Date",
+      "tooltip": "Specifies the date when the employee became inactive, due to disability or maternity leave, for example."
+    },
+    {
+      "no": 33,
+      "name": "Cause of Inactivity Code",
+      "tooltip": "Specifies a code for the cause of inactivity by the employee."
+    },
+    {
+      "no": 34,
+      "name": "Termination Date",
+      "tooltip": "Specifies the date when the employee was terminated, due to retirement or dismissal, for example."
+    },
+    {
+      "no": 35,
+      "name": "Grounds for Term. Code",
+      "tooltip": "Specifies a termination code for the employee who has been terminated."
+    },
+    {
+      "no": 36,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Resource No.",
+      "tooltip": "Specifies a resource number for the employee."
+    },
+    {
+      "no": 39,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment has been entered for this entry."
+    },
+    {
+      "no": 40,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when this record was last modified."
+    },
+    {
+      "no": 41,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Cause of Absence Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Total Absence (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Extension",
+      "tooltip": "Specifies the employee's telephone extension."
+    },
+    {
+      "no": 47,
+      "name": "Employee No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Pager",
+      "tooltip": "Specifies the employee's pager number."
+    },
+    {
+      "no": 49,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Company E-Mail",
+      "tooltip": "Specifies the employee's email address at the company."
+    },
+    {
+      "no": 51,
+      "name": "Title",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies a salesperson or purchaser code for the employee."
+    },
+    {
+      "no": 53,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Employee Posting Group",
+      "tooltip": "Specifies the employee's type to link business transactions made for the employee with the appropriate account in the general ledger."
+    },
+    {
+      "no": 56,
+      "name": "Bank Branch No.",
+      "tooltip": "Specifies a number of the bank branch."
+    },
+    {
+      "no": 57,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number used by the bank for the bank account."
+    },
+    {
+      "no": 58,
+      "name": "IBAN",
+      "tooltip": "Specifies the bank account's international bank account number."
+    },
+    {
+      "no": 59,
+      "name": "Balance",
+      "tooltip": "Specifies the amount the employee owes the company, or the company owes them. For example, for an overpayment, or for expenses, respectively. The word \"balance\" indicates the amount can be positive (employee owes the company) or negative (the company owes the employee)."
+    },
+    {
+      "no": 60,
+      "name": "SWIFT Code",
+      "tooltip": "Specifies the SWIFT code (international bank identifier code) of the bank where the employee has the account."
+    },
+    {
+      "no": 70,
+      "name": "Balance (LCY)",
+      "tooltip": "Specifies the amount the employee owes the company, or the company owes them in local currency. For example, for an overpayment, or for expenses, respectively. The word \"balance\" indicates the amount can be positive (employee owes the company) or negative (the company owes the employee)."
+    },
+    {
+      "no": 75,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code that is inserted by default when you create entries for the employee."
+    },
+    {
+      "no": 80,
+      "name": "Application Method",
+      "tooltip": "Specifies how to apply payments to entries for this employee."
+    },
+    {
+      "no": 90,
+      "name": "Currency Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Engagement Type",
+      "tooltip": "Specifies the value of the Engagement Type field."
+    },
+    {
+      "no": 101,
+      "name": "Collective Bargain. Agmt. Info",
+      "tooltip": "Specifies the value of the Collective Bargaining Agreement Info field."
+    },
+    {
+      "no": 102,
+      "name": "Board Member",
+      "tooltip": "Specifies the value of the Board Member field."
+    },
+    {
+      "no": 103,
+      "name": "Manager Role",
+      "tooltip": "Specifies the value of the Manager Role field."
+    },
+    {
+      "no": 104,
+      "name": "Payroll",
+      "tooltip": "Specifies the value of the Payroll field."
+    },
+    {
+      "no": 105,
+      "name": "Payroll Currency Code",
+      "tooltip": "Specifies the value of the Payroll Currency Code field."
+    },
+    {
+      "no": 106,
+      "name": "Payroll (LCY)",
+      "tooltip": "Specifies the value of the Payroll (LCY) field."
+    },
+    {
+      "no": 107,
+      "name": "Payroll Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Nationality",
+      "tooltip": "Specifies the value of the Nationality field."
+    },
+    {
+      "no": 109,
+      "name": "Working Type",
+      "tooltip": "Specifies the value of the Working Type field."
+    },
+    {
+      "no": 110,
+      "name": "Working Hours",
+      "tooltip": "Specifies the value of the Working Hours field."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture of the employee."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for posting business transactions for this customer."
+    },
+    {
+      "no": 1100,
+      "name": "Cost Center Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1101,
+      "name": "Cost Object Code",
+      "tooltip": ""
+    }
+  ]
+}

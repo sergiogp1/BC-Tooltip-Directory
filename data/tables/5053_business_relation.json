@@ -1,0 +1,23 @@
+{
+  "id": 5053,
+  "name": "Business Relation",
+  "slug": "5053_business_relation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the business relation."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the business relation."
+    },
+    {
+      "no": 3,
+      "name": "No. of Contacts",
+      "tooltip": "Specifies the number of contacts that have been assigned the business relation. The field is not editable."
+    }
+  ]
+}

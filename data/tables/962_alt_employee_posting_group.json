@@ -1,0 +1,18 @@
+{
+  "id": 962,
+  "name": "Alt. Employee Posting Group",
+  "slug": "962_alt_employee_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Alt. Employee Posting Group",
+      "tooltip": "Specifies the employee group for posting business transactions to general ledger accounts."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 248,
+  "name": "VAT Reg. No. Srv Config",
+  "slug": "248_vat_reg_no_srv_config",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Enabled",
+      "tooltip": "Specifies if the service is enabled."
+    },
+    {
+      "no": 3,
+      "name": "Service Endpoint",
+      "tooltip": "Specifies the endpoint of the VAT registration number validation service."
+    },
+    {
+      "no": 10,
+      "name": "Default Template Code",
+      "tooltip": "Specifies the default template for validation of additional company information."
+    }
+  ]
+}

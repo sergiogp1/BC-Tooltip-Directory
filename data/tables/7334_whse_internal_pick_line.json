@@ -1,0 +1,133 @@
+{
+  "id": 7334,
+  "name": "Whse. Internal Pick Line",
+  "slug": "7334_whse_internal_pick_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line."
+    },
+    {
+      "no": 10,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location of the internal pick line."
+    },
+    {
+      "no": 11,
+      "name": "Shelf No.",
+      "tooltip": "Specifies the shelf number of the item for informational use."
+    },
+    {
+      "no": 12,
+      "name": "To Bin Code",
+      "tooltip": "Specifies the code of the bin into which the items should be placed when they are picked."
+    },
+    {
+      "no": 13,
+      "name": "To Zone Code",
+      "tooltip": "Specifies the To Zone Code of the zone where items should be placed once they are picked."
+    },
+    {
+      "no": 14,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that should be picked."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity that should be picked."
+    },
+    {
+      "no": 16,
+      "name": "Qty. (Base)",
+      "tooltip": "Specifies the quantity that should be picked, in the base unit of measure."
+    },
+    {
+      "no": 19,
+      "name": "Qty. Outstanding",
+      "tooltip": "Specifies the quantity that still needs to be handled."
+    },
+    {
+      "no": 20,
+      "name": "Qty. Outstanding (Base)",
+      "tooltip": "Specifies the quantity that still needs to be handled, in the base unit of measure."
+    },
+    {
+      "no": 23,
+      "name": "Qty. Picked",
+      "tooltip": "Specifies the quantity of the line that is registered as picked."
+    },
+    {
+      "no": 24,
+      "name": "Qty. Picked (Base)",
+      "tooltip": "Specifies the quantity of the line that is registered as picked, in the base unit of measure."
+    },
+    {
+      "no": 27,
+      "name": "Pick Qty.",
+      "tooltip": "Specifies the quantity of the item in pick instructions that are assigned to be picked for the line."
+    },
+    {
+      "no": 28,
+      "name": "Pick Qty. (Base)",
+      "tooltip": "Specifies the quantity of the item in pick instructions assigned to be picked for the line, in the base unit of measure."
+    },
+    {
+      "no": 29,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 30,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the number of base units of measure, that are in the unit of measure, specified for the item on the line."
+    },
+    {
+      "no": 31,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 32,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item in the line."
+    },
+    {
+      "no": 33,
+      "name": "Description 2",
+      "tooltip": "Specifies a second description of the item on the line."
+    },
+    {
+      "no": 34,
+      "name": "Status",
+      "tooltip": "Specifies if the status is Blank, Partially Picked, or Completely Picked."
+    },
+    {
+      "no": 35,
+      "name": "Sorting Sequence No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the warehouse activity must be completed."
+    },
+    {
+      "no": 37,
+      "name": "Cubage",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Weight",
+      "tooltip": ""
+    }
+  ]
+}

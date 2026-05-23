@@ -1,0 +1,73 @@
+{
+  "id": 6305,
+  "name": "Power BI Chart Buffer",
+  "slug": "6305_power_bi_chart_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID."
+    },
+    {
+      "no": 20,
+      "name": "Row No.",
+      "tooltip": "Specifies the stage of the sales pipeline that this entry is at."
+    },
+    {
+      "no": 30,
+      "name": "Value",
+      "tooltip": "Specifies the value."
+    },
+    {
+      "no": 40,
+      "name": "Period Type",
+      "tooltip": "Specifies the type."
+    },
+    {
+      "no": 50,
+      "name": "Date",
+      "tooltip": "Specifies the sorting."
+    },
+    {
+      "no": 60,
+      "name": "Measure Name",
+      "tooltip": "Specifies the sorting."
+    },
+    {
+      "no": 70,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Date Sorting",
+      "tooltip": "Specifies the sorting."
+    },
+    {
+      "no": 90,
+      "name": "Chart Type",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Measure No.",
+      "tooltip": "Specifies a code for the sales process."
+    },
+    {
+      "no": 110,
+      "name": "Period Type Sorting",
+      "tooltip": "Specifies the sorting."
+    },
+    {
+      "no": 120,
+      "name": "Show Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "Values to Calculate",
+      "tooltip": ""
+    }
+  ]
+}

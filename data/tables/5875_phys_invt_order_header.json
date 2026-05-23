@@ -1,0 +1,103 @@
+{
+  "id": 5875,
+  "name": "Phys. Invt. Order Header",
+  "slug": "5875_phys_invt_order_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number for the physical inventory order."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a short description of the physical inventory order."
+    },
+    {
+      "no": 11,
+      "name": "Status",
+      "tooltip": "Specifies if the physical inventory order is open or finished."
+    },
+    {
+      "no": 20,
+      "name": "Order Date",
+      "tooltip": "Specifies the order date for the physical inventory order."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the physical inventory order."
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Person Responsible",
+      "tooltip": "Specifies the code of the person who is responsible for performing this physical inventory order."
+    },
+    {
+      "no": 40,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 51,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 60,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Last Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "No. Finished Recordings",
+      "tooltip": "Specifies the number of entered physical inventory recording documents that have the status set to Finished."
+    },
+    {
+      "no": 110,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location where items on this line should be counted."
+    },
+    {
+      "no": 111,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

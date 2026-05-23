@@ -1,0 +1,68 @@
+{
+  "id": 5373,
+  "name": "CRM Full Synch. Review Line",
+  "slug": "5373_crm_full_synch_review_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name."
+    },
+    {
+      "no": 2,
+      "name": "Dependency Filter",
+      "tooltip": "Specifies a dependency to the synchronization of another record, such as a customer that must be synchronized before a contact can be synchronized."
+    },
+    {
+      "no": 3,
+      "name": "Session ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "To Int. Table Job ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "To Int. Table Job Status",
+      "tooltip": "Specifies the status of jobs for data going to the integration table."
+    },
+    {
+      "no": 6,
+      "name": "From Int. Table Job ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "From Int. Table Job Status",
+      "tooltip": "Specifies the status of jobs for data coming from the integration table."
+    },
+    {
+      "no": 8,
+      "name": "Direction",
+      "tooltip": "Specifies the direction in which data will synchronize."
+    },
+    {
+      "no": 9,
+      "name": "Job Queue Entry ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Job Queue Entry Status",
+      "tooltip": "Specifies the status of the job queue entry."
+    },
+    {
+      "no": 13,
+      "name": "Initial Synch Recommendation",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Multi Company Synch. Enabled",
+      "tooltip": "Specifies if the multi-company synchronization should be enabled for the corresponding integration table mapping."
+    }
+  ]
+}

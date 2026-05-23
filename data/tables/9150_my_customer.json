@@ -1,0 +1,33 @@
+{
+  "id": 9150,
+  "name": "My Customer",
+  "slug": "9150_my_customer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer numbers that are displayed in the My Customer Cue on the Role Center."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer."
+    },
+    {
+      "no": 4,
+      "name": "Phone No.",
+      "tooltip": "Specifies the customer's phone number."
+    },
+    {
+      "no": 5,
+      "name": "Balance (LCY)",
+      "tooltip": "Specifies the payment amount that the customer owes for completed sales."
+    }
+  ]
+}

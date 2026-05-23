@@ -1,0 +1,143 @@
+{
+  "id": 279,
+  "name": "Extended Text Header",
+  "slug": "279_extended_text_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 4,
+      "name": "Text No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Starting Date",
+      "tooltip": "Specifies a date from which the text will be used on the item, account, resource or standard text."
+    },
+    {
+      "no": 6,
+      "name": "Ending Date",
+      "tooltip": "Specifies a date on which the text will no longer be used on the item, account, resource or standard text."
+    },
+    {
+      "no": 7,
+      "name": "All Language Codes",
+      "tooltip": "Specifies whether the text should be used for all language codes. If a language code has been chosen in the Language Code field, it will be overruled by this function."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the content of the extended item description."
+    },
+    {
+      "no": 11,
+      "name": "Sales Quote",
+      "tooltip": "Specifies whether the text will be available on sales quotes."
+    },
+    {
+      "no": 12,
+      "name": "Sales Invoice",
+      "tooltip": "Specifies whether the text will be available on sales invoices."
+    },
+    {
+      "no": 13,
+      "name": "Sales Order",
+      "tooltip": "Specifies whether the text will be available on sales orders."
+    },
+    {
+      "no": 14,
+      "name": "Sales Credit Memo",
+      "tooltip": "Specifies whether the text will be available on sales credit memos."
+    },
+    {
+      "no": 15,
+      "name": "Purchase Quote",
+      "tooltip": "Specifies whether the text will be available on purchase quotes."
+    },
+    {
+      "no": 16,
+      "name": "Purchase Invoice",
+      "tooltip": "Specifies whether the text will be available on purchase invoices."
+    },
+    {
+      "no": 17,
+      "name": "Purchase Order",
+      "tooltip": "Specifies whether the text will be available on purchase orders."
+    },
+    {
+      "no": 18,
+      "name": "Purchase Credit Memo",
+      "tooltip": "Specifies whether the text will be available on purchase credit memos."
+    },
+    {
+      "no": 19,
+      "name": "Reminder",
+      "tooltip": "Specifies whether the extended text will be available on reminders."
+    },
+    {
+      "no": 20,
+      "name": "Finance Charge Memo",
+      "tooltip": "Specifies whether the extended text will be available on finance charge memos."
+    },
+    {
+      "no": 21,
+      "name": "Sales Blanket Order",
+      "tooltip": "Specifies whether the text will be available on sales blanket orders."
+    },
+    {
+      "no": 22,
+      "name": "Purchase Blanket Order",
+      "tooltip": "Specifies whether the text will be available on purchase blanket orders."
+    },
+    {
+      "no": 23,
+      "name": "Prepmt. Sales Invoice",
+      "tooltip": "Specifies whether the text will be available on prepayment sales invoices."
+    },
+    {
+      "no": 24,
+      "name": "Prepmt. Sales Credit Memo",
+      "tooltip": "Specifies whether the text will be available on prepayment sales credit memos."
+    },
+    {
+      "no": 25,
+      "name": "Prepmt. Purchase Invoice",
+      "tooltip": "Specifies whether the text will be available on prepayment purchase invoices."
+    },
+    {
+      "no": 26,
+      "name": "Prepmt. Purchase Credit Memo",
+      "tooltip": "Specifies whether the text will be available on prepayment purchase credit memos."
+    },
+    {
+      "no": 167,
+      "name": "Job",
+      "tooltip": "Specifies whether the text will be available on projects."
+    },
+    {
+      "no": 6600,
+      "name": "Sales Return Order",
+      "tooltip": "Specifies whether the text will be available on sales return orders."
+    },
+    {
+      "no": 6605,
+      "name": "Purchase Return Order",
+      "tooltip": "Specifies whether the text will be available on purchase return orders."
+    }
+  ]
+}

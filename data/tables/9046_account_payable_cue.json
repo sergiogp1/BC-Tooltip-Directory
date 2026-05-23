@@ -1,0 +1,108 @@
+{
+  "id": 9046,
+  "name": "Account Payable Cue",
+  "slug": "9046_account_payable_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Purchase This Month",
+      "tooltip": "Specifies the total amount of purchase invoices for the current month."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Overdue Purchase Documents",
+      "tooltip": "Specifies the number of purchase invoices where your payment is late."
+    },
+    {
+      "no": 23,
+      "name": "Overdue Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "POs Pending Approval",
+      "tooltip": "Specifies the number of purchase orders that are pending approval."
+    },
+    {
+      "no": 25,
+      "name": "Approved Purchase Orders",
+      "tooltip": "Specifies the number of purchase orders that are approved."
+    },
+    {
+      "no": 26,
+      "name": "Purchase Quotes",
+      "tooltip": "Specifies the number of purchase quotes."
+    },
+    {
+      "no": 27,
+      "name": "Purchase Orders",
+      "tooltip": "Specifies the number of purchase orders."
+    },
+    {
+      "no": 28,
+      "name": "Ongoing Purchase Invoices",
+      "tooltip": "Specifies the number of ongoing purchase invoices."
+    },
+    {
+      "no": 29,
+      "name": "Purch. Invoices Due Next Week",
+      "tooltip": "Specifies the number of purchase invoices that are due next week."
+    },
+    {
+      "no": 30,
+      "name": "Due Next Week Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Posted Purch. Inv. This Month",
+      "tooltip": "Specifies the number of posted purchase invoices for the current month."
+    },
+    {
+      "no": 32,
+      "name": "Posted Purch. Cr. Memo TM",
+      "tooltip": "Specifies the number of posted purchase credit memos for the current month."
+    },
+    {
+      "no": 33,
+      "name": "Purchase Documents Due Today",
+      "tooltip": "Specifies the number of purchase invoices that are due today."
+    },
+    {
+      "no": 34,
+      "name": "Purch. Documents Due Next Week",
+      "tooltip": "Specifies the number of purchase invoices that are due next week."
+    },
+    {
+      "no": 35,
+      "name": "Purchase Discounts Next Week",
+      "tooltip": "Specifies the number of purchase invoices that are due next week and have a payment discount."
+    },
+    {
+      "no": 36,
+      "name": "Unprocessed Payments",
+      "tooltip": "Specifies the number of unprocessed payments."
+    },
+    {
+      "no": 37,
+      "name": "Outstanding Vendor Invoices",
+      "tooltip": "Specifies the number of invoices from your vendors that have not been paid yet."
+    },
+    {
+      "no": 110,
+      "name": "Last Date/Time Modified",
+      "tooltip": ""
+    }
+  ]
+}

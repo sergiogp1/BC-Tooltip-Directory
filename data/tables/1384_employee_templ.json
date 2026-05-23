@@ -1,0 +1,103 @@
+{
+  "id": 1384,
+  "name": "Employee Templ.",
+  "slug": "1384_employee_templ",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the template."
+    },
+    {
+      "no": 10,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 11,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 12,
+      "name": "County",
+      "tooltip": "Specifies the county of the employee."
+    },
+    {
+      "no": 24,
+      "name": "Gender",
+      "tooltip": "Specifies the employee's gender."
+    },
+    {
+      "no": 25,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 26,
+      "name": "Manager No.",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Emplymt. Contract Code",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Statistics Group Code",
+      "tooltip": "Specifies a statistics group code to assign to the employee for statistical purposes."
+    },
+    {
+      "no": 36,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Company E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series that will be used to assign numbers to employees."
+    },
+    {
+      "no": 55,
+      "name": "Employee Posting Group",
+      "tooltip": "Specifies the employee's type to link business transactions made for the employee with the appropriate account in the general ledger."
+    },
+    {
+      "no": 80,
+      "name": "Application Method",
+      "tooltip": "Specifies how to apply payments to entries for this employee."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for posting business transactions for this employee."
+    },
+    {
+      "no": 1100,
+      "name": "Cost Center Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1101,
+      "name": "Cost Object Code",
+      "tooltip": ""
+    }
+  ]
+}

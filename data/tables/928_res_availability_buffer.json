@@ -1,0 +1,68 @@
+{
+  "id": 928,
+  "name": "Res. Availability Buffer",
+  "slug": "928_res_availability_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies a series of dates according to the selected time interval."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Capacity",
+      "tooltip": "Specifies the total capacity for the corresponding time period."
+    },
+    {
+      "no": 11,
+      "name": "Qty. on Order (Job)",
+      "tooltip": "Specifies the amount of measuring units allocated to projects with the status order."
+    },
+    {
+      "no": 12,
+      "name": "Availability After Orders",
+      "tooltip": "Specifies capacity minus the quantity on order."
+    },
+    {
+      "no": 13,
+      "name": "Job Quotes Allocation",
+      "tooltip": "Specifies the amount of measuring units allocated to projects with the status quote."
+    },
+    {
+      "no": 14,
+      "name": "Availability After Quotes",
+      "tooltip": "Specifies capacity, minus quantity on order (Project), minus quantity on service order, minus project quotes allocation."
+    },
+    {
+      "no": 15,
+      "name": "Qty. on Service Order",
+      "tooltip": "Specifies how many units of the item are allocated to service orders, meaning listed on outstanding service order lines."
+    },
+    {
+      "no": 16,
+      "name": "Qty. on Assembly Order",
+      "tooltip": "Specifies how many units of the item are allocated to assembly orders, which is how many are listed on outstanding assembly order headers."
+    },
+    {
+      "no": 17,
+      "name": "Net Availability",
+      "tooltip": "Specifies capacity, minus the quantity on order, minus the projects quotes allocation."
+    }
+  ]
+}

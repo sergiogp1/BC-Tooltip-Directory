@@ -1,0 +1,23 @@
+{
+  "id": 173,
+  "name": "Standard Purchase Code",
+  "slug": "173_standard_purchase_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code which identifies this standard purchase code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the standard purchase code."
+    },
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amounts on the standard purchase lines."
+    }
+  ]
+}

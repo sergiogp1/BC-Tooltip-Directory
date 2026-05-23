@@ -1,0 +1,213 @@
+{
+  "id": 5908,
+  "name": "Warranty Ledger Entry",
+  "slug": "5908_warranty_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of this entry."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date on the service line linked to this entry."
+    },
+    {
+      "no": 5,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer on the service order linked to this entry."
+    },
+    {
+      "no": 6,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 7,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 8,
+      "name": "Variant Code (Serviced)",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Service Item No. (Serviced)",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Item No. (Serviced)",
+      "tooltip": "Specifies the number of the serviced item linked to this entry."
+    },
+    {
+      "no": 11,
+      "name": "Serial No. (Serviced)",
+      "tooltip": "Specifies the serial number of the serviced item linked to this entry."
+    },
+    {
+      "no": 12,
+      "name": "Service Item Group (Serviced)",
+      "tooltip": "Specifies the service item group code of the serviced item linked to this entry."
+    },
+    {
+      "no": 13,
+      "name": "Service Order No.",
+      "tooltip": "Specifies the number of the service order linked to this entry."
+    },
+    {
+      "no": 14,
+      "name": "Service Contract No.",
+      "tooltip": "Specifies the number of the service contract linked to this entry."
+    },
+    {
+      "no": 15,
+      "name": "Fault Reason Code",
+      "tooltip": "Specifies the fault reason code of the service line linked to this entry."
+    },
+    {
+      "no": 16,
+      "name": "Fault Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Fault Code",
+      "tooltip": "Specifies the fault code of the service line linked to this entry."
+    },
+    {
+      "no": 18,
+      "name": "Symptom Code",
+      "tooltip": "Specifies the symptom code of the service line linked to this entry."
+    },
+    {
+      "no": 19,
+      "name": "Resolution Code",
+      "tooltip": "Specifies the resolution code of the service line linked to this entry."
+    },
+    {
+      "no": 20,
+      "name": "Type",
+      "tooltip": "Specifies the type of the service line linked to this entry."
+    },
+    {
+      "no": 21,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 22,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of item units, resource hours, or cost of the service line linked to this entry."
+    },
+    {
+      "no": 24,
+      "name": "Work Type Code",
+      "tooltip": "Specifies the work type code of the service line linked to this entry."
+    },
+    {
+      "no": 25,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 26,
+      "name": "Amount",
+      "tooltip": "Specifies the warranty discount amount of the service line linked to this entry."
+    },
+    {
+      "no": 27,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item on this line."
+    },
+    {
+      "no": 29,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 32,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 33,
+      "name": "Open",
+      "tooltip": "Specifies that the warranty ledger entry is open."
+    },
+    {
+      "no": 35,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the vendor number of the serviced item linked to this entry."
+    },
+    {
+      "no": 36,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 38,
+      "name": "Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Service Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

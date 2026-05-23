@@ -1,0 +1,53 @@
+{
+  "id": 5934,
+  "name": "Service Register",
+  "slug": "5934_service_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "From Entry No.",
+      "tooltip": "Specifies the first item entry number in the register."
+    },
+    {
+      "no": 3,
+      "name": "To Entry No.",
+      "tooltip": "Specifies the last sequence number from the range of service ledger entries created for this register line."
+    },
+    {
+      "no": 4,
+      "name": "From Warranty Entry No.",
+      "tooltip": "Specifies the first sequence number from the range of warranty ledger entries created for this register line."
+    },
+    {
+      "no": 5,
+      "name": "To Warranty Entry No.",
+      "tooltip": "Specifies the last sequence number from the range of warranty ledger entries created for this register line."
+    },
+    {
+      "no": 6,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date when the entries in the register were created."
+    },
+    {
+      "no": 7,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 9,
+      "name": "Creation Time",
+      "tooltip": ""
+    }
+  ]
+}

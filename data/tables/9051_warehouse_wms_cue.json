@@ -1,0 +1,103 @@
+{
+  "id": 9051,
+  "name": "Warehouse WMS Cue",
+  "slug": "9051_warehouse_wms_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Released Sales Orders - Today",
+      "tooltip": "Specifies the number of released sales orders that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Shipments - Today",
+      "tooltip": "Specifies the number of shipments that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Posted Shipments - Today",
+      "tooltip": "Specifies the number of posted shipments that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Expected Purchase Orders",
+      "tooltip": "Specifies the number of expected purchase orders that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Arrivals",
+      "tooltip": "Specifies the number of arrivals that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Posted Receipts - Today",
+      "tooltip": "Specifies the number of posted receipts that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 8,
+      "name": "Picked Shipments - Today",
+      "tooltip": "Specifies the number of picked shipments that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 9,
+      "name": "Picks - All",
+      "tooltip": "Specifies the number of picks that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 11,
+      "name": "Put-aways - All",
+      "tooltip": "Specifies the number of put-always that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 13,
+      "name": "Movements - All",
+      "tooltip": "Specifies the number of movements that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 14,
+      "name": "Registered Picks - Today",
+      "tooltip": "Specifies the number of registered picks that are displayed in the Warehouse WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Date Filter2",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "User ID Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Unassigned Put-aways",
+      "tooltip": "Specifies the number of unassigned put-always that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 25,
+      "name": "Unassigned Movements",
+      "tooltip": "Specifies the number of unassigned movements that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 26,
+      "name": "Unassigned Picks",
+      "tooltip": "Specifies the number of unassigned picks that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
+    }
+  ]
+}

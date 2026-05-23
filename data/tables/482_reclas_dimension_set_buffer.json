@@ -1,0 +1,48 @@
+{
+  "id": 482,
+  "name": "Reclas. Dimension Set Buffer",
+  "slug": "482_reclas_dimension_set_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Dimension Code",
+      "tooltip": "Specifies a dimension code to attach a dimension to a journal line."
+    },
+    {
+      "no": 2,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the original dimension value to register the transfer of items from the original dimension value to the new dimension value."
+    },
+    {
+      "no": 3,
+      "name": "Dimension Value ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "New Dimension Value Code",
+      "tooltip": "Specifies the new dimension value to register the transfer of items, from the original dimension value to the new dimension value."
+    },
+    {
+      "no": 5,
+      "name": "New Dimension Value ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Dimension Name",
+      "tooltip": "Specifies the descriptive name of the Dimension Code field."
+    },
+    {
+      "no": 7,
+      "name": "Dimension Value Name",
+      "tooltip": "Specifies the descriptive name of the original Dimension Value Code field."
+    },
+    {
+      "no": 8,
+      "name": "New Dimension Value Name",
+      "tooltip": "Specifies the descriptive name of the New Dimension Value Code field."
+    }
+  ]
+}

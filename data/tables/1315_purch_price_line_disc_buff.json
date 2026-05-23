@@ -1,0 +1,63 @@
+{
+  "id": 1315,
+  "name": "Purch. Price Line Disc. Buff.",
+  "slug": "1315_purch_price_line_disc_buff",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 3,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that must be used on the purchase document line to warrant the purchase price or discount."
+    },
+    {
+      "no": 4,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date from which the purchase line discount is valid."
+    },
+    {
+      "no": 5,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 6,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the unit price that is granted on purchase documents if certain criteria are met, such as purchase code, currency code, and date."
+    },
+    {
+      "no": 14,
+      "name": "Minimum Quantity",
+      "tooltip": "Specifies the quantity that must be entered on the purchase document to warrant the purchase price or discount."
+    },
+    {
+      "no": 15,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date to which the purchase line discount is valid."
+    },
+    {
+      "no": 1300,
+      "name": "Line Type",
+      "tooltip": "Specifies if the line is for a purchase price or a purchase line discount."
+    },
+    {
+      "no": 1301,
+      "name": "Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1303,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor who offers the line discount on the item."
+    },
+    {
+      "no": 5400,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5700,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant that must be used on the purchase document line to warrant the purchase price or discount."
+    }
+  ]
+}

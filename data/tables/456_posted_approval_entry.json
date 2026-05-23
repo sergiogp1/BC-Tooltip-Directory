@@ -1,0 +1,133 @@
+{
+  "id": 456,
+  "name": "Posted Approval Entry",
+  "slug": "456_posted_approval_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table where the record that is subject to approval is stored."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number copied from the relevant sales or purchase document, such as a purchase order or a sales quote."
+    },
+    {
+      "no": 4,
+      "name": "Sequence No.",
+      "tooltip": "Specifies the order of approvers when an approval workflow involves more than one approver."
+    },
+    {
+      "no": 5,
+      "name": "Approval Code",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Sender ID",
+      "tooltip": "Specifies the ID of the user who sent the approval request for the document to be approved."
+    },
+    {
+      "no": 7,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies the code for the salesperson or purchaser that was in the document to be approved. It is not a mandatory field, but is useful if a salesperson or a purchaser responsible for the customer/vendor needs to approve the document before it is sent."
+    },
+    {
+      "no": 8,
+      "name": "Approver ID",
+      "tooltip": "Specifies the ID of the user who must approve the document."
+    },
+    {
+      "no": 9,
+      "name": "Status",
+      "tooltip": "Specifies the approval status for the entry:"
+    },
+    {
+      "no": 10,
+      "name": "Date-Time Sent for Approval",
+      "tooltip": "Specifies the date and the time that the document was sent for approval."
+    },
+    {
+      "no": 11,
+      "name": "Last Date-Time Modified",
+      "tooltip": "Specifies the date when the approval entry was last modified. If, for example, the document approval is canceled, this field will be updated accordingly."
+    },
+    {
+      "no": 12,
+      "name": "Last Modified By ID",
+      "tooltip": "Specifies the ID of the person who last modified the approval entry. If, for example, the document approval is canceled, this field will be updated accordingly."
+    },
+    {
+      "no": 13,
+      "name": "Comment",
+      "tooltip": "Specifies whether there are comments related to the approval of the document. If you want to read the comments, click the field to open the Comment Sheet window."
+    },
+    {
+      "no": 14,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the document is due for approval by the approver."
+    },
+    {
+      "no": 15,
+      "name": "Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the total amount (excl. VAT) on the document waiting for approval. The amount is stated in the local currency."
+    },
+    {
+      "no": 17,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code of the currency of the amounts on the sales or purchase lines."
+    },
+    {
+      "no": 18,
+      "name": "Approval Type",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Limit Type",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Available Credit Limit (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Posted Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Delegation Date Formula",
+      "tooltip": "Specifies for the posted approval entry when an overdue approval request was automatically delegated to the relevant substitute. The field is filled with the value in the Delegate After field in the Workflow Responses window, translated to a date formula. The date of automatic delegation is then calculated based on the Date-Time Sent for Approval field in the Approval Entries window."
+    },
+    {
+      "no": 26,
+      "name": "Number of Approved Requests",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Number of Rejected Requests",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Iteration No.",
+      "tooltip": "Specifies the number of handling iterations that this approval request has reached."
+    },
+    {
+      "no": 29,
+      "name": "Entry No.",
+      "tooltip": ""
+    }
+  ]
+}

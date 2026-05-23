@@ -1,0 +1,403 @@
+{
+  "id": 5364,
+  "name": "CRM Businessunit",
+  "slug": "5364_crm_businessunit",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "BusinessUnitId",
+      "tooltip": "Specifies the ID of the business unit."
+    },
+    {
+      "no": 2,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the Name of the business unit."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "DivisionName",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "FileAsName",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "TickerSymbol",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "StockExchange",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "CreditLimit",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "CostCenter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "WebSiteUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "FtpSiteUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "EMailAddress",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "InheritanceMask",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "WorkflowSuspended",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "ParentBusinessUnitId",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "IsDisabled",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "DisabledReason",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "ParentBusinessUnitIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Address1_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Address1_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Address1_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Address1_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Address1_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Address1_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Address1_City",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Address1_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Address1_County",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Address1_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Address1_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Address1_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Address1_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Address1_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Address1_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Address1_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Address1_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Address1_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Address1_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Address1_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Address1_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Address2_AddressId",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Address2_AddressTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Address2_Name",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Address2_Line1",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Address2_Line2",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Address2_Line3",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Address2_City",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Address2_StateOrProvince",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Address2_County",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Address2_Country",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Address2_PostOfficeBox",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Address2_PostalCode",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Address2_UTCOffset",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Address2_UPSZone",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Address2_Latitude",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Address2_Telephone1",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Address2_Longitude",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Address2_ShippingMethodCode",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Address2_Telephone2",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Address2_Telephone3",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Address2_Fax",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "OrganizationIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    }
+  ]
+}

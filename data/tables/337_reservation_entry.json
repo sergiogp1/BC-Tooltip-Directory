@@ -1,0 +1,233 @@
+{
+  "id": 337,
+  "name": "Reservation Entry",
+  "slug": "337_reservation_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number that is assigned to the entry."
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": "Specifies the value from the same field on the physical inventory tracking line."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the location of the traced item."
+    },
+    {
+      "no": 4,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity of the item that has been reserved in the entry."
+    },
+    {
+      "no": 5,
+      "name": "Reservation Status",
+      "tooltip": "Specifies the status of the reservation."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the record."
+    },
+    {
+      "no": 8,
+      "name": "Creation Date",
+      "tooltip": "Specifies when the traced record was created."
+    },
+    {
+      "no": 9,
+      "name": "Transferred from Entry No.",
+      "tooltip": "Specifies a value when the order tracking entry is for the quantity that remains on a document line after a partial posting."
+    },
+    {
+      "no": 10,
+      "name": "Source Type",
+      "tooltip": "Specifies for which source type the reservation entry is related to."
+    },
+    {
+      "no": 11,
+      "name": "Source Subtype",
+      "tooltip": "Specifies which source subtype the reservation entry is related to."
+    },
+    {
+      "no": 12,
+      "name": "Source ID",
+      "tooltip": "Specifies which source ID the reservation entry is related to."
+    },
+    {
+      "no": 13,
+      "name": "Source Batch Name",
+      "tooltip": "Specifies the journal batch name if the reservation entry is related to a journal or requisition line."
+    },
+    {
+      "no": 14,
+      "name": "Source Prod. Order Line",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Source Ref. No.",
+      "tooltip": "Specifies a reference number for the line, which the reservation entry is related to."
+    },
+    {
+      "no": 16,
+      "name": "Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Expected Receipt Date",
+      "tooltip": "Specifies the date you expect the items to be available in your warehouse. If you leave the field blank, it will be calculated as follows: Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date."
+    },
+    {
+      "no": 23,
+      "name": "Shipment Date",
+      "tooltip": "Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time."
+    },
+    {
+      "no": 24,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the item that is being handled on the document line."
+    },
+    {
+      "no": 25,
+      "name": "Created By",
+      "tooltip": "Specifies the user who created the traced record."
+    },
+    {
+      "no": 27,
+      "name": "Changed By",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Positive",
+      "tooltip": "Specifies that the difference is positive."
+    },
+    {
+      "no": 29,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies how many of the base unit of measure are contained in one unit of the item."
+    },
+    {
+      "no": 30,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the record."
+    },
+    {
+      "no": 31,
+      "name": "Action Message Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Binding",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Suppressed Action Msg.",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Planning Flexibility",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Appl.-to Item Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the last day of the serial/lot number's warranty."
+    },
+    {
+      "no": 41,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date of the lot or serial number on the item tracking line."
+    },
+    {
+      "no": 50,
+      "name": "Qty. to Handle (Base)",
+      "tooltip": "Specifies the quantity of item, in the base unit of measure, to be handled in a warehouse activity."
+    },
+    {
+      "no": 51,
+      "name": "Qty. to Invoice (Base)",
+      "tooltip": "Specifies the quantity, in the base unit of measure, that remains to be invoiced. It is calculated as Quantity - Qty. Invoiced."
+    },
+    {
+      "no": 53,
+      "name": "Quantity Invoiced (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "New Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "New Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 900,
+      "name": "Disallow Cancellation",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number of the item that is being handled on the document line."
+    },
+    {
+      "no": 5401,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5811,
+      "name": "Appl.-from Item Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 5817,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 6505,
+      "name": "New Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 6510,
+      "name": "Item Tracking",
+      "tooltip": ""
+    },
+    {
+      "no": 6511,
+      "name": "Untracked Surplus",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the package number of the item that is being handled on the document line."
+    },
+    {
+      "no": 6516,
+      "name": "New Package No.",
+      "tooltip": ""
+    }
+  ]
+}

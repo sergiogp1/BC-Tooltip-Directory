@@ -1,0 +1,188 @@
+{
+  "id": 910,
+  "name": "Posted Assembly Header",
+  "slug": "910_posted_assembly_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the posted assembly item."
+    },
+    {
+      "no": 4,
+      "name": "Search Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the assembly order that the posted assembly order line originates from."
+    },
+    {
+      "no": 10,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the posted assembly item."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 15,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the code for the General Business Posting Group that applies to the entry."
+    },
+    {
+      "no": 19,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies to which location the assembly item was output from this posted assembly order header."
+    },
+    {
+      "no": 21,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the assembly order was posted."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the assembled item is due to be available for use."
+    },
+    {
+      "no": 25,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date on which the posted assembly order started."
+    },
+    {
+      "no": 27,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date when the posted assembly order finished, which means the date on which all assembly items were output."
+    },
+    {
+      "no": 33,
+      "name": "Bin Code",
+      "tooltip": "Specifies to which bin the assembly item was posted as output on the posted assembly order header."
+    },
+    {
+      "no": 39,
+      "name": "Item Rcpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the assembly item were posted with this posted assembly order."
+    },
+    {
+      "no": 41,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Assemble to Order",
+      "tooltip": "Specifies if the posted assembly order was linked to a sales order, which indicates that the item was assembled to order."
+    },
+    {
+      "no": 65,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 67,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the total unit cost of the posted assembly order."
+    },
+    {
+      "no": 75,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 81,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Reversed",
+      "tooltip": "Specifies if the posted assembly order has been undone."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Order No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9010,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 9020,
+      "name": "Source Code",
+      "tooltip": ""
+    }
+  ]
+}

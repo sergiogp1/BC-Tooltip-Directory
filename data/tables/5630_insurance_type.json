@@ -1,0 +1,18 @@
+{
+  "id": 5630,
+  "name": "Insurance Type",
+  "slug": "5630_insurance_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies an insurance type code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the insurance type."
+    }
+  ]
+}

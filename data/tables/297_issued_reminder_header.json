@@ -1,0 +1,308 @@
+{
+  "id": 297,
+  "name": "Issued Reminder Header",
+  "slug": "297_issued_reminder_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer number the reminder is for."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer the reminder is for."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer the reminder is for."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": "Specifies the city name of the customer the reminder is for."
+    },
+    {
+      "no": 9,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the issued reminder."
+    },
+    {
+      "no": 13,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact when you communicate with the customer the reminder is for."
+    },
+    {
+      "no": 14,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference. The content will be printed on the related document."
+    },
+    {
+      "no": 15,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 16,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 17,
+      "name": "Customer Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date that the reminder was issued on."
+    },
+    {
+      "no": 22,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 23,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when payment of the amount on the reminder is due."
+    },
+    {
+      "no": 24,
+      "name": "Reminder Terms Code",
+      "tooltip": "Specifies the reminder terms code for the reminder."
+    },
+    {
+      "no": 25,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": "Specifies the code for the involved finance charges in case of late payment."
+    },
+    {
+      "no": 26,
+      "name": "Interest Posted",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Additional Fee Posted",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Reminder Level",
+      "tooltip": "Specifies the reminder's level."
+    },
+    {
+      "no": 29,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Remaining Amount",
+      "tooltip": "Specifies the total of the remaining amounts on the reminder lines."
+    },
+    {
+      "no": 32,
+      "name": "Interest Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Additional Fee",
+      "tooltip": "Specifies the total of the additional fee amounts on the reminder lines."
+    },
+    {
+      "no": 34,
+      "name": "VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "No. Printed",
+      "tooltip": "Specifies how many times the document has been printed."
+    },
+    {
+      "no": 36,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Pre-Assigned No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Pre-Assigned No.",
+      "tooltip": "Specifies the number of the reminder from which the issued reminder was created."
+    },
+    {
+      "no": 40,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Add. Fee per Line",
+      "tooltip": "Specifies that the fee is distributed on individual reminder lines."
+    },
+    {
+      "no": 47,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the VAT date for the reminder."
+    },
+    {
+      "no": 50,
+      "name": "Canceled",
+      "tooltip": "Specifies if the issued reminder has been canceled."
+    },
+    {
+      "no": 51,
+      "name": "Canceled By",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Canceled Date",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Canceled By Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Email Text",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Sent For Current Level",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Last Email Sent Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Total Email Sent Count",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Last Level Email Sent Count",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Email Sent Level",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Failed Email Outbox Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 163,
+      "name": "Company Bank Account Code",
+      "tooltip": "Specifies the bank account to use for bank information when the document is printed."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 500,
+      "name": "Reminder Automation Code",
+      "tooltip": ""
+    }
+  ]
+}

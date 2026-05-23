@@ -1,0 +1,18 @@
+{
+  "id": 99000785,
+  "name": "Quality Measure",
+  "slug": "99000785_quality_measure",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the quality measure code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the quality measure."
+    }
+  ]
+}

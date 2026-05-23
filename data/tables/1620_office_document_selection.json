@@ -1,0 +1,33 @@
+{
+  "id": 1620,
+  "name": "Office Document Selection",
+  "slug": "1620_office_document_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Series",
+      "tooltip": "Specifies the series of the involved document, such as Purchasing or Sales."
+    },
+    {
+      "no": 2,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type that the entry belongs to."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the involved document."
+    },
+    {
+      "no": 4,
+      "name": "Posted",
+      "tooltip": "Specifies whether the involved document has been posted."
+    },
+    {
+      "no": 5,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    }
+  ]
+}

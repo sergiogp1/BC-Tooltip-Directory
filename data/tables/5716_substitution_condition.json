@@ -1,0 +1,48 @@
+{
+  "id": 5716,
+  "name": "Substitution Condition",
+  "slug": "5716_substitution_condition",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Substitute No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Substitute Variant Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Condition",
+      "tooltip": "Specifies the condition for item substitution."
+    },
+    {
+      "no": 100,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Substitute Type",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": 203,
+  "name": "Res. Ledger Entry",
+  "slug": "203_res_ledger_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Entry Type",
+      "tooltip": "Specifies the type of entry."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number on the resource ledger entry."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the entry was posted."
+    },
+    {
+      "no": 5,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource."
+    },
+    {
+      "no": 6,
+      "name": "Resource Group No.",
+      "tooltip": "Specifies the number of the resource group."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the posted entry."
+    },
+    {
+      "no": 8,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 9,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 10,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 11,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item or resource specified on the line."
+    },
+    {
+      "no": 12,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 13,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 14,
+      "name": "Total Cost",
+      "tooltip": "Specifies the total cost of the posted entry."
+    },
+    {
+      "no": 15,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 16,
+      "name": "Total Price",
+      "tooltip": "Specifies the total price of the posted entry."
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 18,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 20,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 21,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 22,
+      "name": "Chargeable",
+      "tooltip": "Specifies if a resource transaction is chargeable."
+    },
+    {
+      "no": 23,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 25,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Resource Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Order Type",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 5701,
+  "name": "Stockkeeping Unit Comment Line",
+  "slug": "5701_stockkeeping_unit_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number to which the SKU refers to."
+    },
+    {
+      "no": 2,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code (for example, warehouse of distribution center) to which the SKU applies."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date",
+      "tooltip": "Specifies the date the comment was created."
+    },
+    {
+      "no": 6,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": "Specifies the comment itself."
+    }
+  ]
+}

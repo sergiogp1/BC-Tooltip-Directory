@@ -1,0 +1,43 @@
+{
+  "id": 5976,
+  "name": "Filed Contract/Serv. Discount",
+  "slug": "5976_filed_contract_serv_discount",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contract Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Contract No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the type of the contract/service discount."
+    },
+    {
+      "no": 5,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 6,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when the discount becomes applicable to the contract or quote."
+    },
+    {
+      "no": 7,
+      "name": "Discount %",
+      "tooltip": "Specifies the discount percentage."
+    },
+    {
+      "no": 100,
+      "name": "Entry No.",
+      "tooltip": "Specifies the unique number of filed service contract or service contract quote."
+    }
+  ]
+}

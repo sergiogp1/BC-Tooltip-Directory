@@ -1,0 +1,108 @@
+{
+  "id": 5879,
+  "name": "Pstd. Phys. Invt. Order Hdr",
+  "slug": "5879_pstd_phys_invt_order_hdr",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the No. of the table physical inventory order header."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the Description of the table physical inventory order header."
+    },
+    {
+      "no": 11,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Order Date",
+      "tooltip": "Specifies the Order Date of the table physical inventory order header."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the Posting Date of the table physical inventory order header."
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Person Responsible",
+      "tooltip": "Specifies the Person Responsible of the table physical inventory order header."
+    },
+    {
+      "no": 40,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 51,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 60,
+      "name": "Pre-Assigned No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Pre-Assigned No.",
+      "tooltip": "Specifies the number of the physical inventory header, from which the posted physical inventory order was posted."
+    },
+    {
+      "no": 63,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "No. Finished Recordings",
+      "tooltip": "Specifies the No. Finished Recordings."
+    },
+    {
+      "no": 110,
+      "name": "Location Code",
+      "tooltip": "Specifies the Location Code of the table physical inventory order header."
+    },
+    {
+      "no": 111,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

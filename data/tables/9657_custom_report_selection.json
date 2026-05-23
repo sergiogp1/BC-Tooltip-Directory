@@ -1,0 +1,108 @@
+{
+  "id": 9657,
+  "name": "Custom Report Selection",
+  "slug": "9657_custom_report_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Usage",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Sequence",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Report ID",
+      "tooltip": "Specifies the ID of the report."
+    },
+    {
+      "no": 6,
+      "name": "Report Caption",
+      "tooltip": "Specifies the name of the report."
+    },
+    {
+      "no": 7,
+      "name": "Custom Report Layout Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Custom Report Description",
+      "tooltip": "Specifies a description of the custom report layout."
+    },
+    {
+      "no": 9,
+      "name": "Send To Email",
+      "tooltip": "Specifies that the report is used when sending emails."
+    },
+    {
+      "no": 19,
+      "name": "Use for Email Attachment",
+      "tooltip": "Specifies that summarized information, such as invoice number, due date, and payment service link, will be inserted in the body of the email that you send."
+    },
+    {
+      "no": 20,
+      "name": "Use for Email Body",
+      "tooltip": "Specifies that summarized information, such as invoice number, due date, and payment service link, will be inserted in the body of the email that you send."
+    },
+    {
+      "no": 21,
+      "name": "Email Body Layout Code",
+      "tooltip": "Specifies the ID of the email body layout that is used."
+    },
+    {
+      "no": 22,
+      "name": "Email Body Layout Description",
+      "tooltip": "Specifies a description of the custom email body layout that is used."
+    },
+    {
+      "no": 23,
+      "name": "Use Email from Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Selected Contacts Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Email Attachment Layout Name",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Email Attachment Layout AppID",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Email Body Layout Name",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Email Body Layout AppID",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Email Body Layout Caption",
+      "tooltip": "Specifies the description of the report layout that is used for email body."
+    }
+  ]
+}

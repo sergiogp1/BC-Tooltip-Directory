@@ -1,0 +1,38 @@
+{
+  "id": 924,
+  "name": "Vendor Purchase Buffer",
+  "slug": "924_vendor_purchase_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period that you want to view."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies purchase statistics for each vendor for a period of time, starting on the date that you specify."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Balance Due (LCY)",
+      "tooltip": "Specifies the balance due to the vendor, in local currency."
+    },
+    {
+      "no": 11,
+      "name": "Purchases (LCY)",
+      "tooltip": "Specifies the purchases, in local currency."
+    }
+  ]
+}

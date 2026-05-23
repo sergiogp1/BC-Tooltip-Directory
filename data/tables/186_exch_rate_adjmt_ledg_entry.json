@@ -1,0 +1,88 @@
+{
+  "id": 186,
+  "name": "Exch. Rate Adjmt. Ledg. Entry",
+  "slug": "186_exch_rate_adjmt_ledg_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Register No.",
+      "tooltip": "Specifies the register number of the entry."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the entry is linked to."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the customer entry's posting date."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type that the customer entry belongs to."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the entry's document number."
+    },
+    {
+      "no": 8,
+      "name": "Due Date",
+      "tooltip": "Specifies the due date on the entry."
+    },
+    {
+      "no": 9,
+      "name": "Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Account Name",
+      "tooltip": "Specifies the account name that the entry is linked to."
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 12,
+      "name": "Currency Factor",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 15,
+      "name": "Base Amount",
+      "tooltip": "Specifies the amount that remains to be applied to before the entry has been completely applied."
+    },
+    {
+      "no": 16,
+      "name": "Base Amount (LCY)",
+      "tooltip": "Specifies the amount that remains to be applied to before the entry is totally applied to."
+    },
+    {
+      "no": 17,
+      "name": "Adjustment Amount",
+      "tooltip": "Specifies the exchange rate adjustment amount for the entry."
+    },
+    {
+      "no": 19,
+      "name": "Detailed Ledger Entry Type",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Detailed Ledger Entry No.",
+      "tooltip": "Specifies the number of the detailed customer or vendor ledger entry, related to register ledger entry."
+    }
+  ]
+}

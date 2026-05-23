@@ -1,0 +1,63 @@
+{
+  "id": 5603,
+  "name": "FA Setup",
+  "slug": "5603_fa_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Allow Posting to Main Assets",
+      "tooltip": "Specifies whether you have split your fixed assets into main assets and components, and you want to be able to post directly to main assets."
+    },
+    {
+      "no": 4,
+      "name": "Default Depr. Book",
+      "tooltip": "Specifies the default depreciation book on journal lines and purchase lines and when you run batch jobs and reports."
+    },
+    {
+      "no": 5,
+      "name": "Allow FA Posting From",
+      "tooltip": "Specifies the earliest date when posting to the fixed assets is allowed."
+    },
+    {
+      "no": 6,
+      "name": "Allow FA Posting To",
+      "tooltip": "Specifies the latest date when posting to the fixed assets is allowed."
+    },
+    {
+      "no": 7,
+      "name": "Insurance Depr. Book",
+      "tooltip": "Specifies a depreciation book code. If you use the insurance facilities, you must enter a code to post insurance coverage ledger entries."
+    },
+    {
+      "no": 8,
+      "name": "Automatic Insurance Posting",
+      "tooltip": "Specifies you want to post insurance coverage ledger entries when you post acquisition cost entries with the Insurance No. field filled in."
+    },
+    {
+      "no": 9,
+      "name": "Fixed Asset Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to fixed assets."
+    },
+    {
+      "no": 10,
+      "name": "Insurance Nos.",
+      "tooltip": "Specifies the number series code that will be used to assign numbers to insurance policies."
+    },
+    {
+      "no": 11,
+      "name": "Bonus Depreciation %",
+      "tooltip": "Specifies the percentage of bonus depreciation allowed for fixed assets."
+    },
+    {
+      "no": 12,
+      "name": "Bonus Depr. Effective Date",
+      "tooltip": "Specifies the date when bonus depreciation becomes effective for fixed assets."
+    }
+  ]
+}

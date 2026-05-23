@@ -1,0 +1,173 @@
+{
+  "id": 520,
+  "name": "Availability Info. Buffer",
+  "slug": "520_availability_info_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Lot No.",
+      "tooltip": "Specifies a location code for the warehouse or distribution center where your items are handled and stored before being sold."
+    },
+    {
+      "no": 4,
+      "name": "Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Package No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Expiration Date",
+      "tooltip": "Specifies expiration date for the specified lot."
+    },
+    {
+      "no": 7,
+      "name": "Quality",
+      "tooltip": "Specifies the test quality of the specified lot."
+    },
+    {
+      "no": 8,
+      "name": "Certificate Number",
+      "tooltip": "Specifies the certificate number of the specified lot."
+    },
+    {
+      "no": 9,
+      "name": "Blocked",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Inventory",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Variant Code Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Location Code Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Lot No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Qty. In Hand",
+      "tooltip": "Specifies the inventory level of an item."
+    },
+    {
+      "no": 31,
+      "name": "Gross Requirement",
+      "tooltip": "Specifies the sum of the total demand for the item. The gross requirement consists of independent demand (which include sales orders, service orders, transfer orders, and demand forecasts) and dependent demand (which include production order components for planned, firm planned, and released production orders and requisition and planning worksheets lines)."
+    },
+    {
+      "no": 32,
+      "name": "Planned Order Receipt",
+      "tooltip": "Specifies the item's availability figures for the planned order receipt."
+    },
+    {
+      "no": 33,
+      "name": "Scheduled Receipt",
+      "tooltip": "Specifies the sum of items from replenishment orders."
+    },
+    {
+      "no": 34,
+      "name": "Available Inventory",
+      "tooltip": "Specifies the quantity of the item that is currently in inventory and not reserved for other demand."
+    },
+    {
+      "no": 503,
+      "name": "Qty. on Sales Order",
+      "tooltip": ""
+    },
+    {
+      "no": 504,
+      "name": "Qty. on Service Order",
+      "tooltip": ""
+    },
+    {
+      "no": 505,
+      "name": "Qty. on Job Order",
+      "tooltip": ""
+    },
+    {
+      "no": 506,
+      "name": "Qty. on Component Lines",
+      "tooltip": ""
+    },
+    {
+      "no": 507,
+      "name": "Qty. on Trans. Order Shipment",
+      "tooltip": ""
+    },
+    {
+      "no": 509,
+      "name": "Qty. on Asm. Component",
+      "tooltip": ""
+    },
+    {
+      "no": 510,
+      "name": "Qty. on Purch. Return",
+      "tooltip": ""
+    },
+    {
+      "no": 511,
+      "name": "Qty. on Purch. Order",
+      "tooltip": ""
+    },
+    {
+      "no": 512,
+      "name": "Planned Order Receipt (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 513,
+      "name": "Purch. Req. Receipt (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 514,
+      "name": "Qty. on Prod. Receipt",
+      "tooltip": ""
+    },
+    {
+      "no": 516,
+      "name": "Qty. on Trans. Order Receipt",
+      "tooltip": ""
+    },
+    {
+      "no": 517,
+      "name": "Qty. on Assembly Order",
+      "tooltip": ""
+    },
+    {
+      "no": 518,
+      "name": "Qty. on Sales Return",
+      "tooltip": ""
+    },
+    {
+      "no": 99000777,
+      "name": "Qty. on Prod. Order",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 5742,
+  "name": "Transfer Route",
+  "slug": "5742_transfer_route",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Transfer-from Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Transfer-to Code",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "In-Transit Code",
+      "tooltip": "Specifies the in-transit code for the transfer order, such as a shipping agent."
+    },
+    {
+      "no": 5,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies the code for the shipping agent who is transporting the items."
+    },
+    {
+      "no": 6,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent."
+    }
+  ]
+}

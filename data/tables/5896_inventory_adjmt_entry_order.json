@@ -1,0 +1,153 @@
+{
+  "id": 5896,
+  "name": "Inventory Adjmt. Entry (Order)",
+  "slug": "5896_inventory_adjmt_entry_order",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Order Type",
+      "tooltip": "Specifies which type of order that the entry was created in."
+    },
+    {
+      "no": 2,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the order that the entry was created in."
+    },
+    {
+      "no": 3,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the line number of the order that the entry was created in."
+    },
+    {
+      "no": 4,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number."
+    },
+    {
+      "no": 21,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Cost is Adjusted",
+      "tooltip": "Specifies whether the cost of the order has been adjusted."
+    },
+    {
+      "no": 30,
+      "name": "Allow Online Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Direct Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Indirect Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Single-Level Material Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Single-Level Capacity Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Single-Level Subcontrd. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Single-Level Cap. Ovhd Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Single-Level Mfg. Ovhd Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Direct Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Indirect Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Single-Lvl Material Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Single-Lvl Capacity Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Single-Lvl Subcontrd Cost(ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Single-Lvl Cap. Ovhd Cost(ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Single-Lvl Mfg. Ovhd Cost(ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Completely Invoiced",
+      "tooltip": "Specifies whether the entry has been fully invoiced."
+    },
+    {
+      "no": 62,
+      "name": "Is Finished",
+      "tooltip": "Specifies that the order is finished and that its cost will be adjusted."
+    },
+    {
+      "no": 70,
+      "name": "Direct Cost Non-Inventory",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Direct Cost Non-Inv. (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Single-Lvl Mat. Non-Invt. Cost",
+      "tooltip": "Specifies the total Non-inventory material cost of all components on the parent item's BOM."
+    },
+    {
+      "no": 73,
+      "name": "Single-Lvl Mat.NonInvCost(ACY)",
+      "tooltip": ""
+    }
+  ]
+}

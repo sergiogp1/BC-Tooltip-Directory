@@ -1,0 +1,48 @@
+{
+  "id": 2585,
+  "name": "Dim Correct Selection Criteria",
+  "slug": "2585_dim_correct_selection_criteria",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Dimension Correction Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Selection Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Filter Type",
+      "tooltip": "Specifies the type of the selection."
+    },
+    {
+      "no": 5,
+      "name": "Dimension Set IDs",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Last Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Language Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "UTF16 Encoding",
+      "tooltip": ""
+    }
+  ]
+}

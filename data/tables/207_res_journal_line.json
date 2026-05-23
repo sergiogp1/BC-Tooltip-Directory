@@ -1,0 +1,213 @@
+{
+  "id": 207,
+  "name": "Res. Journal Line",
+  "slug": "207_res_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Entry Type",
+      "tooltip": "Specifies an entry type for each line."
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the journal line."
+    },
+    {
+      "no": 5,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when you want to assign."
+    },
+    {
+      "no": 6,
+      "name": "Resource No.",
+      "tooltip": "Specifies the number of the resource that you want to post an entry for."
+    },
+    {
+      "no": 7,
+      "name": "Resource Group No.",
+      "tooltip": "Specifies the resource group that this resource is assigned to."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description or name of the resource you chose in the Resource No. field."
+    },
+    {
+      "no": 9,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to. Prices are updated based on this entry."
+    },
+    {
+      "no": 10,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 11,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 12,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the item or resource specified on the line."
+    },
+    {
+      "no": 13,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 14,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 15,
+      "name": "Total Cost",
+      "tooltip": "Specifies the total cost for this journal line."
+    },
+    {
+      "no": 16,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 17,
+      "name": "Total Price",
+      "tooltip": "Specifies the total price on the journal line."
+    },
+    {
+      "no": 18,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 19,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 21,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 25,
+      "name": "Recurring Method",
+      "tooltip": "Specifies what happens to the quantity on the journal line after posting."
+    },
+    {
+      "no": 26,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the last date when a recurring journal can be posted."
+    },
+    {
+      "no": 27,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies a recurring frequency if you have indicated in the Recurring field of the Res. Journal Template the journal is recurring."
+    },
+    {
+      "no": 28,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 29,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 30,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 31,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 32,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Order Type",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 950,
+      "name": "Time Sheet No.",
+      "tooltip": "Specifies the number of a time sheet."
+    },
+    {
+      "no": 951,
+      "name": "Time Sheet Line No.",
+      "tooltip": "Specifies the line number for a time sheet."
+    },
+    {
+      "no": 952,
+      "name": "Time Sheet Date",
+      "tooltip": "Specifies the date when a time sheet is created."
+    },
+    {
+      "no": 959,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    }
+  ]
+}

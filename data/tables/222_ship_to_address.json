@@ -1,0 +1,143 @@
+{
+  "id": 222,
+  "name": "Ship-to Address",
+  "slug": "222_ship_to_address",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer number."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a ship-to address code."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name associated with the ship-to address."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the ship-to address."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city the items are being shipped to."
+    },
+    {
+      "no": 8,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you contact about orders shipped to this address."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the recipient's telephone number."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies a code for the salesperson who normally handles this customer's recipient."
+    },
+    {
+      "no": 30,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies a code for the shipment method to be used for the recipient."
+    },
+    {
+      "no": 31,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies the code for the shipping agent who is transporting the items."
+    },
+    {
+      "no": 32,
+      "name": "Place of Export",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the ship-to address was last modified."
+    },
+    {
+      "no": 83,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code to be used for the recipient."
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the recipient's fax number."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "GLN",
+      "tooltip": "Specifies the recipient's GLN code."
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the state, province, or county as a part of the address."
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the recipient's email address."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the recipient's web site."
+    },
+    {
+      "no": 108,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 5792,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent."
+    }
+  ]
+}

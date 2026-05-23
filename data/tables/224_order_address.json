@@ -1,0 +1,98 @@
+{
+  "id": 224,
+  "name": "Order Address",
+  "slug": "224_order_address",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Vendor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies an order-from address code."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the company name for the order address."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the street address."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 8,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact when you do business with this vendor at this address."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number that is associated with the order address."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when this order address was last modified."
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number associated with the order address."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the county of the address."
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address associated with the order address."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the recipient's web site."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 7156,
+  "name": "Item Analysis View Budg. Entry",
+  "slug": "7156_item_analysis_view_budg_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Analysis View Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Budget Name",
+      "tooltip": "Specifies the name of the budget that the analysis view budget entries are linked to."
+    },
+    {
+      "no": 4,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that the analysis view budget entry is linked to."
+    },
+    {
+      "no": 5,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location to which the analysis view budget entry was posted."
+    },
+    {
+      "no": 9,
+      "name": "Dimension 1 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 1 on the analysis view card."
+    },
+    {
+      "no": 10,
+      "name": "Dimension 2 Value Code",
+      "tooltip": "Specifies which dimension value you have selected for the analysis view dimension that you defined as Dimension 2 on the analysis view card."
+    },
+    {
+      "no": 11,
+      "name": "Dimension 3 Value Code",
+      "tooltip": "Specifies which dimension value you have selected for the analysis view dimension that you defined as Dimension 1 on the analysis view card."
+    },
+    {
+      "no": 12,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date on which the item budget entries in an analysis view budget entry were posted."
+    },
+    {
+      "no": 13,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Quantity",
+      "tooltip": "Specifies the item budget entry quantity included in an analysis view budget entry."
+    },
+    {
+      "no": 22,
+      "name": "Sales Amount",
+      "tooltip": "Specifies the item budget entry sales amount included in an analysis view budget entry."
+    },
+    {
+      "no": 23,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the item budget entry cost amount included in an analysis view budget entry."
+    }
+  ]
+}

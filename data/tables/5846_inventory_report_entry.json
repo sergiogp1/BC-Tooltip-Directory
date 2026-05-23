@@ -1,0 +1,213 @@
+{
+  "id": 5846,
+  "name": "Inventory Report Entry",
+  "slug": "5846_inventory_report_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Inventory",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 9,
+      "name": "Inventory (Interim)",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 10,
+      "name": "WIP Inventory",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 11,
+      "name": "Direct Cost Applied Actual",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 12,
+      "name": "Overhead Applied Actual",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 13,
+      "name": "Purchase Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 14,
+      "name": "Inventory Adjmt.",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 16,
+      "name": "Invt. Accrual (Interim)",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 17,
+      "name": "COGS",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 18,
+      "name": "COGS (Interim)",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 19,
+      "name": "Material Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 20,
+      "name": "Capacity Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 21,
+      "name": "Subcontracted Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 22,
+      "name": "Capacity Overhead Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 23,
+      "name": "Mfg. Overhead Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 28,
+      "name": "Total",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "G/L Total",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Type",
+      "tooltip": "Specifies whether the inventory report entry refers to an item or a general ledger account."
+    },
+    {
+      "no": 32,
+      "name": "Direct Cost Applied WIP",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 33,
+      "name": "Overhead Applied WIP",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 35,
+      "name": "Inventory To WIP",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 36,
+      "name": "WIP To Interim",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 37,
+      "name": "Direct Cost Applied",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 38,
+      "name": "Overhead Applied",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    },
+    {
+      "no": 39,
+      "name": "Description",
+      "tooltip": "Specifies a value that depends on the type of the inventory report entry."
+    },
+    {
+      "no": 40,
+      "name": "Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Cost is Posted to G/L Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Expected Cost Posting Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Compression Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Posting Group Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Direct Postings Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Posting Date Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Closing Period Overlap Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Similar Accounts Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Deleted G/L Accounts Warning",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Mat. Non-Inventory Variance",
+      "tooltip": "Specifies a value that depends on the type of the inventory period entry."
+    }
+  ]
+}

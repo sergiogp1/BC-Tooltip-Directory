@@ -1,0 +1,63 @@
+{
+  "id": 1108,
+  "name": "Cost Accounting Setup",
+  "slug": "1108_cost_accounting_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Starting Date for G/L Transfer",
+      "tooltip": "Specifies the starting date of when general ledger entries are transferred to cost accounting."
+    },
+    {
+      "no": 3,
+      "name": "Align G/L Account",
+      "tooltip": "Specifies how changes in the chart of accounts are carried over to the chart of cost types."
+    },
+    {
+      "no": 4,
+      "name": "Align Cost Center Dimension",
+      "tooltip": "Specifies how changes in dimensions are carried over to the chart of cost centers."
+    },
+    {
+      "no": 5,
+      "name": "Align Cost Object Dimension",
+      "tooltip": "Specifies how changes in dimensions are carried over to the chart of cost centers."
+    },
+    {
+      "no": 20,
+      "name": "Last Allocation ID",
+      "tooltip": "Specifies a number series for allocations."
+    },
+    {
+      "no": 30,
+      "name": "Last Allocation Doc. No.",
+      "tooltip": "Specifies the last document number that is assigned to all the entries that were generated with the same allocation ID during allocation."
+    },
+    {
+      "no": 100,
+      "name": "Auto Transfer from G/L",
+      "tooltip": "Specifies that the cost accounting is updated in the general ledger after every posting."
+    },
+    {
+      "no": 120,
+      "name": "Check G/L Postings",
+      "tooltip": "Specifies if the predefined cost center or cost object already exists in cost accounting when you post to the general ledger."
+    },
+    {
+      "no": 205,
+      "name": "Cost Center Dimension",
+      "tooltip": "Specifies the cost center code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 206,
+      "name": "Cost Object Dimension",
+      "tooltip": "Specifies the cost object code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    }
+  ]
+}

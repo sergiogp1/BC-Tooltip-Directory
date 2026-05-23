@@ -1,0 +1,23 @@
+{
+  "id": 321,
+  "name": "Tax Group",
+  "slug": "321_tax_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code you want to assign to this tax group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the tax group. For example, if the tax group code is ALCOHOL, you could enter the description Alcoholic beverages."
+    },
+    {
+      "no": 8005,
+      "name": "Last Modified DateTime",
+      "tooltip": ""
+    }
+  ]
+}

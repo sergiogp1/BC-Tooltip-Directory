@@ -1,0 +1,48 @@
+{
+  "id": 140,
+  "name": "License Agreement",
+  "slug": "140_license_agreement",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Message for Accepting User",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Effective Date",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Effective Date Changed By",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Effective Date Changed On",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Accepted",
+      "tooltip": "Specifies if the license agreement was accepted."
+    },
+    {
+      "no": 7,
+      "name": "Accepted By",
+      "tooltip": "Specifies the person that accepted the license agreement."
+    },
+    {
+      "no": 8,
+      "name": "Accepted On",
+      "tooltip": "Specifies the date the license agreement is accepted."
+    }
+  ]
+}

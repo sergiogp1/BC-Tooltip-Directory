@@ -1,0 +1,78 @@
+{
+  "id": 1600,
+  "name": "Office Add-in Context",
+  "slug": "1600_office_add_in_context",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Email",
+      "tooltip": "Specifies the email address of the Outlook contact."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the display name of the Outlook contact."
+    },
+    {
+      "no": 3,
+      "name": "Document Type",
+      "tooltip": "Specifies the type that the involved document belongs to."
+    },
+    {
+      "no": 4,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the involved document."
+    },
+    {
+      "no": 5,
+      "name": "Regular Expression Match",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Duration",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Command",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Item ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Version",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Subject",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Item Type",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Mode",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Company",
+      "tooltip": ""
+    }
+  ]
+}

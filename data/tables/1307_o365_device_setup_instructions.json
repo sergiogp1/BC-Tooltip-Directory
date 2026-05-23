@@ -1,0 +1,18 @@
+{
+  "id": 1307,
+  "name": "O365 Device Setup Instructions",
+  "slug": "1307_o365_device_setup_instructions",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Key",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "QR Code",
+      "tooltip": ""
+    }
+  ]
+}

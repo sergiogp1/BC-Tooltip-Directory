@@ -1,0 +1,58 @@
+{
+  "id": 5954,
+  "name": "Work-Hour Template",
+  "slug": "5954_work_hour_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the work-hour template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the work-hour template."
+    },
+    {
+      "no": 3,
+      "name": "Monday",
+      "tooltip": "Specifies the number of work-hours on Monday."
+    },
+    {
+      "no": 4,
+      "name": "Tuesday",
+      "tooltip": "Specifies the number of work-hours on Tuesday."
+    },
+    {
+      "no": 5,
+      "name": "Wednesday",
+      "tooltip": "Specifies the number of work-hours on Wednesday."
+    },
+    {
+      "no": 6,
+      "name": "Thursday",
+      "tooltip": "Specifies the number of work-hours on Thursday."
+    },
+    {
+      "no": 7,
+      "name": "Friday",
+      "tooltip": "Specifies the number of work-hours on Friday."
+    },
+    {
+      "no": 8,
+      "name": "Saturday",
+      "tooltip": "Specifies the number of work-hours on Saturday."
+    },
+    {
+      "no": 9,
+      "name": "Sunday",
+      "tooltip": "Specifies the number of work-hours on Sunday."
+    },
+    {
+      "no": 10,
+      "name": "Total per Week",
+      "tooltip": "Specifies the total number of work-hours per week for the work-hour template."
+    }
+  ]
+}

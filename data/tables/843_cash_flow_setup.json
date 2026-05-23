@@ -1,0 +1,143 @@
+{
+  "id": 843,
+  "name": "Cash Flow Setup",
+  "slug": "843_cash_flow_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Cash Flow Forecast No. Series",
+      "tooltip": "Specifies the number series that is used in cash flow forecasts."
+    },
+    {
+      "no": 3,
+      "name": "Receivables CF Account No.",
+      "tooltip": "Specifies the receivables account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 4,
+      "name": "Payables CF Account No.",
+      "tooltip": "Specifies the payables account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 5,
+      "name": "Sales Order CF Account No.",
+      "tooltip": "Specifies the sales order account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 6,
+      "name": "Purch. Order CF Account No.",
+      "tooltip": "Specifies the purchase order account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 8,
+      "name": "FA Budget CF Account No.",
+      "tooltip": "Specifies the fixed asset budget account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 9,
+      "name": "FA Disposal CF Account No.",
+      "tooltip": "Specifies the fixed asset disposal account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 11,
+      "name": "CF No. on Chart in Role Center",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Job CF Account No.",
+      "tooltip": "Specifies the project account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 13,
+      "name": "Automatic Update Frequency",
+      "tooltip": "Specifies the automatic update frequency of the cash flow forecast. The Cash Flow Forecast with \"Show in Chart on Role Center\" set will be used for the automatic update."
+    },
+    {
+      "no": 14,
+      "name": "Tax CF Account No.",
+      "tooltip": "Specifies the tax account number that is used in cash flow forecasts."
+    },
+    {
+      "no": 19,
+      "name": "Taxable Period",
+      "tooltip": "Specifies how often tax payment is registered."
+    },
+    {
+      "no": 20,
+      "name": "Tax Payment Window",
+      "tooltip": "Specifies a date formula for calculating how soon after the previous tax period finished, the tax payment is registered."
+    },
+    {
+      "no": 21,
+      "name": "Tax Bal. Account Type",
+      "tooltip": "Specifies the type of the balancing account that your taxes are paid to."
+    },
+    {
+      "no": 22,
+      "name": "Tax Bal. Account No.",
+      "tooltip": "Specifies the balancing account that your taxes are paid to."
+    },
+    {
+      "no": 23,
+      "name": "API Key",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "API URL",
+      "tooltip": "Specifies the API URI to the AzureML instance."
+    },
+    {
+      "no": 25,
+      "name": "Variance %",
+      "tooltip": "Specifies the range of deviation, plus or minus, that you'll accept in the forecast. Lower percentages represent more accurate forecasts, and are typically between 20 and 40. Forecasts outside the range are considered inaccurate, and do not display."
+    },
+    {
+      "no": 26,
+      "name": "Historical Periods",
+      "tooltip": "Specifies the number of historical periods to include in the forecast."
+    },
+    {
+      "no": 27,
+      "name": "Horizon",
+      "tooltip": "Specifies how many periods you want the forecast to cover."
+    },
+    {
+      "no": 28,
+      "name": "Period Type",
+      "tooltip": "Specifies the type of period that you want to see the forecast by."
+    },
+    {
+      "no": 29,
+      "name": "TimeOut",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Service Pass API Key ID",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Time Series Model",
+      "tooltip": "Specifies the time series model to be used for the cash flow forecast."
+    },
+    {
+      "no": 34,
+      "name": "Azure AI Enabled",
+      "tooltip": "Specifies status of Azure AI forecast."
+    },
+    {
+      "no": 35,
+      "name": "Show AzureAI Notification",
+      "tooltip": ""
+    }
+  ]
+}

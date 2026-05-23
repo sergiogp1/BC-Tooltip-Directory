@@ -1,0 +1,23 @@
+{
+  "id": 7381,
+  "name": "Phys. Invt. Counting Period",
+  "slug": "7381_phys_invt_counting_period",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for physical inventory counting period."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the physical inventory counting period."
+    },
+    {
+      "no": 3,
+      "name": "Count Frequency per Year",
+      "tooltip": "Specifies the number of times you want the item or stockkeeping unit to be counted each year."
+    }
+  ]
+}

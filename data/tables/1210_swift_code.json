@@ -1,0 +1,18 @@
+{
+  "id": 1210,
+  "name": "SWIFT Code",
+  "slug": "1210_swift_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the SWIFT code."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the bank for the corresponding SWIFT code."
+    }
+  ]
+}

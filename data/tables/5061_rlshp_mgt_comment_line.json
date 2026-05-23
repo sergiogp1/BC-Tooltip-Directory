@@ -1,0 +1,48 @@
+{
+  "id": 5061,
+  "name": "Rlshp. Mgt. Comment Line",
+  "slug": "5061_rlshp_mgt_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Sub No.",
+      "tooltip": "Specifies the number of the stage within the sales cycle."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Date",
+      "tooltip": "Specifies the date the comment was created."
+    },
+    {
+      "no": 6,
+      "name": "Code",
+      "tooltip": "Specifies the code for the comment."
+    },
+    {
+      "no": 7,
+      "name": "Comment",
+      "tooltip": "Specifies the comment itself."
+    },
+    {
+      "no": 8,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    }
+  ]
+}

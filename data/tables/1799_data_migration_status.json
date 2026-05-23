@@ -1,0 +1,53 @@
+{
+  "id": 1799,
+  "name": "Data Migration Status",
+  "slug": "1799_data_migration_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Migration Type",
+      "tooltip": "Specifies the type of data migration."
+    },
+    {
+      "no": 2,
+      "name": "Destination Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Total Number",
+      "tooltip": "Specifies the total number of records that were migrated."
+    },
+    {
+      "no": 4,
+      "name": "Migrated Number",
+      "tooltip": "Specifies the number of records that were migrated."
+    },
+    {
+      "no": 5,
+      "name": "Progress Percent",
+      "tooltip": "Specifies the progress of the data migration."
+    },
+    {
+      "no": 6,
+      "name": "Status",
+      "tooltip": "Specifies the status of the data migration."
+    },
+    {
+      "no": 7,
+      "name": "Source Staging Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Migration Codeunit To Run",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Error Count",
+      "tooltip": "Specifies how many records could not be migrated because of an error."
+    }
+  ]
+}

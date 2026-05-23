@@ -1,0 +1,68 @@
+{
+  "id": 1200,
+  "name": "Bank Export/Import Setup",
+  "slug": "1200_bank_export_import_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the Bank Export/Import setup."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the bank export/import setup."
+    },
+    {
+      "no": 3,
+      "name": "Direction",
+      "tooltip": "Specifies if this setup will be used to import a bank file or to export a bank file."
+    },
+    {
+      "no": 4,
+      "name": "Processing Codeunit ID",
+      "tooltip": "Specifies the codeunit that will import the bank statement data."
+    },
+    {
+      "no": 5,
+      "name": "Processing Codeunit Name",
+      "tooltip": "Specifies the name of the codeunit that will import the bank statement data."
+    },
+    {
+      "no": 6,
+      "name": "Processing XMLport ID",
+      "tooltip": "Specifies the XMLport through which the bank statement data is imported."
+    },
+    {
+      "no": 7,
+      "name": "Processing XMLport Name",
+      "tooltip": "Specifies the name of the XMLport through which the bank statement data is imported."
+    },
+    {
+      "no": 8,
+      "name": "Data Exch. Def. Code",
+      "tooltip": "Specifies a code that represents the xml file with a data exchange definition that you have created in the Data Exchange Framework."
+    },
+    {
+      "no": 9,
+      "name": "Data Exch. Def. Name",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Preserve Non-Latin Characters",
+      "tooltip": "Specifies that non-latin characters in the bank statement files are preserved during import."
+    },
+    {
+      "no": 11,
+      "name": "Check Export Codeunit",
+      "tooltip": "Specifies the codeunit that validates payment lines when you use the Export Payments to File action in the Payment Journal window."
+    },
+    {
+      "no": 12,
+      "name": "Check Export Codeunit Name",
+      "tooltip": "Specifies the name of the codeunit that validates payment lines when you use the Export Payments to File action in the Payment Journal window."
+    }
+  ]
+}

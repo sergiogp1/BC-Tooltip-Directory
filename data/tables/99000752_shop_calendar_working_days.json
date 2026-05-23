@@ -1,0 +1,33 @@
+{
+  "id": 99000752,
+  "name": "Shop Calendar Working Days",
+  "slug": "99000752_shop_calendar_working_days",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Shop Calendar Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Day",
+      "tooltip": "Specifies your working days of the week."
+    },
+    {
+      "no": 3,
+      "name": "Work Shift Code",
+      "tooltip": "Specifies the work shift that this working day refers to."
+    },
+    {
+      "no": 4,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the shift for this working day."
+    },
+    {
+      "no": 5,
+      "name": "Ending Time",
+      "tooltip": "Specifies the ending time of the shift for this working day."
+    }
+  ]
+}

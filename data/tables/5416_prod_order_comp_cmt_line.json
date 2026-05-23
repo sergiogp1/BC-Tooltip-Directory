@@ -1,0 +1,48 @@
+{
+  "id": 5416,
+  "name": "Prod. Order Comp. Cmt Line",
+  "slug": "5416_prod_order_comp_cmt_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Prod. Order BOM Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies the actual comment text."
+    },
+    {
+      "no": 13,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comments."
+    },
+    {
+      "no": 22,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Prod. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Prod. Order Line No.",
+      "tooltip": ""
+    }
+  ]
+}

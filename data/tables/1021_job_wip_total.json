@@ -1,0 +1,113 @@
+{
+  "id": 1021,
+  "name": "Job WIP Total",
+  "slug": "1021_job_wip_total",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Job No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the project task that is associated with the project WIP total. The project task number is generally the final task in a group of tasks that is set to Total or the last project task line."
+    },
+    {
+      "no": 4,
+      "name": "WIP Method",
+      "tooltip": "Specifies the name of the work in process (WIP) calculation method that is associated with a project. The value in the field comes from the WIP method specified on the project card."
+    },
+    {
+      "no": 5,
+      "name": "WIP Posting Date",
+      "tooltip": "Specifies the date when work in process (WIP) was last calculated and entered in the Project WIP Entries window."
+    },
+    {
+      "no": 6,
+      "name": "WIP Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "WIP Planning Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "WIP Warnings",
+      "tooltip": "Specifies if there are WIP warnings associated with a project for which you have calculated WIP."
+    },
+    {
+      "no": 9,
+      "name": "Posted to G/L",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Schedule (Total Cost)",
+      "tooltip": "Specifies the total of the budgeted costs for the project."
+    },
+    {
+      "no": 11,
+      "name": "Schedule (Total Price)",
+      "tooltip": "Specifies the total of the budgeted prices for the project."
+    },
+    {
+      "no": 12,
+      "name": "Usage (Total Cost)",
+      "tooltip": "Specifies project usage in relation to total cost up to the date of the last project WIP calculation."
+    },
+    {
+      "no": 13,
+      "name": "Usage (Total Price)",
+      "tooltip": "Specifies project usage in relation to total price up to the date of the last project WIP calculation."
+    },
+    {
+      "no": 14,
+      "name": "Contract (Total Cost)",
+      "tooltip": "Specifies the value of the billable in relation to total cost up to the date of the last project WIP calculation."
+    },
+    {
+      "no": 15,
+      "name": "Contract (Total Price)",
+      "tooltip": "Specifies the value of the billable in relation to the total price up to the date of the last project WIP calculation."
+    },
+    {
+      "no": 16,
+      "name": "Contract (Invoiced Price)",
+      "tooltip": "Specifies the price amount that has been invoiced and posted in relation to the billable for the current WIP calculation."
+    },
+    {
+      "no": 17,
+      "name": "Contract (Invoiced Cost)",
+      "tooltip": "Specifies the cost amount that has been invoiced and posted in relation to the billable for the current WIP calculation."
+    },
+    {
+      "no": 20,
+      "name": "Calc. Recog. Sales Amount",
+      "tooltip": "Specifies the calculated sum of recognized sales amounts in the current WIP calculation."
+    },
+    {
+      "no": 21,
+      "name": "Calc. Recog. Costs Amount",
+      "tooltip": "Specifies the calculated sum of recognized costs amounts in the current WIP calculation."
+    },
+    {
+      "no": 30,
+      "name": "Cost Completion %",
+      "tooltip": "Specifies the cost completion percentage for project tasks that have been budgeted in the current WIP calculation."
+    },
+    {
+      "no": 31,
+      "name": "Invoiced %",
+      "tooltip": "Specifies the percentage of contracted project tasks that have been invoiced in the current WIP calculation."
+    }
+  ]
+}

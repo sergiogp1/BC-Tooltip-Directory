@@ -1,0 +1,73 @@
+{
+  "id": 9804,
+  "name": "Recorded Event Buffer",
+  "slug": "9804_recorded_event_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Session ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Object Type",
+      "tooltip": "Specifies the type of object that contains the called event."
+    },
+    {
+      "no": 3,
+      "name": "Object ID",
+      "tooltip": "Specifies the ID of the object that contains the called event."
+    },
+    {
+      "no": 4,
+      "name": "Object Name",
+      "tooltip": "Specifies the name of the object that contains the called event."
+    },
+    {
+      "no": 5,
+      "name": "Event Name",
+      "tooltip": "Specifies the name of the called event."
+    },
+    {
+      "no": 6,
+      "name": "Event Type",
+      "tooltip": "Specifies the type of the event that is called."
+    },
+    {
+      "no": 7,
+      "name": "Call Order",
+      "tooltip": "Specifies the order in which the events are called."
+    },
+    {
+      "no": 8,
+      "name": "Element Name",
+      "tooltip": "Specifies the name of the element in which the event is called."
+    },
+    {
+      "no": 9,
+      "name": "Calling Object Type",
+      "tooltip": "Specifies the type of the object that calls the event."
+    },
+    {
+      "no": 10,
+      "name": "Calling Object ID",
+      "tooltip": "Specifies the ID of the object that calls the event."
+    },
+    {
+      "no": 11,
+      "name": "Calling Object Name",
+      "tooltip": "Specifies the name of the object that calls the event."
+    },
+    {
+      "no": 12,
+      "name": "Calling Method",
+      "tooltip": "Specifies the name of method that calls the event."
+    },
+    {
+      "no": 13,
+      "name": "Hit Count",
+      "tooltip": "Specifies the number of time this event is called consecutively."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 5345,
+  "name": "CRM Transactioncurrency",
+  "slug": "5345_crm_transactioncurrency",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "StateCode",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "CurrencySymbol",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "CurrencyName",
+      "tooltip": "Specifies the name of the currency."
+    },
+    {
+      "no": 13,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "ISOCurrencyCode",
+      "tooltip": "Specifies the ISO currency code, which is required in Dataverse."
+    },
+    {
+      "no": 15,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "CurrencyPrecision",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "EntityImageId",
+      "tooltip": ""
+    }
+  ]
+}

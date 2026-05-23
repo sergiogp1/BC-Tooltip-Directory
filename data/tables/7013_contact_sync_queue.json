@@ -1,0 +1,168 @@
+{
+  "id": 7013,
+  "name": "Contact Sync Queue",
+  "slug": "7013_contact_sync_queue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the entry number."
+    },
+    {
+      "no": 2,
+      "name": "Sync Direction",
+      "tooltip": "Specifies the sync direction."
+    },
+    {
+      "no": 3,
+      "name": "Contact ID",
+      "tooltip": "Specifies the contact ID from Business Central."
+    },
+    {
+      "no": 4,
+      "name": "Display Name",
+      "tooltip": "Specifies the display name."
+    },
+    {
+      "no": 5,
+      "name": "Given Name",
+      "tooltip": "Specifies the first name."
+    },
+    {
+      "no": 6,
+      "name": "Surname",
+      "tooltip": "Specifies the surname."
+    },
+    {
+      "no": 7,
+      "name": "Job Title",
+      "tooltip": "Specifies the job title."
+    },
+    {
+      "no": 8,
+      "name": "Company Name",
+      "tooltip": "Specifies the company name."
+    },
+    {
+      "no": 9,
+      "name": "Department",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Mobile Phone",
+      "tooltip": "Specifies the mobile phone."
+    },
+    {
+      "no": 11,
+      "name": "Business Phone",
+      "tooltip": "Specifies the business phone."
+    },
+    {
+      "no": 12,
+      "name": "Home Phone",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Email Address",
+      "tooltip": "Specifies the email address."
+    },
+    {
+      "no": 14,
+      "name": "Email 2",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Address",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "City",
+      "tooltip": "Specifies the city."
+    },
+    {
+      "no": 17,
+      "name": "County",
+      "tooltip": "Specifies the county/state."
+    },
+    {
+      "no": 18,
+      "name": "Post Code",
+      "tooltip": "Specifies the post code."
+    },
+    {
+      "no": 19,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region code."
+    },
+    {
+      "no": 20,
+      "name": "Middle Name",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Initials",
+      "tooltip": "Specifies the initials."
+    },
+    {
+      "no": 22,
+      "name": "Office Location",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Assistant Name",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Manager",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Home Page",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Personal Notes",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Categories",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Created DateTime",
+      "tooltip": "Specifies when the queue entry was created."
+    },
+    {
+      "no": 29,
+      "name": "Last Modified DateTime",
+      "tooltip": "Specifies when the contact was last modified."
+    },
+    {
+      "no": 30,
+      "name": "BC Contact No.",
+      "tooltip": "Specifies the BC contact number."
+    },
+    {
+      "no": 31,
+      "name": "Sync Status",
+      "tooltip": "Specifies the sync status."
+    },
+    {
+      "no": 32,
+      "name": "Error Message",
+      "tooltip": ""
+    }
+  ]
+}

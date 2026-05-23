@@ -1,0 +1,58 @@
+{
+  "id": 469,
+  "name": "Workflow Webhook Subscription",
+  "slug": "469_workflow_webhook_subscription",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": "Specifies the unique identifier for a subscription."
+    },
+    {
+      "no": 2,
+      "name": "WF Definition Id",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Conditions",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Notification Url",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Enabled",
+      "tooltip": "Specifies if the subscription is enabled."
+    },
+    {
+      "no": 6,
+      "name": "User Id",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Client Id",
+      "tooltip": "Specifies the id for the client from Power Automate."
+    },
+    {
+      "no": 8,
+      "name": "Client Type",
+      "tooltip": "Specifies the client type"
+    },
+    {
+      "no": 9,
+      "name": "Event Code",
+      "tooltip": "Specifies the event code for the workflow."
+    },
+    {
+      "no": 10,
+      "name": "Created Date",
+      "tooltip": ""
+    }
+  ]
+}

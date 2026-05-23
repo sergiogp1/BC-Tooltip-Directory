@@ -1,0 +1,228 @@
+{
+  "id": 5606,
+  "name": "FA Posting Group",
+  "slug": "5606_fa_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the G/L account that fixed asset expenses and costs are posted to when the fixed asset card contains this code."
+    },
+    {
+      "no": 2,
+      "name": "Acquisition Cost Account",
+      "tooltip": "Specifies the general ledger account number to post acquisition cost for fixed assets to in this posting group."
+    },
+    {
+      "no": 3,
+      "name": "Accum. Depreciation Account",
+      "tooltip": "Specifies the general ledger account number to post accumulated depreciation to when you post depreciation for fixed assets."
+    },
+    {
+      "no": 4,
+      "name": "Write-Down Account",
+      "tooltip": "Specifies the general ledger account number to post any write-downs for fixed assets to in this posting group."
+    },
+    {
+      "no": 5,
+      "name": "Appreciation Account",
+      "tooltip": "Specifies the general ledger account number to post appreciation transactions for fixed assets to in this posting group."
+    },
+    {
+      "no": 6,
+      "name": "Custom 1 Account",
+      "tooltip": "Specifies the general ledger account number to post Custom-1 transactions for fixed assets to in this posting group."
+    },
+    {
+      "no": 7,
+      "name": "Custom 2 Account",
+      "tooltip": "Specifies the general ledger account number to post Custom-2 transactions for fixed assets to in this posting group."
+    },
+    {
+      "no": 8,
+      "name": "Acq. Cost Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post acquisition cost to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 9,
+      "name": "Accum. Depr. Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post accumulated depreciation to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 10,
+      "name": "Write-Down Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post write-downs of fixed assets to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 11,
+      "name": "Appreciation Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post appreciation to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 12,
+      "name": "Custom 1 Account on Disposal",
+      "tooltip": "Specifies the general ledger account number to post Custom-1 transactions to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 13,
+      "name": "Custom 2 Account on Disposal",
+      "tooltip": "Specifies the general ledger account number to post Custom-2 transactions to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 14,
+      "name": "Gains Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post any gains to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 15,
+      "name": "Losses Acc. on Disposal",
+      "tooltip": "Specifies the general ledger account number to post any losses to when you dispose of fixed assets in this posting group."
+    },
+    {
+      "no": 16,
+      "name": "Book Val. Acc. on Disp. (Gain)",
+      "tooltip": "Specifies the G/L account number you want the program to post assets' book value to when you dispose of fixed assets at a gain on book value."
+    },
+    {
+      "no": 17,
+      "name": "Sales Acc. on Disp. (Gain)",
+      "tooltip": "Specifies the G/L account number you want to post sales to when you dispose of fixed assets at a gain on book value."
+    },
+    {
+      "no": 18,
+      "name": "Write-Down Bal. Acc. on Disp.",
+      "tooltip": "Specifies the general ledger balancing account number to post write-downs of fixed assets to when you dispose of fixed assets."
+    },
+    {
+      "no": 19,
+      "name": "Apprec. Bal. Acc. on Disp.",
+      "tooltip": "Specifies the general ledger balancing account number to post appreciation transactions of fixed assets to when you dispose of fixed assets."
+    },
+    {
+      "no": 20,
+      "name": "Custom 1 Bal. Acc. on Disposal",
+      "tooltip": "Specifies the general ledger balancing account number to post custom-1 transactions of fixed assets to when you dispose of fixed assets."
+    },
+    {
+      "no": 21,
+      "name": "Custom 2 Bal. Acc. on Disposal",
+      "tooltip": "Specifies the general ledger balancing account number to post custom-2 transactions of fixed assets to when you dispose of fixed assets."
+    },
+    {
+      "no": 22,
+      "name": "Maintenance Expense Account",
+      "tooltip": "Specifies the general ledger account number to post maintenance expenses for fixed assets to in this posting group."
+    },
+    {
+      "no": 23,
+      "name": "Maintenance Bal. Acc.",
+      "tooltip": "Specifies the general ledger balancing account number to post maintenance expenses for fixed assets to in this posting group."
+    },
+    {
+      "no": 24,
+      "name": "Acquisition Cost Bal. Acc.",
+      "tooltip": "Specifies the general ledger balancing account number to post acquisition cost for fixed assets to in this posting group."
+    },
+    {
+      "no": 25,
+      "name": "Depreciation Expense Acc.",
+      "tooltip": "Specifies the general ledger account number to post depreciation expense for fixed assets to in this posting group."
+    },
+    {
+      "no": 26,
+      "name": "Write-Down Expense Acc.",
+      "tooltip": "Specifies the general ledger balancing account number to post write-downs for fixed assets to in this posting group."
+    },
+    {
+      "no": 27,
+      "name": "Appreciation Bal. Account",
+      "tooltip": "Specifies the general ledger balancing account number to post appreciation for fixed assets to in this posting group."
+    },
+    {
+      "no": 28,
+      "name": "Custom 1 Expense Acc.",
+      "tooltip": "Specifies the general ledger balancing account number to post custom-1 transactions for fixed assets to in this posting group."
+    },
+    {
+      "no": 29,
+      "name": "Custom 2 Expense Acc.",
+      "tooltip": "Specifies the general ledger balancing account number to post custom-2 transactions for fixed assets to in this posting group."
+    },
+    {
+      "no": 30,
+      "name": "Sales Bal. Acc.",
+      "tooltip": "Specifies the general ledger balancing account to post sales when you dispose of fixed assets to in this posting group."
+    },
+    {
+      "no": 31,
+      "name": "Allocated Acquisition Cost %",
+      "tooltip": "Specifies the total percentage of acquisition cost that can be allocated when acquisition cost is posted."
+    },
+    {
+      "no": 32,
+      "name": "Allocated Depreciation %",
+      "tooltip": "Specifies the total percentage of depreciation that can be allocated when depreciation is posted."
+    },
+    {
+      "no": 33,
+      "name": "Allocated Write-Down %",
+      "tooltip": "Specifies the total percentage for write-down transactions that can be allocated when write-down transactions are posted."
+    },
+    {
+      "no": 34,
+      "name": "Allocated Appreciation %",
+      "tooltip": "Specifies the total percentage for appreciation transactions that can be allocated when appreciation transactions are posted."
+    },
+    {
+      "no": 35,
+      "name": "Allocated Custom 1 %",
+      "tooltip": "Specifies the total percentage for custom-1 transactions that can be allocated when custom-1 transactions are posted."
+    },
+    {
+      "no": 36,
+      "name": "Allocated Custom 2 %",
+      "tooltip": "Specifies the total percentage for custom-2 transactions that can be allocated when custom-2 transactions are posted."
+    },
+    {
+      "no": 37,
+      "name": "Allocated Sales Price %",
+      "tooltip": "Specifies the total percentage of sales price that can be allocated when sales are posted."
+    },
+    {
+      "no": 38,
+      "name": "Allocated Maintenance %",
+      "tooltip": "Specifies the total percentage for maintenance transactions that can be allocated when maintenance transactions are posted."
+    },
+    {
+      "no": 39,
+      "name": "Allocated Gain %",
+      "tooltip": "Specifies the total percentage of gains on fixed assets that can be allocated, when gains are involved in the disposal of fixed assets."
+    },
+    {
+      "no": 40,
+      "name": "Allocated Loss %",
+      "tooltip": "Specifies the total percentage for losses on fixed assets that can be allocated when losses are involved in the disposal of fixed assets."
+    },
+    {
+      "no": 41,
+      "name": "Allocated Book Value % (Gain)",
+      "tooltip": "Specifies the sum that applies to book value gains."
+    },
+    {
+      "no": 42,
+      "name": "Allocated Book Value % (Loss)",
+      "tooltip": "Specifies the sum that applies to book value gains."
+    },
+    {
+      "no": 43,
+      "name": "Sales Acc. on Disp. (Loss)",
+      "tooltip": "Specifies the G/L account number to which you want to post sales, when you dispose of fixed assets at a loss on book value."
+    },
+    {
+      "no": 44,
+      "name": "Book Val. Acc. on Disp. (Loss)",
+      "tooltip": "Specifies the G/L account number to which to post assets' book value, when you dispose of fixed assets at a loss on book value."
+    }
+  ]
+}

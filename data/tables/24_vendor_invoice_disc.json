@@ -1,0 +1,33 @@
+{
+  "id": 24,
+  "name": "Vendor Invoice Disc.",
+  "slug": "24_vendor_invoice_disc",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the contents of the Invoice Disc. Code field on the vendor card."
+    },
+    {
+      "no": 2,
+      "name": "Minimum Amount",
+      "tooltip": "Specifies the minimum amount that the order must total for the discount to be granted or the service charge levied. For discounts, only purchase lines where the Allow Invoice Disc. field is selected are included in the calculation."
+    },
+    {
+      "no": 3,
+      "name": "Discount %",
+      "tooltip": "Specifies the discount percentage that the vendor will grant if your company buys at least the amount in the Minimum Amount field."
+    },
+    {
+      "no": 4,
+      "name": "Service Charge",
+      "tooltip": "Specifies the amount of the service charge that the vendor will charge if your company purchases for at least the amount in the Minimum Amount field."
+    },
+    {
+      "no": 5,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for invoice discount terms."
+    }
+  ]
+}

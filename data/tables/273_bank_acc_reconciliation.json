@@ -1,0 +1,143 @@
+{
+  "id": 273,
+  "name": "Bank Acc. Reconciliation",
+  "slug": "273_bank_acc_reconciliation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number of the bank account that you want to reconcile with the bank's statement."
+    },
+    {
+      "no": 2,
+      "name": "Statement No.",
+      "tooltip": "Specifies the number of the bank account statement."
+    },
+    {
+      "no": 3,
+      "name": "Statement Ending Balance",
+      "tooltip": "Specifies the ending balance shown on the bank's statement that you want to reconcile with the bank account."
+    },
+    {
+      "no": 4,
+      "name": "Statement Date",
+      "tooltip": "Specifies the date on the bank account statement."
+    },
+    {
+      "no": 5,
+      "name": "Balance Last Statement",
+      "tooltip": "Specifies the ending balance shown on the last bank statement, which was used in the last posted bank reconciliation for this bank account."
+    },
+    {
+      "no": 6,
+      "name": "Bank Statement",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Total Balance on Bank Account",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Total Applied Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Total Transaction Amount",
+      "tooltip": "Specifies the sum of values in the Statement Amount field on all the lines in the Bank Acc. Reconciliation and Payment Reconciliation Journal windows."
+    },
+    {
+      "no": 10,
+      "name": "Total Unposted Applied Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Total Difference",
+      "tooltip": "Specifies the sum of values in the Difference field on all lines in the Bank Acc. Reconciliation window that belong to the bank account reconciliation."
+    },
+    {
+      "no": 12,
+      "name": "Total Paid Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Total Received Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Statement Type",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Post Payments Only",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Import Posted Transactions",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Total Outstd Bank Transactions",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Total Outstd Payments",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Bank Account Balance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Total Positive Adjustments",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Total Negative Adjustments",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Copy VAT Setup to Jnl. Line",
+      "tooltip": "Specifies whether the program to calculate VAT for accounts and balancing accounts on the journal line of the selected bank account reconciliation."
+    },
+    {
+      "no": 50,
+      "name": "Bank Account Name",
+      "tooltip": "Specifies the name of the bank account that you want to reconcile."
+    },
+    {
+      "no": 51,
+      "name": "Allow Duplicated Transactions",
+      "tooltip": "Specifies whether to allow bank account reconciliation lines to have the same transaction ID. Although it’s rare, this is useful when your bank statement file contains transactions with duplicate IDs. Most businesses leave this toggle turned off."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

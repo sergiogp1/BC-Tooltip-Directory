@@ -1,0 +1,258 @@
+{
+  "id": 5855,
+  "name": "Invt. Shipment Line",
+  "slug": "5855_invt_shipment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies the description associated with this line."
+    },
+    {
+      "no": 9,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of this line."
+    },
+    {
+      "no": 16,
+      "name": "Unit Amount",
+      "tooltip": "Specifies the unit amount associated with this line."
+    },
+    {
+      "no": 17,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 18,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of this line."
+    },
+    {
+      "no": 23,
+      "name": "Salespers./Purch. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Applies-to Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Item Shpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 35,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 37,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Gross Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Net Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Unit Volume",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 55,
+      "name": "Last Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Unit Cost (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5405,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5406,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5413,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5706,
+      "name": "Purchasing Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies a reference to the item number as defined by the item's barcode."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5807,
+      "name": "Applies-from Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 5813,
+      "name": "Amount (ACY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5819,
+      "name": "Applies-to Value Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 12450,
+      "name": "FA No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12451,
+      "name": "FA Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 12452,
+      "name": "Depreciation Book Code",
+      "tooltip": ""
+    }
+  ]
+}

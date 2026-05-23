@@ -1,0 +1,288 @@
+{
+  "id": 5080,
+  "name": "To-do",
+  "slug": "5080_to_do",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Team Code",
+      "tooltip": "Specifies the code of the team to which the task is assigned."
+    },
+    {
+      "no": 3,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson assigned to the task."
+    },
+    {
+      "no": 4,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign to which the task is linked."
+    },
+    {
+      "no": 5,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact linked to the task."
+    },
+    {
+      "no": 6,
+      "name": "Opportunity No.",
+      "tooltip": "Specifies the number of the opportunity to which the task is linked."
+    },
+    {
+      "no": 7,
+      "name": "Segment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Type",
+      "tooltip": "Specifies the type of the Task."
+    },
+    {
+      "no": 9,
+      "name": "Date",
+      "tooltip": "Specifies the date when the task should be started. There are certain rules for how dates should be entered found in How to: Enter Dates and Times."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the task. There are five options: Not Started, In Progress, Completed, Waiting and Postponed."
+    },
+    {
+      "no": 11,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the Task. There are three options:"
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": "Specifies the description of the task."
+    },
+    {
+      "no": 13,
+      "name": "Closed",
+      "tooltip": "Specifies that the task is closed."
+    },
+    {
+      "no": 14,
+      "name": "Date Closed",
+      "tooltip": "Specifies the date the task was closed."
+    },
+    {
+      "no": 15,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Comment",
+      "tooltip": "Specifies that a comment has been assigned to the task."
+    },
+    {
+      "no": 17,
+      "name": "Canceled",
+      "tooltip": "Specifies that the task has been canceled."
+    },
+    {
+      "no": 18,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact to which this task has been assigned."
+    },
+    {
+      "no": 19,
+      "name": "Team Name",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Salesperson Name",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Campaign Description",
+      "tooltip": "Specifies the description of the campaign to which the task is linked."
+    },
+    {
+      "no": 22,
+      "name": "Contact Company No.",
+      "tooltip": "Specifies the contact number of the company for which the contact involved in the task works."
+    },
+    {
+      "no": 23,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the company for which the contact involved in the task works."
+    },
+    {
+      "no": 24,
+      "name": "Recurring",
+      "tooltip": "Specifies that the Task occurs periodically."
+    },
+    {
+      "no": 25,
+      "name": "Recurring Date Interval",
+      "tooltip": "Specifies the date formula to assign automatically a recurring Task to a Salesperson or Team."
+    },
+    {
+      "no": 26,
+      "name": "Calc. Due Date From",
+      "tooltip": "Specifies the date to use to calculate the date on which the next Task should be completed."
+    },
+    {
+      "no": 27,
+      "name": "Opportunity Description",
+      "tooltip": "Specifies a description of the opportunity related to the task. The description is copied from the opportunity card."
+    },
+    {
+      "no": 28,
+      "name": "Start Time",
+      "tooltip": "Specifies the time when the Task of the Meeting type should be started."
+    },
+    {
+      "no": 29,
+      "name": "Duration",
+      "tooltip": "Specifies the duration of the Task of the Meeting type."
+    },
+    {
+      "no": 31,
+      "name": "Opportunity Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Last Time Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "All Day Event",
+      "tooltip": "Specifies that the Task of the Meeting type is an all-day event, which is an activity that lasts 24 hours or longer."
+    },
+    {
+      "no": 35,
+      "name": "Location",
+      "tooltip": "Specifies the location where the meeting will take place."
+    },
+    {
+      "no": 36,
+      "name": "Organizer To-do No.",
+      "tooltip": "Specifies the number of the organizer's task. The field is not editable."
+    },
+    {
+      "no": 37,
+      "name": "Interaction Template Code",
+      "tooltip": "Specifies the code for the interaction template that you have selected."
+    },
+    {
+      "no": 38,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 39,
+      "name": "Attachment No.",
+      "tooltip": "Specifies if the linked attachment is inherited or unique."
+    },
+    {
+      "no": 40,
+      "name": "Subject",
+      "tooltip": "Specifies the subject of the task. The subject is used for e-mail messages or Outlook meetings that you create."
+    },
+    {
+      "no": 41,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 42,
+      "name": "Unit Duration (Min.)",
+      "tooltip": "Specifies the duration of the interaction."
+    },
+    {
+      "no": 43,
+      "name": "No. of Attendees",
+      "tooltip": "Specifies the number of attendees for the meeting. click the field to view the Attendee Scheduling card."
+    },
+    {
+      "no": 44,
+      "name": "Attendees Accepted No.",
+      "tooltip": "Specifies the number of attendees that have confirmed their participation in the meeting."
+    },
+    {
+      "no": 45,
+      "name": "System To-do Type",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Completed By",
+      "tooltip": "Specifies the salesperson who completed this team task."
+    },
+    {
+      "no": 47,
+      "name": "Ending Date",
+      "tooltip": "Specifies the date of when the Task should end. There are certain rules for how dates should be entered. For more information, see How to: Enter Dates and Times."
+    },
+    {
+      "no": 48,
+      "name": "Ending Time",
+      "tooltip": "Specifies the time of when the Task of the Meeting type should end."
+    },
+    {
+      "no": 9501,
+      "name": "Wizard Step",
+      "tooltip": ""
+    },
+    {
+      "no": 9504,
+      "name": "Team To-do",
+      "tooltip": "Specifies if the Task is meant to be done team-wide. Select the check box to specify that the Task applies to the entire Team."
+    },
+    {
+      "no": 9505,
+      "name": "Send on finish",
+      "tooltip": "Specifies if the meeting invitation task will be sent when the Create Task wizard is finished."
+    },
+    {
+      "no": 9506,
+      "name": "Segment Description",
+      "tooltip": "Specifies a description of the segment related to the task. The description is copied from the segment card."
+    },
+    {
+      "no": 9507,
+      "name": "Team Meeting Organizer",
+      "tooltip": "Specifies who on the team is the organizer of the task. You can modify the value in this field with the appropriate name when the to-do is for a team."
+    },
+    {
+      "no": 9508,
+      "name": "Activity Code",
+      "tooltip": "Specifies a code for the task activity."
+    },
+    {
+      "no": 9509,
+      "name": "Wizard Contact Name",
+      "tooltip": "Specifies a contact name from the wizard."
+    },
+    {
+      "no": 9510,
+      "name": "Wizard Campaign Description",
+      "tooltip": "Specifies a description of the campaign that is related to the task. The description is copied from the campaign card."
+    },
+    {
+      "no": 9511,
+      "name": "Wizard Opportunity Description",
+      "tooltip": "Specifies a description of the Opportunity that is related to the Task. The description is copied from the Campaign card."
+    }
+  ]
+}

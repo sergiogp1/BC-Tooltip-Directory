@@ -1,0 +1,133 @@
+{
+  "id": 338,
+  "name": "Entry Summary",
+  "slug": "338_entry_summary",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Summary Type",
+      "tooltip": "Specifies which type of line or entry is summarized in the entry summary."
+    },
+    {
+      "no": 4,
+      "name": "Total Quantity",
+      "tooltip": "Specifies the total quantity of the item in inventory."
+    },
+    {
+      "no": 5,
+      "name": "Total Reserved Quantity",
+      "tooltip": "Specifies the total quantity of the relevant item that is reserved on documents or entries of the type on the line."
+    },
+    {
+      "no": 6,
+      "name": "Total Available Quantity",
+      "tooltip": "Specifies the quantity available for the user to request, in entries of the type on the line."
+    },
+    {
+      "no": 7,
+      "name": "Current Reserved Quantity",
+      "tooltip": "Specifies the quantity of items in the entry that are reserved for the line that the Reservation window is opened from."
+    },
+    {
+      "no": 8,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Qty. Alloc. in Warehouse",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Res. Qty. on Picks & Shipmts.",
+      "tooltip": ""
+    },
+    {
+      "no": 6500,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number for which availability is presented in the Item Tracking Summary window."
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number for which availability is presented in the Item Tracking Summary window."
+    },
+    {
+      "no": 6502,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the warranty expiration date, if any, of the item carrying the item tracking number."
+    },
+    {
+      "no": 6503,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date, if any, of the item carrying the item tracking number."
+    },
+    {
+      "no": 6504,
+      "name": "Total Requested Quantity",
+      "tooltip": "Specifies the total quantity of the serial, lot or package number that is requested in all documents."
+    },
+    {
+      "no": 6505,
+      "name": "Selected Quantity",
+      "tooltip": "Specifies the quantity of each serial, lot or package number that you want to use to fulfill the demand for the transaction."
+    },
+    {
+      "no": 6506,
+      "name": "Current Pending Quantity",
+      "tooltip": "Specifies the quantity from the item tracking line that is selected on the document but not yet committed to the database."
+    },
+    {
+      "no": 6507,
+      "name": "Current Requested Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 6508,
+      "name": "Bin Content",
+      "tooltip": "Specifies the quantity of the item in the bin specified in the document line."
+    },
+    {
+      "no": 6509,
+      "name": "Bin Active",
+      "tooltip": ""
+    },
+    {
+      "no": 6510,
+      "name": "Non-specific Reserved Qty.",
+      "tooltip": "Specifies the quantity of the item that is reserved but does not have specific item tracking numbers in the reservation."
+    },
+    {
+      "no": 6511,
+      "name": "Double-entry Adjustment",
+      "tooltip": ""
+    },
+    {
+      "no": 6512,
+      "name": "Non Serial Tracking",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the package number for which availability is presented in the Item Tracking Summary window."
+    },
+    {
+      "no": 6516,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    }
+  ]
+}

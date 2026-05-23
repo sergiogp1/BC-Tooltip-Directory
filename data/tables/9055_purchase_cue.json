@@ -1,0 +1,58 @@
+{
+  "id": 9055,
+  "name": "Purchase Cue",
+  "slug": "9055_purchase_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "To Send or Confirm",
+      "tooltip": "Specifies the number of documents to send or confirm that are displayed in the Purchase Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 3,
+      "name": "Upcoming Orders",
+      "tooltip": "Specifies the number of upcoming orders that are displayed in the Purchase Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 4,
+      "name": "Outstanding Purchase Orders",
+      "tooltip": "Specifies the number of outstanding purchase orders that are displayed in the Purchase Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 5,
+      "name": "Purchase Return Orders - All",
+      "tooltip": "Specifies the number of purchase return orders that are displayed in the Purchase Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 6,
+      "name": "Not Invoiced",
+      "tooltip": "Specifies received orders that are not invoiced. The orders are displayed in the Purchase Cue on the Purchasing Agent role center, and filtered by today's date."
+    },
+    {
+      "no": 7,
+      "name": "Partially Invoiced",
+      "tooltip": "Specifies the number of partially invoiced orders that are displayed in the Purchase Cue on the Role Center. The documents are filtered by today's date."
+    },
+    {
+      "no": 20,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Responsibility Center Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

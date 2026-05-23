@@ -1,0 +1,163 @@
+{
+  "id": 911,
+  "name": "Posted Assembly Line",
+  "slug": "911_posted_assembly_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the posted assembly order header that the posted assembly order line refers to."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the posted assembly order line."
+    },
+    {
+      "no": 8,
+      "name": "Order No.",
+      "tooltip": "Specifies the number of the assembly order that the assembly order line refers to."
+    },
+    {
+      "no": 9,
+      "name": "Order Line No.",
+      "tooltip": "Specifies the number of the assembly order line that the posted assembly order line originates from."
+    },
+    {
+      "no": 10,
+      "name": "Type",
+      "tooltip": "Specifies the type of the posted assembly order line."
+    },
+    {
+      "no": 11,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 12,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 13,
+      "name": "Description",
+      "tooltip": "Specifies the description of the assembly component on the posted assembly line."
+    },
+    {
+      "no": 14,
+      "name": "Description 2",
+      "tooltip": "Specifies the second description of the assembly component on the posted assembly line."
+    },
+    {
+      "no": 18,
+      "name": "Lead-Time Offset",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Resource Usage Type",
+      "tooltip": "Specifies how the cost of the resource on the posted assembly order line is allocated to the assembly item."
+    },
+    {
+      "no": 20,
+      "name": "Location Code",
+      "tooltip": "Specifies the location from which assembly component was consumed."
+    },
+    {
+      "no": 21,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes set up in the General Ledger Setup window."
+    },
+    {
+      "no": 22,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes set up in the General Ledger Setup window."
+    },
+    {
+      "no": 23,
+      "name": "Bin Code",
+      "tooltip": "Specifies the code of the bin from which the assembly component was consumed."
+    },
+    {
+      "no": 25,
+      "name": "Position",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Position 2",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Position 3",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Item Shpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Quantity",
+      "tooltip": "Specifies how many units of the assembly component were posted as consumed by the posted assembly order line."
+    },
+    {
+      "no": 41,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Quantity per",
+      "tooltip": "Specifies how many units of the assembly component are required to assemble one assembly item."
+    },
+    {
+      "no": 61,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": "Specifies the quantity per unit of measure of the component item on the posted assembly order line."
+    },
+    {
+      "no": 62,
+      "name": "Inventory Posting Group",
+      "tooltip": "Specifies links between business transactions made for the item and an inventory account in the general ledger, to group amounts for that item type."
+    },
+    {
+      "no": 63,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the code for the General Business Posting Group that applies to the entry."
+    },
+    {
+      "no": 65,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 67,
+      "name": "Cost Amount",
+      "tooltip": "Specifies the cost of the posted assembly order line."
+    },
+    {
+      "no": 80,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

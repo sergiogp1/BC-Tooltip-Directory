@@ -1,0 +1,438 @@
+{
+  "id": 5050,
+  "name": "Contact",
+  "slug": "5050_contact",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the contact. If the contact is a person, you can click the field to see the Name Details window."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the contact's address."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city where the contact is located."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the contact's phone number."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Territory Code",
+      "tooltip": "Specifies the territory code for the contact."
+    },
+    {
+      "no": 22,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the contact."
+    },
+    {
+      "no": 24,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 25,
+      "name": "Registration Number",
+      "tooltip": "Specifies the registration number of the contact. You can enter a maximum of 20 characters, both numbers and letters."
+    },
+    {
+      "no": 29,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson who normally handles this contact."
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 38,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Format Region",
+      "tooltip": "Specifies the format region that is used when formatting dates and numbers on documents to foreign business partner, such as an total amount on an order date."
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the contact's fax number."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the contact's VAT registration number. This field is valid for companies only."
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the contact's email."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the contact's web site."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture of the contact, for example, a photograph if the contact is a person, or a logo if the contact is a company."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 151,
+      "name": "Minor",
+      "tooltip": "Specifies that the person's age is below the definition of adulthood as recognized by law. Data for minors is blocked until a parent or guardian of the minor provides parental consent. You unblock the data by choosing the Parental Consent Received check box."
+    },
+    {
+      "no": 152,
+      "name": "Parental Consent Received",
+      "tooltip": "Specifies that a parent or guardian of the minor has provided their consent to allow the minor to use this service. When this check box is selected, data for the minor can be processed."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the contact is coupled to a contact in Dataverse."
+    },
+    {
+      "no": 5050,
+      "name": "Type",
+      "tooltip": "Specifies the type of contact, either company or person."
+    },
+    {
+      "no": 5051,
+      "name": "Company No.",
+      "tooltip": "Specifies the number for the contact's company."
+    },
+    {
+      "no": 5052,
+      "name": "Company Name",
+      "tooltip": "Specifies the name of the company. If the contact is a person, it specifies the name of the company for which this contact works."
+    },
+    {
+      "no": 5053,
+      "name": "Lookup Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5054,
+      "name": "First Name",
+      "tooltip": "Specifies the contact's first name and is valid for contact persons only."
+    },
+    {
+      "no": 5055,
+      "name": "Middle Name",
+      "tooltip": "Specifies the contact's middle name and is valid for contact persons only."
+    },
+    {
+      "no": 5056,
+      "name": "Surname",
+      "tooltip": "Specifies the contact's surname and is valid for contact persons only."
+    },
+    {
+      "no": 5058,
+      "name": "Job Title",
+      "tooltip": "Specifies the contact's job title, and is valid for contact persons only."
+    },
+    {
+      "no": 5059,
+      "name": "Initials",
+      "tooltip": "Specifies the contact's initials, when the contact is a person."
+    },
+    {
+      "no": 5060,
+      "name": "Extension No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5061,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the contact's mobile telephone number."
+    },
+    {
+      "no": 5062,
+      "name": "Pager",
+      "tooltip": ""
+    },
+    {
+      "no": 5063,
+      "name": "Organizational Level Code",
+      "tooltip": "Specifies the organizational code for the contact, for example, top management. This field is valid for persons only."
+    },
+    {
+      "no": 5064,
+      "name": "Exclude from Segment",
+      "tooltip": "Specifies if the contact should be excluded from segments:"
+    },
+    {
+      "no": 5065,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5066,
+      "name": "Next Task Date",
+      "tooltip": "Specifies the date of the next task involving the contact."
+    },
+    {
+      "no": 5067,
+      "name": "Last Date Attempted",
+      "tooltip": "Specifies the date when the contact was last contacted, for example, when you tried to call the contact, with or without success. This field is not editable."
+    },
+    {
+      "no": 5068,
+      "name": "Date of Last Interaction",
+      "tooltip": "Specifies the date of the last interaction involving the contact, for example, a received or sent mail, e-mail, or phone call. This field is not editable."
+    },
+    {
+      "no": 5069,
+      "name": "No. of Job Responsibilities",
+      "tooltip": "Specifies the number of job responsibilities for this contact. This field is valid for persons only and is not editable."
+    },
+    {
+      "no": 5070,
+      "name": "No. of Industry Groups",
+      "tooltip": "Specifies the number of industry groups to which the contact belongs. When the contact is a person, this field contains the number of industry groups for the contact's company. This field is not editable."
+    },
+    {
+      "no": 5071,
+      "name": "No. of Business Relations",
+      "tooltip": ""
+    },
+    {
+      "no": 5072,
+      "name": "No. of Mailing Groups",
+      "tooltip": "Specifies the number of mailing groups for this contact."
+    },
+    {
+      "no": 5073,
+      "name": "External ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5074,
+      "name": "No. of Interactions",
+      "tooltip": "Specifies the number of interactions created for this contact. The field is not editable."
+    },
+    {
+      "no": 5076,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the total cost of all the interactions involving the contact. The field is not editable."
+    },
+    {
+      "no": 5077,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the total duration of all the interactions involving the contact. The field is not editable."
+    },
+    {
+      "no": 5078,
+      "name": "No. of Opportunities",
+      "tooltip": "Specifies the number of open opportunities involving the contact. The field is not editable."
+    },
+    {
+      "no": 5079,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the total estimated value of all the opportunities involving the contact. The field is not editable."
+    },
+    {
+      "no": 5080,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the total calculated current value of all the opportunities involving the contact. The field is not editable."
+    },
+    {
+      "no": 5082,
+      "name": "Opportunity Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 5083,
+      "name": "Task Entry Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 5084,
+      "name": "Salesperson Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5085,
+      "name": "Campaign Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5086,
+      "name": "Contact Business Relation",
+      "tooltip": "Specifies the type of the existing business relation."
+    },
+    {
+      "no": 5087,
+      "name": "Action Taken Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5088,
+      "name": "Sales Cycle Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5089,
+      "name": "Sales Cycle Stage Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5090,
+      "name": "Probability % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5091,
+      "name": "Completed % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5092,
+      "name": "Estimated Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5093,
+      "name": "Calcd. Current Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5094,
+      "name": "Chances of Success % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5095,
+      "name": "Task Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5096,
+      "name": "Task Closed Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5097,
+      "name": "Priority Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5098,
+      "name": "Team Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5099,
+      "name": "Close Opportunity Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5100,
+      "name": "Correspondence Type",
+      "tooltip": "Specifies the preferred type of correspondence for the interaction."
+    },
+    {
+      "no": 5101,
+      "name": "Salutation Code",
+      "tooltip": "Specifies the salutation code that will be used when you interact with the contact. The salutation code is only used in Word documents. To see a list of the salutation codes already defined, click the field."
+    },
+    {
+      "no": 5102,
+      "name": "Search E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 5104,
+      "name": "Last Time Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 5105,
+      "name": "E-Mail 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5106,
+      "name": "Job Responsibility Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8050,
+      "name": "Xrm Id",
+      "tooltip": ""
+    }
+  ]
+}

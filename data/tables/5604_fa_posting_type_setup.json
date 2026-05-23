@@ -1,0 +1,58 @@
+{
+  "id": 5604,
+  "name": "FA Posting Type Setup",
+  "slug": "5604_fa_posting_type_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "FA Posting Type",
+      "tooltip": "Specifies the posting type, if Account Type field contains Fixed Asset."
+    },
+    {
+      "no": 2,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 3,
+      "name": "Part of Book Value",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field will be part of the book value."
+    },
+    {
+      "no": 4,
+      "name": "Part of Depreciable Basis",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field will be part of the depreciable basis."
+    },
+    {
+      "no": 5,
+      "name": "Include in Depr. Calculation",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field must be included in periodic depreciation calculations."
+    },
+    {
+      "no": 6,
+      "name": "Include in Gain/Loss Calc.",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field must be included in the calculation of gain or loss for a sold asset."
+    },
+    {
+      "no": 7,
+      "name": "Reverse before Disposal",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field must be reversed (that is, set to zero) before disposal."
+    },
+    {
+      "no": 8,
+      "name": "Sign",
+      "tooltip": "Specifies whether the type in the FA Posting Type field should be a debit or a credit."
+    },
+    {
+      "no": 9,
+      "name": "Depreciation Type",
+      "tooltip": "Specifies that entries posted with the FA Posting Type field will be regarded as part of the total depreciation for the fixed asset."
+    },
+    {
+      "no": 10,
+      "name": "Acquisition Type",
+      "tooltip": "Specifies that entries posted with the FA Posting Type must be part of the total acquisition for the fixed asset in the Fixed Asset - Book Value 01 report."
+    }
+  ]
+}

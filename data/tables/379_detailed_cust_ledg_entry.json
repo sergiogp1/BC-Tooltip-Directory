@@ -1,0 +1,198 @@
+{
+  "id": 379,
+  "name": "Detailed Cust. Ledg. Entry",
+  "slug": "379_detailed_cust_ledg_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Cust. Ledger Entry No.",
+      "tooltip": "Specifies the entry number of the customer ledger entry that the detailed customer ledger entry line was created for."
+    },
+    {
+      "no": 3,
+      "name": "Entry Type",
+      "tooltip": "Specifies the entry type of the detailed customer ledger entry."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the detailed customer ledger entry."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the document type of the detailed customer ledger entry."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number of the transaction that created the entry."
+    },
+    {
+      "no": 7,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the detailed customer ledger entry."
+    },
+    {
+      "no": 8,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the amount of the entry in LCY."
+    },
+    {
+      "no": 9,
+      "name": "Customer No.",
+      "tooltip": "Specifies the customer account number to which the entry is posted."
+    },
+    {
+      "no": 10,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code for the currency if the amount is in a foreign currency."
+    },
+    {
+      "no": 11,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 12,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 13,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 16,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 17,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 18,
+      "name": "Debit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent debits, expressed in LCY."
+    },
+    {
+      "no": 19,
+      "name": "Credit Amount (LCY)",
+      "tooltip": "Specifies the total of the ledger entries that represent credits, expressed in LCY."
+    },
+    {
+      "no": 20,
+      "name": "Initial Entry Due Date",
+      "tooltip": "Specifies the date on which the initial entry is due for payment."
+    },
+    {
+      "no": 21,
+      "name": "Initial Entry Global Dim. 1",
+      "tooltip": "Specifies the Global Dimension 1 code of the initial customer ledger entry."
+    },
+    {
+      "no": 22,
+      "name": "Initial Entry Global Dim. 2",
+      "tooltip": "Specifies the Global Dimension 2 code of the initial customer ledger entry."
+    },
+    {
+      "no": 24,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Initial Document Type",
+      "tooltip": "Specifies the document type that the initial customer ledger entry was created with."
+    },
+    {
+      "no": 36,
+      "name": "Applied Cust. Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Unapplied",
+      "tooltip": "Specifies whether the entry has been unapplied (undone) from the Unapply Customer Entries window by the entry no. shown in the Unapplied by Entry No. field."
+    },
+    {
+      "no": 38,
+      "name": "Unapplied by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry, if the original entry has been unapplied (undone) from the Unapply Customer Entries window."
+    },
+    {
+      "no": 39,
+      "name": "Remaining Pmt. Disc. Possible",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Max. Payment Tolerance",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Tax Jurisdiction Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Application No.",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Ledger Entry Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Posting Group",
+      "tooltip": "Specifies the customer's market type to link business transactions to."
+    },
+    {
+      "no": 45,
+      "name": "Exch. Rate Adjmt. Reg. No.",
+      "tooltip": ""
+    }
+  ]
+}

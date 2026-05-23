@@ -1,0 +1,78 @@
+{
+  "id": 93,
+  "name": "Vendor Posting Group",
+  "slug": "93_vendor_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies an identifier for the vendor posting group."
+    },
+    {
+      "no": 2,
+      "name": "Payables Account",
+      "tooltip": "Specifies the general ledger account to use when you post payables due to vendors in this posting group."
+    },
+    {
+      "no": 7,
+      "name": "Service Charge Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post service charges due to vendors in this posting group."
+    },
+    {
+      "no": 8,
+      "name": "Payment Disc. Debit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post reductions in payment discounts received from vendors in this posting group."
+    },
+    {
+      "no": 9,
+      "name": "Invoice Rounding Account",
+      "tooltip": "Specifies the general ledger account to use when amounts result from invoice rounding when you post transactions that involve vendors."
+    },
+    {
+      "no": 10,
+      "name": "Debit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 11,
+      "name": "Credit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 12,
+      "name": "Debit Rounding Account",
+      "tooltip": "Specifies the general ledger account number to use when you post rounding differences from a remaining amount."
+    },
+    {
+      "no": 13,
+      "name": "Credit Rounding Account",
+      "tooltip": "Specifies the general ledger account number to use when you post rounding differences from a remaining amount."
+    },
+    {
+      "no": 16,
+      "name": "Payment Disc. Credit Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post payment discounts received from vendors in this posting group."
+    },
+    {
+      "no": 17,
+      "name": "Payment Tolerance Debit Acc.",
+      "tooltip": "Specifies the general ledger account number to use when you post purchase tolerance amounts and payments for purchases. This applies to this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 18,
+      "name": "Payment Tolerance Credit Acc.",
+      "tooltip": "Specifies the general ledger account number to use when you post purchase tolerance amounts and payments for purchases. This applies to this particular combination of business posting group and product posting group."
+    },
+    {
+      "no": 20,
+      "name": "Description",
+      "tooltip": "Specifies the description for the vendor posting group."
+    },
+    {
+      "no": 21,
+      "name": "View All Accounts on Lookup",
+      "tooltip": "Specifies that all possible accounts are shown when you look up from a field. If the check box is not selected, then only accounts related to the involved account category are shown."
+    }
+  ]
+}

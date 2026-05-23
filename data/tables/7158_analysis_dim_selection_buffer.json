@@ -1,0 +1,38 @@
+{
+  "id": 7158,
+  "name": "Analysis Dim. Selection Buffer",
+  "slug": "7158_analysis_dim_selection_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the selection."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the selection."
+    },
+    {
+      "no": 3,
+      "name": "Selected",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "New Dimension Value Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Dimension Value Filter",
+      "tooltip": "Specifies the dimension value that the analysis view is based on."
+    },
+    {
+      "no": 6,
+      "name": "Level",
+      "tooltip": "Specifies the level for the selected dimension for analysis."
+    }
+  ]
+}

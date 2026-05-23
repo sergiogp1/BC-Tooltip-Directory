@@ -1,0 +1,53 @@
+{
+  "id": 7308,
+  "name": "Put-away Template Line",
+  "slug": "7308_put_away_template_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Put-away Template Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the set of criteria that is on the put-away template line."
+    },
+    {
+      "no": 4,
+      "name": "Find Fixed Bin",
+      "tooltip": "Specifies that you must put items in a particular bin. You define the bin by choosing the item on a line on the Bin Contents page and selecting the Fixed checkbox. If you haven't specified a fixed bin for items, choose the Find Floating Bin checkbox."
+    },
+    {
+      "no": 5,
+      "name": "Find Floating Bin",
+      "tooltip": "Specifies that you must put items in a bin that is not specifically tied to any particular item. A bin is considered floating when there are no lines in the Bin Contents page where the Fixed, Default, or Dedicated checkbox is selected."
+    },
+    {
+      "no": 6,
+      "name": "Find Same Item",
+      "tooltip": "Specifies that you must put items in bins that already contain the same item. You define the bin for an item by choosing the item on a line on the Bin Contents page. This setting doesn't consider the quantity that's currently in the bin."
+    },
+    {
+      "no": 7,
+      "name": "Find Unit of Measure Match",
+      "tooltip": "Specifies that you must put items in bins that have the same unit of measure as the item. You define the unit of measure for a bin on the Bin Contents page. To use this option, the bin must be assigned to a location where Directed Put-Away and Pick is enabled."
+    },
+    {
+      "no": 8,
+      "name": "Find Bin w. Less than Min. Qty",
+      "tooltip": "Specifies that you must put items in bins that are currently below their minimum quantity of items. You define a minimum quantity for bins on the Bin Contents page."
+    },
+    {
+      "no": 9,
+      "name": "Find Empty Bin",
+      "tooltip": "Specifies that an empty bin must be used in the put-away process."
+    }
+  ]
+}

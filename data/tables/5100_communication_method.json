@@ -1,0 +1,43 @@
+{
+  "id": 5100,
+  "name": "Communication Method",
+  "slug": "5100_communication_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the phone number or e-mail address."
+    },
+    {
+      "no": 3,
+      "name": "Number",
+      "tooltip": "Specifies the telephone number."
+    },
+    {
+      "no": 4,
+      "name": "Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the type of the contact to which the phone number is related. There are two options:"
+    },
+    {
+      "no": 7,
+      "name": "E-Mail",
+      "tooltip": "Specifies the contact's email address."
+    }
+  ]
+}

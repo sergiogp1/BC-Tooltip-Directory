@@ -1,0 +1,88 @@
+{
+  "id": 9610,
+  "name": "XML Schema Element",
+  "slug": "9610_xml_schema_element",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "XML Schema Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Parent ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Node Name",
+      "tooltip": "Specifies the name of the node on the imported file."
+    },
+    {
+      "no": 5,
+      "name": "Node Type",
+      "tooltip": "Specifies a type. This field is intended only for internal use."
+    },
+    {
+      "no": 6,
+      "name": "Data Type",
+      "tooltip": "Specifies the type of the data and provides additional explanation of the tags in the Node Name."
+    },
+    {
+      "no": 7,
+      "name": "MinOccurs",
+      "tooltip": "Specifies the lowest number of times that the node appears in the XML schema. If the value in this field is 1 or higher, then the node is considered mandatory to create a valid XMLport."
+    },
+    {
+      "no": 8,
+      "name": "MaxOccurs",
+      "tooltip": "Specifies the highest number of times that the node appears in the XML schema."
+    },
+    {
+      "no": 9,
+      "name": "Choice",
+      "tooltip": "Specifies if the node has two or more sibling nodes that function as options."
+    },
+    {
+      "no": 20,
+      "name": "Sort Key",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Visible",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Selected",
+      "tooltip": "Specifies if the node is included in the related XMLport."
+    },
+    {
+      "no": 24,
+      "name": "Simple Data Type",
+      "tooltip": "Specifies the base (unstructured) type of the schema element, such as the Decimal and Date strings."
+    },
+    {
+      "no": 25,
+      "name": "Defintion XML Schema Code",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Definition XML Schema ID",
+      "tooltip": ""
+    }
+  ]
+}

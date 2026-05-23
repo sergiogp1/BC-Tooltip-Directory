@@ -1,0 +1,68 @@
+{
+  "id": 137,
+  "name": "Inc. Doc. Attachment Overview",
+  "slug": "137_inc_doc_attachment_overview",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Incoming Document Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies when the incoming document line was created."
+    },
+    {
+      "no": 4,
+      "name": "Created By User Name",
+      "tooltip": "Specifies the name of the user who created the incoming document line."
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": "Specifies the name of the attached file."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the type of the attached file."
+    },
+    {
+      "no": 7,
+      "name": "File Extension",
+      "tooltip": "Specifies the file type of the attached file."
+    },
+    {
+      "no": 100,
+      "name": "Attachment Type",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Sorting Order",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Document No.",
+      "tooltip": ""
+    }
+  ]
+}

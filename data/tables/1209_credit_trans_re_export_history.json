@@ -1,0 +1,28 @@
+{
+  "id": 1209,
+  "name": "Credit Trans Re-export History",
+  "slug": "1209_credit_trans_re_export_history",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Credit Transfer Register No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Re-export Date",
+      "tooltip": "Specifies the date when the payment file was re-exported."
+    },
+    {
+      "no": 4,
+      "name": "Re-exported By",
+      "tooltip": "Specifies the user who re-exported the payment file."
+    }
+  ]
+}

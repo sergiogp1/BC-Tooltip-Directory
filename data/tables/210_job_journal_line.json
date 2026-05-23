@@ -1,0 +1,443 @@
+{
+  "id": 210,
+  "name": "Job Journal Line",
+  "slug": "210_job_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date you want to assign to each journal line. For more information, see Entering Dates and Times."
+    },
+    {
+      "no": 5,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the journal line."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies an account type for project usage to be posted in the project journal. You can choose from the following options:"
+    },
+    {
+      "no": 8,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": "Specifies the name of the resource, item, or general ledger account to which this entry applies. You can change the description."
+    },
+    {
+      "no": 10,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of units of the project journal's No. field, that is, either the resource, item, or G/L account number, that applies. If you later change the value in the No. field, the quantity does not change on the journal line."
+    },
+    {
+      "no": 12,
+      "name": "Direct Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in the local currency, of one unit of the selected item or resource."
+    },
+    {
+      "no": 13,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 14,
+      "name": "Total Cost (LCY)",
+      "tooltip": "Specifies the total cost for this journal line. The amount is in the local currency."
+    },
+    {
+      "no": 15,
+      "name": "Unit Price (LCY)",
+      "tooltip": "Specifies the price, in LCY, of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 16,
+      "name": "Total Price (LCY)",
+      "tooltip": "Specifies the total price for the journal line. The amount is in the local currency."
+    },
+    {
+      "no": 17,
+      "name": "Resource Group No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 19,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Location Code",
+      "tooltip": "Specifies a location code for an item."
+    },
+    {
+      "no": 22,
+      "name": "Chargeable",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 32,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 33,
+      "name": "Work Type Code",
+      "tooltip": "Specifies which work type the resource applies to (when applicable)."
+    },
+    {
+      "no": 34,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Applies-to Entry",
+      "tooltip": "Specifies if the project journal line has of type Item and the usage of the item will be applied to an already-posted item ledger entry. If this is the case, enter the entry number that the usage will be applied to."
+    },
+    {
+      "no": 40,
+      "name": "Shpt. Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Entry Type",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Recurring Method",
+      "tooltip": "Specifies the recurring method. The recurring method determines what happens to the quantity on the journal line after posting. For example, if you use the same quantity each time you post the line, you can reuse the same quantity after posting."
+    },
+    {
+      "no": 76,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the last date on which the recurring journal will be posted if you have indicated in the Recurring field of the project journal template that the journal should be a recurring journal."
+    },
+    {
+      "no": 77,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies a recurring frequency if you have indicated in the Recurring field in the project journal template that the journal is a recurring journal."
+    },
+    {
+      "no": 79,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 80,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 81,
+      "name": "Transaction Type",
+      "tooltip": "Specifies the type of transaction that the document represents, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 82,
+      "name": "Transport Method",
+      "tooltip": "Specifies the transport method, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 83,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 86,
+      "name": "Entry/Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 88,
+      "name": "External Document No.",
+      "tooltip": "Specifies a document number that refers to the customer's or vendor's numbering system."
+    },
+    {
+      "no": 89,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Source Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Source Currency Total Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Source Currency Total Price",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "Source Currency Line Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 902,
+      "name": "Assemble to Order",
+      "tooltip": ""
+    },
+    {
+      "no": 950,
+      "name": "Time Sheet No.",
+      "tooltip": "Specifies the number of a time sheet. A number is assigned to each time sheet when it is created. You cannot edit the number."
+    },
+    {
+      "no": 951,
+      "name": "Time Sheet Line No.",
+      "tooltip": "Specifies the line number for a time sheet."
+    },
+    {
+      "no": 952,
+      "name": "Time Sheet Date",
+      "tooltip": "Specifies the date that a time sheet is created."
+    },
+    {
+      "no": 1000,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 1001,
+      "name": "Total Cost",
+      "tooltip": "Specifies the total cost for the journal line. The total cost is calculated based on the project currency, which comes from the Currency Code field on the Project card."
+    },
+    {
+      "no": 1002,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 1003,
+      "name": "Line Type",
+      "tooltip": "Specifies the type of planning line to create when a project ledger entry is posted. If the field is empty, no planning lines are created."
+    },
+    {
+      "no": 1004,
+      "name": "Applies-from Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the journal line costs have been applied from. This should be done when you reverse the usage of an item in a project and you want to return the item to inventory at the same cost as before it was used in the project."
+    },
+    {
+      "no": 1005,
+      "name": "Job Posting Only",
+      "tooltip": ""
+    },
+    {
+      "no": 1006,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the line discount percentage."
+    },
+    {
+      "no": 1007,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 1008,
+      "name": "Currency Code",
+      "tooltip": "Specifies the project's currency code that listed in the Currency Code field in the Project Card. You can only create a Project Journal using this currency code."
+    },
+    {
+      "no": 1009,
+      "name": "Line Amount",
+      "tooltip": "Specifies the amount that will be posted to the project ledger."
+    },
+    {
+      "no": 1010,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1011,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 1012,
+      "name": "Line Amount (LCY)",
+      "tooltip": "Specifies the amount in the local currency that will be posted to the project ledger."
+    },
+    {
+      "no": 1013,
+      "name": "Line Discount Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1014,
+      "name": "Total Price",
+      "tooltip": "Specifies the total price in the project currency on the journal line."
+    },
+    {
+      "no": 1015,
+      "name": "Cost Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1016,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 1017,
+      "name": "Ledger Entry Type",
+      "tooltip": ""
+    },
+    {
+      "no": 1018,
+      "name": "Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1019,
+      "name": "Job Planning Line No.",
+      "tooltip": "Specifies the project planning line number that the usage should be linked to when the project journal is posted. You can only link to project planning lines that have the Apply Usage Link option enabled."
+    },
+    {
+      "no": 1030,
+      "name": "Remaining Qty.",
+      "tooltip": "Specifies the quantity of the resource or item that remains to complete a project. The remaining quantity is calculated as the difference between Quantity and Qty. Posted. You can modify this field to indicate the quantity you want to remain on the project planning line after you post usage."
+    },
+    {
+      "no": 1031,
+      "name": "Remaining Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 1081,
+      "name": "Qty. to Transfer to Invoice",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5410,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5468,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 6501,
+      "name": "Lot No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the method that will be used for price calculation in the item journal line."
+    },
+    {
+      "no": 7001,
+      "name": "Cost Calculation Method",
+      "tooltip": "Specifies the method that will be used for cost calculation in the item journal line."
+    }
+  ]
+}

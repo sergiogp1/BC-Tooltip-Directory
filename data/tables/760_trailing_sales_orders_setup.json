@@ -1,0 +1,43 @@
+{
+  "id": 760,
+  "name": "Trailing Sales Orders Setup",
+  "slug": "760_trailing_sales_orders_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Period Length",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Show Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Use Work Date as Base",
+      "tooltip": "Specifies if you want data in the Trailing Sales Orders chart to be based on a work date other than today's date. This is generally relevant when you view the chart data in a demonstration database that has fictitious sales orders."
+    },
+    {
+      "no": 5,
+      "name": "Value to Calculate",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Chart Type",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Latest Order Document Date",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1518,
+  "name": "My Notifications",
+  "slug": "1518_my_notifications",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Notification Id",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Apply to Table Id",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Enabled",
+      "tooltip": "Specifies that notifications are enabled."
+    },
+    {
+      "no": 5,
+      "name": "Apply to Table Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Name",
+      "tooltip": "Specifies the short name of the notification. To see a description of the notification, choose the name."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 5064,
+  "name": "Interaction Template",
+  "slug": "5064_interaction_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the interaction template."
+    },
+    {
+      "no": 2,
+      "name": "Interaction Group Code",
+      "tooltip": "Specifies the code for the interaction group to which the interaction template belongs."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the interaction template."
+    },
+    {
+      "no": 4,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 5,
+      "name": "Unit Duration (Min.)",
+      "tooltip": "Specifies the usual duration of interactions created using the interaction template."
+    },
+    {
+      "no": 6,
+      "name": "Information Flow",
+      "tooltip": "Specifies the direction of the information flow for the interaction template. There are two options: Outbound and Inbound. Select Outbound if the information is usually sent by your company. Select Inbound if the information is usually received by your company."
+    },
+    {
+      "no": 7,
+      "name": "Initiated By",
+      "tooltip": "Specifies who usually initiates interactions created using the interaction template. There are two options: Us and Them. Select Us if the interaction is usually initiated by your company. Select Them if the information is usually initiated by your contacts."
+    },
+    {
+      "no": 8,
+      "name": "Attachment No.",
+      "tooltip": "Specifies if the linked attachment is inherited or unique."
+    },
+    {
+      "no": 9,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign for which the interaction template has been created."
+    },
+    {
+      "no": 10,
+      "name": "Campaign Target",
+      "tooltip": "Specifies that the contact who is involved in the interaction is the target of a campaign. This is used to measure the response rate of a campaign."
+    },
+    {
+      "no": 11,
+      "name": "Campaign Response",
+      "tooltip": "Specifies that the interaction template is being used to record interactions that are a response to a campaign. For example, coupons that are sent in as a response to a campaign."
+    },
+    {
+      "no": 12,
+      "name": "Correspondence Type (Default)",
+      "tooltip": "Specifies the preferred type of correspondence for the interaction. NOTE: If you use the Web client, you must not select the Hard Copy option because printing is not possible from the web client."
+    },
+    {
+      "no": 13,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "No. of Interactions",
+      "tooltip": "Specifies the number of interactions that have been created using this interaction template."
+    },
+    {
+      "no": 15,
+      "name": "Cost (LCY)",
+      "tooltip": "Specifies the total cost of the interactions created using the interaction template. This field is not editable."
+    },
+    {
+      "no": 16,
+      "name": "Duration (Min.)",
+      "tooltip": "Specifies the total duration of the interactions created using this interaction template. The field is not editable."
+    },
+    {
+      "no": 17,
+      "name": "Language Code (Default)",
+      "tooltip": "Specifies the default language code for the interaction. If the contact's preferred language is not available, then the program uses this language as the default language."
+    },
+    {
+      "no": 18,
+      "name": "Wizard Action",
+      "tooltip": "Specifies the action to perform when you click Next in the first page of the Create Interaction guide. Blank results in no action. Open will fill out the template and open the email editor where you can edit the text if needed. Merge will fill out the template and send it immediately."
+    },
+    {
+      "no": 19,
+      "name": "Ignore Contact Corres. Type",
+      "tooltip": "Specifies that the correspondence type that you select in the Correspondence Type (Default) field should be used."
+    },
+    {
+      "no": 20,
+      "name": "Word Template Code",
+      "tooltip": "Specifies the Word template to use when you create communications for an interaction. The Word template will create either a document or be used as the body text in an email."
+    }
+  ]
+}

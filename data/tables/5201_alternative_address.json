@@ -1,0 +1,78 @@
+{
+  "id": 5201,
+  "name": "Alternative Address",
+  "slug": "5201_alternative_address",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a code for the employee's alternate address."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the employee's last name."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies the employee's first name, or an alternate name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies an alternate address for the employee."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city of the alternate address."
+    },
+    {
+      "no": 8,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 9,
+      "name": "County",
+      "tooltip": "Specifies the county of the employee's alternate address."
+    },
+    {
+      "no": 10,
+      "name": "Phone No.",
+      "tooltip": "Specifies the employee's telephone number at the alternate address."
+    },
+    {
+      "no": 11,
+      "name": "Fax No.",
+      "tooltip": "Specifies the employee's fax number at the alternate address."
+    },
+    {
+      "no": 12,
+      "name": "E-Mail",
+      "tooltip": "Specifies the employee's alternate email address."
+    },
+    {
+      "no": 13,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment was entered for this entry."
+    },
+    {
+      "no": 14,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    }
+  ]
+}

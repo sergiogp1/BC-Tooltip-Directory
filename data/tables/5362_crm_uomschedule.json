@@ -1,0 +1,113 @@
+{
+  "id": 5362,
+  "name": "CRM Uomschedule",
+  "slug": "5362_crm_uomschedule",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "UoMScheduleId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "OrganizationIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "BaseUoMName",
+      "tooltip": "Specifies the base unit of measure of the Dynamics 365 Sales record."
+    },
+    {
+      "no": 15,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "StateCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 21,
+      "name": "StatusCode",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5647,
+  "name": "FA Matrix Posting Type",
+  "slug": "5647_fa_matrix_posting_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "FA Posting Type Name",
+      "tooltip": "Specifies the name of the fixed asset posting type."
+    }
+  ]
+}

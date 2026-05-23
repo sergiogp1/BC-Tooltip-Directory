@@ -1,0 +1,48 @@
+{
+  "id": 8618,
+  "name": "Config. Template Header",
+  "slug": "8618_config_template_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the data template."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the data template."
+    },
+    {
+      "no": 3,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table on which the data template is based."
+    },
+    {
+      "no": 4,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table on which the data template is based."
+    },
+    {
+      "no": 5,
+      "name": "Table Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Used In Hierarchy",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Enabled",
+      "tooltip": "Specifies if the template is ready to be used."
+    },
+    {
+      "no": 8,
+      "name": "Instance No. Series",
+      "tooltip": ""
+    }
+  ]
+}

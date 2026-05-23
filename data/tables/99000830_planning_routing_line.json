@@ -1,0 +1,268 @@
+{
+  "id": 99000830,
+  "name": "Planning Routing Line",
+  "slug": "99000830_planning_routing_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Worksheet Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Worksheet Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Operation No.",
+      "tooltip": "Specifies the operation number for this planning routing line."
+    },
+    {
+      "no": 5,
+      "name": "Next Operation No.",
+      "tooltip": "Specifies the next operation number if you use parallel routings."
+    },
+    {
+      "no": 6,
+      "name": "Previous Operation No.",
+      "tooltip": "Specifies the previous operation number and shows the operation that is run directly before the operation."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the type of operation."
+    },
+    {
+      "no": 8,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 9,
+      "name": "Work Center No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Work Center Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the task related to this routing line."
+    },
+    {
+      "no": 12,
+      "name": "Setup Time",
+      "tooltip": "Specifies the setup time using the unit of measure from the Setup Time Unit of Measure field on the work or machine center card."
+    },
+    {
+      "no": 13,
+      "name": "Run Time",
+      "tooltip": "Specifies the run time of the operation."
+    },
+    {
+      "no": 14,
+      "name": "Wait Time",
+      "tooltip": "Specifies the wait time."
+    },
+    {
+      "no": 15,
+      "name": "Move Time",
+      "tooltip": "Specifies the move time using the unit of measure in the Move Time Unit of Measure field on the machine or work center card."
+    },
+    {
+      "no": 16,
+      "name": "Fixed Scrap Quantity",
+      "tooltip": "Specifies a fixed scrap quantity for this routing line."
+    },
+    {
+      "no": 17,
+      "name": "Lot Size",
+      "tooltip": "Specifies the number of items that are included in the same operation at the same time. The run time on routing lines is reduced proportionally to the lot size. For example, if the lot size is two pieces, the run time will be reduced by half."
+    },
+    {
+      "no": 18,
+      "name": "Scrap Factor %",
+      "tooltip": "Specifies the scrap factor as a percentage."
+    },
+    {
+      "no": 19,
+      "name": "Setup Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Run Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Wait Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Move Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    },
+    {
+      "no": 27,
+      "name": "Minimum Process Time",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Maximum Process Time",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Concurrent Capacities",
+      "tooltip": "Specifies the quantity of machines or personnel that can perform their expected functions simultaneously."
+    },
+    {
+      "no": 31,
+      "name": "Send-Ahead Quantity",
+      "tooltip": "Specifies the output of the operation that must be completed before the next operation can be started."
+    },
+    {
+      "no": 34,
+      "name": "Routing Link Code",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Standard Task Code",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Unit Cost per",
+      "tooltip": "Specifies the unit cost for this operation if it is different than the unit cost on the work center or machine center card."
+    },
+    {
+      "no": 41,
+      "name": "Recalculate",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Sequence No.(Forward)",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Sequence No.(Backward)",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Fixed Scrap Qty. (Accum.)",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Scrap Factor % (Accumulated)",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Sequence No. (Actual)",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Direct Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Indirect Cost %",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Output Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time for the operation for this planning routing line."
+    },
+    {
+      "no": 71,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date for the operation for this planning routing line."
+    },
+    {
+      "no": 72,
+      "name": "Ending Time",
+      "tooltip": "Specifies the ending time of the operation for this planning routing line."
+    },
+    {
+      "no": 73,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the operation for this planning routing line."
+    },
+    {
+      "no": 76,
+      "name": "Unit Cost Calculation",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Input Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Critical Path",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Starting Date-Time",
+      "tooltip": "Specifies the starting date and the starting time, which are combined in a format called \"starting date-time\"."
+    },
+    {
+      "no": 99,
+      "name": "Ending Date-Time",
+      "tooltip": "Specifies the ending date and the ending time, which are combined in a format called \"ending date-time\"."
+    },
+    {
+      "no": 99000909,
+      "name": "Expected Operation Cost Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 99000910,
+      "name": "Expected Capacity Ovhd. Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 99000911,
+      "name": "Expected Capacity Need",
+      "tooltip": ""
+    }
+  ]
+}

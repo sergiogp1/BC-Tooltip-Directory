@@ -1,0 +1,43 @@
+{
+  "id": 9651,
+  "name": "Report Layout Selection",
+  "slug": "9651_report_layout_selection",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 2,
+      "name": "Report Name",
+      "tooltip": "Specifies the name of the report."
+    },
+    {
+      "no": 3,
+      "name": "Company Name",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the type of the report layout that is currently used on the report."
+    },
+    {
+      "no": 6,
+      "name": "Custom Report Layout Code",
+      "tooltip": "Specifies the custom report layout."
+    },
+    {
+      "no": 7,
+      "name": "Report Layout Description",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Report Caption",
+      "tooltip": ""
+    }
+  ]
+}

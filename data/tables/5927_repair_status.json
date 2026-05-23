@@ -1,0 +1,98 @@
+{
+  "id": 5927,
+  "name": "Repair Status",
+  "slug": "5927_repair_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the repair status."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the repair status."
+    },
+    {
+      "no": 3,
+      "name": "Service Order Status",
+      "tooltip": "Specifies the service order status that is linked to this repair status."
+    },
+    {
+      "no": 4,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the service order status."
+    },
+    {
+      "no": 5,
+      "name": "Initial",
+      "tooltip": "Specifies that no service has been performed."
+    },
+    {
+      "no": 6,
+      "name": "Partly Serviced",
+      "tooltip": "Specifies that the service item has been partly serviced. Further work is needed."
+    },
+    {
+      "no": 7,
+      "name": "In Process",
+      "tooltip": "Specifies that the service of the item is in process."
+    },
+    {
+      "no": 8,
+      "name": "Finished",
+      "tooltip": "Specifies that the service of the item has been finished."
+    },
+    {
+      "no": 9,
+      "name": "Referred",
+      "tooltip": "Specifies that the service of the item has been referred to another resource. No service has been performed on the service item."
+    },
+    {
+      "no": 10,
+      "name": "Spare Part Ordered",
+      "tooltip": "Specifies that a spare part has been ordered for the service item."
+    },
+    {
+      "no": 11,
+      "name": "Spare Part Received",
+      "tooltip": "Specifies that a spare part has been received for the service item."
+    },
+    {
+      "no": 12,
+      "name": "Waiting for Customer",
+      "tooltip": "Specifies that you are waiting for a customer response."
+    },
+    {
+      "no": 13,
+      "name": "Quote Finished",
+      "tooltip": "Specifies that quoting work on the service item is finished."
+    },
+    {
+      "no": 20,
+      "name": "Posting Allowed",
+      "tooltip": "Specifies that you can post a service order, if it includes a service item with this repair status."
+    },
+    {
+      "no": 21,
+      "name": "Pending Status Allowed",
+      "tooltip": "Specifies that you can manually change the Status of a service order to Pending, if it includes a service item with this repair status."
+    },
+    {
+      "no": 22,
+      "name": "In Process Status Allowed",
+      "tooltip": "Specifies that you can manually change the Status of a service order to In Process, if it includes a service item with this repair status."
+    },
+    {
+      "no": 23,
+      "name": "Finished Status Allowed",
+      "tooltip": "Specifies that you can manually change the Status of a service order to Finished, if it includes a service item with this repair status."
+    },
+    {
+      "no": 24,
+      "name": "On Hold Status Allowed",
+      "tooltip": "Specifies that you can manually change the Status of a service order to On Hold, if it includes a service item with this repair status."
+    }
+  ]
+}

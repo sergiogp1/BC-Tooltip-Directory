@@ -1,0 +1,53 @@
+{
+  "id": 5103,
+  "name": "Interaction Tmpl. Language",
+  "slug": "5103_interaction_tmpl_language",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Interaction Template Code",
+      "tooltip": "Specifies the code for the interaction template that you have selected."
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the description of the interaction template language. This field will not be displayed in the Word attachment."
+    },
+    {
+      "no": 4,
+      "name": "Attachment No.",
+      "tooltip": "Specifies if the linked attachment is inherited or unique."
+    },
+    {
+      "no": 5,
+      "name": "Custom Layout Code",
+      "tooltip": "Specifies the number of the report layout."
+    },
+    {
+      "no": 6,
+      "name": "Custom Layout Description",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Word Template Code",
+      "tooltip": "Specifies the Word template to use when you create communications for an interaction. The Word template will create either a document or be used as the body text in an email."
+    },
+    {
+      "no": 8,
+      "name": "Report Layout Name",
+      "tooltip": "Specifies the report layout that will be used."
+    },
+    {
+      "no": 9,
+      "name": "Report Layout AppID",
+      "tooltip": "Specifies which app the report layout belongs to."
+    }
+  ]
+}

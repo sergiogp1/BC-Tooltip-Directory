@@ -1,0 +1,523 @@
+{
+  "id": 5970,
+  "name": "Filed Service Contract Header",
+  "slug": "5970_filed_service_contract_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the filed service contract or service contract quote."
+    },
+    {
+      "no": 2,
+      "name": "Contract Type",
+      "tooltip": "Specifies the type of the filed contract or contract quote."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the filed service contract or contract quote."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Status",
+      "tooltip": "Specifies the status of the filed service contract or contract quote."
+    },
+    {
+      "no": 6,
+      "name": "Change Status",
+      "tooltip": "Specifies if the service contract or the service contract quote was open or locked for changes at the moment of filing."
+    },
+    {
+      "no": 7,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer who owns the items in the filed service contract or contract quote."
+    },
+    {
+      "no": 8,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer in the filed service contract or contract quote."
+    },
+    {
+      "no": 9,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer in the filed service contract or contract quote."
+    },
+    {
+      "no": 10,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 11,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 12,
+      "name": "City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 13,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the person you regularly contact when you do business with the customer in the filed service contract or contract quote."
+    },
+    {
+      "no": 14,
+      "name": "Your Reference",
+      "tooltip": "Specifies the customer's reference number."
+    },
+    {
+      "no": 15,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the code of the salesperson assigned to the filed service contract or contract quote."
+    },
+    {
+      "no": 16,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 17,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 18,
+      "name": "Bill-to Address",
+      "tooltip": "Specifies the address of the customer to whom you will send the invoice."
+    },
+    {
+      "no": 19,
+      "name": "Bill-to Address 2",
+      "tooltip": "Specifies an additional line of the address."
+    },
+    {
+      "no": 20,
+      "name": "Bill-to Post Code",
+      "tooltip": "Specifies the postal code of the customer's billing address."
+    },
+    {
+      "no": 21,
+      "name": "Bill-to City",
+      "tooltip": "Specifies the city of the address."
+    },
+    {
+      "no": 22,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 23,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 24,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 25,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 26,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 27,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 28,
+      "name": "Serv. Contract Acc. Gr. Code",
+      "tooltip": "Specifies the code of the service contract account group that the filed service contract is associated with."
+    },
+    {
+      "no": 32,
+      "name": "Invoice Period",
+      "tooltip": "Specifies the invoice period for the filed service contract or contract quote."
+    },
+    {
+      "no": 33,
+      "name": "Last Invoice Date",
+      "tooltip": "Specifies the invoice date when this filed service contract was last invoiced."
+    },
+    {
+      "no": 34,
+      "name": "Next Invoice Date",
+      "tooltip": "Specifies the next invoice date for this filed service contract or contract quote."
+    },
+    {
+      "no": 35,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the filed service contract or contract quote."
+    },
+    {
+      "no": 36,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the date when the filed service contract expires."
+    },
+    {
+      "no": 38,
+      "name": "First Service Date",
+      "tooltip": "Specifies the date of the first expected service for the service items in the filed service contract or contract quote."
+    },
+    {
+      "no": 39,
+      "name": "Max. Labor Unit Price",
+      "tooltip": "Specifies the maximum unit price that can be set for a resource on all service order lines for to the filed service contract or contract quote."
+    },
+    {
+      "no": 40,
+      "name": "Calcd. Annual Amount",
+      "tooltip": "Specifies the sum of the Line Amount field values on all contract lines associated with the filed service contract or contract quote."
+    },
+    {
+      "no": 42,
+      "name": "Annual Amount",
+      "tooltip": "Specifies the amount that was invoiced annually before the service contract or contract quote was filed."
+    },
+    {
+      "no": 43,
+      "name": "Amount per Period",
+      "tooltip": "Specifies the amount that will be invoiced for each invoice period for the filed service contract or contract quote."
+    },
+    {
+      "no": 44,
+      "name": "Combine Invoices",
+      "tooltip": "Specifies you want to combine invoices for this filed service contract with invoices for other service contracts with the same bill-to customer."
+    },
+    {
+      "no": 45,
+      "name": "Prepaid",
+      "tooltip": "Specifies that this filed service contract or contract quote is prepaid."
+    },
+    {
+      "no": 46,
+      "name": "Next Invoice Period",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Service Zone Code",
+      "tooltip": "Specifies the code of the service zone of the customer's ship-to address."
+    },
+    {
+      "no": 48,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Cancel Reason Code",
+      "tooltip": "Specifies the cancel reason code specified in a service contract or a contract quote at the moment of filing."
+    },
+    {
+      "no": 51,
+      "name": "Last Price Update Date",
+      "tooltip": "Specifies the date when you last updated the service contract prices."
+    },
+    {
+      "no": 52,
+      "name": "Next Price Update Date",
+      "tooltip": "Specifies the next date when you want contract prices to be updated."
+    },
+    {
+      "no": 53,
+      "name": "Last Price Update %",
+      "tooltip": "Specifies the price update percentage you used when you last updated the contract prices."
+    },
+    {
+      "no": 55,
+      "name": "Response Time (Hours)",
+      "tooltip": "Specifies the default response time for the service items in the filed service contract or contract quote."
+    },
+    {
+      "no": 56,
+      "name": "Contract Lines on Invoice",
+      "tooltip": "Specifies that you want the contract lines for this service contract to appear as text on the invoice created when you invoice the contract."
+    },
+    {
+      "no": 59,
+      "name": "Service Period",
+      "tooltip": "Specifies the default service period for the service items in the filed service contract or contract quote."
+    },
+    {
+      "no": 60,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a formula that calculates the payment due date, payment discount date, and payment discount amount."
+    },
+    {
+      "no": 62,
+      "name": "Invoice after Service",
+      "tooltip": "Specifies you can only invoice the contract if you have posted a service order since last time you invoiced the contract."
+    },
+    {
+      "no": 63,
+      "name": "Quote Type",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Allow Unbalanced Amounts",
+      "tooltip": "Specifies whether the Annual Amount field on the contract or quote is modified automatically or manually."
+    },
+    {
+      "no": 65,
+      "name": "Contract Group Code",
+      "tooltip": "Specifies the contract group code of the filed service contract or contract quote."
+    },
+    {
+      "no": 66,
+      "name": "Service Order Type",
+      "tooltip": "Specifies the service order type assigned to service orders linked to this filed service contract or contract quote."
+    },
+    {
+      "no": 67,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 68,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 69,
+      "name": "Accept Before",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Automatic Credit Memos",
+      "tooltip": "Specifies that you want a credit memo created when you remove a contract line from the filed service contract."
+    },
+    {
+      "no": 74,
+      "name": "Template No.",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Price Update Period",
+      "tooltip": "Specifies the price update period for this filed service contract or contract quote."
+    },
+    {
+      "no": 79,
+      "name": "Price Inv. Increase Code",
+      "tooltip": "Specifies the standard text code to print on service invoices for this filed service contract, informing the customer which prices have been updated."
+    },
+    {
+      "no": 80,
+      "name": "Print Increase Text",
+      "tooltip": "Specifies that the price increase text is printed on invoices for this contract, informing the customer which prices have been updated."
+    },
+    {
+      "no": 81,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the amounts in the filed service contract or contract quote."
+    },
+    {
+      "no": 82,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Probability",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor."
+    },
+    {
+      "no": 86,
+      "name": "Phone No.",
+      "tooltip": "Specifies the customer phone number."
+    },
+    {
+      "no": 87,
+      "name": "Fax No.",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "E-Mail",
+      "tooltip": "Specifies the customer's email address."
+    },
+    {
+      "no": 89,
+      "name": "Bill-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 93,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "Bill-to Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Ship-to Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Next Invoice Period Start",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Next Invoice Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 101,
+      "name": "File Date",
+      "tooltip": "Specifies the date when service contract or contract quote is filed."
+    },
+    {
+      "no": 102,
+      "name": "File Time",
+      "tooltip": "Specifies the time when the service contract or contract quote is filed."
+    },
+    {
+      "no": 103,
+      "name": "Filed By",
+      "tooltip": "Specifies the name of the user who filed the service contract."
+    },
+    {
+      "no": 104,
+      "name": "Reason for Filing",
+      "tooltip": "Specifies the reason for filing the service contract or contract quote."
+    },
+    {
+      "no": 105,
+      "name": "Contract Type Relation",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Contract No. Relation",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "No. of Filed Versions",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Restorable",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Source Contract Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Last Filed DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 204,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how to make payment, such as with bank transfer, cash, or check."
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1200,
+      "name": "Direct Debit Mandate ID",
+      "tooltip": "Specifies the direct-debit mandate that the customer has signed to allow direct-debit collection of payments."
+    },
+    {
+      "no": 5050,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact who will receive the service contract delivery."
+    },
+    {
+      "no": 5051,
+      "name": "Bill-to Contact No.",
+      "tooltip": "Specifies the number of the contact person at the customer's billing address."
+    },
+    {
+      "no": 5052,
+      "name": "Bill-to Contact",
+      "tooltip": "Specifies the name of the contact person at the customer's billing address."
+    },
+    {
+      "no": 5053,
+      "name": "Last Invoice Period End",
+      "tooltip": ""
+    }
+  ]
+}

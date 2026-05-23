@@ -1,0 +1,383 @@
+{
+  "id": 5136,
+  "name": "Job Task Archive",
+  "slug": "5136_job_task_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 2,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the project task. You can enter anything that is meaningful in describing the task. The description is copied and used in descriptions on the project planning line."
+    },
+    {
+      "no": 4,
+      "name": "Job Task Type",
+      "tooltip": "Specifies the purpose of the account. Newly created accounts are automatically assigned the Posting account type, but you can change this. Choose the field to select one of the following five options:"
+    },
+    {
+      "no": 6,
+      "name": "WIP-Total",
+      "tooltip": "Specifies the project tasks you want to group together when calculating Work In Process (WIP) and Recognition."
+    },
+    {
+      "no": 7,
+      "name": "Job Posting Group",
+      "tooltip": "Specifies the project posting group of the task."
+    },
+    {
+      "no": 9,
+      "name": "WIP Method",
+      "tooltip": "Specifies the name of the Work in Process calculation method that is associated with a project. The value in this field comes from the WIP method specified on the project card."
+    },
+    {
+      "no": 10,
+      "name": "Schedule (Total Cost)",
+      "tooltip": "Specifies, in the local currency, the total budgeted cost for the project task during the time period in the Planning Date Filter field."
+    },
+    {
+      "no": 11,
+      "name": "Schedule (Total Price)",
+      "tooltip": "Specifies, in local currency, the total budgeted price for the project task during the time period in the Planning Date Filter field."
+    },
+    {
+      "no": 12,
+      "name": "Usage (Total Cost)",
+      "tooltip": "Specifies, in local currency, the total cost of the usage of items, resources and general ledger expenses posted on the project task during the time period in the Posting Date Filter field."
+    },
+    {
+      "no": 13,
+      "name": "Usage (Total Price)",
+      "tooltip": "Specifies, in the local currency, the total price of the usage of items, resources and general ledger expenses posted on the project task during the time period in the Posting Date Filter field."
+    },
+    {
+      "no": 14,
+      "name": "Contract (Total Cost)",
+      "tooltip": "Specifies, in local currency, the total billable cost for the project task during the time period in the Planning Date Filter field."
+    },
+    {
+      "no": 15,
+      "name": "Contract (Total Price)",
+      "tooltip": "Specifies, in the local currency, the total billable price for the project task during the time period in the Planning Date Filter field."
+    },
+    {
+      "no": 16,
+      "name": "Contract (Invoiced Price)",
+      "tooltip": "Specifies, in the local currency, the total billable price for the project task that has been invoiced during the time period in the Posting Date Filter field."
+    },
+    {
+      "no": 17,
+      "name": "Contract (Invoiced Cost)",
+      "tooltip": "Specifies, in the local currency, the total billable cost for the project task that has been invoiced during the time period in the Posting Date Filter field."
+    },
+    {
+      "no": 19,
+      "name": "Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Planning Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Totaling",
+      "tooltip": "Specifies an interval or a list of project task numbers."
+    },
+    {
+      "no": 22,
+      "name": "New Page",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "No. of Blank Lines",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code of the task."
+    },
+    {
+      "no": 31,
+      "name": "Bin Code",
+      "tooltip": "Specifies a bin code for specific location of the task."
+    },
+    {
+      "no": 34,
+      "name": "Recognized Sales Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Recognized Costs Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Recognized Sales G/L Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Recognized Costs G/L Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 61,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 62,
+      "name": "Outstanding Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Amt. Rcd. Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Remaining (Total Cost)",
+      "tooltip": "Specifies the remaining total cost (LCY) as the sum of costs from project planning lines associated with the project task. The calculation occurs when you have specified that there is a usage link between the project ledger and the project planning lines."
+    },
+    {
+      "no": 65,
+      "name": "Remaining (Total Price)",
+      "tooltip": "Specifies the remaining total price (LCY) as the sum of prices from project planning lines associated with the project task. The calculation occurs when you have specified that there is a usage link between the project ledger and the project planning lines."
+    },
+    {
+      "no": 66,
+      "name": "Start Date",
+      "tooltip": "Specifies the start date for the project task. The date is based on the date on the related project planning line."
+    },
+    {
+      "no": 67,
+      "name": "End Date",
+      "tooltip": "Specifies the end date for the project task. The date is based on the date on the related project planning line."
+    },
+    {
+      "no": 70,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer who pays for the project task."
+    },
+    {
+      "no": 71,
+      "name": "Bill-to Name",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Bill-to Address",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Bill-to Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Bill-to City",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Bill-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Bill-to Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Bill-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Bill-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer who pays for the project."
+    },
+    {
+      "no": 79,
+      "name": "Bill-to Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Bill-to Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer who will receive the products and be billed by default for the project task."
+    },
+    {
+      "no": 91,
+      "name": "Sell-to Customer Name",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Sell-to Customer Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 93,
+      "name": "Sell-to Address",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Sell-to Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Sell-to City",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "Sell-to Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Sell-to Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Sell-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Sell-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Sell-to Contact No.",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Ship-to Code",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Ship-to Name",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Ship-to Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Ship-to Address",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Ship-to Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "Ship-to City",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "Ship-to Contact",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "Ship-to Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "Your Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Invoice Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5047,
+      "name": "Version No.",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 208,
+  "name": "Job Posting Group",
+  "slug": "208_job_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the posting group that defines to which G/L account you post project transactions when the project card contains the project posting group."
+    },
+    {
+      "no": 2,
+      "name": "WIP Costs Account",
+      "tooltip": "Specifies the work in process (WIP) account for the calculated cost of the project WIP for project tasks with this posting group. The account is normally a balance sheet asset account."
+    },
+    {
+      "no": 3,
+      "name": "WIP Accrued Costs Account",
+      "tooltip": "Specifies an account that accumulates postings when the costs recognized, based on the invoiced value of the project, are greater than the current usage total posted If the WIP method for the project is Cost Value or Cost of Sales. The account is normally a balance sheet accrued expense liability account."
+    },
+    {
+      "no": 4,
+      "name": "Job Costs Applied Account",
+      "tooltip": "Specifies the balancing account for WIP Cost account for projects. The account is normally an expense (credit) account."
+    },
+    {
+      "no": 5,
+      "name": "Job Costs Adjustment Account",
+      "tooltip": "Specifies the balancing account to WIP Accrued Costs account if the work in process (WIP) method for the project is Cost Value or Cost of Sales. The account is normally an expense account."
+    },
+    {
+      "no": 6,
+      "name": "G/L Expense Acc. (Contract)",
+      "tooltip": "Specifies the sales account to be used for general ledger expenses in project tasks with this posting group. If left empty, the G/L account entered on the planning line will be used."
+    },
+    {
+      "no": 7,
+      "name": "Job Sales Adjustment Account",
+      "tooltip": "Specifies the balancing account to the WIP Accrued Sales account if the work in process (WIP) Method for the project is the Sales Value. The account is normally an income account."
+    },
+    {
+      "no": 8,
+      "name": "WIP Accrued Sales Account",
+      "tooltip": "Specifies an account that will be posted to when the revenue that can be recognized for the project is greater than the current invoiced value for the project if the work in process (WIP) method for the project is Sales Value."
+    },
+    {
+      "no": 9,
+      "name": "WIP Invoiced Sales Account",
+      "tooltip": "Specifies the account for the invoiced value, for the project for project tasks, with this posting group. The account is normally a Balance sheet liability account."
+    },
+    {
+      "no": 10,
+      "name": "Job Sales Applied Account",
+      "tooltip": "Specifies the balancing account to WIP Invoiced Sales Account. The account is normally a contra (or debit) income account."
+    },
+    {
+      "no": 11,
+      "name": "Recognized Costs Account",
+      "tooltip": "Specifies the account for recognized costs for the project. The account is normally an expense account."
+    },
+    {
+      "no": 12,
+      "name": "Recognized Sales Account",
+      "tooltip": "Specifies the account for recognized sales (or revenue) for the project. The account is normally an income account."
+    },
+    {
+      "no": 13,
+      "name": "Item Costs Applied Account",
+      "tooltip": "Specifies the balancing account for the WIP Costs account for items used in projects. The account is normally an expense (credit) account."
+    },
+    {
+      "no": 14,
+      "name": "Resource Costs Applied Account",
+      "tooltip": "Specifies the balancing account for the WIP Costs account for resources used in projects. The account is normally an expense (credit) account."
+    },
+    {
+      "no": 15,
+      "name": "G/L Costs Applied Account",
+      "tooltip": "Specifies the balancing account for the WIP Costs account."
+    },
+    {
+      "no": 20,
+      "name": "Description",
+      "tooltip": "Specifies a description of project posting groups."
+    }
+  ]
+}

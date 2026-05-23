@@ -1,0 +1,53 @@
+{
+  "id": 9042,
+  "name": "Team Member Cue",
+  "slug": "9042_team_member_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Open Time Sheets",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Submitted Time Sheets",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Rejected Time Sheets",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Approved Time Sheets",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Time Sheets to Approve",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "New Time Sheets",
+      "tooltip": "Specifies the number of time sheets that are currently assigned to you, without lines."
+    },
+    {
+      "no": 28,
+      "name": "User ID Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Approve ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

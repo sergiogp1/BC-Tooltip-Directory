@@ -1,0 +1,23 @@
+{
+  "id": 9994,
+  "name": "API Data Upgrade",
+  "slug": "9994_api_data_upgrade",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Upgrade Tag",
+      "tooltip": "Name of the entity."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "API endpoints of the entity."
+    },
+    {
+      "no": 3,
+      "name": "Status",
+      "tooltip": "Status of the API data upgrade."
+    }
+  ]
+}

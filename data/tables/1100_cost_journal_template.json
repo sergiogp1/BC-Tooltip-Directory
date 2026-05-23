@@ -1,0 +1,38 @@
+{
+  "id": 1100,
+  "name": "Cost Journal Template",
+  "slug": "1100_cost_journal_template",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cost journal entry."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the cost journal entry."
+    },
+    {
+      "no": 3,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 6,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 7,
+      "name": "Posting Report ID",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Posting Report Caption",
+      "tooltip": ""
+    }
+  ]
+}

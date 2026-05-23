@@ -1,0 +1,48 @@
+{
+  "id": 9154,
+  "name": "My Job",
+  "slug": "9154_my_job",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Job No.",
+      "tooltip": "Specifies the project numbers that are displayed in the My Project Cue on the Role Center."
+    },
+    {
+      "no": 3,
+      "name": "Exclude from Business Chart",
+      "tooltip": "Specifies if this project should appear in the business charts for this role center."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the project."
+    },
+    {
+      "no": 5,
+      "name": "Status",
+      "tooltip": "Specifies the project's status."
+    },
+    {
+      "no": 6,
+      "name": "Bill-to Name",
+      "tooltip": "Specifies the name of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 7,
+      "name": "Percent Completed",
+      "tooltip": "Specifies the completion rate of the project."
+    },
+    {
+      "no": 8,
+      "name": "Percent Invoiced",
+      "tooltip": "Specifies how much of the project has been invoiced."
+    }
+  ]
+}

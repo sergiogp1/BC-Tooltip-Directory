@@ -1,0 +1,53 @@
+{
+  "id": 6757,
+  "name": "Create Reminders Setup",
+  "slug": "6757_create_reminders_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a unique code for the Create Reminders Setup"
+    },
+    {
+      "no": 2,
+      "name": "Action Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description for the Create Reminders Setup"
+    },
+    {
+      "no": 10,
+      "name": "Only Overdue Amount Entries",
+      "tooltip": "Specifies if reminder should list all open entries or only entries with overdue amount"
+    },
+    {
+      "no": 11,
+      "name": "Include Entries On Hold",
+      "tooltip": "Specifies if entries on hold should be included in the reminder"
+    },
+    {
+      "no": 12,
+      "name": "Set Header Level to all Lines",
+      "tooltip": "Specifies if the highest level should be set on all reminder lines. If this value is set, then all lines will get the highest line level. Otherwise each entry will get incremented individually."
+    },
+    {
+      "no": 20,
+      "name": "Customer Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Ledger Entries Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Issue Fee Ledg. Entries Filter",
+      "tooltip": ""
+    }
+  ]
+}

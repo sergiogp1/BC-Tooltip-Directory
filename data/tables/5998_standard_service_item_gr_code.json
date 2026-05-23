@@ -1,0 +1,23 @@
+{
+  "id": 5998,
+  "name": "Standard Service Item Gr. Code",
+  "slug": "5998_standard_service_item_gr_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Service Item Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies a standard service code assigned to the specified service item group."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of service denoted by the standard service code."
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "id": 181,
+  "name": "Posted Gen. Journal Line",
+  "slug": "181_posted_gen_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies the name of the journal template."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the type of account that the entry on the journal line will be posted to."
+    },
+    {
+      "no": 4,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number that the entry on the journal line will be posted to."
+    },
+    {
+      "no": 5,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 6,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that the entry on the journal line is."
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the journal line."
+    },
+    {
+      "no": 8,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry."
+    },
+    {
+      "no": 10,
+      "name": "VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account to which a balancing entry for the journal line will posted (for example, a cash account for cash purchases)."
+    },
+    {
+      "no": 12,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code of the currency for the amounts on the journal line."
+    },
+    {
+      "no": 13,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount (including VAT) that the journal line consists of."
+    },
+    {
+      "no": 14,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total amount (including VAT) that the journal line consists of, if it is a debit amount."
+    },
+    {
+      "no": 15,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total amount (including VAT) that the journal line consists of, if it is a credit amount."
+    },
+    {
+      "no": 16,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the total amount in local currency (including VAT) that the journal line consists of."
+    },
+    {
+      "no": 17,
+      "name": "Balance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Sales/Purch. (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Profit (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Inv. Discount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Bill-to/Pay-to No.",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 25,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 26,
+      "name": "Salespers./Purch. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "On Hold",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Pmt. Discount Date",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Payment Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Job No.",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of items to be included on the journal line."
+    },
+    {
+      "no": 44,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the amount of VAT included in the total amount."
+    },
+    {
+      "no": 45,
+      "name": "VAT Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Applies-to ID",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Business Unit Code",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch."
+    },
+    {
+      "no": 52,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Recurring Method",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Expiration Date",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Recurring Frequency",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Gen. Posting Type",
+      "tooltip": "Specifies the general posting type that will be used when you post the entry on this journal line."
+    },
+    {
+      "no": 58,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 59,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 60,
+      "name": "VAT Calculation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "EU 3-Party Trade",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Allow Application",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the code for the balancing account type that should be used in this journal line."
+    },
+    {
+      "no": 64,
+      "name": "Bal. Gen. Posting Type",
+      "tooltip": "Specifies the general posting type associated with the balancing account that will be used when you post the entry on the journal line."
+    },
+    {
+      "no": 65,
+      "name": "Bal. Gen. Bus. Posting Group",
+      "tooltip": "Specifies the general business posting group code associated with the balancing account that will be used when you post the entry."
+    },
+    {
+      "no": 66,
+      "name": "Bal. Gen. Prod. Posting Group",
+      "tooltip": "Specifies the general product posting group code associated with the balancing account that will be used when you post the entry."
+    },
+    {
+      "no": 67,
+      "name": "Bal. VAT Calculation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Bal. VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Bal. VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Bank Payment Type",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "VAT Base Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Bal. VAT Base Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Print Posted Documents",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Check Printed",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "Bal. Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "Bal. Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Bal. Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "Bal. Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT business posting group code that will be used when you post the entry on the journal line."
+    },
+    {
+      "no": 91,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT product posting group. Links business transactions made for the item, resource, or G/L account with the general ledger, to account for VAT amounts resulting from trade with that record."
+    },
+    {
+      "no": 92,
+      "name": "Bal. VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Bal. VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Additional-Currency Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "FA Add.-Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Source Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Source Currency Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Source Curr. VAT Base Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Source Curr. VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "VAT Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "VAT Base Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Bal. VAT Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "Bal. VAT Base Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Reversing Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Allow Zero-Amount Posting",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Ship-to/Order Address Code",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Bal. VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "IC Direction",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "IC Partner G/L Acc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "IC Partner Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Sell-to/Buy-from No.",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Prepayment",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Financial Void",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Copy VAT Setup to Jnl. Lines",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "VAT Base Before Pmt. Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "Orig. Pmt. Disc. Possible",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "Orig. Pmt. Disc. Possible(LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "IC Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "IC Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 160,
+      "name": "Job Queue Status",
+      "tooltip": ""
+    },
+    {
+      "no": 161,
+      "name": "Job Queue Entry ID",
+      "tooltip": ""
+    },
+    {
+      "no": 165,
+      "name": "Incoming Document Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "Creditor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 171,
+      "name": "Payment Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 172,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 173,
+      "name": "Applies-to Ext. Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 175,
+      "name": "Invoice Received Date",
+      "tooltip": ""
+    },
+    {
+      "no": 288,
+      "name": "Recipient Bank Account",
+      "tooltip": ""
+    },
+    {
+      "no": 289,
+      "name": "Message to Recipient",
+      "tooltip": ""
+    },
+    {
+      "no": 290,
+      "name": "Exported to Payment File",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1001,
+      "name": "Job Task No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1002,
+      "name": "Job Unit Price (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1003,
+      "name": "Job Total Price (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1004,
+      "name": "Job Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 1005,
+      "name": "Job Unit Cost (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1006,
+      "name": "Job Line Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 1007,
+      "name": "Job Line Disc. Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1008,
+      "name": "Job Unit Of Measure Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1009,
+      "name": "Job Line Type",
+      "tooltip": ""
+    },
+    {
+      "no": 1010,
+      "name": "Job Unit Price",
+      "tooltip": ""
+    },
+    {
+      "no": 1011,
+      "name": "Job Total Price",
+      "tooltip": ""
+    },
+    {
+      "no": 1012,
+      "name": "Job Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 1013,
+      "name": "Job Total Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 1014,
+      "name": "Job Line Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 1015,
+      "name": "Job Line Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 1016,
+      "name": "Job Total Cost (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1017,
+      "name": "Job Line Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 1018,
+      "name": "Job Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1019,
+      "name": "Job Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1020,
+      "name": "Job Planning Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1030,
+      "name": "Job Remaining Qty.",
+      "tooltip": ""
+    },
+    {
+      "no": 1200,
+      "name": "Direct Debit Mandate ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1220,
+      "name": "Data Exch. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1221,
+      "name": "Payer Information",
+      "tooltip": ""
+    },
+    {
+      "no": 1222,
+      "name": "Transaction Information",
+      "tooltip": ""
+    },
+    {
+      "no": 1223,
+      "name": "Data Exch. Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 1224,
+      "name": "Applied Automatically",
+      "tooltip": ""
+    },
+    {
+      "no": 1700,
+      "name": "Deferral Code",
+      "tooltip": "Specifies the deferral template that governs how expenses or revenue are deferred to the different accounting periods when the expenses or revenue were incurred."
+    },
+    {
+      "no": 1701,
+      "name": "Deferral Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5050,
+      "name": "Campaign No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Prod. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5600,
+      "name": "FA Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5601,
+      "name": "FA Posting Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5602,
+      "name": "Depreciation Book Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5603,
+      "name": "Salvage Value",
+      "tooltip": ""
+    },
+    {
+      "no": 5604,
+      "name": "No. of Depreciation Days",
+      "tooltip": ""
+    },
+    {
+      "no": 5605,
+      "name": "Depr. until FA Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5606,
+      "name": "Depr. Acquisition Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 5609,
+      "name": "Maintenance Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5610,
+      "name": "Insurance No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5611,
+      "name": "Budgeted FA No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5612,
+      "name": "Duplicate in Depreciation Book",
+      "tooltip": ""
+    },
+    {
+      "no": 5613,
+      "name": "Use Duplication List",
+      "tooltip": ""
+    },
+    {
+      "no": 5614,
+      "name": "FA Reclassification Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 5615,
+      "name": "FA Error Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5616,
+      "name": "Index Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 5617,
+      "name": "Source Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5618,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 5701,
+      "name": "Check Exported",
+      "tooltip": ""
+    },
+    {
+      "no": 5702,
+      "name": "Check Transmitted",
+      "tooltip": ""
+    },
+    {
+      "no": 6200,
+      "name": "Non-Deductible VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 6201,
+      "name": "Non-Deductible VAT Base",
+      "tooltip": ""
+    },
+    {
+      "no": 6202,
+      "name": "Non-Deductible VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 6203,
+      "name": "Non-Deductible VAT Base LCY",
+      "tooltip": ""
+    },
+    {
+      "no": 6204,
+      "name": "Non-Deductible VAT Amount LCY",
+      "tooltip": ""
+    },
+    {
+      "no": 6205,
+      "name": "Non-Deductible VAT Base ACY",
+      "tooltip": ""
+    },
+    {
+      "no": 6206,
+      "name": "Non-Deductible VAT Amount ACY",
+      "tooltip": ""
+    },
+    {
+      "no": 6208,
+      "name": "Non-Deductible VAT Diff.",
+      "tooltip": ""
+    },
+    {
+      "no": 8001,
+      "name": "Account Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "Customer Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8003,
+      "name": "Applies-to Invoice Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8004,
+      "name": "Contact Graph Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8005,
+      "name": "Last Modified DateTime",
+      "tooltip": ""
+    },
+    {
+      "no": 8006,
+      "name": "Journal Batch Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8007,
+      "name": "Payment Method Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8010,
+      "name": "G/L Register No.",
+      "tooltip": "Specifies the number of the general ledger register."
+    },
+    {
+      "no": 8011,
+      "name": "Indentation",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "id": 5343,
+  "name": "CRM Opportunity",
+  "slug": "5343_crm_opportunity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "OpportunityId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "PriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "OpportunityRatingCode",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 4,
+      "name": "PriorityCode",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "ContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "AccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Name",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 8,
+      "name": "StepId",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "EstimatedValue",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 11,
+      "name": "StepName",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "SalesStageCode",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "ParticipatesInWorkflow",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "PricingErrorCode",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "EstimatedCloseDate",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 16,
+      "name": "CloseProbability",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 17,
+      "name": "ActualValue",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "ActualCloseDate",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "OwningUser",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "OwningBusinessUnit",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "StateCode",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 27,
+      "name": "StatusCode",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 28,
+      "name": "IsRevenueSystemCalculated",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "ContactIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "AccountIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "PriceLevelIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "CustomerId",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "CustomerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "OwnerId",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "OwnerIdType",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "ActualValue_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "EstimatedValue_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "TotalTax",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "DiscountPercentage",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "TotalAmount",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 50,
+      "name": "DiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "TotalAmountLessFreight",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "FreightAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "TotalLineItemDiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "TotalLineItemAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "TotalDiscountAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "TotalLineItemAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "TotalDiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "TotalTax_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "DiscountAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "TotalLineItemDiscountAmount_Ba",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "TotalAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "TotalAmountLessFreight_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "FreightAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "OwningTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "BudgetStatus",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "DecisionMaker",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Need",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 72,
+      "name": "TimeLine",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "BudgetAmount",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "BudgetAmount_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "ParentAccountId",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "ParentAccountIdName",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 77,
+      "name": "ParentContactId",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "ParentContactIdName",
+      "tooltip": "Specifies data from a corresponding field in a Dynamics 365 Sales entity. For more information about Dynamics 365 Sales, see Dynamics 365 Sales Help Center."
+    },
+    {
+      "no": 79,
+      "name": "EvaluateFit",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "InitialCommunication",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "ConfirmInterest",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "ScheduleFollowup_Prospect",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "ScheduleFollowup_Qualify",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "ScheduleProposalMeeting",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "FinalDecisionDate",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "DevelopProposal",
+      "tooltip": ""
+    },
+    {
+      "no": 87,
+      "name": "CompleteInternalReview",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "CaptureProposalFeedback",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "ResolveFeedback",
+      "tooltip": ""
+    },
+    {
+      "no": 90,
+      "name": "PresentProposal",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "SendThankYouNote",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "SalesStage",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "CompleteFinalProposal",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "FileDebrief",
+      "tooltip": ""
+    },
+    {
+      "no": 96,
+      "name": "PursuitDecision",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "CustomerPainPoints",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "CustomerNeed",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "ProposedSolution",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "QualificationComments",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "QuoteComments",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "PurchaseProcess",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "PurchaseTimeframe",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "IdentifyCustomerContacts",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "IdentifyCompetitors",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "IdentifyPursuitTeam",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "CurrentSituation",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "PresentFinalProposal",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "CompanyId",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": 325,
+  "name": "VAT Posting Setup",
+  "slug": "325_vat_posting_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 2,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 3,
+      "name": "VAT Calculation Type",
+      "tooltip": "Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group."
+    },
+    {
+      "no": 4,
+      "name": "VAT %",
+      "tooltip": "Specifies the relevant VAT rate for the particular combination of VAT business posting group and VAT product posting group. Do not enter the percent sign, only the number. For example, if the VAT rate is 25 %, enter 25 in this field."
+    },
+    {
+      "no": 5,
+      "name": "Unrealized VAT Type",
+      "tooltip": "Specifies how to handle unrealized VAT, which is VAT that is calculated but not due until the invoice is paid."
+    },
+    {
+      "no": 6,
+      "name": "Adjust for Payment Discount",
+      "tooltip": "Specifies whether to recalculate VAT amounts when you post payments that trigger payment discounts."
+    },
+    {
+      "no": 7,
+      "name": "Sales VAT Account",
+      "tooltip": "Specifies the general ledger account number to which to post sales VAT for the particular combination of VAT business posting group and VAT product posting group."
+    },
+    {
+      "no": 8,
+      "name": "Sales VAT Unreal. Account",
+      "tooltip": "Specifies the number of the general ledger account to post unrealized sales VAT to."
+    },
+    {
+      "no": 9,
+      "name": "Purchase VAT Account",
+      "tooltip": "Specifies the general ledger account number to which to post purchase VAT for the particular combination of business group and product group."
+    },
+    {
+      "no": 10,
+      "name": "Purch. VAT Unreal. Account",
+      "tooltip": "Specifies the number of the general ledger account to post unrealized purchase VAT to."
+    },
+    {
+      "no": 11,
+      "name": "Reverse Chrg. VAT Acc.",
+      "tooltip": "Specifies the general ledger account number to which you want to post reverse charge VAT (purchase VAT) for this combination of VAT business posting group and VAT product posting group, if you have selected the Reverse Charge VAT option in the VAT Calculation Type field."
+    },
+    {
+      "no": 12,
+      "name": "Reverse Chrg. VAT Unreal. Acc.",
+      "tooltip": "Specifies the number of the general ledger account to post amounts for unrealized reverse charge VAT to."
+    },
+    {
+      "no": 13,
+      "name": "VAT Identifier",
+      "tooltip": "Specifies a code to group various VAT posting setups with similar attributes, for example VAT percentage."
+    },
+    {
+      "no": 14,
+      "name": "EU Service",
+      "tooltip": "Specifies if this combination of VAT business posting group and VAT product posting group are to be reported as services in the periodic VAT reports."
+    },
+    {
+      "no": 15,
+      "name": "VAT Clause Code",
+      "tooltip": "Specifies the VAT Clause Code that is associated with the VAT Posting Setup."
+    },
+    {
+      "no": 16,
+      "name": "Certificate of Supply Required",
+      "tooltip": "Specifies if documents that use this combination of VAT business posting group and VAT product posting group require a certificate of supply."
+    },
+    {
+      "no": 17,
+      "name": "Tax Category",
+      "tooltip": "Specifies the VAT category in connection with electronic document sending. For example, when you send sales documents through the PEPPOL service, the value in this field is used to populate the TaxApplied element in the Supplier group. The number is based on the UNCL5305 standard."
+    },
+    {
+      "no": 20,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT posting setup"
+    },
+    {
+      "no": 21,
+      "name": "Blocked",
+      "tooltip": "Specifies if this particular combination of VAT business posting group and VAT product posting group is blocked."
+    },
+    {
+      "no": 25,
+      "name": "Sale VAT Reporting Code",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Purch. VAT Reporting Code",
+      "tooltip": ""
+    },
+    {
+      "no": 6200,
+      "name": "Non-Deductible VAT %",
+      "tooltip": "Specifies the percentage of the transaction amount to which VAT is not applied."
+    },
+    {
+      "no": 6202,
+      "name": "Non-Ded. Purchase VAT Account",
+      "tooltip": "Specifies the account associated with the VAT amount that is not deducted due to the type of goods or services purchased."
+    },
+    {
+      "no": 6203,
+      "name": "Allow Non-Deductible VAT",
+      "tooltip": "Specifies whether the Non-Deductible VAT is considered for this particular combination of VAT business posting group and VAT product posting group."
+    }
+  ]
+}

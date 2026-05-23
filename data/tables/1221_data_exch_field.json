@@ -1,0 +1,53 @@
+{
+  "id": 1221,
+  "name": "Data Exch. Field",
+  "slug": "1221_data_exch_field",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Column No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Value",
+      "tooltip": "Specifies the value in a column in the imported bank statement file, such as account number, posting date, and amount."
+    },
+    {
+      "no": 5,
+      "name": "Node ID",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Data Exch. Line Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Parent Node ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Data Exch. Def Code",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Value BLOB",
+      "tooltip": ""
+    }
+  ]
+}

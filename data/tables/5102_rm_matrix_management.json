@@ -1,0 +1,158 @@
+{
+  "id": 5102,
+  "name": "RM Matrix Management",
+  "slug": "5102_rm_matrix_management",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Company Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the task."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "No. of Opportunities",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Estimated Value (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Avg. Estimated Value (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Avg.Calcd. Current Value (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Salesperson Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Campaign Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Contact Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Action Taken Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Sales Cycle Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Sales Cycle Stage Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Probability % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Completed % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Company No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Contact Company Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Task Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Task Closed Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Priority Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Team Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "No. of Tasks",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Estimated Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Calcd. Current Value Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Chances of Success % Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Close Opportunity Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "System Task Type Filter",
+      "tooltip": ""
+    }
+  ]
+}

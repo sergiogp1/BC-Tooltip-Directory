@@ -1,0 +1,1078 @@
+{
+  "id": 39,
+  "name": "Purchase Line",
+  "slug": "39_purchase_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that you are about to create."
+    },
+    {
+      "no": 2,
+      "name": "Buy-from Vendor No.",
+      "tooltip": "Specifies the name of the vendor who delivered the items."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the document."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of this line."
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the line type."
+    },
+    {
+      "no": 6,
+      "name": "No.",
+      "tooltip": "Specifies the number of a general ledger account, item, resource, additional cost, or fixed asset, depending on the contents of the Type field."
+    },
+    {
+      "no": 7,
+      "name": "Location Code",
+      "tooltip": "Specifies a code for the location where you want the items to be placed when they are received."
+    },
+    {
+      "no": 8,
+      "name": "Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Expected Receipt Date",
+      "tooltip": "Specifies the date you expect the items to be available in your warehouse."
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the blanket purchase order."
+    },
+    {
+      "no": 12,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 13,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the purchase order line."
+    },
+    {
+      "no": 16,
+      "name": "Outstanding Quantity",
+      "tooltip": "Specifies how many units on the order line have not yet been received."
+    },
+    {
+      "no": 17,
+      "name": "Qty. to Invoice",
+      "tooltip": "Specifies the quantity that remains to be invoiced. It is calculated as Quantity - Qty. Invoiced."
+    },
+    {
+      "no": 18,
+      "name": "Qty. to Receive",
+      "tooltip": "Specifies the quantity of items that remains to be received."
+    },
+    {
+      "no": 22,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the price of one unit of what you're buying."
+    },
+    {
+      "no": 23,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 25,
+      "name": "VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 28,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 29,
+      "name": "Amount",
+      "tooltip": "Specifies the sum of amounts in the Line Amount field on the purchase order lines."
+    },
+    {
+      "no": 30,
+      "name": "Amount Including VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Unit Price (LCY)",
+      "tooltip": "Specifies the price, in LCY, of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 32,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies if the invoice line is included when the invoice discount is calculated."
+    },
+    {
+      "no": 34,
+      "name": "Gross Weight",
+      "tooltip": "Specifies the gross weight of one unit of the item. In the purchase statistics window, the gross weight on the line is included in the total gross weight of all the lines for the particular purchase document."
+    },
+    {
+      "no": 35,
+      "name": "Net Weight",
+      "tooltip": "Specifies the net weight of one unit of the item. In the purchase statistics window, the net weight on the line is included in the total net weight of all the lines for the particular purchase document."
+    },
+    {
+      "no": 36,
+      "name": "Units per Parcel",
+      "tooltip": "Specifies the number of units per parcel of the item. In the purchase statistics window, the number of units per parcel on the line helps to determine the total number of units for all the lines for the particular purchase document."
+    },
+    {
+      "no": 37,
+      "name": "Unit Volume",
+      "tooltip": "Specifies the volume of one unit of the item. In the purchase statistics window, the volume of one unit of the item on the line is included in the total volume of all the lines for the particular purchase document."
+    },
+    {
+      "no": 38,
+      "name": "Appl.-to Item Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the document or journal line is applied to."
+    },
+    {
+      "no": 40,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 41,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 45,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 54,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item."
+    },
+    {
+      "no": 56,
+      "name": "Recalculate Invoice Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Outstanding Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Qty. Rcd. Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Amt. Rcd. Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Quantity Received",
+      "tooltip": "Specifies how many units of the item on the line have been posted as received."
+    },
+    {
+      "no": 61,
+      "name": "Quantity Invoiced",
+      "tooltip": "Specifies how many units of the item on the line have been posted as invoiced."
+    },
+    {
+      "no": 63,
+      "name": "Receipt No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Receipt Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Order No.",
+      "tooltip": "Specifies the order number this line is associated with."
+    },
+    {
+      "no": 66,
+      "name": "Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Profit %",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Pay-to Vendor No.",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Inv. Discount Amount",
+      "tooltip": "Specifies the invoice discount amount for the line."
+    },
+    {
+      "no": 70,
+      "name": "Vendor Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Sales Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Sales Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Drop Shipment",
+      "tooltip": "Specifies if your vendor ships the items directly to your customer."
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 75,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 77,
+      "name": "VAT Calculation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Attached to Line No.",
+      "tooltip": "Specifies the line number to which this purchase line is attached."
+    },
+    {
+      "no": 81,
+      "name": "Entry Point",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 86,
+      "name": "Tax Liable",
+      "tooltip": "Specifies that purchases from the vendor on the purchase header are liable for sales tax."
+    },
+    {
+      "no": 87,
+      "name": "Tax Group Code",
+      "tooltip": "Specifies the tax group code for the tax detail entry."
+    },
+    {
+      "no": 88,
+      "name": "Use Tax",
+      "tooltip": "Specifies that the purchase is subject to use tax. Use tax is a sales tax that is paid on items that are purchased by a company and are used by that company instead of being sold to a customer."
+    },
+    {
+      "no": 89,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the vendor's VAT specification to link transactions made for this vendor with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 90,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT product posting group. Links business transactions made for the item, resource, or G/L account with the general ledger, to account for VAT amounts resulting from trade with that record."
+    },
+    {
+      "no": 91,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code of the currency of the amounts on the purchase line."
+    },
+    {
+      "no": 92,
+      "name": "Outstanding Amount (LCY)",
+      "tooltip": "Specifies the amount for the items on the order that have not yet been received in LCY."
+    },
+    {
+      "no": 93,
+      "name": "Amt. Rcd. Not Invoiced (LCY)",
+      "tooltip": "Specifies the sum, in LCY, for items that have been received but have not yet been invoiced. The value in the Amt. Rcd. Not Invoiced (LCY) field is used for entries in the Purchase Line table of document type Order to calculate and update the contents of this field."
+    },
+    {
+      "no": 95,
+      "name": "Reserved Quantity",
+      "tooltip": "Specifies how many item units on this line have been reserved."
+    },
+    {
+      "no": 97,
+      "name": "Blanket Order No.",
+      "tooltip": "Specifies the number of the blanket order that the record originates from."
+    },
+    {
+      "no": 98,
+      "name": "Blanket Order Line No.",
+      "tooltip": "Specifies the number of the blanket order line that the record originates from."
+    },
+    {
+      "no": 99,
+      "name": "VAT Base Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Line Amount",
+      "tooltip": "Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line."
+    },
+    {
+      "no": 104,
+      "name": "VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Inv. Disc. Amount to Invoice",
+      "tooltip": "Specifies the actual invoice discount amount that will be posted for the line on the invoice."
+    },
+    {
+      "no": 106,
+      "name": "VAT Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "IC Partner Ref. Type",
+      "tooltip": "Specifies the item or account in your IC partner's company that corresponds to the item or account on the line."
+    },
+    {
+      "no": 108,
+      "name": "IC Partner Reference",
+      "tooltip": "Specifies the IC partner. If the line is being sent to one of your intercompany partners, this field is used together with the IC Partner Ref. Type field to indicate the item or account in your partner's company that corresponds to the line."
+    },
+    {
+      "no": 109,
+      "name": "Prepayment %",
+      "tooltip": "Specifies the prepayment percentage to use to calculate the prepayment for purchases."
+    },
+    {
+      "no": 110,
+      "name": "Prepmt. Line Amount",
+      "tooltip": "Specifies the prepayment amount of the line in the currency of the purchase document if a prepayment percentage is specified for the purchase line."
+    },
+    {
+      "no": 111,
+      "name": "Prepmt. Amt. Inv.",
+      "tooltip": "Specifies the prepayment amount that has already been invoiced to the customer for this purchase line."
+    },
+    {
+      "no": 112,
+      "name": "Prepmt. Amt. Incl. VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Prepayment Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Prepmt. VAT Base Amt.",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "Prepayment VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "Prepmt. VAT Calc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 117,
+      "name": "Prepayment VAT Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Prepayment Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "Prepayment Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Prepayment Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Prepmt Amt to Deduct",
+      "tooltip": "Specifies the prepayment amount that has already been deducted from ordinary invoices posted for this purchase order line."
+    },
+    {
+      "no": 122,
+      "name": "Prepmt Amt Deducted",
+      "tooltip": "Specifies the prepayment amount that has already been deducted from ordinary invoices posted for this purchase order line."
+    },
+    {
+      "no": 123,
+      "name": "Prepayment Line",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "Prepmt. Amount Inv. Incl. VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "Prepmt. Amount Inv. (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the code of the intercompany partner that the transaction is related to if the entry was created from an intercompany transaction."
+    },
+    {
+      "no": 132,
+      "name": "Prepmt. VAT Amount Inv. (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Prepayment VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 136,
+      "name": "Prepmt VAT Diff. to Deduct",
+      "tooltip": ""
+    },
+    {
+      "no": 137,
+      "name": "Prepmt VAT Diff. Deducted",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "IC Item Reference No.",
+      "tooltip": ""
+    },
+    {
+      "no": 140,
+      "name": "Outstanding Amt. Ex. VAT (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 141,
+      "name": "A. Rcd. Not Inv. Ex. VAT (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 145,
+      "name": "Pmt. Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 146,
+      "name": "Prepmt. Pmt. Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1001,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 1002,
+      "name": "Job Line Type",
+      "tooltip": "Specifies the type of planning line that was created when the project ledger entry is posted from the purchase line. If the field is empty, no planning lines were created for this entry."
+    },
+    {
+      "no": 1003,
+      "name": "Job Unit Price",
+      "tooltip": "Specifies the sales price per unit that applies to the item or general ledger expense that will be posted."
+    },
+    {
+      "no": 1004,
+      "name": "Job Total Price",
+      "tooltip": "Specifies the gross amount of the line that the purchase line applies to."
+    },
+    {
+      "no": 1005,
+      "name": "Job Line Amount",
+      "tooltip": "Specifies the line amount of the project ledger entry that is related to the purchase line."
+    },
+    {
+      "no": 1006,
+      "name": "Job Line Discount Amount",
+      "tooltip": "Specifies the line discount amount of the project ledger entry that is related to the purchase line."
+    },
+    {
+      "no": 1007,
+      "name": "Job Line Discount %",
+      "tooltip": "Specifies the line discount percentage of the project ledger entry that is related to the purchase line."
+    },
+    {
+      "no": 1008,
+      "name": "Job Unit Price (LCY)",
+      "tooltip": "Specifies the sales price per unit that applies to the item or general ledger expense that will be posted."
+    },
+    {
+      "no": 1009,
+      "name": "Job Total Price (LCY)",
+      "tooltip": "Specifies the gross amount of the line, in the local currency."
+    },
+    {
+      "no": 1010,
+      "name": "Job Line Amount (LCY)",
+      "tooltip": "Specifies the line amount of the project ledger entry that is related to the purchase line."
+    },
+    {
+      "no": 1011,
+      "name": "Job Line Disc. Amount (LCY)",
+      "tooltip": "Specifies the line discount amount of the project ledger entry that is related to the purchase line."
+    },
+    {
+      "no": 1012,
+      "name": "Job Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 1013,
+      "name": "Job Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 1019,
+      "name": "Job Planning Line No.",
+      "tooltip": "Specifies the project planning line number to which the usage should be linked when the Project Journal is posted. You can only link to Project Planning Lines that have the Apply Usage Link option enabled."
+    },
+    {
+      "no": 1030,
+      "name": "Job Remaining Qty.",
+      "tooltip": "Specifies the quantity that remains to complete a project."
+    },
+    {
+      "no": 1031,
+      "name": "Job Remaining Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 1700,
+      "name": "Deferral Code",
+      "tooltip": "Specifies the deferral template that governs how expenses paid with this purchase document are deferred to the different accounting periods when the expenses were incurred."
+    },
+    {
+      "no": 1702,
+      "name": "Returns Deferral Start Date",
+      "tooltip": "Specifies the starting date of the returns deferral period."
+    },
+    {
+      "no": 2675,
+      "name": "Selected Alloc. Account No.",
+      "tooltip": "Specifies the allocation account number that will be used to distribute the amounts during the posting process."
+    },
+    {
+      "no": 2677,
+      "name": "Alloc. Acc. Modified by User",
+      "tooltip": ""
+    },
+    {
+      "no": 2678,
+      "name": "Allocation Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2679,
+      "name": "Alloc. Purch. Line SystemId",
+      "tooltip": ""
+    },
+    {
+      "no": 2700,
+      "name": "Invoicing From Line SystemId",
+      "tooltip": ""
+    },
+    {
+      "no": 2701,
+      "name": "Matched Order Lines",
+      "tooltip": "Specifies the number of purchase order lines to which this line is matched."
+    },
+    {
+      "no": 2702,
+      "name": "Matched Inv./Cr. Memo Lines",
+      "tooltip": "Specifies the number of purchase invoice lines to which this purchase order line is matched."
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5405,
+      "name": "Qty. Rounding Precision",
+      "tooltip": ""
+    },
+    {
+      "no": 5406,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5415,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5416,
+      "name": "Outstanding Qty. (Base)",
+      "tooltip": "Specifies the outstanding quantity expressed in the base units of measure."
+    },
+    {
+      "no": 5417,
+      "name": "Qty. to Invoice (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5418,
+      "name": "Qty. to Receive (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5458,
+      "name": "Qty. Rcd. Not Invoiced (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5460,
+      "name": "Qty. Received (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5461,
+      "name": "Qty. Invoiced (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5495,
+      "name": "Reserved Qty. (Base)",
+      "tooltip": "Specifies the reserved quantity of the item expressed in base units of measure."
+    },
+    {
+      "no": 5600,
+      "name": "FA Posting Date",
+      "tooltip": "Specifies the FA posting date if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 5601,
+      "name": "FA Posting Type",
+      "tooltip": "Specifies the date that will be used on related fixed asset ledger entries."
+    },
+    {
+      "no": 5602,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 5603,
+      "name": "Salvage Value",
+      "tooltip": ""
+    },
+    {
+      "no": 5605,
+      "name": "Depr. until FA Posting Date",
+      "tooltip": "Specifies if depreciation was calculated until the FA posting date of the line."
+    },
+    {
+      "no": 5606,
+      "name": "Depr. Acquisition Cost",
+      "tooltip": "Specifies if, when this line was posted, the additional acquisition cost posted on the line was depreciated in proportion to the amount by which the fixed asset had already been depreciated."
+    },
+    {
+      "no": 5609,
+      "name": "Maintenance Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5610,
+      "name": "Insurance No.",
+      "tooltip": "Specifies the insurance number to post an insurance coverage entry to."
+    },
+    {
+      "no": 5611,
+      "name": "Budgeted FA No.",
+      "tooltip": "Specifies the number of a fixed asset with the Budgeted Asset check box selected. When you post the journal or document line, an additional entry is created for the budgeted fixed asset where the amount has the opposite sign."
+    },
+    {
+      "no": 5612,
+      "name": "Duplicate in Depreciation Book",
+      "tooltip": "Specifies a depreciation book code if you want the journal line to be posted to that depreciation book, as well as to the depreciation book in the Depreciation Book Code field."
+    },
+    {
+      "no": 5613,
+      "name": "Use Duplication List",
+      "tooltip": "Specifies, if the type is Fixed Asset, that information on the line is to be posted to all the assets defined depreciation books."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": ""
+    },
+    {
+      "no": 5709,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5710,
+      "name": "Nonstock",
+      "tooltip": "Specifies that this item is a catalog item."
+    },
+    {
+      "no": 5711,
+      "name": "Purchasing Code",
+      "tooltip": "Specifies the purchasing code associated with the purchase line."
+    },
+    {
+      "no": 5713,
+      "name": "Special Order",
+      "tooltip": ""
+    },
+    {
+      "no": 5714,
+      "name": "Special Order Sales No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5715,
+      "name": "Special Order Sales Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies the referenced item number."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5750,
+      "name": "Whse. Outstanding Qty. (Base)",
+      "tooltip": "Specifies how many units on the purchase order line remain to be handled in warehouse documents."
+    },
+    {
+      "no": 5752,
+      "name": "Completely Received",
+      "tooltip": ""
+    },
+    {
+      "no": 5790,
+      "name": "Requested Receipt Date",
+      "tooltip": "Specifies the date that you want the vendor to deliver to the ship-to address. The value in the field is used to calculate the latest date you can order the items to have them delivered on the requested receipt date. If you do not need delivery on a specific date, you can leave the field blank."
+    },
+    {
+      "no": 5791,
+      "name": "Promised Receipt Date",
+      "tooltip": "Specifies the date that the vendor has promised to deliver the order."
+    },
+    {
+      "no": 5792,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 5793,
+      "name": "Inbound Whse. Handling Time",
+      "tooltip": "Specifies the time it takes to make items part of available inventory, after the items have been posted as received."
+    },
+    {
+      "no": 5794,
+      "name": "Planned Receipt Date",
+      "tooltip": "Specifies the date when the item is planned to arrive in inventory. Forward calculation: planned receipt date = order date + vendor lead time (per the vendor calendar and rounded to the next working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: planned receipt date = order date + vendor lead time (per the location calendar). Backward calculation: order date = planned receipt date - vendor lead time (per the vendor calendar and rounded to the previous working day in first the vendor calendar and then the location calendar). If no vendor calendar exists, then: order date = planned receipt date - vendor lead time (per the location calendar)."
+    },
+    {
+      "no": 5795,
+      "name": "Order Date",
+      "tooltip": "Specifies the date when the order was created."
+    },
+    {
+      "no": 5800,
+      "name": "Allow Item Charge Assignment",
+      "tooltip": "Specifies that you can assign item charges to this line."
+    },
+    {
+      "no": 5801,
+      "name": "Qty. to Assign",
+      "tooltip": "Specifies how many units of the item charge will be assigned to the line."
+    },
+    {
+      "no": 5802,
+      "name": "Qty. Assigned",
+      "tooltip": "Specifies how much of the item charge that has been assigned."
+    },
+    {
+      "no": 5803,
+      "name": "Return Qty. to Ship",
+      "tooltip": "Specifies the quantity of items that remains to be shipped."
+    },
+    {
+      "no": 5804,
+      "name": "Return Qty. to Ship (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5805,
+      "name": "Return Qty. Shipped Not Invd.",
+      "tooltip": ""
+    },
+    {
+      "no": 5806,
+      "name": "Ret. Qty. Shpd Not Invd.(Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5807,
+      "name": "Return Shpd. Not Invd.",
+      "tooltip": ""
+    },
+    {
+      "no": 5808,
+      "name": "Return Shpd. Not Invd. (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 5809,
+      "name": "Return Qty. Shipped",
+      "tooltip": "Specifies how many units of the item on the line have been posted as shipped."
+    },
+    {
+      "no": 5810,
+      "name": "Return Qty. Shipped (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5812,
+      "name": "Item Charge Qty. to Handle",
+      "tooltip": "Specifies how many items the item charge will be assigned to on the line. It can be either equal to Qty. to Assign or to zero. If it is zero, the item charge will not be assigned to the line."
+    },
+    {
+      "no": 6200,
+      "name": "Non-Deductible VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 6201,
+      "name": "Non-Deductible VAT Base",
+      "tooltip": "Specifies the amount of VAT that is not deducted due to the type of goods or services purchased."
+    },
+    {
+      "no": 6202,
+      "name": "Non-Deductible VAT Amount",
+      "tooltip": "Specifies the amount of the transaction for which VAT is not applied, due to the type of goods or services purchased."
+    },
+    {
+      "no": 6203,
+      "name": "Non-Deductible VAT Diff.",
+      "tooltip": ""
+    },
+    {
+      "no": 6204,
+      "name": "Prepmt. Non-Deduct. VAT Base",
+      "tooltip": ""
+    },
+    {
+      "no": 6205,
+      "name": "Prepmt. Non-Deduct. VAT Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 6206,
+      "name": "Item Charge Has Non.Ded. VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 6600,
+      "name": "Return Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6601,
+      "name": "Return Shipment Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 6608,
+      "name": "Return Reason Code",
+      "tooltip": "Specifies the code explaining why the item was returned."
+    },
+    {
+      "no": 6609,
+      "name": "Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 6610,
+      "name": "Copied From Posted Doc.",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7010,
+      "name": "Attached Doc Count",
+      "tooltip": "Specifies the number of attachments."
+    },
+    {
+      "no": 7011,
+      "name": "Attached Lines Count",
+      "tooltip": "Specifies the number of non-inventory product lines attached to the purchase line."
+    },
+    {
+      "no": 8509,
+      "name": "Over-Receipt Quantity",
+      "tooltip": "Specifies over-receipt quantity."
+    },
+    {
+      "no": 8510,
+      "name": "Over-Receipt Code",
+      "tooltip": "Specifies over-receipt code."
+    },
+    {
+      "no": 8511,
+      "name": "Over-Receipt Approval Status",
+      "tooltip": ""
+    },
+    {
+      "no": 8512,
+      "name": "Buy-from Vendor Name",
+      "tooltip": ""
+    },
+    {
+      "no": 12100,
+      "name": "No. of Fixed Asset Cards",
+      "tooltip": "Specifies the number of fixed assets that is being purchased."
+    },
+    {
+      "no": 99000755,
+      "name": "Overhead Rate",
+      "tooltip": ""
+    },
+    {
+      "no": 99000756,
+      "name": "MPS Order",
+      "tooltip": ""
+    },
+    {
+      "no": 99000757,
+      "name": "Planning Flexibility",
+      "tooltip": "Specifies whether the supply represented by this line is considered by the planning system when calculating action messages."
+    },
+    {
+      "no": 99000758,
+      "name": "Safety Lead Time",
+      "tooltip": ""
+    }
+  ]
+}

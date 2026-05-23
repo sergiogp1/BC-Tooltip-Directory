@@ -1,0 +1,133 @@
+{
+  "id": 438,
+  "name": "Handled IC Inbox Sales Header",
+  "slug": "438_handled_ic_inbox_sales_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of the related document."
+    },
+    {
+      "no": 2,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies when the related invoice must be paid."
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": "Specifies the payment discount percentage that is granted if the customer pays on or before the date entered in the Pmt. Discount Date field. The discount percentage is specified in the Payment Terms Code field."
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": "Specifies the date on which the amount in the entry must be paid for a payment discount to be granted."
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency that is used on the entry."
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the related document was created."
+    },
+    {
+      "no": 100,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the code of the intercompany partner that the transaction is related to if the entry was created from an intercompany transaction."
+    },
+    {
+      "no": 201,
+      "name": "IC Transaction No.",
+      "tooltip": "Specifies the number of the intercompany transaction. The transaction number indicates which line in the IC Outbox Transaction table the document is related to."
+    },
+    {
+      "no": 202,
+      "name": "Transaction Source",
+      "tooltip": "Specifies which company created the transaction."
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5790,
+      "name": "Requested Delivery Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5791,
+      "name": "Promised Delivery Date",
+      "tooltip": "Specifies the date that you have promised to deliver the order, as a result of the Order Promising function."
+    }
+  ]
+}

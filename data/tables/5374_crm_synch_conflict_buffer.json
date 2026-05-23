@@ -1,0 +1,93 @@
+{
+  "id": 5374,
+  "name": "CRM Synch. Conflict Buffer",
+  "slug": "5374_crm_synch_conflict_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Integration ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "CRM ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table that holds the record."
+    },
+    {
+      "no": 5,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table that holds the record."
+    },
+    {
+      "no": 6,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the table that holds the record."
+    },
+    {
+      "no": 8,
+      "name": "Modified On",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Int. Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Int. Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Int. Description",
+      "tooltip": "Specifies the coupled entity in Dynamics 365 Sales"
+    },
+    {
+      "no": 12,
+      "name": "Int. Modified On",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Error Message",
+      "tooltip": "Specifies why the record was could not be synchronized."
+    },
+    {
+      "no": 14,
+      "name": "Failed On",
+      "tooltip": "Specifies when the synchronization failed."
+    },
+    {
+      "no": 16,
+      "name": "Record Exists",
+      "tooltip": "Specifies if the coupled record exists in Business Central."
+    },
+    {
+      "no": 17,
+      "name": "Int. Record Exists",
+      "tooltip": "Specifies if a coupled entity exists in Dynamics 365 Sales"
+    },
+    {
+      "no": 18,
+      "name": "CRM Option Id",
+      "tooltip": ""
+    }
+  ]
+}

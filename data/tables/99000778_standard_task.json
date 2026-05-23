@@ -1,0 +1,23 @@
+{
+  "id": 99000778,
+  "name": "Standard Task",
+  "slug": "99000778_standard_task",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the standard task code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the standard task."
+    },
+    {
+      "no": 3,
+      "name": "Description 2",
+      "tooltip": "Specifies additional description text."
+    }
+  ]
+}

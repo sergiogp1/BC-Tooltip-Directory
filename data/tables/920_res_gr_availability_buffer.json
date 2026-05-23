@@ -1,0 +1,63 @@
+{
+  "id": 920,
+  "name": "Res. Gr. Availability Buffer",
+  "slug": "920_res_gr_availability_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Resource Group No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the name of the period shown in the line."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the start date of the period defined on the line for the resource group."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Capacity",
+      "tooltip": "Specifies the total capacity for the corresponding time period."
+    },
+    {
+      "no": 11,
+      "name": "Qty. on Order (Job)",
+      "tooltip": "Specifies the amount of measuring units allocated to projects with the status order."
+    },
+    {
+      "no": 12,
+      "name": "Qty. on Service Order",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Availability After Orders",
+      "tooltip": "Specifies the capacity minus the quantity on order."
+    },
+    {
+      "no": 14,
+      "name": "Qty. Quoted (Job)",
+      "tooltip": "Specifies the amount of measuring units allocated to projects with the status quote."
+    },
+    {
+      "no": 15,
+      "name": "Net Availability",
+      "tooltip": "Specifies capacity, minus the quantity on order (Project), minus quantity on Service Order, minus Project Quotes Allocation."
+    }
+  ]
+}

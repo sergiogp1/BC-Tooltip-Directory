@@ -1,0 +1,268 @@
+{
+  "id": 5989,
+  "name": "Service Shipment Item Line",
+  "slug": "5989_service_shipment_item_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of this line."
+    },
+    {
+      "no": 3,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item registered in the Service Item table and associated with the customer."
+    },
+    {
+      "no": 4,
+      "name": "Service Item Group Code",
+      "tooltip": "Specifies the code for the group associated with this service item."
+    },
+    {
+      "no": 5,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item to which this posted service item is related."
+    },
+    {
+      "no": 6,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of this service item."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the service item specified in the Service Item No. field on this line."
+    },
+    {
+      "no": 8,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional description of this service item."
+    },
+    {
+      "no": 10,
+      "name": "Priority",
+      "tooltip": "Specifies the service priority for this posted service item."
+    },
+    {
+      "no": 11,
+      "name": "Response Time (Hours)",
+      "tooltip": "Specifies the estimated hours between the creation of the service order, to the time when the repair status changes from Initial, to In Process."
+    },
+    {
+      "no": 12,
+      "name": "Response Date",
+      "tooltip": "Specifies the estimated date when service starts on this service item."
+    },
+    {
+      "no": 13,
+      "name": "Response Time",
+      "tooltip": "Specifies the time when service is expected to start on this service item."
+    },
+    {
+      "no": 14,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when service on this service item started."
+    },
+    {
+      "no": 15,
+      "name": "Starting Time",
+      "tooltip": "Specifies the time when service on this service item started."
+    },
+    {
+      "no": 16,
+      "name": "Finishing Date",
+      "tooltip": "Specifies the time when service on this service item is finished."
+    },
+    {
+      "no": 17,
+      "name": "Finishing Time",
+      "tooltip": "Specifies the time when the service on the order is finished."
+    },
+    {
+      "no": 18,
+      "name": "Service Shelf No.",
+      "tooltip": "Specifies the number of the service shelf where the service item is stored while it is in the repair shop."
+    },
+    {
+      "no": 19,
+      "name": "Warranty Starting Date (Parts)",
+      "tooltip": "Specifies the date when the warranty starts on the service item spare parts."
+    },
+    {
+      "no": 20,
+      "name": "Warranty Ending Date (Parts)",
+      "tooltip": "Specifies the date when the spare parts warranty expires for this service item."
+    },
+    {
+      "no": 21,
+      "name": "Warranty",
+      "tooltip": "Specifies that there is a warranty on either parts or labor for this service item."
+    },
+    {
+      "no": 22,
+      "name": "Warranty % (Parts)",
+      "tooltip": "Specifies the percentage of spare parts costs covered by the warranty for this service item."
+    },
+    {
+      "no": 23,
+      "name": "Warranty % (Labor)",
+      "tooltip": "Specifies the percentage of labor costs covered by the warranty on this service item."
+    },
+    {
+      "no": 24,
+      "name": "Warranty Starting Date (Labor)",
+      "tooltip": "Specifies the date when the labor warranty for the posted service item starts."
+    },
+    {
+      "no": 25,
+      "name": "Warranty Ending Date (Labor)",
+      "tooltip": "Specifies the date when the labor warranty expires on the posted service item."
+    },
+    {
+      "no": 26,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the contract associated with the posted service item."
+    },
+    {
+      "no": 27,
+      "name": "Location of Service Item",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Loaner No.",
+      "tooltip": "Specifies the number of the loaner that has been lent to the customer to replace this service item."
+    },
+    {
+      "no": 29,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor who sold this service item."
+    },
+    {
+      "no": 30,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 31,
+      "name": "Fault Reason Code",
+      "tooltip": "Specifies the fault reason code assigned to the posted service item."
+    },
+    {
+      "no": 32,
+      "name": "Service Price Group Code",
+      "tooltip": "Specifies the code of the service price group associated with this service item."
+    },
+    {
+      "no": 33,
+      "name": "Fault Area Code",
+      "tooltip": "Specifies the code that identifies the area of the fault encountered with this service item."
+    },
+    {
+      "no": 34,
+      "name": "Symptom Code",
+      "tooltip": "Specifies the code to identify the symptom of the service item fault."
+    },
+    {
+      "no": 35,
+      "name": "Fault Code",
+      "tooltip": "Specifies the code to identify the fault of the posted service item or the actions taken on the item."
+    },
+    {
+      "no": 36,
+      "name": "Resolution Code",
+      "tooltip": "Specifies the resolution code assigned to this item."
+    },
+    {
+      "no": 37,
+      "name": "Fault Comment",
+      "tooltip": "Specifies that there is a fault comment for this service item."
+    },
+    {
+      "no": 38,
+      "name": "Resolution Comment",
+      "tooltip": "Specifies that there is a resolution comment for this service item."
+    },
+    {
+      "no": 39,
+      "name": "Accessory Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 42,
+      "name": "Actual Response Time (Hours)",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Service Price Adjmt. Gr. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Adjustment Type",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Base Amount to Adjust",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "No. of Active/Finished Allocs",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 65,
+      "name": "Customer No.",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Resource Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Allocation Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Resource Group Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 97,
+      "name": "Responsibility Center",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

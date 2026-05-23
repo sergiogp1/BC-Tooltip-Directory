@@ -1,0 +1,88 @@
+{
+  "id": 249,
+  "name": "VAT Registration Log",
+  "slug": "249_vat_registration_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the VAT registration number that you entered in the VAT Registration No. field on a customer, vendor, or contact card."
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the account type of the customer or vendor whose VAT registration number is verified."
+    },
+    {
+      "no": 4,
+      "name": "Account No.",
+      "tooltip": "Specifies the account number of the customer or vendor whose VAT registration number is verified."
+    },
+    {
+      "no": 5,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 6,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the verification action."
+    },
+    {
+      "no": 11,
+      "name": "Verified Name",
+      "tooltip": "Specifies the name of the customer, vendor, or contact whose VAT registration number was verified."
+    },
+    {
+      "no": 12,
+      "name": "Verified Address",
+      "tooltip": "Specifies the address of the customer, vendor, or contact whose VAT registration number was verified."
+    },
+    {
+      "no": 13,
+      "name": "Verified Date",
+      "tooltip": "Specifies when the VAT registration number was verified."
+    },
+    {
+      "no": 14,
+      "name": "Request Identifier",
+      "tooltip": "Specifies the request identifier of the VAT registration number validation service."
+    },
+    {
+      "no": 15,
+      "name": "Verified Street",
+      "tooltip": "Specifies the street of the customer, vendor, or contact whose VAT registration number was verified."
+    },
+    {
+      "no": 16,
+      "name": "Verified Postcode",
+      "tooltip": "Specifies the postcode of the customer, vendor, or contact whose VAT registration number was verified."
+    },
+    {
+      "no": 17,
+      "name": "Verified City",
+      "tooltip": "Specifies the city of the customer, vendor, or contact whose VAT registration number was verified."
+    },
+    {
+      "no": 18,
+      "name": "Details Status",
+      "tooltip": "Specifies the status of the details validation."
+    },
+    {
+      "no": 19,
+      "name": "Template",
+      "tooltip": ""
+    }
+  ]
+}

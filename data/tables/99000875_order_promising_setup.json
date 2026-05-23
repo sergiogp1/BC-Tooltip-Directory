@@ -1,0 +1,33 @@
+{
+  "id": 99000875,
+  "name": "Order Promising Setup",
+  "slug": "99000875_order_promising_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Offset (Time)",
+      "tooltip": "Specifies the period of time to wait before issuing a new purchase order, production order, or transfer order."
+    },
+    {
+      "no": 8,
+      "name": "Order Promising Nos.",
+      "tooltip": "Specifies the code that identifies the number series that you select for order promising."
+    },
+    {
+      "no": 9,
+      "name": "Order Promising Template",
+      "tooltip": "Specifies the name of the requisition worksheet template that you select for order promising."
+    },
+    {
+      "no": 10,
+      "name": "Order Promising Worksheet",
+      "tooltip": "Specifies the name of the requisition worksheet that you select for order promising."
+    }
+  ]
+}

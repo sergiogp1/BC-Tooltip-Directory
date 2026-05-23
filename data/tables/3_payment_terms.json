@@ -1,0 +1,48 @@
+{
+  "id": 3,
+  "name": "Payment Terms",
+  "slug": "3_payment_terms",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code to identify this set of payment terms."
+    },
+    {
+      "no": 2,
+      "name": "Due Date Calculation",
+      "tooltip": "Specifies a formula that determines how to calculate the due date, for example, when you create an invoice."
+    },
+    {
+      "no": 3,
+      "name": "Discount Date Calculation",
+      "tooltip": "Specifies the date formula if the payment terms include a possible payment discount."
+    },
+    {
+      "no": 4,
+      "name": "Discount %",
+      "tooltip": "Specifies the percentage of the invoice amount (amount including VAT is the default setting) that will constitute a possible payment discount."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies an explanation of the payment terms."
+    },
+    {
+      "no": 6,
+      "name": "Calc. Pmt. Disc. on Cr. Memos",
+      "tooltip": "Specifies that a payment discount, cash discount, cash discount date, and due date are calculated on credit memos with these payment terms."
+    },
+    {
+      "no": 8,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    }
+  ]
+}

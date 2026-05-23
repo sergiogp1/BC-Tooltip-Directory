@@ -1,0 +1,18 @@
+{
+  "id": 7703,
+  "name": "Miniform Function",
+  "slug": "7703_miniform_function",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Miniform Code",
+      "tooltip": "Specifies the miniform that has a function assigned to it."
+    },
+    {
+      "no": 2,
+      "name": "Function Code",
+      "tooltip": "Specifies the code of the function that is assigned to the miniform."
+    }
+  ]
+}

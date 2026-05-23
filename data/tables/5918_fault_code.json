@@ -1,0 +1,28 @@
+{
+  "id": 5918,
+  "name": "Fault Code",
+  "slug": "5918_fault_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Fault Area Code",
+      "tooltip": "Specifies the code of the fault area associated with the fault code."
+    },
+    {
+      "no": 2,
+      "name": "Symptom Code",
+      "tooltip": "Specifies the code of the symptom linked to the fault code."
+    },
+    {
+      "no": 3,
+      "name": "Code",
+      "tooltip": "Specifies a code for the fault."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of the fault code."
+    }
+  ]
+}

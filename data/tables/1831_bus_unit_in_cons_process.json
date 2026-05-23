@@ -1,0 +1,63 @@
+{
+  "id": 1831,
+  "name": "Bus. Unit In Cons. Process",
+  "slug": "1831_bus_unit_in_cons_process",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Consolidation Process Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Business Unit Code",
+      "tooltip": "Specifies the business unit."
+    },
+    {
+      "no": 3,
+      "name": "Default Data Import Method",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Status",
+      "tooltip": "Specifies the status of the business unit in the consolidation process."
+    },
+    {
+      "no": 5,
+      "name": "Average Exchange Rate",
+      "tooltip": "Specifies the average exchange rate of the business unit."
+    },
+    {
+      "no": 6,
+      "name": "Closing Exchange Rate",
+      "tooltip": "Specifies the closing exchange rate of the business unit."
+    },
+    {
+      "no": 7,
+      "name": "Last Closing Exchange Rate",
+      "tooltip": "Specifies the last closing exchange rate considered when adjusting balances in re-runs for this business unit."
+    },
+    {
+      "no": 8,
+      "name": "Currency Exchange Rate Table",
+      "tooltip": "Specifies the currency exchange rate table of the business unit."
+    },
+    {
+      "no": 9,
+      "name": "Starting Date",
+      "tooltip": "Specifies the starting date of the consolidation."
+    },
+    {
+      "no": 10,
+      "name": "Ending Date",
+      "tooltip": "Specifies the ending date of the consolidation."
+    },
+    {
+      "no": 11,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code of the business unit."
+    }
+  ]
+}

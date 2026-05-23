@@ -1,0 +1,53 @@
+{
+  "id": 7006,
+  "name": "Price Calculation Setup",
+  "slug": "7006_price_calculation_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code that you can select."
+    },
+    {
+      "no": 2,
+      "name": "Method",
+      "tooltip": "Specifies a price calculation method."
+    },
+    {
+      "no": 3,
+      "name": "Type",
+      "tooltip": "Specifies what type of amount to calculate - price or cost."
+    },
+    {
+      "no": 4,
+      "name": "Asset Type",
+      "tooltip": "Specifies an asset type."
+    },
+    {
+      "no": 5,
+      "name": "Details",
+      "tooltip": "Specifies the count of detailed price calculation setup records."
+    },
+    {
+      "no": 9,
+      "name": "Group Id",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Implementation",
+      "tooltip": "The name of the implementation codeunit or extension that will do the price calculation."
+    },
+    {
+      "no": 12,
+      "name": "Enabled",
+      "tooltip": "Specifies whether the implementation codeunit is enabled."
+    },
+    {
+      "no": 13,
+      "name": "Default",
+      "tooltip": "Specifies if this is the default implementation. You cannot remove the Default check mark, instead pick another record for the same calculation method to become the default implementation."
+    }
+  ]
+}

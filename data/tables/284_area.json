@@ -1,0 +1,18 @@
+{
+  "id": 284,
+  "name": "Area",
+  "slug": "284_area",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the area."
+    },
+    {
+      "no": 2,
+      "name": "Text",
+      "tooltip": "Specifies a description of the area."
+    }
+  ]
+}

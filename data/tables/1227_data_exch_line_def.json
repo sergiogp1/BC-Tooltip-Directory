@@ -1,0 +1,48 @@
+{
+  "id": 1227,
+  "name": "Data Exch. Line Def",
+  "slug": "1227_data_exch_line_def",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Data Exch. Def Code",
+      "tooltip": "Specifies a code that identifies the data exchange definition."
+    },
+    {
+      "no": 2,
+      "name": "Code",
+      "tooltip": "Specifies the line in the file."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the mapping setup."
+    },
+    {
+      "no": 4,
+      "name": "Column Count",
+      "tooltip": "Specifies how many columns the line in the bank statement file has."
+    },
+    {
+      "no": 5,
+      "name": "Data Line Tag",
+      "tooltip": "Specifies the position in the related XML schema of the element that represents the main entry of the data file."
+    },
+    {
+      "no": 6,
+      "name": "Namespace",
+      "tooltip": "Specifies the namespace (uniform resource name (urn)) for a target document that is expected in the file for validation. You can leave the field blank if you do not want to enable namespace validation."
+    },
+    {
+      "no": 10,
+      "name": "Parent Code",
+      "tooltip": "Specifies the parent of the child that is specified in the Code field in cases where the data exchange setup is for files with parent and children entries, such as a document header and lines."
+    },
+    {
+      "no": 11,
+      "name": "Line Type",
+      "tooltip": "Specifies the type of the line in the file."
+    }
+  ]
+}

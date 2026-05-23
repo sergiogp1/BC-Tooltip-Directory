@@ -1,0 +1,63 @@
+{
+  "id": 5207,
+  "name": "Employee Absence",
+  "slug": "5207_employee_absence",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": "Specifies a number for the employee."
+    },
+    {
+      "no": 2,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "From Date",
+      "tooltip": "Specifies the first day of the employee's absence registered on this line."
+    },
+    {
+      "no": 4,
+      "name": "To Date",
+      "tooltip": "Specifies the last day of the employee's absence registered on this line."
+    },
+    {
+      "no": 5,
+      "name": "Cause of Absence Code",
+      "tooltip": "Specifies a cause of absence code to define the type of absence."
+    },
+    {
+      "no": 6,
+      "name": "Description",
+      "tooltip": "Specifies a description of the absence."
+    },
+    {
+      "no": 7,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity associated with absences, in hours or days."
+    },
+    {
+      "no": 8,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 11,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment is associated with this entry."
+    },
+    {
+      "no": 12,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity associated with absences, in hours or days."
+    },
+    {
+      "no": 13,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": 6550,
+  "name": "Whse. Item Tracking Line",
+  "slug": "6550_whse_item_tracking_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 4,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the same as the field with the same name in the Item Tracking Lines window."
+    },
+    {
+      "no": 10,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Source ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Source Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Source Prod. Order Line",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Source Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Serial No.",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 29,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 41,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 50,
+      "name": "Qty. to Handle (Base)",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 51,
+      "name": "Qty. to Invoice (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Quantity Handled (Base)",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 53,
+      "name": "Quantity Invoiced (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Qty. to Handle",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Buffer Status",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Buffer Status2",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "New Serial No.",
+      "tooltip": "Specifies a new serial number that replaces the number in the Serial No. field, when you post the warehouse item reclassification journal."
+    },
+    {
+      "no": 81,
+      "name": "New Lot No.",
+      "tooltip": "Specifies a new lot number that replaces the number in the Lot No. field, when you post the warehouse item reclassification journal."
+    },
+    {
+      "no": 90,
+      "name": "Source Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Qty. Registered (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 92,
+      "name": "Put-away Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 93,
+      "name": "Pick Qty. (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 94,
+      "name": "Created by Whse. Activity Line",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Lot No.",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 5401,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 6505,
+      "name": "New Expiration Date",
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies a new package number that replaces the package number, when you post the warehouse item reclassification journal."
+    },
+    {
+      "no": 6516,
+      "name": "New Package No.",
+      "tooltip": "Specifies a new package number that replaces the number in the Package No. field, when you post the warehouse item reclassification journal."
+    }
+  ]
+}

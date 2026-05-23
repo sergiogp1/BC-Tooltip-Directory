@@ -1,0 +1,38 @@
+{
+  "id": 5221,
+  "name": "Employee Posting Group",
+  "slug": "5221_employee_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies an identifier for the employee posting group."
+    },
+    {
+      "no": 2,
+      "name": "Payables Account",
+      "tooltip": "Specifies the general ledger account to use when you post payables to employees in this posting group."
+    },
+    {
+      "no": 10,
+      "name": "Debit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 11,
+      "name": "Credit Curr. Appln. Rndg. Acc.",
+      "tooltip": "Specifies the general ledger account to use when you post rounding differences. These differences can occur when you apply entries in different currencies to one another."
+    },
+    {
+      "no": 12,
+      "name": "Debit Rounding Account",
+      "tooltip": "Specifies the general ledger account number to use when you post rounding differences from a remaining amount."
+    },
+    {
+      "no": 13,
+      "name": "Credit Rounding Account",
+      "tooltip": "Specifies the general ledger account number to use when you post rounding differences from a remaining amount."
+    }
+  ]
+}

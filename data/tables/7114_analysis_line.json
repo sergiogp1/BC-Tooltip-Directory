@@ -1,0 +1,138 @@
+{
+  "id": 7114,
+  "name": "Analysis Line",
+  "slug": "7114_analysis_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Analysis Line Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Row Ref. No.",
+      "tooltip": "Specifies a row reference number for the analysis line."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description for the analysis line."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the type of totaling for the analysis line. The type determines which items within the totaling range that you specify in the Range field will be totaled."
+    },
+    {
+      "no": 7,
+      "name": "Range",
+      "tooltip": "Specifies the number or formula of the type to use to calculate the total for this line."
+    },
+    {
+      "no": 8,
+      "name": "New Page",
+      "tooltip": "Specifies if you want a page break after the current line when you print the analysis report."
+    },
+    {
+      "no": 9,
+      "name": "Show",
+      "tooltip": "Specifies whether you want the analysis line to be included when you print the report."
+    },
+    {
+      "no": 10,
+      "name": "Bold",
+      "tooltip": "Specifies if you want the amounts on this line to be printed in bold."
+    },
+    {
+      "no": 11,
+      "name": "Italic",
+      "tooltip": "Specifies if you want the amounts in this line to be printed in italics."
+    },
+    {
+      "no": 12,
+      "name": "Underline",
+      "tooltip": "Specifies if you want the amounts in this line to be underlined when printed."
+    },
+    {
+      "no": 13,
+      "name": "Show Opposite Sign",
+      "tooltip": "Specifies if you want sales and negative adjustments to be shown as positive amounts and purchases and positive adjustments to be shown as negative amounts."
+    },
+    {
+      "no": 14,
+      "name": "Source Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Item Budget Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Dimension 3 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Dimension 1 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line."
+    },
+    {
+      "no": 22,
+      "name": "Dimension 2 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line. If the type on the line is Formula, this field must be blank. Also, if you do not want the amounts on the line to be filtered by dimensions, this field must be blank."
+    },
+    {
+      "no": 23,
+      "name": "Dimension 3 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line. If the type on the line is Formula, this field must be blank. Also, if you do not want the amounts on the line to be filtered by dimensions, this field must be blank."
+    },
+    {
+      "no": 24,
+      "name": "Source No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Group Dimension Code",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Indentation",
+      "tooltip": "Specifies the indentation of the line."
+    }
+  ]
+}

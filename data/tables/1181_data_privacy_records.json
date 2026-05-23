@@ -1,0 +1,43 @@
+{
+  "id": 1181,
+  "name": "Data Privacy Records",
+  "slug": "1181_data_privacy_records",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Table No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Table Name",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Field Name",
+      "tooltip": "Specifies the name of the field."
+    },
+    {
+      "no": 6,
+      "name": "Field DataType",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Field Value",
+      "tooltip": "Specifies the value in the field."
+    }
+  ]
+}

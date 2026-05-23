@@ -1,0 +1,48 @@
+{
+  "id": 5605,
+  "name": "FA Journal Setup",
+  "slug": "5605_fa_journal_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 2,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 3,
+      "name": "FA Jnl. Template Name",
+      "tooltip": "Specifies an FA journal template."
+    },
+    {
+      "no": 4,
+      "name": "FA Jnl. Batch Name",
+      "tooltip": "Specifies the relevant FA journal batch name."
+    },
+    {
+      "no": 5,
+      "name": "Gen. Jnl. Template Name",
+      "tooltip": "Specifies a general journal template."
+    },
+    {
+      "no": 6,
+      "name": "Gen. Jnl. Batch Name",
+      "tooltip": "Specifies the relevant general journal batch name."
+    },
+    {
+      "no": 7,
+      "name": "Insurance Jnl. Template Name",
+      "tooltip": "Specifies an insurance journal template."
+    },
+    {
+      "no": 8,
+      "name": "Insurance Jnl. Batch Name",
+      "tooltip": "Specifies the relevant insurance journal batch name."
+    }
+  ]
+}

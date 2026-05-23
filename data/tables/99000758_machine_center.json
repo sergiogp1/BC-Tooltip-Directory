@@ -1,0 +1,273 @@
+{
+  "id": 99000758,
+  "name": "Machine Center",
+  "slug": "99000758_machine_center",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies a name for the machine center."
+    },
+    {
+      "no": 4,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 5,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Address",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Work Center No.",
+      "tooltip": "Specifies the number of the work center to assign this machine center to."
+    },
+    {
+      "no": 19,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 20,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the center's cost that includes indirect costs, such as machine maintenance."
+    },
+    {
+      "no": 21,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 22,
+      "name": "Queue Time",
+      "tooltip": "Specifies the queue time of the machine center."
+    },
+    {
+      "no": 23,
+      "name": "Queue Time Unit of Meas. Code",
+      "tooltip": "Specifies the queue time unit of measure code."
+    },
+    {
+      "no": 26,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the machine center card was last modified."
+    },
+    {
+      "no": 27,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Capacity",
+      "tooltip": "Specifies the capacity of the machine center."
+    },
+    {
+      "no": 32,
+      "name": "Efficiency",
+      "tooltip": "Specifies the efficiency factor as a percentage of the machine center."
+    },
+    {
+      "no": 33,
+      "name": "Maximum Efficiency",
+      "tooltip": "Specifies the maximum efficiency of this machine center."
+    },
+    {
+      "no": 34,
+      "name": "Minimum Efficiency",
+      "tooltip": "Specifies the minimum efficiency of this machine center."
+    },
+    {
+      "no": 38,
+      "name": "Blocked",
+      "tooltip": "Specifies whether the machine center is blocked from being posted in transactions, for example, if the machine center is out of order."
+    },
+    {
+      "no": 39,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Work Shift Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Capacity (Total)",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Capacity (Effective)",
+      "tooltip": "Specifies the effective available capacity of the machine center."
+    },
+    {
+      "no": 44,
+      "name": "Prod. Order Need (Qty.)",
+      "tooltip": "Specifies the calculated capacity requirements for production orders at this machine center."
+    },
+    {
+      "no": 45,
+      "name": "Prod. Order Need Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Prod. Order Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Setup Time",
+      "tooltip": "Specifies how long it takes to set up the machine."
+    },
+    {
+      "no": 52,
+      "name": "Wait Time",
+      "tooltip": "Specifies the time a job remains at the machine center after an operation is completed, until it is moved to the next operation."
+    },
+    {
+      "no": 53,
+      "name": "Move Time",
+      "tooltip": "Specifies the move time required for a production lot on this machine."
+    },
+    {
+      "no": 54,
+      "name": "Fixed Scrap Quantity",
+      "tooltip": "Specifies the fixed scrap quantity."
+    },
+    {
+      "no": 55,
+      "name": "Scrap %",
+      "tooltip": "Specifies the scrap in percent."
+    },
+    {
+      "no": 56,
+      "name": "Setup Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Wait Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Send-Ahead Quantity",
+      "tooltip": "Specifies the send-ahead quantity."
+    },
+    {
+      "no": 59,
+      "name": "Move Time Unit of Meas. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Flushing Method",
+      "tooltip": "Specifies the method to use to calculate and handle output at the machine center. Manual: Output must be posted manually by using the output journal. Forward: Output is automatically calculated and posted when you change the status of a simulated, planned (or firm planned) production order to Released. You can still post output manually from the output journal. Backward: Output is automatically calculated and posted when you change the status of a released production order to Finished. You can still post output manually from the output journal. The setting you make in this field is copied to the Flushing Method field on the production order routing line according to the machine/work center of the master routing, but you can change the field for an individual production order to allow a different output posting of that order."
+    },
+    {
+      "no": 62,
+      "name": "Minimum Process Time",
+      "tooltip": "Specifies the minimum process time of the machine center."
+    },
+    {
+      "no": 63,
+      "name": "Maximum Process Time",
+      "tooltip": "Specifies the maximum process time of the machine center."
+    },
+    {
+      "no": 64,
+      "name": "Concurrent Capacities",
+      "tooltip": "Specifies how much available capacity must be concurrently planned for one operation at this machine center."
+    },
+    {
+      "no": 65,
+      "name": "Item Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Stop Code Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Scrap Code Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Overhead Rate",
+      "tooltip": "Specifies the overhead rate of this machine center."
+    },
+    {
+      "no": 82,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 83,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7300,
+      "name": "Location Code",
+      "tooltip": "Specifies the location where the machine center operates by default."
+    },
+    {
+      "no": 7301,
+      "name": "Open Shop Floor Bin Code",
+      "tooltip": "Specifies the bin that functions as the default open shop floor bin at the work center."
+    },
+    {
+      "no": 7302,
+      "name": "To-Production Bin Code",
+      "tooltip": "Specifies the bin where components picked for production are placed by default before they can be consumed."
+    },
+    {
+      "no": 7303,
+      "name": "From-Production Bin Code",
+      "tooltip": "Specifies the bin where finished end items are taken from by default when the process involves warehouse activity."
+    }
+  ]
+}

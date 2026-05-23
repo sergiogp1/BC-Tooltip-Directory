@@ -1,0 +1,38 @@
+{
+  "id": 5111,
+  "name": "Rating",
+  "slug": "5111_rating",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Profile Questionnaire Code",
+      "tooltip": "Specifies the code for the profile questionnaire that contains the question you use to create your rating."
+    },
+    {
+      "no": 2,
+      "name": "Profile Questionnaire Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Rating Profile Quest. Code",
+      "tooltip": "Specifies the code for the profile questionnaire that contains the answer you use to create your rating."
+    },
+    {
+      "no": 4,
+      "name": "Rating Profile Quest. Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Points",
+      "tooltip": "Specifies the number of points you have assigned to this answer."
+    },
+    {
+      "no": 6,
+      "name": "Profile Question Description",
+      "tooltip": "Specifies the description you have entered for this rating question in the Description field in the Profile Questionnaire Setup window."
+    }
+  ]
+}

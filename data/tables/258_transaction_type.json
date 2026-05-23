@@ -1,0 +1,18 @@
+{
+  "id": 258,
+  "name": "Transaction Type",
+  "slug": "258_transaction_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the transaction."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the transaction type."
+    }
+  ]
+}

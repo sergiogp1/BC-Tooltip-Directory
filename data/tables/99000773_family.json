@@ -1,0 +1,43 @@
+{
+  "id": 99000773,
+  "name": "Family",
+  "slug": "99000773_family",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies a description for a product family."
+    },
+    {
+      "no": 11,
+      "name": "Description 2",
+      "tooltip": "Specifies an additional description of the product family if there is not enough space in the Description field."
+    },
+    {
+      "no": 12,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": "Specifies that the family is blocked. This field is for information only and does not affect the posting in transactions."
+    },
+    {
+      "no": 14,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the standard data of this production family was last modified."
+    },
+    {
+      "no": 20,
+      "name": "Routing No.",
+      "tooltip": "Specifies the number of the routing which is used for the production of the family."
+    }
+  ]
+}

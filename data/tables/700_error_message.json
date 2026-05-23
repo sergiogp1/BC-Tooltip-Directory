@@ -1,0 +1,113 @@
+{
+  "id": 700,
+  "name": "Error Message",
+  "slug": "700_error_message",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Field Number",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Message Type",
+      "tooltip": "Specifies if the message is an error, a warning, or information."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Additional Information",
+      "tooltip": "Specifies more information than the information shown in the Description field."
+    },
+    {
+      "no": 7,
+      "name": "Support Url",
+      "tooltip": "Specifies the URL of an external web site that offers additional support."
+    },
+    {
+      "no": 8,
+      "name": "Table Number",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Context Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Field Name",
+      "tooltip": "Specifies the field where the error occurred."
+    },
+    {
+      "no": 12,
+      "name": "Table Name",
+      "tooltip": "Specifies error messages that occur during data processing."
+    },
+    {
+      "no": 13,
+      "name": "Context Field Number",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Context Table Number",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Context Field Name",
+      "tooltip": "Specifies the field where the error occurred."
+    },
+    {
+      "no": 16,
+      "name": "Register ID",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Created On",
+      "tooltip": "The time of error occurence."
+    },
+    {
+      "no": 18,
+      "name": "Context",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Duplicate",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Error Call Stack",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Message",
+      "tooltip": "Specifies the message."
+    },
+    {
+      "no": 23,
+      "name": "Reg. Err. Msg. System ID",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 7327,
+  "name": "Whse. Worksheet Name",
+  "slug": "7327_whse_worksheet_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Worksheet Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name you enter for the worksheet."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code of the warehouse the worksheet should be used for."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies the description for the worksheet."
+    },
+    {
+      "no": 21,
+      "name": "Template Type",
+      "tooltip": ""
+    }
+  ]
+}

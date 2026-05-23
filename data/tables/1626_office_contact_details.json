@@ -1,0 +1,48 @@
+{
+  "id": 1626,
+  "name": "Office Contact Details",
+  "slug": "1626_office_contact_details",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the associated Office contact."
+    },
+    {
+      "no": 2,
+      "name": "Business Relation Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Associated Table",
+      "tooltip": "Specifies the table that is associated with the contact, such as Customer, Vendor, Bank Account, or Company."
+    },
+    {
+      "no": 4,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 5,
+      "name": "Business Relation Description",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the Office contact."
+    },
+    {
+      "no": 7,
+      "name": "Type",
+      "tooltip": "Specifies the type of the contact, such as company or contact person."
+    },
+    {
+      "no": 8,
+      "name": "Company",
+      "tooltip": "Specifies the company of the contact."
+    }
+  ]
+}

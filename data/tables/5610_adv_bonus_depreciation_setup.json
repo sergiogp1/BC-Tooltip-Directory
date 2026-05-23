@@ -1,0 +1,28 @@
+{
+  "id": 5610,
+  "name": "Adv. Bonus Depreciation Setup",
+  "slug": "5610_adv_bonus_depreciation_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Effective Date",
+      "tooltip": "Specifies the date when this bonus depreciation percentage becomes effective."
+    },
+    {
+      "no": 3,
+      "name": "FA Class Code",
+      "tooltip": "Specifies the fixed asset class this bonus depreciation percentage applies to. If blank, it applies to all classes."
+    },
+    {
+      "no": 4,
+      "name": "Bonus Depreciation %",
+      "tooltip": "Specifies the percentage of bonus depreciation for the given effective date and asset class."
+    }
+  ]
+}

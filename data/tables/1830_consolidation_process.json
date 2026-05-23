@@ -1,0 +1,58 @@
+{
+  "id": 1830,
+  "name": "Consolidation Process",
+  "slug": "1830_consolidation_process",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Id",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Status",
+      "tooltip": "Status of the consolidation process"
+    },
+    {
+      "no": 3,
+      "name": "Starting Date",
+      "tooltip": "Starting date for the entries in the consolidation"
+    },
+    {
+      "no": 4,
+      "name": "Ending Date",
+      "tooltip": "Ending date for the entries in the consolidation"
+    },
+    {
+      "no": 5,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Parent Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Dimensions to Transfer",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Error",
+      "tooltip": ""
+    }
+  ]
+}

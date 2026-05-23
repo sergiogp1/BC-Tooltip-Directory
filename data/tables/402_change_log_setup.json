@@ -1,0 +1,18 @@
+{
+  "id": 402,
+  "name": "Change Log Setup",
+  "slug": "402_change_log_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Change Log Activated",
+      "tooltip": "Specifies that the change log is active."
+    }
+  ]
+}

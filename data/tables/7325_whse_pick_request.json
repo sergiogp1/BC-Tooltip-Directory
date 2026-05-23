@@ -1,0 +1,63 @@
+{
+  "id": 7325,
+  "name": "Whse. Pick Request",
+  "slug": "7325_whse_pick_request",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document from which the pick originated."
+    },
+    {
+      "no": 2,
+      "name": "Document Subtype",
+      "tooltip": "Specifies the type of document that the component pick request is related to, such as Released and Assembly."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the warehouse document for which the program has received a pick request."
+    },
+    {
+      "no": 4,
+      "name": "Location Code",
+      "tooltip": "Specifies the code of the location in which the request is occurring."
+    },
+    {
+      "no": 5,
+      "name": "Zone Code",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Completely Picked",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 10,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies the code for the shipping agent who is transporting the items."
+    },
+    {
+      "no": 11,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent."
+    }
+  ]
+}

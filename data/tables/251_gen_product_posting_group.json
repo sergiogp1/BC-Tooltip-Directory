@@ -1,0 +1,28 @@
+{
+  "id": 251,
+  "name": "Gen. Product Posting Group",
+  "slug": "251_gen_product_posting_group",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the product posting group."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the product posting group."
+    },
+    {
+      "no": 3,
+      "name": "Def. VAT Prod. Posting Group",
+      "tooltip": "Specifies a default VAT product group code."
+    },
+    {
+      "no": 4,
+      "name": "Auto Insert Default",
+      "tooltip": "Specifies whether to automatically insert the default VAT product posting group code in the Def. VAT Prod. Posting Group field when you insert the corresponding general product posting group code from the Code field, for example on new item and resource cards, or in the item charges setup."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1615,
+  "name": "Office Job Journal",
+  "slug": "1615_office_job_journal",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 2,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the related project task."
+    },
+    {
+      "no": 3,
+      "name": "Job Planning Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Job Journal Template Name",
+      "tooltip": "Specifies the journal template that is used for the project journal."
+    },
+    {
+      "no": 5,
+      "name": "Job Journal Batch Name",
+      "tooltip": "Specifies the journal batch that is used for the project journal."
+    }
+  ]
+}

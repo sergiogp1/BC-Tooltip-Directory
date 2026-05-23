@@ -1,0 +1,123 @@
+{
+  "id": 740,
+  "name": "VAT Report Header",
+  "slug": "740_vat_report_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "VAT Report Config. Code",
+      "tooltip": "Specifies the appropriate configuration code for EC Sales List Reports."
+    },
+    {
+      "no": 3,
+      "name": "VAT Report Type",
+      "tooltip": "Specifies if you want to create a new VAT report, or if you want to change a previously submitted report."
+    },
+    {
+      "no": 4,
+      "name": "Start Date",
+      "tooltip": "Specifies the first date of the reporting period."
+    },
+    {
+      "no": 5,
+      "name": "End Date",
+      "tooltip": "Specifies the last date of the EC sales list report."
+    },
+    {
+      "no": 6,
+      "name": "Status",
+      "tooltip": "Specifies the status of the report, such as Open or Submitted."
+    },
+    {
+      "no": 8,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 9,
+      "name": "Original Report No.",
+      "tooltip": "Specifies the number of the original report."
+    },
+    {
+      "no": 10,
+      "name": "Period Type",
+      "tooltip": "Specifies the length of the reporting period."
+    },
+    {
+      "no": 11,
+      "name": "Period No.",
+      "tooltip": "Specifies the EC sales list reporting period to use."
+    },
+    {
+      "no": 12,
+      "name": "Period Year",
+      "tooltip": "Specifies the year of the reporting period."
+    },
+    {
+      "no": 13,
+      "name": "Message Id",
+      "tooltip": "Specifies the message ID of the report listing sales to other EU countries/regions."
+    },
+    {
+      "no": 14,
+      "name": "Statement Template Name",
+      "tooltip": "Specifies the name of the statement template from the EC Sales List Report."
+    },
+    {
+      "no": 15,
+      "name": "Statement Name",
+      "tooltip": "Specifies the name of the statement from the EC Sales List Report."
+    },
+    {
+      "no": 16,
+      "name": "VAT Report Version",
+      "tooltip": "Specifies the version of the VAT report."
+    },
+    {
+      "no": 17,
+      "name": "Submitted By",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Submitted Date",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Return Period No.",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Date Type",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Additional Information",
+      "tooltip": "Specifies the additional information must be added to VAT report."
+    },
+    {
+      "no": 31,
+      "name": "Created Date-Time",
+      "tooltip": "Specifies the date when the VAT report lines were created."
+    },
+    {
+      "no": 32,
+      "name": "Country/Region Filter",
+      "tooltip": "Specifies the country/region filter for the report."
+    },
+    {
+      "no": 100,
+      "name": "Amounts in Add. Rep. Currency",
+      "tooltip": "Specifies whether the amounts are in the additional reporting currency."
+    }
+  ]
+}

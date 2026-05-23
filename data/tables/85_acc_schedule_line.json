@@ -1,0 +1,203 @@
+{
+  "id": 85,
+  "name": "Acc. Schedule Line",
+  "slug": "85_acc_schedule_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Schedule Name",
+      "tooltip": "Specifies the unique name (code) of the financial report row definition. You can use up to 10 characters."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Row No.",
+      "tooltip": "Specifies a number that identifies the line."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies text that will appear on the financial report line."
+    },
+    {
+      "no": 5,
+      "name": "Totaling",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Totaling Type",
+      "tooltip": "Specifies the totaling type for the financial report line. The type determines which accounts within the totaling interval you specify in the Totaling field will be totaled."
+    },
+    {
+      "no": 7,
+      "name": "New Page",
+      "tooltip": "Specifies whether there will be a page break after the current line when the financial report is exported to PDF or printed."
+    },
+    {
+      "no": 8,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "G/L Budget Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Business Unit Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Show",
+      "tooltip": "Specifies whether the line will be printed on the report."
+    },
+    {
+      "no": 17,
+      "name": "Dimension 3 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Dimension 4 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Dimension 1 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line."
+    },
+    {
+      "no": 20,
+      "name": "Dimension 2 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line."
+    },
+    {
+      "no": 21,
+      "name": "Dimension 3 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line."
+    },
+    {
+      "no": 22,
+      "name": "Dimension 4 Totaling",
+      "tooltip": "Specifies which dimension value amounts will be totaled on this line."
+    },
+    {
+      "no": 23,
+      "name": "Bold",
+      "tooltip": "Specifies whether to print the amounts in this row in bold."
+    },
+    {
+      "no": 24,
+      "name": "Italic",
+      "tooltip": "Specifies whether to print the amounts in this row in italics."
+    },
+    {
+      "no": 25,
+      "name": "Underline",
+      "tooltip": "Specifies whether to underline the amounts in this row."
+    },
+    {
+      "no": 26,
+      "name": "Show Opposite Sign",
+      "tooltip": "Specifies whether to show debits in reports as negative amounts with a minus sign and credits as positive amounts."
+    },
+    {
+      "no": 27,
+      "name": "Row Type",
+      "tooltip": "Specifies the row type for the row definition. The type determines how the amounts in the row are calculated."
+    },
+    {
+      "no": 28,
+      "name": "Amount Type",
+      "tooltip": "Specifies the type of entries that will be included in the amounts in the row definition."
+    },
+    {
+      "no": 30,
+      "name": "Double Underline",
+      "tooltip": "Specifies whether to double underline the amounts in this row."
+    },
+    {
+      "no": 40,
+      "name": "Hide Currency Symbol",
+      "tooltip": "Specifies whether to hide currency symbols when a calculated result is not a currency."
+    },
+    {
+      "no": 41,
+      "name": "Dimension 5 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Dimension 6 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Dimension 7 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Dimension 8 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Internal Description",
+      "tooltip": "Specifies the internal description for the row definition line that highlights complex logic or areas needing review for the next report designer."
+    },
+    {
+      "no": 840,
+      "name": "Cash Flow Forecast Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 1100,
+      "name": "Cost Center Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 1101,
+      "name": "Cost Object Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 1102,
+      "name": "Cost Center Totaling",
+      "tooltip": ""
+    },
+    {
+      "no": 1103,
+      "name": "Cost Object Totaling",
+      "tooltip": ""
+    },
+    {
+      "no": 1104,
+      "name": "Cost Budget Filter",
+      "tooltip": ""
+    }
+  ]
+}

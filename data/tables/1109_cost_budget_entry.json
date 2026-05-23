@@ -1,0 +1,93 @@
+{
+  "id": 1109,
+  "name": "Cost Budget Entry",
+  "slug": "1109_cost_budget_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Budget Name",
+      "tooltip": "Specifies the name of the cost budget that the entry belongs to."
+    },
+    {
+      "no": 3,
+      "name": "Cost Type No.",
+      "tooltip": "Specifies the subtype of the cost center. This is an information field and is not used for any other purposes. Choose the field to select the cost subtype."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date of the cost budget entry."
+    },
+    {
+      "no": 5,
+      "name": "Cost Center Code",
+      "tooltip": "Specifies the cost center code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 6,
+      "name": "Cost Object Code",
+      "tooltip": "Specifies the cost object code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 7,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the cost budget entries."
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": "Specifies a description of the cost budget entry."
+    },
+    {
+      "no": 20,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the related document."
+    },
+    {
+      "no": 30,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 31,
+      "name": "System-Created Entry",
+      "tooltip": "Specifies the entry created by the system for the cost budget entry."
+    },
+    {
+      "no": 32,
+      "name": "Allocated",
+      "tooltip": "Specifies whether the cost entry has been allocated."
+    },
+    {
+      "no": 33,
+      "name": "Allocated with Journal No.",
+      "tooltip": "Specifies which cost journal was used to allocate the cost budget."
+    },
+    {
+      "no": 40,
+      "name": "Last Modified By User",
+      "tooltip": "Specifies the user who made the last change to the cost budget."
+    },
+    {
+      "no": 42,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Allocation Description",
+      "tooltip": "Specifies the description that explains the allocation level and shares."
+    },
+    {
+      "no": 51,
+      "name": "Allocation ID",
+      "tooltip": "Specifies the ID of the allocation key that the cost budget entry comes from."
+    }
+  ]
+}

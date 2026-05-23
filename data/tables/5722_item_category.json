@@ -1,0 +1,43 @@
+{
+  "id": 5722,
+  "name": "Item Category",
+  "slug": "5722_item_category",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the item category."
+    },
+    {
+      "no": 2,
+      "name": "Parent Category",
+      "tooltip": "Specifies the item category that this item category belongs to. Item attributes that are assigned to a parent item category also apply to the child item category."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item category."
+    },
+    {
+      "no": 9,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Presentation Order",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Has Children",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7132,
+  "name": "Item Budget Name",
+  "slug": "7132_item_budget_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the item budget."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of the item budget."
+    },
+    {
+      "no": 4,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 5,
+      "name": "Budget Dimension 1 Code",
+      "tooltip": "Specifies a dimension code for Item Budget Dimension 1."
+    },
+    {
+      "no": 6,
+      "name": "Budget Dimension 2 Code",
+      "tooltip": "Specifies a dimension code for Item Budget Dimension 2."
+    },
+    {
+      "no": 7,
+      "name": "Budget Dimension 3 Code",
+      "tooltip": "Specifies a dimension code for Item Budget Dimension 3."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": 1103,
+  "name": "Cost Type",
+  "slug": "1103_cost_type",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the cost type."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies the type of the cost type."
+    },
+    {
+      "no": 6,
+      "name": "Cost Center Code",
+      "tooltip": "Specifies the cost center code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 7,
+      "name": "Cost Object Code",
+      "tooltip": "Specifies the cost object code. The code serves as a default value for cost posting that is captured later in the cost journal."
+    },
+    {
+      "no": 10,
+      "name": "Combine Entries",
+      "tooltip": "Specifies the option to allow for general ledger entries to be posted individually or as a combined posting per day or month."
+    },
+    {
+      "no": 13,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 17,
+      "name": "New Page",
+      "tooltip": "Specifies if you want a new page to start immediately after this cost center when you print the chart of cash flow accounts."
+    },
+    {
+      "no": 18,
+      "name": "Blank Line",
+      "tooltip": "Specifies whether you want a blank line to appear immediately after this cost center when you print the chart of cost centers. The New Page, Blank Line, and Indentation fields define the layout of the chart of cost centers."
+    },
+    {
+      "no": 19,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Comment",
+      "tooltip": "Specifies a description that applies to the cost type."
+    },
+    {
+      "no": 22,
+      "name": "Cost Classification",
+      "tooltip": "Specifies the cost type by variability."
+    },
+    {
+      "no": 23,
+      "name": "Fixed Share",
+      "tooltip": "Specifies an explanation of the Cost Classification field."
+    },
+    {
+      "no": 26,
+      "name": "Modified Date",
+      "tooltip": "Specifies when the cost object was last modified."
+    },
+    {
+      "no": 27,
+      "name": "Modified By",
+      "tooltip": "Specifies the user who last modified the cost object."
+    },
+    {
+      "no": 28,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Cost Center Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Cost Object Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the cost type balance on the last date that is included in the Date Filter field. The contents of the field are calculated by using the entries in the Amount field in the Cost Entry table."
+    },
+    {
+      "no": 32,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the account balance during the time period in the Date Filter field."
+    },
+    {
+      "no": 33,
+      "name": "Budget Amount",
+      "tooltip": "Specifies either the cost type's total budget or, if you have specified a filter in the Budget Filter field, a filtered budget. The contents of the field are calculated by using the entries in the Amount field in the Cost Budget Entry table."
+    },
+    {
+      "no": 34,
+      "name": "Totaling",
+      "tooltip": "Specifies an account interval or a list of account numbers. The entries of the account will be totaled to give a total balance. How entries are totaled depends on the value in the Account Type field."
+    },
+    {
+      "no": 35,
+      "name": "Budget Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Balance",
+      "tooltip": "Specifies the balance of the cost type."
+    },
+    {
+      "no": 37,
+      "name": "Budget at Date",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "G/L Account Range",
+      "tooltip": "Specifies a general ledger account range to establish which general ledger account a cost type belongs to."
+    },
+    {
+      "no": 47,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 48,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 51,
+      "name": "Balance to Allocate",
+      "tooltip": "Specifies the net amount that can still be allocated. The entry in the Allocated field in the Cost Entry table determines whether a cost entry is a part of this field."
+    },
+    {
+      "no": 60,
+      "name": "Budget Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Budget Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Add. Currency Net Change",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Add. Currency Balance at Date",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 9183,
+  "name": "Generic Chart Query Column",
+  "slug": "9183_generic_chart_query_column",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Query No.",
+      "tooltip": "Specifies the number of the query that is used to generate column data in the chart."
+    },
+    {
+      "no": 2,
+      "name": "Query Column No.",
+      "tooltip": "Specifies the number of the query column that is used to generate column data in the chart."
+    },
+    {
+      "no": 3,
+      "name": "Column Name",
+      "tooltip": "Specifies the name of the query that is used to generate column data in the chart."
+    },
+    {
+      "no": 4,
+      "name": "Column Data Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Column Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Aggregation Type",
+      "tooltip": ""
+    }
+  ]
+}

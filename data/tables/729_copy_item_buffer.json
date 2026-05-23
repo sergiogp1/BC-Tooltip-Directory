@@ -1,0 +1,128 @@
+{
+  "id": 729,
+  "name": "Copy Item Buffer",
+  "slug": "729_copy_item_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Source Item No.",
+      "tooltip": "Specifies the number of the item that you want to copy the data from."
+    },
+    {
+      "no": 3,
+      "name": "Target Item No.",
+      "tooltip": "Specifies the number of the new item that you want to copy the data to. \\\\To generate the new item number from a number series, fill in the Target No. Series field instead."
+    },
+    {
+      "no": 4,
+      "name": "Target No. Series",
+      "tooltip": "Specifies the number series that is used to assign a number to the new item."
+    },
+    {
+      "no": 5,
+      "name": "Number of Copies",
+      "tooltip": "Specifies the number of new items that you want to create."
+    },
+    {
+      "no": 10,
+      "name": "General Item Information",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 11,
+      "name": "Units of Measure",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 12,
+      "name": "Dimensions",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 13,
+      "name": "Picture",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 14,
+      "name": "Comments",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 15,
+      "name": "Sales Prices",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 16,
+      "name": "Sales Line Discounts",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 17,
+      "name": "Purchase Prices",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 18,
+      "name": "Purchase Line Discounts",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 19,
+      "name": "Troubleshooting",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 20,
+      "name": "Resource Skills",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 21,
+      "name": "Item Variants",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 22,
+      "name": "Translations",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 23,
+      "name": "Extended Texts",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 24,
+      "name": "BOM Components",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 25,
+      "name": "Item Vendors",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 26,
+      "name": "Attributes",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 28,
+      "name": "Item References",
+      "tooltip": "Specifies if the selected data type is also copied to the new item."
+    },
+    {
+      "no": 100,
+      "name": "Show Created Items",
+      "tooltip": "Specifies if the copied items are showed after they are created."
+    }
+  ]
+}

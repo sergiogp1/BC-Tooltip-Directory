@@ -1,0 +1,48 @@
+{
+  "id": 484,
+  "name": "Change Global Dim. Header",
+  "slug": "484_change_global_dim_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Old Global Dimension 1 Code",
+      "tooltip": "Specifies the dimension that is currently defined as Global Dimension 1."
+    },
+    {
+      "no": 3,
+      "name": "Old Global Dimension 2 Code",
+      "tooltip": "Specifies the dimension that is currently defined as Global Dimension 2."
+    },
+    {
+      "no": 4,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies another global dimension that you want to use. The second field on the row will show the current global dimension."
+    },
+    {
+      "no": 5,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies another global dimension that you want to use. The second field on the row will show the current global dimension."
+    },
+    {
+      "no": 6,
+      "name": "Parallel Processing",
+      "tooltip": "Specifies if the change will be processed by parallel background jobs."
+    },
+    {
+      "no": 7,
+      "name": "Change Type 1",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Change Type 2",
+      "tooltip": ""
+    }
+  ]
+}

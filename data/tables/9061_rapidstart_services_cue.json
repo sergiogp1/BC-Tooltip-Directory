@@ -1,0 +1,48 @@
+{
+  "id": 9061,
+  "name": "RapidStart Services Cue",
+  "slug": "9061_rapidstart_services_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Not Started",
+      "tooltip": "Specifies the number of configuration tables that have not been started. The documents are filtered by today's date."
+    },
+    {
+      "no": 11,
+      "name": "In Progress",
+      "tooltip": "Specifies the number of configuration tables that are in progress. The documents are filtered by today's date."
+    },
+    {
+      "no": 12,
+      "name": "Completed",
+      "tooltip": "Specifies the number of configuration tables that have been completed. The documents are filtered by today's date."
+    },
+    {
+      "no": 13,
+      "name": "Ignored",
+      "tooltip": "Specifies the number of configuration tables that you have designated to be ignored. The documents are filtered by today's date."
+    },
+    {
+      "no": 14,
+      "name": "Promoted",
+      "tooltip": "Specifies the number of configuration tables that have been promoted. The documents are filtered by today's date."
+    },
+    {
+      "no": 15,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 16,
+      "name": "User ID Filter",
+      "tooltip": ""
+    }
+  ]
+}

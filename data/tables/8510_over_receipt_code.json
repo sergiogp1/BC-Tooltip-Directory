@@ -1,0 +1,33 @@
+{
+  "id": 8510,
+  "name": "Over-Receipt Code",
+  "slug": "8510_over_receipt_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the over-receive policy."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the over-receive policy."
+    },
+    {
+      "no": 3,
+      "name": "Default",
+      "tooltip": "Specifies if the over-receipt code will be used by default."
+    },
+    {
+      "no": 4,
+      "name": "Over-Receipt Tolerance %",
+      "tooltip": "Specifies the percentage by which the ordered quantity is allowed to be exceeded."
+    },
+    {
+      "no": 5,
+      "name": "Required Approval",
+      "tooltip": "Specifies if over-receiving items with this over-receipt-code code must first be approved."
+    }
+  ]
+}

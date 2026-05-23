@@ -1,0 +1,93 @@
+{
+  "id": 365,
+  "name": "Analysis View Entry",
+  "slug": "365_analysis_view_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Analysis View Code",
+      "tooltip": "Specifies the analysis view."
+    },
+    {
+      "no": 2,
+      "name": "Business Unit Code",
+      "tooltip": "Specifies the code for the business unit that the analysis view is based on."
+    },
+    {
+      "no": 3,
+      "name": "Account No.",
+      "tooltip": "Specifies the account that the analysis entry comes from."
+    },
+    {
+      "no": 4,
+      "name": "Dimension 1 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 1 on the analysis view card."
+    },
+    {
+      "no": 5,
+      "name": "Dimension 2 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 2 on the analysis view card."
+    },
+    {
+      "no": 6,
+      "name": "Dimension 3 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 3 on the analysis view card."
+    },
+    {
+      "no": 7,
+      "name": "Dimension 4 Value Code",
+      "tooltip": "Specifies the dimension value you selected for the analysis view dimension that you defined as Dimension 4 on the analysis view card."
+    },
+    {
+      "no": 8,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 9,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the analysis view budget entry."
+    },
+    {
+      "no": 11,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 12,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 13,
+      "name": "Add.-Curr. Amount",
+      "tooltip": "Specifies (in the additional reporting currency) the VAT difference that arises when you make a correction to a VAT amount on a sales or purchase document."
+    },
+    {
+      "no": 14,
+      "name": "Add.-Curr. Debit Amount",
+      "tooltip": "Specifies, in the additional reporting currency, the amount of the debit entry."
+    },
+    {
+      "no": 15,
+      "name": "Add.-Curr. Credit Amount",
+      "tooltip": "Specifies, in the additional reporting currency, the amount of the credit entry."
+    },
+    {
+      "no": 16,
+      "name": "Account Source",
+      "tooltip": "Specifies an account that you can use as a filter to define what is displayed in the Analysis by Dimensions window."
+    },
+    {
+      "no": 17,
+      "name": "Cash Flow Forecast No.",
+      "tooltip": "Specifies a number for the cash flow forecast."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 5092,
+  "name": "Opportunity",
+  "slug": "5092_opportunity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the opportunity."
+    },
+    {
+      "no": 3,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies the salesperson who is responsible for the opportunity."
+    },
+    {
+      "no": 4,
+      "name": "Campaign No.",
+      "tooltip": "Specifies the number of the campaign to which this opportunity is linked."
+    },
+    {
+      "no": 5,
+      "name": "Contact No.",
+      "tooltip": "Specifies the number of the contact that this opportunity is linked to."
+    },
+    {
+      "no": 6,
+      "name": "Contact Company No.",
+      "tooltip": "Specifies the number of the company that is linked to this opportunity."
+    },
+    {
+      "no": 7,
+      "name": "Sales Cycle Code",
+      "tooltip": "Specifies which sales cycle will be used to process this opportunity"
+    },
+    {
+      "no": 8,
+      "name": "Sales Document No.",
+      "tooltip": "Specifies the number of the sales document that has been created for this opportunity."
+    },
+    {
+      "no": 9,
+      "name": "Creation Date",
+      "tooltip": "Specifies the date that the opportunity was created."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the opportunity. There are four options:"
+    },
+    {
+      "no": 11,
+      "name": "Priority",
+      "tooltip": "Specifies the priority of the opportunity. There are three options:"
+    },
+    {
+      "no": 12,
+      "name": "Closed",
+      "tooltip": "Specifies that the opportunity is closed."
+    },
+    {
+      "no": 13,
+      "name": "Date Closed",
+      "tooltip": "Specifies the date the opportunity was closed."
+    },
+    {
+      "no": 15,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Current Sales Cycle Stage",
+      "tooltip": "Specifies the current sales cycle stage of the opportunity."
+    },
+    {
+      "no": 18,
+      "name": "Estimated Value (LCY)",
+      "tooltip": "Specifies the estimated value of the opportunity."
+    },
+    {
+      "no": 19,
+      "name": "Probability %",
+      "tooltip": "Specifies the probability of the opportunity resulting in a sale."
+    },
+    {
+      "no": 20,
+      "name": "Calcd. Current Value (LCY)",
+      "tooltip": "Specifies the current calculated value of the opportunity."
+    },
+    {
+      "no": 21,
+      "name": "Chances of Success %",
+      "tooltip": "Specifies the chances of success of the opportunity."
+    },
+    {
+      "no": 22,
+      "name": "Completed %",
+      "tooltip": "Specifies the percentage of the sales cycle that has been completed for this opportunity."
+    },
+    {
+      "no": 23,
+      "name": "Contact Name",
+      "tooltip": "Specifies the name of the contact to which this opportunity is linked. The program automatically fills in this field when you have entered a number in the No. field."
+    },
+    {
+      "no": 24,
+      "name": "Contact Company Name",
+      "tooltip": "Specifies the name of the company of the contact person to which this opportunity is linked. The program automatically fills in this field when you have entered a number in the Contact Company No. field."
+    },
+    {
+      "no": 25,
+      "name": "Salesperson Name",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Campaign Description",
+      "tooltip": "Specifies the description of the campaign to which the opportunity is linked. The program automatically fills in this field when you have entered a number in the Campaign No. field."
+    },
+    {
+      "no": 27,
+      "name": "Segment No.",
+      "tooltip": "Specifies the number of the segment (if any) that is linked to the opportunity."
+    },
+    {
+      "no": 28,
+      "name": "Estimated Closing Date",
+      "tooltip": "Specifies the estimated closing date of the opportunity."
+    },
+    {
+      "no": 29,
+      "name": "Sales Document Type",
+      "tooltip": "Specifies the type of the sales document (Quote, Order, Posted Invoice). The combination of Sales Document No. and Sales Document Type specifies which sales document is assigned to the opportunity."
+    },
+    {
+      "no": 30,
+      "name": "No. of Interactions",
+      "tooltip": "Specifies the number of interactions linked to this opportunity."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the opportunity is coupled to an opportunity in Dynamics 365 Sales."
+    },
+    {
+      "no": 9501,
+      "name": "Wizard Step",
+      "tooltip": ""
+    },
+    {
+      "no": 9502,
+      "name": "Activate First Stage",
+      "tooltip": "Specifies if the opportunity is to be activated. If you select the check box, then you can fill out the remainder of the fields on this page. In the Opportunity Card window, the status is set to In Progress."
+    },
+    {
+      "no": 9503,
+      "name": "Segment Description",
+      "tooltip": "Specifies a description of the segment that is related to the opportunity. The description is copied from the segment card."
+    },
+    {
+      "no": 9504,
+      "name": "Wizard Estimated Value (LCY)",
+      "tooltip": "Specifies the value in the wizard for the opportunity. You can specify an estimated value of the opportunity in local currency in this field."
+    },
+    {
+      "no": 9505,
+      "name": "Wizard Chances of Success %",
+      "tooltip": "Specifies the value in the wizard for the opportunity. You can specify a percentage completion estimate in this field."
+    },
+    {
+      "no": 9506,
+      "name": "Wizard Estimated Closing Date",
+      "tooltip": "Specifies a closing date for the opportunity from the wizard."
+    },
+    {
+      "no": 9507,
+      "name": "Wizard Contact Name",
+      "tooltip": "Specifies the contact who is involved in this opportunity."
+    },
+    {
+      "no": 9508,
+      "name": "Wizard Campaign Description",
+      "tooltip": "Specifies the campaign that the opportunity is related to. The description is copied from the campaign card."
+    }
+  ]
+}

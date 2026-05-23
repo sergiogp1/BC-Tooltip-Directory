@@ -1,0 +1,578 @@
+{
+  "id": 98,
+  "name": "General Ledger Setup",
+  "slug": "98_general_ledger_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Allow Posting From",
+      "tooltip": "Specifies the earliest date on which posting to the company books is allowed."
+    },
+    {
+      "no": 3,
+      "name": "Allow Posting To",
+      "tooltip": "Specifies the last date on which posting to the company books is allowed."
+    },
+    {
+      "no": 4,
+      "name": "Register Time",
+      "tooltip": "Specifies whether to register users' time usage defined as the time spent from when a user logs in to when the user logs out. Unexpected interruptions, such as idle session timeout, terminal server idle session timeout, or a client crash are not recorded. This setting can be overruled per user by filling in the Register Time field in the User Setup window."
+    },
+    {
+      "no": 5,
+      "name": "Allow Deferral Posting From",
+      "tooltip": "Specifies the earliest date on which deferral posting to the company books is allowed."
+    },
+    {
+      "no": 6,
+      "name": "Allow Deferral Posting To",
+      "tooltip": "Specifies the last date on which deferral posting to the company books is allowed."
+    },
+    {
+      "no": 7,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the date used to include entries on VAT reports in a VAT period. This is either the date that the document was created or posted, depending on this setting."
+    },
+    {
+      "no": 8,
+      "name": "VAT Reporting Date Usage",
+      "tooltip": "Specifies the usage of VAT date."
+    },
+    {
+      "no": 28,
+      "name": "Pmt. Disc. Excl. VAT",
+      "tooltip": "Specifies if the payment discount is calculated based on amounts including or excluding VAT."
+    },
+    {
+      "no": 41,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "Cust. Balances Due",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Vendor Balances Due",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Unrealized VAT",
+      "tooltip": "Specifies whether to handle unrealized VAT, which is VAT that is calculated but not due until the invoice is paid."
+    },
+    {
+      "no": 49,
+      "name": "Adjust for Payment Disc.",
+      "tooltip": "Specifies whether to recalculate tax amounts when you post payments that trigger payment discounts."
+    },
+    {
+      "no": 50,
+      "name": "Post with Job Queue",
+      "tooltip": "Specifies if you use job queues to post general ledger documents in the background."
+    },
+    {
+      "no": 51,
+      "name": "Job Queue Category Code",
+      "tooltip": "Specifies the code for the category of the job queue that you want to associate with background posting."
+    },
+    {
+      "no": 52,
+      "name": "Job Queue Priority for Post",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Post & Print with Job Queue",
+      "tooltip": "Specifies if you use job queues to post and print general ledger documents in the background."
+    },
+    {
+      "no": 54,
+      "name": "Job Q. Prio. for Post & Print",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Notify On Success",
+      "tooltip": "Specifies if a notification is sent when posting and printing is successfully completed."
+    },
+    {
+      "no": 56,
+      "name": "Mark Cr. Memos as Corrections",
+      "tooltip": "Specifies whether to automatically mark a new credit memo as a corrective entry. Correction flag does not affect how inventory reconciled with general ledger."
+    },
+    {
+      "no": 57,
+      "name": "Local Address Format",
+      "tooltip": "Specifies the format in which addresses must appear on printouts."
+    },
+    {
+      "no": 58,
+      "name": "Inv. Rounding Precision (LCY)",
+      "tooltip": "Specifies the size of the interval to be used when rounding invoice amounts in LCY. Examples: 1.00: Round to whole numbers (no decimals - divisible by 1.00), 0.05: Round to a number divisible by 0.05, 0.01: No rounding (ordinary currency decimals). On the Currencies page, you specify how to round invoices in foreign currencies."
+    },
+    {
+      "no": 59,
+      "name": "Inv. Rounding Type (LCY)",
+      "tooltip": "Specifies how to round invoice amounts. The contents of this field determine whether the invoice amount to be rounded will be rounded up or down to the nearest interval as specified in the Invoice Rounding Precision field. If you select Nearest, digits that are higher than or equal to 5 will be rounded up, and digits that are lower than or equal to 5 will be rounded down."
+    },
+    {
+      "no": 60,
+      "name": "Local Cont. Addr. Format",
+      "tooltip": "Specifies where you want the contact name to appear in mailing addresses."
+    },
+    {
+      "no": 61,
+      "name": "Report Output Type",
+      "tooltip": "Specifies the output of the report that will be scheduled with a job queue entry when the Post and Print with Job Queue check box is selected."
+    },
+    {
+      "no": 63,
+      "name": "Bank Account Nos.",
+      "tooltip": "Specifies the code for the number series that will be used to assign numbers to bank accounts."
+    },
+    {
+      "no": 65,
+      "name": "Summarize G/L Entries",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Amount Decimal Places",
+      "tooltip": "Specifies the number of decimal places that are shown for amounts in LCY. This covers amounts created with all types of transactions and is useful to avoid inconsistencies when viewing or summing different amounts. The default setting, 2:2, specifies that all amounts in LCY are shown with a minimum of 2 decimal places and a maximum of 2 decimal places. You can also enter a fixed number, such as 2, which also means that amounts are shown with two decimals. On the Currencies page, you specify how many decimal places to show for amounts in foreign currencies."
+    },
+    {
+      "no": 67,
+      "name": "Unit-Amount Decimal Places",
+      "tooltip": "Specifies the number of decimal places that are shown for unit amounts, item or resource prices per unit, in LCY. The default setting, 2:5, specifies that unit amounts will be shown with a minimum of two decimal places and a maximum of five decimal places. You can also enter a fixed number, such as 2, to specify that all unit amounts are shown with two decimal places. On the Currencies page, you specify how many decimal places to show for unit amounts in foreign currencies."
+    },
+    {
+      "no": 68,
+      "name": "Additional Reporting Currency",
+      "tooltip": "Specifies the currency that will be used as an additional reporting currency."
+    },
+    {
+      "no": 69,
+      "name": "VAT Tolerance %",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "EMU Currency",
+      "tooltip": "Specifies if LCY is an EMU (Economic and Monetary Union) currency."
+    },
+    {
+      "no": 71,
+      "name": "LCY Code",
+      "tooltip": "Specifies the ISO 3 letter currency code for the local currency."
+    },
+    {
+      "no": 72,
+      "name": "VAT Exchange Rate Adjustment",
+      "tooltip": "Specifies how the accounts set up for VAT posting in the VAT Posting Setup window will be adjusted for exchange rate fluctuations."
+    },
+    {
+      "no": 73,
+      "name": "Amount Rounding Precision",
+      "tooltip": "Specifies the size of the interval to be used when rounding amounts in LCY. This covers amounts created with all types of transactions and is useful to avoid inconsistencies when viewing or summing different amounts. Amounts will be rounded to the nearest digit. Example: To have amounts rounded to whole numbers, enter 1.00 in this field. In this case, amounts less than 0.5 will be rounded down and amounts greater than or equal to 0.5 will be rounded up. On the Currencies page, you specify how amounts in foreign currencies are rounded."
+    },
+    {
+      "no": 74,
+      "name": "Unit-Amount Rounding Precision",
+      "tooltip": "Specifies the size of the interval to be used when rounding unit amounts, item or resource prices per unit, in LCY. Amounts will be rounded to the nearest digit. Example: To have unit amounts rounded to whole numbers, enter 1.00 in this field. In this case, amounts less than 0.5 will be rounded down and amounts greater than or equal to 0.5 will be rounded up. On the Currencies page, you specify how unit amounts in foreign currencies are rounded."
+    },
+    {
+      "no": 75,
+      "name": "Appln. Rounding Precision",
+      "tooltip": "Specifies the rounding difference that will be allowed when you apply entries in LCY to entries in a different currency."
+    },
+    {
+      "no": 79,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for a global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 80,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for a global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 81,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 82,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 83,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 84,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 85,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 86,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 87,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 88,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, whose dimension values you can then enter directly on journals and sales or purchase lines."
+    },
+    {
+      "no": 89,
+      "name": "Max. VAT Difference Allowed",
+      "tooltip": "Specifies the maximum VAT correction amount allowed for the local currency. For example, if you enter 5 in this field for British Pounds, then you can correct VAT amounts by up to five pounds."
+    },
+    {
+      "no": 90,
+      "name": "VAT Rounding Type",
+      "tooltip": "Specifies how the program will round VAT when calculated for the local currency. When you enter an Amount Including VAT in a document, the system first calculates and rounds the Amount Excluding VAT, and then calculates by subtraction the VAT Amount because the total amount has to match the Amount Including VAT entered manually. In that case, the VAT Rounding Type does not apply as the Amount Excluding VAT is already rounded using the Amount Rounding Precision."
+    },
+    {
+      "no": 92,
+      "name": "Pmt. Disc. Tolerance Posting",
+      "tooltip": "Specifies the posting method that is used when posting a payment tolerance. Payment Tolerance Accounts: The payment discount tolerance is posted to a special general ledger account set up for payment tolerance. Payment Discount Amount: The payment discount tolerance is posted as a payment discount."
+    },
+    {
+      "no": 93,
+      "name": "Payment Discount Grace Period",
+      "tooltip": "Specifies the number of days that a payment or refund can pass the payment discount due date and still receive payment discount."
+    },
+    {
+      "no": 94,
+      "name": "Payment Tolerance %",
+      "tooltip": "Specifies the percentage that a payment or refund is allowed to be less than the amount on the related invoice or credit memo."
+    },
+    {
+      "no": 95,
+      "name": "Max. Payment Tolerance Amount",
+      "tooltip": "Specifies the maximum allowed amount that a payment or refund can differ from the amount on the related invoice or credit memo."
+    },
+    {
+      "no": 97,
+      "name": "Allow G/L Acc. Deletion Before",
+      "tooltip": "Specifies if and when general ledger accounts can be deleted. If you enter a date, G/L accounts with entries on or after this date can be deleted only after confirmation by the user. This setting is only valid when \"Block Deletion of G/L accounts\" is set to No"
+    },
+    {
+      "no": 98,
+      "name": "Check G/L Account Usage",
+      "tooltip": "Specifies that you want the program to protect G/L accounts that are used in setup tables from being deleted."
+    },
+    {
+      "no": 99,
+      "name": "Payment Tolerance Posting",
+      "tooltip": "Specifies the posting method that is used when posting a payment tolerance. Payment Tolerance Accounts: Posts the payment tolerance to a special general ledger account set up for payment tolerance. Payment Discount Amount: Posts the payment tolerance as a payment discount."
+    },
+    {
+      "no": 100,
+      "name": "Pmt. Disc. Tolerance Warning",
+      "tooltip": "Specifies if a warning will appear every time an application occurs between the dates specified in the Payment Discount Date field and the Pmt. Disc. Tolerance Date field in the General Ledger Setup window."
+    },
+    {
+      "no": 101,
+      "name": "Payment Tolerance Warning",
+      "tooltip": "Specifies whether to display a message when a payment differs from the invoice amount within the specified tolerance, so you can choose how to process it. If you do not enable the message, and a tolerance level is specified, invoices with amounts that are within tolerance will be automatically closed and you cannot choose to leave the remaining amount. Default tolerance levels are specified in the Payment Tolerance % and Max. Payment Tolerance fields, but can also be specified for each customer ledger entry."
+    },
+    {
+      "no": 102,
+      "name": "Last IC Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Bill-to/Sell-to VAT Calc.",
+      "tooltip": "Specifies where the VAT Bus. Posting Group code on an order or invoice is copied from. Bill-to/Pay-to No.: The VAT Bus. Posting Group code on sales invoices and orders is copied from the Bill-to Customer field. The VAT Bus. Posting Group code on purchase invoices and orders is copied from the Pay-to Vendor field. Sell-to/Buy-from No. : The VAT Bus. Posting Group code on sales invoices and orders is copied from the Sell-to Customer field. The VAT Bus. Posting Group code on purchase invoices and orders is copied from the Buy-from Vendor field."
+    },
+    {
+      "no": 104,
+      "name": "Block Deletion of G/L Accounts",
+      "tooltip": "Specifies whether to prevent users from deleting G/L accounts with ledger entries that are after the date in the Check G/L Acc. Deletion After field. For example, blocking deletion helps you avoid losing financial data that your business should keep due to country regional requirements."
+    },
+    {
+      "no": 110,
+      "name": "Acc. Sched. for Balance Sheet",
+      "tooltip": ""
+    },
+    {
+      "no": 111,
+      "name": "Acc. Sched. for Income Stmt.",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "Acc. Sched. for Cash Flow Stmt",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Acc. Sched. for Retained Earn.",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Fin. Rep. for Balance Sheet",
+      "tooltip": "Specifies which financial report is used to generate the Balance Sheet report."
+    },
+    {
+      "no": 115,
+      "name": "Fin. Rep. for Income Stmt.",
+      "tooltip": "Specifies which financial report is used to generate the Income Statement report."
+    },
+    {
+      "no": 116,
+      "name": "Fin. Rep. for Cash Flow Stmt",
+      "tooltip": "Specifies which financial report is used to generate the Cash Flow Statement report."
+    },
+    {
+      "no": 117,
+      "name": "Fin. Rep. for Retained Earn.",
+      "tooltip": "Specifies which financial report is used to generate the Retained Earnings report."
+    },
+    {
+      "no": 120,
+      "name": "Tax Invoice Renaming Threshold",
+      "tooltip": "Specifies that if the amount on a sales invoice or a service invoice exceeds the threshold, then the name of the document is changed to include the words \"Tax Invoice\", as required by the tax authorities."
+    },
+    {
+      "no": 130,
+      "name": "Req.Country/Reg. Code in Addr.",
+      "tooltip": "Specifies whether to clear the Post Code, City, and County fields when the value in the Country/Region Code field is changed."
+    },
+    {
+      "no": 150,
+      "name": "Print VAT specification in LCY",
+      "tooltip": "Specifies that an extra VAT specification in local currency will be included on documents in a foreign currency. This can be used to make tax audits easier when reconciling VAT payables to invoices."
+    },
+    {
+      "no": 151,
+      "name": "Prepayment Unrealized VAT",
+      "tooltip": "Specifies whether to handle unrealized VAT on prepayments."
+    },
+    {
+      "no": 160,
+      "name": "Payroll Trans. Import Format",
+      "tooltip": "Specifies the format of the payroll transaction file that can be imported into the General Journal window."
+    },
+    {
+      "no": 162,
+      "name": "Local Currency Symbol",
+      "tooltip": "Specifies the symbol for the local currency that you want to appear on checks and charts, such as $ for USD."
+    },
+    {
+      "no": 163,
+      "name": "Local Currency Description",
+      "tooltip": "Specifies the description of the local currency."
+    },
+    {
+      "no": 164,
+      "name": "Show Amounts",
+      "tooltip": "Specifies which type of amounts are shown in journals and in ledger entries windows. Amount Only: The Amount and Amount (LCY) fields are shown. Debit/Credit Only: The Debit Amount, Debit Amount (LCY), Credit Amount, and Credit Amount (LCY) fields are shown. All Amounts: All amount fields are shown."
+    },
+    {
+      "no": 169,
+      "name": "Posting Preview Type",
+      "tooltip": "Specifies the amount of detail to include in the posting preview. Standard gives an overview of entries grouped by type, and you can choose the type of entry to view details. Extended displays the details for G/L entries and VAT entries."
+    },
+    {
+      "no": 170,
+      "name": "SEPA Non-Euro Export",
+      "tooltip": "Specifies whether to use SEPA export for journal lines with currencies different from Euro."
+    },
+    {
+      "no": 171,
+      "name": "SEPA Export w/o Bank Acc. Data",
+      "tooltip": "Specifies if it is possible to use SEPA direct debit export by filling in the Bank Branch No. and Bank Account No. fields instead of the IBAN and SWIFT No. fields on the bank account and customer bank account cards."
+    },
+    {
+      "no": 175,
+      "name": "Journal Templ. Name Mandatory",
+      "tooltip": "Specifies if a journal template and batch names are required when posting general ledger transactions. If you want to have template name in posted documents and entries, you must set this field as TRUE."
+    },
+    {
+      "no": 176,
+      "name": "Hide Payment Method Code",
+      "tooltip": "Specifies if payment method code is shown in sales and purchase documents."
+    },
+    {
+      "no": 177,
+      "name": "Enable Data Check",
+      "tooltip": "Specifies whether Business Central validates the data you enter in documents and journals while you type. For documents, you can turn on the check and messages will be shown in the Document Check FactBox. For journals, messages are always shown in the Journal Check FactBox."
+    },
+    {
+      "no": 178,
+      "name": "Document Retention Period",
+      "tooltip": ""
+    },
+    {
+      "no": 180,
+      "name": "Apply Jnl. Template Name",
+      "tooltip": "Specifies the name of the journal template you want to use for applying customer or vendor ledger entries."
+    },
+    {
+      "no": 181,
+      "name": "Apply Jnl. Batch Name",
+      "tooltip": "Specifies the name of the journal batch you want to use for applying customer or vendor ledger entries."
+    },
+    {
+      "no": 182,
+      "name": "Job WIP Jnl. Template Name",
+      "tooltip": "Specifies the name of the journal template you want to use for posting project WIP to G/L."
+    },
+    {
+      "no": 183,
+      "name": "Job WIP Jnl. Batch Name",
+      "tooltip": "Specifies the name of the journal batch you want to use for posting project WIP to G/L."
+    },
+    {
+      "no": 184,
+      "name": "Adjust ARC Jnl. Template Name",
+      "tooltip": "Specifies the name of the journal template you want to use for posting adjustment of additional reporting currency."
+    },
+    {
+      "no": 185,
+      "name": "Adjust ARC Jnl. Batch Name",
+      "tooltip": "Specifies the name of the journal batch you want to use for posting adjustment of additional reporting currency."
+    },
+    {
+      "no": 186,
+      "name": "Bank Acc. Recon. Template Name",
+      "tooltip": "Specifies the name of the journal batch you want to use for posting bank account reconciliation."
+    },
+    {
+      "no": 187,
+      "name": "Bank Acc. Recon. Batch Name",
+      "tooltip": "Specifies the name of the journal batch you want to use for posting bank account reconciliation."
+    },
+    {
+      "no": 188,
+      "name": "Control VAT Period",
+      "tooltip": "Specifies a way of using VAT Date against VAT Return Periods. If you choose ‘Block posting within closed and warn for released period’, system will not allow postings in closed VAT Return Period, but if the period is not closed, but VAT returns are released or submitted, user will be warned what try to post an entry with VAT Date in this period. If you choose ‘Block posting within closed period’, system will still not allow postings in closed VAT Return Period, but there will be no warnings for release or submitted VAT returns. If you choose ‘Warn when posting in closed period’, system will not block posting entry with VAT Date in the closed VAT return period, but it will show warning message before posting. And if you choose ‘Disabled’ options, system will allow you to post without any control regardless of VAT return or period status."
+    },
+    {
+      "no": 189,
+      "name": "Allow Query From Consolid.",
+      "tooltip": ""
+    },
+    {
+      "no": 190,
+      "name": "Acc. Receivables Category",
+      "tooltip": ""
+    },
+    {
+      "no": 191,
+      "name": "App. Dimension Posting",
+      "tooltip": "Specifies dimension source for Realized Gain/Loss application entries."
+    },
+    {
+      "no": 192,
+      "name": "Hide Company Bank Account",
+      "tooltip": "Specifies whether or not the Company Bank Account can be updated on posted documents."
+    },
+    {
+      "no": 193,
+      "name": "Check Source Curr. Consistency",
+      "tooltip": "Specifies whether Business Central validates the total of general ledger entries source currency amount during posting."
+    },
+    {
+      "no": 194,
+      "name": "Acc. Payables Category",
+      "tooltip": ""
+    },
+    {
+      "no": 195,
+      "name": "Fin. Rep. Period Type",
+      "tooltip": "Specifies by which period amounts are displayed on financial report by default."
+    },
+    {
+      "no": 196,
+      "name": "Fin. Rep. Neg. Amount Format",
+      "tooltip": "Specifies how negative amounts are displayed on the financial report by default."
+    },
+    {
+      "no": 197,
+      "name": "Fin. Rep. Company Logo Pos.",
+      "tooltip": "Specifies how your company logo is displayed on the financial report by default."
+    },
+    {
+      "no": 198,
+      "name": "Fin. Rep. Bal. Sheet Row",
+      "tooltip": "Specifies the name of the Balance Sheet row on Financial Reports."
+    },
+    {
+      "no": 199,
+      "name": "Fin. Rep. Income Stmt. Row",
+      "tooltip": "Specifies the name of the Income Statement row on Financial Reports."
+    },
+    {
+      "no": 200,
+      "name": "Fin. Rep. Cash Flow Stmt. Row",
+      "tooltip": "Specifies the name of the Cash Flow Statement row on Financial Reports."
+    },
+    {
+      "no": 201,
+      "name": "Fin. Rep. Retained Earn. Row",
+      "tooltip": "Specifies the name of the Retained Earnings row on Financial Reports."
+    },
+    {
+      "no": 202,
+      "name": "Fin. Rep. Bal. Sheet Column",
+      "tooltip": "Specifies the name of the Balance Sheet column on Financial Reports."
+    },
+    {
+      "no": 203,
+      "name": "Fin. Rep. Net Change Column",
+      "tooltip": "Specifies the name of the Net Change column on Financial Reports."
+    },
+    {
+      "no": 204,
+      "name": "DefaultFinancialReportStatus",
+      "tooltip": "Specifies the name of the Default Financial Report Status on Financial Reports."
+    },
+    {
+      "no": 205,
+      "name": "Allow Posting From DateFormula",
+      "tooltip": "Specifies a date formula to calculate the earliest date, relative to today's date, on which posting to the company books is allowed."
+    },
+    {
+      "no": 206,
+      "name": "Allow Posting To DateFormula",
+      "tooltip": "Specifies a date formula to calculate the latest date, relative to today's date, on which posting to the company books is allowed."
+    }
+  ]
+}

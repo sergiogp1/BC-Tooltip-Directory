@@ -1,0 +1,43 @@
+{
+  "id": 5503,
+  "name": "Acc. Schedule Line Entity",
+  "slug": "5503_acc_schedule_line_entity",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": "Specifies the Line No.."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the Description."
+    },
+    {
+      "no": 3,
+      "name": "Net Change",
+      "tooltip": "Specifies the Net Change."
+    },
+    {
+      "no": 4,
+      "name": "Date Filter",
+      "tooltip": "Specifies the Date Filter."
+    },
+    {
+      "no": 6,
+      "name": "Line Type",
+      "tooltip": "Specifies the Line Type."
+    },
+    {
+      "no": 7,
+      "name": "Indentation",
+      "tooltip": "Specifies the Indentation."
+    },
+    {
+      "no": 8000,
+      "name": "Id",
+      "tooltip": ""
+    }
+  ]
+}

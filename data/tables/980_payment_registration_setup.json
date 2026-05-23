@@ -1,0 +1,43 @@
+{
+  "id": 980,
+  "name": "Payment Registration Setup",
+  "slug": "980_payment_registration_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Template Name",
+      "tooltip": "Specifies the name of the journal template that the Payment Registration window is based on."
+    },
+    {
+      "no": 3,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch that the Payment Registration window is based on."
+    },
+    {
+      "no": 4,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that is used as the balancing account for payments. The field is filled according to the selection in the Journal Batch Name field."
+    },
+    {
+      "no": 5,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the account number that is used as the balancing account for payments."
+    },
+    {
+      "no": 6,
+      "name": "Use this Account as Def.",
+      "tooltip": "Specifies if the account in the Bal. Account No. field is used for all payments."
+    },
+    {
+      "no": 7,
+      "name": "Auto Fill Date Received",
+      "tooltip": "Specifies if the Date Received and the Amount Received fields are automatically filled when you select the Payment Made check box."
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "id": 5109,
+  "name": "Purchase Header Archive",
+  "slug": "5109_purchase_header_archive",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Buy-from Vendor No.",
+      "tooltip": "Specifies the number of the vendor who returns the products."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the archived purchase order."
+    },
+    {
+      "no": 4,
+      "name": "Pay-to Vendor No.",
+      "tooltip": "Specifies the number of the vendor that you received the invoice from."
+    },
+    {
+      "no": 5,
+      "name": "Pay-to Name",
+      "tooltip": "Specifies the name of the vendor sending the order."
+    },
+    {
+      "no": 6,
+      "name": "Pay-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the vendor who you receive the invoice or credit memo from."
+    },
+    {
+      "no": 7,
+      "name": "Pay-to Address",
+      "tooltip": "Specifies the vendor's buy-from address."
+    },
+    {
+      "no": 8,
+      "name": "Pay-to Address 2",
+      "tooltip": "Specifies an additional part of the vendor's buy-from address."
+    },
+    {
+      "no": 9,
+      "name": "Pay-to City",
+      "tooltip": "Specifies the city of the vendor on the purchase document."
+    },
+    {
+      "no": 10,
+      "name": "Pay-to Contact",
+      "tooltip": "Specifies information about sales quotes, purchase quotes, or orders in earlier versions of the document."
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the company at the address to which the items were shipped."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name for the order address of the vendor."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the vendor's buy-from address."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the vendor's buy-from address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the vendor on the purchase document."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of a contact person at the address that the items were shipped to."
+    },
+    {
+      "no": 19,
+      "name": "Order Date",
+      "tooltip": "Specifies the date the order was created. The order date is also used to determine the prices and discounts on the document."
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the date when the document was posted."
+    },
+    {
+      "no": 21,
+      "name": "Expected Receipt Date",
+      "tooltip": "Specifies the date you expect the items to be available in your warehouse. If you leave the field blank, it will be calculated as follows: Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a formula that calculates the payment due date, payment discount date, and payment discount amount on the purchase document."
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": "Specifies information about sales quotes, purchase quotes, or orders in earlier versions of the document."
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": "Specifies the payment discount percentage that is granted if you pay on or before the date entered in the Pmt. Discount Date field. The discount percentage is specified in the Payment Terms Code field."
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": "Specifies the date on which the amount in the entry must be paid for a payment discount to be granted."
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies information about sales quotes, purchase quotes, or orders in earlier versions of the document."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Vendor Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the amount on the line."
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Prices Including VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT."
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Purchaser Code",
+      "tooltip": "Specifies which purchaser is assigned to the vendor."
+    },
+    {
+      "no": 45,
+      "name": "Order Class",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "On Hold",
+      "tooltip": "Specifies when an entry for an unpaid invoice has been posted and you create a finance charge memo or reminder."
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": "Specifies the type of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": "Specifies the number of the posted document that this document or journal line will be applied to when you post, for example to register payment."
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Receive",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Invoice",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount for the archived purchase document."
+    },
+    {
+      "no": 61,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the total amount including VAT for the archived purchase document."
+    },
+    {
+      "no": 62,
+      "name": "Receiving No.",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Last Receiving No.",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Last Posting No.",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Vendor Order No.",
+      "tooltip": "Specifies the vendor's order number."
+    },
+    {
+      "no": 67,
+      "name": "Vendor Shipment No.",
+      "tooltip": "Specifies the vendor's shipment number. It is inserted in the corresponding field on the source document during posting."
+    },
+    {
+      "no": 68,
+      "name": "Vendor Invoice No.",
+      "tooltip": "Specifies the document number of the original document you received from the vendor. You can require the document number for posting, or let it be optional. By default, it's required, so that this document references the original. Making document numbers optional removes a step from the posting process. For example, if you attach the original invoice as a PDF, you might not need to enter the document number. To specify whether document numbers are required, in the Purchases & Payables Setup window, select or clear the Ext. Doc. No. Mandatory field."
+    },
+    {
+      "no": 69,
+      "name": "Vendor Cr. Memo No.",
+      "tooltip": "Specifies the number that the vendor uses for the credit memo you are creating in this purchase return order."
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Sell-to Customer No.",
+      "tooltip": "Specifies the number of the customer who will receive the products and be billed by default."
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": "Specifies the number for the transaction type, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": "Specifies the transport method, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Buy-from Vendor Name",
+      "tooltip": "Specifies the name of the vendor to whom you will send the purchase return order."
+    },
+    {
+      "no": 80,
+      "name": "Buy-from Vendor Name 2",
+      "tooltip": "Specifies an additional part of the name of the vendor that you’re buying from."
+    },
+    {
+      "no": 81,
+      "name": "Buy-from Address",
+      "tooltip": "Specifies the vendor's buy-from address."
+    },
+    {
+      "no": 82,
+      "name": "Buy-from Address 2",
+      "tooltip": "Specifies an additional part of the vendor's buy-from address."
+    },
+    {
+      "no": 83,
+      "name": "Buy-from City",
+      "tooltip": "Specifies the city of the vendor on the purchase document."
+    },
+    {
+      "no": 84,
+      "name": "Buy-from Contact",
+      "tooltip": "Specifies the name of the person to contact about an order from this vendor."
+    },
+    {
+      "no": 85,
+      "name": "Pay-to Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 86,
+      "name": "Pay-to County",
+      "tooltip": "Specifies the county of the vendor on the purchase document."
+    },
+    {
+      "no": 87,
+      "name": "Pay-to Country/Region Code",
+      "tooltip": "Specifies the country or region of the vendor on the purchase document."
+    },
+    {
+      "no": 88,
+      "name": "Buy-from Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 89,
+      "name": "Buy-from County",
+      "tooltip": "Specifies the county of your vendor."
+    },
+    {
+      "no": 90,
+      "name": "Buy-from Country/Region Code",
+      "tooltip": "Specifies the country or region of your vendor."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the county of the ship-to address."
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Order Address Code",
+      "tooltip": "Specifies the order address of the related vendor."
+    },
+    {
+      "no": 97,
+      "name": "Entry Point",
+      "tooltip": "Specifies the code of the port of entry where the items pass into your country/region, for reporting to Intrastat."
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date the document was created."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": "Specifies the area in which your company has to pay sales tax."
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": "Specifies a code for the purchase document's transaction specification, for the purpose of reporting to INTRASTAT."
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies the method of payment for payments to vendors."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Receiving No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": "Specifies if this vendor charges you sales tax for purchases."
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 118,
+      "name": "Applies-to ID",
+      "tooltip": "Specifies the ID of entries that will be applied to when you choose the Apply Entries action."
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 120,
+      "name": "Status",
+      "tooltip": "Specifies the status of the order."
+    },
+    {
+      "no": 121,
+      "name": "Invoice Discount Calculation",
+      "tooltip": ""
+    },
+    {
+      "no": 122,
+      "name": "Invoice Discount Value",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Send IC Document",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "IC Status",
+      "tooltip": ""
+    },
+    {
+      "no": 125,
+      "name": "Buy-from IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 126,
+      "name": "Pay-to IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 127,
+      "name": "IC Reference Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 129,
+      "name": "IC Direction",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "Prepayment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "Last Prepayment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Prepmt. Cr. Memo No.",
+      "tooltip": ""
+    },
+    {
+      "no": 133,
+      "name": "Last Prepmt. Cr. Memo No.",
+      "tooltip": ""
+    },
+    {
+      "no": 134,
+      "name": "Prepayment %",
+      "tooltip": ""
+    },
+    {
+      "no": 135,
+      "name": "Prepayment No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 136,
+      "name": "Compress Prepayment",
+      "tooltip": ""
+    },
+    {
+      "no": 137,
+      "name": "Prepayment Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 138,
+      "name": "Prepmt. Cr. Memo No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 139,
+      "name": "Prepmt. Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 142,
+      "name": "Prepmt. Pmt. Discount Date",
+      "tooltip": ""
+    },
+    {
+      "no": 143,
+      "name": "Prepmt. Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 144,
+      "name": "Prepmt. Payment Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 145,
+      "name": "No. of Archived Versions",
+      "tooltip": ""
+    },
+    {
+      "no": 151,
+      "name": "Purchase Quote No.",
+      "tooltip": ""
+    },
+    {
+      "no": 165,
+      "name": "Incoming Document Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 179,
+      "name": "VAT Reporting Date",
+      "tooltip": "Specifies the entry's VAT date."
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3998,
+      "name": "Source Doc. Exists",
+      "tooltip": ""
+    },
+    {
+      "no": 3999,
+      "name": "Last Archived Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5043,
+      "name": "Interaction Exist",
+      "tooltip": "Specifies that the archived document is linked to an interaction log entry."
+    },
+    {
+      "no": 5044,
+      "name": "Time Archived",
+      "tooltip": "Specifies what time the document was archived."
+    },
+    {
+      "no": 5045,
+      "name": "Date Archived",
+      "tooltip": "Specifies the date when the document was archived."
+    },
+    {
+      "no": 5046,
+      "name": "Archived By",
+      "tooltip": "Specifies the user who archived the document."
+    },
+    {
+      "no": 5047,
+      "name": "Version No.",
+      "tooltip": "Specifies the version number of the archived document."
+    },
+    {
+      "no": 5048,
+      "name": "Doc. No. Occurrence",
+      "tooltip": ""
+    },
+    {
+      "no": 5050,
+      "name": "Campaign No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5052,
+      "name": "Buy-from Contact No.",
+      "tooltip": "Specifies the number of the contact who sends the invoice."
+    },
+    {
+      "no": 5053,
+      "name": "Pay-to Contact No.",
+      "tooltip": "Specifies the number of the contact who sends the invoice."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code of the responsibility center (for example, a distribution center) assigned to the vendor or associated with the order."
+    },
+    {
+      "no": 5752,
+      "name": "Completely Received",
+      "tooltip": ""
+    },
+    {
+      "no": 5753,
+      "name": "Posting from Whse. Ref.",
+      "tooltip": ""
+    },
+    {
+      "no": 5754,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5790,
+      "name": "Requested Receipt Date",
+      "tooltip": "Specifies the date that you want the vendor to deliver your order. The field is used to calculate the latest date you can order, as follows: requested receipt date - lead time calculation = order date. If you do not need delivery on a specific date, you can leave the field blank."
+    },
+    {
+      "no": 5791,
+      "name": "Promised Receipt Date",
+      "tooltip": "Specifies the date that the vendor has promised to deliver the order."
+    },
+    {
+      "no": 5792,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 5793,
+      "name": "Inbound Whse. Handling Time",
+      "tooltip": "Specifies the time it takes to make items part of available inventory, after the items have been posted as received."
+    },
+    {
+      "no": 5796,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 5800,
+      "name": "Vendor Authorization No.",
+      "tooltip": "Specifies the compensation agreement identification number, sometimes referred to as the RMA No. (Returns Materials Authorization)."
+    },
+    {
+      "no": 5801,
+      "name": "Return Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5802,
+      "name": "Return Shipment No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 5803,
+      "name": "Ship",
+      "tooltip": ""
+    },
+    {
+      "no": 5804,
+      "name": "Last Return Shipment No.",
+      "tooltip": ""
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 9000,
+      "name": "Assigned User ID",
+      "tooltip": "Specifies the ID of the user who is responsible for the document."
+    }
+  ]
+}

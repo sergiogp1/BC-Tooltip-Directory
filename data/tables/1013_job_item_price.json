@@ -1,0 +1,68 @@
+{
+  "id": 1013,
+  "name": "Job Item Price",
+  "slug": "1013_job_item_price",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Job No.",
+      "tooltip": "Specifies the number of the related project."
+    },
+    {
+      "no": 2,
+      "name": "Job Task No.",
+      "tooltip": "Specifies the number of the project task if the item price should only apply to a specific project task."
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the item that this price applies to. Choose the field to see the available items."
+    },
+    {
+      "no": 4,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 6,
+      "name": "Currency Code",
+      "tooltip": "Specifies the default currency code that is defined for a project. Project item prices will only be used if the currency code for the project item is the same as the currency code set for the project."
+    },
+    {
+      "no": 7,
+      "name": "Unit Cost Factor",
+      "tooltip": "Specifies the unit cost factor, if you have agreed with your customer that he should pay certain item usage by cost value plus a certain percent value to cover your overhead expenses."
+    },
+    {
+      "no": 8,
+      "name": "Line Discount %",
+      "tooltip": "Specifies a project-specific line discount percent that applies to this line. This is useful, for example, if you want invoice lines for the project to show a discount percent."
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item you have entered in the Item No. field."
+    },
+    {
+      "no": 10,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant code if the price that you are setting up should apply to a specific variant of the item."
+    },
+    {
+      "no": 11,
+      "name": "Apply Job Price",
+      "tooltip": "Specifies whether the project-specific price or unit cost factor for this item should apply to the project. The default project price that is defined is included when project-related entries are created, but you can modify this value."
+    },
+    {
+      "no": 12,
+      "name": "Apply Job Discount",
+      "tooltip": "Specifies the check box for this field if the project-specific discount percent for this item should apply to the project. The default line discount for the line that is defined is included when project entries are created, but you can modify this value."
+    }
+  ]
+}

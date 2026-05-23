@@ -1,0 +1,43 @@
+{
+  "id": 6753,
+  "name": "Reminder Action Group Log",
+  "slug": "6753_reminder_action_group_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Run Id",
+      "tooltip": "Specifies the identifier of the run."
+    },
+    {
+      "no": 3,
+      "name": "Reminder Action Group ID",
+      "tooltip": "Specifies the reminder action group."
+    },
+    {
+      "no": 10,
+      "name": "Status",
+      "tooltip": "Specifies the status of the reminder action group log entry."
+    },
+    {
+      "no": 11,
+      "name": "Last Step ID",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Number of Errors",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Started On",
+      "tooltip": "Specifies the date and time when the reminder action group log entry was started."
+    },
+    {
+      "no": 17,
+      "name": "Completed On",
+      "tooltip": "Specifies the date and time when the reminder action group log entry was completed."
+    }
+  ]
+}

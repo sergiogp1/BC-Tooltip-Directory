@@ -1,0 +1,88 @@
+{
+  "id": 130405,
+  "name": "CAL Test Result",
+  "slug": "130405_cal_test_result",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Test Run No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Codeunit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Codeunit Name",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Function Name",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Platform",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Result",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Restore",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Execution Time",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Error Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Error Message",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "File",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Call Stack",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 16,
+      "name": "Start Time",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Finish Time",
+      "tooltip": ""
+    }
+  ]
+}

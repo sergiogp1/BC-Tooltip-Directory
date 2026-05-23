@@ -1,0 +1,833 @@
+{
+  "id": 18,
+  "name": "Customer",
+  "slug": "18_customer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the customer. The field is either filled automatically from a defined number series, or you enter the number manually because you have enabled manual number entry in the number-series setup."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for a customer."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": "Specifies an additional part of the name."
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the customer's address. This address will appear on all sales documents for the customer."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the customer's city."
+    },
+    {
+      "no": 8,
+      "name": "Contact",
+      "tooltip": "Specifies the contact person at the customer's company."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the customer's telephone number."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Document Sending Profile",
+      "tooltip": "Specifies the preferred method of sending documents to this customer, so that you do not have to select a sending option every time that you post and send a document to the customer. Sales documents to this customer will be sent using the specified sending profile and will override the default document sending profile."
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies the code for another shipment address than the customer's own address, which is entered by default."
+    },
+    {
+      "no": 14,
+      "name": "Our Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Territory Code",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Chain Name",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Budgeted Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Credit Limit (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Customer Posting Group",
+      "tooltip": "Specifies the customer's market type to link business transactions to."
+    },
+    {
+      "no": 22,
+      "name": "Currency Code",
+      "tooltip": "Specifies the default currency for the customer."
+    },
+    {
+      "no": 23,
+      "name": "Customer Price Group",
+      "tooltip": "Specifies the customer price group code, which you can use to set up special sales prices in the Sales Prices window."
+    },
+    {
+      "no": 24,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 25,
+      "name": "Registration Number",
+      "tooltip": "Specifies the registration number of the customer. You can enter a maximum of 20 characters, both numbers and letters."
+    },
+    {
+      "no": 26,
+      "name": "Statistics Group",
+      "tooltip": "Specifies the statistics group."
+    },
+    {
+      "no": 27,
+      "name": "Payment Terms Code",
+      "tooltip": "Specifies a code that indicates the payment terms that you require of the customer."
+    },
+    {
+      "no": 28,
+      "name": "Fin. Charge Terms Code",
+      "tooltip": "Specifies the code for the involved finance charges in case of late payment."
+    },
+    {
+      "no": 29,
+      "name": "Salesperson Code",
+      "tooltip": "Specifies a code for the salesperson who normally handles this customer's account."
+    },
+    {
+      "no": 30,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies which shipment method to use when you ship items to the customer."
+    },
+    {
+      "no": 31,
+      "name": "Shipping Agent Code",
+      "tooltip": "Specifies which shipping company is used when you ship items to the customer."
+    },
+    {
+      "no": 32,
+      "name": "Place of Export",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Invoice Disc. Code",
+      "tooltip": "Specifies a code for the invoice discount terms that you have defined for the customer."
+    },
+    {
+      "no": 34,
+      "name": "Customer Disc. Group",
+      "tooltip": "Specifies the customer discount group code, which you can use as a criterion to set up special discounts in the Sales Line Discounts window."
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 36,
+      "name": "Collection Method",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Blocked",
+      "tooltip": "Specifies which transactions with the customer that cannot be processed, for example, because the customer is insolvent."
+    },
+    {
+      "no": 40,
+      "name": "Invoice Copies",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Last Statement No.",
+      "tooltip": "Specifies the number of the last statement that was printed for this customer."
+    },
+    {
+      "no": 42,
+      "name": "Print Statements",
+      "tooltip": "Specifies whether to include this customer when you print the Statement report."
+    },
+    {
+      "no": 45,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies a different customer who will be invoiced for products that you sell to the customer in the Name field on the customer card."
+    },
+    {
+      "no": 46,
+      "name": "Priority",
+      "tooltip": "Specifies a number that corresponds to the priority you give the customer. The higher the number, the higher the priority."
+    },
+    {
+      "no": 47,
+      "name": "Payment Method Code",
+      "tooltip": "Specifies how the customer usually submits payment, such as bank transfer or check."
+    },
+    {
+      "no": 48,
+      "name": "Format Region",
+      "tooltip": "Specifies the Format Region to be used on printouts for this customer."
+    },
+    {
+      "no": 52,
+      "name": "First Transaction Date",
+      "tooltip": "Specifies the date when the first transaction with the customer was recorded."
+    },
+    {
+      "no": 53,
+      "name": "Last Modified Date Time",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the customer card was last modified."
+    },
+    {
+      "no": 55,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Balance",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "Balance (LCY)",
+      "tooltip": "Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance."
+    },
+    {
+      "no": 60,
+      "name": "Net Change",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Net Change (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Sales (LCY)",
+      "tooltip": "Specifies the total net amount of sales to the customer in LCY."
+    },
+    {
+      "no": 63,
+      "name": "Profit (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Inv. Discounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Pmt. Discounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Balance Due",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Balance Due (LCY)",
+      "tooltip": "Specifies the balance due for this customer in local currency."
+    },
+    {
+      "no": 69,
+      "name": "Payments",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Invoice Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Cr. Memo Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Finance Charge Memo Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Payments (LCY)",
+      "tooltip": "Specifies the sum of payments received from the customer."
+    },
+    {
+      "no": 75,
+      "name": "Inv. Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Cr. Memo Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Fin. Charge Memo Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Outstanding Orders",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Shipped Not Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Application Method",
+      "tooltip": "Specifies how to apply payments to entries for this customer."
+    },
+    {
+      "no": 82,
+      "name": "Prices Including VAT",
+      "tooltip": "Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT."
+    },
+    {
+      "no": 83,
+      "name": "Location Code",
+      "tooltip": "Specifies from which location sales to this customer will be processed by default."
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the customer's fax number."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 86,
+      "name": "VAT Registration No.",
+      "tooltip": "Specifies the customer's VAT registration number for customers in EU countries/regions."
+    },
+    {
+      "no": 87,
+      "name": "Combine Shipments",
+      "tooltip": "Specifies if several orders delivered to the customer can appear on the same sales invoice."
+    },
+    {
+      "no": 88,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the customer's trade type to link transactions made for this customer with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 90,
+      "name": "GLN",
+      "tooltip": "Specifies the customer in connection with electronic document sending."
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the post code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 93,
+      "name": "EORI Number",
+      "tooltip": "Specifies the Economic Operators Registration and Identification number that is used when you exchange information with the customs authorities due to trade into or out of the European Union."
+    },
+    {
+      "no": 95,
+      "name": "Use GLN in Electronic Document",
+      "tooltip": "Specifies whether the GLN is used in electronic documents as a party identification number."
+    },
+    {
+      "no": 97,
+      "name": "Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Debit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Credit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the customer's email address."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the customer's home page address."
+    },
+    {
+      "no": 104,
+      "name": "Reminder Terms Code",
+      "tooltip": "Specifies how reminders about late payments are handled for this customer."
+    },
+    {
+      "no": 105,
+      "name": "Reminder Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Reminder Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 109,
+      "name": "Tax Liable",
+      "tooltip": "Specifies if the customer or vendor is liable for sales tax."
+    },
+    {
+      "no": 110,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the customer's VAT specification to link transactions made for this customer to."
+    },
+    {
+      "no": 111,
+      "name": "Currency Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Outstanding Orders (LCY)",
+      "tooltip": "Specifies your expected sales income from the customer in LCY based on ongoing sales orders."
+    },
+    {
+      "no": 114,
+      "name": "Shipped Not Invoiced (LCY)",
+      "tooltip": "Specifies your expected sales income from the customer in LCY based on ongoing sales orders where items have been shipped."
+    },
+    {
+      "no": 115,
+      "name": "Reserve",
+      "tooltip": "Specifies whether items will never, automatically (Always), or optionally be reserved for this customer. Optional means that you must manually reserve items for this customer."
+    },
+    {
+      "no": 116,
+      "name": "Block Payment Tolerance",
+      "tooltip": "Specifies that the customer is not allowed a payment tolerance."
+    },
+    {
+      "no": 117,
+      "name": "Pmt. Disc. Tolerance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 118,
+      "name": "Pmt. Tolerance (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies the customer's intercompany partner code."
+    },
+    {
+      "no": 120,
+      "name": "Refunds",
+      "tooltip": ""
+    },
+    {
+      "no": 121,
+      "name": "Refunds (LCY)",
+      "tooltip": "Specifies the sum of refunds received from the customer."
+    },
+    {
+      "no": 122,
+      "name": "Other Amounts",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Other Amounts (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 124,
+      "name": "Prepayment %",
+      "tooltip": "Specifies a prepayment percentage that applies to all orders for this customer, regardless of the items or services on the order lines."
+    },
+    {
+      "no": 125,
+      "name": "Outstanding Invoices (LCY)",
+      "tooltip": "Specifies your expected sales income from the customer in LCY based on unpaid sales invoices."
+    },
+    {
+      "no": 126,
+      "name": "Outstanding Invoices",
+      "tooltip": ""
+    },
+    {
+      "no": 130,
+      "name": "Bill-to No. Of Archived Doc.",
+      "tooltip": ""
+    },
+    {
+      "no": 131,
+      "name": "Sell-to No. Of Archived Doc.",
+      "tooltip": ""
+    },
+    {
+      "no": 132,
+      "name": "Partner Type",
+      "tooltip": "Specifies for direct debit collections if the customer that the payment is collected from is a person or a company."
+    },
+    {
+      "no": 133,
+      "name": "Intrastat Partner Type",
+      "tooltip": "Specifies for Intrastat reporting if the customer is a person or a company."
+    },
+    {
+      "no": 134,
+      "name": "Exclude from Pmt. Practices",
+      "tooltip": "Specifies that the customer must be excluded from Payment Practices calculations."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture of the customer, for example, a logo."
+    },
+    {
+      "no": 150,
+      "name": "Privacy Blocked",
+      "tooltip": "Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review."
+    },
+    {
+      "no": 160,
+      "name": "Disable Search by Name",
+      "tooltip": "Specifies that you can change the customer name on open sales documents. The change applies only to the documents."
+    },
+    {
+      "no": 175,
+      "name": "Allow Multiple Posting Groups",
+      "tooltip": "Specifies if multiple posting groups can be used for posting business transactions for this customer."
+    },
+    {
+      "no": 288,
+      "name": "Preferred Bank Account Code",
+      "tooltip": "Specifies the customer's bank account that will be used by default when you process refunds to the customer and direct debit collections."
+    },
+    {
+      "no": 720,
+      "name": "Coupled to CRM",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": "Specifies that the customer is coupled to an account in Dataverse."
+    },
+    {
+      "no": 840,
+      "name": "Cash Flow Payment Terms Code",
+      "tooltip": "Specifies a payment term that will be used to calculate cash flow for the customer."
+    },
+    {
+      "no": 5049,
+      "name": "Primary Contact No.",
+      "tooltip": "Specifies the contact number for the customer."
+    },
+    {
+      "no": 5050,
+      "name": "Contact Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5061,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the customer's mobile telephone number."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the code for the responsibility center that will administer this customer by default."
+    },
+    {
+      "no": 5750,
+      "name": "Shipping Advice",
+      "tooltip": "Specifies if the customer accepts partial shipment of orders."
+    },
+    {
+      "no": 5790,
+      "name": "Shipping Time",
+      "tooltip": "Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered."
+    },
+    {
+      "no": 5792,
+      "name": "Shipping Agent Service Code",
+      "tooltip": "Specifies the code for the shipping agent service to use for this customer."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": "Specifies the default price calculation method."
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": "Specifies if a sales line discount is calculated when a special sales price is offered according to setup in the Sales Prices window."
+    },
+    {
+      "no": 7171,
+      "name": "No. of Quotes",
+      "tooltip": "Specifies the number of sales quotes that have been registered for the customer."
+    },
+    {
+      "no": 7172,
+      "name": "No. of Blanket Orders",
+      "tooltip": "Specifies the number of sales blanket orders that have been registered for the customer."
+    },
+    {
+      "no": 7173,
+      "name": "No. of Orders",
+      "tooltip": "Specifies the number of sales orders that have been registered for the customer."
+    },
+    {
+      "no": 7174,
+      "name": "No. of Invoices",
+      "tooltip": "Specifies the number of unposted sales invoices that have been registered for the customer."
+    },
+    {
+      "no": 7175,
+      "name": "No. of Return Orders",
+      "tooltip": "Specifies the number of sales return orders that have been registered for the customer."
+    },
+    {
+      "no": 7176,
+      "name": "No. of Credit Memos",
+      "tooltip": "Specifies the number of unposted sales credit memos that have been registered for the customer."
+    },
+    {
+      "no": 7177,
+      "name": "No. of Pstd. Shipments",
+      "tooltip": "Specifies the number of posted sales shipments that have been registered for the customer."
+    },
+    {
+      "no": 7178,
+      "name": "No. of Pstd. Invoices",
+      "tooltip": "Specifies the number of posted sales invoices that have been registered for the customer."
+    },
+    {
+      "no": 7179,
+      "name": "No. of Pstd. Return Receipts",
+      "tooltip": "Specifies the number of posted sales return receipts that have been registered for the customer."
+    },
+    {
+      "no": 7180,
+      "name": "No. of Pstd. Credit Memos",
+      "tooltip": "Specifies the number of posted sales credit memos that have been registered for the customer."
+    },
+    {
+      "no": 7181,
+      "name": "No. of Ship-to Addresses",
+      "tooltip": ""
+    },
+    {
+      "no": 7182,
+      "name": "Bill-To No. of Quotes",
+      "tooltip": "Specifies how many quotes have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7183,
+      "name": "Bill-To No. of Blanket Orders",
+      "tooltip": "Specifies how many blanket orders have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7184,
+      "name": "Bill-To No. of Orders",
+      "tooltip": "Specifies how many sales orders have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7185,
+      "name": "Bill-To No. of Invoices",
+      "tooltip": "Specifies how many invoices have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7186,
+      "name": "Bill-To No. of Return Orders",
+      "tooltip": "Specifies how many return orders have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7187,
+      "name": "Bill-To No. of Credit Memos",
+      "tooltip": "Specifies how many credit memos have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7188,
+      "name": "Bill-To No. of Pstd. Shipments",
+      "tooltip": "Specifies how many posted shipments have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7189,
+      "name": "Bill-To No. of Pstd. Invoices",
+      "tooltip": "Specifies how many posted invoices have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7190,
+      "name": "Bill-To No. of Pstd. Return R.",
+      "tooltip": "Specifies how many posted return receipts have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7191,
+      "name": "Bill-To No. of Pstd. Cr. Memos",
+      "tooltip": "Specifies how many posted credit memos have been registered for the customer when the customer acts as the bill-to customer."
+    },
+    {
+      "no": 7600,
+      "name": "Base Calendar Code",
+      "tooltip": "Specifies a customizable calendar for shipment planning that holds the customer's working days and holidays."
+    },
+    {
+      "no": 7601,
+      "name": "Copy Sell-to Addr. to Qte From",
+      "tooltip": "Specifies which customer address is inserted on sales quotes that you create for the customer."
+    },
+    {
+      "no": 7602,
+      "name": "Validate EU Vat Reg. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 8001,
+      "name": "Currency Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8002,
+      "name": "Payment Terms Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8003,
+      "name": "Shipment Method Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8004,
+      "name": "Payment Method Id",
+      "tooltip": ""
+    },
+    {
+      "no": 9003,
+      "name": "Tax Area ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9005,
+      "name": "Contact ID",
+      "tooltip": ""
+    },
+    {
+      "no": 9006,
+      "name": "Contact Graph Id",
+      "tooltip": ""
+    }
+  ]
+}

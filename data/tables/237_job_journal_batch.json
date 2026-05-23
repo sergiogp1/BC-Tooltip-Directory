@@ -1,0 +1,48 @@
+{
+  "id": 237,
+  "name": "Job Journal Batch",
+  "slug": "237_job_journal_batch",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of this project journal. You can enter a maximum of 10 characters, both numbers and letters."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies a description of this journal."
+    },
+    {
+      "no": 4,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 5,
+      "name": "No. Series",
+      "tooltip": "Specifies the number series from which entry or record numbers are assigned to new entries or records."
+    },
+    {
+      "no": 6,
+      "name": "Posting No. Series",
+      "tooltip": "Specifies the code for the number series that will be used to assign document numbers to ledger entries that are posted from this journal batch. To see the number series that have been set up in the No. Series table, choose the field."
+    },
+    {
+      "no": 22,
+      "name": "Recurring",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "No. of Lines",
+      "tooltip": "Specifies the number of lines in this journal batch."
+    }
+  ]
+}

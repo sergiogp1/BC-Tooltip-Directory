@@ -1,0 +1,43 @@
+{
+  "id": 6313,
+  "name": "Power BI Selection Element",
+  "slug": "6313_power_bi_selection_element",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": "Specifies the ID of the Power BI report or workspace."
+    },
+    {
+      "no": 2,
+      "name": "Type",
+      "tooltip": "Specifies the type of the line (e.g. workspace or report)."
+    },
+    {
+      "no": 5,
+      "name": "Name",
+      "tooltip": "Specifies the name of the Power BI report or workspace."
+    },
+    {
+      "no": 7,
+      "name": "Enabled",
+      "tooltip": "Specifies that this report is enabled to be shown in the given page. This field has no effect for workspaces."
+    },
+    {
+      "no": 10,
+      "name": "EmbedUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "WorkspaceID",
+      "tooltip": "Specifies the ID of the workspace that this record is in (if the record is a workspace, this is the same as the ID)."
+    },
+    {
+      "no": 21,
+      "name": "WorkspaceName",
+      "tooltip": "Specifies the name of the workspace that this record is in (if the record is a workspace, this is the same as the Name)."
+    }
+  ]
+}

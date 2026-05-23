@@ -1,0 +1,18 @@
+{
+  "id": 5217,
+  "name": "Grounds for Termination",
+  "slug": "5217_grounds_for_termination",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a grounds for termination code."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description for the grounds for termination."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 5,
+  "name": "Finance Charge Terms",
+  "slug": "5_finance_charge_terms",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the finance charge terms."
+    },
+    {
+      "no": 2,
+      "name": "Interest Rate",
+      "tooltip": "Specifies the percentage to use to calculate interest for this finance charge code."
+    },
+    {
+      "no": 3,
+      "name": "Minimum Amount (LCY)",
+      "tooltip": "Specifies a minimum interest charge in LCY."
+    },
+    {
+      "no": 5,
+      "name": "Additional Fee (LCY)",
+      "tooltip": "Specifies a fee amount in LCY."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the finance charge terms."
+    },
+    {
+      "no": 8,
+      "name": "Interest Calculation Method",
+      "tooltip": "Specifies the interest calculation method for this set of finance charge terms."
+    },
+    {
+      "no": 9,
+      "name": "Interest Period (Days)",
+      "tooltip": "Specifies the period that the interest rate applies to. Enter the number of days in the period."
+    },
+    {
+      "no": 10,
+      "name": "Grace Period",
+      "tooltip": "Specifies the grace period length for this set of finance charge terms."
+    },
+    {
+      "no": 11,
+      "name": "Due Date Calculation",
+      "tooltip": "Specifies a formula that determines how to calculate the due date of the finance charge memo."
+    },
+    {
+      "no": 12,
+      "name": "Interest Calculation",
+      "tooltip": "Specifies which entries should be used in interest calculation on finance charge memos."
+    },
+    {
+      "no": 13,
+      "name": "Post Interest",
+      "tooltip": "Specifies whether or not interest listed on the finance charge memo should be posted to the general ledger and customer accounts when the finance charge memo is issued."
+    },
+    {
+      "no": 14,
+      "name": "Post Additional Fee",
+      "tooltip": "Specifies whether or not any additional fee listed on the finance charge memo should be posted to the general ledger and customer accounts when the memo is issued."
+    },
+    {
+      "no": 15,
+      "name": "Line Description",
+      "tooltip": "Specifies a description to be used in the Description field on the finance charge memo lines."
+    },
+    {
+      "no": 16,
+      "name": "Add. Line Fee in Interest",
+      "tooltip": "Specifies that any additional fees are included in the interest calculation for the finance charge."
+    },
+    {
+      "no": 30,
+      "name": "Detailed Lines Description",
+      "tooltip": "Specifies a description to be used in the Description field on the finance charge memo lines."
+    }
+  ]
+}

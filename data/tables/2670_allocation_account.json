@@ -1,0 +1,28 @@
+{
+  "id": 2670,
+  "name": "Allocation Account",
+  "slug": "2670_allocation_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the allocation account number."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the allocation account name."
+    },
+    {
+      "no": 3,
+      "name": "Account Type",
+      "tooltip": "Specifies the account type for the distribution."
+    },
+    {
+      "no": 10,
+      "name": "Document Lines Split",
+      "tooltip": "Specifies the strategy for splitting the lines when used on the documents."
+    }
+  ]
+}

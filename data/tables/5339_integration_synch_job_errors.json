@@ -1,0 +1,48 @@
+{
+  "id": 5339,
+  "name": "Integration Synch. Job Errors",
+  "slug": "5339_integration_synch_job_errors",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Integration Synch. Job ID",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Source Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Destination Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Message",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Date/Time",
+      "tooltip": "Specifies the date and time that the error in the integration synchronization job occurred."
+    },
+    {
+      "no": 7,
+      "name": "Exception Detail",
+      "tooltip": "Specifies the exception that occurred in the integration synchronization job."
+    },
+    {
+      "no": 8,
+      "name": "Error Message",
+      "tooltip": ""
+    }
+  ]
+}

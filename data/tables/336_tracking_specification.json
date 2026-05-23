@@ -1,0 +1,243 @@
+{
+  "id": 336,
+  "name": "Tracking Specification",
+  "slug": "336_tracking_specification",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item associated with the entry."
+    },
+    {
+      "no": 3,
+      "name": "Location Code",
+      "tooltip": "Specifies the location code for the entry."
+    },
+    {
+      "no": 4,
+      "name": "Quantity (Base)",
+      "tooltip": "Specifies the quantity on the line expressed in base units of measure."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the entry."
+    },
+    {
+      "no": 8,
+      "name": "Creation Date",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Source Subtype",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Source ID",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Source Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Source Prod. Order Line",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Source Ref. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Item Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Transfer Item Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Receipt/Shipment No.",
+      "tooltip": "Specifies the receipt or shipment number associated with the entry."
+    },
+    {
+      "no": 24,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number associated with the entry."
+    },
+    {
+      "no": 28,
+      "name": "Positive",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Qty. Rounding Precision (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Appl.-to Item Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the document or journal line is applied to."
+    },
+    {
+      "no": 40,
+      "name": "Warranty Date",
+      "tooltip": "Specifies that a warranty date must be entered manually."
+    },
+    {
+      "no": 41,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the expiration date, if any, of the item carrying the item tracking number."
+    },
+    {
+      "no": 50,
+      "name": "Qty. to Handle (Base)",
+      "tooltip": "Specifies the quantity that you want to handle in the base unit of measure."
+    },
+    {
+      "no": 51,
+      "name": "Qty. to Invoice (Base)",
+      "tooltip": "Specifies how many of the items, in base units of measure, are scheduled for invoicing."
+    },
+    {
+      "no": 52,
+      "name": "Quantity Handled (Base)",
+      "tooltip": "Specifies the quantity of serial, lot or package numbers shipped or received for the associated document line, expressed in base units of measure."
+    },
+    {
+      "no": 53,
+      "name": "Quantity Invoiced (Base)",
+      "tooltip": "Specifies the quantity of serial, lot or package numbers that are invoiced with the associated document line, expressed in base units of measure."
+    },
+    {
+      "no": 60,
+      "name": "Qty. to Handle",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Qty. to Invoice",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Buffer Status",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Buffer Status2",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Buffer Value1",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Buffer Value2",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Buffer Value3",
+      "tooltip": ""
+    },
+    {
+      "no": 75,
+      "name": "Buffer Value4",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Buffer Value5",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "New Serial No.",
+      "tooltip": "Specifies a new serial number that will take the place of the serial number in the Serial No. field."
+    },
+    {
+      "no": 81,
+      "name": "New Lot No.",
+      "tooltip": "Specifies a new lot number that will take the place of the lot number in the Lot No. field."
+    },
+    {
+      "no": 900,
+      "name": "Prohibit Cancellation",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Lot No.",
+      "tooltip": "Specifies the lot number of the item being handled for the associated document line."
+    },
+    {
+      "no": 5401,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5402,
+      "name": "Bin Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5811,
+      "name": "Appl.-from Item Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the document or journal line is applied from."
+    },
+    {
+      "no": 5817,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 6505,
+      "name": "New Expiration Date",
+      "tooltip": "Specifies a new expiration date."
+    },
+    {
+      "no": 6515,
+      "name": "Package No.",
+      "tooltip": "Specifies the package number of the item being handled for the associated document line."
+    },
+    {
+      "no": 6516,
+      "name": "New Package No.",
+      "tooltip": "Specifies a new package number that will take the place of the package number in the Package No. field."
+    },
+    {
+      "no": 7300,
+      "name": "Quantity actual Handled (Base)",
+      "tooltip": ""
+    }
+  ]
+}

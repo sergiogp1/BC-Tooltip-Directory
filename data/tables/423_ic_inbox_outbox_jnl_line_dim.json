@@ -1,0 +1,43 @@
+{
+  "id": 423,
+  "name": "IC Inbox/Outbox Jnl. Line Dim.",
+  "slug": "423_ic_inbox_outbox_jnl_line_dim",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Dimension Code",
+      "tooltip": "Specifies the dimension."
+    },
+    {
+      "no": 6,
+      "name": "Dimension Value Code",
+      "tooltip": "Specifies the dimension value."
+    },
+    {
+      "no": 7,
+      "name": "Transaction Source",
+      "tooltip": ""
+    }
+  ]
+}

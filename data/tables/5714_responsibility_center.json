@@ -1,0 +1,98 @@
+{
+  "id": 5714,
+  "name": "Responsibility Center",
+  "slug": "5714_responsibility_center",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the responsibility center list code."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name."
+    },
+    {
+      "no": 3,
+      "name": "Address",
+      "tooltip": "Specifies the address associated with the responsibility center."
+    },
+    {
+      "no": 4,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 5,
+      "name": "City",
+      "tooltip": "Specifies the city where the responsibility center is located."
+    },
+    {
+      "no": 6,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 7,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 8,
+      "name": "Phone No.",
+      "tooltip": "Specifies the responsibility center's phone number."
+    },
+    {
+      "no": 9,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number of the responsibility center."
+    },
+    {
+      "no": 10,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact."
+    },
+    {
+      "no": 12,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 13,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 14,
+      "name": "Location Code",
+      "tooltip": "Specifies the location of the responsibility center."
+    },
+    {
+      "no": 15,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the responsibility center."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the responsibility center's web site."
+    },
+    {
+      "no": 5900,
+      "name": "Date Filter",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": 454,
+  "name": "Approval Entry",
+  "slug": "454_approval_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table where the record that is subject to approval is stored."
+    },
+    {
+      "no": 2,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that an approval entry has been created for. Approval entries can be created for six different types of sales or purchase documents:"
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number copied from the relevant sales or purchase document, such as a purchase order or a sales quote."
+    },
+    {
+      "no": 4,
+      "name": "Sequence No.",
+      "tooltip": "Specifies the order of approvers when an approval workflow involves more than one approver."
+    },
+    {
+      "no": 5,
+      "name": "Approval Code",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Sender ID",
+      "tooltip": "Specifies the ID of the user who sent the approval request for the document to be approved."
+    },
+    {
+      "no": 7,
+      "name": "Salespers./Purch. Code",
+      "tooltip": "Specifies the code for the salesperson or purchaser that was in the document to be approved. It is not a mandatory field, but is useful if a salesperson or a purchaser responsible for the customer/vendor needs to approve the document before it is processed."
+    },
+    {
+      "no": 8,
+      "name": "Approver ID",
+      "tooltip": "Specifies the ID of the user who must approve the document."
+    },
+    {
+      "no": 9,
+      "name": "Status",
+      "tooltip": "Specifies the approval status for the entry:"
+    },
+    {
+      "no": 10,
+      "name": "Date-Time Sent for Approval",
+      "tooltip": "Specifies the date and the time that the document was sent for approval."
+    },
+    {
+      "no": 11,
+      "name": "Last Date-Time Modified",
+      "tooltip": "Specifies the date when the approval entry was last modified. If, for example, the document approval is canceled, this field will be updated accordingly."
+    },
+    {
+      "no": 12,
+      "name": "Last Modified By User ID",
+      "tooltip": "Specifies the ID of the user who last modified the approval entry. If, for example, the document approval is canceled, this field will be updated accordingly."
+    },
+    {
+      "no": 13,
+      "name": "Comment",
+      "tooltip": "Specifies whether there are comments relating to the approval of the record. If you want to read the comments, choose the field to open the Approval Comment Sheet window."
+    },
+    {
+      "no": 14,
+      "name": "Due Date",
+      "tooltip": "Specifies when the record must be approved, by one or more approvers."
+    },
+    {
+      "no": 15,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount (excl. VAT) on the document awaiting approval."
+    },
+    {
+      "no": 16,
+      "name": "Amount (LCY)",
+      "tooltip": "Specifies the total amount in LCY (excl. VAT) on the document awaiting approval."
+    },
+    {
+      "no": 17,
+      "name": "Currency Code",
+      "tooltip": "Specifies the code of the currency of the amounts on the sales or purchase lines."
+    },
+    {
+      "no": 18,
+      "name": "Approval Type",
+      "tooltip": "Specifies which approvers apply to this approval template:"
+    },
+    {
+      "no": 19,
+      "name": "Limit Type",
+      "tooltip": "Specifies the type of limit that applies to the approval template:"
+    },
+    {
+      "no": 20,
+      "name": "Available Credit Limit (LCY)",
+      "tooltip": "Specifies the remaining credit (in LCY) that exists for the customer."
+    },
+    {
+      "no": 21,
+      "name": "Pending Approvals",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "Record ID to Approve",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Delegation Date Formula",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Number of Approved Requests",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Number of Rejected Requests",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Workflow Step Instance ID",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Related to Change",
+      "tooltip": ""
+    }
+  ]
+}

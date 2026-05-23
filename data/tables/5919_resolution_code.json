@@ -1,0 +1,18 @@
+{
+  "id": 5919,
+  "name": "Resolution Code",
+  "slug": "5919_resolution_code",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a code for the resolution."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the resolution code."
+    }
+  ]
+}

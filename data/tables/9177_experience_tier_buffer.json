@@ -1,0 +1,23 @@
+{
+  "id": 9177,
+  "name": "Experience Tier Buffer",
+  "slug": "9177_experience_tier_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Experience Tier",
+      "tooltip": "Specifies the scope of the application functionality for which fields and actions are shown. Fields and action for non-selected application areas are hidden to simplify the user interface."
+    },
+    {
+      "no": 3,
+      "name": "Selected",
+      "tooltip": ""
+    }
+  ]
+}

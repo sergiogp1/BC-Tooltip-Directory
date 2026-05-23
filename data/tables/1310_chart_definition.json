@@ -1,0 +1,23 @@
+{
+  "id": 1310,
+  "name": "Chart Definition",
+  "slug": "1310_chart_definition",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code Unit ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Chart Name",
+      "tooltip": "Specifies the name of the chart."
+    },
+    {
+      "no": 3,
+      "name": "Enabled",
+      "tooltip": "Specifies that the chart is enabled."
+    }
+  ]
+}

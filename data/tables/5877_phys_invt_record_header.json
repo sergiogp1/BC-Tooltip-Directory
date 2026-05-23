@@ -1,0 +1,73 @@
+{
+  "id": 5877,
+  "name": "Phys. Invt. Record Header",
+  "slug": "5877_phys_invt_record_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Order No.",
+      "tooltip": "Specifies the physical inventory order number that is linked to the physical inventory recording."
+    },
+    {
+      "no": 2,
+      "name": "Recording No.",
+      "tooltip": "Specifies a number that is assigned to the physical inventory recording, when you link a physical inventory recording to a physical inventory order."
+    },
+    {
+      "no": 10,
+      "name": "Description",
+      "tooltip": "Specifies the description of the inventory recording."
+    },
+    {
+      "no": 11,
+      "name": "Status",
+      "tooltip": "Specifies if the physical inventory recording is open or finished."
+    },
+    {
+      "no": 30,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Person Responsible",
+      "tooltip": "Specifies the code of the person responsible for performing this physical inventory recording."
+    },
+    {
+      "no": 40,
+      "name": "Allow Recording Without Order",
+      "tooltip": "Specifies that recording lines are automatically created for items that do not exist on the physical inventory order. This can only happen if none of the values in these four fields exist for an item on the order: Item No., Variant Code, Location Code, and Bin Code."
+    },
+    {
+      "no": 100,
+      "name": "Date Recorded",
+      "tooltip": "Specifies the date when the physical inventory was taken."
+    },
+    {
+      "no": 101,
+      "name": "Time Recorded",
+      "tooltip": "Specifies the time when the physical inventory was taken."
+    },
+    {
+      "no": 102,
+      "name": "Person Recorded",
+      "tooltip": "Specifies the user ID of the person who performed the physical inventory."
+    },
+    {
+      "no": 103,
+      "name": "Recorded by User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Location Code",
+      "tooltip": "Specifies the location where the items must be counted."
+    },
+    {
+      "no": 111,
+      "name": "Bin Code",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 319,
+  "name": "Tax Area Line",
+  "slug": "319_tax_area_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Tax Area",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Tax Jurisdiction Code",
+      "tooltip": "Specifies a tax jurisdiction code."
+    },
+    {
+      "no": 3,
+      "name": "Jurisdiction Description",
+      "tooltip": "Specifies the description from the tax jurisdiction table when you enter the tax jurisdiction code."
+    },
+    {
+      "no": 4,
+      "name": "Calculation Order",
+      "tooltip": "Specifies an integer to determine the sequence the program must use when tax is calculated."
+    }
+  ]
+}

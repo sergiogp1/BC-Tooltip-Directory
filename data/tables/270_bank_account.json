@@ -1,0 +1,408 @@
+{
+  "id": 270,
+  "name": "Bank Account",
+  "slug": "270_bank_account",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the name of the bank where you have the bank account."
+    },
+    {
+      "no": 3,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Address",
+      "tooltip": "Specifies the address of the bank where you have the bank account."
+    },
+    {
+      "no": 6,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 7,
+      "name": "City",
+      "tooltip": "Specifies the city of the bank where you have the bank account."
+    },
+    {
+      "no": 8,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the bank employee regularly contacted in connection with this bank account."
+    },
+    {
+      "no": 9,
+      "name": "Phone No.",
+      "tooltip": "Specifies the telephone number of the bank where you have the bank account."
+    },
+    {
+      "no": 10,
+      "name": "Telex No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Bank Account No.",
+      "tooltip": "Specifies the number used by the bank for the bank account."
+    },
+    {
+      "no": 14,
+      "name": "Transit No.",
+      "tooltip": "Specifies a bank identification number of your own choice."
+    },
+    {
+      "no": 15,
+      "name": "Territory Code",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Chain Name",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Min. Balance",
+      "tooltip": "Specifies a minimum balance for the bank account."
+    },
+    {
+      "no": 21,
+      "name": "Bank Acc. Posting Group",
+      "tooltip": "Specifies a code for the bank account posting group for the bank account."
+    },
+    {
+      "no": 22,
+      "name": "Currency Code",
+      "tooltip": "Specifies the currency code for the bank account."
+    },
+    {
+      "no": 24,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 25,
+      "name": "Format Region",
+      "tooltip": "Specifies the region format that is used when formatting specified dates and numbers on documents to foreign business partner, such as an item amount on an order confirmation."
+    },
+    {
+      "no": 26,
+      "name": "Statistics Group",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Our Contact Code",
+      "tooltip": "Specifies a code to specify the employee who is responsible for this bank account."
+    },
+    {
+      "no": 35,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 37,
+      "name": "Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 41,
+      "name": "Last Statement No.",
+      "tooltip": "Specifies the number of the last bank account statement that was reconciled with this bank account."
+    },
+    {
+      "no": 42,
+      "name": "Last Payment Statement No.",
+      "tooltip": "Specifies the number of the last bank statement that was imported, either as a feed or a file."
+    },
+    {
+      "no": 43,
+      "name": "Pmt. Rec. No. Series",
+      "tooltip": "Specifies the number series for payment reconciliation journals."
+    },
+    {
+      "no": 54,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the date when the Bank Account card was last modified."
+    },
+    {
+      "no": 55,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "Global Dimension 1 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Global Dimension 2 Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Balance",
+      "tooltip": "Specifies the bank account's balance."
+    },
+    {
+      "no": 59,
+      "name": "Balance (LCY)",
+      "tooltip": "Specifies the bank account's current balance in LCY."
+    },
+    {
+      "no": 60,
+      "name": "Net Change",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Net Change (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Total on Checks",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Use as Default for Currency",
+      "tooltip": "Specifies whether this is the default company account for payments in sales and service documents in the currency specified for this account. Each currency can have only one default bank account."
+    },
+    {
+      "no": 84,
+      "name": "Fax No.",
+      "tooltip": "Specifies the fax number of the bank where you have the bank account."
+    },
+    {
+      "no": 85,
+      "name": "Telex Answer Back",
+      "tooltip": ""
+    },
+    {
+      "no": 91,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 92,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 93,
+      "name": "Last Check No.",
+      "tooltip": "Specifies the check number of the last check issued from the bank account."
+    },
+    {
+      "no": 94,
+      "name": "Balance Last Statement",
+      "tooltip": "Specifies the balance amount of the last statement reconciliation on the bank account."
+    },
+    {
+      "no": 95,
+      "name": "Balance at Date",
+      "tooltip": "Specifies the bank account's balance on the last date included in the Date Filter field."
+    },
+    {
+      "no": 96,
+      "name": "Balance at Date (LCY)",
+      "tooltip": "Specifies the bank account's balance in LCY on the last date included in the Date Filter field."
+    },
+    {
+      "no": 97,
+      "name": "Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Debit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Credit Amount (LCY)",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Bank Branch No.",
+      "tooltip": "Specifies a number of the bank branch."
+    },
+    {
+      "no": 102,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address associated with the bank account."
+    },
+    {
+      "no": 103,
+      "name": "Home Page",
+      "tooltip": "Specifies the bank web site."
+    },
+    {
+      "no": 107,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 108,
+      "name": "Check Report ID",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "Check Report Name",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "IBAN",
+      "tooltip": "Specifies the bank account's international bank account number."
+    },
+    {
+      "no": 111,
+      "name": "SWIFT Code",
+      "tooltip": "Specifies the international bank identifier code (SWIFT) of the bank where you have the account."
+    },
+    {
+      "no": 113,
+      "name": "Bank Statement Import Format",
+      "tooltip": "Specifies the format of the bank statement file that can be imported into this bank account."
+    },
+    {
+      "no": 115,
+      "name": "Credit Transfer Msg. Nos.",
+      "tooltip": "Specifies the number series for bank instruction messages that are created with the export file that you create from the Direct Debit Collect. Entries window."
+    },
+    {
+      "no": 116,
+      "name": "Direct Debit Msg. Nos.",
+      "tooltip": "Specifies the number series that will be used on the direct debit file that you export for a direct-debit collection entry in the Direct Debit Collect. Entries window."
+    },
+    {
+      "no": 117,
+      "name": "SEPA Direct Debit Exp. Format",
+      "tooltip": "Specifies the SEPA format of the bank file that will be exported when you choose the Create Direct Debit File button in the Direct Debit Collect. Entries window."
+    },
+    {
+      "no": 121,
+      "name": "Bank Stmt. Service Record ID",
+      "tooltip": ""
+    },
+    {
+      "no": 123,
+      "name": "Transaction Import Timespan",
+      "tooltip": "Specifies how far back in time to get new bank transactions for."
+    },
+    {
+      "no": 124,
+      "name": "Automatic Stmt. Import Enabled",
+      "tooltip": "Specifies that the service is enabled."
+    },
+    {
+      "no": 130,
+      "name": "IntercompanyEnable",
+      "tooltip": "Specifies whether this bank account is enabled to be copied by IC Partners to make intercompany transactions."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": ""
+    },
+    {
+      "no": 170,
+      "name": "Creditor No.",
+      "tooltip": "Specifies your company as the creditor in connection with payment collection from customers using SEPA Direct Debit."
+    },
+    {
+      "no": 1210,
+      "name": "Payment Export Format",
+      "tooltip": "Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window."
+    },
+    {
+      "no": 1211,
+      "name": "Bank Clearing Code",
+      "tooltip": "Specifies the code for bank clearing that is required according to the format standard you selected in the Bank Clearing Standard field."
+    },
+    {
+      "no": 1212,
+      "name": "Bank Clearing Standard",
+      "tooltip": "Specifies the format standard to be used in bank transfers if you use the Bank Clearing Code field to identify you as the sender."
+    },
+    {
+      "no": 1250,
+      "name": "Match Tolerance Type",
+      "tooltip": "Specifies by which tolerance the automatic payment application function will apply the Amount Incl. Tolerance Matched rule for this bank account."
+    },
+    {
+      "no": 1251,
+      "name": "Match Tolerance Value",
+      "tooltip": "Specifies if the automatic payment application function will apply the Amount Incl. Tolerance Matched rule by Percentage or Amount."
+    },
+    {
+      "no": 1252,
+      "name": "Disable Automatic Pmt Matching",
+      "tooltip": "Specifies whether to disable automatic payment matching after importing bank transactions for this bank account."
+    },
+    {
+      "no": 1253,
+      "name": "Disable Bank Rec. Optimization",
+      "tooltip": "Specifies whether to disable bank reconciliation optimization for this bank account. It will result in more precise matches, but it will be slower. Disabling the optimization is useful when there are several bank ledger entries with the same amount and date that need to be automatched."
+    },
+    {
+      "no": 1260,
+      "name": "Positive Pay Export Code",
+      "tooltip": "Specifies a code for the data exchange definition that manages the export of positive-pay files."
+    },
+    {
+      "no": 1280,
+      "name": "Check Transmitted",
+      "tooltip": "Specifies to check transmitted before posting the Payment Journal"
+    },
+    {
+      "no": 5061,
+      "name": "Mobile Phone No.",
+      "tooltip": "Specifies the mobile telephone number of the bank where you have the bank account."
+    }
+  ]
+}

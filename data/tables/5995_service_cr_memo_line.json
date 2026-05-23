@@ -1,0 +1,498 @@
+{
+  "id": 5995,
+  "name": "Service Cr.Memo Line",
+  "slug": "5995_service_cr_memo_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer who has received the service on the credit memo."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the credit memo."
+    },
+    {
+      "no": 4,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the type of this credit memo line."
+    },
+    {
+      "no": 6,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 7,
+      "name": "Location Code",
+      "tooltip": "Specifies the location, such as warehouse or distribution center, in which the credit memo line was registered."
+    },
+    {
+      "no": 8,
+      "name": "Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies the name of an item, resource, cost, general ledger account description, or some descriptive text on the service credit memo line."
+    },
+    {
+      "no": 12,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description."
+    },
+    {
+      "no": 13,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 15,
+      "name": "Quantity",
+      "tooltip": "Specifies the number of item units, resource hours, general ledger account payments, or cost specified on the credit memo line."
+    },
+    {
+      "no": 22,
+      "name": "Unit Price",
+      "tooltip": "Specifies the price of one unit of the item or resource. You can enter a price manually or have it entered according to the Price/Profit Calculation field on the related card."
+    },
+    {
+      "no": 23,
+      "name": "Unit Cost (LCY)",
+      "tooltip": "Specifies the cost, in LCY, of one unit of the item or resource on the line."
+    },
+    {
+      "no": 25,
+      "name": "VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Line Discount %",
+      "tooltip": "Specifies the discount percentage that is granted for the item on the line."
+    },
+    {
+      "no": 28,
+      "name": "Line Discount Amount",
+      "tooltip": "Specifies the discount amount that is granted for the item on the line."
+    },
+    {
+      "no": 29,
+      "name": "Amount",
+      "tooltip": "Specifies the total net amount on the service line."
+    },
+    {
+      "no": 30,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the net amount, including VAT, for this line."
+    },
+    {
+      "no": 32,
+      "name": "Allow Invoice Disc.",
+      "tooltip": "Specifies if the invoice line is included when the invoice discount is calculated."
+    },
+    {
+      "no": 34,
+      "name": "Gross Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "Net Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Unit Volume",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 41,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 42,
+      "name": "Customer Price Group",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Job No.",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Job Task No.",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Work Type Code",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Shipment No.",
+      "tooltip": "Specifies the number of the posted shipment for this credit memo line."
+    },
+    {
+      "no": 68,
+      "name": "Bill-to Customer No.",
+      "tooltip": "Specifies the number of the customer that you send or sent the invoice or credit memo to."
+    },
+    {
+      "no": 69,
+      "name": "Inv. Discount Amount",
+      "tooltip": "Specifies the total calculated invoice discount amount for the line."
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 75,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 77,
+      "name": "VAT Calculation Type",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 80,
+      "name": "Attached to Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Exit Point",
+      "tooltip": ""
+    },
+    {
+      "no": 82,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 85,
+      "name": "Tax Area Code",
+      "tooltip": "Specifies the tax area that is used to calculate and post sales tax."
+    },
+    {
+      "no": 86,
+      "name": "Tax Liable",
+      "tooltip": "Specifies that items, resources, or costs on the current credit memo line are liable to sales tax."
+    },
+    {
+      "no": 87,
+      "name": "Tax Group Code",
+      "tooltip": "Specifies the tax group that is used to calculate and post sales tax."
+    },
+    {
+      "no": 88,
+      "name": "VAT Clause Code",
+      "tooltip": ""
+    },
+    {
+      "no": 89,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 90,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": "Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup."
+    },
+    {
+      "no": 99,
+      "name": "VAT Base Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Unit Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Line Amount",
+      "tooltip": "Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line."
+    },
+    {
+      "no": 104,
+      "name": "VAT Difference",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "VAT Identifier",
+      "tooltip": ""
+    },
+    {
+      "no": 145,
+      "name": "Pmt. Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 1019,
+      "name": "Job Planning Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5402,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 5403,
+      "name": "Bin Code",
+      "tooltip": "Specifies the bin where the items are picked or put away."
+    },
+    {
+      "no": 5404,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5407,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 5415,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": ""
+    },
+    {
+      "no": 5709,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5710,
+      "name": "Nonstock",
+      "tooltip": "Specifies that the item on the credit memo line is a catalog item."
+    },
+    {
+      "no": 5725,
+      "name": "Item Reference No.",
+      "tooltip": "Specifies the referenced item number."
+    },
+    {
+      "no": 5726,
+      "name": "Item Reference Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 5727,
+      "name": "Item Reference Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5728,
+      "name": "Item Reference Type No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5811,
+      "name": "Appl.-from Item Entry",
+      "tooltip": "Specifies the number of the item ledger entry that the document or journal line is applied from."
+    },
+    {
+      "no": 5902,
+      "name": "Service Item No.",
+      "tooltip": "Specifies the number of the service item linked to this credit memo line."
+    },
+    {
+      "no": 5903,
+      "name": "Appl.-to Service Entry",
+      "tooltip": "Specifies the number of the service ledger entry applied to this service credit memo."
+    },
+    {
+      "no": 5905,
+      "name": "Service Item Serial No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5906,
+      "name": "Service Item Line Description",
+      "tooltip": ""
+    },
+    {
+      "no": 5908,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5910,
+      "name": "Needed by Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5916,
+      "name": "Ship-to Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5928,
+      "name": "Service Price Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5929,
+      "name": "Fault Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5930,
+      "name": "Symptom Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5931,
+      "name": "Fault Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5932,
+      "name": "Resolution Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5933,
+      "name": "Exclude Warranty",
+      "tooltip": ""
+    },
+    {
+      "no": 5934,
+      "name": "Warranty",
+      "tooltip": ""
+    },
+    {
+      "no": 5936,
+      "name": "Contract No.",
+      "tooltip": "Specifies the number of the contract associated with the posted service credit memo."
+    },
+    {
+      "no": 5938,
+      "name": "Contract Disc. %",
+      "tooltip": ""
+    },
+    {
+      "no": 5939,
+      "name": "Warranty Disc. %",
+      "tooltip": ""
+    },
+    {
+      "no": 5965,
+      "name": "Component Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5966,
+      "name": "Spare Part Action",
+      "tooltip": ""
+    },
+    {
+      "no": 5967,
+      "name": "Fault Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5968,
+      "name": "Replaced Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5969,
+      "name": "Exclude Contract Discount",
+      "tooltip": ""
+    },
+    {
+      "no": 5994,
+      "name": "Price Adjmt. Status",
+      "tooltip": ""
+    },
+    {
+      "no": 5997,
+      "name": "Line Discount Type",
+      "tooltip": ""
+    },
+    {
+      "no": 5999,
+      "name": "Copy Components From",
+      "tooltip": ""
+    },
+    {
+      "no": 6608,
+      "name": "Return Reason Code",
+      "tooltip": "Specifies the code explaining why the item was returned."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    },
+    {
+      "no": 7001,
+      "name": "Allow Line Disc.",
+      "tooltip": ""
+    },
+    {
+      "no": 7002,
+      "name": "Customer Disc. Group",
+      "tooltip": ""
+    }
+  ]
+}

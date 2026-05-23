@@ -1,0 +1,208 @@
+{
+  "id": 5621,
+  "name": "FA Journal Line",
+  "slug": "5621_fa_journal_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Journal Template Name",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Depreciation Book Code",
+      "tooltip": "Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line."
+    },
+    {
+      "no": 5,
+      "name": "FA Posting Type",
+      "tooltip": "Specifies the posting type, if Account Type field contains Fixed Asset."
+    },
+    {
+      "no": 6,
+      "name": "FA No.",
+      "tooltip": "Specifies the number of the related fixed asset."
+    },
+    {
+      "no": 7,
+      "name": "FA Posting Date",
+      "tooltip": "Specifies the posting date of the related fixed asset transaction, such as a depreciation."
+    },
+    {
+      "no": 8,
+      "name": "Posting Date",
+      "tooltip": "Specifies the same date as the FA Posting Date field when the line is posted."
+    },
+    {
+      "no": 9,
+      "name": "Document Type",
+      "tooltip": "Specifies the appropriate document type for the amount you want to post."
+    },
+    {
+      "no": 10,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Document No.",
+      "tooltip": "Specifies a document number for the journal line."
+    },
+    {
+      "no": 12,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Description",
+      "tooltip": "Specifies a description of the fixed asset."
+    },
+    {
+      "no": 14,
+      "name": "Amount",
+      "tooltip": "Specifies the total amount the journal line consists of."
+    },
+    {
+      "no": 15,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 16,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 17,
+      "name": "Salvage Value",
+      "tooltip": "Specifies the estimated residual value of a fixed asset when it can no longer be used."
+    },
+    {
+      "no": 18,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "No. of Depreciation Days",
+      "tooltip": "Specifies the number of depreciation days if you have selected the Depreciation or Custom 1 option in the FA Posting Type field."
+    },
+    {
+      "no": 21,
+      "name": "Depr. until FA Posting Date",
+      "tooltip": "Specifies if depreciation was calculated until the FA posting date of the line."
+    },
+    {
+      "no": 22,
+      "name": "Depr. Acquisition Cost",
+      "tooltip": "Specifies if, when this line was posted, the additional acquisition cost posted on the line was depreciated in proportion to the amount by which the fixed asset had already been depreciated."
+    },
+    {
+      "no": 24,
+      "name": "FA Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Maintenance Code",
+      "tooltip": "Specifies a maintenance code."
+    },
+    {
+      "no": 27,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 28,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Insurance No.",
+      "tooltip": "Specifies an insurance code if you have selected the Acquisition Cost option in the FA Posting Type field."
+    },
+    {
+      "no": 31,
+      "name": "Budgeted FA No.",
+      "tooltip": "Specifies the number of a fixed asset with the Budgeted Asset check box selected. When you post the journal or document line, an additional entry is created for the budgeted fixed asset where the amount has the opposite sign."
+    },
+    {
+      "no": 32,
+      "name": "Use Duplication List",
+      "tooltip": "Specifies whether the line is to be posted to all depreciation books, using different journal batches and with a check mark in the Part of Duplication List field."
+    },
+    {
+      "no": 33,
+      "name": "Duplicate in Depreciation Book",
+      "tooltip": "Specifies a depreciation book code if you want the journal line to be posted to that depreciation book, as well as to the depreciation book in the Depreciation Book Code field."
+    },
+    {
+      "no": 34,
+      "name": "FA Reclassification Entry",
+      "tooltip": "Specifies if the entry was generated from a fixed asset reclassification journal."
+    },
+    {
+      "no": 35,
+      "name": "FA Error Entry No.",
+      "tooltip": "Specifies the number of a posted FA ledger entry to mark as an error entry."
+    },
+    {
+      "no": 36,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Recurring Method",
+      "tooltip": "Specifies a recurring method, if you have indicated that the journal is recurring."
+    },
+    {
+      "no": 39,
+      "name": "Recurring Frequency",
+      "tooltip": "Specifies a recurring frequency if you indicated that the journal is a recurring."
+    },
+    {
+      "no": 41,
+      "name": "Expiration Date",
+      "tooltip": "Specifies the last date on which the recurring journal will be posted."
+    },
+    {
+      "no": 42,
+      "name": "Index Entry",
+      "tooltip": "Specifies whether to post an indexation."
+    },
+    {
+      "no": 43,
+      "name": "Posting No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

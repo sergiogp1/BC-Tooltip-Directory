@@ -1,0 +1,68 @@
+{
+  "id": 265,
+  "name": "Document Entry",
+  "slug": "265_document_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies the table ID."
+    },
+    {
+      "no": 2,
+      "name": "No. of Records",
+      "tooltip": "Specifies the number of records in the table for upgrade."
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number that is assigned to the entry."
+    },
+    {
+      "no": 6,
+      "name": "Table Name",
+      "tooltip": "Specifies the name of the table."
+    },
+    {
+      "no": 7,
+      "name": "No. of Records 2",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Document Type",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Lot No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Serial No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Package No. Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Ref. Document No.",
+      "tooltip": ""
+    }
+  ]
+}

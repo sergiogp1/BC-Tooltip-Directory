@@ -1,0 +1,78 @@
+{
+  "id": 7008,
+  "name": "Dtld. Price Calculation Setup",
+  "slug": "7008_dtld_price_calculation_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Setup Code",
+      "tooltip": "Specifies a price calculation setup code."
+    },
+    {
+      "no": 3,
+      "name": "Method",
+      "tooltip": "Specifies a price calculation method."
+    },
+    {
+      "no": 4,
+      "name": "Type",
+      "tooltip": "Specifies what type of amount to calculate - sale or purchase."
+    },
+    {
+      "no": 5,
+      "name": "Asset Type",
+      "tooltip": "Specifies a product type."
+    },
+    {
+      "no": 6,
+      "name": "Asset No.",
+      "tooltip": "Specifies a product number."
+    },
+    {
+      "no": 7,
+      "name": "Source Group",
+      "tooltip": "Specifies whether the prices come from groups of customers, vendors or projects."
+    },
+    {
+      "no": 8,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Source No.",
+      "tooltip": "Specifies the unique identifier of the source of the price on the price list line."
+    },
+    {
+      "no": 10,
+      "name": "Implementation",
+      "tooltip": "Specifies a price calculation implementation name."
+    },
+    {
+      "no": 11,
+      "name": "Group Id",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Enabled",
+      "tooltip": "Specifies whether the implementation codeunit is enabled."
+    },
+    {
+      "no": 13,
+      "name": "Product No.",
+      "tooltip": "Specifies a product number."
+    },
+    {
+      "no": 14,
+      "name": "Assign-to No.",
+      "tooltip": "Specifies the unique identifier of the source of the price on the price list line."
+    }
+  ]
+}

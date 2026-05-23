@@ -1,0 +1,58 @@
+{
+  "id": 5205,
+  "name": "Employee Relative",
+  "slug": "5205_employee_relative",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Employee No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Relative Code",
+      "tooltip": "Specifies a relative code for the employee."
+    },
+    {
+      "no": 4,
+      "name": "First Name",
+      "tooltip": "Specifies the first name of the employee's relative."
+    },
+    {
+      "no": 5,
+      "name": "Middle Name",
+      "tooltip": "Specifies the middle name of the employee's relative."
+    },
+    {
+      "no": 6,
+      "name": "Last Name",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Birth Date",
+      "tooltip": "Specifies the relative's date of birth."
+    },
+    {
+      "no": 8,
+      "name": "Phone No.",
+      "tooltip": "Specifies the relative's telephone number."
+    },
+    {
+      "no": 9,
+      "name": "Relative's Employee No.",
+      "tooltip": "Specifies the relative's employee number, if the relative also works at the company."
+    },
+    {
+      "no": 10,
+      "name": "Comment",
+      "tooltip": "Specifies if a comment was entered for this entry."
+    }
+  ]
+}

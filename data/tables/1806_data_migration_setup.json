@@ -1,0 +1,48 @@
+{
+  "id": 1806,
+  "name": "Data Migration Setup",
+  "slug": "1806_data_migration_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Default Customer Template",
+      "tooltip": "Specifies the template to use by default when migrating data for customers. The template defines the data structure and ensures customers are created accurately."
+    },
+    {
+      "no": 3,
+      "name": "Default Vendor Template",
+      "tooltip": "Specifies the template to use by default when migrating data for vendors. The template defines the data structure and ensures vendors are created accurately."
+    },
+    {
+      "no": 4,
+      "name": "Default Item Template",
+      "tooltip": "Specifies the template to use by default when migrating data for items. The template defines the data structure and ensures items are created accurately."
+    },
+    {
+      "no": 5,
+      "name": "Default Account Template",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Default Posting Group Template",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Default Cust. Posting Template",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Default Vend. Posting Template",
+      "tooltip": ""
+    }
+  ]
+}

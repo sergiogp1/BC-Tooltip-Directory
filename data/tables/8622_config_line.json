@@ -1,0 +1,143 @@
+{
+  "id": 8622,
+  "name": "Config. Line",
+  "slug": "8622_config_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line Type",
+      "tooltip": "Specifies the type of the configuration package line."
+    },
+    {
+      "no": 3,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table that you want to use for the line type. After you select a table ID from the list of objects in the lookup table, the name of the table is automatically filled in the Name field."
+    },
+    {
+      "no": 4,
+      "name": "Name",
+      "tooltip": "Specifies the name of the line type."
+    },
+    {
+      "no": 5,
+      "name": "Company Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Company Filter (Source Table)",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "No. of Records",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "No. of Records (Source Table)",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Licensed Table",
+      "tooltip": "Specifies whether the table is covered by the license of the person creating the configuration package."
+    },
+    {
+      "no": 11,
+      "name": "Promoted Table",
+      "tooltip": "Specifies whether the table is promoted. Select the check box to promote the table in the configuration worksheet. You can use this designation as a signal that this table requires additional attention."
+    },
+    {
+      "no": 12,
+      "name": "Dimensions as Columns",
+      "tooltip": "Specifies whether the configuration includes dimensions as columns. When you select the Dimensions as Columns check box, the dimensions are included in the Excel worksheet that you create for configuration. In order to select this check box, you must include the Default Dimension and Dimension Value tables in the configuration package."
+    },
+    {
+      "no": 13,
+      "name": "Copying Available",
+      "tooltip": "Specifies whether copying is available in the configuration worksheet."
+    },
+    {
+      "no": 14,
+      "name": "Page ID",
+      "tooltip": "Specifies the number of the page that is used to show the journal or worksheet that uses the template."
+    },
+    {
+      "no": 15,
+      "name": "Page Caption",
+      "tooltip": "Specifies the displayed name of the journal or worksheet that uses the template."
+    },
+    {
+      "no": 18,
+      "name": "Starting Date",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Ending Date",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Responsible ID",
+      "tooltip": "Specifies the ID of the Business Central user who is responsible for the configuration worksheet."
+    },
+    {
+      "no": 21,
+      "name": "Status",
+      "tooltip": "Specifies the status of the table in the configuration worksheet. You can use the status information, which you provide, to help you in planning and tracking your work."
+    },
+    {
+      "no": 25,
+      "name": "Vertical Sorting",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Data Origin",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Reference",
+      "tooltip": "Specifies a url address. Use this field to provide a url address to a location that Specifies information about the table. For example, you could provide the address of a page that Specifies information about setup considerations that the solution implementer should consider."
+    },
+    {
+      "no": 30,
+      "name": "Licensed Page",
+      "tooltip": "Specifies whether the page that is associated with the table is licensed."
+    },
+    {
+      "no": 31,
+      "name": "No. of Question Groups",
+      "tooltip": "Specifies the number of question groups that are contained on the configuration questionnaire."
+    },
+    {
+      "no": 32,
+      "name": "Parent Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "Package Code",
+      "tooltip": "Specifies the code of the package associated with the configuration. The code is filled in when you use the Assign Package function to select the package for the line type."
+    },
+    {
+      "no": 37,
+      "name": "Package Caption",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "Package Exists",
+      "tooltip": "Specifies whether the package that has been assigned to the worksheet line has been created."
+    }
+  ]
+}

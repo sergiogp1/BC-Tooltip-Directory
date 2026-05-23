@@ -1,0 +1,178 @@
+{
+  "id": 5745,
+  "name": "Transfer Shipment Line",
+  "slug": "5745_transfer_shipment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Document No.",
+      "tooltip": "Specifies the document number associated with this transfer line."
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Item No.",
+      "tooltip": "Specifies the number of the item that will be transferred."
+    },
+    {
+      "no": 4,
+      "name": "Quantity",
+      "tooltip": "Specifies the quantity of the item specified on the line."
+    },
+    {
+      "no": 5,
+      "name": "Unit of Measure",
+      "tooltip": "Specifies the name of the item or resource's unit of measure, such as piece or hour."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies the description of the item that is transferred."
+    },
+    {
+      "no": 8,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 9,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 10,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Inventory Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Quantity (Base)",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Qty. per Unit of Measure",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 16,
+      "name": "Gross Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Net Weight",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Unit Volume",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 22,
+      "name": "Units per Parcel",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Description 2",
+      "tooltip": "Specifies information in addition to the description of the item being transferred."
+    },
+    {
+      "no": 24,
+      "name": "Transfer Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Shipment Date",
+      "tooltip": "Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time."
+    },
+    {
+      "no": 26,
+      "name": "Shipping Agent Code",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Shipping Agent Service Code",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "In-Transit Code",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "Transfer-from Code",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Transfer-to Code",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Item Shpt. Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Shipping Time",
+      "tooltip": "Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered."
+    },
+    {
+      "no": 33,
+      "name": "Trans. Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Derived Trans. Order Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5704,
+      "name": "Item Category Code",
+      "tooltip": ""
+    },
+    {
+      "no": 5817,
+      "name": "Correction Line",
+      "tooltip": ""
+    },
+    {
+      "no": 7300,
+      "name": "Transfer-from Bin Code",
+      "tooltip": "Specifies the code for the bin that the items are transferred from."
+    }
+  ]
+}

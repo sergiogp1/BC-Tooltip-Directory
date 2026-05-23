@@ -1,0 +1,63 @@
+{
+  "id": 99000851,
+  "name": "Production Forecast Name",
+  "slug": "99000851_production_forecast_name",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the demand forecast."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the demand forecast."
+    },
+    {
+      "no": 3,
+      "name": "View By",
+      "tooltip": "Specifies by which period amounts are displayed."
+    },
+    {
+      "no": 4,
+      "name": "Forecast Type",
+      "tooltip": "Specifies one of the following two types when you create a demand forecast entry: sales item or component item."
+    },
+    {
+      "no": 5,
+      "name": "Location Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Variant Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Item Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Forecast By Locations",
+      "tooltip": "Use this if you want to create a forecast entry including the locations."
+    },
+    {
+      "no": 9,
+      "name": "Forecast By Variants",
+      "tooltip": "Use this if you want to create a forecast entry including the variants."
+    },
+    {
+      "no": 10,
+      "name": "Quantity Type",
+      "tooltip": "Specifies how amounts are displayed. Net Change: The net change in the balance for the selected period. Balance at Date: The balance as of the last day in the selected period."
+    },
+    {
+      "no": 11,
+      "name": "Date Filter",
+      "tooltip": "Specifies the dates that will be used to filter the amounts in the window."
+    }
+  ]
+}

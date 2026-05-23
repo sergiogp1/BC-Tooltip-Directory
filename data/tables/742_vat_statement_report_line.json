@@ -1,0 +1,53 @@
+{
+  "id": 742,
+  "name": "VAT Statement Report Line",
+  "slug": "742_vat_statement_report_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT Report No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "VAT Report Config. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Row No.",
+      "tooltip": "Specifies a number that identifies the line."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies a description of the VAT report statement."
+    },
+    {
+      "no": 6,
+      "name": "Box No.",
+      "tooltip": "Specifies the number on the box that the VAT statement applies to."
+    },
+    {
+      "no": 7,
+      "name": "Base",
+      "tooltip": "Specifies the amount that the VAT amount in the amount is calculated from."
+    },
+    {
+      "no": 8,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the entry in the report statement."
+    },
+    {
+      "no": 9,
+      "name": "Note",
+      "tooltip": "Specifies any text that you want to add to the specific line."
+    }
+  ]
+}

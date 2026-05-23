@@ -1,0 +1,33 @@
+{
+  "id": 823,
+  "name": "Name/Value Buffer",
+  "slug": "823_name_value_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ID",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Name",
+      "tooltip": "Specifies the reminder action type."
+    },
+    {
+      "no": 3,
+      "name": "Value",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 4,
+      "name": "Value BLOB",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Value Long",
+      "tooltip": "Specifies the redirect URL of the Microsoft Entra application that will be used to connect to Exchange."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 9650,
+  "name": "Custom Report Layout",
+  "slug": "9650_custom_report_layout",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the Code."
+    },
+    {
+      "no": 2,
+      "name": "Report ID",
+      "tooltip": "Specifies the object ID of the report."
+    },
+    {
+      "no": 3,
+      "name": "Report Name",
+      "tooltip": "Specifies the name of the report."
+    },
+    {
+      "no": 4,
+      "name": "Company Name",
+      "tooltip": "Specifies the Business Central company that the report layout applies to. You to create report layouts that can only be used on reports when they are run for a specific to a company. If the field is blank, then the layout will be available for use in all companies."
+    },
+    {
+      "no": 6,
+      "name": "Type",
+      "tooltip": "Specifies the file type of the report layout. The following table includes the types that are available:"
+    },
+    {
+      "no": 7,
+      "name": "Layout",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Last Modified",
+      "tooltip": "Specifies the date and time of the last change to the report layout entry."
+    },
+    {
+      "no": 9,
+      "name": "Last Modified by User",
+      "tooltip": "Specifies the user who made the last change to the report layout entry."
+    },
+    {
+      "no": 10,
+      "name": "File Extension",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Description",
+      "tooltip": "Specifies a description of the report layout."
+    },
+    {
+      "no": 12,
+      "name": "Custom XML Part",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "App ID",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Built-In",
+      "tooltip": "Specifies if the report layout is built-in or not."
+    },
+    {
+      "no": 15,
+      "name": "Layout Last Updated",
+      "tooltip": ""
+    }
+  ]
+}

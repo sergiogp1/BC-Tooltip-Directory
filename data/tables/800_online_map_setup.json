@@ -1,0 +1,33 @@
+{
+  "id": 800,
+  "name": "Online Map Setup",
+  "slug": "800_online_map_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Map Parameter Setup Code",
+      "tooltip": "Specifies the map parameter code that is set up in the Online Map Parameter Setup window."
+    },
+    {
+      "no": 3,
+      "name": "Distance In",
+      "tooltip": "Specifies if distances in your online map should be shown in miles or kilometers."
+    },
+    {
+      "no": 4,
+      "name": "Route",
+      "tooltip": "Specifies whether to use the quickest or shortest route for calculation."
+    },
+    {
+      "no": 13,
+      "name": "Enabled",
+      "tooltip": "Specifies if the connection to online map service should be enabled"
+    }
+  ]
+}

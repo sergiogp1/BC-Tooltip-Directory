@@ -1,0 +1,88 @@
+{
+  "id": 96,
+  "name": "G/L Budget Entry",
+  "slug": "96_g_l_budget_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Budget Name",
+      "tooltip": "Specifies the name of the G/L budget that the entry belongs to."
+    },
+    {
+      "no": 3,
+      "name": "G/L Account No.",
+      "tooltip": "Specifies the number of the G/L account that the budget entry applies to, or, the account on the line where the budget figure has been entered."
+    },
+    {
+      "no": 4,
+      "name": "Date",
+      "tooltip": "Specifies the date of the budget entry."
+    },
+    {
+      "no": 5,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 6,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 7,
+      "name": "Amount",
+      "tooltip": "Specifies the amount of the budget entry."
+    },
+    {
+      "no": 9,
+      "name": "Description",
+      "tooltip": "Specifies a description of the budget figure."
+    },
+    {
+      "no": 10,
+      "name": "Business Unit Code",
+      "tooltip": "Specifies the code for the business unit that the budget entry is linked to."
+    },
+    {
+      "no": 11,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Budget Dimension 1 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 1 Code the budget entry is linked to."
+    },
+    {
+      "no": 13,
+      "name": "Budget Dimension 2 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 2 Code the budget entry is linked to."
+    },
+    {
+      "no": 14,
+      "name": "Budget Dimension 3 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 3 Code the budget entry is linked to."
+    },
+    {
+      "no": 15,
+      "name": "Budget Dimension 4 Code",
+      "tooltip": "Specifies the dimension value code for the Budget Dimension 4 Code the budget entry is linked to."
+    },
+    {
+      "no": 16,
+      "name": "Last Date Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    }
+  ]
+}

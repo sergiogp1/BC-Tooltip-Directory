@@ -1,0 +1,28 @@
+{
+  "id": 9144,
+  "name": "Approvals Activities Cue",
+  "slug": "9144_approvals_activities_cue",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User ID Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Requests to Approve",
+      "tooltip": "Specifies requests for certain documents, cards, or journal lines that you must approve for other users before they can proceed."
+    },
+    {
+      "no": 4,
+      "name": "Requests Sent for Approval",
+      "tooltip": "Specifies requests for certain documents, cards, or journal lines that your approver must approve before you can proceed."
+    }
+  ]
+}

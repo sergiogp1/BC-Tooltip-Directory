@@ -1,0 +1,483 @@
+{
+  "id": 120,
+  "name": "Purch. Rcpt. Header",
+  "slug": "120_purch_rcpt_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 2,
+      "name": "Buy-from Vendor No.",
+      "tooltip": "Specifies the name of the vendor who delivered the items."
+    },
+    {
+      "no": 3,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 4,
+      "name": "Pay-to Vendor No.",
+      "tooltip": "Specifies the number of the vendor that you receiv or received the invoice from."
+    },
+    {
+      "no": 5,
+      "name": "Pay-to Name",
+      "tooltip": "Specifies the name of the vendor who you received the invoice from."
+    },
+    {
+      "no": 6,
+      "name": "Pay-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the vendor who you receive or received the invoice from."
+    },
+    {
+      "no": 7,
+      "name": "Pay-to Address",
+      "tooltip": "Specifies the address of the vendor that you received the invoice from."
+    },
+    {
+      "no": 8,
+      "name": "Pay-to Address 2",
+      "tooltip": "Specifies an additional part of the address of the vendor that the invoice was received from."
+    },
+    {
+      "no": 9,
+      "name": "Pay-to City",
+      "tooltip": "Specifies the city of the vendor that you received the invoice from."
+    },
+    {
+      "no": 10,
+      "name": "Pay-to Contact",
+      "tooltip": "Specifies the contact person at the vendor that you received the invoice from."
+    },
+    {
+      "no": 11,
+      "name": "Your Reference",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 13,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 14,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer that items on the purchase order were shipped to, as a drop shipment."
+    },
+    {
+      "no": 15,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that items on the purchase order were shipped to, as a drop shipment.."
+    },
+    {
+      "no": 16,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 17,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 18,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 19,
+      "name": "Order Date",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Posting Date",
+      "tooltip": "Specifies the posting date of the record."
+    },
+    {
+      "no": 21,
+      "name": "Expected Receipt Date",
+      "tooltip": "Specifies the date you expect the items to be available in your warehouse. If you leave the field blank, it will be calculated as follows: Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date."
+    },
+    {
+      "no": 22,
+      "name": "Posting Description",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Payment Terms Code",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Due Date",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "Payment Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "Pmt. Discount Date",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Shipment Method Code",
+      "tooltip": "Specifies the delivery conditions of the related shipment, such as free on board (FOB)."
+    },
+    {
+      "no": 28,
+      "name": "Location Code",
+      "tooltip": "Specifies the code for the location where the items on the receipt were registered."
+    },
+    {
+      "no": 29,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 30,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 31,
+      "name": "Vendor Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Currency Code",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Currency Factor",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "Invoice Disc. Code",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Language Code",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Format Region",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "Purchaser Code",
+      "tooltip": "Specifies which purchaser is assigned to the vendor."
+    },
+    {
+      "no": 44,
+      "name": "Order No.",
+      "tooltip": "Specifies the line number of the order that created the entry."
+    },
+    {
+      "no": 46,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "No. Printed",
+      "tooltip": "Specifies how many times the document has been printed."
+    },
+    {
+      "no": 51,
+      "name": "On Hold",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "Applies-to Doc. Type",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Applies-to Doc. No.",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "Bal. Account No.",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Vendor Order No.",
+      "tooltip": "Specifies the vendor's order number."
+    },
+    {
+      "no": 67,
+      "name": "Vendor Shipment No.",
+      "tooltip": "Specifies the vendor's shipment number. It is inserted in the corresponding field on the source document during posting."
+    },
+    {
+      "no": 70,
+      "name": "VAT Registration No.",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "Sell-to Customer No.",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Reason Code",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 76,
+      "name": "Transaction Type",
+      "tooltip": ""
+    },
+    {
+      "no": 77,
+      "name": "Transport Method",
+      "tooltip": ""
+    },
+    {
+      "no": 78,
+      "name": "VAT Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Buy-from Vendor Name",
+      "tooltip": "Specifies the name of the vendor who delivered the items."
+    },
+    {
+      "no": 80,
+      "name": "Buy-from Vendor Name 2",
+      "tooltip": "Specifies an additional part of the name of the vendor that you’re buying from."
+    },
+    {
+      "no": 81,
+      "name": "Buy-from Address",
+      "tooltip": "Specifies the address of the vendor who delivered the items."
+    },
+    {
+      "no": 82,
+      "name": "Buy-from Address 2",
+      "tooltip": "Specifies an additional part of the address of the vendor who delivered the items."
+    },
+    {
+      "no": 83,
+      "name": "Buy-from City",
+      "tooltip": "Specifies the city of the vendor who delivered the items."
+    },
+    {
+      "no": 84,
+      "name": "Buy-from Contact",
+      "tooltip": "Specifies the name of the contact person at the vendor who delivered the items."
+    },
+    {
+      "no": 85,
+      "name": "Pay-to Post Code",
+      "tooltip": "Specifies the post code of the vendor that you received the invoice from."
+    },
+    {
+      "no": 86,
+      "name": "Pay-to County",
+      "tooltip": "Specifies the state, province or county related to the posted purchase order."
+    },
+    {
+      "no": 87,
+      "name": "Pay-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address."
+    },
+    {
+      "no": 88,
+      "name": "Buy-from Post Code",
+      "tooltip": "Specifies the post code of the vendor who delivered the items."
+    },
+    {
+      "no": 89,
+      "name": "Buy-from County",
+      "tooltip": "Specifies the state, province or county related to the posted purchase order."
+    },
+    {
+      "no": 90,
+      "name": "Buy-from Country/Region Code",
+      "tooltip": "Specifies the city of the vendor who delivered the items."
+    },
+    {
+      "no": 91,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 92,
+      "name": "Ship-to County",
+      "tooltip": "Specifies the state, province or county related to the posted purchase order."
+    },
+    {
+      "no": 93,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": "Specifies the country/region code of the address that the items are shipped to."
+    },
+    {
+      "no": 94,
+      "name": "Bal. Account Type",
+      "tooltip": ""
+    },
+    {
+      "no": 95,
+      "name": "Order Address Code",
+      "tooltip": "Specifies the order address of the related vendor."
+    },
+    {
+      "no": 97,
+      "name": "Entry Point",
+      "tooltip": ""
+    },
+    {
+      "no": 98,
+      "name": "Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 99,
+      "name": "Document Date",
+      "tooltip": "Specifies the date when the purchase document was created."
+    },
+    {
+      "no": 101,
+      "name": "Area",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Transaction Specification",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Payment Method Code",
+      "tooltip": ""
+    },
+    {
+      "no": 109,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 110,
+      "name": "Order No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 112,
+      "name": "User ID",
+      "tooltip": ""
+    },
+    {
+      "no": 113,
+      "name": "Source Code",
+      "tooltip": ""
+    },
+    {
+      "no": 114,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 115,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 116,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 119,
+      "name": "VAT Base Discount %",
+      "tooltip": ""
+    },
+    {
+      "no": 151,
+      "name": "Quote No.",
+      "tooltip": "Specifies the quote number for the posted purchase receipt."
+    },
+    {
+      "no": 210,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the telephone number of the company's shipping address."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    },
+    {
+      "no": 5050,
+      "name": "Campaign No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5052,
+      "name": "Buy-from Contact No.",
+      "tooltip": "Specifies the number of the contact person at the vendor who delivered the items."
+    },
+    {
+      "no": 5053,
+      "name": "Pay-to Contact no.",
+      "tooltip": "Specifies the number of the person to contact about an invoice from this vendor."
+    },
+    {
+      "no": 5700,
+      "name": "Responsibility Center",
+      "tooltip": "Specifies the responsibility center code that is linked to this posted return receipt."
+    },
+    {
+      "no": 5790,
+      "name": "Requested Receipt Date",
+      "tooltip": "Specifies the date that you want the vendor to deliver to the ship-to address. The value in the field is used to calculate the latest date you can order the items to have them delivered on the requested receipt date. If you do not need delivery on a specific date, you can leave the field blank."
+    },
+    {
+      "no": 5791,
+      "name": "Promised Receipt Date",
+      "tooltip": "Specifies the date that the vendor has promised to deliver the order."
+    },
+    {
+      "no": 5792,
+      "name": "Lead Time Calculation",
+      "tooltip": "Specifies a date formula for the amount of time it takes to replenish the item."
+    },
+    {
+      "no": 5793,
+      "name": "Inbound Whse. Handling Time",
+      "tooltip": "Specifies the time it takes to make items part of available inventory, after the items have been posted as received."
+    },
+    {
+      "no": 7000,
+      "name": "Price Calculation Method",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1052,
+  "name": "Reminder Terms Translation",
+  "slug": "1052_reminder_terms_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Reminder Terms Code",
+      "tooltip": "Specifies translation of reminder terms so that customers are reminded in their own language."
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Note About Line Fee on Report",
+      "tooltip": "Specifies that any notes about line fees will be added to the reminder."
+    }
+  ]
+}

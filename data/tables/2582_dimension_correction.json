@@ -1,0 +1,128 @@
+{
+  "id": 2582,
+  "name": "Dimension Correction",
+  "slug": "2582_dimension_correction",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Generated Set IDs",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Total Updated Ledger Entries",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Invalidated",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Total Selected Ledger Entries",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Undo Last Ledger Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Error Message",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Completed",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Last Job Queue Entry ID",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Generated Selected Entries",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Validated Selected Entries",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "Last Updated Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Last Validated Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Started Correction",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Validation Errors Register ID",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Validated At",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Validation Message",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Update Analysis Views",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "Update Analysis Views Status",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "Update Analysis Views Error",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Analysis View Update Type",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "Update Analysis View Job ID",
+      "tooltip": ""
+    }
+  ]
+}

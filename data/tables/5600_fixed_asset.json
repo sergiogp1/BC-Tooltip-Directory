@@ -1,0 +1,168 @@
+{
+  "id": 5600,
+  "name": "Fixed Asset",
+  "slug": "5600_fixed_asset",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies a description of the fixed asset."
+    },
+    {
+      "no": 3,
+      "name": "Search Description",
+      "tooltip": "Specifies a search description for the fixed asset."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "FA Class Code",
+      "tooltip": "Specifies the class that the fixed asset belongs to."
+    },
+    {
+      "no": 6,
+      "name": "FA Subclass Code",
+      "tooltip": "Specifies the subclass of the class that the fixed asset belongs to."
+    },
+    {
+      "no": 7,
+      "name": "Global Dimension 1 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Global Dimension 2 Code",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Location Code",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "FA Location Code",
+      "tooltip": "Specifies the location, such as a building, where the fixed asset is located."
+    },
+    {
+      "no": 11,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor from which you purchased this fixed asset."
+    },
+    {
+      "no": 12,
+      "name": "Main Asset/Component",
+      "tooltip": "Specifies if the fixed asset is a main fixed asset or a component of a fixed asset."
+    },
+    {
+      "no": 13,
+      "name": "Component of Main Asset",
+      "tooltip": "Specifies the number of the main fixed asset."
+    },
+    {
+      "no": 14,
+      "name": "Budgeted Asset",
+      "tooltip": "Specifies if the asset is for budgeting purposes."
+    },
+    {
+      "no": 15,
+      "name": "Warranty Date",
+      "tooltip": "Specifies the warranty expiration date of the fixed asset."
+    },
+    {
+      "no": 16,
+      "name": "Responsible Employee",
+      "tooltip": "Specifies which employee is responsible for the fixed asset."
+    },
+    {
+      "no": 17,
+      "name": "Serial No.",
+      "tooltip": "Specifies the fixed asset's serial number."
+    },
+    {
+      "no": 18,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the fixed asset card was last modified."
+    },
+    {
+      "no": 19,
+      "name": "Insured",
+      "tooltip": "Specifies that the fixed asset is linked to an insurance policy."
+    },
+    {
+      "no": 20,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Blocked",
+      "tooltip": "Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine."
+    },
+    {
+      "no": 23,
+      "name": "Maintenance Vendor No.",
+      "tooltip": "Specifies the number of the vendor who performs repairs and maintenance on the fixed asset."
+    },
+    {
+      "no": 24,
+      "name": "Under Maintenance",
+      "tooltip": "Specifies if the fixed asset is currently being repaired."
+    },
+    {
+      "no": 25,
+      "name": "Next Service Date",
+      "tooltip": "Specifies the next scheduled service date for the fixed asset. This is used as a filter in the Maintenance - Next Service report."
+    },
+    {
+      "no": 26,
+      "name": "Inactive",
+      "tooltip": "Specifies that the fixed asset is inactive (for example, if the asset is not in service or is obsolete)."
+    },
+    {
+      "no": 27,
+      "name": "FA Posting Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "FA Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Acquired",
+      "tooltip": "Specifies that the fixed asset has been acquired."
+    },
+    {
+      "no": 140,
+      "name": "Image",
+      "tooltip": "Specifies the picture that has been inserted for the fixed asset."
+    },
+    {
+      "no": 9001,
+      "name": "FA Location Id",
+      "tooltip": ""
+    },
+    {
+      "no": 9002,
+      "name": "Responsible Employee Id",
+      "tooltip": ""
+    }
+  ]
+}

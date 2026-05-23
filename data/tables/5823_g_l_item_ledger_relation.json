@@ -1,0 +1,23 @@
+{
+  "id": 5823,
+  "name": "G/L - Item Ledger Relation",
+  "slug": "5823_g_l_item_ledger_relation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "G/L Entry No.",
+      "tooltip": "Specifies the number of the general ledger entry where cost from the associated value entry number in this record is posted."
+    },
+    {
+      "no": 2,
+      "name": "Value Entry No.",
+      "tooltip": "Specifies the number of the value entry that has its cost posted in the associated general ledger entry in this record."
+    },
+    {
+      "no": 3,
+      "name": "G/L Register No.",
+      "tooltip": "Specifies the number of the general ledger register, where the general ledger entry in this record was posted."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 5415,
+  "name": "Prod. Order Rtng Comment Line",
+  "slug": "5415_prod_order_rtng_comment_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Routing No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Operation No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Date",
+      "tooltip": "Specifies the date."
+    },
+    {
+      "no": 12,
+      "name": "Comment",
+      "tooltip": "Specifies the actual comment text."
+    },
+    {
+      "no": 13,
+      "name": "Code",
+      "tooltip": "Specifies a code for the comment."
+    },
+    {
+      "no": 22,
+      "name": "Status",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Prod. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "Routing Reference No.",
+      "tooltip": ""
+    }
+  ]
+}

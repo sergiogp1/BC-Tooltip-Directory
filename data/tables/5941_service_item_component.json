@@ -1,0 +1,73 @@
+{
+  "id": 5941,
+  "name": "Service Item Component",
+  "slug": "5941_service_item_component",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Parent Service Item No.",
+      "tooltip": "Specifies the number of the service item in which the component is included."
+    },
+    {
+      "no": 3,
+      "name": "Line No.",
+      "tooltip": "Specifies the number of the line."
+    },
+    {
+      "no": 4,
+      "name": "Active",
+      "tooltip": "Specifies that the component is in use."
+    },
+    {
+      "no": 5,
+      "name": "Type",
+      "tooltip": "Specifies the component type."
+    },
+    {
+      "no": 6,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 7,
+      "name": "Date Installed",
+      "tooltip": "Specifies the date when the component was installed."
+    },
+    {
+      "no": 8,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 11,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of the component."
+    },
+    {
+      "no": 12,
+      "name": "Description",
+      "tooltip": "Specifies a description of the component."
+    },
+    {
+      "no": 13,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Service Order No.",
+      "tooltip": "Specifies the number of the service order under which this component was replaced."
+    },
+    {
+      "no": 16,
+      "name": "From Line No.",
+      "tooltip": "Specifies the line number assigned to the component when it was an active component of the service item."
+    },
+    {
+      "no": 17,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies the date when the component was last modified."
+    }
+  ]
+}

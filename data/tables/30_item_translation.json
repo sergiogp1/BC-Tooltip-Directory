@@ -1,0 +1,33 @@
+{
+  "id": 30,
+  "name": "Item Translation",
+  "slug": "30_item_translation",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number of the item on the card."
+    },
+    {
+      "no": 2,
+      "name": "Language Code",
+      "tooltip": "Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation."
+    },
+    {
+      "no": 3,
+      "name": "Description",
+      "tooltip": "Specifies the item description to use when this language code is selected."
+    },
+    {
+      "no": 4,
+      "name": "Description 2",
+      "tooltip": "Specifies more information about the item."
+    },
+    {
+      "no": 5400,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    }
+  ]
+}

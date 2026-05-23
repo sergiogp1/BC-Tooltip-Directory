@@ -1,0 +1,158 @@
+{
+  "id": 5856,
+  "name": "Direct Trans. Header",
+  "slug": "5856_direct_trans_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Transfer-from Code",
+      "tooltip": "Specifies the code of the location that items are transferred from."
+    },
+    {
+      "no": 3,
+      "name": "Transfer-from Name",
+      "tooltip": "Specifies the name of the sender at the location that the items are transferred from."
+    },
+    {
+      "no": 4,
+      "name": "Transfer-from Name 2",
+      "tooltip": "Specifies an additional part of the name of the sender at the location that the items are transferred from."
+    },
+    {
+      "no": 5,
+      "name": "Transfer-from Address",
+      "tooltip": "Specifies the address of the location that the items are transferred from."
+    },
+    {
+      "no": 6,
+      "name": "Transfer-from Address 2",
+      "tooltip": "Specifies an additional part of the address of the location that items are transferred from."
+    },
+    {
+      "no": 7,
+      "name": "Transfer-from Post Code",
+      "tooltip": "Specifies the post code of the location that the items are transferred from."
+    },
+    {
+      "no": 8,
+      "name": "Transfer-from City",
+      "tooltip": "Specifies the city of the location that the items are transferred from."
+    },
+    {
+      "no": 9,
+      "name": "Transfer-from County",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Trsf.-from Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Transfer-to Code",
+      "tooltip": "Specifies the code of the location that the items are transferred to."
+    },
+    {
+      "no": 12,
+      "name": "Transfer-to Name",
+      "tooltip": "Specifies the name of the recipient at the location that the items are transferred to."
+    },
+    {
+      "no": 13,
+      "name": "Transfer-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the recipient at the location that the items are transferred to."
+    },
+    {
+      "no": 14,
+      "name": "Transfer-to Address",
+      "tooltip": "Specifies the address of the location that the items are transferred to."
+    },
+    {
+      "no": 15,
+      "name": "Transfer-to Address 2",
+      "tooltip": "Specifies an additional part of the address of the location that the items are transferred to."
+    },
+    {
+      "no": 16,
+      "name": "Transfer-to Post Code",
+      "tooltip": "Specifies the postal code of the location that the items are transferred to."
+    },
+    {
+      "no": 17,
+      "name": "Transfer-to City",
+      "tooltip": "Specifies the city of the location that items are transferred to."
+    },
+    {
+      "no": 18,
+      "name": "Transfer-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Trsf.-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Transfer Order Date",
+      "tooltip": "Specifies the date when the transfer order was created."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 22,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Shortcut Dimension 1 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 24,
+      "name": "Shortcut Dimension 2 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 25,
+      "name": "Transfer Order No.",
+      "tooltip": "Specifies the number of the related transfer order."
+    },
+    {
+      "no": 26,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Transfer-from Contact",
+      "tooltip": "Specifies the name of the contact person at the location that the items are transferred from."
+    },
+    {
+      "no": 31,
+      "name": "Transfer-to Contact",
+      "tooltip": "Specifies the name of the contact person at the location that items are transferred to."
+    },
+    {
+      "no": 32,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": ""
+    }
+  ]
+}

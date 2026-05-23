@@ -1,0 +1,133 @@
+{
+  "id": 925,
+  "name": "Item Availability Buffer",
+  "slug": "925_item_availability_buffer",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Item No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Period Type",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Period Name",
+      "tooltip": "Specifies the type of period that item availability is shown for."
+    },
+    {
+      "no": 7,
+      "name": "Period Start",
+      "tooltip": "Specifies the first period that item availability is shown for."
+    },
+    {
+      "no": 8,
+      "name": "Period End",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Gross Requirement",
+      "tooltip": "Specifies the sum of the total demand for the item. The gross requirement consists of independent demand (which include sales orders, service orders, transfer orders, and, if specified on the page, demand forecasts) and dependent demand (which include production order components for planned, firm planned, and released production orders and requisition and planning worksheets lines)."
+    },
+    {
+      "no": 11,
+      "name": "Scheduled Receipt",
+      "tooltip": "Specifies the sum of items from replenishment orders."
+    },
+    {
+      "no": 12,
+      "name": "Planned Order Receipt",
+      "tooltip": "Specifies the item's availability figures for the planned order receipt."
+    },
+    {
+      "no": 13,
+      "name": "Projected Available Balance",
+      "tooltip": "Specifies the item's availability. This quantity includes all known supply and demand but does not include anticipated demand from demand forecasts or blanket sales orders or suggested supplies from planning or requisition worksheets."
+    },
+    {
+      "no": 14,
+      "name": "Inventory",
+      "tooltip": "Specifies the inventory level of an item."
+    },
+    {
+      "no": 15,
+      "name": "Qty. on Purch. Order",
+      "tooltip": "Specifies how many units of the item are inbound on purchase orders, meaning listed on outstanding purchase order lines."
+    },
+    {
+      "no": 16,
+      "name": "Qty. on Sales Order",
+      "tooltip": "Specifies how many units of the item are allocated to sales orders, meaning listed on outstanding sales orders lines."
+    },
+    {
+      "no": 17,
+      "name": "Qty. on Service Order",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "Qty. on Job Order",
+      "tooltip": "Specifies how many units of the item are allocated to projects, meaning listed on outstanding project planning lines. The field is automatically updated based on the Remaining Qty. field in the Project Planning Lines window."
+    },
+    {
+      "no": 19,
+      "name": "Trans. Ord. Shipment (Qty.)",
+      "tooltip": "Specifies the quantity of the items that remains to be shipped. The program calculates this quantity as the difference between the Quantity and the Quantity Shipped fields. It automatically updates the field each time you either update the Quantity or Quantity Shipped field."
+    },
+    {
+      "no": 20,
+      "name": "Qty. in Transit",
+      "tooltip": "Specifies the quantity of the items that are currently in transit."
+    },
+    {
+      "no": 21,
+      "name": "Trans. Ord. Receipt (Qty.)",
+      "tooltip": "Specifies the quantity of the items that remain to be received but are not yet shipped. The program calculates this quantity as the difference between the Quantity and the Quantity Shipped fields. It automatically updates the field each time you either update the Quantity or Quantity Shipped field."
+    },
+    {
+      "no": 22,
+      "name": "Qty. on Asm. Comp. Lines",
+      "tooltip": "Specifies how many units of the item are allocated to assembly component orders."
+    },
+    {
+      "no": 23,
+      "name": "Qty. on Assembly Order",
+      "tooltip": "Specifies how many units of the item are allocated to assembly orders, which is how many are listed on outstanding assembly order headers."
+    },
+    {
+      "no": 24,
+      "name": "Expected Inventory",
+      "tooltip": "Specifies how many units of the assembly component are expected to be available for the current assembly order on the due date."
+    },
+    {
+      "no": 25,
+      "name": "Available Inventory",
+      "tooltip": "Specifies the quantity of the item that is currently in inventory and not reserved for other demand."
+    },
+    {
+      "no": 26,
+      "name": "Scheduled Receipt (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "Scheduled Issue (Qty.)",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "Planned Order Releases",
+      "tooltip": "Specifies the sum of items from replenishment order proposals, which include planned production orders and planning or requisition worksheets lines, that are calculated according to the starting date in the planning worksheet and production order or the order date in the requisition worksheet. This sum is not included in the projected available inventory. However, it indicates which quantities should be converted from planned to scheduled receipts."
+    },
+    {
+      "no": 29,
+      "name": "Net Change",
+      "tooltip": "Specifies the net change in the inventory of the item during the period entered in the Date Filter field."
+    }
+  ]
+}

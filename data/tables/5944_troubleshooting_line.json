@@ -1,0 +1,23 @@
+{
+  "id": 5944,
+  "name": "Troubleshooting Line",
+  "slug": "5944_troubleshooting_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Comment",
+      "tooltip": "Specifies the troubleshooting comment or guidelines."
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "id": 5940,
+  "name": "Service Item",
+  "slug": "5940_service_item",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Serial No.",
+      "tooltip": "Specifies the serial number of this item."
+    },
+    {
+      "no": 3,
+      "name": "Service Item Group Code",
+      "tooltip": "Specifies the code of the service item group associated with this item."
+    },
+    {
+      "no": 4,
+      "name": "Description",
+      "tooltip": "Specifies a description of this item."
+    },
+    {
+      "no": 5,
+      "name": "Description 2",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Status",
+      "tooltip": "Specifies the status of the service item."
+    },
+    {
+      "no": 7,
+      "name": "Priority",
+      "tooltip": "Specifies the service priority for this item."
+    },
+    {
+      "no": 8,
+      "name": "Customer No.",
+      "tooltip": "Specifies the number of the customer who owns this item."
+    },
+    {
+      "no": 9,
+      "name": "Ship-to Code",
+      "tooltip": "Specifies a code for an alternate shipment address if you want to ship to another address than the one that has been entered automatically. This field is also used in case of drop shipment."
+    },
+    {
+      "no": 10,
+      "name": "Item No.",
+      "tooltip": "Specifies the item number linked to the service item."
+    },
+    {
+      "no": 11,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 12,
+      "name": "Location of Service Item",
+      "tooltip": "Specifies the code of the location of this item."
+    },
+    {
+      "no": 13,
+      "name": "Sales Unit Price",
+      "tooltip": "Specifies the unit price of this item when it was sold."
+    },
+    {
+      "no": 14,
+      "name": "Sales Unit Cost",
+      "tooltip": "Specifies the unit cost of this item when it was sold."
+    },
+    {
+      "no": 15,
+      "name": "Warranty Starting Date (Labor)",
+      "tooltip": "Specifies the starting date of the labor warranty for this item."
+    },
+    {
+      "no": 16,
+      "name": "Warranty Ending Date (Labor)",
+      "tooltip": "Specifies the ending date of the labor warranty for this item."
+    },
+    {
+      "no": 17,
+      "name": "Warranty Starting Date (Parts)",
+      "tooltip": "Specifies the starting date of the spare parts warranty for this item."
+    },
+    {
+      "no": 18,
+      "name": "Warranty Ending Date (Parts)",
+      "tooltip": "Specifies the ending date of the spare parts warranty for this item."
+    },
+    {
+      "no": 19,
+      "name": "Warranty % (Parts)",
+      "tooltip": "Specifies the percentage of spare parts costs covered by the warranty for the item."
+    },
+    {
+      "no": 20,
+      "name": "Warranty % (Labor)",
+      "tooltip": "Specifies the percentage of labor costs covered by the warranty for this item."
+    },
+    {
+      "no": 21,
+      "name": "Response Time (Hours)",
+      "tooltip": "Specifies the estimated number of hours this item requires before service on it should be started."
+    },
+    {
+      "no": 22,
+      "name": "Installation Date",
+      "tooltip": "Specifies the date when this item was installed at the customer's site."
+    },
+    {
+      "no": 23,
+      "name": "Sales Date",
+      "tooltip": "Specifies the date when this item was sold."
+    },
+    {
+      "no": 24,
+      "name": "Last Service Date",
+      "tooltip": "Specifies the date of the last service on this item."
+    },
+    {
+      "no": 25,
+      "name": "Default Contract Value",
+      "tooltip": "Specifies the default contract value of an item that later will be included in a service contract or contract quote."
+    },
+    {
+      "no": 26,
+      "name": "Default Contract Discount %",
+      "tooltip": "Specifies a default contract discount percentage for an item, if this item will be part of a service contract."
+    },
+    {
+      "no": 28,
+      "name": "No. of Active Contracts",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "Vendor No.",
+      "tooltip": "Specifies the number of the vendor for this item."
+    },
+    {
+      "no": 34,
+      "name": "Vendor Item No.",
+      "tooltip": "Specifies the number that the vendor uses for this item."
+    },
+    {
+      "no": 40,
+      "name": "Blocked",
+      "tooltip": "Specifies that the service item is blocked from being used in service contracts or used and posted in transactions via service documents, except credit memos."
+    },
+    {
+      "no": 47,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "Item Description",
+      "tooltip": "Specifies the description of the item that the service item is linked to."
+    },
+    {
+      "no": 49,
+      "name": "Name",
+      "tooltip": "Specifies the name of the customer who owns this item."
+    },
+    {
+      "no": 50,
+      "name": "Address",
+      "tooltip": "Specifies the address of the customer who owns this item."
+    },
+    {
+      "no": 51,
+      "name": "Address 2",
+      "tooltip": "Specifies additional address information."
+    },
+    {
+      "no": 52,
+      "name": "Post Code",
+      "tooltip": "Specifies the postal code."
+    },
+    {
+      "no": 53,
+      "name": "City",
+      "tooltip": "Specifies the city of the customer address."
+    },
+    {
+      "no": 54,
+      "name": "Contact",
+      "tooltip": "Specifies the name of the person you regularly contact when you do business with the customer who owns this item."
+    },
+    {
+      "no": 55,
+      "name": "Phone No.",
+      "tooltip": "Specifies the customer phone number."
+    },
+    {
+      "no": 56,
+      "name": "Ship-to Name",
+      "tooltip": "Specifies the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 57,
+      "name": "Ship-to Address",
+      "tooltip": "Specifies the address that the items are shipped to."
+    },
+    {
+      "no": 58,
+      "name": "Ship-to Address 2",
+      "tooltip": "Specifies an additional part of the ship-to address, in case it is a long address."
+    },
+    {
+      "no": 59,
+      "name": "Ship-to Post Code",
+      "tooltip": "Specifies the postal code of the address that the items are shipped to."
+    },
+    {
+      "no": 60,
+      "name": "Ship-to City",
+      "tooltip": "Specifies the city of the address that the items are shipped to."
+    },
+    {
+      "no": 61,
+      "name": "Ship-to Contact",
+      "tooltip": "Specifies the name of the contact person at the address that the items are shipped to."
+    },
+    {
+      "no": 62,
+      "name": "Ship-to Phone No.",
+      "tooltip": "Specifies the phone number at address that the items are shipped to."
+    },
+    {
+      "no": 63,
+      "name": "Usage (Cost)",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "Usage (Amount)",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "Invoiced Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 66,
+      "name": "Total Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 67,
+      "name": "Total Qty. Invoiced",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Resources Used",
+      "tooltip": ""
+    },
+    {
+      "no": 69,
+      "name": "Parts Used",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Cost Used",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Vendor Name",
+      "tooltip": "Specifies the vendor name for this item."
+    },
+    {
+      "no": 72,
+      "name": "Vendor Item Name",
+      "tooltip": "Specifies the name assigned to this item by the vendor."
+    },
+    {
+      "no": 73,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 74,
+      "name": "Service Item Components",
+      "tooltip": "Specifies that there is a component for this service item."
+    },
+    {
+      "no": 75,
+      "name": "Preferred Resource",
+      "tooltip": "Specifies the number of the resource that the customer prefers for servicing of the item."
+    },
+    {
+      "no": 76,
+      "name": "Variant Code",
+      "tooltip": "Specifies the variant of the item on the line."
+    },
+    {
+      "no": 77,
+      "name": "County",
+      "tooltip": "Specifies the state, province or county as a part of the address."
+    },
+    {
+      "no": 78,
+      "name": "Ship-to County",
+      "tooltip": ""
+    },
+    {
+      "no": 79,
+      "name": "Contract Cost",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Country/Region Code",
+      "tooltip": "Specifies the country/region of the address."
+    },
+    {
+      "no": 82,
+      "name": "Ship-to Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 83,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Ship-to Name 2",
+      "tooltip": "Specifies an additional part of the name of the customer at the address that the items are shipped to."
+    },
+    {
+      "no": 85,
+      "name": "Service Price Group Code",
+      "tooltip": "Specifies the code of the Service Price Group associated with this item."
+    },
+    {
+      "no": 86,
+      "name": "Default Contract Cost",
+      "tooltip": "Specifies the default contract cost of a service item that later will be included in a service contract or contract quote."
+    },
+    {
+      "no": 87,
+      "name": "Prepaid Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 88,
+      "name": "Search Description",
+      "tooltip": "Specifies an alternate description to search for the service item."
+    },
+    {
+      "no": 89,
+      "name": "Service Contracts",
+      "tooltip": "Specifies that this service item is associated with one or more service contracts/quotes."
+    },
+    {
+      "no": 90,
+      "name": "Total Qty. Consumed",
+      "tooltip": ""
+    },
+    {
+      "no": 100,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 101,
+      "name": "Type Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 102,
+      "name": "Contract Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 103,
+      "name": "Service Order Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 104,
+      "name": "Sales/Serv. Shpt. Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 105,
+      "name": "Sales/Serv. Shpt. Line No.",
+      "tooltip": ""
+    },
+    {
+      "no": 106,
+      "name": "Shipment Type",
+      "tooltip": ""
+    },
+    {
+      "no": 211,
+      "name": "Ship-to E-Mail",
+      "tooltip": ""
+    },
+    {
+      "no": 721,
+      "name": "Coupled to Dataverse",
+      "tooltip": ""
+    }
+  ]
+}

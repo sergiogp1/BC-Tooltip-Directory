@@ -1,0 +1,53 @@
+{
+  "id": 130400,
+  "name": "CAL Test Suite",
+  "slug": "130400_cal_test_suite",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Name",
+      "tooltip": "Specifies the name of the test suite."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "Tests to Execute",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Tests not Executed",
+      "tooltip": ""
+    },
+    {
+      "no": 5,
+      "name": "Failures",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Last Run",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "Export",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "Attachment",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "Update Test Coverage Map",
+      "tooltip": ""
+    }
+  ]
+}

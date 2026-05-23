@@ -1,0 +1,53 @@
+{
+  "id": 443,
+  "name": "IC Setup",
+  "slug": "443_ic_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Primary Key",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "IC Partner Code",
+      "tooltip": "Specifies your company's intercompany partner code."
+    },
+    {
+      "no": 3,
+      "name": "IC Inbox Type",
+      "tooltip": "Specifies what type of intercompany inbox you have, either File Location or Database."
+    },
+    {
+      "no": 4,
+      "name": "IC Inbox Details",
+      "tooltip": "Specifies details about the location of your intercompany inbox, which can transfer intercompany transactions into your company."
+    },
+    {
+      "no": 5,
+      "name": "Auto. Send Transactions",
+      "tooltip": "Specifies that as soon as transactions arrive in the intercompany outbox, they will be sent to the intercompany partner."
+    },
+    {
+      "no": 6,
+      "name": "Default IC Gen. Jnl. Template",
+      "tooltip": "Specifies the journal template name that will be used to create journal lines as soon as transactions arrive in the intercompany inbox."
+    },
+    {
+      "no": 7,
+      "name": "Default IC Gen. Jnl. Batch",
+      "tooltip": "Specifies the journal batch that will be used to create journal lines as soon as transactions arrive in the intercompany inbox."
+    },
+    {
+      "no": 8,
+      "name": "Partner Code for Acc. Syn.",
+      "tooltip": "Specifies the partner code with which you want to synchronize the intercompany dimensions."
+    },
+    {
+      "no": 9,
+      "name": "Transaction Notifications",
+      "tooltip": "Specifies whether the system should send you notifications when a new transaction is sent to the intercompany outbox."
+    }
+  ]
+}

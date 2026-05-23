@@ -1,0 +1,48 @@
+{
+  "id": 322,
+  "name": "Tax Detail",
+  "slug": "322_tax_detail",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Tax Jurisdiction Code",
+      "tooltip": "Specifies the tax jurisdiction code for the tax-detail entry."
+    },
+    {
+      "no": 2,
+      "name": "Tax Group Code",
+      "tooltip": "Specifies the tax group code for the tax-detail entry."
+    },
+    {
+      "no": 3,
+      "name": "Tax Type",
+      "tooltip": "Specifies the type of tax (Sales Tax or Excise Tax) that applies to the tax-detail entry."
+    },
+    {
+      "no": 4,
+      "name": "Maximum Amount/Qty.",
+      "tooltip": "Specifies a maximum amount or quantity. The program finds the appropriate tax percentage in either the Tax Below Maximum or the Tax Above Maximum field."
+    },
+    {
+      "no": 5,
+      "name": "Tax Below Maximum",
+      "tooltip": "Specifies the percentage that will be used to calculate tax for all amounts or quantities below the maximum amount quantity in the Maximum Amount/Qty. field."
+    },
+    {
+      "no": 6,
+      "name": "Tax Above Maximum",
+      "tooltip": "Specifies the percentage that will be used to calculate tax for all amounts or quantities above the maximum amount quantity in the Maximum Amount/Qty. field."
+    },
+    {
+      "no": 7,
+      "name": "Effective Date",
+      "tooltip": "Specifies a date on which the tax-detail entry will go into effect. This allows you to set up tax details in advance."
+    },
+    {
+      "no": 8,
+      "name": "Calculate Tax on Tax",
+      "tooltip": ""
+    }
+  ]
+}

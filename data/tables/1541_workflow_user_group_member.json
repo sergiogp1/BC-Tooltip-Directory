@@ -1,0 +1,23 @@
+{
+  "id": 1541,
+  "name": "Workflow User Group Member",
+  "slug": "1541_workflow_user_group_member",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Workflow User Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "User Name",
+      "tooltip": "Specifies the name of the workflow user."
+    },
+    {
+      "no": 3,
+      "name": "Sequence No.",
+      "tooltip": "Specifies the order of approvers when an approval workflow involves more than one approver."
+    }
+  ]
+}

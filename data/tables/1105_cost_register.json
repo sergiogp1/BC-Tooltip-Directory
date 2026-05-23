@@ -1,0 +1,93 @@
+{
+  "id": 1105,
+  "name": "Cost Register",
+  "slug": "1105_cost_register",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 2,
+      "name": "Source",
+      "tooltip": "Specifies the source for the cost register."
+    },
+    {
+      "no": 3,
+      "name": "Text",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "From G/L Entry No.",
+      "tooltip": "Specifies the first general ledger entry number when the cost posting is transferred from the general ledger."
+    },
+    {
+      "no": 5,
+      "name": "To G/L Entry No.",
+      "tooltip": "Specifies the number of the end of the range that applies to the cost registered."
+    },
+    {
+      "no": 6,
+      "name": "From Cost Entry No.",
+      "tooltip": "Specifies the first cost entry number in the cost register."
+    },
+    {
+      "no": 7,
+      "name": "To Cost Entry No.",
+      "tooltip": "Specifies the number of the start of the range that applies to the cost registered."
+    },
+    {
+      "no": 8,
+      "name": "No. of Entries",
+      "tooltip": "Specifies the number of entries in the cost register."
+    },
+    {
+      "no": 15,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 16,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 20,
+      "name": "Processed Date",
+      "tooltip": "Specifies when the cost register was last updated."
+    },
+    {
+      "no": 21,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 23,
+      "name": "Closed",
+      "tooltip": "Specifies whether or not the cost has been closed."
+    },
+    {
+      "no": 25,
+      "name": "Level",
+      "tooltip": "Specifies by which level the cost allocation posting is done. For example, this makes sure that costs are allocated at level 1 from the ADM cost center to the WORKSHOP and PROD cost centers, before they are allocated at level 2 from the PROD cost center to the FURNITURE, CHAIRS, and PAINT cost objects."
+    },
+    {
+      "no": 26,
+      "name": "Posting Time",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 32,
+      "name": "Journal Batch Name",
+      "tooltip": "Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from."
+    }
+  ]
+}

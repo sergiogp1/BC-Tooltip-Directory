@@ -1,0 +1,53 @@
+{
+  "id": 1006,
+  "name": "Job WIP Method",
+  "slug": "1006_job_wip_method",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code for the Project WIP Method. There are system-defined codes. In addition, you can create a Project WIP Method, and the code for it is in the list of Project WIP Methods."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the project WIP method. If the WIP method is system-defined, you cannot edit the description."
+    },
+    {
+      "no": 3,
+      "name": "WIP Cost",
+      "tooltip": "Specifies if the Project Costs Applied and Recognized Costs are posted to the general ledger. For system defined WIP methods, the WIP Cost field is always enabled. For WIP methods that you create, you can only clear the check box if you set Recognized Costs to Usage (Total Cost)."
+    },
+    {
+      "no": 4,
+      "name": "WIP Sales",
+      "tooltip": "Specifies if the contract (invoiced price) is posted to the general ledger. For system-defined WIP methods, the WIP Sales field is the default and is checked. For WIP methods that you create, you can only clear the check box if you set Recognized Sales to Contract (Invoiced Price)."
+    },
+    {
+      "no": 5,
+      "name": "Recognized Costs",
+      "tooltip": "Specifies a Recognized Cost option to apply when creating a calculation method for WIP. You must select one of the five options:"
+    },
+    {
+      "no": 6,
+      "name": "Recognized Sales",
+      "tooltip": "Specifies a Recognized Sales option to apply when creating a calculation method for WIP. You must select one of the six options:"
+    },
+    {
+      "no": 7,
+      "name": "Valid",
+      "tooltip": "Specifies whether a WIP method can be associated with a project when you are creating or modifying a project. If you select this check box in the Project WIP Methods window, you can then set the method as a default WIP method in the Projects Setup window."
+    },
+    {
+      "no": 8,
+      "name": "System Defined",
+      "tooltip": "Specifies whether a Project WIP Method is system-defined."
+    },
+    {
+      "no": 9,
+      "name": "System-Defined Index",
+      "tooltip": ""
+    }
+  ]
+}

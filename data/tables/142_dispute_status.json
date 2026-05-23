@@ -1,0 +1,23 @@
+{
+  "id": 142,
+  "name": "Dispute Status",
+  "slug": "142_dispute_status",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies a dispute status code that you can select."
+    },
+    {
+      "no": 5,
+      "name": "Description",
+      "tooltip": "Specifies an explanation of the dispute status."
+    },
+    {
+      "no": 10,
+      "name": "Overwrite on hold",
+      "tooltip": "Specifies if this dispute status should update the on hold value on the corresponding customer ledger entry."
+    }
+  ]
+}

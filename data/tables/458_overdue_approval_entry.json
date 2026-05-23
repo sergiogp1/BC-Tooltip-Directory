@@ -1,0 +1,83 @@
+{
+  "id": 458,
+  "name": "Overdue Approval Entry",
+  "slug": "458_overdue_approval_entry",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Table ID",
+      "tooltip": "Specifies the ID of the table where the record that is subject to approval is stored."
+    },
+    {
+      "no": 2,
+      "name": "Document Type",
+      "tooltip": "Specifies the type of document that an approval entry has been created for. Approval entries can be created for six different types of sales or purchase documents:"
+    },
+    {
+      "no": 3,
+      "name": "Document No.",
+      "tooltip": "Specifies the number of the document that was sent for approval. The number is copied from the relevant sales or purchase document, such as a purchase order or a sales quote."
+    },
+    {
+      "no": 4,
+      "name": "Sent to ID",
+      "tooltip": "Specifies the ID of the user who sent the mail notifying the approver that they has document approvals that are overdue."
+    },
+    {
+      "no": 5,
+      "name": "Sent Time",
+      "tooltip": "Specifies the time when the overdue notification mail was sent to the approver who should approve the document."
+    },
+    {
+      "no": 6,
+      "name": "Sent Date",
+      "tooltip": "Specifies the date when the overdue notification mail was sent to the approver who should approve the document."
+    },
+    {
+      "no": 7,
+      "name": "E-Mail",
+      "tooltip": "Specifies the email address of the user to whom the overdue notification was sent."
+    },
+    {
+      "no": 8,
+      "name": "Sent to Name",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Sequence No.",
+      "tooltip": "Specifies the order of approvers when an approval workflow involves more than one approver."
+    },
+    {
+      "no": 10,
+      "name": "Due Date",
+      "tooltip": "Specifies the date when the document is due for approval."
+    },
+    {
+      "no": 11,
+      "name": "Approver ID",
+      "tooltip": "Specifies the ID of the user who must approve the document."
+    },
+    {
+      "no": 12,
+      "name": "Approval Code",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Approval Type",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Limit Type",
+      "tooltip": ""
+    },
+    {
+      "no": 15,
+      "name": "Record ID to Approve",
+      "tooltip": ""
+    }
+  ]
+}

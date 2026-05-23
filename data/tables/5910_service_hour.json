@@ -1,0 +1,43 @@
+{
+  "id": 5910,
+  "name": "Service Hour",
+  "slug": "5910_service_hour",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Service Contract No.",
+      "tooltip": "Specifies the number of the service contract to which the service hours apply."
+    },
+    {
+      "no": 2,
+      "name": "Starting Date",
+      "tooltip": "Specifies the date when the service hours become valid."
+    },
+    {
+      "no": 3,
+      "name": "Day",
+      "tooltip": "Specifies the day when the service hours are valid."
+    },
+    {
+      "no": 4,
+      "name": "Starting Time",
+      "tooltip": "Specifies the starting time of the service hours."
+    },
+    {
+      "no": 5,
+      "name": "Ending Time",
+      "tooltip": "Specifies the ending time of the service hours."
+    },
+    {
+      "no": 6,
+      "name": "Valid on Holidays",
+      "tooltip": "Specifies that service hours are valid on holidays."
+    },
+    {
+      "no": 7,
+      "name": "Service Contract Type",
+      "tooltip": ""
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": 1570,
+  "name": "G/L Entry Posting Preview",
+  "slug": "1570_g_l_entry_posting_preview",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "G/L Account No.",
+      "tooltip": "Specifies the number of the account that the entry has been posted to."
+    },
+    {
+      "no": 4,
+      "name": "Posting Date",
+      "tooltip": "Specifies the entry's posting date."
+    },
+    {
+      "no": 5,
+      "name": "Document Type",
+      "tooltip": "Specifies the Document Type that the entry belongs to."
+    },
+    {
+      "no": 6,
+      "name": "Document No.",
+      "tooltip": "Specifies the entry's Document No."
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": "Specifies a description of the entry or record."
+    },
+    {
+      "no": 10,
+      "name": "Bal. Account No.",
+      "tooltip": "Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases."
+    },
+    {
+      "no": 17,
+      "name": "Amount",
+      "tooltip": "Specifies the Amount of the entry."
+    },
+    {
+      "no": 23,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 24,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 27,
+      "name": "User ID",
+      "tooltip": "Specifies the ID of the user who posted the entry, to be used, for example, in the change log."
+    },
+    {
+      "no": 28,
+      "name": "Source Code",
+      "tooltip": "Specifies the source code that specifies where the entry was created."
+    },
+    {
+      "no": 29,
+      "name": "System-Created Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Prior-Year Entry",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Job No.",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is included in the total amount."
+    },
+    {
+      "no": 45,
+      "name": "Business Unit Code",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "Journal Batch Name",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Reason Code",
+      "tooltip": "Specifies the reason code, a supplementary source code that enables you to trace the entry."
+    },
+    {
+      "no": 48,
+      "name": "Gen. Posting Type",
+      "tooltip": "Specifies the type of transaction."
+    },
+    {
+      "no": 49,
+      "name": "Gen. Bus. Posting Group",
+      "tooltip": "Specifies the vendor's or customer's trade type to link transactions made for this business partner with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 50,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 51,
+      "name": "Bal. Account Type",
+      "tooltip": "Specifies the type of account that a balancing entry is posted to, such as BANK for a cash account."
+    },
+    {
+      "no": 52,
+      "name": "Transaction No.",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "Debit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent debits."
+    },
+    {
+      "no": 54,
+      "name": "Credit Amount",
+      "tooltip": "Specifies the total of the ledger entries that represent credits."
+    },
+    {
+      "no": 55,
+      "name": "Document Date",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "External Document No.",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "Source Type",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "Source No.",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "Tax Area Code",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "Tax Liable",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 63,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 64,
+      "name": "VAT Bus. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 65,
+      "name": "VAT Prod. Posting Group",
+      "tooltip": ""
+    },
+    {
+      "no": 68,
+      "name": "Additional-Currency Amount",
+      "tooltip": "Specifies the general ledger entry that is posted if you post in an additional reporting currency."
+    },
+    {
+      "no": 69,
+      "name": "Add.-Currency Debit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 70,
+      "name": "Add.-Currency Credit Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 71,
+      "name": "Close Income Statement Dim. ID",
+      "tooltip": ""
+    },
+    {
+      "no": 72,
+      "name": "IC Partner Code",
+      "tooltip": ""
+    },
+    {
+      "no": 73,
+      "name": "Reversed",
+      "tooltip": "Specifies if the entry has been part of a reverse transaction (correction) made by the Reverse function."
+    },
+    {
+      "no": 74,
+      "name": "Reversed by Entry No.",
+      "tooltip": "Specifies the number of the correcting entry. If the field Specifies a number, the entry cannot be reversed again."
+    },
+    {
+      "no": 75,
+      "name": "Reversed Entry No.",
+      "tooltip": "Specifies the number of the original entry that was undone by the reverse transaction."
+    },
+    {
+      "no": 76,
+      "name": "G/L Account Name",
+      "tooltip": "Specifies the name of the account that the entry has been posted to."
+    },
+    {
+      "no": 480,
+      "name": "Dimension Set ID",
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table."
+    },
+    {
+      "no": 481,
+      "name": "Shortcut Dimension 3 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 482,
+      "name": "Shortcut Dimension 4 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 483,
+      "name": "Shortcut Dimension 5 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 484,
+      "name": "Shortcut Dimension 6 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 485,
+      "name": "Shortcut Dimension 7 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 486,
+      "name": "Shortcut Dimension 8 Code",
+      "tooltip": "Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window."
+    },
+    {
+      "no": 495,
+      "name": "Last Dim. Correction Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 496,
+      "name": "Last Dim. Correction Node",
+      "tooltip": ""
+    },
+    {
+      "no": 497,
+      "name": "Dimension Changes Count",
+      "tooltip": ""
+    },
+    {
+      "no": 1570,
+      "name": "Indentation",
+      "tooltip": ""
+    },
+    {
+      "no": 1571,
+      "name": "G/L Entry No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5400,
+      "name": "Prod. Order No.",
+      "tooltip": ""
+    },
+    {
+      "no": 5600,
+      "name": "FA Entry Type",
+      "tooltip": "Specifies the number of the fixed asset entry."
+    },
+    {
+      "no": 5601,
+      "name": "FA Entry No.",
+      "tooltip": "Specifies the number of the fixed asset entry."
+    },
+    {
+      "no": 5618,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 8001,
+      "name": "Account Id",
+      "tooltip": ""
+    },
+    {
+      "no": 8005,
+      "name": "Last Modified DateTime",
+      "tooltip": ""
+    }
+  ]
+}

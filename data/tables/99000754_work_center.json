@@ -1,0 +1,253 @@
+{
+  "id": 99000754,
+  "name": "Work Center",
+  "slug": "99000754_work_center",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "No.",
+      "tooltip": "Specifies the number of the involved entry or record, according to the specified number series."
+    },
+    {
+      "no": 3,
+      "name": "Name",
+      "tooltip": "Specifies the name of the work center."
+    },
+    {
+      "no": 4,
+      "name": "Search Name",
+      "tooltip": "Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field."
+    },
+    {
+      "no": 5,
+      "name": "Name 2",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "Address",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Address 2",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "City",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "Post Code",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Alternate Work Center",
+      "tooltip": "Specifies an alternate work center."
+    },
+    {
+      "no": 14,
+      "name": "Work Center Group Code",
+      "tooltip": "Specifies the work center group, if the work center or underlying machine center is assigned to a work center group."
+    },
+    {
+      "no": 16,
+      "name": "Global Dimension 1 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 17,
+      "name": "Global Dimension 2 Code",
+      "tooltip": "Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists."
+    },
+    {
+      "no": 18,
+      "name": "Subcontractor No.",
+      "tooltip": "Specifies the number of a subcontractor who supplies this work center."
+    },
+    {
+      "no": 19,
+      "name": "Direct Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the selected item or resource."
+    },
+    {
+      "no": 20,
+      "name": "Indirect Cost %",
+      "tooltip": "Specifies the percentage of the center's cost that includes indirect costs, such as machine maintenance."
+    },
+    {
+      "no": 21,
+      "name": "Unit Cost",
+      "tooltip": "Specifies the cost of one unit of the item or resource on the line."
+    },
+    {
+      "no": 22,
+      "name": "Queue Time",
+      "tooltip": "Specifies the queue time of the work center."
+    },
+    {
+      "no": 23,
+      "name": "Queue Time Unit of Meas. Code",
+      "tooltip": "Specifies the queue time unit of measure code."
+    },
+    {
+      "no": 26,
+      "name": "Last Date Modified",
+      "tooltip": "Specifies when the work center card was last modified."
+    },
+    {
+      "no": 27,
+      "name": "Comment",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "Unit of Measure Code",
+      "tooltip": "Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted."
+    },
+    {
+      "no": 31,
+      "name": "Capacity",
+      "tooltip": "Specifies the capacity of the work center."
+    },
+    {
+      "no": 32,
+      "name": "Efficiency",
+      "tooltip": "Specifies the efficiency factor as a percentage of the work center."
+    },
+    {
+      "no": 33,
+      "name": "Maximum Efficiency",
+      "tooltip": "Specifies the maximum efficiency factor of the work center."
+    },
+    {
+      "no": 34,
+      "name": "Minimum Efficiency",
+      "tooltip": "Specifies the minimum efficiency factor of the work center."
+    },
+    {
+      "no": 35,
+      "name": "Calendar Rounding Precision",
+      "tooltip": "Specifies how calendar entries are rounded, such as whether minutes are rounded to hours."
+    },
+    {
+      "no": 36,
+      "name": "Simulation Type",
+      "tooltip": "Specifies the simulation type for the work center."
+    },
+    {
+      "no": 37,
+      "name": "Shop Calendar Code",
+      "tooltip": "Specifies the shop calendar code that the planning of this work center refers to."
+    },
+    {
+      "no": 38,
+      "name": "Blocked",
+      "tooltip": "Specifies whether the work center is blocked from being posted in transactions, for example, if the machine center is out of order."
+    },
+    {
+      "no": 39,
+      "name": "Date Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "Work Shift Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "Capacity (Total)",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "Capacity (Effective)",
+      "tooltip": "Specifies the effective available capacity of the work center."
+    },
+    {
+      "no": 44,
+      "name": "Prod. Order Need (Qty.)",
+      "tooltip": "Specifies the calculated capacity requirements for production orders at this work center."
+    },
+    {
+      "no": 45,
+      "name": "Prod. Order Need Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "Prod. Order Status Filter",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "Unit Cost Calculation",
+      "tooltip": "Specifies the unit cost calculation that is to be made."
+    },
+    {
+      "no": 51,
+      "name": "Specific Unit Cost",
+      "tooltip": "Specifies where to define the unit costs. If you place a check mark in this field, you can define the unit costs on the routing line. This allows you to have individual costs on every routing line. This is useful for subcontracting operations with varying rates."
+    },
+    {
+      "no": 52,
+      "name": "Consolidated Calendar",
+      "tooltip": "Specifies whether the consolidated calendar is used."
+    },
+    {
+      "no": 53,
+      "name": "Flushing Method",
+      "tooltip": "Specifies the method to use to calculate and handle output at the work center. Manual: Output must be posted manually by using the output journal. Forward: Output is automatically calculated and posted when you change the status of a simulated, planned (or firm planned) production order to Released. You can still post output manually from the output journal. Backward: Output is automatically calculated and posted when you change the status of a released production order to Finished or when the last operation is finished. You can still post output manually from the output journal. The setting you make in this field is copied to the Flushing Method field on the production order routing line according to the machine/work center of the master routing, but you can change the field for an individual production order to allow a different output (or consumption) posting of that order."
+    },
+    {
+      "no": 80,
+      "name": "No. Series",
+      "tooltip": ""
+    },
+    {
+      "no": 81,
+      "name": "Overhead Rate",
+      "tooltip": "Specifies the overhead rate of this work center."
+    },
+    {
+      "no": 82,
+      "name": "Gen. Prod. Posting Group",
+      "tooltip": "Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup."
+    },
+    {
+      "no": 83,
+      "name": "County",
+      "tooltip": ""
+    },
+    {
+      "no": 84,
+      "name": "Country/Region Code",
+      "tooltip": ""
+    },
+    {
+      "no": 7300,
+      "name": "Location Code",
+      "tooltip": "Specifies the location where the work center operates by default."
+    },
+    {
+      "no": 7301,
+      "name": "Open Shop Floor Bin Code",
+      "tooltip": "Specifies the bin that functions as the default open shop floor bin at the work center."
+    },
+    {
+      "no": 7302,
+      "name": "To-Production Bin Code",
+      "tooltip": "Specifies the bin in the production area where components that are picked for production are placed by default before they can be consumed."
+    },
+    {
+      "no": 7303,
+      "name": "From-Production Bin Code",
+      "tooltip": "Specifies the bin in the production area where finished end items are taken by default when the process involves warehouse activity."
+    }
+  ]
+}

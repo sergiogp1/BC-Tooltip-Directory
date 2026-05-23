@@ -1,0 +1,143 @@
+{
+  "id": 290,
+  "name": "VAT Amount Line",
+  "slug": "290_vat_amount_line",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "VAT %",
+      "tooltip": "Specifies the VAT % that was used on the sales or purchase lines with this VAT Identifier."
+    },
+    {
+      "no": 2,
+      "name": "VAT Base",
+      "tooltip": "Specifies the total net amount (amount excluding VAT) for sales or purchase lines with a specific VAT Identifier."
+    },
+    {
+      "no": 3,
+      "name": "VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is included in the total amount."
+    },
+    {
+      "no": 4,
+      "name": "Amount Including VAT",
+      "tooltip": "Specifies the total of the amounts, including VAT, on all the lines on the document."
+    },
+    {
+      "no": 5,
+      "name": "VAT Identifier",
+      "tooltip": "Specifies the contents of this field from the VAT Identifier field in the VAT Posting Setup table."
+    },
+    {
+      "no": 6,
+      "name": "Line Amount",
+      "tooltip": "Specifies the net VAT amount that must be paid for products on the line."
+    },
+    {
+      "no": 7,
+      "name": "Inv. Disc. Base Amount",
+      "tooltip": "Specifies the invoice discount base amount."
+    },
+    {
+      "no": 8,
+      "name": "Invoice Discount Amount",
+      "tooltip": "Specifies the invoice discount amount for a specific VAT identifier."
+    },
+    {
+      "no": 9,
+      "name": "VAT Calculation Type",
+      "tooltip": "Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group."
+    },
+    {
+      "no": 10,
+      "name": "Tax Group Code",
+      "tooltip": ""
+    },
+    {
+      "no": 11,
+      "name": "Quantity",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "Modified",
+      "tooltip": ""
+    },
+    {
+      "no": 13,
+      "name": "Use Tax",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "Calculated VAT Amount",
+      "tooltip": "Specifies the calculated VAT amount and is only used for reference when the user changes the VAT Amount manually."
+    },
+    {
+      "no": 15,
+      "name": "VAT Difference",
+      "tooltip": "Specifies the difference between the calculated VAT amount and a VAT amount that you have entered manually."
+    },
+    {
+      "no": 16,
+      "name": "Positive",
+      "tooltip": ""
+    },
+    {
+      "no": 17,
+      "name": "Includes Prepayment",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "VAT Clause Code",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "Tax Category",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "Pmt. Discount Amount",
+      "tooltip": ""
+    },
+    {
+      "no": 6200,
+      "name": "Non-Deductible VAT %",
+      "tooltip": ""
+    },
+    {
+      "no": 6201,
+      "name": "Non-Deductible VAT Base",
+      "tooltip": "Specifies the amount of the transaction for which VAT is not applied due to the type of goods or services purchased."
+    },
+    {
+      "no": 6202,
+      "name": "Non-Deductible VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is not deducted due to the type of goods or services purchased."
+    },
+    {
+      "no": 6203,
+      "name": "Calc. Non-Ded. VAT Amount",
+      "tooltip": "Specifies the calculated Non-Deductible VAT amount and is only used for reference when the user changes the Non-Deductible VAT Amount manually."
+    },
+    {
+      "no": 6204,
+      "name": "Deductible VAT Base",
+      "tooltip": "Specifies the amount of the transaction for which VAT is applied due to the type of goods or services purchased."
+    },
+    {
+      "no": 6205,
+      "name": "Deductible VAT Amount",
+      "tooltip": "Specifies the amount of VAT that is deducted due to the type of goods or services purchased."
+    },
+    {
+      "no": 6206,
+      "name": "Non-Deductible VAT Diff.",
+      "tooltip": ""
+    }
+  ]
+}

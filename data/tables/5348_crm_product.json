@@ -1,0 +1,318 @@
+{
+  "id": 5348,
+  "name": "CRM Product",
+  "slug": "5348_crm_product",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "ProductId",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "DefaultUoMScheduleId",
+      "tooltip": ""
+    },
+    {
+      "no": 3,
+      "name": "OrganizationId",
+      "tooltip": ""
+    },
+    {
+      "no": 4,
+      "name": "Name",
+      "tooltip": "Specifies the name of the record."
+    },
+    {
+      "no": 5,
+      "name": "DefaultUoMId",
+      "tooltip": ""
+    },
+    {
+      "no": 6,
+      "name": "PriceLevelId",
+      "tooltip": ""
+    },
+    {
+      "no": 7,
+      "name": "Description",
+      "tooltip": ""
+    },
+    {
+      "no": 8,
+      "name": "ProductTypeCode",
+      "tooltip": ""
+    },
+    {
+      "no": 9,
+      "name": "ProductUrl",
+      "tooltip": ""
+    },
+    {
+      "no": 10,
+      "name": "Price",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 11,
+      "name": "IsKit",
+      "tooltip": ""
+    },
+    {
+      "no": 12,
+      "name": "ProductNumber",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 13,
+      "name": "Size",
+      "tooltip": ""
+    },
+    {
+      "no": 14,
+      "name": "CurrentCost",
+      "tooltip": "Specifies the item's unit cost."
+    },
+    {
+      "no": 15,
+      "name": "StockVolume",
+      "tooltip": ""
+    },
+    {
+      "no": 16,
+      "name": "StandardCost",
+      "tooltip": "Specifies information related to the Dynamics 365 Sales connection."
+    },
+    {
+      "no": 17,
+      "name": "StockWeight",
+      "tooltip": ""
+    },
+    {
+      "no": 18,
+      "name": "QuantityDecimal",
+      "tooltip": ""
+    },
+    {
+      "no": 19,
+      "name": "QuantityOnHand",
+      "tooltip": ""
+    },
+    {
+      "no": 20,
+      "name": "IsStockItem",
+      "tooltip": ""
+    },
+    {
+      "no": 21,
+      "name": "SupplierName",
+      "tooltip": ""
+    },
+    {
+      "no": 22,
+      "name": "VendorName",
+      "tooltip": ""
+    },
+    {
+      "no": 23,
+      "name": "VendorPartNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 24,
+      "name": "CreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 25,
+      "name": "ModifiedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 26,
+      "name": "CreatedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 27,
+      "name": "StateCode",
+      "tooltip": ""
+    },
+    {
+      "no": 28,
+      "name": "ModifiedBy",
+      "tooltip": ""
+    },
+    {
+      "no": 29,
+      "name": "StatusCode",
+      "tooltip": ""
+    },
+    {
+      "no": 30,
+      "name": "VersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 31,
+      "name": "DefaultUoMIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 32,
+      "name": "DefaultUoMScheduleIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 33,
+      "name": "PriceLevelIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 34,
+      "name": "CreatedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 35,
+      "name": "ModifiedByName",
+      "tooltip": ""
+    },
+    {
+      "no": 36,
+      "name": "OrganizationIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 37,
+      "name": "OverriddenCreatedOn",
+      "tooltip": ""
+    },
+    {
+      "no": 38,
+      "name": "TransactionCurrencyId",
+      "tooltip": ""
+    },
+    {
+      "no": 39,
+      "name": "ExchangeRate",
+      "tooltip": ""
+    },
+    {
+      "no": 40,
+      "name": "UTCConversionTimeZoneCode",
+      "tooltip": ""
+    },
+    {
+      "no": 41,
+      "name": "ImportSequenceNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 42,
+      "name": "TimeZoneRuleVersionNumber",
+      "tooltip": ""
+    },
+    {
+      "no": 43,
+      "name": "TransactionCurrencyIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 44,
+      "name": "CurrentCost_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 45,
+      "name": "Price_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 46,
+      "name": "StandardCost_Base",
+      "tooltip": ""
+    },
+    {
+      "no": 47,
+      "name": "CreatedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 48,
+      "name": "CreatedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 49,
+      "name": "ModifiedOnBehalfBy",
+      "tooltip": ""
+    },
+    {
+      "no": 50,
+      "name": "ModifiedOnBehalfByName",
+      "tooltip": ""
+    },
+    {
+      "no": 51,
+      "name": "EntityImageId",
+      "tooltip": ""
+    },
+    {
+      "no": 52,
+      "name": "ProcessId",
+      "tooltip": ""
+    },
+    {
+      "no": 53,
+      "name": "StageId",
+      "tooltip": ""
+    },
+    {
+      "no": 54,
+      "name": "ParentProductId",
+      "tooltip": ""
+    },
+    {
+      "no": 55,
+      "name": "ParentProductIdName",
+      "tooltip": ""
+    },
+    {
+      "no": 56,
+      "name": "ProductStructure",
+      "tooltip": ""
+    },
+    {
+      "no": 57,
+      "name": "VendorID",
+      "tooltip": ""
+    },
+    {
+      "no": 58,
+      "name": "TraversedPath",
+      "tooltip": ""
+    },
+    {
+      "no": 59,
+      "name": "ValidFromDate",
+      "tooltip": ""
+    },
+    {
+      "no": 60,
+      "name": "ValidToDate",
+      "tooltip": ""
+    },
+    {
+      "no": 61,
+      "name": "HierarchyPath",
+      "tooltip": ""
+    },
+    {
+      "no": 62,
+      "name": "CompanyId",
+      "tooltip": ""
+    }
+  ]
+}

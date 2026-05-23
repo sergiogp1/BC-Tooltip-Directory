@@ -1,0 +1,18 @@
+{
+  "id": 745,
+  "name": "VAT Report Error Log",
+  "slug": "745_vat_report_error_log",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Entry No.",
+      "tooltip": "Specifies the number of the entry, as assigned from the specified number series when the entry was created."
+    },
+    {
+      "no": 2,
+      "name": "Error Message",
+      "tooltip": "Specifies the error message that is the result of validating a VAT report."
+    }
+  ]
+}

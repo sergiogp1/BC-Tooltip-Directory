@@ -1,0 +1,33 @@
+{
+  "id": 5087,
+  "name": "Profile Questionnaire Header",
+  "slug": "5087_profile_questionnaire_header",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Code",
+      "tooltip": "Specifies the code of the profile questionnaire."
+    },
+    {
+      "no": 2,
+      "name": "Description",
+      "tooltip": "Specifies the description of the profile questionnaire."
+    },
+    {
+      "no": 3,
+      "name": "Contact Type",
+      "tooltip": "Specifies the type of contact you want to use this profile questionnaire for."
+    },
+    {
+      "no": 4,
+      "name": "Business Relation Code",
+      "tooltip": "Specifies the code of the business relation to which the profile questionnaire applies."
+    },
+    {
+      "no": 5,
+      "name": "Priority",
+      "tooltip": "Specifies the priority you give to the profile questionnaire and where it should be displayed on the lines of the Contact Card. There are five options:"
+    }
+  ]
+}

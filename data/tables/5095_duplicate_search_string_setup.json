@@ -1,0 +1,28 @@
+{
+  "id": 5095,
+  "name": "Duplicate Search String Setup",
+  "slug": "5095_duplicate_search_string_setup",
+  "objectNamespace": "Base Application",
+  "fields": [
+    {
+      "no": 1,
+      "name": "Field No.",
+      "tooltip": ""
+    },
+    {
+      "no": 2,
+      "name": "Part of Field",
+      "tooltip": "Specifies the part of the field to use to generate the search string. There are two options: First and Last."
+    },
+    {
+      "no": 3,
+      "name": "Length",
+      "tooltip": "Specifies how many characters the search string will contain. You can enter a number from 2 to 10. The program automatically enters 5 as a default value."
+    },
+    {
+      "no": 4,
+      "name": "Field Name",
+      "tooltip": "Specifies the field to use to generate the search string."
+    }
+  ]
+}
