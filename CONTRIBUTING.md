@@ -2,25 +2,6 @@
 
 Thank you for contributing to the BC Tooltip Directory!
 
-## How to regenerate data from AL source
-
-If you have access to the Base Application source:
-
-```bash
-node scripts/extract_from_al.js path/to/Base\ Application.Source
-```
-
-This rewrites all files in `data/tables/` and `data/search_index.json` from the AL source.
-
-## How to add or edit a tooltip manually
-
-1. Edit the relevant `data/tables/{slug}.json`.
-2. Run the search index generator:
-   ```bash
-   node scripts/generate_search_index.js
-   ```
-3. Commit both files and open a PR.
-
 ## How to edit a field's tooltip
 
 1. Open `data/tables/{table_slug}.json`.
@@ -58,9 +39,3 @@ This rewrites all files in `data/tables/` and `data/search_index.json` from the 
 ### Slug convention
 
 `{tableId}_{table_name_snake_case}` — e.g. `18_customer`, `37_sales_line`.
-
-## Running locally
-
-```bash
-npx serve .
-```
