@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Contains the comment type. There are six options to choose from: General, Fault, Resolution, Accessory, Internal, and Service Item Loaner."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service order, service item, service contract, or loaner that the service comment applies to based on the Type field."
     },
     {
       "no": 3,
       "name": "Table Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the table line number.\nThe program uses this field internally."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line.\nThe program uses this field internally."
     },
     {
       "no": 6,
@@ -37,12 +37,12 @@
     {
       "no": 8,
       "name": "Table Subtype",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 9,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

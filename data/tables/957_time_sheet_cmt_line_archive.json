@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of the archived time sheet to which the comment applies.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 2,
       "name": "Time Sheet Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the line number for an archived time sheet to which the comment applies."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of times that the No. value has been used in a number series.\n\nAdditional Information\n\nThis number, in combination with the document number, ensures that you always maintain a unique number for the archived document. This is useful if you have changed the number series and as a result, there is a conflict in numbers."
     },
     {
       "no": 4,

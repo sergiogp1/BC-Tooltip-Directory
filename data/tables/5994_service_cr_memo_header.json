@@ -97,27 +97,27 @@
     {
       "no": 22,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Contains a description of the service document from which the credit memo was posted.\nThe program copies the posting description from the Posting Description field on the service header.\nThe description also appears on customer and G/L entries.\nYou cannot change the posting description because the credit memo has already been posted."
     },
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Contains the code that the program uses to retrieve payment terms applying to the credit memo. The program uses the payment terms to manage due dates and calculate payment discount percentages.\nThe program copies the code from the Payment Terms Code field on the service header when you post the credit memo.\nYou cannot change the payment terms code because the entry has already been posted."
     },
     {
       "no": 24,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Contains the date on which the shipment was due for payment. The program calculates the date using the Payment Terms Codeand Posting Date fields on the header of the service document from which the credit memo is posted.\nThe program copies the date from the Due Date field on the service header.\nOnce orders and invoices have been posted, the due date can be used to find customers with overdue bills.\nYou cannot change the due date because the credit memo has already been posted."
     },
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Contains the percentage of payment discount that is granted if the customer pays by the date specified in the Pmt. Discount Date field.\nThe program copies the discount percentage from the Payment Discount % field on the service header.\nYou cannot change the payment discount percentage because the credit memo has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Contains the date that the customer must pay by to obtain a payment discount. The program uses the date to calculate payment discounts on payments from the customer.\nThe program copies the date from the Pmt. Discount Date field on the service header.\nYou cannot change the value in the field because the credit memo has already been posted."
     },
     {
       "no": 27,
@@ -152,32 +152,32 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Specifies a currency factor if an additional reporting currency was set in the General Ledger Setup window. The currency factor shows the relationship between the additional reporting currency and the local currency. The program will automatically record amounts in both LCY and the additional reporting currency, using the relevant exchange rate and the currency factor.\nThe value of the currency factor is copied from the Currency Factor field in the Service Header table.\nYou cannot change the value in this field because the credit memo has already been posted."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the price group that the customer belongs to. The code is used when the program calculates the unit price for items on the credit memo lines.\nThe program copies the customer price group code from the Customer Price Group field in the Service Header table.\nYou cannot change the customer price group because the credit memo has already been posted."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies that the unit prices on the credit memo lines include VAT.\nThe program copies the information from the Prices Including VAT field in the Service Header table when you post the credit memo.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Contains the code used to calculate the invoice discount on the credit memo.\nThe program copies the code from the Invoice Disc. Code field on the service header.\nYou cannot change the value in the field because the credit memo has already been posted."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the discount group code assigned to the bill-to customer. The program uses the code to calculate the service credit memo line discount given to the customer.\nThe code is copied from the Customer Disc. Group field on the service header when you post the credit memo.\nYou cannot change the customer discount group code in the posted credit memo."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Contains a code for the language used on the service credit memo lines. The code makes it possible for the items on the lines to be written in the customer's language. The language is also used on any printouts for the bill-to customer.\nThe code is copied from the Language Code field on the service header when you post the credit memo.\nYou cannot change the language code because the credit memo has already been posted."
     },
     {
       "no": 42,
@@ -192,7 +192,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether there are any comments attached to the current service credit memo.\nTo view a comment or create a new one, click Related Information, point to Cr. Memo, and then click Comments. A window then appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
@@ -202,17 +202,17 @@
     {
       "no": 52,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the credit memo has been applied to an already-posted document. If it has, the field shows the type of document applied to.\nThe program copies the information from the Applies-to Doc. Type field in the Service Header table when you post the credit memo.\nYou cannot change the applies-to document type because the credit memo has already been posted."
     },
     {
       "no": 53,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the credit memo has been applied to an already-posted document. If so, the field contains the number of the document applied to.\nThe program copies the document number from the Applies-to Doc. No. field in the Service Header table when you post the credit memo.\nYou cannot change the number because the entry has already been posted."
     },
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the general ledger account or the bank account to which a balancing entry for the credit memo was posted.\nThe program copies the balancing account number from the Bal. Account No. field on the service header.\nYou cannot change the number in the field because the credit memo has already been posted."
     },
     {
       "no": 60,
@@ -227,17 +227,17 @@
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Contains the VAT registration number of the bill-to customer.\nThe program copies the number from the VAT Registration No. field on the service header when you post the credit memo.\nYou cannot change the VAT registration number because the credit memo has already been posted."
     },
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Contains a specific code that indicates why the entry was created. Thus the reason code will enable you to trace the entry.\nThe program copies the code from the Reason Code field on the service header when you post the service credit memo.\nYou cannot change the reason code because the credit memo has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the general business posting group code assigned to the customer whom you sent the credit memo.\nThe program copies the code from the Gen. Bus. Posting Group field in the Service Header table.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 75,
@@ -247,17 +247,17 @@
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction type assigned to the credit memo. The types of transactions are set up in the Transaction Types window. You use the pre-set types to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the transaction type from the Transaction Type field in the Service Header table when you post the credit memo.\nYou cannot change the code in the posted service credit memo."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Displays the transport method used for shipment of the service.\nThe program copies the transport method code from the Transport Method field in the Service Header table.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Displays the bill-to customer's VAT country/region code. The information will be used in the VAT- VIES Declaration Tax Auth report in connection with trade with other EU countries/regions and in INTRASTAT reporting.\nThe program copies the code from the VAT Country/Region Code field on the service header when you post the service credit memo.\nYou cannot manually change the VAT country/region code since the credit memo has already been posted."
     },
     {
       "no": 79,
@@ -337,17 +337,17 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the account to which balancing entries are posted for the credit memo.\nThe program copies the information from the Bal. Account Type field on the service header when you post the credit memo.\nYou cannot change the balancing account type because the credit memo has already been posted."
     },
     {
       "no": 97,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of the exit port through which you ship the service out of your country/region.\nThe program copies the code from the Exit Point field on the service header when you post the credit memo.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this service credit memo has been posted as a corrective entry.\nThe program copies the code from the Correction field on the service header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 99,
@@ -362,17 +362,17 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area where the customer company is located.\nThe program copies the code from the Area field in the Service Header table when you post the credit memo.\nYou cannot change the area code because the service credit memo has already been posted."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the transaction specification code that was linked to the service credit memo. The code is used in INTRASTAT reporting.\nThe program copies the code from the Transaction Specification field in the Service Header table when you post the credit memo.\nYou cannot change the value in this field because the entry has already been posted."
     },
     {
       "no": 104,
       "name": "Payment Method Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the method that the customer uses to pay for the service. The program copies the code from the Payment Method Code field on the service header.\nYou cannot change or delete the code because the credit memo has already been posted."
     },
     {
       "no": 105,
@@ -382,12 +382,12 @@
     {
       "no": 107,
       "name": "Pre-Assigned No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign a number to the credit memo from which the posted credit memo was created.\nThe program copies the value from the No. Series field on the service header.\nYou cannot change the pre-assigned number series because the credit memo has already been posted."
     },
     {
       "no": 108,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign a number to the posted invoice.\nThe program automatically copies the value in this field from the Posting No. Series field on the service header.\nYou cannot change the number series because the credit memo has already been posted."
     },
     {
       "no": 111,
@@ -397,12 +397,12 @@
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the user who posted the service credit memo.\nYou cannot change the user ID because the entry has already been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Contains the source code assigned to the service credit memo header. The code is used to determine the origin of the entry.\nThe program retrieves the value from the Source Code Setup table.\nYou cannot change the source code because the credit memo has already been posted."
     },
     {
       "no": 114,
@@ -417,12 +417,12 @@
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the VAT business posting group of the bill-to customer.\nThe program copies the code from the VAT Bus. Posting Group field in the Service Header table when you post the credit memo."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Indicates the percentage used for discounting the VAT element when a payment discount is to be posted.\nThe program checks the value against the maximum possible VAT Tolerance % specified in the General Ledger Setup window. The maximum value cannot be overridden.\nThe program copies the value in the field from the VAT Base Discount % field in the Service Header table when you post the credit memo."
     },
     {
       "no": 129,
@@ -442,7 +442,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 710,
@@ -462,12 +462,12 @@
     {
       "no": 5052,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the contact at the customer's to whom you shipped the service. To view the information related to the specified contact, as well as the list of other customer contacts, choose the field.\nThe program copies the code from the Contact No. field on the service header when you post the credit memo.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 5053,
       "name": "Bill-to Contact No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the contact whom you sent the credit memo. To view the information related to the specified contact, as well as the list of other customer contacts, choose the field.\nThe program copies the code from the Bill-to Contact No. field on the service header when you post the credit memo.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 5700,
@@ -482,172 +482,172 @@
     {
       "no": 5902,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "Contains a description of the credit memo, such as Credit Memo 22890.\nThe program copies the text from the Description field in the Service Header table when you post the credit memo."
     },
     {
       "no": 5904,
       "name": "Service Order Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the service order to which the credit memo is linked. Service order types are used to group service orders together.\nThe program copies the code from the Service Order Type field on the service header when you post the credit memo.\nYou cannot change the code in the field because the credit memo has already been posted."
     },
     {
       "no": 5905,
       "name": "Link Service to Service Item",
-      "tooltip": ""
+      "tooltip": "Specifies that service lines for resources, items and costs must be linked to a service item line within the service credit memo.\nThe program copies the value in this field from the Link Service to Service Item field on the service header. You cannot remove the check mark from the field because the credit memo has already been posted."
     },
     {
       "no": 5907,
       "name": "Priority",
-      "tooltip": ""
+      "tooltip": "Specifies the priority of the posted service credit memo. There are three options: Low, Medium, and High.\nThe program copies the value from the Priority field in the Service Header table when you post the credit memo.\nYou cannot edit the contents in the field since the credit memo has already been posted."
     },
     {
       "no": 5911,
       "name": "Allocated Hours",
-      "tooltip": ""
+      "tooltip": "Contains the number of hours allocated to the items within the service credit memo.\nThe program copies the field value from the Allocated Hours field on the service header when you post the credit memo.\nYou cannot change the value because the entry has already been posted."
     },
     {
       "no": 5915,
       "name": "Phone No.",
-      "tooltip": ""
+      "tooltip": "Contains the phone number of the customer in the current credit memo.\nThe program copies the number from the Phone No. field on the service header when you post the credit memo."
     },
     {
       "no": 5916,
       "name": "E-Mail",
-      "tooltip": ""
+      "tooltip": "Contains the email address of the customer on the credit memo.\nThe program copies the number from the E-Mail field in the Service Header table when you post the credit memo."
     },
     {
       "no": 5917,
       "name": "Phone No. 2",
-      "tooltip": ""
+      "tooltip": "Contains an alternative phone number of the customer on the current service credit memo.\nThe program copies the number from the Phone No. 2 field on the service header."
     },
     {
       "no": 5918,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer on the posted service credit memo.\nThe program copies the number from the Fax No. field on the service header when you post the credit memo."
     },
     {
       "no": 5921,
       "name": "No. of Unallocated Items",
-      "tooltip": ""
+      "tooltip": "Contains the number of service items on the service order that have not been allocated to resources yet.\nThe program copies the value from the No. of Unallocated Items field in the Service Header table."
     },
     {
       "no": 5923,
       "name": "Order Time",
-      "tooltip": ""
+      "tooltip": "Contains the time when the service order associated with the credit memo was created.\nThe program copies the value from the Order Time field on the service header when you post the credit memo."
     },
     {
       "no": 5924,
       "name": "Default Response Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Contains the estimated number of hours between the creation of the service order to the time when the service on the service item line starts.\nThe program copies the time from the Default Response Time (Hours) field on the service header. You cannot change the value because the credit memo has already been posted."
     },
     {
       "no": 5925,
       "name": "Actual Response Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Contains the actual number of hours since the creation of the service order to the time when the service order status was changed from Pending to In Process.\nThe program copies the time from the Actual Response Time (Hours) field in the Service Header table when the service credit memo is posted."
     },
     {
       "no": 5926,
       "name": "Service Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Indicates the total time in hours that the service on the posted credit memo will take.\nThe program copies the value from the Service Time (Hours) field in the Service Header table when you post the credit memo."
     },
     {
       "no": 5927,
       "name": "Response Date",
-      "tooltip": ""
+      "tooltip": "Contains the approximate date when the work on the associated service order starts, that is, when the service order status changes from Pending to In Process.\nThe program copies the value in the field from the Response Date field in the Service Header table when posting the service credit memo."
     },
     {
       "no": 5928,
       "name": "Response Time",
-      "tooltip": ""
+      "tooltip": "Contains the approximate time when the work on the corresponding service order will start, that is, when the service order status will change from Pending to In Process.\nThe program copies the value in this field from the Response Time field in the Service Header table when the service credit memo is posted."
     },
     {
       "no": 5929,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the starting date of the service on the credit memo, that is, the date when the status of the corresponding service order changes from Pending to In Process.\nThe program copies the value in this field from the Starting Date field on the service header when you post the credit memo."
     },
     {
       "no": 5930,
       "name": "Starting Time",
-      "tooltip": ""
+      "tooltip": "Specifies the starting time of the service, that is, the time when the status of the corresponding service order changes from Pending to In Process.\nThe program copies the value in this field from the Starting Time field on the service header when you post the credit memo."
     },
     {
       "no": 5931,
       "name": "Finishing Date",
-      "tooltip": ""
+      "tooltip": "Contains the date when the service is finished, that is, the date when the status of the corresponding service order changes to Finished.\nThe program copies the value in this field from the Finishing Date field in the Service Header table when the service credit memo is posted."
     },
     {
       "no": 5932,
       "name": "Finishing Time",
-      "tooltip": ""
+      "tooltip": "Contains the time when the service is finished, that is, the time when the status of the corresponding service order changes to Finished.\nThe program copies the value in this field from the Finishing Time field on the header of the posted service order."
     },
     {
       "no": 5933,
       "name": "Contract Serv. Hours Exist",
-      "tooltip": ""
+      "tooltip": "Specifies if the service credit memo is linked to a certain service contract. A check mark in the field indicates that there are specific service hours attached to the service contract, which apply to the current credit memo as well.\nThe program copies the field value from the Contract Serv. Hours Exist field on the service header when you post the credit memo."
     },
     {
       "no": 5934,
       "name": "Reallocation Needed",
-      "tooltip": ""
+      "tooltip": "Specifies that you must reallocate resources to at least one service item on the service credit memo.\nThe program copies the value in this field from the Reallocation Needed field on the service header."
     },
     {
       "no": 5936,
       "name": "Notify Customer",
-      "tooltip": ""
+      "tooltip": "Indicates in what way the customer wants to receive notification about the service completed. The options are: No, By Phone 1, By Phone 2, By Fax, By E-Mail.\nThe program copies the value in this field from the Notify Customer field on the Service Header table when the service credit memo is posted.\nYou cannot change the contents of this field because the credit memo has already been posted."
     },
     {
       "no": 5937,
       "name": "Max. Labor Unit Price",
-      "tooltip": ""
+      "tooltip": "Contains the maximum unit price set for a resource (for example, a technician) on all service lines linked to the posted service credit memo.\nThe program copies the field value from the Max. Labor Unit Price field on the service header when the service credit memo is posted."
     },
     {
       "no": 5938,
       "name": "Warning Status",
-      "tooltip": ""
+      "tooltip": "Contains the current warning status for the response time on the corresponding service order. There are four options: Blank (no status), First Warning, Second Warning and Third Warning.\nThe program automatically copies the value from the Warning Status field in the Service Header table when the service credit memo is posted."
     },
     {
       "no": 5939,
       "name": "No. of Allocations",
-      "tooltip": ""
+      "tooltip": "Contains the number of resource allocations to service items on the posted service credit memo.\nThe program copies the value from the No. of Allocations field on the Service Header table when the credit memo is posted."
     },
     {
       "no": 5940,
       "name": "Contract No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the contract that the service credit memo is associated with.\nThe program copies the number from the Contract No. field on the service header when the credit memo is posted.\nIf the field is empty, this means that the credit memo was created manually, i.e. it is not linked to any contract."
     },
     {
       "no": 5951,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains a type filter. There are five options: Blank, Resource, Item, Service Cost and Service Contract. If you set the filter, the program will produce service ledger entries with the specified type.\nFor example, if the field is set to Resource, the Dispatch Board window will display information related to service ledger entries with the Resource type only."
     },
     {
       "no": 5952,
       "name": "Customer Filter",
-      "tooltip": ""
+      "tooltip": "Contains a customer filter. The filter enables the program to limit the information range to the entries related to the specified customer.\nIf this field contains a customer number, the Dispatch Board window will show credit memos for that particular customer only."
     },
     {
       "no": 5953,
       "name": "Resource Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource filter.\nIf you set the filter to a certain resource number, fields such as No. of Allocations will display information on service order allocations with that particular resource only. The Dispatch Board window will also show the overview of the documents containing the service item lines to which the specified resource is allocated."
     },
     {
       "no": 5954,
       "name": "Contract Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a service contract filter.\nIf this field contains a service contract number, the Dispatch Board window will display credit memos linked to that particular contract only."
     },
     {
       "no": 5955,
       "name": "Ship-to Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer to whom the service was shipped.\nThe program copies the number from the Ship-to Fax No. field in the Service Header table when you post the credit memo."
     },
     {
       "no": 5956,
       "name": "Ship-to E-Mail",
-      "tooltip": ""
+      "tooltip": "Contains the email address of the customer to whom the service was shipped.\nThe program copies the address from the Ship-to E-Mail field in the Service Header table when you post the invoice."
     },
     {
       "no": 5957,
       "name": "Resource Group Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource group filter.\nIf this field contains a particular resource group number, fields such as the No. of Allocations field will display information on the service shipment allocations with that resource group only. The Dispatch Board window will also show the overview of the documents containing the service item lines to which the specified resource group is allocated."
     },
     {
       "no": 5958,
@@ -657,22 +657,22 @@
     {
       "no": 5959,
       "name": "Ship-to Phone 2",
-      "tooltip": ""
+      "tooltip": "Contains an alternative phone number of the customer to whom the service was shipped.\nThe program copies the number from the Ship-to Phone 2 field in the Service Header table when the you post the service credit memo."
     },
     {
       "no": 5966,
       "name": "Service Zone Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service zone filter.\nIf this field specifies a service zone code, the Dispatch Board window will show service credit memos for customers within that particular service zone only."
     },
     {
       "no": 5968,
       "name": "Service Zone Code",
-      "tooltip": ""
+      "tooltip": "Contains the service zone code assigned to the customer on the service credit memo. Service zones are used to divide your company market into geographical areas. Thus the code specified in the field allows you to determine the customer's location.\nThe program copies the code from the Service Zone Code field on the service header when you post the credit memo."
     },
     {
       "no": 5981,
       "name": "Expected Finishing Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date when service is expected to be finished.\nThe program copies the date from the Expected Finishing Date field on the service header when you post the service credit memo."
     },
     {
       "no": 7000,
@@ -682,7 +682,7 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered.\nThe program retrieves the value from the Allow Line Disc. field in the Service Header table.\nYou cannot change the value since the credit memo has already been posted."
     },
     {
       "no": 9001,

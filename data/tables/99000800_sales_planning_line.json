@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Sales Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the sales order number.\nThe program uses this field internally."
     },
     {
       "no": 2,
       "name": "Sales Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the sales order.\nThe program uses this field internally."
     },
     {
       "no": 3,
@@ -67,7 +67,7 @@
     {
       "no": 15,
       "name": "Low-Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies the low-level code of the item on the sales order planning line."
     }
   ]
 }

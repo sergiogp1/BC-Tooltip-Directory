@@ -42,7 +42,7 @@
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether any comments have been entered for this insurance policy.\nTo view a comment or create a new one, click Related Information, point to Insurance, and then click Comment. A comment sheet window will appear, in which you can see the existing comments and create new ones. See also the Comment Line table.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 12,
@@ -77,17 +77,17 @@
     {
       "no": 18,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Value window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nFor more information about dimensions, see Dimension."
     },
     {
       "no": 19,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Value window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nFor more information about dimensions, see Dimension."
     },
     {
       "no": 20,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the location of the fixed asset(s) linked to the insurance policy. You can enter a maximum of 10 characters, both numbers and letters.\nTo see the location codes in the Location table, click the field."
     },
     {
       "no": 32,
@@ -107,12 +107,12 @@
     {
       "no": 35,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains the starting and ending dates for a date interval, then other field values only show information for that interval. For example, the Total Value Insured per FA window shows amounts for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 36,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign the insurance policy's number."
     }
   ]
 }

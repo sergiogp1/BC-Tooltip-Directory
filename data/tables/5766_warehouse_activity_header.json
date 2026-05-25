@@ -42,17 +42,17 @@
     {
       "no": 9,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that you select when you want to assign a number to the warehouse activity header."
     },
     {
       "no": 10,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a user entered a comment on the warehouse activity header.\nComments are not transferred between activities, and they are deleted when the activity header is deleted.\nYou can also enter a comment in the Notes FactBox. For more information, see Write Notes."
     },
     {
       "no": 12,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times that the warehouse activity has been printed."
     },
     {
       "no": 13,
@@ -62,22 +62,22 @@
     {
       "no": 14,
       "name": "Source Type Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 15,
       "name": "Source Subtype Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the source subtype of the document that the warehouse activity relates to.\nFor example, if the warehouse activity is created for a sales order line, then the value in the field is copied from the Document Type field on the sales order line.\nIf the warehouse activity is created for a production order, then the value is copied from the Status field on the production order.\nIf the warehouse activity is created for a transfer order, then the field is set to 0 for an outbound transfer or 1 for an inbound transfer."
     },
     {
       "no": 16,
       "name": "Source No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 17,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the location filter."
     },
     {
       "no": 20,
@@ -87,27 +87,27 @@
     {
       "no": 61,
       "name": "Registering No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 62,
       "name": "Last Registering No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 63,
       "name": "Registering No. Series",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 7303,
       "name": "Date of Last Printing",
-      "tooltip": ""
+      "tooltip": "Contains the date the document was last printed."
     },
     {
       "no": 7304,
       "name": "Time of Last Printing",
-      "tooltip": ""
+      "tooltip": "Contains the time the document was last printed."
     },
     {
       "no": 7305,
@@ -127,12 +127,12 @@
     {
       "no": 7308,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of transaction that the source document is concerned with, such as, sales, purchase, and production."
     },
     {
       "no": 7309,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the source subtype of the document to which the activity relates."
     },
     {
       "no": 7310,

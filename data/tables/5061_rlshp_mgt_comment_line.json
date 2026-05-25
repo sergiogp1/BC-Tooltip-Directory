@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table to which the comment applies.\nThe name can be one of the following tables:\nContact\n\nWeb Source\n\nCampaign\n\nSales Cycle\n\nSales Cycle Stage\n\nOpportunity\n\nTo-do\n\n\nThe table name is entered automatically according to the card from which you enter the comment.\n\nThis field is used internally."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Specifies the line number of the comment.\nWhen you create a comment for a card, the program automatically enters a line number in the Line No. field to keep track of all the comments in the Relationship Management Comment Line table. The line number is specific to the particular comment."
     },
     {
       "no": 5,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date the comment was last modified.\nWhen you change information in the Rlshp. Mgt. Comment Line table, the program automatically updates the Last Date Modified field."
     }
   ]
 }

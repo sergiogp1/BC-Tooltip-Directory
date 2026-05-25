@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "This table is used internally."
     },
     {
       "no": 2,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Indicates the IC partner code that the transaction is sent to and from."
     },
     {
       "no": 3,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of transaction."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number that is linked to the dimension."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "Specifies which company created the transaction.\nThe following table describes the two options.\n\n\nOption\n\n\nDescription\n\n\nRejected\n\nThe transaction was rejected by the current company or IC partner.\n\n\nCreated\n\nThe transaction was created by the current company or IC partner."
     }
   ]
 }

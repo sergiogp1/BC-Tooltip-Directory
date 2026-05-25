@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of transaction to which the warehouse request relates, such as sales, purchase, and production."
     },
     {
       "no": 2,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the source subtype of the document to which the warehouse request relates.\nIf the request line is created for a purchase document or a sales document, this information is copied from the Document Type field on the sales order or purchase order.\nIf the request line is created for a production order, this information is copied from the Status field on the production order.\nIf the request line is created for a transfer order, the field is set to 0 for an outbound transfer or 1 for an inbound transfer."
     },
     {
       "no": 3,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Document Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the source document from which the warehouse request was created."
     },
     {
       "no": 6,
@@ -82,7 +82,7 @@
     {
       "no": 19,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the source document, such as a sales order, a purchase order, or a transfer order, creates an outbound shipment or an inbound receipt."
     },
     {
       "no": 20,
@@ -92,7 +92,7 @@
     {
       "no": 41,
       "name": "Completely Handled",
-      "tooltip": ""
+      "tooltip": "Specifies if the full quantity of the warehouse request has been handled."
     }
   ]
 }

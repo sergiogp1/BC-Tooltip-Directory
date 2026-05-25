@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the journal line."
     },
     {
       "no": 3,
@@ -37,7 +37,7 @@
     {
       "no": 10,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 13,
@@ -67,7 +67,7 @@
     {
       "no": 26,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 34,
@@ -87,7 +87,7 @@
     {
       "no": 41,
       "name": "Standard Journal Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 42,
@@ -112,17 +112,17 @@
     {
       "no": 53,
       "name": "Qty. (Calculated)",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 54,
       "name": "Qty. (Phys. Inventory)",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 56,
       "name": "Phys. Inventory",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 57,
@@ -137,27 +137,27 @@
     {
       "no": 59,
       "name": "Entry/Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of either the port of entry at which the items passed into your country/region or the port of exit through which you shipped the items out of your country/region.\nThe code is used for reporting to Intrastat and appears in the Intrastat Journal window."
     },
     {
       "no": 63,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the code for an area at the customer or vendor with which you are trading the items on the line.\nThe code is used for reporting to Intrastat and appears in the Intrastat Journal window."
     },
     {
       "no": 64,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction specification code that is used for the journal posting.\nThe code is used for reporting to Intrastat and appears in the Intrastat Journal window."
     },
     {
       "no": 65,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5402,
@@ -172,7 +172,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5407,
@@ -192,52 +192,52 @@
     {
       "no": 5413,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5701,
       "name": "Originally Ordered No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5702,
       "name": "Originally Ordered Var. Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5704,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5705,
       "name": "Nonstock",
-      "tooltip": ""
+      "tooltip": "Specifies if the item on the line is a nonstock item.\nNonstock items are items that are not usually kept in inventory."
     },
     {
       "no": 5706,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Specifies the purchasing code for the item on the standard item journal line."
     },
     {
       "no": 5800,
       "name": "Value Entry Type",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5801,
       "name": "Item Charge No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies if you want the standard item journal line to be posted as a corrective entry.\nThis field is only used when the journal line acts as a revaluation journal line. For more information, see Correction of Incorrect Posted Documents."
     },
     {
       "no": 6600,
       "name": "Return Reason Code",
-      "tooltip": ""
+      "tooltip": "Contains a code that explains why the item is returned."
     },
     {
       "no": 7000,
@@ -247,7 +247,7 @@
     {
       "no": 99000755,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the items indirect cost as an absolute amount. The amount is added to the items unit cost to reflect indirect cost or overhead, such as freight and warehouse handling that are associated with the purchase of the item.\n\nAdditional Information\n\nThe value of the Overhead Rate field on the item card is copied to item journal lines and is used to calculate the value in the Unit Cost field on the standard item journal line.\nNote\n\n\nThe Overhead Rate field is related to the Indirect Cost % field on the source item journal where it defines the overhead as a percentage of the value in the Unit Amount field on the standard item journal line."
     }
   ]
 }

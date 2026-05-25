@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Production BOM No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production BOM number.\nThe program copies the number from the No. field in the Production BOM Header table. The program uses this field internally to assign the production BOM version to the production BOM."
     },
     {
       "no": 2,
@@ -42,7 +42,7 @@
     {
       "no": 50,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the production BOM Version Code."
     }
   ]
 }

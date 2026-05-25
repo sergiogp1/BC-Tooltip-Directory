@@ -62,7 +62,7 @@
     {
       "no": 13,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is used internally to sort the warehouse activity lines.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 14,
@@ -117,37 +117,37 @@
     {
       "no": 39,
       "name": "Destination Type",
-      "tooltip": ""
+      "tooltip": "Specifies information about the type of destination, such as customer, vendor or location, that was associated with the warehouse activity line.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 40,
       "name": "Destination No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number or the code of the customer, vendor, or location that the line is linked to.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 41,
       "name": "Whse. Activity No.",
-      "tooltip": ""
+      "tooltip": "Specifies the warehouse activity number.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 42,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the shipping agent that transported the items on this line.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 43,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the service, such as a one-day delivery, that the shipping agent offers.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 44,
       "name": "Shipment Method Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the shipment method that is used for this activity line.\nThis information is copied from the warehouse activity line. You cannot change the contents of this field."
     },
     {
       "no": 47,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the registered warehouse activity was scheduled to start."
     },
     {
       "no": 6500,
@@ -162,7 +162,7 @@
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Specifies the warranty date of the serial number that was handled."
     },
     {
       "no": 6503,

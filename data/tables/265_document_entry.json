@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 4,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5,
@@ -37,22 +37,22 @@
     {
       "no": 7,
       "name": "No. of Records 2",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 8,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 9,
       "name": "Lot No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 10,
       "name": "Serial No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 11,

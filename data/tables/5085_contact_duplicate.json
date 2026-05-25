@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "No. of Matching Strings",
-      "tooltip": ""
+      "tooltip": "Specifies the number of identical search strings for the two possible duplicates.\nSearch strings are made up of either the first or last part of some fields from contact company information in the Contact table. They are used internally by the program to find duplicates."
     },
     {
       "no": 5,

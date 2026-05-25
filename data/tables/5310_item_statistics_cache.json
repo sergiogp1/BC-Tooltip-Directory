@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Item No.",
-      "tooltip": ""
+      "tooltip": "Specifies the user's ID whose number originates from the User ID field of the Outlook Synch. User Setup table."
     },
     {
       "no": 2,
       "name": "ItemLedgerEntryNoLatest",
-      "tooltip": ""
+      "tooltip": "Specifies the entity code the number of which originates from the Synch. Entity Code field of the Outlook Synch. User Setup table."
     },
     {
       "no": 3,
       "name": "ValueEntryNoLatest",
-      "tooltip": ""
+      "tooltip": "Specifies the Outlook entity to use in the synchronization process. To fill in this field, the program copies the value of the Element No. field from the Outlook Synch. Entity Element table which corresponds to Synchronization Level 2."
     },
     {
       "no": 4,
       "name": "LastUpdated",
-      "tooltip": ""
+      "tooltip": "Shows the name of the Outlook collection which is selected to be synchronized."
     },
     {
       "no": 5,

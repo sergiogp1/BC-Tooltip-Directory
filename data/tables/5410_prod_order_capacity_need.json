@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the capacity need.\nThe program uses this field internally."
     },
     {
       "no": 5,
@@ -47,27 +47,27 @@
     {
       "no": 9,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the work center group.\nBoth Machine centers and Work centers can be assigned to work center groups.\nIf a machine center is assigned to a work center and that work center is assigned to a work center group, it is also displayed here."
     },
     {
       "no": 10,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nRefers to the routing number that is related to the production order line that causes the capacity need.\nThe field contains a zero when the routing line is related to a family order where more production order lines share the same routing."
     },
     {
       "no": 11,
       "name": "Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which this capacity need occurred.\nRunning the Refresh Production Order batch job will define the capacity need for the special dates and time."
     },
     {
       "no": 12,
       "name": "Starting Time",
-      "tooltip": ""
+      "tooltip": "Specifies the starting time of the capacity need.\nRunning the Refresh Production Order batch job from a production order will calculate the capacity need for the special dates and time. The program uses the starting time to determine an optimal load for a machine center or a work center. For example, if the first production order has a capacity need of 6 hours on a special machine center and the normal working time is 8 hours, planning will use the remaining 2 hours for another production order and will define a starting time in the afternoon."
     },
     {
       "no": 13,
       "name": "Ending Time",
-      "tooltip": ""
+      "tooltip": "Specifies the ending time of the capacity need.\nRunning the Refresh Production Order batch job from a production order will calculate the capacity need for the special dates and time. The program uses the ending time to determine an optimal load for a machine center or a work center. For example, if the first production order has a capacity need of 6 hours on a special machine center and the normal working time is 8 hours, planning will use the remaining 2 hours for another production order and will define an ending time in the afternoon."
     },
     {
       "no": 14,
@@ -97,7 +97,7 @@
     {
       "no": 21,
       "name": "Lot Size",
-      "tooltip": ""
+      "tooltip": "Specifies the lot size to which this capacity need refers."
     },
     {
       "no": 22,
@@ -122,27 +122,27 @@
     {
       "no": 31,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the template name of the subcontracting worksheet that holds this production order capacity need."
     },
     {
       "no": 32,
       "name": "Worksheet Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the batch name of the subcontracting worksheet that holds this production order capacity need."
     },
     {
       "no": 33,
       "name": "Worksheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the subcontracting worksheet that holds this production order capacity need."
     },
     {
       "no": 41,
       "name": "Active",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nThis check box is selected if the production order with the capacity need is on the planning worksheet and has not been carried out."
     },
     {
       "no": 42,
       "name": "Requested Only",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nThis check box is selected if the production order with the capacity need is being replanned."
     }
   ]
 }

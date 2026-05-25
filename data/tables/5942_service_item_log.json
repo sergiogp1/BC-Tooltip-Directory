@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Event No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program has assigned to the event occurred on the service item. The program uses this field internally."
     },
     {
       "no": 4,

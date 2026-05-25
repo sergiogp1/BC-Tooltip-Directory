@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the shipping agent to which the shipping agent service is linked."
     },
     {
       "no": 2,

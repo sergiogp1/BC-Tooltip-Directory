@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Time",
-      "tooltip": ""
+      "tooltip": "Contains the time at which this change log entry was created."
     },
     {
       "no": 4,
@@ -112,7 +112,7 @@
     {
       "no": 22,
       "name": "Record ID",
-      "tooltip": ""
+      "tooltip": "Specifies the RecordID of the record that is changed.\n\nThis field is used internally."
     },
     {
       "no": 25,

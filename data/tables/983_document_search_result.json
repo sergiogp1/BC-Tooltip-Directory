@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Doc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies information about a non-posted document that is found using the Document Search window during manual payment processing in the Payment Registration window."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies information about a non-posted document that is found using the Document Search window during manual payment processing in the Payment Registration window."
     },
     {
       "no": 5,

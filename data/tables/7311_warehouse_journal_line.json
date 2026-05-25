@@ -57,12 +57,12 @@
     {
       "no": 11,
       "name": "Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity expressed in the base unit of measure."
     },
     {
       "no": 12,
       "name": "Qty. (Absolute)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity expressed as an absolute (positive) number."
     },
     {
       "no": 13,
@@ -82,37 +82,37 @@
     {
       "no": 20,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the table number of the table that is the source of the journal line, for example, 39 for a purchase line, 37 for a sales line."
     },
     {
       "no": 21,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the warehouse journal line relates. The program fills in this field.\nIf the journal line is created for a purchase document or a sales document, the program copies the value in the Document Type field.\nIf the journal line is created for a production order, the program copies this field information from the Status field in the Production Order table.\nIf the journal line is created for a transfer order, the program sets the field to 0 for an outbound transfer, or 1 for an inbound transfer."
     },
     {
       "no": 22,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "Contains the source number of the document from which the entry originates."
     },
     {
       "no": 23,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the source line number of the document from which the entry originates."
     },
     {
       "no": 24,
       "name": "Source Subline No.",
-      "tooltip": ""
+      "tooltip": "Contains the source subline number of the document from which the entry originates."
     },
     {
       "no": 25,
       "name": "Source Document",
-      "tooltip": ""
+      "tooltip": "Contains the type of document to which the line relates. The document options are: <Blank>, Sales Order, Sales Invoice, Sales Credit Memo, Sales Return Order, Purchase Order, Purchase Invoice, Purchase Credit Memo, Purchase Return Order, Inbound Transfer, Outbound Transfer, Prod. Consumption, Item Journal, Phys. Invt. Journal, Reclass. Journal, Consumption Journal, Output Journal, BOM Journal, Service Order."
     },
     {
       "no": 26,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Contains the source code of the warehouse journal that the line relates to."
     },
     {
       "no": 27,
@@ -132,12 +132,12 @@
     {
       "no": 33,
       "name": "Registering No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the number series the program uses when it registers the line."
     },
     {
       "no": 35,
       "name": "From Bin Type Code",
-      "tooltip": ""
+      "tooltip": "Contains the bin type of the bin from which the items should be taken."
     },
     {
       "no": 40,
@@ -157,12 +157,12 @@
     {
       "no": 51,
       "name": "Whse. Document Type",
-      "tooltip": ""
+      "tooltip": "Contains the number of the warehouse document.\nThe options are: Whse. Journal, Receipt, Shipment, Internal Put-away, Internal Pick, Production, Whse. Phys. Inventory."
     },
     {
       "no": 52,
       "name": "Whse. Document Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the warehouse document line for the journal line."
     },
     {
       "no": 53,
@@ -182,17 +182,17 @@
     {
       "no": 56,
       "name": "Phys. Inventory",
-      "tooltip": ""
+      "tooltip": "Specifies that the line is part of a physical inventory journal."
     },
     {
       "no": 60,
       "name": "Reference Document",
-      "tooltip": ""
+      "tooltip": "Indicates what type of source document that the transaction on the journal line applies to.\nThe following options exist:\n\nBlank\n\n\nPosted Receipt\n\n\nPosted Purchase Invoice\n\n\nPosted Return Receipt\n\n\nPosted Purchase Credit Memo\n\n\nPosted Shipment\n\n\nPosted Sales Invoice\n\n\nPosted Return Shipment\n\n\nPosted Sales Credit Memo\n\n\nPosted Transfer Receipt\n\n\nPosted Transfer Shipment\n\n\nItem Journal\n\n\nPut-away\n\n\nPick\n\n\nMovement\n\n\nJob Journal\n\n\nAssembly"
     },
     {
       "no": 61,
       "name": "Reference No.",
-      "tooltip": ""
+      "tooltip": "Contains the document number of the posted source document."
     },
     {
       "no": 67,
@@ -257,17 +257,17 @@
     {
       "no": 6504,
       "name": "New Serial No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new serial number that replaces the serial number in the Serial No. field when you post the warehouse item reclassification journal."
     },
     {
       "no": 6505,
       "name": "New Lot No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new lot number that replaces the lot number in the Lot No. field when you post the warehouse item reclassification journal."
     },
     {
       "no": 6506,
       "name": "New Expiration Date",
-      "tooltip": ""
+      "tooltip": "Specifies the same as for the field in the Item Journal window."
     },
     {
       "no": 6515,

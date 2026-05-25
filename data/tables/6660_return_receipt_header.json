@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "Your Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the customer's reference.\nThe program copies the reference from the Your Reference field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 12,
@@ -92,7 +92,7 @@
     {
       "no": 19,
       "name": "Order Date",
-      "tooltip": ""
+      "tooltip": "Specifies the order date for the return receipt.\nThe program copies the date from the Order Date field in the Sales Header table.\nYou cannot change the order date because the document has already been posted."
     },
     {
       "no": 20,
@@ -107,27 +107,27 @@
     {
       "no": 22,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies the type, such as Receipt, and the number of the entry.\nThe program copies the posting description from the Posting Description field in the Sales Header table.\nThe posting description also appears on customer and G/L entries.\nYou cannot change the posting description because the document has already been posted."
     },
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the payment terms that apply to the original sales header.\nThe program copies the payment terms code from the Payment Terms Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 24,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the original shipment is due for payment. The program calculates the date using the Payment Terms Code and Posting Date fields on the sales header.\nYou cannot change the due contents of this field because the document has already been posted."
     },
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the payment discount percentage granted if payment is made by the date entered in the Pmt. Discount Date field.\nThe program copies the payment discount percentage from the Payment Discount % field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Specifies the last date on which the customer can pay the original invoice and still receive a payment discount.\nThe program copies the payment discount date from the Pmt. Discount Date field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 27,
@@ -152,7 +152,7 @@
     {
       "no": 31,
       "name": "Customer Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the customer posting group that was used when the return receipt was posted.\nThe program copies the customer posting group from the Customer Posting Group field in the Sales Header table.\nYou cannot change the customer posting group because the document has already been posted."
     },
     {
       "no": 32,
@@ -162,32 +162,32 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group used on the original credit memo.\nThe program copies the code from the Customer Price Group field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies that the sales prices on the lines include VAT.\nThe program copies the information from the Prices Including VAT field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the invoice discount that was granted on the original invoice.\nThe program copies the invoice discount code from the Invoice Disc. Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code used to calculate the customer's sales line discount.\nThe program copies the code from the Customer Disc. Group field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the language used on the return receipt.\nThe program copies the code from the Language Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 42,
@@ -202,7 +202,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this return receipt.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
@@ -212,22 +212,22 @@
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "Specifies whether the credit memo was marked as On Hold when it was posted as a return receipt.\nThe program copies the information from the On Hold field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 52,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the return receipt has been applied to a document that has already been posted. If so, the field contains the type of the document.\nThe program copies the type from the Applies-to Doc. Type field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 53,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the return receipt has been applied to a document that has already been posted. If so, the field contains the number of the document.\nThe program copies the number from the Applies-to Doc. No. field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies a general ledger account number to which a balancing entry for the return receipt was posted.\nThe program copies the number from the Bal. Account No. field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 70,
@@ -237,32 +237,32 @@
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the return receipt.\nThe program copies the reason code from the Reason Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group that you assigned to the customer that you sent the original invoice to.\nThe program copies the code from the Gen. Bus. Posting Group field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 75,
       "name": "EU 3-Party Trade",
-      "tooltip": ""
+      "tooltip": "Specifies whether the return receipt is part of an EU three-party trade transaction.\nThree-party trade occurs when you ship an order to an address in one EU country/region and send the invoice to an address in a different EU country/region.\nThe program copies the information from the EU 3-Party Trade field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type specified in the original sales header.\nThe program copies the transaction type from the Transaction Type field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method specified in the original sales header.\nThe program copies the transport method from the Transport Method field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the customer's VAT country/region code.\nThe program copies the VAT country/region code from the VAT Country/Region Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 79,
@@ -302,7 +302,7 @@
     {
       "no": 86,
       "name": "Bill-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county name in the customer's billing address.\nThe program copies the contents of this field from the Bill-to County field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 87,
@@ -317,7 +317,7 @@
     {
       "no": 89,
       "name": "Sell-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the customer that the items were sold to.\nThe program copies the contents of this field from the Sell-to County field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 90,
@@ -332,7 +332,7 @@
     {
       "no": 92,
       "name": "Ship-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the customer's shipping address.\nThe program copies the contents of this field from the Ship-to County field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 93,
@@ -342,17 +342,17 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the balancing account type used in the return receipt line.\nThe program copies the contents of this field from the Bal. Account Type field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 97,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the port of exit from which you shipped the items out of your country/region.\nThe program copies the contents of this field from the Exit Point field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this posted return receipt was posted as a corrective entry.\nThe program copies the contents of this field from the Correction field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 99,
@@ -367,17 +367,17 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used in the return receipt.\nThe program copies the contents of this field from the Area field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction specification that was used in the return receipt.\nThe program copies the contents of this field from the Transaction Specification field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 104,
       "name": "Payment Method Code",
-      "tooltip": ""
+      "tooltip": "Describes the code for the payment method used for payments from this customer.\nThe program copies the contents of this field from the Payment Method Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 105,
@@ -392,37 +392,37 @@
     {
       "no": 109,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the return receipt.\nThe program automatically copies this field from the Return Receipt No. Series field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user that posted the return receipt.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the return receipt header.\nThe program copies the code from either the Sales field or the Deleted Document field in the Source Code Setup table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 114,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the customer.\nThe program copies the code from the Tax Area Code field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 115,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that sales to the customer on the sales header are liable to sales tax.\nThe program copies the code from the Tax Liable field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the code from the VAT Bus. Posting Group field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is checked against the maximum possible value in the VAT Tolerance % field in the General Ledger Setup table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 181,
@@ -437,12 +437,12 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5050,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
     },
     {
       "no": 5052,
@@ -467,27 +467,27 @@
     {
       "no": 5790,
       "name": "Requested Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the requested delivery date.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5791,
       "name": "Promised Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the promised delivery date as a result of the Order Promising function.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5792,
       "name": "Shipping Time",
-      "tooltip": ""
+      "tooltip": "Specifies how long it takes to return the items.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5793,
       "name": "Warehouse Handling Time",
-      "tooltip": ""
+      "tooltip": "Specifies how long it takes warehouse employees to handle the items.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5797,
       "name": "Late Order Shipping",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6601,
@@ -497,7 +497,7 @@
     {
       "no": 6602,
       "name": "Return Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series that was used to assign a number to the sales return order that the return receipt is related to."
     },
     {
       "no": 7000,
@@ -507,7 +507,7 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Activity Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the activity that the step belongs to."
     },
     {
       "no": 2,
       "name": "Step No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the step. The step number is unique within the activity."
     },
     {
       "no": 3,

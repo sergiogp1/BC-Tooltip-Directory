@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the primary key of the table as an integer. A value is inserted automatically and is automatically incremented."
     },
     {
       "no": 2,

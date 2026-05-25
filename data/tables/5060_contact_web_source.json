@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the contact company you are assigning a Web source.\nWhen you assign a Web source to a contact from the contact card, the program copies the contact number from the No. field in the Contact table."
     },
     {
       "no": 2,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Contact Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the contact company to which you are assigning a Web source.\nWhen you assign a Web source to a contact from the contact card, the program automatically copies the contact name from the Name field on the contact card."
     }
   ]
 }

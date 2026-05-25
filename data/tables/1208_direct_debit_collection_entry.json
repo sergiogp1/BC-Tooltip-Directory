@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Direct Debit Collection No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the direct debit collection that this direct-debit collection entry is created for."
     },
     {
       "no": 2,
@@ -107,7 +107,7 @@
     {
       "no": 21,
       "name": "Direct Debit Collection Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the direct debit collection. The following options exist.\n\n\nOption\n\n\nDescription\n\n\nNew\n\nThe direct debit collection is created, but no other actions are taken yet.\n\n\nCanceled\n\nThe direct debit collection has been canceled because a related direct-debit collection entry has been rejected.\n\n\nFile Created\n\nA direct-debit file has been created for a direct-debit collection entry that relates to the direct debit collection.\n\n\nPosted\n\nA payment receipt has been posted for the direct debit collection.\n\n\nClosed\n\nThe direct debit collection has been closed, typically as a result of a successful direct-debit payment process."
     },
     {
       "no": 22,

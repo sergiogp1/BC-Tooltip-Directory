@@ -157,7 +157,7 @@
     {
       "no": 35,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Determines the order in which the shipment lines will appear. The program uses the field internally."
     },
     {
       "no": 36,
@@ -177,17 +177,17 @@
     {
       "no": 41,
       "name": "Cubage",
-      "tooltip": ""
+      "tooltip": "Specifies the cubage of the items on the line, calculated as quantity. Outstanding x Item Unit of Measure Cubage."
     },
     {
       "no": 42,
       "name": "Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the weight of the items on the line, calculated as Qty. Outstanding x Item Unit of Measure Weight."
     },
     {
       "no": 44,
       "name": "Shipping Advice",
-      "tooltip": ""
+      "tooltip": "Contains the shipping advice for the warehouse shipment line.\nThe value is copied from the source document line.\nThe following options exist:\nPartial\n\nComplete"
     },
     {
       "no": 45,
@@ -197,17 +197,17 @@
     {
       "no": 46,
       "name": "Completely Picked",
-      "tooltip": ""
+      "tooltip": "Indicates whether the shipment is completely picked. The program fills in this field."
     },
     {
       "no": 48,
       "name": "Not upd. by Src. Doc. Post.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 49,
       "name": "Posting from Whse. Ref.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 50,

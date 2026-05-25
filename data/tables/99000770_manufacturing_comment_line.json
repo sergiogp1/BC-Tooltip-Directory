@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal template that the journal is set up under.\nThe program automatically retrieves the name from the Name field in the General Journal Template table."
     },
     {
       "no": 2,
@@ -67,12 +67,12 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the general journal template."
     },
     {
       "no": 22,
       "name": "Recurring",
-      "tooltip": ""
+      "tooltip": "Indicates whether this is a recurring journal.\nThe field is a Boolean field. When the value is Yes, the journal is a recurring journal. When the value is No, the journal is not a recurring journal."
     },
     {
       "no": 23,

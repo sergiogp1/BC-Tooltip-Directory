@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Search Name",
-      "tooltip": ""
+      "tooltip": "Specifies a search name.\nYou can use the Search Name field to search for a particular account when you cannot remember the account number. It is often easier to remember an account's search name (Postage, for example) than the account number.\nWhen you enter something in the Name field and press ENTER, the program automatically copies the contents of the field to the Search Name field.\nThe contents of the Search Name field need not be the same as those of the Name field."
     },
     {
       "no": 4,
@@ -27,17 +27,17 @@
     {
       "no": 5,
       "name": "Account Source",
-      "tooltip": ""
+      "tooltip": "Specifies one of the account sources that you can include in an analysis view. By specifying an account source, you will be able to filter entries in the Analysis by Dimensions window. To specify an account source, choose the field."
     },
     {
       "no": 6,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 7,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 9,
@@ -47,22 +47,22 @@
     {
       "no": 10,
       "name": "Debit/Credit",
-      "tooltip": ""
+      "tooltip": "Specifies the type of entries that will normally be posted to this general ledger account.\nAfter you audit the accounts, you can have the program print a list of all the entries which have deviated from the norm.\nIn the Detail Trial Balance report, you can place a filter on this field in order to print a detail trial balance for either credit or debit accounts. For example, you can print the detail trial balance for accounts with Debit in this field and then check to make sure that all entries posted to the account are debit entries.\nDetermine the entry type by choosing the field and selecting one of three options:\n\nBoth\n\n\nDebit\n\n\nCredit"
     },
     {
       "no": 11,
       "name": "No. 2",
-      "tooltip": ""
+      "tooltip": "Specifies an alternative account No. 2. You can enter a maximum of 20 characters, both numbers and letters.\nThis field can contain a number used internally in the company.\nThis field is not used elsewhere in the program."
     },
     {
       "no": 12,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether there is a Comment for this G/L account.\nTo view a Comment or create a new one, click Related Information, point to Account, and then click Comments. A comment sheet window will appear in which you can see the existing comments and create new ones. See also the Comment Line table.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 13,
       "name": "Blocked",
-      "tooltip": ""
+      "tooltip": "Specifies to block the account so that entries cannot be posted to it. To block the account, place a check mark in the check box.\nSometimes, for various reasons, you may want to block certain accounts so that entries cannot be posted to them. You can modify an account's blocked or open status in this field."
     },
     {
       "no": 14,
@@ -72,47 +72,47 @@
     {
       "no": 16,
       "name": "Reconciliation Account",
-      "tooltip": ""
+      "tooltip": "Specifies whether this general ledger account will be included in the Reconciliation window in the general journal. To have the G/L account included in the window, place a check mark in the check box. You can find the Reconciliation window by clicking Actions, Posting in the General Journal window.\nThe Reconciliation window is used after you have filled in a general journal (but before you post it) to reconcile the liquid resources with the day's payments received and made."
     },
     {
       "no": 17,
       "name": "New Page",
-      "tooltip": ""
+      "tooltip": "Specifies whether you want a new page to start immediately after this general ledger account when you print the chart of accounts. Select this field to start a new page after this general ledger account.\nThe Report Designer uses this field. By inserting page breaks, you can print the chart of accounts so that accounts that belong together are printed on the same page.\nThe New Page, No. of Blank Lines, and Indentation fields define the layout of the chart of accounts."
     },
     {
       "no": 18,
       "name": "No. of Blank Lines",
-      "tooltip": ""
+      "tooltip": "Specifies the number of blank lines that you want inserted before this account in the chart of accounts.\nThe Report Designer uses this field to determine how many blank lines to put between various accounts when printing.\nThe No. of Blank Lines, New Page, and Indentation fields define the layout of the chart of accounts."
     },
     {
       "no": 19,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Shows how many spaces the text field for the account is indented relative to the standard margin.\nThe field is filled in automatically when you click Actions, point to Functions, and click Indent Chart of Accounts.\nYou can enter something in the field, but the contents will be replaced the next time you click Indent Chart of Accounts. If you want a bigger indentation, add blank spaces with the spacebar before you enter the text.\nIndentation, New Page, and No. of Blank Lines define the layout of the chart of accounts."
     },
     {
       "no": 26,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Shows when the G/L account was last modified.\nWhen you change information in the G/L account, the field is automatically updated to show the current system date."
     },
     {
       "no": 27,
       "name": "Cash Flow Forecast Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 28,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval. The Balance at Date and Balance at Date fields show the balance from the starting to the ending dates of the filter.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 29,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that the values in the Net Change, Balance at Date, Balance, Budget at Date, and Budgeted Amount fields are based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 30,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that the values in the Net Change, Balance at Date, Balance, Budget at Date, and Budgeted Amount fields are based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 31,
@@ -137,7 +137,7 @@
     {
       "no": 35,
       "name": "Budget Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a Budget Filter so that the values in the Budgeted Amount and Budgeted at Date fields will be based on the selected budgets only.\nYou can enter budget names, using a maximum of 10 characters (both numbers and letters). There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nEntries Included\n\nEqual to\n\n1\n\nThose from Budget 1 (the budget name could contain letters instead of just numbers)\n\n\nInterval\n\n1.. 5\n\nThose from Budgets 1 through 5\n\n\nTo see the G/L budgets in the G/L Budget Name table, choose the field."
     },
     {
       "no": 36,
@@ -147,7 +147,7 @@
     {
       "no": 37,
       "name": "Budgeted at Date",
-      "tooltip": ""
+      "tooltip": "Displays the budgeted amount up to and including the last date of the filter defined in the Date Filter field. If the filter field contains more than one date (for example, an interval), only the last one has any effect on the contents of this field.\nThe program automatically calculates and updates the contents of the field using the Amount field in the G/L Budget Entry table.\nYou can filter the Budget at Date field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or business units."
     },
     {
       "no": 40,
@@ -162,7 +162,7 @@
     {
       "no": 42,
       "name": "Business Unit Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a Business Unit Filter so that the values in the Net Change, Balance at Date, Balance, Budget at Date, and Budgeted Amount fields only display the balance for the selected business unit(s).\nYou can enter business unit codes, using a maximum of 10 characters, both numbers and letters. There are specific rules for how these can be combined:\n\nMeaning\nSample Expression\nEntries Included\n\nEqual to\n\n1\n\nThose from Business Unit 1 (the code can be letters instead of numbers)\n\n\nInterval\n\n1..5\n\nThose from Business Units 1 through 5\n\n\nEither/or\n\n1|2\n\nThose from Business Unit 1 or 2\n\n\nDifferent from\n\n<>1\n\nAll entries except those belonging to Business Unit 1\n\n\nTo see the business unit codes in the Business Units window, choose the field."
     },
     {
       "no": 43,
@@ -182,42 +182,42 @@
     {
       "no": 47,
       "name": "Debit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total of the debit entries that have been posted to the account.\nTo see the ledger entries that make up the Debit Amount, choose the field."
     },
     {
       "no": 48,
       "name": "Credit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total of the credit entries that have been posted to the account.\nTo see the ledger entries that make up the Credit Amount, choose the field."
     },
     {
       "no": 49,
       "name": "Automatic Ext. Texts",
-      "tooltip": ""
+      "tooltip": "Specifies that an extended text will be added automatically to the account.\nIf you have defined an extended text for an account, the text can be added to a sales, purchase, reminder or finance charge memo line when you create a line for the account. The program will do this automatically if you have put a check mark in this field."
     },
     {
       "no": 52,
       "name": "Budgeted Debit Amount",
-      "tooltip": ""
+      "tooltip": "Displays the Budgeted Debit Amount for the account.\nTo see the budget entries that make up the amount, choose the field."
     },
     {
       "no": 53,
       "name": "Budgeted Credit Amount",
-      "tooltip": ""
+      "tooltip": "Displays the Budgeted Credit Amount for the account.\nTo see the budget entries that make up the amount, choose the field."
     },
     {
       "no": 54,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies a Tax Area Code for the account. To see the available tax area codes, choose the field.\nWhen you post transactions to this account, the program uses this code in combination with a Tax Group code and the Tax Liable field to find the necessary information for calculating sales tax."
     },
     {
       "no": 55,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether transactions to this account are liable for sales tax.\nWhen you post transactions to this account, the program uses this code and a combination of the Tax Area Code and a Tax Group code to find the necessary information for calculating sales tax."
     },
     {
       "no": 56,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies a Tax Group Code for the account. To see the available tax group codes, choose the field.\nWhen you post transactions to this account, the program uses this code in combination with a Tax Area code and the Tax Liable field to find the necessary information for calculating sales tax."
     },
     {
       "no": 57,
@@ -247,42 +247,42 @@
     {
       "no": 63,
       "name": "Exchange Rate Adjustment",
-      "tooltip": ""
+      "tooltip": "Specifies how general ledger accounts will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency, if you post in an additional reporting currency.\nExchange rate gains and losses are first posted when you run the Adjust Exchange Rates batch job. When you run the Adjust Exchange Rates batch job, the program finds the adjustment exchange rate in the Currency Exchange Rate table and then compares the amounts in the Amount and Additional-Currency Amount fields on the G/L entry to determine if there is an exchange rate gain or loss.\nThe batch job uses the option you select in this field to determine whether to calculate and post exchange rate gains or losses for G/L accounts.\nYou can select one of three options:\n\nNo Adjustment\n\nThe program assigns this option as a default. No exchange rate adjustment is made to the G/L account.\n\n\nAdjust Amount\n\nIf you select this option, the LCY amount will be adjusted for any exchange rate gains or losses. The program will post any exchange rate gains or losses to the G/L account (the Amount and to the accounts you specified for gains or losses in the Realized G/L Gains Account or Realized G/L Losses Account fields in the Currency table.\n\n\nAdjust Additional-Currency Amount\n\nIf you select this option, the additional reporting currency will be adjusted for any exchange rate gains or losses. The program will post any exchange rate gains or losses to the G/L account (the Additional-Currency Amount field) and to the accounts you specified for gains or losses in the Realized G/L Gains Account or Realized G/L Losses Account fields in the Currency table."
     },
     {
       "no": 64,
       "name": "Add.-Currency Debit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total of the debit entries in the additional reporting currency that have been posted to the account.\nTo see the ledger entries that make up the debit amount, choose the field."
     },
     {
       "no": 65,
       "name": "Add.-Currency Credit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total of the credit entries in the additional reporting currency that have been posted to the account.\nTo see the ledger entries that make up the credit amount, choose the field."
     },
     {
       "no": 66,
       "name": "Analysis View Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 67,
       "name": "Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for dimension values within a dimension. The filter uses the dimension you have defined as Dimension 1 for the analysis view selected in the Analysis View Code field. If you have not defined a Dimension 1 for an analysis view, this field will be disabled."
     },
     {
       "no": 68,
       "name": "Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for dimension values within a dimension. The filter uses the dimension you have defined as Dimension 2 for the analysis view selected in the Analysis View Code field. If you have not defined a Dimension 2 for an analysis view, this field will be disabled."
     },
     {
       "no": 69,
       "name": "Dimension 3 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for dimension values within a dimension. The filter uses the dimension you have defined as Dimension 3 for the analysis view selected in the Analysis View Code field. If you have not defined a Dimension 3 for an analysis view, this field will be disabled."
     },
     {
       "no": 70,
       "name": "Dimension 4 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for dimension values within a dimension. The filter uses the dimension you have defined as Dimension 4 for the analysis view selected in the Analysis View Code field. If you have not defined a Dimension 4 for an analysis view, this field will be disabled."
     }
   ]
 }

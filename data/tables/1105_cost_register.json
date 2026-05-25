@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Text",
-      "tooltip": ""
+      "tooltip": "Specifies a description of the cost register."
     },
     {
       "no": 4,

@@ -47,22 +47,22 @@
     {
       "no": 25,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which this entry in the item application entry was originally created in this table."
     },
     {
       "no": 26,
       "name": "Created By User",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the user who originally posted the transaction that created this item application entry in this table."
     },
     {
       "no": 27,
       "name": "Last Modified Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which this item application entry was last changed. The item application is modified when the outbound transaction is applied to the inbound transaction."
     },
     {
       "no": 28,
       "name": "Last Modified By User",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the user who last changed this item application entry. The item application is modified when the outbound transaction is applied to the inbound transaction."
     },
     {
       "no": 101,
@@ -92,7 +92,7 @@
     {
       "no": 5804,
       "name": "Output Completely Invd. Date",
-      "tooltip": ""
+      "tooltip": "Specifies the outbound item entries have been completely invoiced."
     },
     {
       "no": 5805,

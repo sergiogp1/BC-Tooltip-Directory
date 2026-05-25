@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -52,47 +52,47 @@
     {
       "no": 11,
       "name": "Sales Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of open sales invoices that exist in the company. The documents are filtered by today's date."
     },
     {
       "no": 12,
       "name": "Unpaid Sales Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of unpaid sales invoices that exist in the company. The documents are filtered by today's date."
     },
     {
       "no": 13,
       "name": "Overdue Sales Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of unpaid sales invoices in the company are past their payment due date. The documents are filtered by today's date."
     },
     {
       "no": 14,
       "name": "Sales Quotes",
-      "tooltip": ""
+      "tooltip": "Specifies the number of sales invoices in the company. The documents are filtered by today's date."
     },
     {
       "no": 20,
       "name": "Due Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter date for documents that are displayed in the Small Business Owner Cue on the Role Center."
     },
     {
       "no": 21,
       "name": "Overdue Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date filter for the documents that are displayed in the Small Business Owner Cue on the Role Center."
     },
     {
       "no": 30,
       "name": "Purchase Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of open purchase invoices that exist in the company. The documents are filtered by today's date."
     },
     {
       "no": 31,
       "name": "Unpaid Purchase Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of unpaid purchase invoices that exist in the company. The documents are filtered by today's date."
     },
     {
       "no": 32,
       "name": "Overdue Purchase Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the number of unpaid purchase invoices in the company are past their payment due date. The documents are filtered by today's date."
     },
     {
       "no": 33,

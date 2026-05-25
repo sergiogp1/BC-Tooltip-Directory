@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the posting group associated with the item. The program automatically retrieves the posting group from the Item Item table."
     },
     {
       "no": 10,
@@ -97,7 +97,7 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that should be used.\nThe program automatically retrieves the VAT % from the General Posting Setup table when you fill in the Gen. Bus. Posting Group and Gen. Prod. Posting Group fields.\nIf the VAT Calculation Type field contains the Reverse Charge VAT option, the VAT % field will not be filled in. In this case, the line refers to business between your country/region and another EU-country/region, and VAT will not be calculated on the invoice. However, when you post the sales invoice the program creates a VAT entry with information about, reverse charge VAT and the VAT base (the amount used to calculate the VAT amount)."
     },
     {
       "no": 27,
@@ -117,7 +117,7 @@
     {
       "no": 30,
       "name": "Amount Including VAT",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 32,
@@ -162,7 +162,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group code. To see the price group codes that have been set up in the Customer Price Group table, click the field.\nThe program automatically retrieves the customer price group code from the Customer Price Group field on the sales header. The field is blank if no price group code has been entered on the sales header.\nThe program uses the code when entering the unit price for the item on the line. The program checks the Sales Price table to see whether the customers in the price group for the code should pay a different price from the one that has been entered in the Unit Price field on the item card."
     },
     {
       "no": 45,
@@ -182,17 +182,17 @@
     {
       "no": 57,
       "name": "Outstanding Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that still needs to be shipped before the order is filled.\nThe program calculates the amount as Amount Including VAT * Outstanding Quantity / Quantity.\nThe field is used only on sales order lines.\nThe program automatically updates this field."
     },
     {
       "no": 58,
       "name": "Qty. Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the ordered item have been shipped but not yet invoiced.\nThe program updates the field when you post. It calculates the contents of the field as the difference between the Quantity Shipped and Quantity Invoiced fields.\nYou cannot delete a line that contains a quantity of items that have been shipped but not invoiced."
     },
     {
       "no": 59,
       "name": "Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the ordered items that have been shipped but not yet invoiced.\nThe program updates the field when you post. It calculates the contents of the field as Amount Including VAT * Qty. Shipped Not Invoiced / Quantity."
     },
     {
       "no": 60,
@@ -207,22 +207,22 @@
     {
       "no": 63,
       "name": "Shipment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the shipment in the posted shipment list.\nThe program automatically copies the number from the posted shipment list."
     },
     {
       "no": 64,
       "name": "Shipment Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number the sales line has in the posted shipment list.\nThe program automatically copies the number from the posted shipment list."
     },
     {
       "no": 67,
       "name": "Profit %",
-      "tooltip": ""
+      "tooltip": "Specifies either the value from the Standard Profit % field on the card or zero.\nThe program automatically retrieves the profit percentage from the Item table.\nThis field is used only when you have chosen Item in the Type field."
     },
     {
       "no": 68,
       "name": "Bill-to Customer No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the customer who will receive the invoice for the items on the sales line.\nThe program automatically retrieves the bill-to customer number from the Bill-to Customer No. field on the sales header."
     },
     {
       "no": 69,
@@ -232,12 +232,12 @@
     {
       "no": 71,
       "name": "Purchase Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the purchase order you have set up so that your vendor can ship the sales order directly (with a drop shipment) to your customer."
     },
     {
       "no": 72,
       "name": "Purch. Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number on the purchase order you have set up so that your vendor can ship the sales order directly (with a drop shipment) to your customer."
     },
     {
       "no": 73,
@@ -257,17 +257,17 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type will be used when this sales line is posted.\nThe program fills in the field automatically by using the VAT Bus. Posting Group and VAT Prod. Posting Group fields.\nThe VAT calculation type determines how the VAT will be calculated when this line is posted. There are three different VAT types and one type for use with sales tax:\n\nNormal VAT\n\nThis option is used to calculate VAT for the amount on this line and to create a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when the line involves a sale to another EU country/region, where the seller does not collect VAT because the purchaser must compute and settle accounts with the tax authorities.\n\n\nFull VAT\n\nThis option is used when the amount you are posting on this line consists entirely of VAT. This option may be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used only if the program is set up to handle US sales tax. The option directs the program to retrieve information from specific sales tax tables and then calculate sales tax instead of VAT."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the transaction type. To see the transaction type codes in the Transaction Type table, click the field.\nThe program automatically retrieves the transaction type code from the sales header. The field is blank if no code has been entered on the sales header.\nYou can change the contents of the field on individual sales lines.\nThe information is necessary for INTRASTAT reporting."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Specifies the transport method code. To see the transaction type codes in the Transport Method table, click the field.\nThe program automatically retrieves the transport method from the sales header. The field is blank if no transport method has been entered on the sales header.\nYou can change the contents of the field on individual sales lines. The information is necessary for INTRASTAT reporting."
     },
     {
       "no": 80,
@@ -277,17 +277,17 @@
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of exit through which you ship the items out of your country/region.\nThe program retrieves the code automatically from the Exit Point field on the sales header.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the exit points that you can choose, click the field."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area of the customers address.\nTo see the area codes that have been set up, click the drop-down arrow to the right of the field.\n\nAdditional Information\n\nThe area code is copied from the sales header, but you can change the contents of the field on the individual sales lines.\nThe information is necessary for INTRASTAT reporting."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of transaction specification used for the items in this line. To see the transaction specification codes that have been set up in the Transaction Specification table, click the field.\nThe program automatically retrieves the transaction specification code from the sales header. The field is blank if no code has been entered on the sales header.\nYou can change the contents of the field on individual sales lines. This information is necessary for INTRASTAT reporting."
     },
     {
       "no": 84,
@@ -312,7 +312,7 @@
     {
       "no": 88,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line. The value in this field is based on the value that is associated with the information that is specified in the VAT Posting Setup.\n\nAdditional Information\n\nIf you change the VAT Prod. Posting Group or the VAT Bus. Posting Group on the sales line, the information in the VAT Clause Code field is updated to match.\nAfter the sales document is posted, the VAT Clause Code is copied to other sales documents, such as the sales invoice and sales credit memo. In turn, when a report is created from these documents, the VAT clause description text is displayed on the report.\nIf you do not define a VAT clause for a line on a sales document, the VAT clause section of the report is not created."
     },
     {
       "no": 89,
@@ -332,12 +332,12 @@
     {
       "no": 92,
       "name": "Outstanding Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount for the items on the order that still needs to be shipped before the order is filled in LCY.\nThe program calculates the contents of this field by using the amount in the Outstanding Amount field and the relevant exchange rate.\nThe program automatically updates this field."
     },
     {
       "no": 93,
       "name": "Shipped Not Invoiced (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount for the ordered items that have been shipped but not yet invoiced in LCY.\nThe program updates the field when you post. It calculates the contents of this field by using the amount in the Shipped Not Invoiced field and the relevant exchange rate."
     },
     {
       "no": 94,
@@ -367,17 +367,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount of this sales line (excluding VAT)."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 103,
@@ -387,7 +387,7 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Shows the difference between the VAT amount that is automatically calculated and the VAT amount that you entered manually in the VAT Amount field.\nThe VAT difference displayed here is distributed proportionally between purchase lines with the same VAT identifier."
     },
     {
       "no": 105,
@@ -397,7 +397,7 @@
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Copies the contents from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 107,
@@ -427,47 +427,47 @@
     {
       "no": 112,
       "name": "Prepmt. Amt. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 113,
       "name": "Prepayment Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 114,
       "name": "Prepmt. VAT Base Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the total prepayment amount for this sales line (excluding VAT)."
     },
     {
       "no": 115,
       "name": "Prepayment VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that should be used for prepayment invoices.\nThe program automatically retrieves the VAT % from the General Posting Setup table when you fill in the Gen. Bus. Posting Group and Gen. Prod. Posting Group fields.\nIf the VAT Calculation Type field contains the Reverse Charge VAT option, the VAT % field will not be filled in. In this case, the line refers to business between your country/region and another EU-country/region, and VAT will not be calculated on the prepayment invoice. However, when you post the prepayment invoice, the program creates a VAT entry with information about reverse charge VAT and the VAT base (the amount used to calculate the VAT amount)."
     },
     {
       "no": 116,
       "name": "Prepmt. VAT Calc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type will be used when a prepayment invoice for this sales line is posted.\nThe program fills in the field automatically by using the VAT Bus. Posting Group and VAT Prod. Posting Group fields.\nThe VAT calculation type determines how the VAT will be calculated when the prepayment invoice is posted. There are three different VAT types and one type for use with sales tax:\nNormal VAT\nThis option is used to calculate VAT for the amount on this line and to create a VAT ledger entry including the amount.\nReverse Charge VAT\nThis option is used when the line involves a sale to another EU country/region, where the seller does not collect VAT because the purchaser must compute and settle accounts with the tax authorities.\nFull VAT\nThis option cannot be used for prepayment.\nSales Tax\nThis option is used only if the program is set up to handle US sales tax. The option directs the program to retrieve information from specific sales tax tables and then calculate sales tax instead of VAT."
     },
     {
       "no": 117,
       "name": "Prepayment VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 118,
       "name": "Prepayment Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the customer.\nThe program automatically retrieves the code from the Tax Area Code field on the sales header.\nThe program will use the tax area code, in combination with the tax group code on the sales line, to determine the sales tax % and the G/L accounts for sales tax posting in connection with prepayments.\nNormally, you should not change the content of this field, but it may be necessary in special cases where the default code is not appropriate."
     },
     {
       "no": 119,
       "name": "Prepayment Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether sales to the customer on the sales header are liable to sales tax.\nThe program automatically retrieves the code from the Tax Liable field on the sales header."
     },
     {
       "no": 120,
       "name": "Prepayment Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code of the item on this line.\nThe program automatically retrieves the code from the Tax Group Code field on the item card when the No. field on this sales line is filled in.\nThe program will use the tax group code, in combination with the tax area code on the sales line, to determine the sales tax % and the G/L accounts for sales tax posting in connection with prepayments.\nNormally, you should not change the content of this field, but it may be necessary in special cases where the default code is not appropriate."
     },
     {
       "no": 121,
@@ -482,17 +482,17 @@
     {
       "no": 123,
       "name": "Prepayment Line",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 124,
       "name": "Prepmt. Amount Inv. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "Shows the prepayment amount including VAT that has already been invoiced to the customer for this sales line. The amount is displayed in the currency of the sales document.\nYou cannot change the content of this field. If you want to void the prepayment, you must post a Prepayment Credit Memo for the sales line."
     },
     {
       "no": 129,
       "name": "Prepmt. Amount Inv. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the prepayment amount that has already been invoiced to the customer for this sales line. The amount is displayed in the local currency of the sales document.\nIf you have placed a check mark in the Prices Including VAT field before posting the prepayment invoice, the amount displayed will include VAT.\nYou cannot change the content of this field. If you want to void the prepayment, you must post a prepayment credit memo for the sales line."
     },
     {
       "no": 130,
@@ -502,22 +502,22 @@
     {
       "no": 132,
       "name": "Prepmt. VAT Amount Inv. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT amount that has already been invoiced to the customer for this sales line.\nThe amount is displayed in the currency of the sales document."
     },
     {
       "no": 135,
       "name": "Prepayment VAT Difference",
-      "tooltip": ""
+      "tooltip": "Specifies the difference between the prepayment VAT amount that is automatically calculated and the prepayment VAT amount that you entered manually in the prepayment VAT amount field."
     },
     {
       "no": 136,
       "name": "Prepmt VAT Diff. to Deduct",
-      "tooltip": ""
+      "tooltip": "Shows the prepayment VAT difference that will be deducted from the next ordinary invoice for this line in the currency of the sales order."
     },
     {
       "no": 137,
       "name": "Prepmt VAT Diff. Deducted",
-      "tooltip": ""
+      "tooltip": "Specifies the prepayment VAT difference that has already been deducted from ordinary invoices posted for this sales order line in the currency of the sales order."
     },
     {
       "no": 138,
@@ -542,7 +542,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 900,
@@ -552,7 +552,7 @@
     {
       "no": 901,
       "name": "Qty. to Asm. to Order (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the sales line quantity that you want to supply by assembly. The units are expressed in the base unit of measure.\nIf the assembly item on the sales order line is set up to be assembled to order, then a linked assembly order header is automatically created, and the value in this field reflects the value in the Quantity (Base) field on that linked assembly order header.\nYou define an items assembly process in the Assembly Policy field on the item card of the assembly item."
     },
     {
       "no": 902,
@@ -577,7 +577,7 @@
     {
       "no": 1300,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the posting of the sales document will be recorded. By default, todays date is entered.\nThe posting date will be copied to all general, customer, and item ledger entries when posting."
     },
     {
       "no": 1700,
@@ -627,7 +627,7 @@
     {
       "no": 5405,
       "name": "Planned",
-      "tooltip": ""
+      "tooltip": "Contains Yes if the sales line is included in production planning."
     },
     {
       "no": 5406,
@@ -647,7 +647,7 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Quantity on the line expressed in base units of measure."
     },
     {
       "no": 5416,
@@ -657,27 +657,27 @@
     {
       "no": 5417,
       "name": "Qty. to Invoice (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Qty. to Invoice on the line expressed in base units of measure."
     },
     {
       "no": 5418,
       "name": "Qty. to Ship (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Qty. to Ship on the line expressed in base units of measure."
     },
     {
       "no": 5458,
       "name": "Qty. Shipped Not Invd. (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Qty. Shipped Not Invoiced on the line expressed in base units of measure."
     },
     {
       "no": 5460,
       "name": "Qty. Shipped (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Quantity Shipped on the line expressed in base units of measure.\nThe program updates the field when you post."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Quantity Invoiced on the line expressed in base units of measure.\nThe program updates the field when you post."
     },
     {
       "no": 5495,
@@ -712,12 +712,12 @@
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the customer's responsibility center code. To see the responsibility center codes that have been set up in the Responsibility Center table, click the field.\nThe program automatically retrieves the responsibility center code from the Responsibility Center Code field on the sales header. The field is blank if no responsibility center code has been entered on the sales header."
     },
     {
       "no": 5701,
       "name": "Out-of-Stock Substitution",
-      "tooltip": ""
+      "tooltip": "This field is used internally. You cannot change or delete the contents of this field. If an item is out of stock, the program automatically enters a check mark in this field."
     },
     {
       "no": 5702,
@@ -727,17 +727,17 @@
     {
       "no": 5703,
       "name": "Originally Ordered No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item that was originally ordered."
     },
     {
       "no": 5704,
       "name": "Originally Ordered Var. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the variant that was originally ordered."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5710,
@@ -757,12 +757,12 @@
     {
       "no": 5714,
       "name": "Special Order Purchase No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the purchase order for a special order. (This order is shipped to your warehouse for a specific customer.)\nThe program automatically fills in this field, if the code you entered for this line was the code for a special order."
     },
     {
       "no": 5715,
       "name": "Special Order Purch. Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the line that contains the special order.\nThe program automatically fills in this field, if the code you entered for this line was the code for a special order."
     },
     {
       "no": 5725,
@@ -797,7 +797,7 @@
     {
       "no": 5752,
       "name": "Completely Shipped",
-      "tooltip": ""
+      "tooltip": "Specifies whether you have shipped all the items on the line."
     },
     {
       "no": 5790,
@@ -862,27 +862,27 @@
     {
       "no": 5804,
       "name": "Return Qty. to Receive (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Return Qty. to Receive on the line expressed in base units of measure."
     },
     {
       "no": 5805,
       "name": "Return Qty. Rcd. Not Invd.",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of ordered items that have been returned but not yet invoiced.\nThe program updates the field when you post. It calculates the contents of the field as the difference between the Return Qty. Received and Quantity Invoiced fields.\nYou cannot delete a line that contains a quantity of returned items that have been received but not invoiced."
     },
     {
       "no": 5806,
       "name": "Ret. Qty. Rcd. Not Invd.(Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Return Qty. Rcd. Not Invd. on the line expressed in base units of measure."
     },
     {
       "no": 5807,
       "name": "Return Rcd. Not Invd.",
-      "tooltip": ""
+      "tooltip": "Specifies the value of the items that you have received as returned from the customer. The items have been returned, but they are not yet posted as invoiced.\nThe amount is in the currency of the sales document."
     },
     {
       "no": 5808,
       "name": "Return Rcd. Not Invd. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the value in LCY of the items returned from the customer. Because the items have been returned, they were not posted as invoiced."
     },
     {
       "no": 5809,
@@ -892,7 +892,7 @@
     {
       "no": 5810,
       "name": "Return Qty. Received (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of items that you have posted as received because they have been returned from the customer.\nThe quantity is expressed in the base unit of measure."
     },
     {
       "no": 5811,
@@ -907,17 +907,17 @@
     {
       "no": 5909,
       "name": "BOM Item No.",
-      "tooltip": ""
+      "tooltip": "Contains the item number of the exploded BOM item.\nThe program uses this field internally."
     },
     {
       "no": 6600,
       "name": "Return Receipt No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the return receipt that corresponds to the sales return order."
     },
     {
       "no": 6601,
       "name": "Return Receipt Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the return receipt line that corresponds to the sales return order line."
     },
     {
       "no": 6608,
@@ -937,12 +937,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount is calculated when the price is offered."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer discount group code. To see the discount group codes that have been set up in the Customer Discount Group table, click the field.\nThe program automatically retrieves the customer discount group code from the Customer Disc. Group field on the sales header. The field is blank if no discount group code has been entered on the sales header.\nThe program uses the code when entering the unit price for the item on the line. The program checks the Sales Price table to see whether the customers in the price group for the code should pay a different price from the one that has been entered in the Unit Price field on the item card."
     },
     {
       "no": 7003,

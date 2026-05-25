@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "Specifies a description that further explains the cost budget register."
     },
     {
       "no": 4,
@@ -82,7 +82,7 @@
     {
       "no": 33,
       "name": "Cost Budget Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the cost budget."
     }
   ]
 }

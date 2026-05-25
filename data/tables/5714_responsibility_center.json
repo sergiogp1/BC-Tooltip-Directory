@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the responsibility center's name. You can use this field, for example, if the responsibility center has a long name.\nYou can enter a maximum of 50 characters, both numbers and letters.\nThe contents of the Name 2 field are often used when you print something, so you should enter the name as you want it to appear."
     },
     {
       "no": 11,
@@ -77,7 +77,7 @@
     {
       "no": 15,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the responsibility center."
     },
     {
       "no": 102,
@@ -92,7 +92,7 @@
     {
       "no": 5900,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter.\nIf this field contains the starting and ending dates for a time period, fields such as Contract Gain/Loss Amount will display information for that time period only.\nYou can enter a date or a time interval. There are certain rules for how dates should be entered."
     }
   ]
 }

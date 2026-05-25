@@ -12,12 +12,12 @@
     {
       "no": 2,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 3,
       "name": "Additional Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the shipping agent service if the Source Type field contains Shipping Agent."
     },
     {
       "no": 4,
@@ -27,17 +27,17 @@
     {
       "no": 5,
       "name": "Date",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 6,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 7,
       "name": "Nonworking",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     }
   ]
 }

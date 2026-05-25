@@ -7,12 +7,12 @@
     {
       "no": 2,
       "name": "Prod. Order BOM Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the production order BOM.\nThe system copied the number from the Line No. field on the Production BOM Line."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the comment.\nThe program uses this field internally."
     },
     {
       "no": 10,
@@ -32,17 +32,17 @@
     {
       "no": 22,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order for which the comment for a BOM line was or is created.\nBy entering the status it is possible to enter different comments for a production order BOM line in different planning phases or execution.\nExample: A routing is entered for a production order. The comment is entered for a line of this BOM:\nThe production order contains the planned status: Text: Please note that Mr. Mueller is on holiday\nThe production order contains the status firm planned: Text: Before release .......\nThe production order contains the released status: Text: Check quality"
     },
     {
       "no": 23,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order number of the production BOM that the comment is created for.\nThe system copied the number from the No. field on the production order.\nBy entering this number the comment can be assigned uniquely to this production order BOM."
     },
     {
       "no": 24,
       "name": "Prod. Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order line number.\nThe system copied the number from the Line No. field on the production order line.\nBy entering this number the comment can be assigned uniquely to the production order line."
     }
   ]
 }

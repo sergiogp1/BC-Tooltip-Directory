@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Vendor No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor number. The program uses this field internally."
     },
     {
       "no": 2,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number that is associated with the order address. You can enter a maximum of 30 characters, both numbers and letters.\nUse a standard format for the telex number so that it will look uniform on printouts."
     },
     {
       "no": 35,
@@ -72,7 +72,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the telex answer back code that is associated with the order address. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format for the telex answer back code so that it will look uniform on printouts."
     },
     {
       "no": 91,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Vendor No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor number of the vendor that has this bank account.\nThe program automatically copies the number from the vendor card when you set up a vendor bank account card."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 5,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the bank's name. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 6,
@@ -57,7 +57,7 @@
     {
       "no": 12,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number of the bank where the vendor has the bank account. You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 13,
@@ -97,7 +97,7 @@
     {
       "no": 20,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the telex answer back code of the bank where the vendor has the bank account. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex answer back code so that it will look uniform on printouts."
     },
     {
       "no": 21,

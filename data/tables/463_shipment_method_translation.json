@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Shipment Method",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment method that is translated."
     },
     {
       "no": 2,

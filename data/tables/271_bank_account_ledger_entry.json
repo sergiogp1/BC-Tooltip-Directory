@@ -57,7 +57,7 @@
     {
       "no": 22,
       "name": "Bank Acc. Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the bank account posting group that the program used when the entry was posted.\nThe program fills in the field in one of the following ways:\nIf the entry was posted from a journal line, the posting group is copied from the Posting Group field on the journal line.\nIf the entry was posted from an invoice or credit memo, the posting group is copied from the Vendor Posting Group field on the purchase header or on the sales header.\nYou cannot change the posting group because the entry has been posted."
     },
     {
       "no": 23,
@@ -97,12 +97,12 @@
     {
       "no": 44,
       "name": "Closed by Entry No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 45,
       "name": "Closed at Date",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 48,
@@ -112,7 +112,7 @@
     {
       "no": 49,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal where the bank account entry was posted.\nThe program copies the name from the Journal Batch Name on the journal line.\nYou cannot change the name because the entry has been posted."
     },
     {
       "no": 50,
@@ -172,7 +172,7 @@
     {
       "no": 62,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on which you created the journal line in this bank account ledger entry.\nThe program fills in the field in one of the following ways:\nIf the entry was posted from a journal line, the number is copied from the Document Date field on the journal line.\nIf the entry was posted from an invoice or credit memo, the number is copied from the Document Date field on the purchase header or on the sales header.\nYou cannot change the code because the entry has been posted."
     },
     {
       "no": 63,

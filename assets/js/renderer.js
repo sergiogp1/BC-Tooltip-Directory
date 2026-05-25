@@ -19,7 +19,7 @@ const Renderer = (() => {
 
     mount(`
       <div class="home-header">
-        <h1>Business Central Tooltip Directory</h1>
+        <h1>BC Tooltip Directory</h1>
         <p>Browse and search fields and tooltips for Business Central tables.</p>
       </div>
       <div class="table-list-wrap">

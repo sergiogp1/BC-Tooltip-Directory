@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Profile Questionnaire Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the profile questionnaire to which the line is linked."
     },
     {
       "no": 2,
@@ -102,37 +102,37 @@
     {
       "no": 9501,
       "name": "Wizard Step",
-      "tooltip": ""
+      "tooltip": "Specifies the step of the wizard."
     },
     {
       "no": 9502,
       "name": "Interval Option",
-      "tooltip": ""
+      "tooltip": "Specifies options for the questionnaire interval. The options are:\nMinimum\n\nMaximum\n\nInterval"
     },
     {
       "no": 9503,
       "name": "Answer Option",
-      "tooltip": ""
+      "tooltip": "Specifies options for questionnaire answers.\nThe options are:\nHighLow\n\nABC\n\nCustom"
     },
     {
       "no": 9504,
       "name": "Answer Description",
-      "tooltip": ""
+      "tooltip": "Specifies the description of the answer."
     },
     {
       "no": 9505,
       "name": "Wizard From Value",
-      "tooltip": ""
+      "tooltip": "Specifies the value in the wizard."
     },
     {
       "no": 9506,
       "name": "Wizard To Value",
-      "tooltip": ""
+      "tooltip": "Specifies the value in the wizard."
     },
     {
       "no": 9707,
       "name": "Wizard From Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

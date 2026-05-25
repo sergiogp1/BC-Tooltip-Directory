@@ -42,12 +42,12 @@
     {
       "no": 8,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the dimension value is indented relative to the standard margin.\nThe field is filled in automatically when you click Actions, point to Functions, and then click Indent Dimension Values.\nYou can enter something in the field, but the contents will be replaced the next time you click Indent Dimension Values. Therefore, if you want a bigger indentation, add blank spaces with the spacebar before you enter the text."
     },
     {
       "no": 9,
       "name": "Global Dimension No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 10,
@@ -62,7 +62,7 @@
     {
       "no": 12,
       "name": "Dimension Value ID",
-      "tooltip": ""
+      "tooltip": "Uniquely identifies a dimension value.\n\nAdditional Information\n\nThe field is automatically incremented and is used for reference in the Dimension Set Entry and Dimension Set Tree Node tables."
     },
     {
       "no": 8001,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT clause code that is linked to the VAT clause translation."
     },
     {
       "no": 2,

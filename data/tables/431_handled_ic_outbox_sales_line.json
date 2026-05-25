@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 3,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 11,
@@ -42,7 +42,7 @@
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 28,
@@ -87,7 +87,7 @@
     {
       "no": 91,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99,
@@ -117,17 +117,17 @@
     {
       "no": 125,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the intercompany partner that the transaction was sent to."
     },
     {
       "no": 126,
       "name": "IC Transaction No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 127,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 138,
@@ -137,7 +137,7 @@
     {
       "no": 5407,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5790,

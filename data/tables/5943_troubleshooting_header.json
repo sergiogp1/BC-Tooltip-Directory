@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the number to the troubleshooting header."
     }
   ]
 }

@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the recipient's telex number. You can enter a maximum of 30 characters, both numbers and letters.\nUse a standard format to enter the telex number so that it will look uniform on printouts."
     },
     {
       "no": 29,
@@ -72,7 +72,7 @@
     {
       "no": 32,
       "name": "Place of Export",
-      "tooltip": ""
+      "tooltip": "Specifies the place of export that is usually used when shipping to this address. You can enter a maximum of 20 characters, both numbers and letters.\nThe place of export must appear on customs documents."
     },
     {
       "no": 35,
@@ -97,7 +97,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the recipient's telex answer back code. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex answer back code so that it will look uniform on printouts."
     },
     {
       "no": 90,
@@ -127,12 +127,12 @@
     {
       "no": 108,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code that is to be used for calculating sales tax when shipping to this address.\nTo see the available tax area codes, click the field."
     },
     {
       "no": 109,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether shipments to thi address are liable for sales tax.\nWhen you post transactions that involve this ship-to address, then this field and a combination of values in the Tax Area Code and the Tax Group fields are used to for calculate the sales tax."
     },
     {
       "no": 5792,

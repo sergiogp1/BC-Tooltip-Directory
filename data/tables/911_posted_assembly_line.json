@@ -52,7 +52,7 @@
     {
       "no": 18,
       "name": "Lead-Time Offset",
-      "tooltip": ""
+      "tooltip": "Specifies the lead-time offset that is defined for the assembly component on this posted assembly order line."
     },
     {
       "no": 19,
@@ -82,22 +82,22 @@
     {
       "no": 25,
       "name": "Position",
-      "tooltip": ""
+      "tooltip": "Specifies the first position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 26,
       "name": "Position 2",
-      "tooltip": ""
+      "tooltip": "Specifies the second position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 27,
       "name": "Position 3",
-      "tooltip": ""
+      "tooltip": "Specifies the third position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 39,
       "name": "Item Shpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item ledger entry that is associated with the reversal of the assembly order header during an undo assembly process."
     },
     {
       "no": 40,
@@ -107,12 +107,12 @@
     {
       "no": 41,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly components were posted as consumed by the posted assembly order line. The assembly components are stated in the base unit of measure. The value is copied from the Quantity (Base) field on the assembly order line during posting."
     },
     {
       "no": 52,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Specifies on which date the assembly component was due to be available for consumption by the posted assembly order. The date is copied from the Due Date field on the assembly order line during posting."
     },
     {
       "no": 60,
@@ -132,7 +132,7 @@
     {
       "no": 63,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group to which the assembly component was posted from this posted assembly order line. It is copied from the Gen. Prod. Posting Group field on the assembly order line during posting.\nAdditional Information\nWhen you post transactions for the item on the assembly order line, this code is used with a posting group code of the General Posting Setup window. The window defines the VAT rate, the VAT calculation type, and the accounts in which postings for sales, discounts, and so on occur."
     },
     {
       "no": 64,
@@ -157,7 +157,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

@@ -72,7 +72,7 @@
     {
       "no": 16,
       "name": "Resource Group No.",
-      "tooltip": ""
+      "tooltip": "Specifies the code that is assigned to the relevant resource group if the entry affects a resource.\nYou can see the available resource groups by choosing the field."
     },
     {
       "no": 17,
@@ -112,7 +112,7 @@
     {
       "no": 33,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the customer price group code that is assigned to the entry.\nThis field is used when the Type is Item.\nYou can see the customer price groups that are available by choosing the field."
     },
     {
       "no": 37,
@@ -147,7 +147,7 @@
     {
       "no": 75,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the job journal batch, from which a job ledger entry was posted."
     },
     {
       "no": 76,
@@ -157,17 +157,17 @@
     {
       "no": 77,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the transaction type. The transaction type is used in connection with INTRASTAT reporting. It is transferred to the job ledger entries from the job journal, the sales lines and the purchase lines.\nTo see the transaction types that are available, choose the field."
     },
     {
       "no": 78,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains the transport method. The transport method is used in connection with INTRASTAT reporting. It is transferred to the job ledger entries from the job journal, the sales lines, and the purchase lines.\nTo see the transport methods that are available, choose the field."
     },
     {
       "no": 79,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code. The country/region code is used in connection with INTRASTAT reporting. It is transferred to the job ledger entries from the job journal, the sales lines, and the purchase lines.\nTo see the countries/regions that are available, choose the field."
     },
     {
       "no": 80,
@@ -182,47 +182,47 @@
     {
       "no": 82,
       "name": "Entry/Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the entry/exit point, which is used in connection with INTRASTAT reporting. The entry/exit point is transferred to the job ledger entries from the job journal, the sales lines, and the purchase lines.\nTo see the entry/exit points that are available, choose the field."
     },
     {
       "no": 83,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Contains the date on the document that provided the basis for this entry.\nThe program copied the date from the Document Date field on the journal line."
     },
     {
       "no": 84,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the external document number.\nThe number is copied from the External Document No. field on the journal line.\nYou cannot change the document number because the entry has already been posted."
     },
     {
       "no": 85,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the area code, which is used in connection with INTRASTAT reporting. The area code is transferred to the job ledger entries from the job journal, the sales lines, and the purchase lines.\nTo see the areas that are available, choose the field."
     },
     {
       "no": 86,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the transaction specification, which is used in connection with INTRASTAT reporting. The transaction specification is transferred to the job ledger entries from the job journal, the sales lines, and the purchase lines.\nTo see the Transaction Specifications that are available, choose the field."
     },
     {
       "no": 87,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which this entry's document number belongs.\nYou cannot change the number series because the entry has been posted."
     },
     {
       "no": 88,
       "name": "Additional-Currency Total Cost",
-      "tooltip": ""
+      "tooltip": "Contains the total cost of the posted entry in the additional reporting currency. If you update the job ledger costs for item ledger cost adjustments, this field will be adjusted to include the item cost adjustments."
     },
     {
       "no": 89,
       "name": "Add.-Currency Total Price",
-      "tooltip": ""
+      "tooltip": "Contains the total price of the posted entry in the additional reporting currency."
     },
     {
       "no": 94,
       "name": "Add.-Currency Line Amount",
-      "tooltip": ""
+      "tooltip": "Contains the Line Amount (Total Price - Line Discount Amount) of the posted entry in the additional reporting currency."
     },
     {
       "no": 480,
@@ -302,22 +302,22 @@
     {
       "no": 1008,
       "name": "Line Discount Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the line discount amount for the posted entry, in the local currency."
     },
     {
       "no": 1009,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "Contains the currency code of the posted entry, which is the currency code for the Job."
     },
     {
       "no": 1010,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Specifies the rate of exchange between the job currency and local currency at the time the entry was posted.\n\nThis field is used internally."
     },
     {
       "no": 1016,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional description of the ledger entry. You can enter up to 50 characters and spaces."
     },
     {
       "no": 1017,
@@ -347,7 +347,7 @@
     {
       "no": 1022,
       "name": "Line Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of planning line that was created when the entry was posted. If the field is empty, no planning lines were created for this entry.\n\nThis field is used internally."
     },
     {
       "no": 1023,
@@ -392,17 +392,17 @@
     {
       "no": 5403,
       "name": "Bin Code",
-      "tooltip": ""
+      "tooltip": "Contains the bin code, which is copied to the job ledger entry from a job journal line or a purchase line.\nTo see the bin codes that are available, choose the field."
     },
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the quantity per item unit of measure, which is copied to the job ledger entry from a job journal line, a sales line, or a purchase line."
     },
     {
       "no": 5405,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the posted quantity calculated as the base unit of measure."
     },
     {
       "no": 6515,

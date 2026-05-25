@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the inventory posting group or fixed asset posting group associated with the item or fixed asset on the line.\nIf the line contains an item, the program automatically retrieves the inventory posting group from the Item table. The program uses the inventory posting group to find the inventory account for the line.\nIf the line contains a fixed asset, the FA posting group is copied from the FA Depreciation Book table. The fixed asset posting group determines a number of accounts which will be posted to."
     },
     {
       "no": 10,
@@ -97,7 +97,7 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that should be used.\nThe program automatically retrieves the VAT % from the General Posting Setup table when you fill in the Gen. Bus. Posting Group Code and Gen. Prod. Posting Group Code fields.\nIf the VAT Calculation Type field contains the Reverse Charge VAT option, the VAT % field is not filled in. In this case, the line refers to business between your country/region and another EU-country/region, and VAT will not be calculated on the invoice. However, when you post the invoice, the VAT amount is calculated and added to the domestic sales VAT and to the domestic purchase VAT. Thus, the calculated VAT does not affect the VAT payable."
     },
     {
       "no": 27,
@@ -117,7 +117,7 @@
     {
       "no": 30,
       "name": "Amount Including VAT",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 31,
@@ -182,17 +182,17 @@
     {
       "no": 57,
       "name": "Outstanding Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount for the items on the order that have not yet been received. The amount is shown in the currency of the purchase document.\nThe program calculates the outstanding amount as Amount Including VAT * Outstanding Quantity / Quantity.\nThe program automatically updates this field when the contents of the Quantity field changes or the purchase line is posted."
     },
     {
       "no": 58,
       "name": "Qty. Rcd. Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Specifies how many units, such as pieces, of the ordered item have been received but not yet invoiced.\nThe program calculates the quantity as the difference between the contents of the Qty. to Receive and Qty. to Invoice fields.\nEach time you change the Quantity field or post the line, the program will automatically update this field.\nYou cannot delete a line that contains a quantity of items that have been received but not invoiced."
     },
     {
       "no": 59,
       "name": "Amt. Rcd. Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Specifies the amount for the ordered items that have been received but not yet invoiced. The amount is shown in the currency of the purchase document.\nThe program calculates the amount as Amount Including VAT * Qty. Rcd. Not Invoiced / Quantity."
     },
     {
       "no": 60,
@@ -207,12 +207,12 @@
     {
       "no": 63,
       "name": "Receipt No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of an associated receipt.\nThis field is used only on invoice lines.\nThe program automatically retrieves the number from the list of posted purchase receipts if you fill in the line using the Get Receipt Lines function."
     },
     {
       "no": 64,
       "name": "Receipt Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of an associated receipt line.\nThis field is used only on invoice lines.\nThe program automatically retrieves the number from the list of posted purchase receipts when you choose Functions, Get Receipt."
     },
     {
       "no": 65,
@@ -227,12 +227,12 @@
     {
       "no": 67,
       "name": "Profit %",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 68,
       "name": "Pay-to Vendor No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the vendor who will invoice the items on the purchase line.\nThe program automatically retrieves the vendor number from the Pay-to Vendor No. field on the purchase header."
     },
     {
       "no": 69,
@@ -242,17 +242,17 @@
     {
       "no": 70,
       "name": "Vendor Item No.",
-      "tooltip": ""
+      "tooltip": "Specifies either the vendor's item number for the item or the item number in your item table.\nFor the field to be filled in with the vendor's item number, the Vendor No. and Vendor Item No. fields in the item table must be filled in. If both fields are not filled in, the program will automatically enter the item number from your item table."
     },
     {
       "no": 71,
       "name": "Sales Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a sales order that will be shipped directly to the customer (a drop shipment) using this purchase order."
     },
     {
       "no": 72,
       "name": "Sales Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a sales order line containing items to be shipped directly to the customer (a drop shipment)."
     },
     {
       "no": 73,
@@ -272,17 +272,17 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type will be used when this purchase line is posted.\nThe program fills in the field automatically by using the VAT Bus. Posting Group and VAT Prod. Posting Group fields.\nThe VAT calculation type determines how the VAT will be calculated when this line is posted. There are four different types:\n\nNormal VAT\n\nWith this option, the program calculates VAT for the amount on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when the line involves a purchase from another EU country/region, where the seller does not collect VAT, therefore the purchaser must compute and settle accounts with the tax authorities.\nThis option has no effect on your company's financial statements. When you purchase goods, the program will calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount you are posting on this line consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used if the program must calculate US sales tax instead of VAT."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of transaction used for the items in this line. To see the transaction type codes that have been set up in the Transaction Type table, click the field.\nThe program automatically retrieves the transaction type code from the purchase header. The field is blank if no code has been entered on the purchase header.\nYou can change the contents of the field on individual purchase lines. This information is necessary for INTRASTAT reporting."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the transport method used for the items in this line. To see the transport method codes that have been set up in the Transport Method table, click the field.\nThe program automatically retrieves the transport method from the purchase header. The field is blank if no transport method has been entered on the purchase header.\nYou can change the contents of the field on individual purchase lines. This information is necessary for INTRASTAT reporting."
     },
     {
       "no": 80,
@@ -292,17 +292,17 @@
     {
       "no": 81,
       "name": "Entry Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of entry where the items pass into your country/region.\nThe program retrieves the code automatically from the Entry Point field on the purchase header.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the entry points that you can choose, click the field."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code for the vendor. To see the area codes that have been set up in the Area table, click the field.\nThe program automatically retrieves the area code from the purchase header. The field is blank if no code has been entered on the purchase header.\nYou can change the contents of the field on individual purchase lines. This information is necessary for INTRASTAT reporting."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of transaction specification used for the items in this line. To see the transaction specification codes that have been set up in the Transaction Specification table, click the field.\nThe program automatically retrieves the transaction specification code from the purchase header. The field is blank if no code has been entered on the purchase header.\nYou can change the contents of the field on individual purchase lines. This information is necessary for INTRASTAT reporting."
     },
     {
       "no": 85,
@@ -367,17 +367,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount of the purchase line (excluding VAT)."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 103,
@@ -387,7 +387,7 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Shows the difference between the VAT amount that is automatically calculated and the VAT amount that you entered manually in the VAT Amount field.\nThe VAT difference displayed here is distributed proportionally between purchase lines with the same VAT identifier."
     },
     {
       "no": 105,
@@ -397,7 +397,7 @@
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 107,
@@ -427,47 +427,47 @@
     {
       "no": 112,
       "name": "Prepmt. Amt. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 113,
       "name": "Prepayment Amount",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 114,
       "name": "Prepmt. VAT Base Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the total prepayment amount for this purchase line (excluding VAT)."
     },
     {
       "no": 115,
       "name": "Prepayment VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that should be used for prepayment invoices.\nThe program automatically retrieves the VAT % from the General Posting Setup table when you fill in the Gen. Bus. Posting Group and Gen. Prod. Posting Group fields.\nIf the VAT Calculation Type field contains the Reverse Charge VAT option, the VAT % field will not be filled in. In this case, the line refers to business between your country/region and another EU-country/region, and VAT will not be calculated on the prepayment invoice. However, when you post the prepayment invoice, the program creates a VAT entry with information about reverse charge VAT and the VAT base (the amount used to calculate the VAT amount)."
     },
     {
       "no": 116,
       "name": "Prepmt. VAT Calc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type will be used when a prepayment invoice for this purchase line is posted.\nThe program fills in the field automatically by using the VAT Bus. Posting Group and VAT Prod. Posting Group fields.\nThe VAT calculation type determines how the VAT will be calculated when the prepayment invoice is posted. There are three different VAT types and one type for use with sales tax:\nNormal VAT\nThis option is used to calculate VAT for the amount on this line and to create a VAT ledger entry including the amount.\nReverse Charge VAT\nThis option is used when the line involves a sale to another EU country/region, where the seller does not collect VAT because the purchaser must compute and settle accounts with the tax authorities.\nFull VAT\nThis option cannot be used for prepayment.\nSales Tax\nThis option is used only if the program is set up to handle US sales tax. The option directs the program to retrieve information from specific sales tax tables and then calculate sales tax instead of VAT."
     },
     {
       "no": 117,
       "name": "Prepayment VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 118,
       "name": "Prepayment Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the vendor.\nThe program automatically retrieves the code from the Tax Area Code field on the purchase header.\nThe program will use the tax area code, in combination with the tax group code on the purchase line, to determine the sales tax % and the G/L accounts for sales tax posting in connection with prepayments to vendors.\nNormally, you should not change the content of this field but it may be necessary in special cases where the default code is not appropriate."
     },
     {
       "no": 119,
       "name": "Prepayment Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that purchases from the vendor on the purchase header are liable to sales tax, and sales tax will be calculated on prepayments for this purchase line. If the field is empty, no sales tax will be calculated for prepayments.\nThe program automatically retrieves the code from the Tax Liable field on the purchase header."
     },
     {
       "no": 120,
       "name": "Prepayment Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code of the item or general ledger account on this line.\nThe program automatically retrieves the code from the Tax Group Code field on the item card or the G/L account card when the No. field on this purchase line is filled in.\nThe program will use the tax group code, in combination with the tax area code on the purchase line, to determine the sales tax % and the G/L accounts for sales tax posting in connection with prepayments to vendors.\nNormally, you should not change the content of this field, but it may be necessary in special cases where the default code is not appropriate."
     },
     {
       "no": 121,
@@ -482,17 +482,17 @@
     {
       "no": 123,
       "name": "Prepayment Line",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 124,
       "name": "Prepmt. Amount Inv. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "Shows the prepayment amount including VAT that has already been invoiced from the vendor for this purchase line. The amount is displayed in the currency of the purchase document.\nYou cannot change the content of this field. If you want to void the prepayment, you must post a Prepayment Credit Memo for the purchase line."
     },
     {
       "no": 129,
       "name": "Prepmt. Amount Inv. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the prepayment amount that has already been invoiced to the vendor for this purchase line. The amount is displayed in the local currency of the purchase document."
     },
     {
       "no": 130,
@@ -502,22 +502,22 @@
     {
       "no": 132,
       "name": "Prepmt. VAT Amount Inv. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT amount that has already been invoiced to the vendor for this purchase line.\nThe amount is displayed in the currency of the purchase document."
     },
     {
       "no": 135,
       "name": "Prepayment VAT Difference",
-      "tooltip": ""
+      "tooltip": "Specifies the difference between the prepayment VAT amount that is automatically calculated and the prepayment VAT amount that you entered manually in the prepayment VAT amount field."
     },
     {
       "no": 136,
       "name": "Prepmt VAT Diff. to Deduct",
-      "tooltip": ""
+      "tooltip": "Shows the prepayment VAT difference that will be deducted from the next ordinary invoice for this line in the currency of the purchase order."
     },
     {
       "no": 137,
       "name": "Prepmt VAT Diff. Deducted",
-      "tooltip": ""
+      "tooltip": "Specifies the prepayment VAT difference that has already been deducted from ordinary invoices posted for this purchase order line in the currency of the purchase order."
     },
     {
       "no": 138,
@@ -527,12 +527,12 @@
     {
       "no": 140,
       "name": "Outstanding Amt. Ex. VAT (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount excluding VAT for the items on the order that have not yet been received in LCY."
     },
     {
       "no": 141,
       "name": "A. Rcd. Not Inv. Ex. VAT (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount excluding VAT for the items on the order that have been received in LCY, but not yet invoiced."
     },
     {
       "no": 145,
@@ -547,7 +547,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1001,
@@ -607,12 +607,12 @@
     {
       "no": 1012,
       "name": "Job Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 1013,
       "name": "Job Currency Code",
-      "tooltip": ""
+      "tooltip": "Contains the currency code if the job that the purchase line applies to is set up in a foreign currency.\nThe program uses the Job Currency Code to calculate the cost and sales values of the purchase line in the currency specified for the job."
     },
     {
       "no": 1019,
@@ -627,7 +627,7 @@
     {
       "no": 1031,
       "name": "Job Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the item that remains to complete a job, expressed in base units of measure."
     },
     {
       "no": 1700,
@@ -687,7 +687,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "If you have filled in the Purch. Unit of Measure field on the item card and entered a quantity for the current item in the Qty. of Base Unit of Measure per Unit field, the program automatically fills in this field when you enter the item number on the line."
     },
     {
       "no": 5405,
@@ -707,7 +707,7 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity expressed in base units of measure."
     },
     {
       "no": 5416,
@@ -717,27 +717,27 @@
     {
       "no": 5417,
       "name": "Qty. to Invoice (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Qty. to Invoice expressed in base units of measure."
     },
     {
       "no": 5418,
       "name": "Qty. to Receive (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Qty. to Receive expressed in base units of measure."
     },
     {
       "no": 5458,
       "name": "Qty. Rcd. Not Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Qty. Rcd. Not Invoiced expressed in base units of measure."
     },
     {
       "no": 5460,
       "name": "Qty. Received (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity Received expressed in base units of measure."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity Invoiced expressed in base units of measure."
     },
     {
       "no": 5495,
@@ -762,7 +762,7 @@
     {
       "no": 5603,
       "name": "Salvage Value",
-      "tooltip": ""
+      "tooltip": "This field can only be filled in if you have selected the Acquisition option in the FA Posting Type field. In this case, enter the salvage value for the fixed asset in the field.\nNormally, the salvage value must be entered as a negative amount.\nEntering a salvage value at the same time as the acquisition cost is especially important if you also enter a check mark in the Depr. Acquisition Cost field. In this case, the depreciation basis will be: Acquisition Cost minus Salvage Value."
     },
     {
       "no": 5605,
@@ -777,7 +777,7 @@
     {
       "no": 5609,
       "name": "Maintenance Code",
-      "tooltip": ""
+      "tooltip": "Specifies a maintenance code if you have selected the Maintenance option in the FA Posting Type field.\nTo see the codes that have been set up in the Maintenance table, click the field."
     },
     {
       "no": 5610,
@@ -802,12 +802,12 @@
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the responsibility center that serves the vendor on this purchase document."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5710,
@@ -822,17 +822,17 @@
     {
       "no": 5713,
       "name": "Special Order",
-      "tooltip": ""
+      "tooltip": "Specifies that the item on this purchase line is a special order item.\nThe program automatically fills in this field, if the code you enter in the Purchase Code field has been set up as a special order purchasing code.\nA special order is an item that is purchased from a vendor for a specific customer. The item is shipped from the vendor to your warehouse and then to your customer."
     },
     {
       "no": 5714,
       "name": "Special Order Sales No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the special order sales order that created this purchase order."
     },
     {
       "no": 5715,
       "name": "Special Order Sales Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the special order sales order that created this purchase order."
     },
     {
       "no": 5725,
@@ -862,7 +862,7 @@
     {
       "no": 5752,
       "name": "Completely Received",
-      "tooltip": ""
+      "tooltip": "Specifies whether all the items on the line have been shipped and received by the customer."
     },
     {
       "no": 5790,
@@ -917,27 +917,27 @@
     {
       "no": 5804,
       "name": "Return Qty. to Ship (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Return Qty. to Ship on the line, expressed in base units of measure."
     },
     {
       "no": 5805,
       "name": "Return Qty. Shipped Not Invd.",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the returned item have been returned to the vendor, but not yet invoiced.\nThe program updates the field when you post. It calculates the contents of the field as the difference between the Return Qty. Shipped and Quantity Invoiced fields.\nYou cannot delete a line that contains a quantity of returned items that have been shipped but not invoiced."
     },
     {
       "no": 5806,
       "name": "Ret. Qty. Shpd Not Invd.(Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Return Qty. Shipped Not Invd. on the line, expressed in base units of measure."
     },
     {
       "no": 5807,
       "name": "Return Shpd. Not Invd.",
-      "tooltip": ""
+      "tooltip": "Specifies the value of the items that you have shipped as returns to the vendor. The items have been returned, but they are not yet posted as invoiced.\nThe amount is in the same currency as the purchase document."
     },
     {
       "no": 5808,
       "name": "Return Shpd. Not Invd. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the value in LCY of the items returned to the vendor. The items have not been invoiced."
     },
     {
       "no": 5809,
@@ -947,7 +947,7 @@
     {
       "no": 5810,
       "name": "Return Qty. Shipped (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of items returned to the vendor. The quantity is expressed in the base unit of measure."
     },
     {
       "no": 5812,
@@ -992,12 +992,12 @@
     {
       "no": 6600,
       "name": "Return Shipment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned to the return shipment when you post the purchase order."
     },
     {
       "no": 6601,
       "name": "Return Shipment Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned to the return shipment line when you post the purchase order."
     },
     {
       "no": 6608,
@@ -1057,12 +1057,12 @@
     {
       "no": 99000755,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the items indirect cost as an absolute amount. The amount is added to the items unit cost to reflect indirect cost or overhead, such as freight and warehouse handling that are associated with the purchase of the item.\n\nAdditional Information\n\nThe value of the Overhead Rate field on the item card is copied to purchase lines and is used to calculate the value in the Unit Cost (LCY) field on a purchase line.\nNote\n\n\nThe Planning Flexibility field is related to the Indirect Cost % field where it defines the overhead as a percentage of the value in the Direct Unit Cost field on the purchase line."
     },
     {
       "no": 99000756,
       "name": "MPS Order",
-      "tooltip": ""
+      "tooltip": "Specifies whether the purchase order line is an MPS order, that is, whether it is linked to a production forecast or a sales order. If so, the program places a check mark in the field.\nThe user can also enter a check mark in the field when manually editing the line."
     },
     {
       "no": 99000757,
@@ -1072,7 +1072,7 @@
     {
       "no": 99000758,
       "name": "Safety Lead Time",
-      "tooltip": ""
+      "tooltip": "Specifies a date formula, which is used as a buffer period in case of delays in the purchase replenishment lead time. When calculating order and order proposal lines, the program will add the safety lead time to the lead time. This is true for forward and backward scheduled orders. The specific date fields that are affected on the purchase order (or order proposal) line are as follows:\nPlanned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.\nNote that the program copies the field from the Stockkeeping Unit card, if one exists, or else the Item card."
     }
   ]
 }

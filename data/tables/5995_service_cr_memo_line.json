@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the credit memo line .\nThe program fills in the field automatically and uses the number to keep track of the lines.\nYou cannot change the line number because the credit memo has already been posted."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the posting group that was used when the credit memo line was posted. This field specifies the inventory posting group assigned to the item on the line. If the value in the Type field is Resource or Cost, the Posting Group field is not used.\nThe program automatically copies the code from the Posting Group field on the service line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 11,
@@ -72,7 +72,7 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Contains the VAT percentage used on the current credit memo line.\nThe program copies VAT % from the VAT % field in the Service Line table when you post the credit memo.\nYou cannot change the value in the field because the entry has already been posted."
     },
     {
       "no": 27,
@@ -102,22 +102,22 @@
     {
       "no": 34,
       "name": "Gross Weight",
-      "tooltip": ""
+      "tooltip": "Contains the gross weight of one unit of the item.\nIt is used only in connection with inventory items.\nThe program copies the value from the Gross Weight field on the service line.\nYou cannot change the gross weight because the credit memo has already been posted."
     },
     {
       "no": 35,
       "name": "Net Weight",
-      "tooltip": ""
+      "tooltip": "Contains the net weight of one unit of the item.\nThe program copies the weight from the Net Weight field on the service line when you post the credit memo.\nYou cannot change the field value because the credit memo has already been posted."
     },
     {
       "no": 36,
       "name": "Units per Parcel",
-      "tooltip": ""
+      "tooltip": "Specifies how many units one parcel of the item on the line contains.\nIt is used only with inventory items.\nThe program copies the quantity from the Units per Parcel field on the service line.\nYou cannot change the quantity because the credit memo has already been posted."
     },
     {
       "no": 37,
       "name": "Unit Volume",
-      "tooltip": ""
+      "tooltip": "Contains the unit volume of one unit of the item.\nIt is used only with inventory items.\nThe program copies the unit volume from the Unit Volume field on the service line when you post the credit memo.\nYou cannot change the field value because the credit memo has already been posted."
     },
     {
       "no": 40,
@@ -132,7 +132,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the price group that the customer on the credit memo belongs to. The program used the code to calculate the unit price for items, resources or costs on the line.\nThe customer price group code is copied from the Customer Price Group field on the service line when you post the credit memo.\nYou cannot change the customer price group because the entry has already been posted."
     },
     {
       "no": 45,
@@ -147,7 +147,7 @@
     {
       "no": 52,
       "name": "Work Type Code",
-      "tooltip": ""
+      "tooltip": "Contains a code for the type of work associated to the credit memo. The code is used to register usage of the resource assigned to the service on the credit memo, as well as to establish prices and costs.\nThe program copies the code from the Work Type Code field on the service line when you post the credit memo.\nYou cannot change the work type code in the posted credit memo."
     },
     {
       "no": 63,
@@ -177,37 +177,37 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Indicates which VAT calculation type was used when this line was posted. The program used the VAT calculation type whether to calculate normal VAT, reverse charge VAT, full VAT or a sales tax.\nThe program copies the code from the VAT Calculation Type field on the service line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction type assigned to the service line from which the current credit memo line was posted. You use the pre-set types to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the transaction type from the Transaction Type field on the service line when you post the credit memo.\nYou cannot change the code when the credit memo has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains the code of the transport method used for shipment of the service on the line.\nThe program copies the transport method from the Transport Method field in the Service Line table when you post the credit memo.\nYou cannot change the transport method code when the credit memo has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the service line that this credit memo line with the extended text is attached to.\nThe program copies the number from the Attached to Line No. on the service line when the credit memo is posted.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of the port of exit through which you shipped the service items or resource out of your country/region.\nThe program copies the code from the Exit Point field on the service line when you post the credit memo.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area where the customer company is located. You can use the code for Intrastat reporting.\nThe program copies the code from the Area field in the Service Line table when the credit memo is posted.\nYou cannot change the contents of the field in the posted credit memo."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the transaction specification code that was used in the credit memo. The code denotes additional information concerning the transaction type on the service order. You use the code to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the code from the Transaction Specification field on the service line when you post the credit memo.\nYou cannot change the transaction specification code in the posted credit memo."
     },
     {
       "no": 85,
@@ -227,7 +227,7 @@
     {
       "no": 88,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the service credit memo line."
     },
     {
       "no": 89,
@@ -242,17 +242,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total net amount (amount excluding VAT) on the credit memo line.\nThe program copies the amount from the VAT Base Amount field on the service line when you post the credit memo."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Contains the cost per unit of an item, resource or cost on the credit memo line. The unit cost is expressed in the currency of the sales transaction. The unit for which the cost is displayed is specified in the Unit of Measure field on the line.\nThe program copies the cost from the Unit Cost field in the Service Line table when you post the credit memo."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Specifies that the entry is related to a service charge levied on the specific customer and has been automatically created by the program. Conditions for service charges on invoices for different customers are set up in the Cust. Invoice Discounts window. The program uses the value in the Service Charge field in the Cust. Invoice Discounts window to create a corresponding line when you run the Calculate Invoice Discount function."
     },
     {
       "no": 103,
@@ -262,12 +262,12 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Contains the VAT difference. The amount displayed in this field is the difference between the VAT amount calculated by the program for a service line and the VAT amount that you entered manually for the same service line. This may be necessary if you want posted VAT amounts to correspond exactly with an external document you will send to your customer.\nThe program copies the contents of this field from the VAT Difference field in the Service Line table when the credit memo is posted."
     },
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Contains an identifier used to group service entries with similar attributes, for example VAT percentage.\nThe program copies the VAT identifier from the VAT Identifier field in the Service Line table when you post the credit memo.\nYou cannot manually change the code in the field because the credit memo has already been posted."
     },
     {
       "no": 145,
@@ -277,7 +277,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1019,
@@ -297,7 +297,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of items, resource hours or costs per unit of measure specified in the Unit of Measure field on the line.\nThe program copies the value from the Qty. per Unit of Measure field in the Service Line table when the credit memo is posted.\nYou cannot change the value in this field because the entry has already been posted."
     },
     {
       "no": 5407,
@@ -307,17 +307,17 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of items, resource time, or costs on the credit memo line. The quantity is expressed in the base units of measure specified in the Unit of Measure field.\nThe program copies the value from the Quantity (Base) field in the Service Line table when the service credit memo is posted.\nYou cannot change the quantity in the posted credit memo."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains the code of the responsibility center (for example, a distribution center, a sales office or a plant planning office) assigned to the customer or associated with the credit memo.\nThe program copies the code from the Responsibility Center field in the Service Line table.\nYou cannot change the responsibility center code because the credit memo has already been posted."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the item category that the item on the line belongs to. Choose the field to view the default values for the posting group, costing method and tax group assigned to the specified item category.\nThe program copies the code from the Item Category Code field on the service line when you post the credit memo.\nYou cannot change the field value because the credit memo has already been posted."
     },
     {
       "no": 5710,
@@ -362,62 +362,62 @@
     {
       "no": 5905,
       "name": "Service Item Serial No.",
-      "tooltip": ""
+      "tooltip": "Contains the serial number of the service item to which this credit memo line is linked.\nThe program copies the value in this field from the Service Item No. field on the service line when you post the credit memo."
     },
     {
       "no": 5906,
       "name": "Service Item Line Description",
-      "tooltip": ""
+      "tooltip": "Contains a description of the service item to which this credit memo line is linked.\nThe program copies the value from the Service Item Line Description field on the service line when you post the invoice."
     },
     {
       "no": 5908,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Contains the date when the credit memo line will be posted.\nThe program copies the date from the Posting Date field on the service line when you post the credit memo.\nYou cannot change the posting date because the entry has already been posted."
     },
     {
       "no": 5910,
       "name": "Needed by Date",
-      "tooltip": ""
+      "tooltip": "Contains the date by which you require the item to be available for a service order. This date is stored when you post the service line."
     },
     {
       "no": 5916,
       "name": "Ship-to Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the customer' s address where you sent the shipment.\nThe program copies the code from the Ship-to Code field in the Service Line table.\nYou cannot change the ship-to code in the posted credit memo."
     },
     {
       "no": 5928,
       "name": "Service Price Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the Service Price Group of the service item that corresponds to the current credit memo line.\nThe program copies the code from the Service Price Group Code field on the service line."
     },
     {
       "no": 5929,
       "name": "Fault Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the fault area associated with this credit memo line.\nThe program copies the code from the Fault Area Code field on the service line when you post the credit memo. You cannot change this field manually."
     },
     {
       "no": 5930,
       "name": "Symptom Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the symptom associated with this credit memo line.\nThe program copies the code from the Symptom Code field in the Service Line table. You cannot change the symptom code because the credit memo has already been posted."
     },
     {
       "no": 5931,
       "name": "Fault Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the fault associated with this credit memo line.\nThe program copies the code from the Fault Code field on the service line when you post the credit memo. You cannot change the fault code because the entry has already been posted."
     },
     {
       "no": 5932,
       "name": "Resolution Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the resolution associated with this credit memo line.\nThe program copies the code from the Resolution Code field on the service line when you post the service credit memo. You cannot change the resolution code because the entry has already been posted."
     },
     {
       "no": 5933,
       "name": "Exclude Warranty",
-      "tooltip": ""
+      "tooltip": "Specifies that the warranty discount is excluded on the current credit memo line. This field is used if the Type field is set to Item or Resource. Warranty cannot be applied to lines of the Blank or Cost types.\nThe program copies the information from the Exclude Warranty field on the service line when you post the service credit memo. You cannot change the field because the entry has already been posted."
     },
     {
       "no": 5934,
       "name": "Warranty",
-      "tooltip": ""
+      "tooltip": "Specifies that a warranty discount is available on the current credit memo line of type Item or Resource. Warranty cannot be applied to lines set to Blank or Cost.\nThe program copies the information from the Warranty field in the Service Line table when you post the credit memo. You cannot change the field value because the entry has already been posted."
     },
     {
       "no": 5936,
@@ -427,52 +427,52 @@
     {
       "no": 5938,
       "name": "Contract Disc. %",
-      "tooltip": ""
+      "tooltip": "Contains the contract discount percentage that is valid for the items, resources, and costs on the service credit memo line. The program retrieves the contract discount percentage from the contract that the corresponding service item is subject to.\nThe program copies the value from the Contract Disc. % field on the service line when you post the credit memo.\nYou cannot change the value in the field since the credit memo has already been posted."
     },
     {
       "no": 5939,
       "name": "Warranty Disc. %",
-      "tooltip": ""
+      "tooltip": "Contains the percentage of the warranty discount that is valid for the items or resources on the credit memo line. Warranty discount % is not applicable if the line type is Blank, Cost or G/L Account.\nThe program copies the value from the Warranty Disc. % on the service line when you post the credit memo."
     },
     {
       "no": 5965,
       "name": "Component Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of the line in the Service Item Component List window. This line contains the service item component that has been replaced by the item on the credit memo line.\nThe program copies the value from the Component Line No. field in the Service Line table when the credit memo is posted."
     },
     {
       "no": 5966,
       "name": "Spare Part Action",
-      "tooltip": ""
+      "tooltip": "Specifies whether the item on the credit memo line has been used to replace the whole service item, one of the service item components, installed as a new component, or just used as a supplementary tool in the service process.\nThe possible values of the field are: Component Replaced, Component Installed, Temporary, Permanent, <Blank>.\n\n\nField\n\n\nDescription\n\n\nComponent Replaced\n\nIndicates that a service item component has been replaced with the item on the line.\n\n\nComponent Installed\n\nIndicates that the item was installed as a new component.\n\n\nTemporary\n\nIndicates that the item on the current credit memo line was used as a temporary replacement of the whole service item.\n\n\nPermanent\n\nIndicates that the item was used as a permanent replacement of the whole service item.\n\n\n<Blank>\n\nIndicates that the item was used as a tool during the service process.\n\n\nThe value from the Spare Part Action field is copied on the service line when you post the service credit memo."
     },
     {
       "no": 5967,
       "name": "Fault Reason Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the fault reason for the credit memo line.\nA fault reason code can exclude contract discount and warranty discount both on labor and on spare parts.\nThe program copies the code from the Fault Reason Code field in the Service Line table when you post the credit memo. You cannot change the contents of the field manually. To see the list of all fault reason code and their settings, choose the field."
     },
     {
       "no": 5968,
       "name": "Replaced Item No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service item component that has been replaced by the item on the credit memo line.\nThe program copies the number from the Replaced Item No. field in the Service Line table when the service credit memo is posted."
     },
     {
       "no": 5969,
       "name": "Exclude Contract Discount",
-      "tooltip": ""
+      "tooltip": "Specifies that the contract discount is not applicable to the item, resource or cost specified on the current credit memo line.\nThe program copies the information from the Exclude Contract Discount field in the Service Line table when the service credit memo is posted."
     },
     {
       "no": 5994,
       "name": "Price Adjmt. Status",
-      "tooltip": ""
+      "tooltip": "Indicates whether the price on the service line was adjusted automatically or manually.\nThe field can take on one of the following values: <Blank>, Adjusted, or Modified.\n\n\nField\n\n\nDescription\n\n\n<Blank>\n\nNo adjustment was made on the credit memo price.\n\n\nAdjusted\n\nThe price adjustment was performed automatically.\n\n\nModified\n\nThis status is set if the price adjustment amounts were changed manually.\n\n\nThe program copies the information from the Price Adjmt. Status field on the service line when you post the credit memo. You cannot change the contents of this field."
     },
     {
       "no": 5997,
       "name": "Line Discount Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the line discount that is applicable to the credit memo line.\nIf there are several discounts (warranty discount, contract discount and line discount) determined for the line, the program selects the highest among them. Its percentage is specified in the Line Discount % field. In the Line Discount Type field, the program specifies the corresponding line discount type: Warranty Discount, Contract Discount, or Line Discount.\nThe program copies the information from the Line Discount Type field on the service line when you post the credit memo."
     },
     {
       "no": 5999,
       "name": "Copy Components From",
-      "tooltip": ""
+      "tooltip": "Indicates from where the components should be copied to the component list when you replace a service item.\nThere are four options:\n\nItem BOM - the program copies component list from the Item BOM.\n\n\nOld Service Item - the program copies components from the Old Service Item.\n\n\nOld Serv.Item w/o Serial No. - the program copies components from the Old Service Item except Serial Number.\n\n\nIf you select None, the component list for the new service item will not be created.\n\n\nThe information is copied from the Copy Components From field on the service line when you post the credit memo."
     },
     {
       "no": 6608,
@@ -487,12 +487,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies if a discount has been calculated for the price offered on the line.\nThe program retrieves the value from the Allow Line Disc. field in the Service Line table.\nYou cannot change the value since the credit memo has already been posted."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the discount group code assigned to the bill-to customer. The program uses the code to calculate the service line discount given to the customer.\nThe code is copied from the Customer Disc. Group field on the service line when you post the credit memo.\nYou cannot change the customer discount group code in the posted credit memo."
     }
   ]
 }

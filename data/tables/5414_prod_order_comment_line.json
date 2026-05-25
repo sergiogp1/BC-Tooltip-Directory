@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order that this comment is entered for.\nIf you create a new comment this field is filled in automatically by the program according to the Status field of the production order for which you create this comment.\nWith this field it is possible to enter different comments for production orders in different planning phases."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the comment line.\nThe system enters the line number automatically.\nThe line number is used for internal management of comments."
     },
     {
       "no": 4,

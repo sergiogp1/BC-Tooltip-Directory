@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies the description from the Item Card."
     },
     {
       "no": 6,
@@ -87,7 +87,7 @@
     {
       "no": 53,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Shows whether there is a comment for this SKU.\nComments could concern a particular storage method or substitute items.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 62,
@@ -97,17 +97,17 @@
     {
       "no": 64,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 65,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value.\nClick here to learn more about dimensions."
     },
     {
       "no": 66,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value.\nClick here to learn more about dimensions."
     },
     {
       "no": 68,
@@ -127,7 +127,7 @@
     {
       "no": 89,
       "name": "Drop Shipment Filter",
-      "tooltip": ""
+      "tooltip": "Specifies whether to put a drop shipment filter on the item card.\nIf you put a drop shipment filter on the card, the values in the fields that show quantities are based only on entries for items that are shipped directly from the vendor to the customer (that is, as a drop shipment)."
     },
     {
       "no": 910,
@@ -152,7 +152,7 @@
     {
       "no": 5400,
       "name": "Transfer-Level Code",
-      "tooltip": ""
+      "tooltip": "Indicates when the program takes the stockkeeping unit into consideration in the sequence of planning events.\nThe program automatically assigns the code to a stockkeeping unit that has the Transfer replenishment system. The program uses this field internally."
     },
     {
       "no": 5401,
@@ -182,7 +182,7 @@
     {
       "no": 5410,
       "name": "Discrete Order Quantity",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5411,
@@ -227,7 +227,7 @@
     {
       "no": 5423,
       "name": "Bin Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by bin code.\nIf the field contains a bin code, the values in the fields that show quantities are based only on entries with the bin code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nA41\n\nEntries from bin A41\n\n\nInterval\n\n1..5\n\nEntries from bins 1 through 5\n\n\nEither/or\n\nB22|C22\n\nEntries that are from either bin B22 or bin C22\n\n\nDifferent than\n\n<>1\n\nEntries from all bins except bin 1\n\n\nTo see the bin codes in the Bin table, choose the field."
     },
     {
       "no": 5428,
@@ -397,12 +397,12 @@
     {
       "no": 99000770,
       "name": "Purch. Req. Receipt (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000771,
       "name": "Purch. Req. Release (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000779,

@@ -72,7 +72,7 @@
     {
       "no": 14,
       "name": "Posted",
-      "tooltip": ""
+      "tooltip": "Specifies that the service order allocation entry is posted.\nWhen you post a service order, the program automatically posts all service order allocation entries for the service order."
     },
     {
       "no": 15,
@@ -87,12 +87,12 @@
     {
       "no": 17,
       "name": "Repair Status",
-      "tooltip": ""
+      "tooltip": "Contains the current repair status of the service item.\nThe program automatically updates the contents of the field using the Repair Status Code field in the Service Item Line table."
     },
     {
       "no": 18,
       "name": "Service Started",
-      "tooltip": ""
+      "tooltip": "Specifies that the service has been started on the current allocation."
     },
     {
       "no": 19,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal template that the journal batch is set up under."
     },
     {
       "no": 2,
@@ -42,7 +42,7 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the warehouse journal template, such as item adjustment, physical inventory, or reclassification."
     },
     {
       "no": 40,

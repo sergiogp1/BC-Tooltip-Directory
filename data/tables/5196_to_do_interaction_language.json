@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "To-do No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the to-do to which the interaction language applies."
     },
     {
       "no": 2,

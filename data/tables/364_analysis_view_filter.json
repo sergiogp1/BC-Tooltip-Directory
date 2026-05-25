@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Analysis View Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the analysis view that the filter belongs to."
     },
     {
       "no": 2,

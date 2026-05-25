@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional description of the service contract."
     },
     {
       "no": 5,
@@ -207,7 +207,7 @@
     {
       "no": 46,
       "name": "Next Invoice Period",
-      "tooltip": ""
+      "tooltip": "Contains the next invoice period for the service contract, specifying the first date of the period and the ending date.\nWhen you enter a date in the Starting Date field, the program automatically enters the first day of the month following the starting date as the first date of the period. The program calculates the ending date of the period using the Invoice Period field.\nWhen you invoice the service contract, the program automatically updates the contents of this field."
     },
     {
       "no": 47,
@@ -217,7 +217,7 @@
     {
       "no": 48,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the language code to be used in the bill-to field on the service contract for the customer. To see the language codes in the Language table, choose the field.\nThe language code is copied from the information that is provided on the customer card."
     },
     {
       "no": 49,
@@ -322,7 +322,7 @@
     {
       "no": 74,
       "name": "Template No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the template that you designate to be used to create the contract."
     },
     {
       "no": 75,
@@ -347,7 +347,7 @@
     {
       "no": 82,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the contract number to the service contract."
     },
     {
       "no": 83,
@@ -357,7 +357,7 @@
     {
       "no": 84,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that there is a comment for this service contract."
     },
     {
       "no": 85,
@@ -372,7 +372,7 @@
     {
       "no": 87,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer in the service contract.\nIf you have entered the customer as a contact, the program copies the fax number automatically from the Contact table when you fill in the Customer No. field. Otherwise, the program copies the number automatically from the Customer table."
     },
     {
       "no": 88,
@@ -387,7 +387,7 @@
     {
       "no": 90,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the customer's address on the service contract.\nThe county name is copied from the information that is provided on the customer card."
     },
     {
       "no": 91,
@@ -412,12 +412,12 @@
     {
       "no": 95,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the customer's name in the service contract.\nThe additional name information is copied from the information that is provided on the customer card."
     },
     {
       "no": 96,
       "name": "Bill-to Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional name of the customer on the service contract. The customer is the person to whom you will send the service invoice.\nThe additional name information is copied from the information that is provided on the customer card."
     },
     {
       "no": 97,
@@ -427,37 +427,37 @@
     {
       "no": 98,
       "name": "Next Invoice Period Start",
-      "tooltip": ""
+      "tooltip": "Specifies the starting date of the next invoice period for the service contract."
     },
     {
       "no": 99,
       "name": "Next Invoice Period End",
-      "tooltip": ""
+      "tooltip": "Specifies the ending date of the next invoice period for the service contract."
     },
     {
       "no": 100,
       "name": "Contract Invoice Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total amount that has been posted to the account for the service contract. The posting process takes place when you invoice the service contract, when you post prepaid contract entries or when you post a service invoice that originates from a service order belonging to the service contract.\nThe program automatically calculates and updates the contents of this field, using the Amount (LCY) field in the Service Ledger Entry table."
     },
     {
       "no": 101,
       "name": "Contract Prepaid Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total amount that has been posted to the prepaid account for the service contract. When you invoice a service contract that is marked as prepaid, the program posts the prepaid amount to the prepaid account and creates service ledger entries.\nThe program automatically calculates and updates the contents of this field, using the Amount (LCY) field in the Service Ledger Entry table."
     },
     {
       "no": 102,
       "name": "Contract Discount Amount",
-      "tooltip": ""
+      "tooltip": "Contains the amount of discount that applies to this service contract.\nThe program automatically calculates and updates the contents of this field, using the Discount Amount field in the Service Ledger Entry table."
     },
     {
       "no": 103,
       "name": "Contract Cost Amount",
-      "tooltip": ""
+      "tooltip": "Contains the cost of this service contract based on the service usage for this service contract.\nThe program automatically calculates and updates the contents of this field, using the Cost Amount field in the Service Ledger Entry table."
     },
     {
       "no": 104,
       "name": "Contract Gain/Loss Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total gain/loss amount for this service contract.\nThe program automatically calculates and updates the contents of this field, using the Amount field in the Contract Gain/Loss Entry table."
     },
     {
       "no": 106,
@@ -472,27 +472,27 @@
     {
       "no": 140,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains a type filter. There are five options: Blank, Resource, Item, Service Cost and Service Contract.\nFor example, if this field contains the option Resource, fields such as the Contract Invoice Amount, the Contract Prepaid Amount and the Contract Discount Amount fields display information related to service ledger entries with this particular type."
     },
     {
       "no": 141,
       "name": "Reason Code Filter",
-      "tooltip": ""
+      "tooltip": "Contains a reason code filter.\nIf this field contains a reason code, fields such as the Contract Gain/Loss Amount field will only display information linked to that particular reason code."
     },
     {
       "no": 142,
       "name": "Posted Service Order Filter",
-      "tooltip": ""
+      "tooltip": "Contains a posted service order filter.\nThe contents of this field can be used to filter data in reports."
     },
     {
       "no": 143,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter.\nIf this field contains the starting and ending dates for a period, fields such as Contract Invoice Amount, the Contract Discount Amount and the Contract Discount Amount will display information for that period only.\nYou can enter a date or a time interval. There are certain rules for how dates should be entered."
     },
     {
       "no": 144,
       "name": "Item Filter",
-      "tooltip": ""
+      "tooltip": "Contains an item filter.\nIf this field contains an item number, the Update Contract Prices batch job will include service items representing that particular item."
     },
     {
       "no": 204,
@@ -507,7 +507,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1200,
@@ -532,7 +532,7 @@
     {
       "no": 5053,
       "name": "Last Invoice Period End",
-      "tooltip": ""
+      "tooltip": "Specifies the date of the end of the last invoice period."
     }
   ]
 }

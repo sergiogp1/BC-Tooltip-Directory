@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Transfer-from Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the location to which you want to transfer items."
     },
     {
       "no": 2,
       "name": "Transfer-to Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the location from which you want to transfer items."
     },
     {
       "no": 4,

@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that you are about to create.\nThe program automatically retrieves the document type from the sales header."
     },
     {
       "no": 3,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Shows the document number.\nThe program automatically retrieves the document number from the No. field on the sales header.\nThe program uses the document number to link the sales header with the sales lines."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the line number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different sales lines."
     },
     {
       "no": 11,
@@ -42,7 +42,7 @@
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "Contains the line discount percentage that is valid for the item quantity on the line.\nIf sales line discounts are set up for the customer, then the Line Discount % field may be automatically updated when you change the line quantity, or when another line discount criterion changes.\nFor more information, see Sales Line Discounts.\nIf sales line discounts are not set up for the customer, then the Line Discount % field is cleared when you change the line quantity, and you must manually reenter a line discount percentage."
     },
     {
       "no": 28,
@@ -87,7 +87,7 @@
     {
       "no": 91,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "Specifies the currency code for the amount on this line.\nThe program automatically retrieves the currency code from the sales header.\nThe program uses the currency code and the posting date on the sales header to find the relevant exchange rate in the Currency Exchange Rate table. This is the exchange rate that the program will use to convert amounts on the sales lines to LCY and/or an additional reporting currency."
     },
     {
       "no": 99,
@@ -117,17 +117,17 @@
     {
       "no": 125,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the intercompany partner that the transaction will be sent to."
     },
     {
       "no": 126,
       "name": "IC Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the IC transaction number."
     },
     {
       "no": 127,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "Specifies which company created the transaction.\nThe following table describes the two options.\n\n\nOption\n\n\nDescription\n\n\nRejected by current company\n\nThe transaction was received from the IC partner and rejected by the current company.\n\n\nCreated by current company\n\nThe transaction was created by the current company."
     },
     {
       "no": 138,
@@ -137,7 +137,7 @@
     {
       "no": 5407,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code to use to determine the unit price. If the Sales Unit of Measure field on the item card is filled in, the value is automatically copied from that field when the sales line is filled in."
     },
     {
       "no": 5790,
@@ -147,7 +147,7 @@
     {
       "no": 5791,
       "name": "Promised Delivery Date",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 6600,

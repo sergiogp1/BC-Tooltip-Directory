@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number of the assembly BOM component.\nWhen you set up an assembly BOM component, which can be an item or a resource, then a line number is automatically inserted in the Line No. field to track where the component is used in different assembly BOMs."
     },
     {
       "no": 3,
@@ -87,7 +87,7 @@
     {
       "no": 5900,
       "name": "Installed in Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nSpecifies the number of the assembly BOM line that this service-item component is installed in."
     },
     {
       "no": 5901,

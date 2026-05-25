@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Reminder No.",
-      "tooltip": ""
+      "tooltip": "Shows the reminder number.\nThe program retrieves the number from the No. field on the reminder header.\nThe program uses the reminder number to link the reminder header with the reminder lines."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the line number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the various reminder lines."
     },
     {
       "no": 3,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 4,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number for the customer ledger entry you want to create a reminder line for. The customer ledger entry must be in the same currency as the code on the reminder header.\nTo see the customer ledger entries in the Cust. Ledger Entry table for this customer, click the field.\nThe entry number can only be filled in if the Type field contains Customer Ledger Entry."
     },
     {
       "no": 6,
@@ -87,22 +87,22 @@
     {
       "no": 17,
       "name": "Interest Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the interest rate that applies to this reminder line.\nWhen the reminder line was created, the program copied the interest rate from the Interest Rate field for the finance charge terms that apply to this customer."
     },
     {
       "no": 18,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group of the general ledger account this reminder line is for if the Type field contains G/L Account.\nThe program copies the general product posting group from the Gen. Prod. Posting Group field for the G/L account when the No. field is filled in.\nThe Gen. Prod. Posting Group field is blank if the reminder line does not contain a G/L account entry."
     },
     {
       "no": 19,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that will be used when the line is posted to the general ledger account if the Type field contains G/L Account.\nThe program retrieves the VAT % from the General Posting Setup table."
     },
     {
       "no": 20,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type will be used when VAT is calculated if the Type field contains G/L Account.\nThe program retrieves the VAT Calculation Type from the VAT Posting Setup table."
     },
     {
       "no": 21,
@@ -112,17 +112,17 @@
     {
       "no": 22,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code of the general ledger account this reminder line is for if the Type field contains General Ledger.\nThe program copies the code from the Tax Group Code field for the G/L account when the No. field is filled in.\nThis field is blank if the reminder line does not contain a G/L account entry."
     },
     {
       "no": 23,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "If the Type field contains \"G/L Account\":\n\nThis field contains the VAT product posting group of the G/L account this reminder line is for.\n\n\nThe program retrieves the code from the VAT Prod. Posting Group field for the G/L account when the No. field is filled in.\n\n\nIf the Type field contains \"Customer Ledger Entry\":\n\nThis field contains the VAT product posting group of the Interest Account of the Customer Posting Group of the customer this reminder line is for.\n\n\nIf the Type field does not contain G/L Account or Customer Ledger Entry, this field is blank.\nTo see the VAT product posting groups in the VAT Product Posting Group table, click the field."
     },
     {
       "no": 24,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 25,
@@ -132,7 +132,7 @@
     {
       "no": 26,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the reminder line."
     },
     {
       "no": 27,
@@ -152,7 +152,7 @@
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     }
   ]
 }

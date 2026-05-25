@@ -22,27 +22,27 @@
     {
       "no": 5,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies a supplement to the machine center's name.\nThe Name 2 field can be used, for example, if the machine center has a long name.\nYou can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 6,
       "name": "Address",
-      "tooltip": ""
+      "tooltip": "Specifies the machine center's address.\nYou can enter a maximum of 30 characters, both numbers and letters.\nThe contents of the Address field are often used when you print out something, so you should enter the address exactly as you want it to appear."
     },
     {
       "no": 7,
       "name": "Address 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional line with the machine center's address.\nYou can enter a maximum of 30 characters, both numbers and letters.\nThe contents of the Address 2 field are often used when you print out something, so you should enter the address exactly as you want it to appear."
     },
     {
       "no": 8,
       "name": "City",
-      "tooltip": ""
+      "tooltip": "Specifies the city of the machine center's address.\nHow the Post Code and City Fields Are Filled In"
     },
     {
       "no": 9,
       "name": "Post Code",
-      "tooltip": ""
+      "tooltip": "Specifies the machine center's post code.\nHow the Post Code and City Fields Are Filled In"
     },
     {
       "no": 14,
@@ -82,7 +82,7 @@
     {
       "no": 27,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether any comments have been entered for this machine center.\nThis field indicates whether there is a comment for this production order.\nTo view a comment or create a new one, click Related Information, point to Mach. Ctr., and then click Comments. A window appears that displays existing comments and allows you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field.\nSee also the Manufacturing Comment Line table."
     },
     {
       "no": 31,
@@ -112,17 +112,17 @@
     {
       "no": 39,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval. For example, the ledger entries for the machine center within this interval are displayed in the Capacity Ledger Entry table. The values in the quantity fields show information for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 40,
       "name": "Work Shift Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a work shift filter.\nIf the field contains a work shift code, the values in the quantity fields are only based on the entries with the work shift code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how they should be entered:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries from work shift 1. (the work shift code could contain letters instead of just numbers)\n\n\nInterval\n\n1..5\n\nEntries from work shifts 1 through 5.\n\n\nEither/or\n\n1|2\n\nEntries that are from either work shift 1 or work shift 2.\n\n\nDifferent from\n\n<>1\n\nEntries from all work shifts except work shift 1.\n\n\nTo see the work shift codes in the Work Shift table, click the field."
     },
     {
       "no": 41,
       "name": "Capacity (Total)",
-      "tooltip": ""
+      "tooltip": "Specifies the total available capacity of the machine center.\nThe program automatically calculates and updates the contents of this field by using the contents in the Capacity (Total) field on the Calendar Entry table.\nYou can filter this field so its contents are only calculated on the basis of certain dates and work shifts. The unit of measure for the Total Capacity field is the unit of measure of the attached work center.\nTo see the calendar entries that make up the number shown, click the field.\nThe program calculates the calendar entries of a machine center when you run the Calc. Machine Center Calendar batch job."
     },
     {
       "no": 42,
@@ -137,12 +137,12 @@
     {
       "no": 45,
       "name": "Prod. Order Need Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the expected costs, which this machine center requires to produce of the present production orders.\nThe program automatically calculates and updates the contents of this field by using the contents of the Expected Operation Cost Amt. field in the Prod. Order Routing Line table.\nYou can filter this field so its contents are only calculated on the basis of the status of production orders."
     },
     {
       "no": 47,
       "name": "Prod. Order Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a production order status filter.\nIf the field contains a production order status, the values in the fields that contain quantities are only based on entries with the production order status that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\nPlanned\n\nEntries from planned production orders.\n\n\nInterval\n\nPlanned..In Process\n\nEntries from production orders within the status Planned through In Process.\n\n\nEither/or\n\nPlanned|Firm Planned\n\nEntries that are from either production orders with the status Planned or Firm Planned.\n\n\nDifferent from\n\n<>Simulated\n\nEntries from all production orders except production orders with the status Simulated.\n\n\nTo see the production order status filters that are available, click the field."
     },
     {
       "no": 50,
@@ -172,12 +172,12 @@
     {
       "no": 56,
       "name": "Setup Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the setup time unit of measure.\nYou can select minutes, hours or days as the unit of measure code. For example, the setup time can be managed in minutes whereas the production time is managed in hours.\nTo select a unit of measure from the Capacity Unit of Measure table, click the field."
     },
     {
       "no": 57,
       "name": "Wait Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the wait time unit of measure.\nYou can select minutes, hours or days as the unit of measure code. For example, the wait time can be managed in minutes whereas the production time is managed in hours.\nTo select a unit of measure from the Capacity Unit of Measure table, click the field."
     },
     {
       "no": 58,
@@ -187,7 +187,7 @@
     {
       "no": 59,
       "name": "Move Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the move time unit of measure.\nYou can select minutes, hours or days as the unit of measure code. For example, the move time can be managed in minutes whereas the production time is managed in hours.\nTo select a unit of measure from the Capacity Unit of Measure table, click the field."
     },
     {
       "no": 60,
@@ -212,22 +212,22 @@
     {
       "no": 65,
       "name": "Item Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an item filter.\nIf the field contains an item number, the values in the quantity fields are only based on entries with the item number that is included in the filter.\nYou can enter a maximum of 20 characters, both numbers and letters. There are certain rules for how they should be entered:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries from item number 1. (The item number could contain letters instead of just numbers.)\n\n\nInterval\n\n1..5\n\nEntries from item numbers 1 through 5.\n\n\nEither/or\n\n1|2\n\nEntries that are from either item number 1 or item number 2.\n\n\nDifferent from\n\n<>1\n\nEntries from all items except item number 1.\n\n\nTo see the item numbers in the No. table, click the field."
     },
     {
       "no": 66,
       "name": "Stop Code Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a stop code filter.\nIf the field contains a stop code, the values in the quantity fields are only based on entries with the stop code that is included in the filter.\nAn entry in this field enables you to quickly determine how long a machine has caused a capacity failure.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how they should be entered:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries with stop code 1. (The stop code could contain letters instead of just numbers.)\n\n\nInterval\n\n1..5\n\nEntries from stop codes 1 through 5.\n\n\nEither/or\n\n1|2\n\nEntries that are from either stop code 1 or stop code 2.\n\n\nDifferent from\n\n<>1\n\nEntries from all stop codes except stop code 1.\n\n\nTo see the stop codes in the Stop table, click the field."
     },
     {
       "no": 67,
       "name": "Scrap Code Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a scrap code filter.\nIf the field contains a scrap code, the values in the quantity fields are only based on entries with the scrap code that is included in the filter.\nAn entry in this field enables you to quickly determine how much material has been scrapped for a specific reason.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how they should be entered:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries with scrap code 1. (The scrap code could contain letters instead of just numbers.)\n\n\nInterval\n\n1..5\n\nEntries from scrap codes 1 through 5.\n\n\nEither/or\n\n1|2\n\nEntries that are from either scrap code 1 or scrap code 2.\n\n\nDifferent from\n\n<>1\n\nEntries from all scrap codes except stop code 1.\n\n\nTo see the scrap codes in the Scrap table, click the field."
     },
     {
       "no": 80,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the machine center's number."
     },
     {
       "no": 81,
@@ -242,12 +242,12 @@
     {
       "no": 83,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the subcontractor that the machine center represents."
     },
     {
       "no": 84,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region of the subcontractor that the work center represents."
     },
     {
       "no": 7300,

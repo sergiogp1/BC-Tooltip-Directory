@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area that the analysis view entry belongs to.\nSales: The analysis view entry applies to Sales & Receivables\nPurchase: The analysis view entry applies to Purchases & Payables\nInventory: The analysis view entry applies to Inventory"
     },
     {
       "no": 2,
       "name": "Analysis View Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the analysis view that the analysis view entries are linked to. The contents of this field cannot be changed."
     },
     {
       "no": 3,
@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8,
@@ -57,7 +57,7 @@
     {
       "no": 13,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Contains the item ledger entry number for an analysis view entry if you have selected period None in the Date Compression field on the analysis view card. In other words, if you did not select a date compression period, each item ledger entry will result in an analysis view entry.\nThe contents of this field cannot be changed."
     },
     {
       "no": 14,

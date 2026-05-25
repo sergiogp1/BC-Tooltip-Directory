@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Employee No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the employee for whom the confidential information is registered.\nThe program automatically fills in the field from the No. field on the employee card."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "When you register confidential information for an employee, the program automatically enters a line number in the Line No. field to keep track of all the different confidential information for the employee in the Confidential Information table. The line number is specific to the particular confidential information."
     },
     {
       "no": 4,

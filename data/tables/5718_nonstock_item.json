@@ -82,12 +82,12 @@
     {
       "no": 53,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 97,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 98,

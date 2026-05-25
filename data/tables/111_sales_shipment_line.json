@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program filled in this field automatically and uses it to keep track of the various shipment lines.\nYou cannot change the line number because the shipment has already been posted."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the posting group that was used when the sales line was posted.\nThe program copies the code from the Posting Group field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 10,
@@ -67,7 +67,7 @@
     {
       "no": 22,
       "name": "Unit Price",
-      "tooltip": ""
+      "tooltip": "Specifies the unit price of the item in this line.\nThe program copies the unit price from the Unit Price field on the sales line.\nYou cannot change the unit price because the shipment has already been posted."
     },
     {
       "no": 23,
@@ -77,17 +77,17 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that is used on the shipment line.\nThe program copies the VAT percentage from the VAT % field on the sales line.\nYou cannot change the VAT percentage because the shipment has already been posted."
     },
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount percentage that was given on the line.\nThe program copies the line discount percentage from the Line Discount % field on the sales line.\nYou cannot change the line discount percentage because the shipment has already been posted."
     },
     {
       "no": 32,
       "name": "Allow Invoice Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the invoice line could have been included in a possible invoice discount calculation.\nThe program copies the information from the Allow Invoice Disc. field on the sales line.\nYou cannot change the contents of this field because the shipment has already been posted."
     },
     {
       "no": 34,
@@ -117,7 +117,7 @@
     {
       "no": 39,
       "name": "Item Shpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item entry associated with the line.\nThe program created the number when the line was posted. The number is not displayed anywhere else in the program.\nYou cannot change the number because the shipment has already been posted.\nItem Tracking\nIf the sales shipment line carries multiple unique item tracking numbers when posted, this will result in one item ledger entry for each item tracking number. For such one-to-many relations, the Item Entry Relation table manages the relation to the item ledger entries in stead of the Item Shpt. Entry No. field."
     },
     {
       "no": 40,
@@ -132,7 +132,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group code used on the shipment.\nThe program copies the customer price group from the Customer Price Group field on the sales line.\nYou cannot change the customer price group because the shipment has already been posted."
     },
     {
       "no": 45,
@@ -142,7 +142,7 @@
     {
       "no": 52,
       "name": "Work Type Code",
-      "tooltip": ""
+      "tooltip": "Belongs to the Job application area."
     },
     {
       "no": 58,
@@ -162,7 +162,7 @@
     {
       "no": 66,
       "name": "Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of this line on the sales order on which it was created.\nYou cannot change the order line number because the shipment has already been posted."
     },
     {
       "no": 68,
@@ -172,87 +172,87 @@
     {
       "no": 71,
       "name": "Purchase Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies a purchase order number to link a purchase order and a sales order.\nIt is only used with drop shipments from a vendor to a customer.\nThe program copies the number from the Purchase Order No. field on the sales line.\nYou cannot change the number because the shipment has already been posted."
     },
     {
       "no": 72,
       "name": "Purch. Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies a purchase order line number to link a purchase order and a sales order.\nIt is only used with drop shipments from a vendor to a customer.\nThe program copies the number from the Purch. Order Line No. field on the sales line.\nYou cannot change the number because the shipment has already been posted."
     },
     {
       "no": 73,
       "name": "Drop Shipment",
-      "tooltip": ""
+      "tooltip": "Specifies whether the items on the line have been shipped directly from your vendor to the customer. If so, there is a check mark in the field.\nThe field is copies from the Drop Shipment field on the sales line."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general business posting group code that is assigned to the customer that you sent the invoice for the shipment to.\nThe program copies the code from the Gen. Bus. Posting Group field on the sales header.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 75,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group code that is assigned to the items on this line.\nThe program automatically retrieves the code from the Item table or the Chart of Accounts table.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when this line was posted.\nThe program copies the code from the VAT Calculation Type field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the sales line that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the sales line.\nYou cannot change the transaction type because the shipment has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the sales line that this line was posted from.\nThe program copies the transport method from the Transport Method field on the sales line.\nYou cannot change the transport method because the shipment has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the extended text line number that is attached to the sales line.\nYou cannot change the contents of the field because the shipment has already been posted."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of exit through which you shipped the items out of your country/region.\nThe program copies the code from the Exit Point field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used for the items in this line.\nThe program copies the code from the Area field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Shows the transaction specification of the sales line that this line was posted from.\nThe program copies the transaction specification from the Transaction Specification field on the sales line.\nYou cannot change the transaction specification because the shipment has already been posted."
     },
     {
       "no": 85,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the customer.\nThe program copies the code from the Tax Area Code field on the sales line."
     },
     {
       "no": 86,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that sales to the customer on the sales header were liable to sales tax.\nThe program copies the code from the Tax Liable field on the sales line."
     },
     {
       "no": 87,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the tax group code of the item.\nThe program copies the code from the Tax Group Code field on the sales line."
     },
     {
       "no": 89,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the code from the VAT Bus. Posting Group field on the sales line."
     },
     {
       "no": 90,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT product posting group of the item.\nThe program copies the code from the VAT Prod. Posting Group field on the sales line."
     },
     {
       "no": 91,
@@ -272,12 +272,12 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount (amount excluding VAT) that the shipment line consists of. The program copied the amount from the VAT Base Amount field on the sales line."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the item on the shipment line. The unit cost is in the currency of the sales transaction."
     },
     {
       "no": 107,
@@ -292,7 +292,7 @@
     {
       "no": 131,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date the sales document was posted.\nThe program copies the date from the Posting Date field on the sales header.\nYou cannot change the posting date because the invoice has already been posted."
     },
     {
       "no": 138,
@@ -302,12 +302,12 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 826,
       "name": "Authorized for Credit Card",
-      "tooltip": ""
+      "tooltip": "Specifies if the sales shipment that is related to the posted sales order has had its payable amount authorized against the credit card account."
     },
     {
       "no": 1001,
@@ -317,7 +317,7 @@
     {
       "no": 1002,
       "name": "Job Contract Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the job planning line that the sales shipment is linked to."
     },
     {
       "no": 5402,
@@ -332,7 +332,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per item unit of measure for the items sold.\nThe program copies the number from the Qty. per Unit of Measure field on the sales line."
     },
     {
       "no": 5407,
@@ -342,47 +342,47 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity field on the line expressed in base units of measure.\nYou cannot change the quantity because the shipment has already been posted."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity Invoiced field on the line expressed in base units of measure.\nYou cannot change the quantity because the shipment has already been posted."
     },
     {
       "no": 5600,
       "name": "FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the FA posting date of the sales shipment line.\nThe program copies the date from the FA Posting Date field on the sales line.\nYou cannot change the date because the shipment has already been posted."
     },
     {
       "no": 5602,
       "name": "Depreciation Book Code",
-      "tooltip": ""
+      "tooltip": "Specifies the depreciation book code on the sales shipment line.\nThe program copies the code from the Depreciation Book Code field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 5605,
       "name": "Depr. until FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not depreciation was calculated until the FA posting date of the sales shipment line. If the field contains a Yes or a check mark, depreciation was posted for the asset for the period from the FA posting date of the previous FA ledger entry to the FA posting date of this sales shipment line.\nThe program copies the field from the Depr. until FA Posting Date field on the sales line.\nYou cannot change the contents of the field because the shipment has already been posted."
     },
     {
       "no": 5612,
       "name": "Duplicate in Depreciation Book",
-      "tooltip": ""
+      "tooltip": "Specifies a depreciation book code if the sales line was posted to a depreciation book in addition to the one in the Depreciation Book Code field.\nThe program copies the code from the Duplicate in Depreciation Book field on the sales line.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 5613,
       "name": "Use Duplication List",
-      "tooltip": ""
+      "tooltip": "Specifies whether the sales line was posted to all depreciation books that have a check mark in the Part of Duplication List field in the Depreciation Book table.\nThe program copies the contents of the field from the Use Duplication List field on the sales line.\nYou cannot change the contents of the field because the shipment has already been posted."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the responsibility center that serves the customer on this sales document."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5710,
@@ -392,7 +392,7 @@
     {
       "no": 5711,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Specifies the purchasing code for the item.\nA purchasing code indicates the actions that were taken to purchase the item on the sales line.\nThe system copies the purchasing code from the Purchasing Code field on the sales line.\nYou cannot make changes to the contents of the Purchasing Code field because the shipment has already been posted."
     },
     {
       "no": 5725,
@@ -462,7 +462,7 @@
     {
       "no": 5812,
       "name": "Item Charge Base Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Suggests item charge assignment by amount."
     },
     {
       "no": 5817,
@@ -482,12 +482,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer discount group code. This code is copied from the sales line."
     },
     {
       "no": 8000,

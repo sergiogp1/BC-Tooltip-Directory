@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Standard Service Code",
-      "tooltip": ""
+      "tooltip": "Identifies the standard service code for which this line is specified."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line attached to the standard service code.\nThe program enumerates the lines automatically and uses the numbers to keep track of the different standard service lines associated to each code."
     },
     {
       "no": 3,
@@ -62,7 +62,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

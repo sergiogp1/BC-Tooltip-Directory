@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not a comment is entered for the IC partner."
     },
     {
       "no": 12,

@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional part of the name of the customer that the finance charge memo is for.\nThe program retrieves the name from the Customer table when you fill in the Customer No. field."
     },
     {
       "no": 5,
@@ -47,17 +47,17 @@
     {
       "no": 9,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county name of the customer the finance charge memo is for.\nThe program retrieves the county name from the Customer table when the Customer No. field is filled in."
     },
     {
       "no": 10,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region code of the customer the finance charge memo is for.\nThe program retrieves the country/region code from the Customer table when you fill in the Customer No. field.\nThe program uses the country/region code to format the customer's address on printouts."
     },
     {
       "no": 11,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the language code of the customer that the finance charge memo is for. To see the language codes in the Language table, click the field.\nThe program retrieves the language code from the Customer table when you fill in the Customer No. field. This field is blank if no language code has been entered on the customer's card."
     },
     {
       "no": 12,
@@ -92,17 +92,17 @@
     {
       "no": 18,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group of the customer.\nThe program retrieves the code from the Customer table when you complete the Customer No. field.\nThe code specifies to which general business posting group this particular customer belongs.\nThe program uses the business code, together with the Gen. Product Posting Group and the Gen. Posting Type, to look up VAT conditions and G/L accounts in the General Posting Setup.\nTo see the general business posting groups in the Gen. Business Posting Group table, click the field."
     },
     {
       "no": 19,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Shows the customer's VAT registration number.\nThe program retrieves the VAT registration number from the Customer table when you fill in the Customer No. field. The field is blank if no VAT registration number has been entered on the customer card.\nNormally, you should not change the contents of this field."
     },
     {
       "no": 20,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the finance charge memo header's reason code. A reason code is a code you choose that will enable you to trace the entry. To see the reason codes in the Reason Code table, click the field."
     },
     {
       "no": 21,
@@ -127,27 +127,27 @@
     {
       "no": 26,
       "name": "Post Interest",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not any interest calculated on the finance charge memo will be posted to the general ledger and customer accounts when the finance charge memo is issued. A check mark in the check box indicates that interest will be posted.\nThe program retrieves the contents of this field from the Finance Charge Terms table when you fill in the Fin. Charge Terms Code field. You can change the code on an individual finance charge memo, however."
     },
     {
       "no": 27,
       "name": "Post Additional Fee",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not any additional fee listed on the finance charge memo will be posted to the general ledger and customer accounts when the finance charge memo is issued. A check mark in the check box indicates that if there is an additional fee, it will be posted.\nThe program retrieves the contents of this field from the Finance Charge Terms table when you fill in the Fin. Charge Terms Code field. You can, however, change the code on an individual finance charge memo.\nWhether or not an additional fee (in LCY or foreign currency) is added to the finance charge memo is determined by the contents of the Additional Fee (LCY) fields in the Finance Charge Terms window and the Currency for Fin. Charge Terms window."
     },
     {
       "no": 29,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies a description of the finance charge memo for use in posting.\nThe program automatically fills in the Posting Description field with the text \"Finance Charge Memo\" and the finance charge memo number when you fill in the No. field.\nThe posting description appears on G/L and customer ledger entries that result from the finance charge memo."
     },
     {
       "no": 30,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not a comment has been entered for this finance charge memo.\nWhen you issue a finance charge memo, all comments will be copied to the issued memo.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 31,
       "name": "Remaining Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the remaining amounts on the finance charge memo lines. The remaining amount is in the currency represented by the currency code on the finance charge memo header."
     },
     {
       "no": 32,
@@ -162,37 +162,37 @@
     {
       "no": 34,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the VAT amounts on the finance charge memo lines. This amount is in the currency represented by the currency code on the finance charge memo header."
     },
     {
       "no": 37,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the finance charge memo's number."
     },
     {
       "no": 38,
       "name": "Issuing No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the finance charge memo when it is issued. To see the number series that have been set up in the No. Series table, click the field.\nThe program automatically copies the number series code from the Issued Fin. Chrg. M. Nos. field in the Sales & Receivables Setup table."
     },
     {
       "no": 39,
       "name": "Issuing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the issued finance charge memo that will be created if you issue the finance charge memo header.\nWhen you issue the finance charge memo header, the program will enter the next number from the number series in the Issuing No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 41,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code for the customer.\nThe program retrieves the code from the Customer card when you complete the Customer No. field.\nTo see the tax area codes in the Tax Area table, click the field."
     },
     {
       "no": 42,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Copies the value in this field from the corresponding field on the customer card when you enter the customer number. field."
     },
     {
       "no": 43,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program retrieves the code from the customer card when you complete the Customer No. field.\nTo see the VAT business posting groups in the VAT Business Posting Group table, click the field."
     },
     {
       "no": 44,
@@ -212,7 +212,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 9000,

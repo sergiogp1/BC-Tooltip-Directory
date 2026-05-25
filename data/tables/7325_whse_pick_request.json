@@ -27,22 +27,22 @@
     {
       "no": 5,
       "name": "Zone Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the zone where the bin on the particular request is situated."
     },
     {
       "no": 6,
       "name": "Bin Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the bin on the pick request. It is the bin code on the warehouse shipment line or the To Bin Code field on the internal pick line."
     },
     {
       "no": 7,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Contains the status of the pick request. The options are: Open, Released."
     },
     {
       "no": 8,
       "name": "Completely Picked",
-      "tooltip": ""
+      "tooltip": "Indicates whether all the items on the warehouse source document have been picked."
     },
     {
       "no": 9,

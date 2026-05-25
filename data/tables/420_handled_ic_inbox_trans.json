@@ -57,12 +57,12 @@
     {
       "no": 12,
       "name": "IC Partner G/L Acc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the IC G/L account that the amount is posted to in the IC partners company."
     },
     {
       "no": 13,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 14,

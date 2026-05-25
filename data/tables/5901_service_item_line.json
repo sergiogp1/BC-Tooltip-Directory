@@ -187,12 +187,12 @@
     {
       "no": 37,
       "name": "Fault Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that there is a fault comment for this service item. For example, this can be information about what is wrong with the item or what service needs to be done."
     },
     {
       "no": 38,
       "name": "Resolution Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that there is a resolution comment for this service item. For example, this can be information about the method that the technician uses to resolve the problem with the item."
     },
     {
       "no": 40,
@@ -202,12 +202,12 @@
     {
       "no": 41,
       "name": "Service Item Loaner Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that there is a loaner comment for this service item."
     },
     {
       "no": 42,
       "name": "Actual Response Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Contains the actual number of hours from the creation of the service order to the time when the repair status of this service item changes from Initial to In Process.\nThe program automatically calculates the contents of this field using the order date and order time values in the Service Header table and the Starting Date and Starting Time fields in the Service Item Line table."
     },
     {
       "no": 43,
@@ -217,7 +217,7 @@
     {
       "no": 44,
       "name": "Serv. Price Adjmt. Gr. Code",
-      "tooltip": ""
+      "tooltip": "Contains the service price adjustment group code that applies to the current service item line. The program automatically copies the code from the Service Price Adjustment Group table."
     },
     {
       "no": 45,
@@ -232,7 +232,7 @@
     {
       "no": 60,
       "name": "No. of Active/Finished Allocs",
-      "tooltip": ""
+      "tooltip": "Contains the number of active or finished resource allocations for this service item.\nThe program automatically calculates and updates the contents of this field using the entries with an Active or Finished status in the Service Order Allocation table."
     },
     {
       "no": 61,
@@ -247,7 +247,7 @@
     {
       "no": 63,
       "name": "Contract Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the contract line that you created.\nIf the service item line was created by the Create Contract Service Orders batch job, this is the reference line from the Service Contract Line table.\nA service contract can have several contract lines. Assigning a number to each line makes it possible to differentiate between them."
     },
     {
       "no": 64,
@@ -262,62 +262,62 @@
     {
       "no": 91,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 92,
       "name": "Resource Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource filter.\nIf this field contains a particular resource number, fields such as the No. of Allocations field will only display information on service order allocations with that resource. The Service Tasks window will also show the service tasks corresponding to the service item lines that the specified resource is allocated to (provided that you use allocation in your company)."
     },
     {
       "no": 93,
       "name": "Allocation Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter.\nIf this field contains the starting and ending dates for a time period, fields such as the No. of Active/Finished Allocs display information for that time period only."
     },
     {
       "no": 94,
       "name": "Repair Status Code Filter",
-      "tooltip": ""
+      "tooltip": "Contains a repair status code filter.\nIf this field contains a repair status code, the Service Tasks window shows service item lines with that particular repair status only."
     },
     {
       "no": 96,
       "name": "Allocation Status Filter",
-      "tooltip": ""
+      "tooltip": "Contains an allocation status filter. There are five options: Nonactive, Active, Finished, Canceled and Reallocation Needed.\nFor example, if this field contains the option Reallocation Needed, fields such as the No. of Allocations field only display information on service order allocations with that particular status."
     },
     {
       "no": 97,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains the code of the responsibility center that is associated either with the customer in the service order, or with your company.\nThe program copies the code automatically from the Responsibility Center field in the Service Header table."
     },
     {
       "no": 98,
       "name": "Service Order Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter that filters service order lines by service order number."
     },
     {
       "no": 99,
       "name": "Resource Group Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource group filter.\nIf this field contains a particular resource group number, fields such as the No. of Allocations field will only display information on service order allocations with that resource group. The Service Tasks window will also show the service tasks corresponding to the service item lines the specified resource group is allocated to (provided that you use allocation in your company)."
     },
     {
       "no": 100,
       "name": "Shortcut Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Contains the value of Shortcut Dimension 1 defined in the Shortcut Dimension 1 Code field in the General Ledger Setup window.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 101,
       "name": "Shortcut Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Contains the value of Shortcut Dimension 2 defined in the Shortcut Dimension 2 Code field in the General Ledger Setup window.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 130,
       "name": "Release Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of a service item line. The options are the following:\nOpen\n\nReleased to Ship"
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

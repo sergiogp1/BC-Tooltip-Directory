@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Specifies the application area that the analysis view budget entry belongs to:\nSales: The analysis view budget entry applies to Sales & Receivables\nPurchase: The analysis view budget entry applies to Purchases & Payables\nInventory: The analysis view budget entry applies to Inventory\nThe contents of this field cannot be changed."
     },
     {
       "no": 2,
       "name": "Analysis View Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the analysis view that the analysis view budget entries are linked to. The contents of this field cannot be changed."
     },
     {
       "no": 3,
@@ -27,12 +27,12 @@
     {
       "no": 5,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the analysis view budget entry is linked to either a customer or a vendor. The contents of this field cannot be changed."
     },
     {
       "no": 6,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the customer or the vendor if the analysis view budget entry is linked to either a customer or a vendor. The contents of this field cannot be changed. The program determines if the analysis view budget entry is linked to a customer or a vendor using the contents of the Source Type field."
     },
     {
       "no": 8,
@@ -62,7 +62,7 @@
     {
       "no": 13,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Contains the item budget entry number for the analysis view budget entry.\nThe contents of this field cannot be changed."
     },
     {
       "no": 21,

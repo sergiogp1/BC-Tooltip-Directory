@@ -32,17 +32,17 @@
     {
       "no": 22,
       "name": "Low-Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies the level in which this BOM is used.\nThe low-level Code identifies the lowest level of use of an item.\nIf the item functions as a production BOM, then the production BOM header will have the value 1 as the low-level code of the item. If the production BOM is a components of another production BOM, then the two production BOM headers will have the same low-level code.\nThis information is required when calculating a plan."
     },
     {
       "no": 25,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether there is a comment for this BOM.\nTo view a comment or create a new one, click Related Information, point to Prod. BOM, and then click Comments. A window appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 40,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "Specifies the creation date.\nThe creation date is the day on which this production BOM was created.\nIf you create a production BOM and do not fill it in with data immediately, the day on which the empty data set was created is still shown here."
     },
     {
       "no": 43,
@@ -62,7 +62,7 @@
     {
       "no": 51,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series to which this production BOM refers."
     }
   ]
 }

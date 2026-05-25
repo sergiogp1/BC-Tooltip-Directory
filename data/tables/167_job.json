@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional description of the job. You can enter up to 50 characters and spaces."
     },
     {
       "no": 5,
@@ -57,12 +57,12 @@
     {
       "no": 21,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nFor more information on dimensions, see analyze Analyze Data by Dimensions."
     },
     {
       "no": 22,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nFor more information on dimensions, see Analyze Data by Dimensions."
     },
     {
       "no": 23,
@@ -82,17 +82,17 @@
     {
       "no": 30,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether any comments have been entered for this job. For example, comments can be special instructions for the job.\nTo see a comment or to create a new one, on the Navigate tab, in the Job group, choose Comments. A Comment Sheet window opens in which you can see the existing comments and create new ones.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 31,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the customer discount group that the bill-to customer is assigned to.\nThe program automatically retrieves the code when you fill in the Bill-to Customer No. field. The field is blank if no discount group code has been entered on the Customer Card.\nWhen you enter an item on a planning line or a journal line, the program uses this code to check whether the bill-to customer is allowed a discount on the item.\nIf you have set up a price or a discount for the item in the Job/Item Price table, the Customer Discount Group will be ignored."
     },
     {
       "no": 32,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the customer price group that the bill-to customer is assigned to. To see the customer price group codes in the Customer Price Group table, choose the field.\nThe program automatically retrieves the code from the Customer table when you fill in the Bill-to Customer No. field. The field is blank if no price group code has been entered on the customer card.\nThe code is used when the program calculates the unit price for items on a planning line. The program checks the Sales Price table to see if customers in this price group will be charged a different price for the item, than is in the Unit Price field on the item card.\nIf you have set up a price or a discount for the item in the Job/Item Price table, the Customer Price Group is ignored."
     },
     {
       "no": 35,
@@ -112,27 +112,27 @@
     {
       "no": 49,
       "name": "Scheduled Res. Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies the scheduled capacity of a specific resource for this job. The amount is the total of the figures in the Quantity field in the Job Planning Line table."
     },
     {
       "no": 50,
       "name": "Resource Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters planned resource capacity by resources."
     },
     {
       "no": 51,
       "name": "Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by posting date. The filter applies to job ledger entries, but not to planning lines.\nIf this field contains start and end dates for a time period, information in various statistical and overview windows will show information that is linked to the specified time period."
     },
     {
       "no": 55,
       "name": "Resource Gr. Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by resource groups."
     },
     {
       "no": 56,
       "name": "Scheduled Res. Gr. Qty.",
-      "tooltip": ""
+      "tooltip": "Displays the scheduled capacity of a specific resource group for this job. The amount is the total of the figures in the Quantity field in the Job Planning Line table."
     },
     {
       "no": 58,
@@ -167,7 +167,7 @@
     {
       "no": 66,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code, for the number series, which was used to assign the job's number."
     },
     {
       "no": 67,
@@ -187,7 +187,7 @@
     {
       "no": 117,
       "name": "Reserve",
-      "tooltip": ""
+      "tooltip": "Indicates whether or not a reservation can be made for items on the current line. The field is not applicable if the Type field is set to Resource, Cost, or G/L Account.\n\n\nOption\n\n\nDescription\n\n\nNever\n\nIt is not possible to make a reservation for items on this line.\n\n\nOptional\n\nYou can make a manual reservation for items on this line.\n\n\nAlways\n\nThe program automatically fills in this field when you enter the item number in the No. field on the job planning line.\n\n\nThis field is filled in automatically. You can override the value if you modify the value specified in the job planning line."
     },
     {
       "no": 140,
@@ -222,7 +222,7 @@
     {
       "no": 1004,
       "name": "Planning Date Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by planning date. The filter applies to job planning lines, but not to job ledger entries.\nIf this field contains start and end dates for a time period, information in various statistical and overview windows will show information that is linked to the specified time period."
     },
     {
       "no": 1005,
@@ -237,7 +237,7 @@
     {
       "no": 1007,
       "name": "WIP Entries Exist",
-      "tooltip": ""
+      "tooltip": "Indicates whether WIP and Recognition that was last calculated for the job is also the WIP and Recognition has been posted to the G/L. If it has, the check box is selected.\nIf the field is blank, it means that latest WIP and Recognition calculated for the job is not the same WIP and Recognition that is posted to the G/L for the job.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1008,
@@ -272,7 +272,7 @@
     {
       "no": 1015,
       "name": "Complete",
-      "tooltip": ""
+      "tooltip": "Specifies whether the job is complete. This information is used when calculating and posting completion entries.\n\nThis field is used internally."
     },
     {
       "no": 1017,
@@ -307,7 +307,7 @@
     {
       "no": 1023,
       "name": "WIP Completion Calculated",
-      "tooltip": ""
+      "tooltip": "Specifies if the completion of WIP has been calculated.\nThis field is set to Yes when the job associated with the job WIP entry is set to Complete."
     },
     {
       "no": 1024,
@@ -362,7 +362,7 @@
     {
       "no": 1034,
       "name": "WIP Completion Posted",
-      "tooltip": ""
+      "tooltip": "Specifies whether the WIP for the job has been posted.\nThis check box is selected only if the job has the posting status of Completed."
     },
     {
       "no": 1035,

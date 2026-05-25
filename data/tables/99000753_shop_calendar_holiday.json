@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Shop Calendar Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the shop calendar that the entry of the shop calendar holiday refers to.\nTo select a code in the Shop Calendar table, click the field.\nYou must set up the shop calendar first."
     },
     {
       "no": 2,

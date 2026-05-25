@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the contact that the phone number or e-mail address is related to."
     },
     {
       "no": 5,
       "name": "Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the contact."
     },
     {
       "no": 6,

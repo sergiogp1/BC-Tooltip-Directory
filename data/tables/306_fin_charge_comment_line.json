@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number for the comment.\nWhen you create a comment for a finance charge memo, the program automatically enters a number in the Line No. field in order to keep track of all the comments in the comment table. The line number is specific to the particular comment."
     },
     {
       "no": 4,

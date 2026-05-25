@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Manages the error that is shown in the Payment Journal window in case payment lines cannot be exported."
     },
     {
       "no": 2,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Manages the error that is shown in the Payment Journal window in case payment lines cannot be exported."
     },
     {
       "no": 3,
       "name": "Journal Line No.",
-      "tooltip": ""
+      "tooltip": "Manages the error that is shown in the Payment Journal window in case payment lines cannot be exported."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Manages the error that is shown in the Payment Journal window in case payment lines cannot be exported."
     },
     {
       "no": 5,
@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Manages the error that is shown in the Payment Journal window in case payment lines cannot be exported."
     },
     {
       "no": 7,

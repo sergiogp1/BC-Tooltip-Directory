@@ -97,7 +97,7 @@
     {
       "no": 21,
       "name": "Shipment Date",
-      "tooltip": ""
+      "tooltip": "Copies the date for this field from the Shipment Date field on the sales header, which is used for planning purposes.\nYou cannot change the shipment date because the credit memo has already been posted."
     },
     {
       "no": 22,
@@ -107,7 +107,7 @@
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code to use to find the payment terms that apply to the credit memo.\nThe program copies the payment terms code from the Payment Terms Code on the sales header.\nThe payment terms are used to calculate the due date and payment discount date from the posting date, and to find the payment discount percentage.\nYou cannot change the payment terms code because the credit memo has already been posted."
     },
     {
       "no": 24,
@@ -117,12 +117,12 @@
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the payment discount percentage granted if payment is made by the date entered in the Pmt. Discount Date field.\nThe program copies the payment discount percentage from the Payment Discount % field on the sales header.\nYou cannot change the payment discount percentage because the credit memo has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which the credit memo must be paid to obtain a payment discount.\nThe program copies the payment discount date from the Pmt. Discount Date field on the sales header.\nOnce orders, invoices and shipments have been posted, the payment discount date is used to calculate payment discounts on payments from customers.\nYou cannot change the payment discount date because the credit memo has already been posted."
     },
     {
       "no": 27,
@@ -157,32 +157,32 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group used on the invoice.\nThe program copies the code from the Customer Price Group field on the sales header.\nYou cannot change the customer price group because the credit memo has already been posted."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies whether the sales prices on the credit memo lines include VAT.\nThe program copies the information from the Prices Including VAT field on the sales header.\nYou cannot change the contents of the field because the credit memo has already been posted."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code used to calculate the credit memo's invoice discount.\nThe program copies the invoice discount code from the Invoice Disc. Code field on the sales header.\nYou cannot change the invoice discount code because the credit memo has already been posted."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code used to calculate the customer's sales line discount.\nThe program copies the code from the Customer Disc. Group field on the sales header.\nYou cannot change the customer discount group because the credit memo has already been posted."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the language used on the credit memo.\nThe program copies the code from the Language Code field on the sales header.\nThe language code made it possible for the items on the sales line to be written in the customer's language.\nYou cannot change the language code because the credit memo has already been posted."
     },
     {
       "no": 42,
@@ -197,7 +197,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this sales credit memo header.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
@@ -207,7 +207,7 @@
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "Specifies whether the credit memo was marked as on hold when it was posted.\nThe program copies the information from the On Hold field on the sales header.\nYou cannot change the contents of this field because the credit memo has already been posted."
     },
     {
       "no": 52,
@@ -222,7 +222,7 @@
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies a general ledger account number to which a balancing entry for the credit memo was posted.\nThe program copies the number from the Bal. Account No. field on the sales header.\nYou cannot change the balancing account because the credit memo has already been posted."
     },
     {
       "no": 60,
@@ -247,12 +247,12 @@
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the credit memo.\nThe program copies the reason code from the Reason Code field on the sales header.\nYou cannot change the reason code because the credit memo has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general business posting group code that is assigned to the customer that you sent the credit memo to.\nThe program copies the code from the Gen. Bus. Posting Group field on the sales header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 75,
@@ -262,17 +262,17 @@
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the sales header that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the sales header.\nYou cannot change the transaction type because the credit memo has already been posted."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the sales header that this line was posted from.\nThe program copies the transport method from the Transport Method field on the sales header.\nYou cannot change the transport method because the credit memo has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the customer's VAT country/region code.\nThe program copies the VAT country/region code from the VAT Country/Region Code field on the sales header.\nYou cannot change the VAT country/region code because the credit memo has already been posted."
     },
     {
       "no": 79,
@@ -352,12 +352,12 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the balancing account type used in the credit memo line.\nThe program copies the balancing account type from the Bal. Account Type field on the sales header.\nYou cannot change the type because the credit memo has already been posted."
     },
     {
       "no": 97,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of exit through which you shipped the items out of your country/region.\nThe program copies the code from the Exit Point field on the sales header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 98,
@@ -377,12 +377,12 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used in the credit memo.\nThe program copies the code from the Area field on the sales header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction specification that was used in the credit memo.\nThe program copies the code from the Transaction Specification field on the sales header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 104,
@@ -402,12 +402,12 @@
     {
       "no": 107,
       "name": "Pre-Assigned No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the credit memo from which the posted credit memo was created.\nThe program automatically copies this field from the No. Series field on the sales header.\nYou cannot change the pre-assigned number series because the credit memo has already been posted."
     },
     {
       "no": 108,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the posted credit memo.\nThe program automatically copies this field from the Posting No. Series field on the sales header.\nYou cannot change the number series because the credit memo has already been posted."
     },
     {
       "no": 111,
@@ -417,12 +417,12 @@
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who posted the credit memo.\nYou cannot change the user ID because the credit memo has already been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the sales credit memo header.\nThe program copies the source code from either the Sales field or the Deleted Document field in the Source Code Setup table.\nYou cannot change the source code because the entry has been posted."
     },
     {
       "no": 114,
@@ -437,27 +437,27 @@
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the code from the VAT Bus. Posting Group field on the sales header."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 134,
       "name": "Prepmt. Cr. Memo No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign a number to the posted prepayment credit memo if the credit memo is a prepayment credit memo.\nThe program automatically copies this field from the Prepayment No. Series field on the sales header.\nYou cannot change the number series because the invoice has already been posted."
     },
     {
       "no": 136,
       "name": "Prepayment Credit Memo",
-      "tooltip": ""
+      "tooltip": "Specifies whether the credit memo is a prepayment credit memo."
     },
     {
       "no": 137,
       "name": "Prepayment Order No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the sales order from which this prepayment credit memo was posted if the credit memo is a prepayment credit memo.\nYou cannot change the order number because the credit memo has already been posted."
     },
     {
       "no": 163,
@@ -512,7 +512,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 710,
@@ -542,12 +542,12 @@
     {
       "no": 1304,
       "name": "Cust. Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Used to determine if the posted sales invoice that relates to this sales credit memo is paid.\nThe state is shown in the Paid field on the posted sales invoice."
     },
     {
       "no": 1305,
       "name": "Invoice Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that is calculated and shown in the Invoice Discount Amount field at the bottom of posted sales invoices. The amount is deducted from the value in the Total Incl. VAT field.\nIf you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the Customer Invoice Discount % field if the criteria are met. The calculated discount amount is inserted in the Invoice Discount Amount field, but you can change it manually. For more information, see How to: Set Up Invoice Discount Terms."
     },
     {
       "no": 1310,
@@ -562,7 +562,7 @@
     {
       "no": 5050,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
     },
     {
       "no": 5052,
@@ -592,12 +592,12 @@
     {
       "no": 6601,
       "name": "Return Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the sales return order that the sales credit memo is related to."
     },
     {
       "no": 6602,
       "name": "Return Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series that was used to assign a number to the sales return order that the sales credit memo is related to."
     },
     {
       "no": 7000,
@@ -607,12 +607,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     },
     {
       "no": 7200,
       "name": "Get Return Receipt Used",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8001,

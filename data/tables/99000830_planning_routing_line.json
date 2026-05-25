@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the planning worksheet template.\nThe program automatically retrieves the name from the Name field in the Planning Wksh. Template table, but you can change it."
     },
     {
       "no": 2,
       "name": "Worksheet Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the planning worksheet batch.\nThe program automatically retrieves the name from the Name field in the Planning Wksh. Batch table, but you can change it."
     },
     {
       "no": 3,
       "name": "Worksheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the requisition worksheet line number of the planning routing line.\nThe program automatically retrieves the number from the Line No. field in the Requisition Line table."
     },
     {
       "no": 4,
@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies a work center number.\nIf the capacity carrying out an operation is a work center, the value is copied from the No. field. If it is a machine, the content of the field on the machine card is copied from the Work Center No. field."
     },
     {
       "no": 10,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code copied from the Work Center card. To change the contents of the field, click the field and select a different work center group number from the Work Center Groups window."
     },
     {
       "no": 11,
@@ -97,22 +97,22 @@
     {
       "no": 19,
       "name": "Setup Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code for measuring setup time to use when you manufacture the item. click the field to see a list of available unit of measure codes.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nSetup time is the time required for setting up the machine center or work center to go from production of the last item in one lot to the first item of the next lot.\nNote that the throughput time can be expressed in various units of measure. However, if you do so it will affect cost calculations."
     },
     {
       "no": 20,
       "name": "Run Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code for the run time to use when you manufacture the item. click the field to see a list of available unit of measure codes.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nRun time is the time required to process or manufacture an item or a lot in a specific operation. Run time does not include setup time.\nNote that the throughput time can be expressed in various units of measure. However, if you do so it will affect cost calculations."
     },
     {
       "no": 21,
       "name": "Wait Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code for the wait time to use when you manufacture the item. click the field to see a list of available unit of measure codes.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nWait time is the time that items in process must wait to be moved to the next machine or work center. In other words, it is the time between steps in the manufacturing process.\nNote that the throughput time can be expressed in various units of measure. However, if you do so it will affect cost calculations."
     },
     {
       "no": 22,
       "name": "Move Time Unit of Meas. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code for the move time to use when you manufacture the item. click the field to see a list of available unit of measure codes.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nMove time is the time a lot or batch of an order spends in transit from one operation to another.\nNote that the throughput time can be expressed in various units of measure. However, if you do so it will affect cost calculations."
     },
     {
       "no": 23,
@@ -122,12 +122,12 @@
     {
       "no": 27,
       "name": "Minimum Process Time",
-      "tooltip": ""
+      "tooltip": "Specifies a minimum process time.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nThe minimum process time is the minimum time required for an operation. This field provides additional information about the process."
     },
     {
       "no": 28,
       "name": "Maximum Process Time",
-      "tooltip": ""
+      "tooltip": "Specifies a maximum process time.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nThe maximum process time is the maximum time required for an operation. This field provides additional information about the process."
     },
     {
       "no": 30,
@@ -142,12 +142,12 @@
     {
       "no": 34,
       "name": "Routing Link Code",
-      "tooltip": ""
+      "tooltip": "Specifies the routing link code.\nclick the field to see the available routing link codes in the Routing Link table."
     },
     {
       "no": 35,
       "name": "Standard Task Code",
-      "tooltip": ""
+      "tooltip": "Specifies a standard task code.\nIt is a code for frequently performed tasks. The program copies the contents of this field to the Description field on this line.\nclick the field to see the standard task codes in the Standard Task table."
     },
     {
       "no": 40,
@@ -157,7 +157,7 @@
     {
       "no": 41,
       "name": "Recalculate",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 50,
@@ -172,37 +172,37 @@
     {
       "no": 52,
       "name": "Fixed Scrap Qty. (Accum.)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated fixed scrap quantity.\nFixed scrap quantity is the quantity of scrap generated at the beginning of an operation. In other words, the first component produced in some operations is always damaged, and it can therefore not be used in the subsequent process. Thus, the Fixed Scrap Qty. (Accum.) field contains the accumulated fixed scrap quantity of all operations in the routing specified on this planning line."
     },
     {
       "no": 53,
       "name": "Scrap Factor % (Accumulated)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated scrap factor as a percentage.\nThe scrap factor defines the scrap that can only be accounted for at the end of the operation. This field accumulates the scrap factor for each operation in the routing."
     },
     {
       "no": 55,
       "name": "Sequence No. (Actual)",
-      "tooltip": ""
+      "tooltip": "Specifies the current sequence number.\nYou can plan a production order using either forward or backward scheduling. Depending on the scheduling method, the program assigns sequence numbers to each operation.\nThe program uses this field internally."
     },
     {
       "no": 56,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the direct unit cost for this planning routing line.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nThe direct unit cost is used in the calculation of items such as the cost per unit of material worked on or cost per hour as defined in capacity unit of measure. The direct unit cost differs from the unit cost in that the unit cost includes the indirect cost."
     },
     {
       "no": 57,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost as a percentage for this planning routing line.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nThe indirect cost is costs such as general operating cost of the capacity center that is not directly incurred by a particular operation. The indirect cost is added to the direct unit cost to determine the unit cost."
     },
     {
       "no": 58,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate for this planning routing line.\nThe program automatically fills in this field when you enter the number of a machine or work center on the line, but you can change it.\nThe overhead rate is a fixed amount. You can set up an overhead rate that covers costs other than material or capacity costs, for example transportation expenses.\nThe overhead rate is added to the total cost of the routing line."
     },
     {
       "no": 61,
       "name": "Output Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the output quantity for this planning routing line."
     },
     {
       "no": 70,
@@ -227,17 +227,17 @@
     {
       "no": 76,
       "name": "Unit Cost Calculation",
-      "tooltip": ""
+      "tooltip": "Specifies the basis for the unit cost calculation.\nclick the field to select one of the following options:\n\nTime: The calculation will be based on the time spent.\n\n\nUnit: The calculation will be based on produced units."
     },
     {
       "no": 77,
       "name": "Input Quantity",
-      "tooltip": ""
+      "tooltip": "Specify a capacity need that will be added to the calculation of the expected capacity need for the planning routing line."
     },
     {
       "no": 78,
       "name": "Critical Path",
-      "tooltip": ""
+      "tooltip": "Specifies that this planning routing line is a critical path.\nA path may be considered critical for avoiding bottlenecks in the manufacturing process, for example, and may therefore need special attention."
     },
     {
       "no": 98,
@@ -252,17 +252,17 @@
     {
       "no": 99000909,
       "name": "Expected Operation Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Automatically calculates a value based on the capacity need when a production order is refreshed or replanned."
     },
     {
       "no": 99000910,
       "name": "Expected Capacity Ovhd. Cost",
-      "tooltip": ""
+      "tooltip": "Automatically calculates a value based on the capacity need when a production order is refreshed or replanned."
     },
     {
       "no": 99000911,
       "name": "Expected Capacity Need",
-      "tooltip": ""
+      "tooltip": "Specifies the expected capacity need for the production order routing line on the planning line."
     }
   ]
 }

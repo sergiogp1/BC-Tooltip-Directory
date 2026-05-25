@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Package Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the package that the filter belongs to."
     },
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the table on which you want to filter records in the configuration table."
     },
     {
       "no": 3,

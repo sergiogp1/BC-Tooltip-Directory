@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Created Date-Time",
-      "tooltip": ""
+      "tooltip": "Specifies when the direct debit collection was created."
     },
     {
       "no": 4,
@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Message ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the message in the direct debit file that you export and send to the bank for processing.\nThe message ID number is generated from the number series that you set up in the SEPA DD Msg. ID No. Series field in the Bank Account Card window."
     },
     {
       "no": 10,
       "name": "Partner Type",
-      "tooltip": ""
+      "tooltip": "Specifies if the customer that the direct debit collection is made for is a person or a company."
     }
   ]
 }

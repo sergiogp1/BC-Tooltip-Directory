@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's telex number. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex number so that it will look uniform on printouts."
     },
     {
       "no": 14,
@@ -62,22 +62,22 @@
     {
       "no": 15,
       "name": "Territory Code",
-      "tooltip": ""
+      "tooltip": "Specifies a territory code for the vendor. To see the territory codes in the Territory table, click the field.\nYou can use this field to group vendors by territory in order to make purchasing for different inventory locations more efficient. For example, choose the code SCAND in the Territory Code field for all vendors from Scandinavia. In the future, when you are purchasing for the warehouse in Norway, you can set a filter so the program shows only Scandinavian vendors. This makes it easy to see the vendors you already have in Scandinavia."
     },
     {
       "no": 16,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 17,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 19,
       "name": "Budgeted Amount",
-      "tooltip": ""
+      "tooltip": "Specifies a budget amount for the vendor.\nYou cannot set up budgets for vendors in the same way that you can for G/L accounts. Instead, you can enter one budget figure per vendor in this field. This can represent, for example, the expected purchases from this vendor.\nThis field has no relationship to possible budgets in the general ledger."
     },
     {
       "no": 21,
@@ -127,7 +127,7 @@
     {
       "no": 31,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the shipping agent that the vendor normally uses for your orders. You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 33,
@@ -142,7 +142,7 @@
     {
       "no": 38,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this vendor.\nThe comment could be about a particular shipment method or payment problems, for example..\nTo see or set up comments, click Related Information, point to Vendor, and then choose Comment. See also the Comment Line table.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 39,
@@ -187,22 +187,22 @@
     {
       "no": 55,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains the starting and ending dates for a date interval, then other field values only show information for that interval. For example, the Net Change field shows the net change for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 56,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that fields such as Balance (LCY) will display the balance based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 57,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that fields such as Balance (LCY) will display the balance based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 58,
       "name": "Balance",
-      "tooltip": ""
+      "tooltip": "Shows the vendor's current balance. If you invoice a vendor in more than one currency, this balance will be the sum of entries in different currencies. In this case, you will need to filter the entries that make up the balance by using a currency filter.\nYou can filter the Balance field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or currencies.\nThe program uses the Amount field in the Vendor Ledger Entry table to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 59,
@@ -212,32 +212,32 @@
     {
       "no": 60,
       "name": "Net Change",
-      "tooltip": ""
+      "tooltip": "Shows the net change in the vendor's account for the period entered in the Date Filter field. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Net Change field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Amount field in the Vendor Ledger Entry table to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 61,
       "name": "Net Change (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the net change in the vendor's account for the period entered in the Date Filter field in LCY.\nThe program uses the Amount (LCY) field in the Vendor Ledger Entry table to calculate and regularly update the contents of this field.\nYou can filter the Net Change (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 62,
       "name": "Purchases (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount the company has purchased from this vendor in LCY.\nThe program uses the Purchase (LCY) field in the Vendor Ledger Entry table to calculate and regularly update the contents of this field.\nYou can filter the Purchase (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 64,
       "name": "Inv. Discounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total invoice discount obtained from this vendor in LCY.\nThe program uses the Inv. Discount (LCY) field in the Vendor Ledger Entry table to calculate and regularly update the contents of this field.\nYou can filter the Inv. Discounts (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 65,
       "name": "Pmt. Discounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of payment discounts obtained from this vendor in LCY.\nThe program uses the Pmt. Disc. Rcd.(LCY) field in the Vendor Ledger Entry table to calculate and regularly update the contents of this field.\nYou can filter the Pmt. Discounts (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1, Global Dimension 2 values, and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 66,
       "name": "Balance Due",
-      "tooltip": ""
+      "tooltip": "Shows the balance due to this vendor. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Balance Due field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, and/or currencies and dates.\nThe program uses the Remaining Amount field in the Vendor Ledger Entry table to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 67,
@@ -247,22 +247,22 @@
     {
       "no": 69,
       "name": "Payments",
-      "tooltip": ""
+      "tooltip": "Shows the total amount that has been paid to this vendor. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Payments field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Amount field for those entries in the Vendor Ledger Entry table where the document type is Payment to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 70,
       "name": "Invoice Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount you have been invoiced for by this vendor. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Invoice Amounts field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Amount field for those entries in the Vendor Ledger Entry table where the document type is Invoice to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 71,
       "name": "Cr. Memo Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of the credit memos issued by this vendor. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Cr. Memo Amounts field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Amount field for those entries in the Vendor Ledger Entry table where the document type is Credit Memo to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 72,
       "name": "Finance Charge Memo Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount this vendor has added in finance charges. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Finance Charge Memo Amounts field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program calculates and updates the contents of this field using the Amount field for those entries in the Vendor Ledger Entry table where the document type is Finance Charge Memo.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 74,
@@ -272,27 +272,27 @@
     {
       "no": 75,
       "name": "Inv. Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount you have been invoiced by this vendor in LCY.\nThe program uses the Original Amt. (LCY) field for those entries in the Vendor Ledger Entry table where the document type is Invoice to calculate and regularly update the contents of this field.\nYou can filter the Inv. Amounts (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 76,
       "name": "Cr. Memo Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of credit memos issued by this vendor in LCY.\nThe program uses the Original Amt. (LCY) field for those entries in the Vendor Ledger Entry table where the document type is Credit Memo to calculate and regularly update the contents of this field.\nYou can filter the Cr. Memo Amounts (LCY) field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 77,
       "name": "Fin. Charge Memo Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount this vendor has added in finance charges in LCY.\nThe program calculates and updates the contents of this field using the Original Amt. (LCY) field for those entries in the Vendor Ledger Entry table where the document type is Finance Charge Memo.\nYou can filter the Fin. Charge Memo Amounts (LCY) field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 78,
       "name": "Outstanding Orders",
-      "tooltip": ""
+      "tooltip": "Shows the sum of outstanding orders to this vendor. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Outstanding Orders field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Outstanding Amount field for those entries in the Purchase Line table where the document type is Order to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 79,
       "name": "Amt. Rcd. Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Shows the total invoice amount of items you have received but not yet been invoiced for. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Amt. Rcd. Not Invoiced field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program uses the Amt. Rcd. Not Invoiced field for those entries in the Purchase Line table where the document type is Order to calculate and update the contents of this field.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 80,
@@ -312,7 +312,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's telex answer back code. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex code, so it will look uniform on printouts."
     },
     {
       "no": 86,
@@ -347,22 +347,22 @@
     {
       "no": 97,
       "name": "Debit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the debit entries that have been posted to the vendor's account. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Debit Amount field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nTo see the ledger entries that comprise the debit amount, click the field."
     },
     {
       "no": 98,
       "name": "Credit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the credit entries that have been posted to the vendor's account. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Credit Amount field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nTo see the ledger entries that comprise the credit amount, click the field."
     },
     {
       "no": 99,
       "name": "Debit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the debit entries, in LCY, that have been posted to the vendor account.\nTo see the ledger entries that comprise the debit amount (in LCY), click the field."
     },
     {
       "no": 100,
       "name": "Credit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the credit entries, in LCY, that have been posted to the vendor account.\nTo see the ledger entries that comprise the credit amount (in LCY), click the field."
     },
     {
       "no": 102,
@@ -377,17 +377,17 @@
     {
       "no": 104,
       "name": "Reminder Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of interest and additional fees that the vendor has added on reminders. If you invoice a vendor in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Reminder Amounts field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using the Amount field for those entries in the Vendor Ledger Entry table where the document type is Reminder.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 105,
       "name": "Reminder Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of interest and additional fees that the vendor has added on reminders in LCY.\nThe program automatically calculates and updates the contents of the field using those entries in the Original Amt. (LCY) field in the Vendor Ledger Entry table where the document type is Reminder.\nYou can filter the Reminder Amounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the vendor ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the vendor's number."
     },
     {
       "no": 108,
@@ -407,7 +407,7 @@
     {
       "no": 111,
       "name": "Currency Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a currency filter so that the amounts in the Balance, Net Change, Balance Due and other FlowField fields contain entries in one or more currencies.\nTo see the currency codes in the Currencies window, click the field."
     },
     {
       "no": 113,
@@ -427,12 +427,12 @@
     {
       "no": 117,
       "name": "Pmt. Disc. Tolerance (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the payment amount in LCY that must be received as paid to allow the payment discount on payments that are past the payment discount date."
     },
     {
       "no": 118,
       "name": "Pmt. Tolerance (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of outstanding payment in LCY that is required to meet the payment tolerance conditions.\n\nAdditional Information\n\nYou can use payment tolerance so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed as follows:\n\nIf the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry.\n\n\nIf the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry."
     },
     {
       "no": 119,
@@ -442,7 +442,7 @@
     {
       "no": 120,
       "name": "Refunds",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of transactions with document type Refund."
     },
     {
       "no": 121,
@@ -452,12 +452,12 @@
     {
       "no": 122,
       "name": "Other Amounts",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of transactions where no document type is defined."
     },
     {
       "no": 123,
       "name": "Other Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum in LCY of transactions where no document type is defined."
     },
     {
       "no": 124,
@@ -467,7 +467,7 @@
     {
       "no": 125,
       "name": "Outstanding Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the vendor's outstanding purchase invoices.\nThe sum is calculated and updated based on values in the Outstanding Amount field on purchase lines for the customer."
     },
     {
       "no": 126,
@@ -477,12 +477,12 @@
     {
       "no": 130,
       "name": "Pay-to No. Of Archived Doc.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of archived purchase orders that have been registered for the vendor when the vendor acts as the pay-to vendor."
     },
     {
       "no": 131,
       "name": "Buy-from No. Of Archived Doc.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of archived purchase orders that have been registered for the vendor acting as the Buy-from vendor."
     },
     {
       "no": 132,
@@ -677,7 +677,7 @@
     {
       "no": 7195,
       "name": "No. of Order Addresses",
-      "tooltip": ""
+      "tooltip": "Specifies the number of order addresses that have been entered for this vendor."
     },
     {
       "no": 7196,

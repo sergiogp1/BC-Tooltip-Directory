@@ -17,7 +17,7 @@
     {
       "no": 10,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure of the item that is included in the production BOM."
     },
     {
       "no": 11,

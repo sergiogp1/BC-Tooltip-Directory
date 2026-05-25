@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Fin. Charge Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the finance charge terms for which you want to set up foreign currency information.\nThe program copies this code from the Code field in the Finance Charge Terms table."
     },
     {
       "no": 2,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
@@ -77,12 +77,12 @@
     {
       "no": 16,
       "name": "Open",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 17,
       "name": "Positive",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 18,
@@ -117,7 +117,7 @@
     {
       "no": 24,
       "name": "Record Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 25,

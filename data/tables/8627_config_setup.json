@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies another line in which you can enter the name of the company that you are configuring.\nYou can enter up to 50 characters, numbers, and spaces."
     },
     {
       "no": 4,
@@ -42,12 +42,12 @@
     {
       "no": 8,
       "name": "Phone No. 2",
-      "tooltip": ""
+      "tooltip": "Specifies a second telephone number for the company that you are configuring.\nYou can enter a maximum of 30 characters, both numbers and letters.\nUse a standard format to enter the telephone number so that it will look uniform on printed documents. The following are examples:\n\n123 456 7890\n\n\n12 34 56 78"
     },
     {
       "no": 9,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number of the company that you are configuring.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 10,
@@ -82,12 +82,12 @@
     {
       "no": 17,
       "name": "Customs Permit No.",
-      "tooltip": ""
+      "tooltip": "Specifies the customs permit number of the company that you are configuring.\nYou can enter a maximum of 10 characters, both numbers and letters."
     },
     {
       "no": 18,
       "name": "Customs Permit Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the company received its customs permit."
     },
     {
       "no": 19,
@@ -97,47 +97,47 @@
     {
       "no": 20,
       "name": "Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the registration number of the company that you are configuring.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 21,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the company's telex answer back code.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 22,
       "name": "Ship-to Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the location to which items for the company should be shipped.\nThis name is used on printed documents, such as purchase orders, so enter it as you want it to appear.\nYou can enter a maximum of 50 characters, both numbers and letters."
     },
     {
       "no": 23,
       "name": "Ship-to Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the name of the location to which items for the company should be shipped.\nThis name is used on printed documents, for example, so enter it as you want it to appear.\nYou can enter a maximum of 50 characters, both numbers and letters."
     },
     {
       "no": 24,
       "name": "Ship-to Address",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the address to which items for the company should be shipped.\nThis address is used on printed documents, such as purchase orders, so enter it as you want it to appear.\nYou can enter a maximum of 50 characters, both numbers and letters."
     },
     {
       "no": 25,
       "name": "Ship-to Address 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the address to which items for the company should be shipped.\nThis address is used on printed documents, such as purchase orders, so enter it as you want it to appear.\nYou can enter a maximum of 50 characters, both numbers and letters."
     },
     {
       "no": 26,
       "name": "Ship-to City",
-      "tooltip": ""
+      "tooltip": "Contains the city of the address to which items for the company should be shipped."
     },
     {
       "no": 27,
       "name": "Ship-to Contact",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the contact person to whom items for the company should be shipped.\nThis name is used on printed documents, such as purchase orders, so enter it as you want it to appear\nYou can enter a maximum of 50 characters, both numbers and letters."
     },
     {
       "no": 28,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Specifies the location code that corresponds to the company's ship-to address.\nIf the field contains a code, whenever the company orders items to be shipped to the company, the inventory location represented by the code will be used automatically."
     },
     {
       "no": 29,
@@ -152,17 +152,17 @@
     {
       "no": 31,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the company's address. You can enter a maximum of 30 characters, both numbers and letters.\nUse a standard format for county names so that they will look uniform on printed documents."
     },
     {
       "no": 32,
       "name": "Ship-to Post Code",
-      "tooltip": ""
+      "tooltip": "Contains the post code of the shipping address of the company that you are configuring."
     },
     {
       "no": 33,
       "name": "Ship-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the company's shipping address.\nYou can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 34,
@@ -182,7 +182,7 @@
     {
       "no": 37,
       "name": "Ship-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region of the company's shipping address.\nYou can enter a maximum of 10 characters, both numbers and letters.\nUse a standard format for county names so that they will look uniform on printed documents."
     },
     {
       "no": 38,
@@ -207,32 +207,32 @@
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the default responsibility center. This responsibility center will be used on all purchase and sales documents, if the user, customer or vendor have no default responsibility center."
     },
     {
       "no": 5791,
       "name": "Check-Avail. Period Calc.",
-      "tooltip": ""
+      "tooltip": "Specifies a date formula that defines the length of the period after the planned shipment date on demand lines in which the system checks availability for the demand line in question. The setting in this field also applies to the Order Promising functionality.\nThis field interacts with the Check-Avail. Time Bucket field in which you define how frequently availability checks are performed during the period defined here.\nFor more information, see Check-Avail. Period Calc."
     },
     {
       "no": 5792,
       "name": "Check-Avail. Time Bucket",
-      "tooltip": ""
+      "tooltip": "Specifies a time period that defines how frequently the system checks supply-demand events on the timeline to discover if the item on the demand line is available on its planned shipment date. The setting in this field also applies to the Order Promising functionality.\nIf you select Week, for example, then the program checks for availability based on demand-supply events accumulated during one week at a time. At the end of each week, the system checks if the demand line can be covered. If the sum quantity in one of the time buckets, within the Check-Avail. Period Calc. period, can cover the demand, then no stockout warning is displayed.\nFor more information, see Check-Avail. Time Bucket."
     },
     {
       "no": 7600,
       "name": "Base Calendar Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the base calendar that you want to assign to your company."
     },
     {
       "no": 7601,
       "name": "Cal. Convergence Time Frame",
-      "tooltip": ""
+      "tooltip": "Specifies how dates based on calendar and calendar-related documents, such as sales, purchase, production and transfer orders, are calculated..\nThe field shows the maximum timespan over which a coinciding date will be searched for in the currently used calendars.\nThe field has a default value of one year, but you can change this."
     },
     {
       "no": 8600,
       "name": "Package File Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the configuration package that you have created."
     },
     {
       "no": 8601,
@@ -242,12 +242,12 @@
     {
       "no": 8602,
       "name": "Language ID",
-      "tooltip": ""
+      "tooltip": "Specifies the language ID of the configuration package."
     },
     {
       "no": 8603,
       "name": "Product Version",
-      "tooltip": ""
+      "tooltip": "Specifies the version of Microsoft Dynamics NAV upon which you are basing your configuration of a company.\nYou can enter up to 50 characters, number and spaces."
     },
     {
       "no": 8604,
@@ -257,7 +257,7 @@
     {
       "no": 8605,
       "name": "Your Profile Code",
-      "tooltip": ""
+      "tooltip": "Specifies the profile code for your configuration solution and package."
     },
     {
       "no": 8606,

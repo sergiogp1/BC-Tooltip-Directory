@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of a time sheet. A number is assigned to each time sheet when it is created. You cannot edit the number."
     },
     {
       "no": 2,
       "name": "Time Sheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the time sheet that the comment applies to."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number that is assigned to an entry on a time sheet.\n\nThis field is used internally."
     },
     {
       "no": 4,

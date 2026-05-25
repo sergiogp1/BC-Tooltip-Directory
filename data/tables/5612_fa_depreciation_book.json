@@ -142,12 +142,12 @@
     {
       "no": 28,
       "name": "Maintenance Code Filter",
-      "tooltip": ""
+      "tooltip": "Calculates the value in the Maintenance field as a FlowFilter.\nYou can only enter a value in this field by applying a FlowFilter."
     },
     {
       "no": 29,
       "name": "FA Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Calculates the value in the FlowFields in the FA Depreciation Books window as a FlowFilter.\nYou can only enter a value in this field by applying a FlowFilter."
     },
     {
       "no": 30,
@@ -212,7 +212,7 @@
     {
       "no": 42,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Shows the FA posting date of the last posted entry."
     },
     {
       "no": 43,
@@ -227,7 +227,7 @@
     {
       "no": 45,
       "name": "Last Maintenance Date",
-      "tooltip": ""
+      "tooltip": "Shows the FA posting date of the last posted maintenance entry."
     },
     {
       "no": 46,
@@ -277,17 +277,17 @@
     {
       "no": 56,
       "name": "Main Asset/Component",
-      "tooltip": ""
+      "tooltip": "Automatically copies the value from the Main Asset/Component field on the fixed asset card."
     },
     {
       "no": 57,
       "name": "Component of Main Asset",
-      "tooltip": ""
+      "tooltip": "Automatically copies the value from the Component of Main Asset field on the fixed asset card."
     },
     {
       "no": 58,
       "name": "FA Add.-Currency Factor",
-      "tooltip": ""
+      "tooltip": "If you post in an additional reporting currency, you can click the field to enter the exchange rate that the program will use to convert fixed asset transactions from LCY to the additional reporting currency.\nYou specify which types of fixed asset transactions (acquisition cost, depreciation and so on) you want the program to record in both LCY and the additional reporting currency in the Use Add.-Curr. Exch. Rate field in the Depreciation Book Card window."
     },
     {
       "no": 59,

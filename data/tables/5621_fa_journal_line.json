@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the FA journal template.\nThe program automatically retrieves the name from the Name field in the FA Journal Template table."
     },
     {
       "no": 2,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal batch.\nThe program automatically retrieves the name from the Name field in the FA Journal Batch table."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the journal line's number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 4,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date from an external or internal document. Typically this will be the date of a purchase invoice."
     },
     {
       "no": 11,
@@ -62,7 +62,7 @@
     {
       "no": 12,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies a document number that refers to a customer's or vendor's numbering system. You can enter a maximum of ten characters, both numbers and letters.\nYou can then use the number later if, for some reason, you need to search for the posted journal line using the customer's order number."
     },
     {
       "no": 13,
@@ -92,12 +92,12 @@
     {
       "no": 18,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies a quantity if the fixed asset to post to consists of several units. You can only fill in the field if you have selected the Acquisition or Maintenance option in the FA Posting Type field."
     },
     {
       "no": 19,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies the entry as a corrective entry. You can use the field if you need to correct an entry.\nIf you place a check mark in this field when posting the journal line, the program will post a negative debit instead of a credit or a negative credit instead of a debit. The Debit Amount field (or Credit Amount field) on the relevant account will then include both the original entry and the corrective entry, which will have no effect on the debit (or credit) balance."
     },
     {
       "no": 20,
@@ -117,7 +117,7 @@
     {
       "no": 24,
       "name": "FA Posting Group",
-      "tooltip": ""
+      "tooltip": "Automatically includes the FA posting group code that has been assigned to the fixed asset."
     },
     {
       "no": 26,
@@ -167,12 +167,12 @@
     {
       "no": 36,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Shows the reason code that has been entered on the journal line.\nThe program automatically retrieves the code from the Reason Code field in the Journal Batch table but you can replace the code with another.\nTo see the codes in the Reason Code table, click the field."
     },
     {
       "no": 37,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Shows the source code that has been entered on the journal line.\nThe program automatically retrieves the source code from the Source Code field in the FA Journal Template table."
     },
     {
       "no": 38,
@@ -197,12 +197,12 @@
     {
       "no": 43,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, click the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will be used on the posted line."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

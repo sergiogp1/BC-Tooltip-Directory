@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Event No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program has assigned to the event."
     },
     {
       "no": 4,

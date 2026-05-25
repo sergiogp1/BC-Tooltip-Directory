@@ -47,7 +47,7 @@
     {
       "no": 10,
       "name": "Planned Delivery Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the planned delivery date that is used to filter the source documents to get."
     },
     {
       "no": 11,
@@ -62,7 +62,7 @@
     {
       "no": 13,
       "name": "Shipping Advice Filter",
-      "tooltip": ""
+      "tooltip": "Specifies which shipping advice is used for the current filter card."
     },
     {
       "no": 15,
@@ -97,32 +97,32 @@
     {
       "no": 21,
       "name": "Planned Shipment Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the due date that is used to filter the source documents to get."
     },
     {
       "no": 22,
       "name": "Planned Receipt Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the planned receipt date that is used to filter the source documents to get."
     },
     {
       "no": 23,
       "name": "Expected Receipt Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the expected receipt date that is used to filter the source documents to get."
     },
     {
       "no": 24,
       "name": "Shipment Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the number or number range that is used to filter the source documents to get."
     },
     {
       "no": 25,
       "name": "Receipt Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the number or number range that is used to filter the source documents to get."
     },
     {
       "no": 28,
       "name": "Sales Shipment Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment date that is used to filter the source documents to get."
     },
     {
       "no": 45,
@@ -142,12 +142,12 @@
     {
       "no": 99,
       "name": "Source Document",
-      "tooltip": ""
+      "tooltip": "Specifies which type of source document the current filter card is used for."
     },
     {
       "no": 100,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Specifies which type of transaction the current filter card is used for. The options are Outbound and Inbound."
     },
     {
       "no": 101,
@@ -197,37 +197,37 @@
     {
       "no": 7300,
       "name": "Planned Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the planned delivery date that is used as a filter in the current filter card."
     },
     {
       "no": 7301,
       "name": "Planned Shipment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the planned shipment date that is used as a filter in the current filter card."
     },
     {
       "no": 7302,
       "name": "Planned Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the planned receipt date that is used as a filter in the current filter card."
     },
     {
       "no": 7303,
       "name": "Expected Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the expected receipt date that is used as a filter in the current source document filter card."
     },
     {
       "no": 7304,
       "name": "Shipment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment date that is used as a filter in the current filter card."
     },
     {
       "no": 7305,
       "name": "Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the receipt date that is used as a filter in the current filter card."
     },
     {
       "no": 7306,
       "name": "Sales Shipment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the sales shipment date that is used as a filter in the current filter card."
     }
   ]
 }

@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Denotes whether the price adjustment on the line refers to a service quote or a service order."
     },
     {
       "no": 2,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service order or service quote. To enter a new document number, you can use one of the following methods:\n\nIf you have set up a default service order number series, press Enter. The program will automatically fill in this field with the next number in the series.\n\n\nIf you have not set up a default service order number series, you can enter a number manually.\n\n\nThe document number must be unique, you cannot use the same number twice in one table. You can set up as many numbers as you want."
     },
     {
       "no": 3,
       "name": "Service Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service order or service quote to which the service line is linked. When you insert a service item line, the program copies the number from the Document Type field on the service order header."
     },
     {
       "no": 4,
       "name": "Service Item Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of the service item line. The program numbers the lines sequentially, and uses the numbers to keep track of the different service item lines."
     },
     {
       "no": 5,
@@ -77,7 +77,7 @@
     {
       "no": 18,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Contains the unit cost of the item or the resource on the line.\nThe value of this field is copied from the Unit Cost field in the Service Line table and is therefore non-editable."
     },
     {
       "no": 19,
@@ -102,7 +102,7 @@
     {
       "no": 24,
       "name": "Weight",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 25,
@@ -117,17 +117,17 @@
     {
       "no": 27,
       "name": "Manually Adjusted",
-      "tooltip": ""
+      "tooltip": "Indicates whether the adjustment was performed manually. A check mark in this field indicates that the adjustment was performed manually; a blank field indicates that the adjustment was performed automatically.\nThis field is not editable."
     },
     {
       "no": 28,
       "name": "Vat %",
-      "tooltip": ""
+      "tooltip": "Contains the VAT percentage of the item, resource, or cost on the service line.\nThe value of this field is copied from the Service Line table, and is therefore not editable."
     },
     {
       "no": 29,
       "name": "New Amount Excl. VAT",
-      "tooltip": ""
+      "tooltip": "Contains a new net amount on the service line, excluding VAT.\nIf you enter a value in this field, it will overrule the value that was copied from the Service Line table."
     }
   ]
 }

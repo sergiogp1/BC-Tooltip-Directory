@@ -22,47 +22,47 @@
     {
       "no": 4,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval. For example, the Next To-do Date field shows information related to the to-dos that should be carried out for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 5,
       "name": "Contact Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for contacts."
     },
     {
       "no": 6,
       "name": "Contact Company Filter",
-      "tooltip": ""
+      "tooltip": "Specifies that fields such as Next To-do Date only display information that is related to to-dos that are linked to contact companies If this field contains Yes."
     },
     {
       "no": 7,
       "name": "Task Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a to-do status filter. There are five options:\n\nNot Started\n\n\nIn Progress\n\n\nCompleted\n\n\nWaiting\n\n\nPostponed\n\n\nFor example, if this field contains the option Postponed, fields such as Next To-do Date will only display information related to postponed to-dos."
     },
     {
       "no": 8,
       "name": "Task Closed Filter",
-      "tooltip": ""
+      "tooltip": "Specifies that fields such as Next To-do Date only display information that is related to closed to-dos if this field contains Yes."
     },
     {
       "no": 9,
       "name": "Priority Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a priority filter. There are three options: Low, Medium and High.\nFor example, if this field contains the priority High, fields such as Next To-do Date will only display information related to to-dos with a high priority."
     },
     {
       "no": 11,
       "name": "Salesperson Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a salesperson filter.\nIf this field contains a salesperson code, fields such as Next To-do Date will only display information related to to-dos linked to that particular salesperson."
     },
     {
       "no": 12,
       "name": "Campaign Filter",
-      "tooltip": ""
+      "tooltip": "Contains a campaign filter.\nIf this field contains a campaign number, fields such as Next To-do Date will only display information related to to-dos linked to that particular campaign."
     },
     {
       "no": 13,
       "name": "Task Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more to-dos are assigned to the team."
     }
   ]
 }

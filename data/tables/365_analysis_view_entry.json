@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Shows the G/L entry number for an analysis view entry if you have selected period None in the Date Compression field on the analysis view card. In other words, if you did not select a date compression period, each G/L entry will result in an analysis view entry.\nThe contents of this field cannot be changed."
     },
     {
       "no": 10,

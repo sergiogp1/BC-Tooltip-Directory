@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Package Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the package that contains the fields that are being created."
     },
     {
       "no": 2,

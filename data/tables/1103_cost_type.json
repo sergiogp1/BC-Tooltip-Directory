@@ -57,7 +57,7 @@
     {
       "no": 19,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the cost type is indented relative to the standard margin.\nThe field is filled in automatically when you choose Indent Cost Types on the Actions tab.\nYou can enter something in the field, but the contents are replaced the next time you choose Indent Cost Types. If you want a bigger indentation, add blank spaces with the Spacebar before you enter the text.\nThe Indentation, New Page, and Blank Line fields define the layout of the chart of cost types."
     },
     {
       "no": 20,
@@ -87,17 +87,17 @@
     {
       "no": 28,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval. The Balance at Date and Budget at Date fields show the balance from the starting to the ending dates of the filter.\nFlowFilter fields, such as Date Filter, Cost Center Filter, and Cost Object Filter determine how much you want to include in the calculation of the contents of FlowFields.\nThe following table shows the rules for entering a date interval.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n15.12.2012\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n15.12.2012..15.01.2013\n..15.01.2012\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n15.12.2012|16.12.2012\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n15.12.2012|01.12.2012..10.12.2012\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..14.12.2012|30.12.2012..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 29,
       "name": "Cost Center Filter",
-      "tooltip": ""
+      "tooltip": "Set a filter to filter amount fields by cost center.\nFlowFilters, such as cost center and cost object, restrict the balance in amount fields to show only the entries that fit the filters."
     },
     {
       "no": 30,
       "name": "Cost Object Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter to filter amount fields by cost center.\nFlowFilters, such as cost center and cost object, restrict the balance in amount fields to show only the entries that fit the filters."
     },
     {
       "no": 31,
@@ -122,7 +122,7 @@
     {
       "no": 35,
       "name": "Budget Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a budget filter so that the values in the Budget Amount and Budget at Date fields are based on the selected budgets only.\nYou can enter budget names by using a maximum of 10 characters, both numbers and letters. The following table shows the rules for how these can be combined.\n\n\nMeaning\n\n\nSample Expression\n\n\nEntries Included\n\n\nEqual to\n\n1\n\nThose from Budget 1. The budget name could contain letters instead of just numbers.\n\n\nInterval\n\n1.. 5\n\nThose from Budgets 1 through 5."
     },
     {
       "no": 36,
@@ -132,7 +132,7 @@
     {
       "no": 37,
       "name": "Budget at Date",
-      "tooltip": ""
+      "tooltip": "Specifies the budgeted amount up to and including the last date of the filter defined in the Date Filter field.\nIf the filter field contains more than one date, only the last one has any effect on the contents of this field. An interval is an example of more than one date.\nThe contents of the field are calculated by using the Amount field in the Cost Budget Entry table.\nYou can filter this field so that its contents are based only on certain cost centers and cost objects."
     },
     {
       "no": 40,
@@ -157,22 +157,22 @@
     {
       "no": 60,
       "name": "Budget Debit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the budgeted debit amount for the cost type."
     },
     {
       "no": 72,
       "name": "Budget Credit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the budgeted credit for the cost type."
     },
     {
       "no": 73,
       "name": "Add. Currency Net Change",
-      "tooltip": ""
+      "tooltip": "Specifies the net change in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field shows the net change in additional reporting currency for the Cost Types Details report."
     },
     {
       "no": 74,
       "name": "Add. Currency Balance at Date",
-      "tooltip": ""
+      "tooltip": "Specifies the balance at date in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field shows the balance at date in additional reporting currency for the Cost Types Details report."
     }
   ]
 }

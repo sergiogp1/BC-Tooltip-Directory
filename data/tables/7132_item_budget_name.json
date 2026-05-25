@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area of the item budget. The options are:\nSales: The budget was set up in Sales & Receivables\nPurchase: The budget was set up in Purchases & Payables"
     },
     {
       "no": 2,

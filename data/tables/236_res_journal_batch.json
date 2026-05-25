@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal template.\nChoose the field to select the name of the journal template that is associated with this batch."
     },
     {
       "no": 2,
@@ -37,7 +37,7 @@
     {
       "no": 22,
       "name": "Recurring",
-      "tooltip": ""
+      "tooltip": "Specifies if the resource journal template is a recurring journal.\nRecurring journals can be useful when you have entries that must be posted periodically with few or no changes.\n\nAdditional Information\n\nIn a recurring journal, entries that will be posted regularly only need to be entered once. The accounts, dimensions, and dimension values that you enter remain in the journal after posting. If any adjustments are necessary, you can make them with each posting."
     },
     {
       "no": 40,

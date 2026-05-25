@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Customer No.",
-      "tooltip": ""
+      "tooltip": "Specifies the customer number of the customer that has this bank account.\nThe program automatically copies the number from the customer card when you set up a customer bank account card."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 5,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the bank's name. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 6,
@@ -57,7 +57,7 @@
     {
       "no": 12,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number of the bank where the customer has the bank account. You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 13,
@@ -97,7 +97,7 @@
     {
       "no": 20,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the telex answer back code of the bank where the customer has the bank account. You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 21,

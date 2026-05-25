@@ -37,7 +37,7 @@
     {
       "no": 16,
       "name": "Ship-to Address 2",
-      "tooltip": ""
+      "tooltip": "Contains another line of the address that the order is shipped to."
     },
     {
       "no": 17,
@@ -72,17 +72,17 @@
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies whether the unit price on the line should be displayed including or excluding VAT.\nIf the field is blank, the unit price will be shown without VAT.\nClick the field to insert a check mark if you want to see the unit price including VAT."
     },
     {
       "no": 44,
       "name": "Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the sales header."
     },
     {
       "no": 91,
       "name": "Ship-to Post Code",
-      "tooltip": ""
+      "tooltip": "Specifies the post code of the shipping address."
     },
     {
       "no": 92,
@@ -102,7 +102,7 @@
     {
       "no": 100,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies a document number that refers to the customer's numbering system. You can enter a maximum of ten characters, both numbers and letters.\nWhen you create a sales header, you can use this field to record the number that the customer assigned to the order on which this journal line is based. You can then use the number later if, for some reason, you need to search for the posted sales line using the customer's order number."
     },
     {
       "no": 125,

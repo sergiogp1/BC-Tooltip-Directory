@@ -82,12 +82,12 @@
     {
       "no": 29,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Specifies if the entries have not been transferred directly from a journal line (that is, entries from orders, invoices, credit memos, VAT posting, or a batch job)."
     },
     {
       "no": 30,
       "name": "Prior-Year Entry",
-      "tooltip": ""
+      "tooltip": "Shows whether an entry was posted after the close of a fiscal year (that is, after the close of all the accounting periods in the fiscal year).\nIf you post a G/L entry after the close of a fiscal year, the program will look for a check mark in the Closed field in the Accounting Period table. If there is one, a check mark is inserted in this field on the entry."
     },
     {
       "no": 41,
@@ -112,7 +112,7 @@
     {
       "no": 46,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal that the entry was posted from.\nThe program fills in the name from the Journal Batch Name on the journal line."
     },
     {
       "no": 47,
@@ -157,7 +157,7 @@
     {
       "no": 55,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on the document that provided the basis for this G/L entry.\nThe program copied the date from the Document Date field on the journal line."
     },
     {
       "no": 56,
@@ -177,27 +177,27 @@
     {
       "no": 59,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the No. Series to which the document number on this entry belongs."
     },
     {
       "no": 60,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the Tax Area Code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\nIf the entry was posted from a journal line, the code is copied from the Tax Area Codefield or the Bal. Tax Area Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Tax Area Code field on the sales or purchase header."
     },
     {
       "no": 61,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies the value that is copied from either the Tax Liable field, or the Bal. Tax Liable field on a journal line, or the Tax Liable field on the sales or purchase header."
     },
     {
       "no": 62,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the Tax Group Code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\nIf the entry was posted from a journal line, the code is copied from the Tax Group Code field or the Bal. Tax Group Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Tax Group Code field on the sales or purchase line."
     },
     {
       "no": 63,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies that the tax amount for the entry is Use Tax.\nIf the entry was posted from a journal line, the code is copied from the Use Tax field or the Bal. Use Tax field on the journal line.\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the Use Tax field on the purchase line."
     },
     {
       "no": 64,
@@ -217,17 +217,17 @@
     {
       "no": 69,
       "name": "Add.-Currency Debit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the amount of the debit entry in the Additional Reporting Currency.\nThe amount is copied from the Additional-Currency Amount field on the line if the amount is a debit."
     },
     {
       "no": 70,
       "name": "Add.-Currency Credit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the amount of the credit entry in the Additional Reporting Currency.\nThe amount is copied from the Additional-Currency Amount field on the line if the amount is a credit."
     },
     {
       "no": 71,
       "name": "Close Income Statement Dim. ID",
-      "tooltip": ""
+      "tooltip": "Specifies groups of general ledger entries with the same dimensions before summarizing the amounts for each group, based on results from the Close Income Statement batch job. The system applies the same Close Income Statement Dim. ID to all entries within the same group. This field displays the Close Income Statement Dim. ID of the group that the G/L entry belong to."
     },
     {
       "no": 72,
@@ -327,7 +327,7 @@
     {
       "no": 5400,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the production order for which WIP has been posted."
     },
     {
       "no": 5600,

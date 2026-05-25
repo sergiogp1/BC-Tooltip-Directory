@@ -87,32 +87,32 @@
     {
       "no": 19,
       "name": "Customer Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 20,
       "name": "Vendor Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 21,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 22,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 23,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 24,
       "name": "Cust. Ledg. Entries in Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 25,
@@ -137,7 +137,7 @@
     {
       "no": 29,
       "name": "Vendor Ledg. Entries in Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 30,
@@ -162,12 +162,12 @@
     {
       "no": 34,
       "name": "Customer Balance (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 35,
       "name": "Vendor Balance (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 40,
@@ -192,7 +192,7 @@
     {
       "no": 46,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 47,

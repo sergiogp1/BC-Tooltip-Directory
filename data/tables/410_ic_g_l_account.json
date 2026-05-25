@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Shows how many spaces the text field for the account is indented relative to the standard margin.\nThe field is filled in automatically when you click Actions, point to Functions, and then click Indent IC Chart of Accounts.\nYou can enter something in the field, but the contents will be replaced the next time you click Indent IC Chart of Accounts. If you want a bigger indentation, add blank spaces with the spacebar before you enter the text."
     }
   ]
 }

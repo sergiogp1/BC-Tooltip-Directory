@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Column Layout Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the account schedule column layout that this column is part of.\nThe program automatically retrieves the name from the Name field in the Column Layout Name table."
     },
     {
       "no": 2,

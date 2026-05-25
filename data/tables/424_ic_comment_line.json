@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the table to which the comment applies."
     },
     {
       "no": 2,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction number."
     },
     {
       "no": 3,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the IC partner code that the transactionis sent to or from."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number for the comment.\nWhen you create a comment for an IC document, a line number is automatically entered number in the Line No. field to keep track of all the comments in the Comment table. The line number is specific to the particular comment."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "Specifies which company created the transaction.\nThe field has two options. The following table describes the two options.\n\n\nOption\n\n\nDescription\n\n\nRejected\n\nThe transaction was rejected by the IC partner.\n\n\nCreated\n\nThe transaction was created and sent from the IC partner."
     },
     {
       "no": 8,

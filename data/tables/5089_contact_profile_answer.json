@@ -12,17 +12,17 @@
     {
       "no": 2,
       "name": "Contact Company No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the company the contact works for, if the contact is a person ."
     },
     {
       "no": 3,
       "name": "Profile Questionnaire Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the profile questionnaire."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the line."
     },
     {
       "no": 5,

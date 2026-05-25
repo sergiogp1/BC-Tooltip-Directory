@@ -82,17 +82,17 @@
     {
       "no": 19,
       "name": "Profit (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the profit amount on the entry in LCY.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the profit amount is copied from the Profit (LCY) field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the profit amount is calculated as the sum of the amounts on the lines, minus VAT."
     },
     {
       "no": 20,
       "name": "Inv. Discount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the invoice discount amount on the entry in LCY.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the amount is copied from the Inv. Discount (LCY) field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the amount is calculated as the sum of all the Inv. Discount Amount fields on the sales lines."
     },
     {
       "no": 21,
       "name": "Sell-to Customer No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the sell-to customer that the entry is linked to.\nThe number is copied from the Sell-to Customer No. on the sales header."
     },
     {
       "no": 22,
@@ -132,12 +132,12 @@
     {
       "no": 34,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the entry was applied to an already-posted document when it was posted. It does this if the Applies-to Doc. Type and Applies-to Doc. No. fields are filled in before posting. If this is the case, the field shows the type of document that was applied to.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the document type is copied from the Applies-to Doc. Type field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the document type is copied from the Applies-to Doc. Type field on the sales header."
     },
     {
       "no": 35,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the entry was applied to an already-posted document when it was posted. It does this if the Applies-to Doc. Type and Applies-to Doc. No. fields are filled in before posting. If this is the case, the field shows the number of the document that was applied to.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the number is copied from the Applies-to Doc. No. field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the number is copied from the Applies-to Doc. No. field on the sales header."
     },
     {
       "no": 36,
@@ -162,7 +162,7 @@
     {
       "no": 40,
       "name": "Pmt. Disc. Given (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the payment discount that has been granted on the entry, in LCY.\nThe program calculates the discount automatically if a payment discount was granted when the entry was applied to."
     },
     {
       "no": 42,
@@ -177,7 +177,7 @@
     {
       "no": 44,
       "name": "Closed by Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the entry that has been applied to (that has closed) the entry.\nThe program fills in the field automatically when the entry is applied to."
     },
     {
       "no": 45,
@@ -202,7 +202,7 @@
     {
       "no": 49,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal that the entry was posted from.\nThe program fills in the name from the Journal Batch Name on the journal line."
     },
     {
       "no": 50,
@@ -222,12 +222,12 @@
     {
       "no": 53,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction number that is assigned to all the entries in the same transaction. If there are any G/L entries, bank account ledger entries or vendor ledger entries associated with the customer ledger entry, they are assigned the same transaction number.\nThe number is used to connect all entries that are created by the same posting."
     },
     {
       "no": 54,
       "name": "Closed by Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that the entry was finally applied to (closed) with in the local currency.\nThe program fills in the field automatically when the entry is applied to.\nTo see the entries that were applied to by the line, click Related Information and then click Applied Entries."
     },
     {
       "no": 58,
@@ -262,17 +262,17 @@
     {
       "no": 64,
       "name": "Calculate Interest",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 65,
       "name": "Closing Interest Calculated",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 66,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series to which the document number on this entry belongs."
     },
     {
       "no": 67,
@@ -287,12 +287,12 @@
     {
       "no": 73,
       "name": "Adjusted Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 74,
       "name": "Original Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 75,
@@ -302,7 +302,7 @@
     {
       "no": 76,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 77,
@@ -322,22 +322,22 @@
     {
       "no": 80,
       "name": "Last Issued Reminder Level",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 81,
       "name": "Accepted Payment Tolerance",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the accepted payment tolerance for the entry."
     },
     {
       "no": 82,
       "name": "Accepted Pmt. Disc. Tolerance",
-      "tooltip": ""
+      "tooltip": "Specifies that payment discount tolerance has been accepted for the entry."
     },
     {
       "no": 83,
       "name": "Pmt. Tolerance (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the accepted payment tolerance for the entry in LCY."
     },
     {
       "no": 84,
@@ -352,7 +352,7 @@
     {
       "no": 86,
       "name": "Applying Entry",
-      "tooltip": ""
+      "tooltip": "Specifies the item ledger entry that is applied to the customer ledger entry."
     },
     {
       "no": 87,
@@ -387,7 +387,7 @@
     {
       "no": 173,
       "name": "Applies-to Ext. Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the value that you entered in the Applies-to Ext. Doc. No. field in the Payment Journal window."
     },
     {
       "no": 288,

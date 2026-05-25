@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the primary key of the table."
     },
     {
       "no": 2,
@@ -32,47 +32,47 @@
     {
       "no": 8,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 10,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 11,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 12,
       "name": "Source ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 13,
       "name": "Source Batch Name",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 14,
       "name": "Source Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 15,
       "name": "Source Ref. No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 16,
       "name": "Item Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the pointer to the associated item ledger entry."
     },
     {
       "no": 17,
       "name": "Transfer Item Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 18,
@@ -87,12 +87,12 @@
     {
       "no": 28,
       "name": "Positive",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 29,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 31,
@@ -137,47 +137,47 @@
     {
       "no": 60,
       "name": "Qty. to Handle",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 61,
       "name": "Qty. to Invoice",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 70,
       "name": "Buffer Status",
-      "tooltip": ""
+      "tooltip": "Specifies if the Tracking Specification table is converted into a temporary table."
     },
     {
       "no": 71,
       "name": "Buffer Status2",
-      "tooltip": ""
+      "tooltip": "Specifies how to transfer different types of formatting information, when the table is used as a temporary record."
     },
     {
       "no": 72,
       "name": "Buffer Value1",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 73,
       "name": "Buffer Value2",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 74,
       "name": "Buffer Value3",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 75,
       "name": "Buffer Value4",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 76,
       "name": "Buffer Value5",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 80,
@@ -192,7 +192,7 @@
     {
       "no": 900,
       "name": "Prohibit Cancellation",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5400,
@@ -207,7 +207,7 @@
     {
       "no": 5402,
       "name": "Bin Code",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5811,
@@ -217,7 +217,7 @@
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6505,
@@ -237,7 +237,7 @@
     {
       "no": 7300,
       "name": "Quantity actual Handled (Base)",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

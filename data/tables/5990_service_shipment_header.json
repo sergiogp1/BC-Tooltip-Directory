@@ -102,27 +102,27 @@
     {
       "no": 22,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Contains the type and number of the document from which the current shipment was created.\nThe program copies the posting description from the Posting Description field on the service header.\nYou cannot change the posting description because the shipment has already been posted."
     },
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Contains the code that the program uses to retrieve payment terms applying to the shipment. The program uses payment terms to manage due dates and calculate payment discount percentages.\nThe program copies the code from the Payment Terms Code field on the service header.\nYou cannot change the payment terms code because the entry has already been posted."
     },
     {
       "no": 24,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Contains the date on which the shipment is due for payment. The program can use the due date to find customers with overdue bills.\nThe date is copied from the Due Date field on the service header.\nYou cannot change the due date in the posted shipment."
     },
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Contains the percentage of payment discount that is granted to the customer if they pay by the date specified in the Pmt. Discount Date field.\nThe program copies the discount percentage from the Payment Discount % field on the service header.\nYou cannot change the payment discount percentage because the entry has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Contains the date that the customer must pay for the shipment by in order to obtain a payment discount.\nThe program copies the date from the Pmt. Discount Date field on the service header.\nYou cannot change the value in the field when the shipment has already been posted."
     },
     {
       "no": 27,
@@ -147,7 +147,7 @@
     {
       "no": 31,
       "name": "Customer Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the customer posting group assigned to the bill-to customer on the shipment.\nThe program copies the code from the Customer Posting Group field on the service header.\nYou cannot change the customer posting group code because the entry has already been posted."
     },
     {
       "no": 32,
@@ -157,32 +157,32 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Specifies a currency factor if an additional reporting currency was set in the General Ledger Setup window. The currency factor shows the relationship between the additional reporting currency and the local currency. The program will automatically record amounts in both LCY and the additional reporting currency, using the relevant exchange rate and the currency factor.\nThe value of the currency factor is copied from the Currency Factor field in the Service Header table.\nYou cannot change the value in this field because the shipment has already been posted."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the price group that the customer belongs to. The code is used when the program calculates the unit price for items on the shipment lines. The program checks the Sales Price table to see whether the customer in this price group will be charged a different item price than the one specified in the Unit Price field on the item card.\nThe program copies the customer price group code from the Customer Price Group field on the service header.\nYou cannot change the customer price group because the entry has already been posted."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies that the unit prices on the shipment lines include VAT.\nThe program copies the information from the Prices Including VAT field on the service header.\nYou cannot change the contents of this field because the entry has already been posted."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Contains the code that the program uses to find the invoice discount you give to the customer.\nThe program copies the code from the Invoice Disc. Code field on the service header.\nYou cannot change the value in the field when the shipment has already been posted."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the discount group code assigned to the Bill-to Customer No. The program uses the code to calculate the service line discount given to the customer.\nThe code is copied from the Customer Disc. Group field in the Service Header table.\nYou cannot change the customer discount group code in the posted shipment."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Contains a code for the language used on the shipment lines. The program also uses the language on any printouts for the bill-to customer.\nThe code is copied from the Language Code field in the Service Header table.\nYou cannot change the language code because the entry has already been posted."
     },
     {
       "no": 42,
@@ -202,7 +202,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether there are any comments attached to the current service shipment.\nTo view a comment or create a new one, click Related Information, point to Shipment, and then click Comments. A window then appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
@@ -212,32 +212,32 @@
     {
       "no": 52,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the shipment has been applied to an already posted document. If so, the field shows the type of the document applied to.\nThe program copies the information from the Applies-to Doc. Type field on the service header.\nYou cannot change the applies-to document type because the entry has already been posted."
     },
     {
       "no": 53,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Indicates whether the shipment has been applied to an already posted document. If so, the field contains the number of the document it was applied to.\nThe program copies the document number from the Applies-to Doc. No. field in the Service Header table.\nYou cannot change the number because the entry has already been posted."
     },
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the general ledger account or the bank account to which the program posted a balancing entry for the shipment.\nThe program copies the balancing account number from the Bal. Account No. field on the header of the service order/invoice.\nYou cannot change the number in the field because the entry has already been posted."
     },
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Contains the VAT registration number of the bill-to customer.\nThe program copies the number from the VAT Registration No. field on the header of the service order.\nYou cannot change the VAT registration number in the posted shipment."
     },
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Contains a code that indicates why the entry was created. Thus the reason code will enable you to trace the entry.\nThe program copies the code from the Reason Code field on the header on the service order.\nYou cannot change the reason code because the entry has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the general business posting group code assigned to the customer whom you send the invoice for the service.\nThe program copies the code from the Gen. Bus. Posting Group field on the header of the service order.\nYou cannot change the code in the posted shipment."
     },
     {
       "no": 75,
@@ -247,17 +247,17 @@
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction type assigned to the posted service shipment. You use the pre-set types to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the transaction type from the Transaction Type field on the service header of the order.\nYou cannot change the code when the shipment has already been posted."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains the code of the transport method used for shipment of items on the service order.\nThe program copies the transport method from the Transport Method field on the header of the service order you post.\nYou cannot change the transport method code when the shipment has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Displays the bill-to customer's VAT country/region code. The information will be used in the VAT- VIES Declaration Tax Auth report in connection with trade with other EU countries/regions and in INTRASTAT reporting.\nThe program copies the code from the VAT Country/Region Code field on the header of the service order.\nYou cannot change the VAT country/region code in the posted shipment."
     },
     {
       "no": 79,
@@ -327,7 +327,7 @@
     {
       "no": 92,
       "name": "Ship-to County",
-      "tooltip": ""
+      "tooltip": "Contains the county of the customer's shipping address.\nThe program copies the county name from the Ship-to County field on the service header.\nYou cannot change the contents of the field when the shipment has already been posted."
     },
     {
       "no": 93,
@@ -337,17 +337,17 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the account to which balancing entries are posted for the posted service shipment.\nThe program copies the information from the Bal. Account Type field in the Service Header table when you post the shipment.\nYou cannot change the balancing account type because the shipment has already been posted."
     },
     {
       "no": 97,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of the exit port through which you ship the service out of your country/region.\nThe program copies the code from the Exit Point field on the header of the service order.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies that this service shipment has been posted as a corrective entry.\nThe program copies the code from the Correction field on the service header.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 99,
@@ -362,17 +362,17 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area where the customer company is located.\nThe program copies the code from the Area field on the header of the service order.\nYou cannot change the area code in the posted shipment."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the transaction specification code that was used in the shipment. The code is used in INTRASTAT reporting.\nThe program copies the code from the Transaction Specification field on the header of the service order.\nYou cannot change the value in this field in the posted shipment."
     },
     {
       "no": 104,
       "name": "Payment Method Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the method that the customer uses to pay for the service. The program copies the code from the Payment Method Code field on the header of the service order.\nYou cannot change or delete the code in the posted shipment."
     },
     {
       "no": 105,
@@ -382,42 +382,42 @@
     {
       "no": 109,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code of the number series that was used to assign a number to the service shipment.\nThe program copies the code from the Shipping No. Series field on the header of the service order that was shipped.\nYou cannot change the number series on the posted shipment."
     },
     {
       "no": 110,
       "name": "Order No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series of the service order from which the shipment was created.\nThe program automatically copies this field from the No. Series field on the header of the service order.\nYou cannot change the number series because the entry has already been posted."
     },
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the user who posted the service shipment.\nYou cannot change the user ID because the shipment has already been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Contains the source code assigned to the service shipment header. The code is used to determine the origin of the entry.\nThe program retrieves the value from the Source Code Setup table.\nYou cannot change the source code because the entry has been posted."
     },
     {
       "no": 114,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the tax area where the bill-to customer is located.\nIn combination with the tax group code, the program uses the value in this field to determine the sales tax % and the G/L accounts for sales tax posting.\nThe program copies the value from the Tax Area Code field on the header of the service order that was shipped."
     },
     {
       "no": 115,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that the bill-to customer is liable to the sales tax. If the field is blank, the program does not calculate the sales tax.\nThe program copies the code from the Tax Liable field on the service header."
     },
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the VAT business posting group of the bill-to customer.\nThe program copies the code from the VAT Bus. Posting Group field on the header of the service order."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Indicates the percentage used for discounting the VAT element when a payment discount is posted.\nThe program checks the value against the maximum possible VAT Tolerance % specified in the General Ledger Setup window.\nThe value in the field is copied from the VAT Base Discount % field on the header of the service order."
     },
     {
       "no": 129,
@@ -432,7 +432,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5052,
@@ -442,7 +442,7 @@
     {
       "no": 5053,
       "name": "Bill-to Contact No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the contact whom you send the invoice for the shipment.\nThe program copies the code from the Bill-to Contact No. field in the Service Header table when you post the shipment.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 5700,
@@ -457,7 +457,7 @@
     {
       "no": 5796,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a date interval that values are filtered by.\nIf this field contains the starting and ending dates of a date interval, then other field values show information only for that interval.\nThe following table shows the rules to use for entering a date interval.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 5902,
@@ -502,12 +502,12 @@
     {
       "no": 5918,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer in the posted shipment.\nThe program copies the number from the Fax No. field on the header of the service order."
     },
     {
       "no": 5921,
       "name": "No. of Unallocated Items",
-      "tooltip": ""
+      "tooltip": "Contains the number of service items on the order that have not been allocated to resources yet.\nThe program copies the value from the No. of Unallocated Items field on the header of the service order you post."
     },
     {
       "no": 5923,
@@ -517,7 +517,7 @@
     {
       "no": 5924,
       "name": "Default Response Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Contains the estimated number of hours from the creation of the service order to the time when the service on the service item line started.\nThe program copies the time from the Default Response Time (Hours) field on the header of the service order you shipped. You cannot change the value because the shipment has already been posted."
     },
     {
       "no": 5925,
@@ -562,12 +562,12 @@
     {
       "no": 5933,
       "name": "Contract Serv. Hours Exist",
-      "tooltip": ""
+      "tooltip": "Specifies if the service shipment is linked to a certain service contract. A check mark in the field indicates that there are specific service hours attached to the service contract, which apply to the current service shipment as well.\nThe program copies the field value from the Contract Serv. Hours Exist field on the header of the service order."
     },
     {
       "no": 5934,
       "name": "Reallocation Needed",
-      "tooltip": ""
+      "tooltip": "Specifies that you must reallocate resources to at least one service item in this service shipment.\nThe program copies the value in this field from the Reallocation Needed field on the service header."
     },
     {
       "no": 5936,
@@ -577,7 +577,7 @@
     {
       "no": 5937,
       "name": "Max. Labor Unit Price",
-      "tooltip": ""
+      "tooltip": "Contains the maximum unit price set for a resource (for example, a technician) on all service shipment lines that subject to the service shipment.\nThe program copies the field value from the Max. Labor Unit Price field on the service header when the service order is shipped."
     },
     {
       "no": 5938,
@@ -587,7 +587,7 @@
     {
       "no": 5939,
       "name": "No. of Allocations",
-      "tooltip": ""
+      "tooltip": "Contains the number of resource allocations to service items on the service order.\nThe program automatically copies the value from the No. of Allocations field on the Service Header table when the service order is posted."
     },
     {
       "no": 5940,
@@ -597,27 +597,27 @@
     {
       "no": 5951,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains a type filter. There are five options: Blank, Resource, Item, Service Cost and Service Contract. If you set the filter, the program will produce service ledger entries with the specified type.\nFor example, if the field is set to Resource, the Dispatch Board window will display information related to service ledger entries with the Resource type only ."
     },
     {
       "no": 5952,
       "name": "Customer Filter",
-      "tooltip": ""
+      "tooltip": "Contains a customer filter. The filter enables the program to limit the information range to the entries related to the specified customer.\nIf this field contains a customer number, the Dispatch Board window will show service shipments for that particular customer only."
     },
     {
       "no": 5953,
       "name": "Resource Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource filter.\nIf this field is set to a certain resource number, fields such as No. of Allocations will only display information on service order allocations with that particular resource. The Dispatch Board window will also show the overview of the documents containing the service item lines to which the specified resource is allocated."
     },
     {
       "no": 5954,
       "name": "Contract Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service contract filter.\nIf this field contains a service contract number, the Dispatch Board window will display service shipments linked to that particular contract only."
     },
     {
       "no": 5955,
       "name": "Ship-to Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer to whom the service on the order has been shipped.\nThe program copies the number from the Ship-to Fax No. field on the header of the service order you post."
     },
     {
       "no": 5956,
@@ -627,7 +627,7 @@
     {
       "no": 5957,
       "name": "Resource Group Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource group filter.\nIf this field contains a particular resource group number, fields such as the No. of Allocations field will only display information on the service shipment allocations with that resource group. The Dispatch Board window will also show the overview of the documents containing the service item lines to which the specified resource group is allocated."
     },
     {
       "no": 5958,
@@ -642,7 +642,7 @@
     {
       "no": 5966,
       "name": "Service Zone Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service zone filter.\nIf this field contains a service zone code, the Dispatch Board window will show service shipments for customers within that particular service zone only."
     },
     {
       "no": 5968,
@@ -662,7 +662,7 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a discount will be calculated on the service order.\nThe program retrieves the value from the Allow Line Disc. field on the service header.\nYou cannot change the value since the shipment has already been posted."
     },
     {
       "no": 9001,

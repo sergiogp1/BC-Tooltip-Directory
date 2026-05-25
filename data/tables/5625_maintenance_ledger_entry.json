@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on the document that provided the basis for this maintenance entry.\nThe program filled in the field in one of the following ways:\n\nIf the entry was posted from a journal line, the date was copied from the Document Date field on the relevant journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the date was copied from the Document Date field on the purchase header.\n\n\nYou cannot change the document date because the entry has already been posted."
     },
     {
       "no": 8,
@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Displays the external document number that was entered on the purchase header or journal line.\nIf the entry was posted from a journal line, the number was copied from the External Document No. field on the journal line.\nIf the entry was posted from a purchase order, invoice or credit memo, the number can be copied from the Vendor Invoice No. or the Vendor Cr. Memo No. fields on the purchase header depending on the document type that created the ledger entry.\nYou cannot change the external document number because the entry has already been posted."
     },
     {
       "no": 10,
@@ -72,27 +72,27 @@
     {
       "no": 15,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Automatically includes the number zero for fixed asset entries.\nYou cannot change the quantity because the entry has been posted."
     },
     {
       "no": 16,
       "name": "FA No./Budgeted FA No.",
-      "tooltip": ""
+      "tooltip": "Used for budget entries for assets.\nThis field shows the number of the fixed asset or the budgeted fixed asset related to this entry.\nThe program copied the number from the Account No. field or the Budgeted FA No. field on the journal line.\nYou cannot change the number because the entry has been posted."
     },
     {
       "no": 17,
       "name": "FA Subclass Code",
-      "tooltip": ""
+      "tooltip": "Displays the code for the fixed asset subclass that the entry is linked to.\nThe program copied the FA subclass code from the FA Subclass Code field for the fixed asset for which this entry was made.\nYou cannot change the FA subclass code because the entry has been posted."
     },
     {
       "no": 18,
       "name": "FA Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the FA location that the entry is linked to.\nThe program copied the FA location code from the FA Location Code field for the fixed asset for which this entry was made.\nYou cannot change the FA location code because the entry has been posted."
     },
     {
       "no": 19,
       "name": "FA Posting Group",
-      "tooltip": ""
+      "tooltip": "Displays the code for the fixed asset posting group that was used when the entry was posted.\nThe program automatically retrieved the code from one of the following fields:\nIf the entry was posted from the fixed asset journal, the posting group code was copied from the FA Posting Group field on the journal line.\nIf the entry was posted from a general journal, the posting group code was copied from the Posting Group field on the journal line.\nIf the entry was posted from a purchase order, invoice or credit memo, the posting group code was copied from the Posting Group field on the purchase line.\nYou cannot change the code because the entry has been posted."
     },
     {
       "no": 20,
@@ -107,7 +107,7 @@
     {
       "no": 22,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the location that the entry is linked to.\nThe field can be filled in from the following fields:\n\nIf the entry was posted from a journal in the fixed asset application area, the program copied the location code from the Location Code field for the fixed asset for which this entry was made.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Location Code field for the fixed asset for which this document was made.\n\n\nYou cannot change the location code because the entry has been posted."
     },
     {
       "no": 24,
@@ -117,7 +117,7 @@
     {
       "no": 25,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Displays the name of the journal from which the entry was posted.\nThe program filled in the name from the Journal Batch Name field on the journal line.\nYou cannot change the name because the entry has been posted."
     },
     {
       "no": 26,
@@ -132,7 +132,7 @@
     {
       "no": 28,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Displays the transaction number assigned to all the entries involved in the same transaction. If there are any G/L entries, VAT ledger entries or vendor ledger entries associated with the maintenance ledger entry, they are assigned the same transaction number.\nThe number is used to connect all entries that are created by the same posting.\nYou cannot change the number because the entry has been posted."
     },
     {
       "no": 29,
@@ -147,27 +147,27 @@
     {
       "no": 31,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Displays the VAT amount that was posted as a result of the entry.\nWhen you post, the VAT amount is calculated according to the VAT conditions specified in the General Posting Setup table.\nYou cannot change the VAT amount because the entry has been posted."
     },
     {
       "no": 32,
       "name": "Gen. Posting Type",
-      "tooltip": ""
+      "tooltip": "Displays the general posting type that applies to the entry.\nThe program automatically retrieved the general posting type from one of the following fields:\n\nIf the entry was posted from a general journal line, the general posting type was copied from the Gen. Posting Type field or the Bal. Gen. Posting Type field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the general posting type was filled in if VAT was calculated on the line.\n\n\nYou cannot change the general posting type because the entry has been posted."
     },
     {
       "no": 33,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Displays the code for the general business posting group that applies to the entry.\nThe program automatically retrieved the code from one of the following fields:\n\nIf the entry was posted from a general journal line, the code was copied from the Gen. Bus. Posting Group field or the Bal. Gen. Bus. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Gen. Bus. Posting Group field on the purchase header.\n\n\nYou cannot change the code because the entry has been posted."
     },
     {
       "no": 34,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Displays the code for the general product posting group that applies to the entry.\nThe program automatically retrieved the code from one of the following fields:\n\nIf the entry was posted from a general journal line, the code was copied from the Gen. Prod. Posting Group field or the Bal. Gen. Prod. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice, or credit memo, the code was copied from the Gen. Prod. Posting Group field on purchase line.\n\n\nYou cannot change the code because the entry has been posted."
     },
     {
       "no": 35,
       "name": "FA Class Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset class that the entry is linked to.\nThe program copied the FA class code from the FA Class Code field for the fixed asset for which this entry was made.\nYou cannot change the FA class code because the entry has been posted."
     },
     {
       "no": 36,
@@ -177,12 +177,12 @@
     {
       "no": 37,
       "name": "FA Exchange Rate",
-      "tooltip": ""
+      "tooltip": "Displays the exchange rate used in the entry.\nAn exchange rate can be used for fixed assets when duplicating journal lines from one depreciation book to another.\nThe program copied the exchange rate from the FA Exchange Rate field in the FA Depreciation Book table when the entry was posted. If this field was empty, the program copied the exchange rate from the Default Exchange Rate field in the Depreciation Book table.\nYou cannot change the exchange rate because the entry has been posted."
     },
     {
       "no": 38,
       "name": "Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the amount of the entry in LCY.\nThe program calculated the amount automatically when the entry was posted using the fixed asset exchange rate.\nYou cannot change the amount because the entry has been posted."
     },
     {
       "no": 39,
@@ -192,52 +192,52 @@
     {
       "no": 40,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this entry has been posted as a corrective entry.\nThe program copied the code from the Correction field from the purchase header or journal line.\nYou cannot change the contents of this field because the entry has been posted."
     },
     {
       "no": 41,
       "name": "Index Entry",
-      "tooltip": ""
+      "tooltip": "Specifies that this entry is an index entry.\nThe program filled in this field with a check mark when you:\n\nPosted an index entry for the maintenance of a fixed asset from a journal.\n\n\nRan the Index Fixed Assets batch job with the index maintenance option activated and then posted the journal.\n\n\nYou cannot change the contents of this field because the entry has been posted."
     },
     {
       "no": 42,
       "name": "Automatic Entry",
-      "tooltip": ""
+      "tooltip": "Specifies all entries that have been created indirectly by the posting of a journal line.\nYou cannot change the contents of this field because the entry has been posted."
     },
     {
       "no": 43,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs.\nYou cannot change the number series because the entry has been posted."
     },
     {
       "no": 44,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the Tax Area Code field or the Bal. Tax Area Code field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the Tax Area Code field on the purchase header."
     },
     {
       "no": 45,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Automatically copies the value from the Tax Liable or Bal. Tax Liable field on a journal line or the Tax Liable field on the purchase header."
     },
     {
       "no": 46,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the Tax Group Code field or the Bal. Tax Group Code field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the Tax Group Code field on the purchase line."
     },
     {
       "no": 47,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies that the tax amount for the entry is use tax.\nIf the entry was posted from a journal line, the code is copied from the Use Tax field or the Bal. Use Tax field on the journal line.\nIf the entry was posted from a purchase order, invoice, or credit memo, the code is copied from the Use Tax field on the purchase line."
     },
     {
       "no": 48,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Displays the code for the VAT business posting group that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the VAT Bus. Posting Group field or the Bal. VAT Bus. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the VAT Bus. Posting Group field on the purchase line."
     },
     {
       "no": 49,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Displays the code for the VAT product posting group that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the VAT Prod. Posting Group field or the Bal. VAT Prod. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the VAT Prod. Posting Group field on the purchase line."
     },
     {
       "no": 50,

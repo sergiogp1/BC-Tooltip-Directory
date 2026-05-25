@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number of the comment.\nWhen you create a comment for a card, the program automatically enters a line number in the Line No. field to keep track of all the comments in the comment table. The line number is specific to the particular comment."
     },
     {
       "no": 5,

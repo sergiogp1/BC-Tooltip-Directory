@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that a comment has been assigned to the campaign."
     },
     {
       "no": 7,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series you have applied to the campaign."
     },
     {
       "no": 9,
@@ -97,97 +97,97 @@
     {
       "no": 20,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a date interval that values are filtered by.\nIf this field contains the starting and ending dates for a date interval, then other field values only show information for that interval. For example, the Cost (LCY) field shows the cost of the campaign for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 23,
       "name": "Action Taken Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an action taken filter. There are six options:\nNext\n\nPrevious\n\nUpdated\n\nJumped\n\nWon\n\nLost\n\n\nFor example, if this field contains the option Next, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities for which that particular action was taken."
     },
     {
       "no": 24,
       "name": "Sales Cycle Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle filter.\nIf this field contains a sales cycle code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities created using that particular sales cycle."
     },
     {
       "no": 25,
       "name": "Sales Cycle Stage Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle stage filter.\nIf this field contains a sales cycle stage code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities currently under that particular stage."
     },
     {
       "no": 26,
       "name": "Probability % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a probability filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities having that particular probability."
     },
     {
       "no": 27,
       "name": "Completed % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a completed percentage filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities with that percentage of completion."
     },
     {
       "no": 28,
       "name": "Contact Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for contacts."
     },
     {
       "no": 29,
       "name": "Contact Company Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a contact company filter.\nIf this field contains Yes, fields such as No. of Opportunities and Estimated Value (LCY) only display information linked to contact companies."
     },
     {
       "no": 30,
       "name": "Estimated Value Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an estimated value filter.\nIf this field contains an amount (LCY), fields such as No. of Opportunities and Calc. Current Value (LCY) only display information related to opportunities with that particular estimated value."
     },
     {
       "no": 31,
       "name": "Calcd. Current Value Filter",
-      "tooltip": ""
+      "tooltip": "Contains a calculated current value filter.\nIf this field contains an amount (LCY), fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities with that particular current calculated value."
     },
     {
       "no": 32,
       "name": "Chances of Success % Filter",
-      "tooltip": ""
+      "tooltip": "Contains a chances of success filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities with that particular chance of success."
     },
     {
       "no": 33,
       "name": "Task Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a to-do status filter. There are five options:\n\nNot Started\n\n\nIn Progress\n\n\nCompleted\n\n\nWaiting\n\n\nPostponed\n\n\nIf this field contains the option Postponed, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities linked to postponed to-dos."
     },
     {
       "no": 34,
       "name": "Task Closed Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a closed to-do filter.\nIf this field contains Yes, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities linked to closed to-dos."
     },
     {
       "no": 35,
       "name": "Priority Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a priority filter. There are three options: Low, Normal, and High.\nIf this field contains the option High, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities linked to to-dos with a high priority."
     },
     {
       "no": 36,
       "name": "Team Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a team filter.\nIf this field contains a team code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to that particular team."
     },
     {
       "no": 37,
       "name": "Salesperson Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a salesperson filter.\nIf this field contains a salesperson code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to that particular salesperson."
     },
     {
       "no": 38,
       "name": "Opportunity Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more opportunities are linked to the campaign."
     },
     {
       "no": 39,
       "name": "Task Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more to-dos are linked to the campaign."
     },
     {
       "no": 40,
       "name": "Close Opportunity Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for closed opportunities."
     },
     {
       "no": 41,

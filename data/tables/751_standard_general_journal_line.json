@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal template.\nThe program automatically retrieves the name from the Name field in the General Journal Template table."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the journal line's entry number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 3,
@@ -37,7 +37,7 @@
     {
       "no": 10,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Shows the VAT percentage that will be used on the journal line.\nThe program automatically retrieves the VAT percentage from the VAT Posting Setup table when the VAT Bus. Posting Group and VAT Prod. Posting Group fields are filled in."
     },
     {
       "no": 11,
@@ -67,32 +67,32 @@
     {
       "no": 16,
       "name": "Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount on the journal line in LCY.\nWhen the Amount field is filled in, the program automatically calculates the Amount (LCY) from the amount in the Amount field and the relevant exchange rate of the currency contained in the Currency Code field.\nIf the amount changes, the amount in this field also changes accordingly."
     },
     {
       "no": 17,
       "name": "Balance (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the journal line's balance.\nIf the journal line contains only one entry, the balance will consist of this entry. If a balancing account has been entered on the journal line, the balance will be 0."
     },
     {
       "no": 18,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 19,
       "name": "Sales/Purch. (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the line's net amount (the amount excluding VAT) if you are using this journal line for an invoice.\nYou can either fill in the field or fill in the Account No. and Bal. Account No. fields and let the program automatically fill in the amount.\nThe field is important for customer and vendor statistics, but it has no significance for posting.\nIf a payment discount will be calculated from the net amount, the program uses the amount in this field for the calculation."
     },
     {
       "no": 20,
       "name": "Profit (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the line's profit amount if you are using this journal line for an invoice.\nThe field is important for customer and vendor statistics, but it has no significance for posting."
     },
     {
       "no": 21,
       "name": "Inv. Discount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the invoice discount if you are using this journal line for an invoice.\nThe field is important for customer and vendor statistics, but it has no significance for posting."
     },
     {
       "no": 22,
@@ -102,7 +102,7 @@
     {
       "no": 23,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the posting group that will be used in posting the journal line.\nThe field is used only if the account type is either customer or vendor. The posting group is used to find the receivables or payables account that the outstanding amount will be posted to.\nWhen the Account No. field is filled in, the program automatically retrieves the posting group from the customer or vendor card.\nPosting groups are set up in the Customer Posting Group and Vendor Posting Group tables."
     },
     {
       "no": 24,
@@ -122,7 +122,7 @@
     {
       "no": 29,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Shows the source code that has been entered on the journal template.\nThe program automatically retrieves the source code from the Source Code field in the General Journal Template table.\nThe source code is automatically inserted on all journals that are created under the journal template."
     },
     {
       "no": 34,
@@ -137,17 +137,17 @@
     {
       "no": 40,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Shows the possible payment discount percentage for the journal line. The discount will take effect if the line is applied before the Pmt. Discount Date.\nThe field is used only if the journal line is an invoice and the account type is a customer or vendor account. If the journal line is not an invoice, the field will be empty.\nThe program calculates the percentage automatically by using the contents of the Posting Date and Payment Terms Code fields.\nThe payment discount percentage is used in connection with posting to calculate a possible payment discount. When a payment is later made to a vendor, a payment discount is granted according to the date that has been entered in the Pmt. Discount Date field."
     },
     {
       "no": 42,
       "name": "Job No.",
-      "tooltip": ""
+      "tooltip": "Contains the Job No. It is a required field and must be filled in. When you fill in this field and the Job Task No. field, a job ledger entry will be posted together with the journal line.\nTo see the jobs available in the Job table, choose the field."
     },
     {
       "no": 43,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of items to be included on the journal line.\nThe quantity can be used in the G/L accounts for information about the posted G/L entries."
     },
     {
       "no": 44,
@@ -167,7 +167,7 @@
     {
       "no": 51,
       "name": "Standard Journal Code",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal.\nThe program automatically retrieves the name from the Name field in the General Journal Template table."
     },
     {
       "no": 52,
@@ -192,7 +192,7 @@
     {
       "no": 60,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Shows the VAT calculation type that the program will use when this entry is posted.\nThe program fills in the field automatically by using the VAT Posting Setup table.\nTo see the available options, choose the field.\n\n\nOption\n\n\nDescription\n\n\nNormal VAT\n\nWith this option, the program calculates VAT for items on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when you trade with other countries/regions within the EU where the purchaser must compute and settle VAT accounts with the tax authorities.\nRemember to also fill in the Reverse Chrg. VAT Acc. field.This option has no effect on your company's financial statements. When you sell goods with reverse charge VAT, you neither calculate nor withhold VAT. When you purchase goods, the program will calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount you want to post consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used if the program must calculate US sales tax instead of VAT."
     },
     {
       "no": 63,
@@ -217,12 +217,12 @@
     {
       "no": 67,
       "name": "Bal. VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Shows the VAT calculation type that the program will use for the balancing account on this journal line when this entry is posted.\nThe program fills in the field automatically by using the VAT Posting Setup table.\nTo see the available options, choose the field.\nThe following table describes the options.\n\n\nOption\n\n\nDescription\n\n\nNormal VAT\n\nWith this option, Microsoft Dynamics NAV the program calculates VAT for items on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when you trade with other countries/regions within the EU where the purchaser must compute and settle VAT accounts with the tax authorities.\nRemember to also fill in the Reverse Chrg. VAT Acc. field. This option has no effect on your company's financial statements. When you sell goods with reverse charge VAT, you neither calculate nor withhold VAT. When you purchase goods, Microsoft Dynamics NAVwill calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount to be posted consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used if Microsoft Dynamics NAV must calculate US sales tax instead of VAT."
     },
     {
       "no": 68,
       "name": "Bal. VAT %",
-      "tooltip": ""
+      "tooltip": "Shows the Bal. VAT percentage that will be used on the journal line.\nThe program automatically retrieves the VAT percentage from the VAT Posting Setup table when the Bal. VAT Bus. Posting Group and Bal. VAT Prod. Posting Group fields are filled in."
     },
     {
       "no": 69,
@@ -237,17 +237,17 @@
     {
       "no": 71,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total net amount (amount excluding VAT) that the journal line consists of."
     },
     {
       "no": 72,
       "name": "Bal. VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total balance net amount (amount excluding VAT) that the journal line consists of."
     },
     {
       "no": 73,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Here you can define the entry as a corrective entry.\nYou can use the field if you need to post a corrective entry to an account.\nIf you place a check mark in this field when posting a corrective entry, the program will post a negative debit instead of a credit or a negative credit instead of a debit. The Debit Amount field (or Credit Amount field) on the relevant account will then include both the original entry and the corrective entry, which will have no effect on the debit (or credit) balance.\nFor example, you post the purchase of operating equipment for LCY 500. This entry is later determined to be incorrect so you make a corrective entry for LCY 500. On the operating equipment account, the Debit Amount field will include a debit of LCY 500 and a negative debit of LCY 500. As such, the purchase and subsequent corrective entry will have no net effect on the amount in the Debit Amount field. On the other hand, if you post the corrective entry as a regular entry, the Debit Amount and Credit Amount fields will both include an amount of LCY 500.\nYou can see the amount that has accumulated for the relevant account in the Debit Amount field or Credit Amount field on the relevant account card.\nIf you want to use the corrective field, place a check mark in the field."
     },
     {
       "no": 77,
@@ -257,57 +257,57 @@
     {
       "no": 78,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "The program automatically fills in this field. The field displays the type of ledger entry that is the source for this entry. If the field is blank, the source is a G/L account ledger entry."
     },
     {
       "no": 79,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated.\n\nIf the source for this entry is a customer, vendor, bank account or fixed asset ledger entry, the number in the field will be the number of the Customer, Vendor, Bank Account or Fixed Asset, respectively. If the source is a G/L entry, the field is empty."
     },
     {
       "no": 80,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, choose the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will also be used on the posted line."
     },
     {
       "no": 82,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Tax Liable field, and Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax area code, in combination with the tax group code on the journal line, to determine the sales tax % and the G/L accounts to which sales tax will be posted."
     },
     {
       "no": 83,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate sales tax on the journal line.\nTo have sales tax calculated, you must also fill in Tax Area Code and Tax Group Code, and Gen. Posting Type must be Sale or Purchase."
     },
     {
       "no": 84,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Tax Liable field, and Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax group code, in combination with the tax area code on the journal line, to determine the sales tax % and the G/L accounts for sales tax posting."
     },
     {
       "no": 85,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate use tax on this journal line."
     },
     {
       "no": 86,
       "name": "Bal. Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code group associated with the balancing account that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Bal. Tax Liable field, and Bal. Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax area code, in combination with the Bal. Tax Group Code on the journal line, to determine the sales tax % and the G/L accounts to which sales tax will be posted."
     },
     {
       "no": 87,
       "name": "Bal. Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate sales tax on the balancing entry on the journal line.\nTo have sales tax calculated, you must also fill in Bal. Tax Area Code and Bal. Tax Group Code, and Bal. Gen. Posting Type must be Sale or Purchase."
     },
     {
       "no": 88,
       "name": "Bal. Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code associated with the balancing account that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Bal. Tax Liable field, Bal. Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax group code, in combination with Bal. Tax Area Code on the journal line, to determine the sales tax % and the G/L accounts to which sales tax will be posted."
     },
     {
       "no": 89,
       "name": "Bal. Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate use tax for the balancing entry on this journal line."
     },
     {
       "no": 90,
@@ -347,17 +347,17 @@
     {
       "no": 113,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the intercompany partner that the transaction is with if the journal line is an intercompany transaction. If your company created the line, this is the IC partner that you will send the transaction to. Otherwise, this is the IC partner that you received the line from."
     },
     {
       "no": 116,
       "name": "IC Partner G/L Acc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies outgoing intercompany transactions. It contains the IC G/L account that you suggest the amount will be posted to in your partner's company.\nThe field must be filled in on a line with a bank account or G/L account in either the Acc. No. field or the Bal. Account No. field.\nIf you have filled in the Default IC Partner G/L Acc. No field on the account card for the account in the Account No. field, the number has been automatically filled in by the program, but you can change it."
     },
     {
       "no": 118,
       "name": "Sell-to/Buy-from No.",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 130,
@@ -372,7 +372,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5050,
@@ -382,7 +382,7 @@
     {
       "no": 5616,
       "name": "Index Entry",
-      "tooltip": ""
+      "tooltip": "Displays if you have selected Fixed Asset in the Account Type field for this line.\nPlace a check mark in this field if you want to post an indexation.\nThe contents of this field will be copied to the corresponding field on FA ledger entries for information purposes only.\nNote that you can also run the Index Fixed Assets batch job to index fixed assets."
     }
   ]
 }

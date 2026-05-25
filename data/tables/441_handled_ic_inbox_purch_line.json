@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 3,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 11,
@@ -37,12 +37,12 @@
     {
       "no": 22,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 28,
@@ -67,7 +67,7 @@
     {
       "no": 54,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 63,
@@ -92,7 +92,7 @@
     {
       "no": 91,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99,
@@ -127,17 +127,17 @@
     {
       "no": 125,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 126,
       "name": "IC Transaction No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 127,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 138,
@@ -147,7 +147,7 @@
     {
       "no": 5407,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5790,
@@ -157,7 +157,7 @@
     {
       "no": 5791,
       "name": "Promised Receipt Date",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 6600,

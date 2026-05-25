@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code of the number series that you selected for the program to use when you assign a number to the receipt document header."
     },
     {
       "no": 8,
@@ -57,7 +57,7 @@
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that someone has attached a comment to this document."
     },
     {
       "no": 12,
@@ -72,32 +72,32 @@
     {
       "no": 16,
       "name": "Cross-Dock Zone Code",
-      "tooltip": ""
+      "tooltip": "Contains the default cross-dock zone which the program takes from the location. This is the default for any receipt lines that are inserted."
     },
     {
       "no": 17,
       "name": "Cross-Dock Bin Code",
-      "tooltip": ""
+      "tooltip": "Contains the default cross-dock bin which the program takes from the location. This is the default for any receipt lines that are inserted."
     },
     {
       "no": 50,
       "name": "Create Posted Header",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nSpecifies that a posted warehouse shipment is made when the receipt is posted."
     },
     {
       "no": 51,
       "name": "Receiving No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned from the receipt number series."
     },
     {
       "no": 62,
       "name": "Last Receiving No.",
-      "tooltip": ""
+      "tooltip": "Specifies the last number that was assigned from the receipt number series."
     },
     {
       "no": 63,
       "name": "Receiving No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the receipt number series."
     }
   ]
 }

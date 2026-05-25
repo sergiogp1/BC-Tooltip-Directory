@@ -67,7 +67,7 @@
     {
       "no": 14,
       "name": "Source Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "Contains the production order line, which is copied field from the Line No. field if the reservation entry is related to a production order line."
     },
     {
       "no": 15,
@@ -77,7 +77,7 @@
     {
       "no": 16,
       "name": "Item Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies item tracking numbers used in connection with combined shipments/return receipts.\nThe field contains a reference to the associated item ledger entry."
     },
     {
       "no": 22,
@@ -102,7 +102,7 @@
     {
       "no": 27,
       "name": "Changed By",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the user who changed the reservation."
     },
     {
       "no": 28,
@@ -122,27 +122,27 @@
     {
       "no": 31,
       "name": "Action Message Adjustment",
-      "tooltip": ""
+      "tooltip": "Shows the change in the supply side of the order tracking that results when you accept the related action messages.\nA value appears here only when the facilities for both order tracking and action messages are active. The value is calculated on the basis of the data in the Action Message Entry table."
     },
     {
       "no": 32,
       "name": "Binding",
-      "tooltip": ""
+      "tooltip": "Controls supply orders that are bound to a specific demand, such as production orders that are created directly from a sales order.\nThe field displays Order-to-Order when the entry is tied specifically to a demand or a supply.\nThe field is left blank if the entry is not bound to any specific demand or supply."
     },
     {
       "no": 33,
       "name": "Suppressed Action Msg.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
       "name": "Planning Flexibility",
-      "tooltip": ""
+      "tooltip": "Specifies whether the supply represented by the reservation line is considered by the planning system when calculating action messages.\nIf the field contains the option Unlimited, then the planning system includes the line when calculating action messages.\nIf the field contains the option None, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages."
     },
     {
       "no": 38,
       "name": "Appl.-to Item Entry",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item ledger entry that the reserved entry was applied to."
     },
     {
       "no": 40,
@@ -167,22 +167,22 @@
     {
       "no": 53,
       "name": "Quantity Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of serial/lot numbers that is invoiced with the associated document line expressed in base units of measure.\nThe field is displayed in the Item Tracking Lines window."
     },
     {
       "no": 80,
       "name": "New Serial No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new serial number that replaces the serial number in the Serial No. field when you post the item reclassification journal."
     },
     {
       "no": 81,
       "name": "New Lot No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new lot number that replaces the lot number in the Lot No. field when you post the item reclassification journal."
     },
     {
       "no": 900,
       "name": "Disallow Cancellation",
-      "tooltip": ""
+      "tooltip": "Indicates that the reservation entry represents the link between a sales order line and an assembly order.\nYou cannot delete this reservation because it is required to maintain the synchronization that occurs when an item is assembled to order."
     },
     {
       "no": 5400,
@@ -197,22 +197,22 @@
     {
       "no": 5811,
       "name": "Appl.-from Item Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally. It contains the entry number of the item ledger entry that the program will use to retrieve the cost for this line, provided that this line is an inbound transaction. When you post the transaction, the program uses the unit cost from the applied-from outbound item ledger entry as the cost for the new inbound item ledger entry."
     },
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this item ledger entry has been posted as a corrective entry."
     },
     {
       "no": 6505,
       "name": "New Expiration Date",
-      "tooltip": ""
+      "tooltip": "Specifies a new expiration date.\nIn this field, you can enter a new expiration date to take the place of the expiration date currently associated with the lot or serial number. The expiration date is the date after which the goods will no longer be usable.\nIf you are reclassifying a lot to the same lot number but with a different expiration date, you must reclassify the entire lot, using one item reclassification journal line.\nIf you are reclassifying more than one lot to one new lot number, meaning that you are merging more than one lot into one new lot, you must enter the same new expiration date for all the lots."
     },
     {
       "no": 6510,
       "name": "Item Tracking",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use. The purpose of the field is to make it easier to filter the entries with item tracking.\nThe field is updated automatically. It specifies whether the field carries item tracking and if so, whether it carries a lot number, a serial number, or both a lot and serial number."
     },
     {
       "no": 6511,

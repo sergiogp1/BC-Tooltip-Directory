@@ -67,12 +67,12 @@
     {
       "no": 13,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction number that is assigned to all the entries in the same transaction. The program assigns this number, which links all entries that are created by the same posting."
     },
     {
       "no": 14,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal that the entry was posted from. The program fills in the name from the Journal Batch Name on the journal line."
     },
     {
       "no": 15,
@@ -117,27 +117,27 @@
     {
       "no": 24,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the posting group of the entry.\nThe posting group is copied from the Gen. Bus. Posting Group field on the vendor card."
     },
     {
       "no": 25,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product account in the general ledger to which customer transactions involving the item are posted.\n\nAdditional Information\n\nWhen you post transactions for this item, this code is used with a posting group code in the Inventory Posting Setup window. The accounts in which the postings for sales, discounts, and so on are made, the VAT rate, and the VAT calculation type are determined in the Inventory Posting Setup window."
     },
     {
       "no": 29,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Indicates that the tax amount for the entry consists of use tax.\nThe value is copied from the Use Tax field on the sales order line."
     },
     {
       "no": 30,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer."
     },
     {
       "no": 31,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT product posting group of the customer."
     },
     {
       "no": 35,
@@ -147,7 +147,7 @@
     {
       "no": 36,
       "name": "Applied Cust. Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the customer ledger entry number that the entry is applied to."
     },
     {
       "no": 37,
@@ -162,22 +162,22 @@
     {
       "no": 39,
       "name": "Remaining Pmt. Disc. Possible",
-      "tooltip": ""
+      "tooltip": "Specifies the remaining payment discount that is available if the entry is totally applied within the payment period.\nWhen you post, the field is calculated from the following fields:\n\nIf the entry was posted from a journal line, the possible discount is calculated according to the Payment Discount % field on the journal line.\n\n\nIf the entry was posted from an order, invoice or credit memo, the possible discount is calculated according to the Payment Discount % field on the sales header.\n\n\nYou can also change the remaining payment discount amount manually but only when it has not been applied."
     },
     {
       "no": 40,
       "name": "Max. Payment Tolerance",
-      "tooltip": ""
+      "tooltip": "Specifies the maximum tolerated amount that the amount in the entry can differ from the amount on the invoice or credit memo.\nThe Payment Tolerance % field and the Max. Payment Tolerance Amount field are used in the General Ledger Setup table to calculate the payment tolerance."
     },
     {
       "no": 41,
       "name": "Tax Jurisdiction Code",
-      "tooltip": ""
+      "tooltip": "Displays the tax jurisdiction that determined the tax accounts and the tax details that were used to calculate the tax amount."
     },
     {
       "no": 42,
       "name": "Application No.",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 43,

@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "When you register miscellaneous articles for an employee, the program automatically enters a line number in the Line No. field to keep track of all the different miscellaneous articles for the employee in the Misc. Article Information table. The line number is specific to the particular miscellaneous article."
     },
     {
       "no": 4,

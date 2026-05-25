@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Created Date-Time",
-      "tooltip": ""
+      "tooltip": "Specifies when the SEPA credit transfer was made."
     },
     {
       "no": 4,

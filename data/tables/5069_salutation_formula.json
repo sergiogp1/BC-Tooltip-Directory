@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Salutation Code",
-      "tooltip": ""
+      "tooltip": "Specifies the salutation code. A contact must have a salutation code assigned, otherwise it is not possible to open any attached Word document for this contact."
     },
     {
       "no": 2,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Contact No. Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area that the analysis view belongs to:\nSales: The analysis view filter was set up for Sales & Receivables\nPurchase: The analysis view filter was set up for Purchases & Payables\nInventory: The analysis view filter was set up for Inventory"
     },
     {
       "no": 2,
       "name": "Analysis View Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the analysis view that the filter belongs to."
     },
     {
       "no": 3,

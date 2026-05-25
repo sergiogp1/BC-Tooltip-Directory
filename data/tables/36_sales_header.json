@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that you are about to create.\nThe sales header forms the basis for all the document types on the Sales & Receivables menu, so the program must label what it is you are setting up, for example, an order or invoice."
     },
     {
       "no": 2,
@@ -167,12 +167,12 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the customer's price group. To see the customer price group codes in the Customer Price Group table, click the field.\nThe code is automatically retrieved from the Customer table when you fill in the Bill-to Customer No. field. The field is blank if no price group code has been entered on the customer card.\nThe code is used when the program calculates the unit price for items on the line. The program checks the Sales Price table to see whether customers in this price group will be charged a different price for the item than the one in the Unit Price field on the item card.\nTo define the conditions for obtaining the sales price in the Sales Price table, on the customer card, click Related Information, point to Sales, and then click Prices."
     },
     {
       "no": 35,
@@ -182,12 +182,12 @@
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that will be used to find the invoice discount you give the customer.\nMicrosoft Dynamics NAV automatically retrieves the invoice discount code from the Customer table when you fill in the Bill-to Customer No. field.\nThe invoice discount is based on the total invoice amount, but it is allocated to the lines relative to the amount on each. On the Actions menu, point to Functions, and then click Calculate Invoice Discount to run the calculation. If there is a check mark in the Calc. Inv. Discount field in the Sales & Receivables Setup window, the amount is calculated automatically. Click here to learn when the automatic calculation will occur.\nYou define the code in the Invoice Disc. Code field on the customer's card. To define the conditions for the invoice discount in the Cust. Invoice Disc. table, on the Related Information menu, point to Sales, and then click Invoice Discounts on the customer's card."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the bill-to customer's customer discount group.\nThe code is automatically retrieved when you fill in the Bill-to Customer No. field. The field is blank if no code has been entered on the customer's card.\nWhen you enter an item on the sales line, the code is used to check whether the bill-to customer should receive a sales line discount on the item. To define the discount, on the customer card, click Related Information, point to Sales, and then click Line Discounts."
     },
     {
       "no": 41,
@@ -207,22 +207,22 @@
     {
       "no": 45,
       "name": "Order Class",
-      "tooltip": ""
+      "tooltip": "Specifies a number which can later be used for statistical purposes.\nThis field is not used elsewhere in the program."
     },
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not a comment has been entered for this sales header.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies how many times a sales header has been printed.\nWhen a quote is changed to an order, the field will be set to 0."
     },
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "This field is used when the sales header has been invoiced and the resulting customer entries are included on a finance charge memo or reminder.\nYou can use the field to determine whether the posted entries will be included in interest calculation.\nBefore posting, you can fill in the field with your initials or any other code to indicate that the customer entry should wait for approval before interest is added to it. If the field is filled in, the entry is being held for approval.\nWhen you run the Create Finance Charge Memos batch job or the Suggest Fin. Charge Memo Lines batch job, entries that are marked On Hold will not be included in interest calculation and will not appear on the memo.\nWhen you run the Create Reminders batch job or the Suggest Reminder Lines batch job, a reminder will not be created on the basis of an entry that is On Hold. However, if a reminder is created on the basis of another entry, an overdue entry marked On Hold will also be included on the reminder. The On Hold entry will not be included in interest calculation.\nAfter the entry has been posted, the field can be changed in the Cust. Ledger Entry table."
     },
     {
       "no": 52,
@@ -237,7 +237,7 @@
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a general ledger account or the bank account to place a balancing entry for this invoice (for cash sales, for example). Which account type you can choose, is decided in the field Bal. Account Type.\nYou can use a search name to enter an account. If you want to enter the cash account, for example, but cannot remember the account number, you can enter the word \"cash\" and press ENTER. The program will enter the correct account number if you have set up \"cash\" as the search name for the account."
     },
     {
       "no": 56,
@@ -247,17 +247,17 @@
     {
       "no": 57,
       "name": "Ship",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 58,
       "name": "Invoice",
-      "tooltip": ""
+      "tooltip": "Uses this field when posting."
     },
     {
       "no": 59,
       "name": "Print Posted Documents",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 60,
@@ -272,42 +272,42 @@
     {
       "no": 62,
       "name": "Shipping No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the shipment when the sales header is posted.\nWhen you post the sales header, the program will automatically use the next number from the number series in the Shipping No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 63,
       "name": "Posting No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the posted invoice or credit memo that will be created if you post the sales header.\nWhen you post the sales header, the program will automatically use the next number from the number series in the Posting No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 64,
       "name": "Last Shipping No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted sales shipment number that was used."
     },
     {
       "no": 65,
       "name": "Last Posting No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted invoice or credit number that was used."
     },
     {
       "no": 66,
       "name": "Prepayment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the posted prepayment invoice for this sales order.\nWhen you post the prepayment invoice, the program will automatically use the next number from the number series in the Posted Prepmt. Invoice Nos. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 67,
       "name": "Last Prepayment No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted prepayment invoice number that was used for this sales order."
     },
     {
       "no": 68,
       "name": "Prepmt. Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the posted prepayment credit memo for this sales order.\nWhen you post the prepayment credit memo, the program will automatically use the next number from the number series in the Posted Prepmt. Cr. Memo Nos. field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 69,
       "name": "Last Prepmt. Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted prepayment credit memo number that was used for this sales order."
     },
     {
       "no": 70,
@@ -432,7 +432,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of balancing account used in this document.\nTo see the two possible account types, click the field. You can choose G/L Account or Bank Account. The balancing account type determines which accounts can be entered in the Bal. Account No. field."
     },
     {
       "no": 97,
@@ -482,17 +482,17 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the sales document's number."
     },
     {
       "no": 108,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the sales document when it is posted.\nThe program automatically copies the number series code from the relevant field in the Sales & Receivables Setup table:\n\nIf the document is an invoice, order or quote, the program copies the number series code from the Posted Invoice Nos. field.\n\n\nIf the document is a credit memo, the program copies the number series code from the Posted Credit Memo Nos. field."
     },
     {
       "no": 109,
       "name": "Shipping No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the shipment created from the sales document.\nThe program automatically copies the number series code from the Posted Shipment Nos. field in the Sales & Receivables Setup table. You can change the code."
     },
     {
       "no": 114,
@@ -512,7 +512,7 @@
     {
       "no": 117,
       "name": "Reserve",
-      "tooltip": ""
+      "tooltip": "Specifies the reserve option for the document. The option was copied from the Reserve field on the customer card.\nThe contents of this field, in combination with the contents of the Reserve field on the item card, determine the contents of the Reserve field on sales lines in the document. The reserve option on the item card will be copied to the sales line (thereby overriding the reserve option on the sales header) except in one case: if this field contains the option Always and you enter an item with the option Optional on a line, the sales line will be assigned the option Always."
     },
     {
       "no": 118,
@@ -522,7 +522,7 @@
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 120,
@@ -532,32 +532,32 @@
     {
       "no": 121,
       "name": "Invoice Discount Calculation",
-      "tooltip": ""
+      "tooltip": "Specifies how the discount for an invoice is calculated. You can select from the following options by clicking the field:\n\nOption\n\nMeaning\n\n\nNone\n\nThe program will not calculate an invoice discount.\n\n\n%\n\nThe program will calculate the invoice discount as a percentage of the invoice amount.\n\n\nAmount\n\nThe program will calculate the invoice discount by subtracting a specified amount from the invoice amount."
     },
     {
       "no": 122,
       "name": "Invoice Discount Value",
-      "tooltip": ""
+      "tooltip": "Specifies the value by the invoice discount calculation method you chose in the Invoice Discount Calculation field.\nIf you chose the option None, the field will be empty.\nIf you chose %, this field will display the percentage that the program will use to calculate the invoice discount.\nIf you chose Amount, this field will display the amount that the program will use to calculate the invoice discount."
     },
     {
       "no": 123,
       "name": "Send IC Document",
-      "tooltip": ""
+      "tooltip": "Specifies that an intercompany transaction will be created in the intercompany outbox when you post the document or use the Send IC Document function."
     },
     {
       "no": 124,
       "name": "IC Status",
-      "tooltip": ""
+      "tooltip": "Specifies whether a copy of the document has been created in the intercompany outbox.\n\nAdditional Information\n\nThe field can have the following values:\n\n\nStatus\n\n\nDescription\n\n\nNew\n\nThere is no copy of the document in the outbox.\n\n\nPending\n\nThere is a copy of the document in the outbox. It has not been sent yet.\n\n\nSent\n\nA copy of the document has been sent from the outbox."
     },
     {
       "no": 125,
       "name": "Sell-to IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the sell-to customer's intercompany partner code if the sell-to customer on the document is an intercompany partner.\nIf the field contains an intercompany partner code, then the document is an intercompany document. A copy of the document will be sent to the intercompany outbox if the Send IC Document field contains a check mark. Furthermore, when you post the document, the resulting entries will be marked as intercompany entries."
     },
     {
       "no": 126,
       "name": "Bill-to IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the bill-to customer's intercompany partner code if the bill-to customer on the document is an intercompany partner.\nIf the field contains an intercompany partner code, then the document is an intercompany document. A copy of the document will be sent to the intercompany outbox if the Send IC Document field contains a check mark. Furthermore, when you post the document, the resulting entries will be marked as intercompany entries."
     },
     {
       "no": 127,
@@ -567,7 +567,7 @@
     {
       "no": 129,
       "name": "IC Direction",
-      "tooltip": ""
+      "tooltip": "Specifies whether you are sending the document to an intercompany partner (outgoing) or you received the document from an intercompany partner (incoming) if the document is an intercompany document."
     },
     {
       "no": 130,
@@ -577,7 +577,7 @@
     {
       "no": 131,
       "name": "Prepayment No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to prepayment invoices posted from this sales order.\nThe program automatically copies the number series code from the Posted Prepmt. Invoice Nos. Series field in the Sales & Receivables Setup table."
     },
     {
       "no": 132,
@@ -592,12 +592,12 @@
     {
       "no": 134,
       "name": "Prepmt. Cr. Memo No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to prepayment credit memos posted from this sales order.\nThe program automatically copies the number series code from the Posted Prepmt. Cr. Memo Nos. field in the Sales & Receivables Setup table."
     },
     {
       "no": 135,
       "name": "Prepmt. Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies the posting description to use on the entries that will be created when you post a prepayment invoice for this sales order.\nIf you leave the field blank, the description on the posted entries will be Prepayment Invoice, Order and the order number that the prepayment invoice is valid for.\nThe posting description appears on customer and G/L entries."
     },
     {
       "no": 138,
@@ -647,7 +647,7 @@
     {
       "no": 161,
       "name": "Job Queue Entry ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the job queue entry."
     },
     {
       "no": 163,
@@ -737,7 +737,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 600,
@@ -762,7 +762,7 @@
     {
       "no": 1305,
       "name": "Invoice Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that is calculated and shown in the Invoice Discount Amount field at the bottom of sales invoices and posted sales invoices.\nSpecifies the amount that is deducted from the value shown in the Total Incl. VAT field.\nIf you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the Customer Invoice Discount % field if the criteria are met. The calculated discount amount is inserted in the Invoice Discount Amount field, but you can change it manually. For more information, see How to: Set Up Invoice Discount Terms."
     },
     {
       "no": 5043,
@@ -772,7 +772,7 @@
     {
       "no": 5048,
       "name": "Doc. No. Occurrence",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times the \"No.\" value has been used in the number series.\nThis number, in combination with the document number, ensures that you always maintain a unique number for the archived document. This is convenient if, for example, you have changed the number series and, as a result, a conflict of numbers arises."
     },
     {
       "no": 5050,
@@ -817,7 +817,7 @@
     {
       "no": 5751,
       "name": "Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5752,
@@ -827,12 +827,12 @@
     {
       "no": 5753,
       "name": "Posting from Whse. Ref.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5754,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the location filter."
     },
     {
       "no": 5755,
@@ -877,27 +877,27 @@
     {
       "no": 5796,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter that filters by date.\nIf the field contains a date, the values in the fields that contain quantities are based only on entries with the date that is included in the filter.\nYou can enter a date or a time interval. There are certain rules for how they should be entered:\n\nMeaning\nSample Expression\nEntries Included\n\nEqual to\n\n12 15 00\n\nOnly those posted on 12 15 00.\n\n\nInterval\n\n12 15 00..01 15 01\n..12 15 00\n\nThose posted on dates between and including 12 15 00 and 01 15 01.\nThose posted on 12 15 00 or earlier.\n\n\nEither/or\n\n12 15 00|12 16 00\n\nThose posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.\n\n\nYou can also combine the various format types:\n\nSample Expression\nEntries Included\n\n12 15 00|12 01 00..12 10 00\n\nEntries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.\n\n\n..12 14 00|12 30 00..\n\nEntries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00."
     },
     {
       "no": 5800,
       "name": "Receive",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Specifies whether the document will be posted as a return receipt."
     },
     {
       "no": 5801,
       "name": "Return Receipt No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the return receipt when the sales header is posted.\nWhen you post the sales header, unless you manually enter a number, the program will automatically use the next number from the number series in the Return Receipt No. Series field.\nEntering the number manually will not cause a gap in the number series."
     },
     {
       "no": 5802,
       "name": "Return Receipt No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the return receipt created from the sales document.\nThe program automatically copies the number series code from the Posted Return Receipt Nos. field in the Sales & Receivables Setup table.\nYou can change the code."
     },
     {
       "no": 5803,
       "name": "Last Return Receipt No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted return receipt number that was used."
     },
     {
       "no": 7000,
@@ -907,12 +907,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount is calculated when the price is offered."
     },
     {
       "no": 7200,
       "name": "Get Shipment Used",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 9000,

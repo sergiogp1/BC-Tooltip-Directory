@@ -22,22 +22,22 @@
     {
       "no": 4,
       "name": "Column Data Type",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5,
       "name": "Column Type",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 7,
       "name": "Aggregation Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of aggregation on the y-axis, such as Sum or Max."
     }
   ]
 }

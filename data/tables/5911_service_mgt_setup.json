@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
@@ -152,7 +152,7 @@
     {
       "no": 41,
       "name": "Last Contract Service Date",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 42,

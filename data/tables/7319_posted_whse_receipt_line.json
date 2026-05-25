@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the number of the table that is the source of the receipt line."
     },
     {
       "no": 4,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the entry relates."
     },
     {
       "no": 6,
@@ -127,7 +127,7 @@
     {
       "no": 37,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Contains the date the posted warehouse receipt was scheduled to start.\nThe field was automatically filled in according to the source document type:\nFor purchase orders: the planned receipt date on the purchase line\nFor transfer orders: the work date."
     },
     {
       "no": 50,
@@ -172,47 +172,47 @@
     {
       "no": 62,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Contains the date the receipt was posted. The program copies it from the posted source document line associated with this line."
     },
     {
       "no": 63,
       "name": "Vendor Shipment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor shipment number. It's copied from the posted source document line associated with this line."
     },
     {
       "no": 64,
       "name": "Whse. Receipt No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number of the warehouse receipt from which the line originates."
     },
     {
       "no": 65,
       "name": "Whse Receipt Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the warehouse receipt line from which the line originates."
     },
     {
       "no": 66,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Contains the status of the posted warehouse receipt. The options are : <Blank> (not put away at all), Partially Put Away, and Completely Put Away"
     },
     {
       "no": 6500,
       "name": "Serial No.",
-      "tooltip": ""
+      "tooltip": "Contains the serial number for the item that was received.\nYou cannot change this field because the put-away has been posted."
     },
     {
       "no": 6501,
       "name": "Lot No.",
-      "tooltip": ""
+      "tooltip": "Contains the lot number for the item that was received.\nYou cannot change this field because the put-away has been posted."
     },
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Contains the warranty date for the item that was received.\nYou cannot change this field because the put-away has been posted."
     },
     {
       "no": 6503,
       "name": "Expiration Date",
-      "tooltip": ""
+      "tooltip": "Contains the expiration date for the item that was received.\nYou cannot change this field because the put-away has been posted."
     },
     {
       "no": 6515,

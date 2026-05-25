@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Profile Questionnaire Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the question.\nProfile Questionnaire Line No. always refers to a rating question."
     },
     {
       "no": 3,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Rating Profile Quest. Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the answer.\nRating Profile Quest. Line No. always refers to an answer used in a rating question."
     },
     {
       "no": 5,

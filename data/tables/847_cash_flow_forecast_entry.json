@@ -62,12 +62,12 @@
     {
       "no": 22,
       "name": "Associated Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 23,
       "name": "Associated Document No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 24,
@@ -82,7 +82,7 @@
     {
       "no": 26,
       "name": "Recurring Method",
-      "tooltip": ""
+      "tooltip": "Specifies the recurring method that the entry is posted to."
     },
     {
       "no": 29,
@@ -92,7 +92,7 @@
     {
       "no": 30,
       "name": "Positive",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 33,
@@ -102,7 +102,7 @@
     {
       "no": 35,
       "name": "G/L Budget Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the general ledger budget."
     },
     {
       "no": 36,

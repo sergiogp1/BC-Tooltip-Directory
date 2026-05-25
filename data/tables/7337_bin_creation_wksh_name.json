@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the worksheet template that the worksheet name is associated with."
     },
     {
       "no": 2,
@@ -27,7 +27,7 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the bin creation worksheet template, such as put-away, pick, or movement."
     },
     {
       "no": 40,

@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
@@ -92,32 +92,32 @@
     {
       "no": 48,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Automatically includes a value when you calculate the production order. The starting date is retrieved from the production order routing.\nIf you modify the date, the order line will automatically be rescheduled."
     },
     {
       "no": 49,
       "name": "Starting Time",
-      "tooltip": ""
+      "tooltip": "Automatically includes a value when you calculate the production order. The starting time is retrieved from the production order routing.\nIf you modify the time, the order line will automatically be rescheduled."
     },
     {
       "no": 50,
       "name": "Ending Date",
-      "tooltip": ""
+      "tooltip": "Automatically includes a value when you calculate the production order. The ending date is retrieved from the production order routing.\nIf you modify the date, the order line will automatically be rescheduled."
     },
     {
       "no": 51,
       "name": "Ending Time",
-      "tooltip": ""
+      "tooltip": "Automatically includes a value when you calculate the production order. The ending time is retrieved from the production order routing.\nIf you modify the time, the order line will automatically be rescheduled."
     },
     {
       "no": 52,
       "name": "Planning Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies which planning level the item on the planned production order line belongs to. This information is comparable to the Low-Level Code on items, however, this field refers to the planning."
     },
     {
       "no": 53,
       "name": "Priority",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 60,
@@ -132,12 +132,12 @@
     {
       "no": 62,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the inventory posting group to which the Item No. is attached. The program automatically copies this code from the item card when the item number is filled in."
     },
     {
       "no": 63,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nRefers to the routing number that is related to the production order line.\nThe field contains a zero when the routing line is related to a family order where more production order lines share the same routing."
     },
     {
       "no": 65,
@@ -162,17 +162,17 @@
     {
       "no": 70,
       "name": "Capacity Type Filter",
-      "tooltip": ""
+      "tooltip": "Used when calculating production order statistics.\n\nThis field is used internally."
     },
     {
       "no": 71,
       "name": "Capacity No. Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Calculates production order statistics."
     },
     {
       "no": 72,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Calculates production order statistics."
     },
     {
       "no": 73,
@@ -202,12 +202,12 @@
     {
       "no": 82,
       "name": "Finished Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the quantity on the production order line, stated in base units of measure, has been produced.\nThe program automatically updates this field when you post final routing list operations from the output journal."
     },
     {
       "no": 83,
       "name": "Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Automatically updates this field when the Finished Quantity field is updated. This field shows the difference (expressed in base units of measure) between the finished quantity and the planned quantity (or 0, if the finished quantity is greater than the remaining quantity)."
     },
     {
       "no": 84,
@@ -217,17 +217,17 @@
     {
       "no": 90,
       "name": "Expected Operation Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the expected operation cost amount. When production is in progress or has ended, you can compare this amount to the Actual Capacity Cost in the Production Order Statistics window."
     },
     {
       "no": 91,
       "name": "Total Exp. Oper. Output (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 94,
       "name": "Expected Component Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the expected component cost amount. When production is in progress or has ended, you can compare this amount to the Actual Material Cost in the Production Order Statistics window."
     },
     {
       "no": 198,
@@ -242,17 +242,17 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5831,
       "name": "Cost Amount (ACY)",
-      "tooltip": ""
+      "tooltip": "Specifies the Cost Amount in the additional reporting currency."
     },
     {
       "no": 5832,
       "name": "Unit Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "Specifies the Unit Cost in the additional reporting currency."
     },
     {
       "no": 5850,
@@ -302,17 +302,17 @@
     {
       "no": 99000752,
       "name": "Routing Type",
-      "tooltip": ""
+      "tooltip": "Specifies how the operations are to be arranged when calculating in a production order.\nThe available types are:\nSerial\nParallel\nIn the case of the Serial calculation type, the operations are calculated in the production routing according to the value in the Operation No. field of the routing line.\nIn the Parallel calculation type the operation is calculated in connection with the Next Operation No. field of the routing line."
     },
     {
       "no": 99000753,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "If you have filled in the Unit of Measure field on the routing card and entered a quantity for the current item in the Qty. per Unit of Measure field, the program automatically fills in this field when you enter the item number on the line."
     },
     {
       "no": 99000754,
       "name": "MPS Order",
-      "tooltip": ""
+      "tooltip": "Specifies whether the production order line is an MPS order, that is, whether it is linked to a production forecast or a sales order. If so, the program places a check mark in the field.\nThe user can also enter a check mark in the field when manually editing the line."
     },
     {
       "no": 99000755,
@@ -322,12 +322,12 @@
     {
       "no": 99000764,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost in percent of this production order line."
     },
     {
       "no": 99000765,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate of this production order line.\nYou can set up an overhead rate to cover expenses other than material or capacity costs, for example, transport expenses for the production order line.\nThe Overhead Rate is an absolute amount. Even if the item consists of more than one item, the amount does not depend on the number of items."
     }
   ]
 }

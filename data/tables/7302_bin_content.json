@@ -57,27 +57,27 @@
     {
       "no": 26,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are stored in the bin. The program calculates the quantity on the basis of the warehouse entry table."
     },
     {
       "no": 29,
       "name": "Pick Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are about to be picked from the bin. The program calculates the quantity from the Quantity field on warehouse activity lines with action type Take for the item and bin. The program decreases the available quantity that can be taken from the bin by the quantity in this field."
     },
     {
       "no": 30,
       "name": "Neg. Adjmt. Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are about to be posted on warehouse adjustment, reclassification, or physical inventory journal lines as negative quantities for this bin content. The program decreases the quantity that can be taken from the bin by this quantity."
     },
     {
       "no": 31,
       "name": "Put-away Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are about to be put away in the bin. The program calculates the quantity from the quantity field on warehouse activity lines with action type Place for the bin and item. The program decreases the quantity that can be placed into the bin by this quantity."
     },
     {
       "no": 32,
       "name": "Pos. Adjmt. Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are about to be posted on warehouse adjustment, reclassification, or physical inventory journal lines as positive quantities for this bin content. The program decreases the quantity that can be placed into the bin by this quantity."
     },
     {
       "no": 37,
@@ -147,12 +147,12 @@
     {
       "no": 6500,
       "name": "Lot No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6501,
       "name": "Serial No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6502,

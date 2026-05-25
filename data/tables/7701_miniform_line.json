@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Miniform Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the miniform header to which the line is attached."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line in the miniform. The program numbers the lines automatically and sequentially."
     },
     {
       "no": 11,

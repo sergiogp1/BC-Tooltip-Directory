@@ -32,12 +32,12 @@
     {
       "no": 7,
       "name": "Owner User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the owner ID of the time sheet. The owner of a time sheet has permission to enter time usage on a time sheet. The owner can also submit a time sheet for approval."
     },
     {
       "no": 8,
       "name": "Approver User ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of a user with permission to approve time sheets."
     },
     {
       "no": 10,
@@ -87,7 +87,7 @@
     {
       "no": 21,
       "name": "Posted Quantity",
-      "tooltip": ""
+      "tooltip": "Displays the posted number of hours that have been entered on a time sheet. The number is the sum of all hours entered and posted on all time sheet lines and includes all status types."
     },
     {
       "no": 26,
@@ -97,32 +97,32 @@
     {
       "no": 30,
       "name": "Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter that allows you to see an overview of the time sheets with a certain value in the Status field.\nThe available status options are Open, Submitted, Rejected, or Approved."
     },
     {
       "no": 31,
       "name": "Job No. Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for time sheets that filters by job number."
     },
     {
       "no": 32,
       "name": "Job Task No. Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by job task number for a time sheet."
     },
     {
       "no": 33,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 34,
       "name": "Posted Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter that is used whether a time sheet has been posted."
     },
     {
       "no": 35,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the types that you can filter time sheets by."
     },
     {
       "no": 40,

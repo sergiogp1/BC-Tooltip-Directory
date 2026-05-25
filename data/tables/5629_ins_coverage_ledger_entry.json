@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on the document that provided the basis for this insurance entry.\nThe program filled in the field in one of the following ways:\n\nIf the entry was posted from a journal line, the date was copied from the Document Date field on the relevant journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the date was copied from the Document Date field on the purchase header.\n\n\nYou cannot change the document date because the entry has already been posted."
     },
     {
       "no": 9,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Shows the external document number that was entered on the purchase header or journal line.\nIf the entry was posted from a journal line, the number was copied from the External Document No. field on the journal line.\nIf the entry was posted from a purchase order, invoice or credit memo, the number may have been copied from the Vendor Invoice No. or the Vendor Cr. Memo No. fields on the purchase header depending on the document type that created the insurance entry.\nYou cannot change the external document number because the entry has already been posted."
     },
     {
       "no": 14,
@@ -67,17 +67,17 @@
     {
       "no": 17,
       "name": "FA Class Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset class that the entry is linked to.\nThe program copied the FA class code from the FA Class Code field from the insurance account for which this entry was made.\nYou cannot change the FA class code because the entry has been posted."
     },
     {
       "no": 18,
       "name": "FA Subclass Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset subclass that the entry is linked to.\nThe program copied the FA subclass code from the FA Subclass Code field from the insurance account for which this entry was made.\nYou cannot change the FA subclass code because the entry has been posted."
     },
     {
       "no": 19,
       "name": "FA Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset location that the entry is linked to.\nThe program copied the FA location code from the FA Location Code field from the insurance account for which this entry was made.\nYou cannot change the FA location code because the entry has been posted."
     },
     {
       "no": 20,
@@ -92,7 +92,7 @@
     {
       "no": 22,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the location that the entry is linked to.\nThe program copied the location code from the Location Code field from the insurance account for which this entry was made.\nYou cannot change the location code because the entry has been posted."
     },
     {
       "no": 23,
@@ -107,7 +107,7 @@
     {
       "no": 25,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal that the entry was posted from.\nThe program filled in the name from the Journal Batch Name field on the journal line.\nYou cannot change the name because the entry has been posted."
     },
     {
       "no": 26,
@@ -122,12 +122,12 @@
     {
       "no": 28,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs.\nYou cannot change the number series because the entry has been posted."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

@@ -57,7 +57,7 @@
     {
       "no": 13,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Line table."
     },
     {
       "no": 14,
@@ -122,22 +122,22 @@
     {
       "no": 41,
       "name": "Whse. Activity No.",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 42,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Line table."
     },
     {
       "no": 43,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 44,
       "name": "Shipment Method Code",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Line table."
     },
     {
       "no": 6500,
@@ -152,7 +152,7 @@
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Specifies the warranty date of the serial number or lot number that was moved."
     },
     {
       "no": 6503,

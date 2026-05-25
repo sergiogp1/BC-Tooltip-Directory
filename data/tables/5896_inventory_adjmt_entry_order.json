@@ -27,12 +27,12 @@
     {
       "no": 21,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Shows the percentage of the unit cost of the assembly item that is made up of indirect costs, such as warehouse handling.\nThe field is copied from the item card.\n\nAdditional Information\n\nIndirect cost percentages are calculated as follows:\nUnit Cost (LCY) = Direct Unit Cost × (100% + Indirect Cost %)\n\nUnit Cost = Unit Amount × (100% + Indirect Cost %)"
     },
     {
       "no": 22,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Shows the indirect cost of the assembled item or produced item as an absolute amount. The value is copied from the posted or finished order.\nThe amount is added to the items unit cost to reflect overhead, such as freight and warehouse handling that are associated with the assembly or production of the item."
     },
     {
       "no": 29,
@@ -42,82 +42,82 @@
     {
       "no": 30,
       "name": "Allow Online Adjustment",
-      "tooltip": ""
+      "tooltip": "Specifies whether the items unit cost will be adjusted automatically.\nThis field is used internally with the Automatic Cost Adjustment setup field."
     },
     {
       "no": 41,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the cost of one unit of the item.\nIf the costing method is other than Standard, then the unit cost in this field is automatically calculated and updated on the basis of the unit costs of the components on the production or assembly order lines.\nIf the costing method is Standard, then this field is not updated, but you can change it manually."
     },
     {
       "no": 42,
       "name": "Direct Cost",
-      "tooltip": ""
+      "tooltip": "Contains the direct cost of the quantity posting.\nIt is the sum of value entries of type Direct Cost that resulted from the posting."
     },
     {
       "no": 43,
       "name": "Indirect Cost",
-      "tooltip": ""
+      "tooltip": "Shows the indirect cost of the produced or assembled item, such as warehouse handling costs that are involved in assembling the item."
     },
     {
       "no": 44,
       "name": "Single-Level Material Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the total material cost of all the items at the first level of the item's BOM."
     },
     {
       "no": 45,
       "name": "Single-Level Capacity Cost",
-      "tooltip": ""
+      "tooltip": "Contains the capacity cost of the parent item.\nTo see the total capacity cost of the parent item and its components, see the Rolled-up Capacity Cost field on the item card."
     },
     {
       "no": 46,
       "name": "Single-Level Subcontrd. Cost",
-      "tooltip": ""
+      "tooltip": "Contains the subcontracting cost of the parent item.\nTo see the total subcontracting cost of the parent item and its components, see the Rolled-up Subcontracted Cost field on the item card."
     },
     {
       "no": 47,
       "name": "Single-Level Cap. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Contains the capacity overhead cost of the parent item.\nTo see the total capacity overhead cost of the parent item and its components, see the Rolled-up Cap. Overhead Cost field on the item card."
     },
     {
       "no": 48,
       "name": "Single-Level Mfg. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Contains the manufacturing overhead cost of the parent item.\nTo see the total manufacturing overhead cost of the parent item and its components, see the Rolled-up Mfg. Ovhd Cost field on the item card."
     },
     {
       "no": 52,
       "name": "Direct Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the direct cost of the quantity posting in the additional reporting currency.\nIt is the sum of value entries of type Direct Cost that resulted from the posting."
     },
     {
       "no": 53,
       "name": "Indirect Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "Shows the indirect cost, in the additional reporting currency, of the produced or assembled item, such as warehouse handling costs that are involved in assembling the item."
     },
     {
       "no": 54,
       "name": "Single-Lvl Material Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the material cost of the parent item in the additional reporting currency.\nTo see the total material cost of the parent item and its components, see the Rolled-up Material Cost field on the item card."
     },
     {
       "no": 55,
       "name": "Single-Lvl Capacity Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the capacity cost of the parent item in the additional reporting currency.\nTo see the total capacity cost of the parent item and its components, see the Rolled-up Capacity Cost field on the item card."
     },
     {
       "no": 56,
       "name": "Single-Lvl Subcontrd Cost(ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the subcontracting cost of the parent item in the additional reporting currency.\nTo see the total subcontracting cost of the parent item and its components, see the Rolled-up Subcontracted Cost field on the item card."
     },
     {
       "no": 57,
       "name": "Single-Lvl Cap. Ovhd Cost(ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the capacity overhead cost of the parent item in the additional reporting currency.\nTo see the total overhead capacity cost of the parent item and its components, see the Rolled-up Cap. Overhead Cost field on the item card."
     },
     {
       "no": 58,
       "name": "Single-Lvl Mfg. Ovhd Cost(ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the manufacturing overhead cost of the parent item in the additional reporting currency.\nTo see the total manufacturing overhead cost of the parent item and its components, see the Rolled-up Mfg. Ovhd Cost field on the item card."
     },
     {
       "no": 61,

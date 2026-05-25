@@ -52,17 +52,17 @@
     {
       "no": 21,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 22,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by location.\nIf the field contains a location code, then the values in the Inventory field and the Expired Inventory field are based only on entries with the location code that is included in the filter."
     },
     {
       "no": 23,
       "name": "Bin Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by bin code.\nIf the field contains a bin code, the Inventory and the Expired Inventory field values are based only on item tracking entries with the bin code that is included in the filter.\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries with 1 as the bin code\n\n\nInterval\n\n1...5\n\nEntries from bin 1 through bin 5\n\n\nEither/or\n\nB22|C22\n\nEntries with either bin code B22 or C22\n\n\nDifferent than\n\n<>bin1\n\nEntries with all bin codes except bin 1\n\n\nTo see the bin codes in the Bin table, choose the field."
     },
     {
       "no": 24,

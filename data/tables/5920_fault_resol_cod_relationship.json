@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Created Manually",
-      "tooltip": ""
+      "tooltip": "Specifies if the record was created manually."
     }
   ]
 }

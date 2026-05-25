@@ -17,12 +17,12 @@
     {
       "no": 130,
       "name": "Default Bin Code",
-      "tooltip": ""
+      "tooltip": "Specifies the bin that is selected as the default bin at the location."
     },
     {
       "no": 5700,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the location name. You can enter a maximum of 30 characters, both numbers and letters.\nThe contents of the Description 2 field are typically printed on orders and invoices, so you should enter the description as you want it to appear."
     },
     {
       "no": 5701,
@@ -47,12 +47,12 @@
     {
       "no": 5705,
       "name": "Phone No. 2",
-      "tooltip": ""
+      "tooltip": "Specifies a second telephone number for the location or the same telephone number including the telephone country/region code.\nUse a standard format to enter the telephone number, so it will look uniform on printouts. For example:\n123 456 7890 or 12 3456 7890\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 5706,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number of the location.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 5707,

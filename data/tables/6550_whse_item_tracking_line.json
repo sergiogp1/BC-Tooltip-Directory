@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Item Tracking Lines window."
     },
     {
       "no": 2,
@@ -32,32 +32,32 @@
     {
       "no": 10,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 11,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the source subtype of the document that the warehouse item tracking line relates to.\nIf the item tracking line is created for a sales order line, for example, then the value in the field is copied from the Document Type field on the sales order line.\nIf the item tracking line is created for a production order, then the value is copied from the Status field on the production order.\nIf the item tracking line is created for a transfer order, then the field is set to 0 for an outbound transfer or 1 for an inbound transfer."
     },
     {
       "no": 12,
       "name": "Source ID",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 13,
       "name": "Source Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Item Tracking Lines window."
     },
     {
       "no": 14,
       "name": "Source Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 15,
       "name": "Source Ref. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 24,
@@ -67,7 +67,7 @@
     {
       "no": 29,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 40,
@@ -87,7 +87,7 @@
     {
       "no": 51,
       "name": "Qty. to Invoice (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 52,
@@ -97,22 +97,22 @@
     {
       "no": 53,
       "name": "Quantity Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Item Tracking Lines window."
     },
     {
       "no": 60,
       "name": "Qty. to Handle",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 70,
       "name": "Buffer Status",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 71,
       "name": "Buffer Status2",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 80,
@@ -127,27 +127,27 @@
     {
       "no": 90,
       "name": "Source Type Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 91,
       "name": "Qty. Registered (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units with the serial or lot number are registered in warehouse activities."
     },
     {
       "no": 92,
       "name": "Put-away Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field in the Item Tracking Lines window."
     },
     {
       "no": 93,
       "name": "Pick Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Item Tracking Lines window."
     },
     {
       "no": 94,
       "name": "Created by Whse. Activity Line",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5400,

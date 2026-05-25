@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -82,12 +82,12 @@
     {
       "no": 20,
       "name": "Due Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the due date filter for documents that are displayed in the Finance Cue on the Role Center."
     },
     {
       "no": 21,
       "name": "Overdue Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date filter for the overdue documents that are displayed in the Finance Cue on the Role Center. The documents are filtered by today's date."
     },
     {
       "no": 22,

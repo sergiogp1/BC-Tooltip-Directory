@@ -117,12 +117,12 @@
     {
       "no": 69,
       "name": "Add.-Currency Debit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the debit amount in additional reporting currency for cost accounting reports.\nIf you have set up the Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field is designed to show the debit amount in additional reporting currency for the Cost Types Details and Cost Acctg. Journal reports."
     },
     {
       "no": 70,
       "name": "Add.-Currency Credit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the credit amount in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field shows the credit amount in additional reporting currency for the Cost Types Details and Cost Acctg. Journal reports."
     }
   ]
 }

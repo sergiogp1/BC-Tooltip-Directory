@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the production order routing.\nThis field is filled in automatically by the system\nThe program uses this field internally."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the operation to which this entry refers.\nThis field is filled in automatically by the system.\nThe program uses this field internally."
     },
     {
       "no": 4,
@@ -27,22 +27,22 @@
     {
       "no": 21,
       "name": "Operation No.",
-      "tooltip": ""
+      "tooltip": "Specifies the operation number that the comment refers to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 22,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order that this routing tool is related to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 23,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order number that the routing tool is related to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 24,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nRefers to the routing number that is related to the production order line that uses the routing tool.\nThe field contains a zero when the routing line is related to a family order where more production order lines share the same routing."
     }
   ]
 }

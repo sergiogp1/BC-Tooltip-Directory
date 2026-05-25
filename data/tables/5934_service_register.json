@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code for the entry in the register. This code defines the origin of an entry (audit trails).\nThe corresponding source code is assigned to the register entry when a service invoice, service credit memo or service order is posted."
     },
     {
       "no": 8,

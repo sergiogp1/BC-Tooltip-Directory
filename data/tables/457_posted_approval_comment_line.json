@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\nYou cannot change the contents of this field."
     },
     {
       "no": 4,

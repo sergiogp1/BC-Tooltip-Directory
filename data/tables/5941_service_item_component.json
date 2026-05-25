@@ -52,7 +52,7 @@
     {
       "no": 13,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional description of the component.\nDepending on the value in the Type field, the program copies the description automatically from the Item or the Service Item table when you fill in the No. field."
     },
     {
       "no": 15,

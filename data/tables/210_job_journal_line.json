@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the relevant job journal template."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the journal line number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the job journal."
     },
     {
       "no": 3,
@@ -77,7 +77,7 @@
     {
       "no": 17,
       "name": "Resource Group No.",
-      "tooltip": ""
+      "tooltip": "Specifies the resource group code from the resource card if the line belongs to a resource."
     },
     {
       "no": 18,
@@ -102,12 +102,12 @@
     {
       "no": 22,
       "name": "Chargeable",
-      "tooltip": ""
+      "tooltip": "Indicates whether the usage you are posting for this job is chargeable or not."
     },
     {
       "no": 30,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the posting group assigned to the current entry. Depending on the account type in the Type field, the program fills in the field with the following information:\n\nType field\nPosting Group field\n\nItem\n\nThe inventory posting group\n\n\nResource\n\nThe field is left blank\n\n\nG/L Account\n\nThis field is left blank"
     },
     {
       "no": 31,
@@ -127,7 +127,7 @@
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the customer if the customer to whom the job will be billed, the Bill-to Customer, is assigned to a certain customer price group.\nThe program uses the code when entering the unit price for the item on the line. The program checks the Sales Price table to see whether the customers in the price group for the code should pay a different price from the one that has been entered in the Unit Price field on the item card."
     },
     {
       "no": 37,
@@ -142,22 +142,22 @@
     {
       "no": 61,
       "name": "Entry Type",
-      "tooltip": ""
+      "tooltip": "Specifies the entry type in the job journal as Usage if you enter job journals in the Job Journal window."
     },
     {
       "no": 62,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Identifies the source of the entry.\nThe field is filled in automatically."
     },
     {
       "no": 73,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the job journal batch associated with this entry.\nTo see the job batches that are available, choose the field."
     },
     {
       "no": 74,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that has been entered on the journal lines.\nA reason code can be anything that indicates where an entry originated.\nThe program automatically retrieves the code from the Reason Code field in the Job Journal Batch table.\nTo see the reason codes in the Reason Code table, choose the field."
     },
     {
       "no": 75,
@@ -202,7 +202,7 @@
     {
       "no": 86,
       "name": "Entry/Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code for either the port of entry at which the items passed into your country/region or the port of exit through which you shipped the items out of your country/region.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the entry/exit points that you can choose, choose the field."
     },
     {
       "no": 87,
@@ -217,47 +217,47 @@
     {
       "no": 89,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the code for an area of the customer or vendor associated with this journal line.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the area codes that you can choose in the Area table, choose the field."
     },
     {
       "no": 90,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the transaction specification that should be used in this journal line.\nTo see the transaction specification codes that have been set up in the Transaction Specification table, choose the field.\nThe code will be used in INTRASTAT reporting."
     },
     {
       "no": 91,
       "name": "Serial No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 92,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, choose the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will also be used on the posted line."
     },
     {
       "no": 93,
       "name": "Source Currency Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 94,
       "name": "Source Currency Total Cost",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 95,
       "name": "Source Currency Total Price",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 96,
       "name": "Source Currency Line Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 902,
@@ -307,7 +307,7 @@
     {
       "no": 1005,
       "name": "Job Posting Only",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1006,
@@ -332,7 +332,7 @@
     {
       "no": 1010,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Contains the current exchange rate between the job currency and the local currency.\n\nYou cannot change the contents of this field.\n\nWhen Currency Factor changes, the values of the Unit Cost, Unit Cost (LCY), Unit Price, and Unit Price (LCY) fields are updated.\n\nThis field is used internally."
     },
     {
       "no": 1011,
@@ -347,7 +347,7 @@
     {
       "no": 1013,
       "name": "Line Discount Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of the discount that applies to the journal line.\n\nYou cannot change the contents of this field.\n\nThe values of the Line Discount %, Quantity, and Unit Price (LCY) fields are used to calculate the amount."
     },
     {
       "no": 1014,
@@ -357,7 +357,7 @@
     {
       "no": 1015,
       "name": "Cost Factor",
-      "tooltip": ""
+      "tooltip": "Specifies a cost factor if a cost factor was set up for the resource, the item, or the general ledger account on the journal line. The unit price is determined for the line using the following formula: Unit Cost * Cost Factor = Unit Price.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1016,
@@ -367,12 +367,12 @@
     {
       "no": 1017,
       "name": "Ledger Entry Type",
-      "tooltip": ""
+      "tooltip": "Specifies the entry type of the job ledger entry associated with the journal.\n\nThis field is used internally."
     },
     {
       "no": 1018,
       "name": "Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the job ledger entry associated with the job journal.\n\nThis field is used internally."
     },
     {
       "no": 1019,
@@ -387,7 +387,7 @@
     {
       "no": 1031,
       "name": "Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Shows the quantity of the items, resources, costs, or G/L account payments that remains to complete a job, expresssed in the base unit of measure."
     },
     {
       "no": 1081,
@@ -407,22 +407,22 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of measure if the Type field contains Item and you have entered a quantity in the Qty. per Unit of Measure field in the Item Unit of Measure window, for this item. This field is automatically updated."
     },
     {
       "no": 5410,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The quantity in the field is the Quantity expressed in base units of measure."
     },
     {
       "no": 5468,
       "name": "Reserved Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many base units of the item on the line have been reserved."
     },
     {
       "no": 6501,
       "name": "Lot No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6515,

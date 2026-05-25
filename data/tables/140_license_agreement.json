@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
       "name": "Message for Accepting User",
-      "tooltip": ""
+      "tooltip": "Specifies a message for the user that accepts the license agreement."
     },
     {
       "no": 3,
       "name": "Effective Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which the license agreement was accepted."
     },
     {
       "no": 4,
       "name": "Effective Date Changed By",
-      "tooltip": ""
+      "tooltip": "Specifies the person who changed the effective date for the license."
     },
     {
       "no": 5,
       "name": "Effective Date Changed On",
-      "tooltip": ""
+      "tooltip": "Specifies the effective date that the license was changed."
     },
     {
       "no": 6,

@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the customer's telex number. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format for the telex number so that it will look uniform on printouts."
     },
     {
       "no": 11,
@@ -67,37 +67,37 @@
     {
       "no": 14,
       "name": "Our Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies your account number with the customer, if you have one. You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 15,
       "name": "Territory Code",
-      "tooltip": ""
+      "tooltip": "Specifies a territory code for the customer. To see the territory codes in the Territories window, click the field.\nYou can use this field to allocate customers to sales personnel. For example, select the code LND in the Territory Code field for all customers from London. Later, you will be able to set a filter so the program will display only the London customers. This will make it easier for salespeople assigned to London to get an overview of the customers there."
     },
     {
       "no": 16,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes you have set up for this dimension in the Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 17,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes you have set up for this dimension in the Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 18,
       "name": "Chain Name",
-      "tooltip": ""
+      "tooltip": "Specifies a code indicating the name of a chain or franchise group that the customer is part of. You can enter a maximum of 10 characters, both numbers and letters."
     },
     {
       "no": 19,
       "name": "Budgeted Amount",
-      "tooltip": ""
+      "tooltip": "Specifies a budget figure for the customer.\nYou cannot set up budgets for customers in the same way as you can for G/L accounts. Instead, you can enter one budget figure per customer in this field. This can represent, for example, the expected profit (LCY) or sales.\nThis field has no relationship to any budgets in the general ledger."
     },
     {
       "no": 20,
       "name": "Credit Limit (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the maximum amount by which you allow the customer to exceed the payment balance before warnings are issued.\nThis field is used to perform a test when you enter information in journals, quotes, orders, and invoices. It tests the sales header and individual sales lines to see whether the credit limit has been exceeded.\nYou can post even though the credit limit has been exceeded. If the field is left blank, there will be no credit limit for this customer.\nThis field can also be used to print a list of customers who have exceeded their credit limit."
     },
     {
       "no": 21,
@@ -157,7 +157,7 @@
     {
       "no": 32,
       "name": "Place of Export",
-      "tooltip": ""
+      "tooltip": "Specifies the place of export that will normally be used for this customer. You can enter a maximum of 20 characters, both numbers and letters.\nThe place of export must be declared on customs documents."
     },
     {
       "no": 33,
@@ -177,17 +177,17 @@
     {
       "no": 36,
       "name": "Collection Method",
-      "tooltip": ""
+      "tooltip": "Specifies the method you normally use to collect payment from this customer (an automated bill payment service, for example). You can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 37,
       "name": "Amount",
-      "tooltip": ""
+      "tooltip": "Specifies an amount that is billed periodically (a subscription price, for example)."
     },
     {
       "no": 38,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether any comments have been entered for this customer.\nComments can concern a particular shipment method or payment problems, for example.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 39,
@@ -197,7 +197,7 @@
     {
       "no": 40,
       "name": "Invoice Copies",
-      "tooltip": ""
+      "tooltip": "Specifies how many copies of a sales invoice for the customer will be printed at a time. For example, enter 2 if you always keep a copy in your files in addition to the one that you send to the customer.\nYou can use this field for customers that are located abroad, for example. When you export, extra copies of the printouts are always needed for customs clearance."
     },
     {
       "no": 41,
@@ -247,22 +247,22 @@
     {
       "no": 55,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains the starting and ending dates for a data interval, then other field values only show information for that interval. For example, the Net Change field shows the net change for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 56,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension so that fields such as Balance (LCY) will display the balance only for entries that relate to dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 57,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension so that fields such as Balance (LCY) will display the balance only for entries that relate to dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 58,
       "name": "Balance",
-      "tooltip": ""
+      "tooltip": "Shows the customer's current balance. If you invoice a customer in more than one currency, this balance will be the sum of entries in different currencies. In this case, you will need to filter the entries that make up the balance by using a currency filter.\nYou can filter the Balance field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or currencies.\nThe program automatically calculates and updates the contents of the field using the entries in the Amount field in the Cust. Ledger Entry table.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 59,
@@ -272,12 +272,12 @@
     {
       "no": 60,
       "name": "Net Change",
-      "tooltip": ""
+      "tooltip": "Shows the net change on the customer's account for the period entered in the Date Filter field. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Net Change field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, dates and/or currencies.\nThe program automatically calculates and updates the contents of the field using the entries in the Amount field in the Cust. Ledger Entry table.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 61,
       "name": "Net Change (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the net change on the customer's account for the period entered in the Date Filter field in LCY.\nThe program automatically calculates and updates the contents of the field using the entries in the Amount (LCY) field in the Cust. Ledger Entry table.\nYou can filter the Net Change (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 62,
@@ -287,22 +287,22 @@
     {
       "no": 63,
       "name": "Profit (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the profit in LCY.\nThe profit is calculated after invoicing as follows:\nUnit Price - Unit Cost\nThe program automatically calculates and updates the contents of the field using the entries in the Profit (LCY) field in the Cust. Ledger Entry table.\nYou can filter the Profit (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 64,
       "name": "Inv. Discounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total invoice discount granted to the customer in LCY.\nThe program automatically calculates and updates the contents of the field using the entries in the Inv. Discount (LCY) field in the Cust. Ledger Entry table.\nYou can filter the Inv. Discounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 65,
       "name": "Pmt. Discounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total payment discount granted to the customer in LCY.\nThe program automatically calculates and updates the contents of the field using the entries in the Pmt. Disc. Given (LCY) field in the Cust. Ledger Entry table.\nYou can filter the Pmt. Discounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 66,
       "name": "Balance Due",
-      "tooltip": ""
+      "tooltip": "Shows the balance due from this customer. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Balance Due field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, dates and/or currencies.\nThe program automatically calculates and updates the contents of the field using the entries in the Remaining Amount field in the Cust. Ledger Entry table.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 67,
@@ -312,22 +312,22 @@
     {
       "no": 69,
       "name": "Payments",
-      "tooltip": ""
+      "tooltip": "Shows the amount that this customer has paid. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Payments field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, dates and/or currencies.\nThe program automatically calculates and updates the contents of the field using those entries in the Amount field in the Cust. Ledger Entry table where the document type is Payment.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 70,
       "name": "Invoice Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the amount this customer has been invoiced for. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Invoice Amounts field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using those entries in the Amount field in the Cust. Ledger Entry table where the document type is Invoice.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 71,
       "name": "Cr. Memo Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of credit memos issued to this customer. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Cr. Memo Amounts field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using those entries in the Amount field in the Cust. Ledger Entry table where the document type is Credit Memo.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 72,
       "name": "Finance Charge Memo Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of finance charges that have been posted to the customer's account. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Finance Charge Memo Amounts field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using those entries in the Amount field in the Cust. Ledger Entry table where the document type is Finance Charge Memo.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 74,
@@ -337,27 +337,27 @@
     {
       "no": 75,
       "name": "Inv. Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount that has been invoiced to this customer in LCY.\nThe program automatically calculates and updates the contents of the field using those entries in the Original Amt. (LCY) field in the Cust. Ledger Entry table where the document type is Invoice.\nYou can filter the Inv. Amounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 76,
       "name": "Cr. Memo Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of credit memos issued to the customer in LCY.\nThe program automatically calculates and updates the contents of the field using those entries in the Original Amt. (LCY) field in the Cust. Ledger Entry table where the document type is Credit Memo.\nYou can filter the Cr. Memo Amounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 77,
       "name": "Fin. Charge Memo Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the amount of the finance charges that have been posted to the customer's account in LCY.\nThe program automatically calculates and updates the contents of the field using those entries in the Original Amt. (LCY) field in the Cust. Ledger Entry table where the document type is Finance Charge Memo.\nYou can filter the Fin. Charge Memo Amounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 78,
       "name": "Outstanding Orders",
-      "tooltip": ""
+      "tooltip": "Shows the sum of the customer's outstanding orders. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Outstanding Orders field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using those entries in the Outstanding Amount field in the Sales Line table where the document type is Order.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 79,
       "name": "Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Shows the amount that has been shipped to this customer but not yet invoiced. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Amt. Shipped Not Invoiced field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using those entries in the Shipped Not Invoiced field in the Sales Line table where the document type is Order.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 80,
@@ -382,7 +382,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the customer's telex answer back code. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format for the telex answer back code so that it will look uniform on printouts."
     },
     {
       "no": 86,
@@ -427,22 +427,22 @@
     {
       "no": 97,
       "name": "Debit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the debit entries that have been posted to the customer's account. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Debit Amount field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nTo see the ledger entries that make up the debit amount, click the field."
     },
     {
       "no": 98,
       "name": "Credit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the credit entries that have been posted to the customer's account. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Credit Amount field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nTo see the ledger entries that make up the credit amount, click the field."
     },
     {
       "no": 99,
       "name": "Debit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the debit entries (in LCY) that have been posted to the customer account.\nTo see the ledger entries that make up the debit amount (in LCY), click the field."
     },
     {
       "no": 100,
       "name": "Credit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the credit entries (in LCY) that have been posted to the customer account.\nTo see the ledger entries that make up the credit amount (in LCY), click the field."
     },
     {
       "no": 102,
@@ -462,17 +462,17 @@
     {
       "no": 105,
       "name": "Reminder Amounts",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of interest and additional fees that have been posted from reminders to the customer's account. If you invoice a customer in more than one currency, this amount will include different currencies. In this case, you will need to filter the amount by using a currency filter.\nYou can filter the Reminder Amounts field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values, currencies and/or dates.\nThe program automatically calculates and updates the contents of the field using the Amount field for those entries in the Cust. Ledger Entry table where the document type is Reminder.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 106,
       "name": "Reminder Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total amount of interest and additional fees that have been posted from reminders to the customer's account in LCY.\nThe program automatically calculates and updates the contents of the field using those entries in the Original Amt. (LCY) field in the Cust. Ledger Entry table where the document type is Reminder.\nYou can filter the Reminder Amounts (LCY) field so that its contents are based only on certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the customer ledger entries that make up the amount shown, click the field."
     },
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the customer's number."
     },
     {
       "no": 108,
@@ -492,7 +492,7 @@
     {
       "no": 111,
       "name": "Currency Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a currency filter so that the amounts in the Balance, Net Change, Balance Due and other FlowField fields contain entries in one or more currencies.\nTo see the currency codes in the Currencies window, click the field."
     },
     {
       "no": 113,
@@ -517,12 +517,12 @@
     {
       "no": 117,
       "name": "Pmt. Disc. Tolerance (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the payment amount in LCY that must be paid to get the payment discount on payments that are past the payment discount date."
     },
     {
       "no": 118,
       "name": "Pmt. Tolerance (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of outstanding payment in LCY that is required to meet the payment tolerance conditions.\n\nAdditional Information\n\nYou can use payment tolerance so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed as follows:\n\nIf the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry.\n\n\nIf the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry."
     },
     {
       "no": 119,
@@ -532,7 +532,7 @@
     {
       "no": 120,
       "name": "Refunds",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of transactions with document type Refund."
     },
     {
       "no": 121,
@@ -542,12 +542,12 @@
     {
       "no": 122,
       "name": "Other Amounts",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of transactions where no document type is defined."
     },
     {
       "no": 123,
       "name": "Other Amounts (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum in LCY of transactions where no document type is defined."
     },
     {
       "no": 124,
@@ -562,17 +562,17 @@
     {
       "no": 126,
       "name": "Outstanding Invoices",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the customer's outstanding sales invoices.\nThe sum is calculated and updated based on values in the Outstanding Amount field on sales lines for the customer."
     },
     {
       "no": 130,
       "name": "Bill-to No. Of Archived Doc.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of archived sales orders that have been registered for the customer when the customer acts as the bill-to customer."
     },
     {
       "no": 131,
       "name": "Sell-to No. Of Archived Doc.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of archived sales orders that have been registered for the customer when the customer acts as the sell-to customer."
     },
     {
       "no": 132,
@@ -727,7 +727,7 @@
     {
       "no": 7181,
       "name": "No. of Ship-to Addresses",
-      "tooltip": ""
+      "tooltip": "Specifies the number of ship-to addresses that have been registered for the customer."
     },
     {
       "no": 7182,

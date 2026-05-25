@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the table number of the source table for this line."
     },
     {
       "no": 4,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the line relates."
     },
     {
       "no": 6,
@@ -122,7 +122,7 @@
     {
       "no": 45,
       "name": "Shipment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment date of the warehouse shipment. The program copies it from the posted source document line."
     },
     {
       "no": 50,
@@ -147,17 +147,17 @@
     {
       "no": 62,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Contains the posting date, which the program copies from the posted source document line."
     },
     {
       "no": 63,
       "name": "Whse. Shipment No.",
-      "tooltip": ""
+      "tooltip": "Specifies document number of the warehouse shipment from which the line originates."
     },
     {
       "no": 64,
       "name": "Whse Shipment Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies document line number of the warehouse shipment line from which the line originates."
     }
   ]
 }

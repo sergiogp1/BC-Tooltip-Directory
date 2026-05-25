@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -72,7 +72,7 @@
     {
       "no": 14,
       "name": "Serv Ord Post",
-      "tooltip": ""
+      "tooltip": "Contains the code of the interaction template to use when recording posted service orders as interactions.\nIf you want the program to record posted service orders in the Interaction Log Entry table, you must enter the code for the relevant interaction template in this field."
     },
     {
       "no": 15,

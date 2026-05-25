@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the line on the posted document that corresponds to the service ledger entry. This enables the link of the ledger entry with the appropriate posted document line."
     },
     {
       "no": 8,
@@ -97,7 +97,7 @@
     {
       "no": 21,
       "name": "Variant Code (Serviced)",
-      "tooltip": ""
+      "tooltip": "Contains the variant code for the serviced item linked to this entry.\nDepending on where you post from, the program copies the variant code (serviced) from the Variant Code field in the Service Item Line table or the Variant Code field in the Service Item table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 22,
@@ -202,12 +202,12 @@
     {
       "no": 44,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Contains the unit of measure code for the entry.\nThe program copies the unit of measure from the Unit of Measure field in the Service Line table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 45,
       "name": "Work Type Code",
-      "tooltip": ""
+      "tooltip": "Contains the work type code for the entry.\nThe program copies the work type code from the Work Type Code field in the Service Line table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 46,
@@ -217,12 +217,12 @@
     {
       "no": 47,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains the responsibility center linked to this entry.\nThe program copies the contents of this field from the Responsibility Center field in the Service Header table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 48,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Contains the variant code of the item linked to the entry.\nThe program copies the variant code from the Variant Code field in the Service Line table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 50,
@@ -237,12 +237,12 @@
     {
       "no": 52,
       "name": "Serv. Price Adjmt. Gr. Code",
-      "tooltip": ""
+      "tooltip": "Contains the service price adjustment group code for the entry. The program copies the service price adjustment group code from the Serv. Price Adjmt. Gr. Code field in the Service Item Line table.\nYou cannot change the contents of this field because the service ledger entry has already been posted."
     },
     {
       "no": 53,
       "name": "Service Price Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the service price group that the service item linked with this entry belongs to.\nThe program automatically copies the code from the Service Price Group Code field in the Service Item Line table."
     },
     {
       "no": 54,
@@ -252,7 +252,7 @@
     {
       "no": 55,
       "name": "Apply Until Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the last service ledger entry that the given service shipment, invoice, credit memo or the service contract is applied to. You cannot change the contents of this field because the entry has already been posted."
     },
     {
       "no": 56,
@@ -277,7 +277,7 @@
     {
       "no": 60,
       "name": "Job Posted",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned the job ledger entry that is linked to the current service ledger entry. The program retrieves the value from the Entry No. field in the Job Ledger Entry table."
     },
     {
       "no": 61,

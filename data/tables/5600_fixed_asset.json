@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional description for the fixed asset. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 5,
@@ -37,17 +37,17 @@
     {
       "no": 7,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the IC Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal."
     },
     {
       "no": 8,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the IC Dimension Values window, click the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal."
     },
     {
       "no": 9,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the location of the fixed asset. Location codes can be used to identify different warehouses, for example. You can enter a maximum of 10 characters, both numbers and letters. You can also use the FA Location Code field, designed specifically for fixed assets, to register the location of the fixed asset.\nTo see the location codes in the Location table, click the field."
     },
     {
       "no": 10,
@@ -102,7 +102,7 @@
     {
       "no": 20,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether any comments have been entered for this fixed asset.\nTo view a comment or create a new one, click Related Information, point to Fixed Asset, and then click Comment. A comment sheet window will appear, in which you can see the existing comments and create new ones. See also the Comment Line window.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 21,
@@ -132,17 +132,17 @@
     {
       "no": 27,
       "name": "FA Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Defines a filter to see entries for a certain fixed asset posting date.\nIf this field contains the starting and ending dates for a time period, various reports and statistics windows will display amounts for the fixed asset in that time period only.\nYou can enter a date or a time interval. There are special rules for how they should be entered:\n\nMeaning\nSample Expression\nEntries Included\n\nEqual to\n\n12 15 00\n\nOnly those posted on 12 15 00.\n\n\nInterval\n\n12 15 00..01 15 01\n..12 15 00\n\nThose posted on dates between and including 12 15 00 and 01 15 01.\nThose posted on 12 15 00 or earlier.\n\n\nEither/or\n\n12 15 00|12 16 00\n\nThose posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.\n\n\nYou can also combine the various format types:\n\nSample Expression\nEntries Included\n\n12 15 00|12 01 00..12 10 00\n\nEntries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.\n\n\n..12 14 00|12 30 00..\n\nEntries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00."
     },
     {
       "no": 28,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign the fixed asset's number."
     },
     {
       "no": 29,
       "name": "FA Posting Group",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 30,

@@ -27,12 +27,12 @@
     {
       "no": 7,
       "name": "Posting Report ID",
-      "tooltip": ""
+      "tooltip": "Specifies the posting report that is printed when you choose Posting, then Post and Print. The field is automatically filled in with the standard posting report that comes with Microsoft Dynamics NAV 2013 R2. You can see the posting reports that are available in the field."
     },
     {
       "no": 8,
       "name": "Posting Report Caption",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the report that is printed when you print the cost journal."
     }
   ]
 }

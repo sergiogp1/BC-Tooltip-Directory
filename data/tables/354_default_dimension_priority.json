@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code for the entry table to which default dimension priorities will apply. To select among the available source codes, choose the field."
     },
     {
       "no": 2,

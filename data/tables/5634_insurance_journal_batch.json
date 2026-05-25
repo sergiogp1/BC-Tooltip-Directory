@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Displays the name of the journal template under which the journal batch is created.\nWhen you create a new journal batch, the program automatically retrieves the name from the Name field in the Insurance Journal Template table."
     },
     {
       "no": 2,

@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Adjustment Bin",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 10,
@@ -72,12 +72,12 @@
     {
       "no": 32,
       "name": "Item Filter",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 33,
       "name": "Variant Filter",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 34,

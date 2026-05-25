@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Segment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the segment to which the interaction language applies."
     },
     {
       "no": 2,
       "name": "Segment Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 3,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Attachment No.",
-      "tooltip": ""
+      "tooltip": "Specifies where the attachment is stored."
     },
     {
       "no": 6,

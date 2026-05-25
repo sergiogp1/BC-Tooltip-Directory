@@ -27,7 +27,7 @@
     {
       "no": 11,
       "name": "Your Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's reference. The contents will be printed on purchase documents."
     },
     {
       "no": 13,
@@ -42,7 +42,7 @@
     {
       "no": 16,
       "name": "Ship-to Address 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the address to which you want the items in the purchase order to be shipped."
     },
     {
       "no": 17,
@@ -57,7 +57,7 @@
     {
       "no": 21,
       "name": "Expected Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date you expect to receive the order.\nThe program will copy the date to all the purchase lines created under the header, but you can change it on individual lines. When you change the expected date on the purchase header, the date on the lines can be changed.\nThe date affects the item availability (that you can see by choosing Item, Availability on the item card), which is automatically updated to show the available inventory."
     },
     {
       "no": 24,
@@ -82,27 +82,27 @@
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies whether the unit price on the line should be displayed including or excluding VAT.\nIf the field is blank, the unit price will be shown without VAT.\nClick the field to insert a check mark if you want to see the unit price including VAT."
     },
     {
       "no": 68,
       "name": "Vendor Invoice No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that the vendor uses for the invoice you are creating in this purchase invoice header.\nYou can then use the number later if, for some reason, you need to search for the posted purchase line using the vendor's number for the document."
     },
     {
       "no": 69,
       "name": "Vendor Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that the vendor uses for the credit memo you are creating in this purchase credit memo header.\nYou can then use the number later if, for some reason, you need to search for the posted purchase line using the vendor's number for the document."
     },
     {
       "no": 72,
       "name": "Sell-to Customer No.",
-      "tooltip": ""
+      "tooltip": "You use this field only when there is a drop shipment.\nEnter the number of the customer who will have the item shipped directly from your vendor.\nTo see the customer numbers that have been set up in the Customer table, click the field.\nWhen you have entered the customer number, the program will automatically fill in the other fields that relate to drop shipments. These are the Ship-to Name, Ship-to Name 2, Ship-to Address, Ship-to Address 2, Ship-to City and Ship-to Contact fields.\nIf the customer has several ship-to addresses, you can specify one of them in the Ship-to Code field.\nWhen the customer number is entered in the field, you can choose Functions, Drop Shipment, Get Sales Order from the purchase lines. The program displays a list of all the orders from this customer, and you can choose the ones that will be drop shipments."
     },
     {
       "no": 91,
       "name": "Ship-to Post Code",
-      "tooltip": ""
+      "tooltip": "Specifies the post code of the shipping address."
     },
     {
       "no": 92,
@@ -142,7 +142,7 @@
     {
       "no": 5790,
       "name": "Requested Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date you asked the vendor to deliver the order to the ship-to address."
     },
     {
       "no": 5791,

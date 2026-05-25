@@ -47,12 +47,12 @@
     {
       "no": 10,
       "name": "Selected",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
       "name": "Phys Invt Counting Period Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the physical inventory counting period used on the line is assigned to the stockkeeping unit (SKU) or to the item."
     },
     {
       "no": 12,

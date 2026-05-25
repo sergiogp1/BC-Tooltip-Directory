@@ -37,12 +37,12 @@
     {
       "no": 8,
       "name": "Variant Code (Serviced)",
-      "tooltip": ""
+      "tooltip": "Contains the variant code of the serviced item linked to this entry.\nThe program copies the code from the Variant Code field in the Service Item Line table when you post the service order."
     },
     {
       "no": 9,
       "name": "Service Item No. (Serviced)",
-      "tooltip": ""
+      "tooltip": "Contains the service item number of the serviced item linked to this entry.\nThe program copies the number from the Service Item No. field in the Service Item Line table when you post the service order."
     },
     {
       "no": 10,
@@ -77,7 +77,7 @@
     {
       "no": 16,
       "name": "Fault Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the fault area code of the service line linked to this entry.\nThe program copies the code from the Amount field in the Service Line table when you post the service order."
     },
     {
       "no": 17,
@@ -132,12 +132,12 @@
     {
       "no": 29,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the general business posting group on the service line linked to this entry.\nThe program copies the code from the Gen. Bus. Posting Group field in the Service Line table when you post the service order."
     },
     {
       "no": 30,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the general product posting group code on the service line linked to this entry.\nThe program copies the code from the Gen. Prod. Posting Group field in the Service Line table when you post the service order."
     },
     {
       "no": 31,
@@ -167,12 +167,12 @@
     {
       "no": 38,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Contains the variant code of the item on the service line linked to this entry.\nThe program copies the code from the Variant Code field in the Service Line table when you post the service order."
     },
     {
       "no": 39,
       "name": "Service Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the service order that created the warranty ledger entry."
     },
     {
       "no": 480,

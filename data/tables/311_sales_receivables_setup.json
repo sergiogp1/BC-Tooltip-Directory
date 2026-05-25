@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -187,7 +187,7 @@
     {
       "no": 40,
       "name": "Job Queue Priority for Post",
-      "tooltip": ""
+      "tooltip": "Specifies the priority of the job queue when you run it in the context of background posting. In the Sales & Receivables Setup window, you can set different priorities for the post and post and print settings. The default setting is 1000."
     },
     {
       "no": 41,
@@ -197,7 +197,7 @@
     {
       "no": 42,
       "name": "Job Q. Prio. for Post & Print",
-      "tooltip": ""
+      "tooltip": "Specifies the priority of the job queue when you run it in the context of background posting. In the Sales & Receivables Setup window, you can set different priorities for the post and post and print settings. The default setting is 1000."
     },
     {
       "no": 43,

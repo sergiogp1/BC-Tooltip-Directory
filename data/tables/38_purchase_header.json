@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that you are about to create.\nThe purchase header forms the basis for all the document types related to the Purchase & Payables application area that have not yet been posted, so the program must label what it is you are setting up, for example, an invoice or credit memo.\nThe program automatically fills in this field based on what you have chosen on the Purchases & Payables menu."
     },
     {
       "no": 2,
@@ -167,7 +167,7 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 35,
@@ -177,7 +177,7 @@
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that will be used to find the invoice discount you receive from the vendor.\nThe Invoice Disc. Code is retrieved from the Vendor table when you fill in the Pay-to Vendor No. field.\nThe invoice discount will be based on the total invoice amount, but it will be allocated to the lines relative to the amount on each. The discountamount is calculated when you choose the Calculate Invoice Discount. For more information, see Calculating Invoice Discounts on Purchases.\nIf there is a check mark in the Calc. Inv. Discount field in the Purchases & Payables Setup window, the amount will be calculated automatically. For more information about when automatic calculation occurs, see Calc. Inv. Discount."
     },
     {
       "no": 41,
@@ -197,17 +197,17 @@
     {
       "no": 45,
       "name": "Order Class",
-      "tooltip": ""
+      "tooltip": "Specifies a number which can later be used for statistical purposes.\nThis field is not used elsewhere in the program."
     },
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this purchase header.\nTo view a comment or create a new one, click Related Information, point to Order, and then click Comments. The Purch. Comment Sheet window will appear. You can see the existing comments and create new ones.\nIf you are in a quote, invoice or credit memo, the name of the menu option will be Quote, Invoice or Credit Memo instead of Order.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 47,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies how many times a quote or order has been printed.\nWhen a quote is changed to an order, this field is set to 0."
     },
     {
       "no": 51,
@@ -227,7 +227,7 @@
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a general ledger account or the bank account that the invoice should be offset against (for cash purchases, for example). Which account type you can choose, is decided in the field Bal. Account Type.\nYou can also use a search name to enter an account. If you want to enter the cash account, for example, but cannot remember the account number, you can enter the word \"cash\" and press ENTER. The program will enter the correct account number. This assumes that you have set up a search name for the account."
     },
     {
       "no": 56,
@@ -237,17 +237,17 @@
     {
       "no": 57,
       "name": "Receive",
-      "tooltip": ""
+      "tooltip": "Specifies if quantities on the purchase document have been posted as received.\nThe field contains Yes if the value in the Quantity Received field is higher than zero.\nThe field is used internally to signal that warehouse activities, such as a put-away, can start."
     },
     {
       "no": 58,
       "name": "Invoice",
-      "tooltip": ""
+      "tooltip": "Uses this field when posting."
     },
     {
       "no": 59,
       "name": "Print Posted Documents",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 60,
@@ -262,22 +262,22 @@
     {
       "no": 62,
       "name": "Receiving No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the receipt when the purchase header is posted.\nWhen you post the purchase header, the program will automatically use the next number from the number series in the Receiving No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 63,
       "name": "Posting No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the posted invoice or credit memo that will be created if you post the purchase header.\nWhen you post the purchase header, the program will automatically enter the next number from the number series in the Posting No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 64,
       "name": "Last Receiving No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted receipt number that was used."
     },
     {
       "no": 65,
       "name": "Last Posting No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted invoice number that was used."
     },
     {
       "no": 66,
@@ -302,7 +302,7 @@
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's VAT registration number.\nThe program automatically retrieves the number from the Vendor table when you fill in the Buy-from Vendor No. field. The field is blank if no VAT registration number has been entered on the vendor's card.\nThis number is required if you must report EU VAT.\nNormally, you should not change the contents of this field."
     },
     {
       "no": 72,
@@ -317,7 +317,7 @@
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group of the vendor.\nThe program automatically retrieves the code from the Vendor table when you fill in the Buy-from Vendor No. field.\nThe code specifies to which general business posting group this particular vendor belongs. The general business posting groups can be set up to group vendors by geographical area (Domestic, EU countries/regions, Overseas, and so on), type of business, or to distinguish between private entities and governmental agencies.\nThe program uses the business code, together with the Gen. Product Posting Group and Gen. Posting Type fields, to determine certain trade conditions. When you post transactions that involve this vendor, the program looks for the business code, in combination with the general product posting group code, in the General Posting Setup, where the G/L accounts to which the program posts purchases, discount amounts, COGS and inventory adjustments are specified.\nTo see the general business posting groups in the Gen. Business Posting Group table, click the field.\nNormally, you should not change the contents of this field but it may be necessary in special cases where the default code is not appropriate."
     },
     {
       "no": 76,
@@ -332,7 +332,7 @@
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's VAT country/region code.\nThe program automatically retrieves the country/region code from the Vendor table when you fill in the Buy-from Vendor No. field.\nInformation about the country/region code will be used for INTRASTAT and EU-VAT reporting.\nThe country/region codes are set up in the Country/Region table."
     },
     {
       "no": 79,
@@ -412,7 +412,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of balancing account used in this document.\nTo see the two possible account types, click the field. You can choose G/L Account or Bank Account. The balancing account type determines which accounts can be entered in the Bal. Account No. field."
     },
     {
       "no": 95,
@@ -452,17 +452,17 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the purchase document's number."
     },
     {
       "no": 108,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the purchase document when it is posted.\nThe program automatically copied the number series code from the relevant field in the Purchases & Payables Setup table:\n\nIf the document is an invoice, order or quote, the program copied the number series code from the Posted Invoice Nos. field.\n\n\nIf the document is a credit memo, the program copied the number series code from the Posted Credit Memo Nos. field."
     },
     {
       "no": 109,
       "name": "Receiving No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the receipt that will be created from the purchase document.\nThe program automatically copied the number series code from the Posted Receipt Nos. field in the Purchases & Payables Setup table. You can change the code."
     },
     {
       "no": 114,
@@ -487,7 +487,7 @@
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 120,
@@ -497,32 +497,32 @@
     {
       "no": 121,
       "name": "Invoice Discount Calculation",
-      "tooltip": ""
+      "tooltip": "Specifies how to calculate the discount for an invoice. You can select from the following options by clicking the field:\n\nOption\n\nMeaning\n\n\nNone\n\nThe program will not calculate an invoice discount.\n\n\n%\n\nThe program will calculate the invoice discount as a percentage of the invoice amount.\n\n\nAmount\n\nThe program will calculate the invoice discount by subtracting a specified amount from the invoice amount."
     },
     {
       "no": 122,
       "name": "Invoice Discount Value",
-      "tooltip": ""
+      "tooltip": "Specifies the value by the invoice discount calculation method you chose in the Invoice Discount Calculation field.\nIf you chose the option None, the field will be empty.\nIf you chose %, this field will display the percentage that the program will use to calculate the invoice discount.\nIf you chose Amount, this field will display the amount that the program will use to calculate the invoice discount."
     },
     {
       "no": 123,
       "name": "Send IC Document",
-      "tooltip": ""
+      "tooltip": "Specifies that an intercompany transaction is created in the intercompany outbox when you post the document or use the Send IC Document function."
     },
     {
       "no": 124,
       "name": "IC Status",
-      "tooltip": ""
+      "tooltip": "Specifies whether a copy of the document has been created in the intercompany outbox.\nThe field can have the following values.\n\n\nStatus\n\n\nDescription\n\n\nNew\n\nThere is no copy of the document in the outbox.\n\n\nqu\n\n\nThere is a copy of the document in the outbox. It has not been sent yet.\n\n\nSent\n\nA copy of the document has been sent from the outbox."
     },
     {
       "no": 125,
       "name": "Buy-from IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the buy-from vendor's intercompany partner code if the vendor on the document is an intercompany partner.\nIf the field contains an intercompany partner code, then the document is an intercompany document. A copy of the document will be sent to the intercompany outbox if the Send IC Document field contains a check mark. Furthermore, when you post the document, the resulting entries will be marked as intercompany entries."
     },
     {
       "no": 126,
       "name": "Pay-to IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the pay-to vendor's intercompany partner code if the pay-to vendor on the document is an intercompany partner.\nIf the field contains an intercompany partner code, then the document is an intercompany document. A copy of the document will be sent to the intercompany outbox if the Send IC Document field contains a check mark. Furthermore, when you post the document, the resulting entries will be marked as intercompany entries."
     },
     {
       "no": 127,
@@ -532,27 +532,27 @@
     {
       "no": 129,
       "name": "IC Direction",
-      "tooltip": ""
+      "tooltip": "Specifies whether you are sending the document to an intercompany partner or whether you received the document from an intercompany partner if the document is an intercompany document. Sending a document is outgoing and receiving a document is incoming."
     },
     {
       "no": 130,
       "name": "Prepayment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the posted prepayment invoice for this purchase order.\nWhen you post the purchase prepayment invoice, the program will automatically use the next number from the number series in the Posted Prepmt. Invoice Nos. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 131,
       "name": "Last Prepayment No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted prepayment invoice number that was used for this purchase order."
     },
     {
       "no": 132,
       "name": "Prepmt. Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the posted prepayment credit memo for this purchase order.\nWhen you post the purchase prepayment credit memo, the program will automatically use the next number from the number series in the Posted Prepmt. Cr. Memo Nos. field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 133,
       "name": "Last Prepmt. Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted prepayment credit memo number that was used for this purchase order."
     },
     {
       "no": 134,
@@ -562,7 +562,7 @@
     {
       "no": 135,
       "name": "Prepayment No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to prepayment invoices posted from this purchase order\nThe program automatically copies the number series code from the Posted Prepmt. Invoice Nos. field in the Purchases & Payables Setup table."
     },
     {
       "no": 136,
@@ -577,12 +577,12 @@
     {
       "no": 138,
       "name": "Prepmt. Cr. Memo No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to prepayment credit memos posted from this purchase order.\nThe program automatically copies the number series code from the Posted Prepmt. Cr. Memo Nos. field in the Purchases & Payables Setup table."
     },
     {
       "no": 139,
       "name": "Prepmt. Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies the posting description that you want to use on the entries that will be created when you post a prepayment invoice for this purchase order.\nIf you leave the field blank, the description on the posted entries will be \"Prepayment Invoice, Order\" and the order number that the prepayment invoice is valid for.\nThe posting description appears on vendor and G/L entries."
     },
     {
       "no": 142,
@@ -612,7 +612,7 @@
     {
       "no": 161,
       "name": "Job Queue Entry ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the job queue entry."
     },
     {
       "no": 165,
@@ -667,7 +667,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1000,
@@ -677,7 +677,7 @@
     {
       "no": 1305,
       "name": "Invoice Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that is calculated and shown in the Invoice Discount Amount field at the bottom of purchase invoices and posted purchase invoices.\nSpecifies the amount that is deducted from the value shown in the Total Amount Incl. VAT field.\nIf you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the Vendor Invoice Discount % field if the criteria are met. The calculated discount amount is inserted in the Invoice Discount Amount field, but you can change it manually. For more information, see How to: Set Up Invoice Discount Terms."
     },
     {
       "no": 5043,
@@ -687,7 +687,7 @@
     {
       "no": 5048,
       "name": "Doc. No. Occurrence",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times the \"No.\" value has been used in the number series.\nThis number, in combination with the document number, ensures that you always maintain a unique number for the archived document. This is convenient if, for example, you have changed the number series and, as a result, a conflict of numbers arises."
     },
     {
       "no": 5050,
@@ -732,12 +732,12 @@
     {
       "no": 5753,
       "name": "Posting from Whse. Ref.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5754,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the location filter."
     },
     {
       "no": 5755,
@@ -767,7 +767,7 @@
     {
       "no": 5796,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date or time interval that values in quantity or amount fields are filtered by.\nIf this field contains starting and ending dates for a time interval, then the values in the quantity and amount fields will display the net change during that interval.\nEnter a date or a time interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 5800,
@@ -777,22 +777,22 @@
     {
       "no": 5801,
       "name": "Return Shipment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned to the return shipment when you post the purchase order.\nThe number is copied from the Return Shipment No. field on the purchase order line that represents the return shipment."
     },
     {
       "no": 5802,
       "name": "Return Shipment No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that will be used to assign a number to the return shipment that will be created from the purchase document.\nThe program automatically copies the number series code from the Posted Return Shpt. Nos. field in the Purchases & Payables Setup table. You can change the code."
     },
     {
       "no": 5803,
       "name": "Ship",
-      "tooltip": ""
+      "tooltip": "Uses this field when posting."
     },
     {
       "no": 5804,
       "name": "Last Return Shipment No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Tracks the last posted return shipment number that was used."
     },
     {
       "no": 5850,

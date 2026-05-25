@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Transfer-from County",
-      "tooltip": ""
+      "tooltip": "Contains the county of the location that you are transferring items from.\nThe program copies the contents of this field from the transfer order."
     },
     {
       "no": 10,
       "name": "Trsf.-from Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code of the location address from which items are transferred.\nThe program copies the contents of this field from the transfer order."
     },
     {
       "no": 11,
@@ -82,7 +82,7 @@
     {
       "no": 16,
       "name": "Transfer-to Post Code",
-      "tooltip": ""
+      "tooltip": "Contains the post code of the location that you are transferring items to.\nThe program copies the contents of this field from the transfer order."
     },
     {
       "no": 17,
@@ -92,12 +92,12 @@
     {
       "no": 18,
       "name": "Transfer-to County",
-      "tooltip": ""
+      "tooltip": "Contains the county of the location that you are transferring items to.\nThe program copies the contents of this field from the transfer order."
     },
     {
       "no": 19,
       "name": "Trsf.-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code of the location address that you are transferring items to.\nThe program copies the contents of this field from the transfer order."
     },
     {
       "no": 20,
@@ -112,7 +112,7 @@
     {
       "no": 22,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that a comment exists about this transfer."
     },
     {
       "no": 23,
@@ -132,7 +132,7 @@
     {
       "no": 26,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign the shipment number."
     },
     {
       "no": 27,
@@ -162,7 +162,7 @@
     {
       "no": 32,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the external document that relates to this transfer shipment.\nThe program copies the contents of this field from the External Document No. field on the transfer order."
     },
     {
       "no": 33,
@@ -217,7 +217,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

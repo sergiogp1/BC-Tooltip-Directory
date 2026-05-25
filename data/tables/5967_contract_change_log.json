@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Contract Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the service contract. There are two options: Quote or Contract.\nThe program copies the contents of this field from the Contract Type field in the Service Contract table."
     },
     {
       "no": 2,
       "name": "Contract No.",
-      "tooltip": ""
+      "tooltip": "Contains the contract number to which the contract change log is linked.\nThe program copies the contents of this field from the Contract No. field in the Service Contract table."
     },
     {
       "no": 3,
       "name": "Change No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program has assigned to the change entry."
     },
     {
       "no": 4,

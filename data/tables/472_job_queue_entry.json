@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID, which is the primary key of the table.\n\nThis field is automatically updated."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "XML",
-      "tooltip": ""
+      "tooltip": "Specifies where you want to store documents that are required by a specific job."
     },
     {
       "no": 4,
@@ -72,7 +72,7 @@
     {
       "no": 15,
       "name": "Record ID to Process",
-      "tooltip": ""
+      "tooltip": "Specifies the record ID of the record that should be used as input for the job queue when it is run."
     },
     {
       "no": 16,
@@ -152,12 +152,12 @@
     {
       "no": 31,
       "name": "Run in User Session",
-      "tooltip": ""
+      "tooltip": "Indicates that the job queue entry will be processed in a session that has already been started by the user at the time the job was enqueued.\n\nThis field is automatically updated."
     },
     {
       "no": 32,
       "name": "User Session ID",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the session that was started by the user process. This field is used internally."
     },
     {
       "no": 33,
@@ -172,7 +172,7 @@
     {
       "no": 40,
       "name": "User Service Instance ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user session instance.\n\nThis field is used internally."
     },
     {
       "no": 41,
@@ -182,7 +182,7 @@
     {
       "no": 43,
       "name": "Notify On Success",
-      "tooltip": ""
+      "tooltip": "Specifies that you want to be notified if the job queue entry has been successful. If the job queue entry is successful, this is indicated in the My Job Queue part."
     },
     {
       "no": 44,

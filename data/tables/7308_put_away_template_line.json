@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Put-away Template Code",
-      "tooltip": ""
+      "tooltip": "Contains code of the put-away template header."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the put-away template line. The program tries to find a bin for putting an item away according to the criteria on the first line. If no bin satisfies these criteria, it will try to find a bin that satisfies the second line, and so forth, until it has found a bin for put-away."
     },
     {
       "no": 3,

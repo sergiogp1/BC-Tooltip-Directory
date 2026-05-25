@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the transaction was created in a journal, a sales document or a purchase document."
     },
     {
       "no": 4,
@@ -57,12 +57,12 @@
     {
       "no": 12,
       "name": "IC Partner G/L Acc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies outgoing intercompany transactions. It contains the IC G/L account that you suggest the amount will be posted to in your partner's company."
     },
     {
       "no": 13,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 14,

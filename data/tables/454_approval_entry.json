@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Approval Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code identifying the approval process that is required for the document to be approved. The codes in this field are the codes you set up in the Approval Codes window."
     },
     {
       "no": 6,

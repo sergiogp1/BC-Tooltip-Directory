@@ -47,22 +47,22 @@
     {
       "no": 9,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the cash flow account is indented relative to the standard margin.\nThe field is filled in automatically when you choose the Indent Chart of Cash Flow Accounts function in the Chart of Cash Flow Accounts window. You can enter something in the field, but the contents are replaced the next time you choose the Indent Chart of Cash Flow Accounts function. If you want a bigger indentation, add blank spaces with the Spacebar before you enter the text.\nThe No. of Blank Lines, New Page, and Indentation fields define the layout of the chart of cash flow accounts."
     },
     {
       "no": 10,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies when the cash flow account was last modified.\nWhen you change information in the cash flow account, the field is automatically updated with the current system date."
     },
     {
       "no": 11,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then the Amount field shows information for only that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are registered on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are registered on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are registered on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are registered on either December 15, 2012, or on December 16, 2012. If there are entries that are registered on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are registered either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are registered on December 14, 2012, or earlier, or entries that are registered on December 30, 2012, or later, which includes all entries except those that are registered on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 12,
       "name": "Cash Flow Forecast Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter on a particular cash flow forecast so that the values in the Amount field will be shown based on the selected cash flow forecast only."
     },
     {
       "no": 13,
@@ -72,12 +72,12 @@
     {
       "no": 29,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that the values in the Amount field are based only on the dimension values included in the filter."
     },
     {
       "no": 30,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension, so that the values in the Amount field are based only on the dimension values included in the filter."
     },
     {
       "no": 34,

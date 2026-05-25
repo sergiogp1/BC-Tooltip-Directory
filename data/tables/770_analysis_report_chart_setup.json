@@ -62,7 +62,7 @@
     {
       "no": 50,
       "name": "Last Viewed",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the contact for the alternative address. This field is not editable.\nWhen you create an alternative address from the contact card, the program automatically copies the contact number from the No. field on the contact card."
     },
     {
       "no": 2,
@@ -67,7 +67,7 @@
     {
       "no": 14,
       "name": "Extension No.",
-      "tooltip": ""
+      "tooltip": "Specifies the extension number for the contact at the alternative address."
     },
     {
       "no": 15,
@@ -102,12 +102,12 @@
     {
       "no": 21,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the contact alternative address card was last modified. This field is not editable.\nWhen you change information on the contact alternative address card, the program automatically updates the Last Date Modified field to show the current work date."
     },
     {
       "no": 22,
       "name": "Search E-Mail",
-      "tooltip": ""
+      "tooltip": "Specifies the contact's e-mail address in upper case. The field is filled out automatically and is only used internally by the program."
     }
   ]
 }

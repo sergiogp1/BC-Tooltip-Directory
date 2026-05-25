@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Production BOM No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production BOM number for the BOM that the production BOM line is created for.\nThe program copies the BOM number from the No. field of the Production BOM Header."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program uses this field internally."
     },
     {
       "no": 3,
       "name": "Version Code",
-      "tooltip": ""
+      "tooltip": "Specifies the version code of the BOM that the production BOM line is created for.\nYou can use one of the following methods to define the version code:\n\nIf you have set up a default number series for the version code you are setting up, press ENTER to have the program fill in this field with the next number in the series.\n\n\nIf you have set up more than one number series for this version code, click the field and select the series you want to use. The program will fill in the field with the next number in that series.\n\n\nIf you have not set up a number series for this version code, or if the number series has a checkmark in the Manual Nos. field, you can enter a number manually. You can enter a maximum of 20 characters, both numbers and letters.\n\n\nYou cannot change the version code after you have confirmed it by pressing Enter."
     },
     {
       "no": 10,
@@ -42,7 +42,7 @@
     {
       "no": 14,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity required to make an assembly item.\nThe program calculates the quantity according to the contents of the fields Length, Width, Depth, Weight, Calculation Type and Quantity per.\nYou cannot enter or have the quantity calculated directly."
     },
     {
       "no": 15,
@@ -82,7 +82,7 @@
     {
       "no": 22,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether there is a comment for this production BOM line.\nTo view a comment or create a new one, click the Actions icon, point to Component, and then click Comments. A window appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field.. See also the Production BOM Comment Line table."
     },
     {
       "no": 23,

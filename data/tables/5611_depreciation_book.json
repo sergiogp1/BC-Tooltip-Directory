@@ -62,7 +62,7 @@
     {
       "no": 12,
       "name": "Use Custom 1 Depreciation",
-      "tooltip": ""
+      "tooltip": "Specifies if you want to use depreciation of Custom 1 entries.\nThen, in the FA depreciation book or books, you can define the way custom 1 depreciation must be handled by the program."
     },
     {
       "no": 13,
@@ -87,7 +87,7 @@
     {
       "no": 17,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Shows when the depreciation book was last modified.\nWhen you change information on the depreciation book card, the program automatically updates the Last Date Modified field to show the current system date."
     },
     {
       "no": 18,
@@ -117,12 +117,12 @@
     {
       "no": 25,
       "name": "New Fiscal Year Starting Date",
-      "tooltip": ""
+      "tooltip": "Specifies a date to specify the first date in the current fiscal year. If you leave the field blank, the program will use the date in the Starting Date field in the Accounting Periods window.\nThe information in this field is only used when the program calculates depreciation for fixed assets where the Depreciation Method is Declining Balance 1 or DB1/SL.\nIn this case the depreciation basis is calculated as book value minus depreciation in the fiscal year. Depreciation is defined in the field Depreciation Type in the FA Posting Type Setup window. The starting date of a new fiscal year is used to calculate depreciation in that fiscal year."
     },
     {
       "no": 26,
       "name": "No. of Days in Fiscal Year",
-      "tooltip": ""
+      "tooltip": "Contains the number of days in the fiscal year. If the field is blank, the program uses 360 days.\nThe first year a company uses the Depreciation Book the fiscal year might not be exactly 12 months. The value in the field must always, however, be a multiple of 30 (1 month)."
     },
     {
       "no": 27,
@@ -142,12 +142,12 @@
     {
       "no": 32,
       "name": "Periodic Depr. Date Calc.",
-      "tooltip": ""
+      "tooltip": "Specifies the appropriate option. The options are: Last Entry and Last Depr. Entry.\nLast Entry\nWith this option, the program calculates the number of depreciation days as of the date of the last FA ledger entry.\nLast Depr. Entry\nWith this option the program calculates the number of depreciation days as of the date of the last depreciation FA ledger entry (that is, the last entry where the posting type is Depreciation)."
     },
     {
       "no": 33,
       "name": "Mark Errors as Corrections",
-      "tooltip": ""
+      "tooltip": "Specifies whether to mark ledger entries as corrections if they are copied to an FA general ledger journal or an FA journal when you use the Cancel Entries function from the FA Ledger Entries window or run the Cancel FA Ledger Entries batch job from the depreciation book card. Then the program will place a check mark in the Correction field on the journal line(s)."
     },
     {
       "no": 34,
@@ -192,7 +192,7 @@
     {
       "no": 42,
       "name": "Use Default Dimension",
-      "tooltip": ""
+      "tooltip": "Specifies whether to only copy the fixed asset default dimensions to the journal lines created for the duplicate depreciation book. If the field is empty, all dimensions from the journal lines being duplicated will be copied."
     },
     {
       "no": 43,
@@ -217,7 +217,7 @@
     {
       "no": 47,
       "name": "Allow Acq. Cost below Zero",
-      "tooltip": ""
+      "tooltip": "Specifies that you can index the acquisition cost of the fixed asset, even if the book value is below zero and you have selected the Allow Depr. below Zero field."
     },
     {
       "no": 48,

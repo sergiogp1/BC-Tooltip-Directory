@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the ledger entry that the payment relates to."
     },
     {
       "no": 2,
@@ -62,7 +62,7 @@
     {
       "no": 12,
       "name": "Original Remaining Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nSpecifies the amount that remains to be applied before the entry has been completely applied.\nThe value in this field is automatically calculated when the related document is posted. The amount is not updated when additional amounts are applied."
     },
     {
       "no": 13,

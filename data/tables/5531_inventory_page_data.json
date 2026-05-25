@@ -12,12 +12,12 @@
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the record in the Inventory Page Data table."
     },
     {
       "no": 3,
       "name": "Period Type",
-      "tooltip": ""
+      "tooltip": "Indicates what type of period is used to view the lines, as selected in the View by field on the header. You can select from the following periods:\n\nDay\n\n\nWeek\n\n\nMonth\n\n\nQuarter\n\n\nYear"
     },
     {
       "no": 4,
@@ -27,27 +27,27 @@
     {
       "no": 5,
       "name": "Period End",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6,
       "name": "Period No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 7,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "Shows if the availability line is an expandable header line (level 0) or a collapsible line (level 1)."
     },
     {
       "no": 9,
       "name": "Source Line ID",
-      "tooltip": ""
+      "tooltip": "Shows the ID of the document line that the availability figure is based on."
     },
     {
       "no": 10,
       "name": "Item No.",
-      "tooltip": ""
+      "tooltip": "Displays the item number of the item that the window shows availability figures for."
     },
     {
       "no": 11,
@@ -67,7 +67,7 @@
     {
       "no": 14,
       "name": "Availability Date",
-      "tooltip": ""
+      "tooltip": "Displays on which date the quantity is available according to the source document."
     },
     {
       "no": 15,
@@ -92,7 +92,7 @@
     {
       "no": 21,
       "name": "Positive",
-      "tooltip": ""
+      "tooltip": "Specifies whether the quantity that is contributing to the availability calculation is positive."
     },
     {
       "no": 22,
@@ -127,17 +127,17 @@
     {
       "no": 30,
       "name": "Source Document ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the document that the availability figure is based on."
     },
     {
       "no": 31,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 34,
       "name": "Ref. Order No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 36,

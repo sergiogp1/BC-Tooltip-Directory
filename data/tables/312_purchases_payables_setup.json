@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -157,7 +157,7 @@
     {
       "no": 40,
       "name": "Job Queue Priority for Post",
-      "tooltip": ""
+      "tooltip": "Specifies the priority of the job queue when you run it in the context of background posting. In the Purchases & Payables Setup window, you can set different priorities for the post and post and print settings. The default setting is 1000."
     },
     {
       "no": 41,
@@ -167,7 +167,7 @@
     {
       "no": 42,
       "name": "Job Q. Prio. for Post & Print",
-      "tooltip": ""
+      "tooltip": "Specifies the priority of the job queue when you run it in the context of background posting. In the Purchases & Payables Setup window, you can set different priorities for the post and post and print settings. The default setting is 1000."
     },
     {
       "no": 43,

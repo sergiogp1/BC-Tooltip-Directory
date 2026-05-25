@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -42,12 +42,12 @@
     {
       "no": 22,
       "name": "User ID Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the user ID that is used to filter the documents that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
     },
     {
       "no": 23,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the location ID that is used to filter the documents that are displayed in the Warehouse Worker WMS Cue on the Role Center. The documents are filtered by today's date."
     }
   ]
 }

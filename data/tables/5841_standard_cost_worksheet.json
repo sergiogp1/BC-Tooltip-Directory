@@ -7,7 +7,7 @@
     {
       "no": 2,
       "name": "Standard Cost Worksheet Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the Standard Cost Worksheet. You can create new worksheets if you choose the field and enter names and descriptions in the Standard Cost Wksh Names window."
     },
     {
       "no": 3,

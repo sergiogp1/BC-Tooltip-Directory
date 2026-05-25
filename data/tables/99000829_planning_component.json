@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the planning worksheet template.\nThe program automatically retrieves the name from the Name field in the Planning Worksheet Template table, but you can change it."
     },
     {
       "no": 2,
       "name": "Worksheet Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the planning worksheet batch.\nThe program automatically retrieves the name from the Name field in the Planning Worksheet Names window, but you can change it."
     },
     {
       "no": 3,
       "name": "Worksheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the requisition worksheet.\nThe program automatically retrieves the line number from the Line No. field in the Requisition Line table, but you can change it."
     },
     {
       "no": 5,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number for this planning worksheet line.\nThe program fills in the field automatically and uses the number for tracking purposes."
     },
     {
       "no": 11,
@@ -42,7 +42,7 @@
     {
       "no": 14,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the component.\nThe program automatically fills in the quantity from the Quantity field on the Production BOM Line table, but you can change it."
     },
     {
       "no": 15,
@@ -92,7 +92,7 @@
     {
       "no": 28,
       "name": "Flushing Method",
-      "tooltip": ""
+      "tooltip": "Specifies the flushing method.\nThe value is copied from the Flushing Method field on the production order component line.\nFor more information, see the Flushing Method field on the tem card."
     },
     {
       "no": 30,
@@ -112,32 +112,32 @@
     {
       "no": 33,
       "name": "Bin Code",
-      "tooltip": ""
+      "tooltip": "Specifies a bin code for the item. click the field to see a list of available Bin codes for the location code."
     },
     {
       "no": 35,
       "name": "Supplied-by Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. It shows the production order line number that supplies the component line."
     },
     {
       "no": 36,
       "name": "Planning Level Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally. The field indicates which planning level the item on the production order line belongs to. The program automatically fills in this field when it calculates a plan."
     },
     {
       "no": 37,
       "name": "Ref. Order Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order. The field has the following four options:\n\nSimulated\n\n\nPlanned\n\n\nFirm Planned\n\n\nReleased\n\n\nIf the field is blank, this indicates a purchase order."
     },
     {
       "no": 38,
       "name": "Ref. Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the relevant production or purchase order."
     },
     {
       "no": 39,
       "name": "Ref. Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the relevant production order line number. The program uses this field internally."
     },
     {
       "no": 40,
@@ -172,7 +172,7 @@
     {
       "no": 46,
       "name": "Ref. Order Type",
-      "tooltip": ""
+      "tooltip": "Specifies if the order on the planning line is a purchase order, production order, transfer order, or assembly order."
     },
     {
       "no": 50,
@@ -192,37 +192,37 @@
     {
       "no": 53,
       "name": "Due Time",
-      "tooltip": ""
+      "tooltip": "Copies the time from the Starting Time field on the planning worksheet line to which the component belongs. This is the time that the component is needed."
     },
     {
       "no": 55,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the direct unit costs for this planning component line.\nThe program automatically retrieves the unit cost from the item card, when the No. field is filled in, but you can change it."
     },
     {
       "no": 56,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost percentage.\nThe program automatically retrieves the indirect cost percentage from the Item table when the No. field is filled in, but you can change it.\nYou can identify an indirect cost percentage as part of the purchased item standard cost. An indirect cost can represent freight costs associated with the purchased item. It can also represent inventory carrying costs. The percentage is added to the direct cost of the item. Indirect cost is included in the calculation of the Standard Cost field on the item card."
     },
     {
       "no": 57,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate.\nThe program automatically retrieves the overhead rate from the Item table when the No. field is filled in, but you can change it.\nYou can identify an overhead rate as part of the purchased item cost. An overhead rate can represent transport costs associated with the purchased item. It can also represent inventory carrying costs. The amount is added to the direct cost of the item. The overhead rate is included in the calculation of the Standard Cost field on the item card."
     },
     {
       "no": 58,
       "name": "Direct Cost Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the direct cost amount.\nThe program calculates the direct cost amount as direct unit cost multiplied by Expected Quantity."
     },
     {
       "no": 59,
       "name": "Overhead Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead amount.\nThe program calculates the overhead amount as follows: (direct cost amount * indirect cost % + overhead rate) * expected quantity."
     },
     {
       "no": 60,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure.\nIf you have filled in the Base Unit of Measure field on the item card and entered a quantity for the selected item in the Qty. per Unit of Measure field, the program automatically fills in this field when you enter the item number on the line."
     },
     {
       "no": 62,
@@ -247,12 +247,12 @@
     {
       "no": 74,
       "name": "Original Expected Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Shows the quantity, in base units of measure, which is stated on the existing production or purchase order when an action message proposes to change the quantity on an order."
     },
     {
       "no": 75,
       "name": "Net Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity, in the base unit of measure, that the planning component line contributes to the item's availability.\nThe program automatically calculates the field as the difference between the Original Quantity and Quantity fields multiplied by the quantity per unit of measure."
     },
     {
       "no": 76,
@@ -262,17 +262,17 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 99000875,
       "name": "Critical",
-      "tooltip": ""
+      "tooltip": "Specifies if the parent item on the planning line is included in availability calculations to promise a shipment date.\nThis field does not influence the order promising functionality if the item itself is to be sold. It only affects items that are components of the item to be sold."
     },
     {
       "no": 99000915,
       "name": "Planning Line Origin",
-      "tooltip": ""
+      "tooltip": "Specifies the source of the planning line. If you manually enter the line, the field is blank.\nThe program uses this field internally."
     }
   ]
 }

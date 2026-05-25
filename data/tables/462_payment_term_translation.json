@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Payment Term",
-      "tooltip": ""
+      "tooltip": "Specifies the payment term that is translated."
     },
     {
       "no": 2,

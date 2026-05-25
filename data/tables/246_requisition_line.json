@@ -112,12 +112,12 @@
     {
       "no": 23,
       "name": "Sales Order No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the sales order for which the items on the purchase line will be ordered if the line is a drop shipment.\nThe program retrieves the number automatically from the sales line when you choose Functions, Drop Shipment, Get Sales Orders.\nWhen the requisition worksheet line is converted to a purchase order, the items on the purchase order line will still be marked as a drop shipment, which is shipped directly from the vendor to the customer."
     },
     {
       "no": 24,
       "name": "Sales Order Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the sales order line for which the items on the purchase line will be ordered if the requisition worksheet line is a drop shipment.\nThe program retrieves the number automatically from the sales line when you choose Functions, Drop Shipment, Get Sales Orders.\nWhen the requisition worksheet line is converted to a purchase order, the items on the purchase order line will still be marked as a drop shipment, which is shipped directly from the vendor to the customer."
     },
     {
       "no": 25,
@@ -142,7 +142,7 @@
     {
       "no": 30,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 31,
@@ -162,7 +162,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5402,
@@ -177,7 +177,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "If you have filled in the Purch. Unit of Measure field on the item card and entered a quantity for the current item in the Qty. of Base Unit of Measure per Unit field, the program automatically fills in this field when you enter the item number on the line."
     },
     {
       "no": 5405,
@@ -207,12 +207,12 @@
     {
       "no": 5520,
       "name": "Demand Type",
-      "tooltip": ""
+      "tooltip": "Specifies what type of demand that the planning line in the Order Planning window is created for.\nThe field is only filled for expandable planning lines that represent the header of orders that create demand.\nThe following demand types exist:\n\n\nDemand type\n\n\nDescription\n\n\nProduction\n\nRepresents a production order. This expands to show one or more component lines that have insufficient availability.\n\n\nSales\n\nRepresents a sales order or negative return order. This expands to show one or more sales order lines that have insufficient availability.\n\n\nService\n\nRepresents a service order. This expands to show one or more service order lines on the sales order that have insufficient availability.\n\n\nJob\n\nRepresents a job. This expands to show one or more job planning lines that have insufficient availability.\n\n\nAssembly\n\nRepresents an assembly order. This expands to show one or more assembly order lines that have insufficient availability."
     },
     {
       "no": 5521,
       "name": "Demand Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the demand subtype that the planning line is related to. For example, if the planning line is related to a sales order line, then the value in the field is copied from the Document Type field on the sales order line."
     },
     {
       "no": 5522,
@@ -227,12 +227,12 @@
     {
       "no": 5526,
       "name": "Demand Ref. No.",
-      "tooltip": ""
+      "tooltip": "Specifies a reference number for the document line that represents the demand on the planning line, such as a sales order line.\nFor example, the value in the field is copied from the Line No. field of the sales order line."
     },
     {
       "no": 5527,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the demand order and is only filled for expandable planning lines representing demand orders. The field can show two sets of status types, depending on whether the planning line is for a sales order or a production order.\nLines that represent sales demand can show a status of Open or Released - copied from the sales order.\nLines that represent production demand can show a status of Planned, Firm Planned, or Released - copied from the production order."
     },
     {
       "no": 5530,
@@ -247,7 +247,7 @@
     {
       "no": 5533,
       "name": "Demand Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the demand that the planning line represents. This quantity is expressed in the base unit of measure.\nIf the demand is a sales line, then it is the value in the Quantity (Base) field of that sales line. If the demand is a component line, then it is the value in the Expected Quantity (Base) field of that component line.\nThese fields are used to calculate the needed quantity using the following formula:\nDemand Quantity - Demand Qty. Available = Needed Quantity"
     },
     {
       "no": 5538,
@@ -257,7 +257,7 @@
     {
       "no": 5539,
       "name": "Needed Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the demand quantity that is not available. This is the quantity that must be ordered to meet the demand that the planning line represents. The quantity is expressed in the base unit of measure and is calculated as follows:\nDemand Quantity - Demand Qty. Available = Needed Quantity"
     },
     {
       "no": 5540,
@@ -267,12 +267,12 @@
     {
       "no": 5541,
       "name": "Qty. per UOM (Demand)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure of the item on an expandable line in the Order Planning window.\nExpandable lines represent headers of the orders that create the demand.\nFor more information about the types of demand that are supported, see Demand Type."
     },
     {
       "no": 5542,
       "name": "Unit Of Measure Code (Demand)",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure of the item on an expandable line in the Order Planning window.\nExpandable lines represent headers of the orders that create the demand.\nFor more information about the types of demand that are supported, see Demand Type."
     },
     {
       "no": 5552,
@@ -282,17 +282,17 @@
     {
       "no": 5553,
       "name": "Original Item No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item that was originally on the component list before it was substituted."
     },
     {
       "no": 5554,
       "name": "Original Variant Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the variant that was originally on the component list before it was substituted."
     },
     {
       "no": 5560,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "Specifies line indentation in the Description field."
     },
     {
       "no": 5563,
@@ -302,17 +302,17 @@
     {
       "no": 5590,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who last modified the planning line."
     },
     {
       "no": 5701,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5702,
       "name": "Nonstock",
-      "tooltip": ""
+      "tooltip": "Specifies if the item on the line is a nonstock item.\nNonstock items are items that are not usually kept in inventory."
     },
     {
       "no": 5703,
@@ -362,7 +362,7 @@
     {
       "no": 99000757,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. The routing reference number corresponds to the routing reference number of the production order line that the routing is related to.\nThe program displays a zero in this field when the routing line is related to a family order where more production order lines share the same routing."
     },
     {
       "no": 99000882,
@@ -387,12 +387,12 @@
     {
       "no": 99000889,
       "name": "Finished Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the quantity on the production order line has been produced.\nThe program copies this information from the existing production order."
     },
     {
       "no": 99000890,
       "name": "Remaining Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the difference between the finished quantity and the planned quantity or shows 0 if the finished quantity is greater than the remaining quantity.\nThe program copies this information from the existing production order."
     },
     {
       "no": 99000891,
@@ -422,12 +422,12 @@
     {
       "no": 99000899,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect costs as a percentage.\nThe program automatically retrieves the indirect cost % from the Item table when the No. field is filled in, but you can change it.\nYou can specify an indirect cost percentage. An indirect cost can represent freight costs associated with the purchased item. It can also represent inventory carrying costs. The percentage is added to the direct cost of the item. Indirect cost is included in the calculation of the contents of the Standard Cost field on the item card."
     },
     {
       "no": 99000900,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate.\nThe program automatically retrieves the overhead rate from the Item table, when the No. field is filled in, but you can change it.\nThe overhead rate is part of the standard cost calculation. The overhead rate can represent transportation costs associated with the purchased item. It can also represent inventory carrying costs. The amount is added to the direct cost of the item.\nThe overhead rate is included in the calculation of the contents of the Standard Cost field on the item card."
     },
     {
       "no": 99000901,
@@ -467,27 +467,27 @@
     {
       "no": 99000908,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that is linked to the planning line. The program uses the number series when it creates proposals for new production orders. It is the same number series that is used for planned production orders.\nTo see the codes that have been set up in the No. Series table, click the field."
     },
     {
       "no": 99000910,
       "name": "Expected Component Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the expected cost amount of the component.\nThe program calculates the amount in this field as the expected component costs multiplied by quantity."
     },
     {
       "no": 99000911,
       "name": "Finished Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the quantity on the production order line, stated in base units of measure, has been produced.\nThe program automatically updates this field when you post final routing list operations from the output journal."
     },
     {
       "no": 99000912,
       "name": "Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the difference between the finished quantity and the planned quantity or shows 0 if the finished quantity is greater than the remaining quantity. The value is stated in base units of measure.\nThe program automatically calculates this information from the Remaining Quantity and Qty. per Unit of Measure fields."
     },
     {
       "no": 99000913,
       "name": "Related to Planning Line",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000914,
@@ -497,7 +497,7 @@
     {
       "no": 99000915,
       "name": "Planning Line Origin",
-      "tooltip": ""
+      "tooltip": "Specifies the origin of the planning line. The options are Action Message, Planning and Blank.\nA blank indicates that the planning line was entered manually."
     },
     {
       "no": 99000916,
@@ -512,7 +512,7 @@
     {
       "no": 99000918,
       "name": "Net Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity, in base units, that the planning line contributes to the item's availability.\nThe program automatically calculates the field as the difference between the Original Quantity and Quantity fields multiplied by the quantity per unit of measure."
     },
     {
       "no": 99000919,
@@ -527,17 +527,17 @@
     {
       "no": 99000921,
       "name": "Order Promising ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000922,
       "name": "Order Promising Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000923,
       "name": "Order Promising Line ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

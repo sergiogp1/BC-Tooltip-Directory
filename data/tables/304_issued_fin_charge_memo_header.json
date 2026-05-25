@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the name of the customer the finance charge memo is for.\nThe program copies the name from the Name 2 field on the finance charge memo header."
     },
     {
       "no": 5,
@@ -47,17 +47,17 @@
     {
       "no": 9,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county name of the customer the finance charge memo is for.\nThe program copies the county name from the County field on the finance charge memo header."
     },
     {
       "no": 10,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region code of the customer the finance charge memo is for.\nThe program copies the country/region code from the Country/Region Code field on the finance charge memo header."
     },
     {
       "no": 11,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the language code of the customer that the finance charge memo is for.\nThe program copies the language code from the Language Code field on the finance charge memo header."
     },
     {
       "no": 12,
@@ -92,17 +92,17 @@
     {
       "no": 18,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group that was used when this finance charge memo was issued.\nThe program copies the code from the Gen. Bus. Posting Group field on the finance charge memo header."
     },
     {
       "no": 19,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT registration number of the customer the finance charge memo is for.\nThe program copies the number from the VAT Registration No. field on the finance charge memo header."
     },
     {
       "no": 20,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the finance charge memo.\nThe program copies the reason code from the Reason Code field on the finance charge memo header."
     },
     {
       "no": 21,
@@ -127,27 +127,27 @@
     {
       "no": 26,
       "name": "Interest Posted",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not interest was posted when the finance charge memo was issued.\nThe program copies the contents of the field from the Post Interest field on the finance charge memo header."
     },
     {
       "no": 27,
       "name": "Additional Fee Posted",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not an additional fee was posted when the finance charge memo was issued.\nThe program copies the contents of the field from the Post Additional Fee field on the finance charge memo header."
     },
     {
       "no": 29,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies a description of the finance charge memo, such as Finance Charge Memo 95400.\nThe posting description appears on customer and G/L entries that were created from the finance charge memo.\nThe program copies the posting description from the Posting Description field on the finance charge memo header."
     },
     {
       "no": 30,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this finance charge memo.\nIf you entered comments on the memo before it was issued, the program has copied these comments to the issued memo.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 31,
       "name": "Remaining Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the remaining amounts on the finance charge memo lines. This amount is in the currency of the finance charge memo.\nThe program copies the remaining amount from the Remaining Amount field on the finance charge memo header."
     },
     {
       "no": 32,
@@ -162,7 +162,7 @@
     {
       "no": 34,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the VAT amounts on the finance charge memo lines. This amount is in the currency of the finance charge memo.\nThe program copies the amount from the VAT Amount field on the finance charge memo header."
     },
     {
       "no": 35,
@@ -172,17 +172,17 @@
     {
       "no": 36,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user that is associated with the entry."
     },
     {
       "no": 37,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the issued finance charge memo.\nThe program automatically copied this field from the Issuing No. Series field on the finance charge memo header."
     },
     {
       "no": 38,
       "name": "Pre-Assigned No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the finance charge memo from which the issued finance charge memo was created.\nThe program automatically copied this field from the No. Series field on the finance charge memo header."
     },
     {
       "no": 39,
@@ -192,22 +192,22 @@
     {
       "no": 40,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the issued finance charge memo header.\nThe program copies the source code from either the Finance Charge Memo field or the Deleted Document field in the Source Code Setup table."
     },
     {
       "no": 41,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code for the customer.\nThe program copies the code from the Tax Area Code field on the finance charge memo header."
     },
     {
       "no": 42,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Copies the value in this field from the Tax Liable field on the finance charge memo header."
     },
     {
       "no": 43,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the code from the VAT Bus. Posting Group field on the finance charge memo header when the finance charge memo is issued."
     },
     {
       "no": 44,
@@ -247,7 +247,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

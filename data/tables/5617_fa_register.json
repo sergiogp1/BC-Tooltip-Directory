@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "Shows the date when the entries in the register were posted.\nYou cannot change the date because the register is closed."
     },
     {
       "no": 5,

@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Displays the name of the FA reclass. journal template.\nThe program automatically retrieves the name from the Name field in the FA Reclass. Journal Template table."
     },
     {
       "no": 2,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal batch.\nThe program automatically retrieves the name from the Name field in the FA Reclass. Journal Batch table."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the journal line's number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 4,

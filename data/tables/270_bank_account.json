@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies additional information for the bank's name. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 5,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the telex number of the bank where you have the bank account. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex number so that it will look uniform on printouts."
     },
     {
       "no": 13,
@@ -67,22 +67,22 @@
     {
       "no": 15,
       "name": "Territory Code",
-      "tooltip": ""
+      "tooltip": "Specifies a territory code for the bank account. To see the territory codes in the Territory table, choose the field.\nYou can use this field to group bank accounts by territory. After you have entered the codes in the Territory Code field on the individual bank accounts, you can set a filter so that the program will display only bank accounts with the specified territory code."
     },
     {
       "no": 16,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the bank account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 17,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the program will use the corresponding dimension value as default each time you enter the bank account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal.\nClick here to learn more about dimensions."
     },
     {
       "no": 18,
       "name": "Chain Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the bank. If you have several accounts at different branches of the same bank, you can use this field to search for all the accounts at that bank.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 20,
@@ -112,7 +112,7 @@
     {
       "no": 26,
       "name": "Statistics Group",
-      "tooltip": ""
+      "tooltip": "Specifies a number to assign to this bank account to a group for statistical purposes."
     },
     {
       "no": 29,
@@ -127,12 +127,12 @@
     {
       "no": 37,
       "name": "Amount",
-      "tooltip": ""
+      "tooltip": "Specifies an amount, for example rent, that is paid regularly."
     },
     {
       "no": 38,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether a comment has been entered for this bank account.\nFor example, the comment could describe a particular problem that requires attention when dealing with this bank account.\nYou can view or create comments in the Comment Sheet window or in the Notes FactBox. For more information, see How to: Create Notes and Notifications."
     },
     {
       "no": 39,
@@ -162,17 +162,17 @@
     {
       "no": 55,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 56,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies if you can set a filter for a dimension so that fields such as Balance (LCY) will display the balance only for entries that relate to dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, choose the field\nClick here to learn more about dimensions."
     },
     {
       "no": 57,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies if you can set a filter for a dimension so that fields such as Balance (LCY) will display the balance only for entries that relate to dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, choose the field\nClick here to learn more about dimensions."
     },
     {
       "no": 58,
@@ -187,17 +187,17 @@
     {
       "no": 60,
       "name": "Net Change",
-      "tooltip": ""
+      "tooltip": "Displays the net value of entries for the bank account, denominated in the applicable foreign currency, for the period entered in the Date Filter field.\nThe program uses the Amount field in the Bank Account Ledger Entry table (the corresponding LCY amount posted from the general journal) to calculate and update the contents of this field.\nYou can filter the Net Change field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the bank account ledger entries that comprise the amount shown, choose the field."
     },
     {
       "no": 61,
       "name": "Net Change (LCY)",
-      "tooltip": ""
+      "tooltip": "Displays the net value of entries for the bank account, converted to LCY, for the period entered in the Date Filter field.\nThe program uses the Amount (LCY) field in the Bank Account Ledger Entry table (the corresponding LCY amount posted from the general journal) to calculate and update the contents of this field.\nYou can filter the Net Change (LCY) field so that its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values and/or dates.\nTo see the bank account ledger entries that comprise the amount shown, choose the field."
     },
     {
       "no": 62,
       "name": "Total on Checks",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the balance on the bank account that exists on check ledger entries."
     },
     {
       "no": 70,
@@ -212,7 +212,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the telex answer back code of the bank where you have the bank account. You can enter a maximum of 20 characters, both numbers and letters.\nUse a standard format to enter the telex answer back code so that it will look uniform on printouts."
     },
     {
       "no": 91,
@@ -247,22 +247,22 @@
     {
       "no": 97,
       "name": "Debit Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total of the debit entries that have been posted to the bank account.\nTo see the ledger entries that comprise the debit amount, choose the field."
     },
     {
       "no": 98,
       "name": "Credit Amount",
-      "tooltip": ""
+      "tooltip": "Displays the total of the credit entries that have been posted to the bank account.\nTo see the ledger entries that comprise the credit amount, choose the field."
     },
     {
       "no": 99,
       "name": "Debit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total of the debit entries, in LCY, that have been posted to the bank account.\nTo see the ledger entries that comprise the debit amount (in LCY), choose the field."
     },
     {
       "no": 100,
       "name": "Credit Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total of the credit entries, in LCY, that have been posted to the bank account.\nTo see the ledger entries that comprise the credit amount (in LCY), choose the field."
     },
     {
       "no": 101,
@@ -282,17 +282,17 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign the bank account's number."
     },
     {
       "no": 108,
       "name": "Check Report ID",
-      "tooltip": ""
+      "tooltip": "Specifies a report ID (an integer) if you want to use a specific report layout. The report ID tells the program which report to use when a check is printed."
     },
     {
       "no": 109,
       "name": "Check Report Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name that corresponds to the report ID."
     },
     {
       "no": 110,

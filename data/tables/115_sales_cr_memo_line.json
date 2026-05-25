@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program filled in the field automatically and uses the number to keep track of the lines.\nYou cannot change the line number because the credit memo has already been posted."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the posting group that was used when the credit memo was posted.\nThe program copies the posting group from the Posting Group field on the sales line.\nYou cannot change the posting group because the credit memo has already been posted."
     },
     {
       "no": 10,
@@ -77,7 +77,7 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that is used on the credit memo.\nThe program copies the VAT percentage from the VAT % field on the sales line.\nYou cannot change the VAT percentage because the credit memo has already been posted."
     },
     {
       "no": 27,
@@ -142,7 +142,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group used on the credit memo.\nThe program copies the price group code from the Customer Price Group field on the sales line.\nYou cannot change the customer price group because the credit memo has already been posted."
     },
     {
       "no": 45,
@@ -152,7 +152,7 @@
     {
       "no": 52,
       "name": "Work Type Code",
-      "tooltip": ""
+      "tooltip": "Belongs to the Job application area."
     },
     {
       "no": 65,
@@ -187,37 +187,37 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when this line was posted.\nThe program copies the code from the VAT Calculation Type field on the sales line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the sales line that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the sales line.\nYou cannot change the transaction type because the credit memo has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the sales line that this line was posted from.\nThe program copies the transport method from the Transport Method field on the sales line.\nYou cannot change the transport method because the credit memo has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the extended text line number that is attached to the sales line.\nYou cannot change the contents of the field because the credit memo has already been posted."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of exit through which you shipped the items out of your country/region.\nThe program copies the code from the Exit Point field on the sales line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used for the items in this line.\nThe program copies the code from the Area field on the sales line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of transaction specification used for the items in this line.\nThe program copies the transaction specification from the Transaction Specification field on the sales line.\nYou cannot change the transaction specification because the credit memo has already been posted."
     },
     {
       "no": 84,
@@ -242,7 +242,7 @@
     {
       "no": 88,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the sales credit memo line."
     },
     {
       "no": 89,
@@ -267,17 +267,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount (amount excluding VAT) that the credit memo line consists of.\nThe program copies the amount from the VAT Base Amount field on the sales line.\nYou cannot change the amount because the credit memo has already been posted."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the item on the line. The unit cost is in the currency of the sales transaction."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 103,
@@ -287,27 +287,27 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT difference. The amount displayed in this field is the difference between a VAT amount calculated by the program for a sales line and a manually entered VAT amount entered by a user for the same sales line. This may be necessary if you want posted VAT amounts to correspond exactly with an external document you will send to your customer.\nThe program copies the contents of this field from the VAT Difference field in sales statistics windows."
     },
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Copies the contents of this field from the purchase line."
     },
     {
       "no": 107,
       "name": "IC Partner Ref. Type",
-      "tooltip": ""
+      "tooltip": "Specifies the item or account in your IC partners company that corresponds to the item or account on the line.\nThe field is used with the IC Partner Reference field."
     },
     {
       "no": 108,
       "name": "IC Partner Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the item or account in your IC partners company that corresponds to the item or account on the line.\nThe field is used with the IC Partner Ref. Type field.\nYou can select from the following IC partner reference types.\n\n\nIC Partner Ref. Type\n\n\nIC Partner Reference\n\n\nG/L Account\n\nA number from the IC general ledger chart of accounts.\n\n\nItem\n\nYour item number.\n\n\nCharge (Item)\n\nYour item charge number.\n\n\nCross Reference\n\nAn entry from the Item Cross Reference table.\n\n\nCommon Item No.\n\nAn entry that is copied from the Common Item No. field on the item card."
     },
     {
       "no": 123,
       "name": "Prepayment Line",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 130,
@@ -317,7 +317,7 @@
     {
       "no": 131,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date the sales document was posted.\nThe program copies the date from the Posting Date field on the sales header.\nYou cannot change the posting date because the invoice has already been posted."
     },
     {
       "no": 138,
@@ -337,7 +337,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1001,
@@ -347,7 +347,7 @@
     {
       "no": 1002,
       "name": "Job Contract Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the job planning line that the sales line is linked to."
     },
     {
       "no": 1700,
@@ -367,7 +367,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per item unit of measure for the items sold.\nThe program copies the number from the Qty. per Unit of Measure field on the sales line."
     },
     {
       "no": 5407,
@@ -377,42 +377,42 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units expressed in base units of measure of the item specified on the line."
     },
     {
       "no": 5600,
       "name": "FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the FA posting date of the sales credit memo line.\nThe program copies the date from the FA Posting Date field on the sales line.\nYou cannot change the date because the credit memo has already been posted."
     },
     {
       "no": 5602,
       "name": "Depreciation Book Code",
-      "tooltip": ""
+      "tooltip": "Specifies the depreciation book code on the sales credit memo line.\nThe program copies the code from the Depreciation Book Code field on the sales line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 5605,
       "name": "Depr. until FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not depreciation was calculated until the FA posting date of the line. If the field contains a Yes or a check mark, depreciation was posted for the asset for the period from the FA posting date of the previous FA ledger entry to the FA posting date of this sales credit memo line.\nThe program copies the field from the Depr. until FA Posting Date field on the sales line.\nYou cannot change the contents of the field because the credit memo has already been posted."
     },
     {
       "no": 5612,
       "name": "Duplicate in Depreciation Book",
-      "tooltip": ""
+      "tooltip": "Specifies a depreciation book code if the sales line was posted to a depreciation book in addition to the one in the Depreciation Book Code field.\nThe program copies the code from the Duplicate in Depreciation Book field on the sales line.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 5613,
       "name": "Use Duplication List",
-      "tooltip": ""
+      "tooltip": "Specifies whether the sales line was posted to all depreciation books that have a check mark in the Part of Duplication List field in the Depreciation Book table.\nThe program copies the contents of the field from the Use Duplication List field on the sales line.\nYou cannot change the contents of the field because the credit memo has already been posted."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the responsibility center that serves the customer on this sales document."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5710,
@@ -422,7 +422,7 @@
     {
       "no": 5711,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Specifies the purchasing code for the item.\nA purchasing code indicates the actions that were taken to purchase the item on the sales line.\nThe system copies the purchasing code from the Purchasing Code field on the sales line.\nYou cannot make changes to the contents of the Purchasing Code field because the shipment has already been posted."
     },
     {
       "no": 5725,
@@ -452,12 +452,12 @@
     {
       "no": 6600,
       "name": "Return Receipt No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the return receipt that corresponds to the credit memo line. If the credit memo lines have been automatically generated, such as through the Get Return Receipt Lines function, the program retrieves this number automatically."
     },
     {
       "no": 6601,
       "name": "Return Receipt Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the return receipt line that corresponds to the credit memo line. If the credit memo lines have been automatically generated, such as through the Get Return Receipt Lines function, the program retrieves this number automatically."
     },
     {
       "no": 6608,
@@ -472,12 +472,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer discount group code. This code is copied from the Customer card."
     },
     {
       "no": 7012,

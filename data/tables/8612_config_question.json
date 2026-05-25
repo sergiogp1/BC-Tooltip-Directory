@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID for the table that the question area manages.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 8,

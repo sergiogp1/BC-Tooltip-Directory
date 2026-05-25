@@ -127,7 +127,7 @@
     {
       "no": 26,
       "name": "Manager No.",
-      "tooltip": ""
+      "tooltip": "Specifies the employee number of the employee's manager or supervisor from the employee list."
     },
     {
       "no": 27,
@@ -172,12 +172,12 @@
     {
       "no": 36,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension, which you can assign to the employee. To see the dimension values codes you have set up for this dimension in the Dimension Values window, click the field.\nClick here to learn more about dimensions."
     },
     {
       "no": 37,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code for a dimension, which you can assign to the employee. To see the dimension values codes you have set up for this dimension in the Dimension Values window, click the field."
     },
     {
       "no": 38,
@@ -197,27 +197,27 @@
     {
       "no": 41,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 42,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension. This means that information in various statistical and overview windows will be based only on dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, click the field."
     },
     {
       "no": 43,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension. This means that information in various statistical and overview windows will be based only on dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, click the field."
     },
     {
       "no": 44,
       "name": "Cause of Absence Filter",
-      "tooltip": ""
+      "tooltip": "If the field contains a Cause of Absence Filter, the information on absences shown in statistical windows will be based only on the causes of absence included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nSICK\n\nData linked to the SICK code (the cause of absence code can contain numbers instead of just letters).\n\n\nEither/or\n\nSICK|HOLIDAY\n\nData linked to Causes of Absence code SICK or HOLIDAY.\n\n\nDifferent from\n\n<>SICK\n\nData linked to all causes of absence codes except those with the code SICK.\n\n\nTo see the causes of absence codes in the Cause of Absence table, click the field."
     },
     {
       "no": 45,
       "name": "Total Absence (Base)",
-      "tooltip": ""
+      "tooltip": "The program automatically calculates and updates the contents of the field using the entries in the Quantity field in the Employee Absence table.\nIt is important that you use the same unit of measure when registering employee absences so that this field will contain useful totals.\nTo see the entries that make up the amount shown, click the field."
     },
     {
       "no": 46,
@@ -227,7 +227,7 @@
     {
       "no": 47,
       "name": "Employee No. Filter",
-      "tooltip": ""
+      "tooltip": "If the field contains an Employee No. Filter, the information in various statistical and overview windows will be based only on the employee numbers included in the filter.\nYou can enter a maximum of 20 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\n1\n\nData linked to Employee 1 (the employee number can contain letters instead of just numbers).\n\n\nInterval\n\n1..5\n\nData linked to Employees 1 through 5.\n\n\nEither/or\n\n1|2\n\nData linked to Employees 1 or 2.\n\n\nDifferent from\n\n<>1\n\nData linked to all Employees except Employee 1."
     },
     {
       "no": 48,
@@ -237,7 +237,7 @@
     {
       "no": 49,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Specifies the employee's fax number at home. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 50,
@@ -247,7 +247,7 @@
     {
       "no": 51,
       "name": "Title",
-      "tooltip": ""
+      "tooltip": "Specifies the employee's title, for example, Ms., Mrs. or Dr. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 52,
@@ -257,7 +257,7 @@
     {
       "no": 53,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that is used to assign the employee's number."
     },
     {
       "no": 54,
@@ -387,12 +387,12 @@
     {
       "no": 1100,
       "name": "Cost Center Code",
-      "tooltip": ""
+      "tooltip": "Specifies the employees cost center."
     },
     {
       "no": 1101,
       "name": "Cost Object Code",
-      "tooltip": ""
+      "tooltip": "Specifies the employees cost object."
     }
   ]
 }

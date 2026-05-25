@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Bank Account No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the bank account used on the reconciliation line.\nThe program fills in the field from the Bank Account No. field on the Bank Account Reconciliation header."
     },
     {
       "no": 2,
       "name": "Statement No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the bank account statement received from the bank that is used on the reconciliation line.\nThe program fills in the field from the Statement No. field on the Bank Account Reconciliation header."
     },
     {
       "no": 3,
       "name": "Statement Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the reconciliation line.\nThe program inserts this number automatically. This number provides a trail by linking the reconciliation line with the ledger entry line that it has been applied to. The number will be inserted automatically on the applied bank account or check ledger entry."
     },
     {
       "no": 4,
@@ -62,7 +62,7 @@
     {
       "no": 13,
       "name": "Ready for Application",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 14,
@@ -82,12 +82,12 @@
     {
       "no": 17,
       "name": "Data Exch. Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 18,
       "name": "Data Exch. Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 20,

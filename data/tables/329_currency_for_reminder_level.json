@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Reminder Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reminder terms code that you want to set up foreign currency information for to be used when creating reminders.\nThe program copies this code from the Reminder Terms Code field in the Reminder Level table."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Specifies the reminder level number for which you want to set up foreign currency information to be used when creating reminders.\nThe program copies this code from the No. field in the Reminder Level table."
     },
     {
       "no": 3,

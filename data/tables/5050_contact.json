@@ -47,7 +47,7 @@
     {
       "no": 10,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the contact's telex number.\nIf you have selected the Inherit Communication Details field in the Marketing Setup window, each time you enter a new contact person for an existing company the program will fill in this field by copying the telex number of the company from the Telex No. field in the Contact table."
     },
     {
       "no": 15,
@@ -82,7 +82,7 @@
     {
       "no": 38,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies if comments have been entered concerning the contact.\nTo view a comment or create a new one, click Related Information, point to Contact, and then click Comments. A window then appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 48,
@@ -92,7 +92,7 @@
     {
       "no": 54,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the contact card was last modified. This field is not editable.\nWhen you change information on the contact card, the program automatically updates the Last Date Modified field to show the current system date."
     },
     {
       "no": 84,
@@ -102,7 +102,7 @@
     {
       "no": 85,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the contact's telex answer back number.\nIf you have selected the Inherit Communication Details field in the Marketing Setup window, each time you enter a new contact person for an existing company the program will fill in this field by copying the telex answer back number of the company from the Telex Answer Back field in the Contact table."
     },
     {
       "no": 86,
@@ -132,7 +132,7 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that is used to assign numbers to contacts. The field is not editable."
     },
     {
       "no": 140,
@@ -182,7 +182,7 @@
     {
       "no": 5053,
       "name": "Lookup Contact No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5054,
@@ -212,7 +212,7 @@
     {
       "no": 5060,
       "name": "Extension No.",
-      "tooltip": ""
+      "tooltip": "Contains the contact's extension number."
     },
     {
       "no": 5061,
@@ -222,7 +222,7 @@
     {
       "no": 5062,
       "name": "Pager",
-      "tooltip": ""
+      "tooltip": "Specifies the contact's pager number."
     },
     {
       "no": 5063,
@@ -237,7 +237,7 @@
     {
       "no": 5065,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a date filter.\nIf this field contains the starting and ending dates for a time period, fields such as No. of Interactions, Cost (LCY) and Duration (Min.) will display information for that time period only.\nYou can enter a date or a time interval. There are certain rules for how dates should be entered."
     },
     {
       "no": 5066,
@@ -267,7 +267,7 @@
     {
       "no": 5071,
       "name": "No. of Business Relations",
-      "tooltip": ""
+      "tooltip": "Specifies the number of business relations (for example, customer, vendor, consultant, competitor, and so on) your company has with this contact. When the contact is a person, this field contains the number of business relations for the contact's company. This field is not editable.\nTo see a list of the assigned business relations, click the field."
     },
     {
       "no": 5072,
@@ -277,7 +277,7 @@
     {
       "no": 5073,
       "name": "External ID",
-      "tooltip": ""
+      "tooltip": "Contains the contact's external ID.\nYou use this field to register the external ID of contacts that have been imported from another database."
     },
     {
       "no": 5074,
@@ -312,22 +312,22 @@
     {
       "no": 5082,
       "name": "Opportunity Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more opportunities are linked to the contact."
     },
     {
       "no": 5083,
       "name": "Task Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more to-dos are linked to the contact."
     },
     {
       "no": 5084,
       "name": "Salesperson Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a salesperson filter.\nIf this field contains a salesperson code, fields such as No. of Interactions, Cost (LCY) and Duration (Min.) will display information linked to that particular salesperson."
     },
     {
       "no": 5085,
       "name": "Campaign Filter",
-      "tooltip": ""
+      "tooltip": "Contains a campaign filter.\nIf this field contains a campaign number, fields such as No. of Interactions, Cost (LCY) and Duration (Min.) will display information linked to that particular campaign."
     },
     {
       "no": 5086,
@@ -337,67 +337,67 @@
     {
       "no": 5087,
       "name": "Action Taken Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an action taken filter. There are six options:\nNext\n\nPrevious\n\nUpdated\n\nJumped\n\nWon\n\nLost\n\n\nFor example, if this field contains the option Next, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities for which that particular action was taken."
     },
     {
       "no": 5088,
       "name": "Sales Cycle Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle filter.\nIf this field contains a sales cycle code, fields such as No. of Opportunities and Estimated Value will display information linked to opportunities created using that particular sales cycle."
     },
     {
       "no": 5089,
       "name": "Sales Cycle Stage Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle stage filter.\nIf this field contains a sales cycle stage code, fields such as No. of Opportunities and Estimated Value will display information linked to opportunities created using that particular sales cycle stage."
     },
     {
       "no": 5090,
       "name": "Probability % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a probability filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value will display information linked to opportunities having that particular probability."
     },
     {
       "no": 5091,
       "name": "Completed % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a completed percentage filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value will display information linked to opportunities with that percentage of completion."
     },
     {
       "no": 5092,
       "name": "Estimated Value Filter",
-      "tooltip": ""
+      "tooltip": "Contains an estimated value filter.\nIf this field contains an amount (LCY), fields such as No. of Opportunities and Estimated Value will display information linked to opportunities with that particular estimated value."
     },
     {
       "no": 5093,
       "name": "Calcd. Current Value Filter",
-      "tooltip": ""
+      "tooltip": "Contains a calculated current value filter.\nIf this field contains an amount (LCY), fields such as No. of Opportunities and Estimated Value will display information linked to opportunities with that particular calculated current value."
     },
     {
       "no": 5094,
       "name": "Chances of Success % Filter",
-      "tooltip": ""
+      "tooltip": "Contains a chances of success filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value will display information linked to opportunities with that particular chance of success."
     },
     {
       "no": 5095,
       "name": "Task Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a to-do status filter. There are five options:\n\nNot Started\n\n\nIn Progress\n\n\nCompleted\n\n\nWaiting\n\n\nPostponed\n\n\nFor example, if this field contains the option Postponed, fields such as Next To-do Date will display information linked to postponed to-dos."
     },
     {
       "no": 5096,
       "name": "Task Closed Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a closed to-do filter.\nIf this field contains Yes, fields such as Next To-do Date will only display information related to closed to-dos."
     },
     {
       "no": 5097,
       "name": "Priority Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a priority filter. There are three options: Low, Normal, and High.\nFor example, if this field contains the option High, fields such as Next To-do Date will only display information linked to to-dos with a high priority."
     },
     {
       "no": 5098,
       "name": "Team Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a team filter.\nIf this field contains a team code, fields such as Next To-do Date only displays information linked to to-dos handled by that particular team."
     },
     {
       "no": 5099,
       "name": "Close Opportunity Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for closed opportunities."
     },
     {
       "no": 5100,
@@ -412,17 +412,17 @@
     {
       "no": 5102,
       "name": "Search E-Mail",
-      "tooltip": ""
+      "tooltip": "Specifies the contact's e-mail address in upper case.\nThe field is filled out automatically and is only used internally by the program."
     },
     {
       "no": 5104,
       "name": "Last Time Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the time when the contact was last modified."
     },
     {
       "no": 5105,
       "name": "E-Mail 2",
-      "tooltip": ""
+      "tooltip": "Specifies a secondary email address for a contact. You can use this field to provide an alternative email address."
     },
     {
       "no": 5106,

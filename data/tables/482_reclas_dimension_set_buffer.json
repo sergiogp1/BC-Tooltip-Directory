@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Dimension Value ID",
-      "tooltip": ""
+      "tooltip": "Uniquely identifies the original dimension value."
     },
     {
       "no": 4,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "New Dimension Value ID",
-      "tooltip": ""
+      "tooltip": "Uniquely identifies the new dimension value."
     },
     {
       "no": 6,

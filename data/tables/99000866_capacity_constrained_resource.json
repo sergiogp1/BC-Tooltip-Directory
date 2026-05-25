@@ -32,42 +32,42 @@
     {
       "no": 14,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the work center that is constrained."
     },
     {
       "no": 39,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 40,
       "name": "Work Shift Filter",
-      "tooltip": ""
+      "tooltip": "Specifies any work shift filter that is set on the capacity-restrained machine or work center."
     },
     {
       "no": 42,
       "name": "Capacity (Effective)",
-      "tooltip": ""
+      "tooltip": "Specifies the effective capacity of this capacity-constrained machine or work center.\nThe effective capacity is the result of multiplying the value in the Capacity (Total) field by the value in the Efficiency field."
     },
     {
       "no": 44,
       "name": "Prod. Order Need Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies the calculated capacity requirements for production orders at this capacity-constrained work center.\nFor more information, see the Prod. Order Need (Qty.) field on the work center."
     },
     {
       "no": 46,
       "name": "Work Center Load Qty.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 48,
       "name": "Prod. Order Need Qty. for Plan",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 49,
       "name": "Work Center Load Qty. for Plan",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

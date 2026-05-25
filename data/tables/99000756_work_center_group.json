@@ -17,32 +17,32 @@
     {
       "no": 20,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 21,
       "name": "Work Shift Filter",
-      "tooltip": ""
+      "tooltip": "Shows the filter that filters by work shift.\nIf the field contains a work shift code, the values in the fields that contain quantities are only based on entries with the work shift code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\n1\n\nEntries from work shift 1 (the work shift code could contain letters instead of just numbers)\n\n\nInterval\n\n1..5\n\nEntries from work shifts 1 through 5\n\n\nEither/or\n\n1|2\n\nEntries that are from either work shift 1 or work shift 2\n\n\nDifferent from\n\n<>1\n\nEntries from all work shifts except work shift 1\n\n\nTo see the work shift codes in the Work Shift table, click the field."
     },
     {
       "no": 22,
       "name": "Capacity (Total)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the total available capacity for all work centers in a work center group.\nThe program automatically calculates and updates this field by using the contents in the Capacity (Total) field in the Calendar Entry table.\nYou can filter this field so its contents are calculated only on the basis of certain dates and work shifts. The unit of measure for the Total Capacity field is set in the Unit of Measure Code field on the corresponding work center cards. To get the correct capacity information, you must use the same unit of measure code for all work centers in a work center group.\nTo see the calendar entries that make up the number shown, click the field.\nThe program calculates the calendar entries of a work center when you run the Calculate Work Center Calendar batch job."
     },
     {
       "no": 23,
       "name": "Capacity (Effective)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the total effective capacity for all work centers in a work center group.\nThe program automatically calculates and updates this field by using the contents in the Capacity (Effective) field in the Calendar Entry table.\nYou can filter this field so its contents are calculated only on the basis of certain dates and work shifts. The unit of measure for the Capacity (Effective) field is set in the Unit of Measure Code field on the corresponding work center cards. To get the correct capacity information, you must use the same unit of measure code for all work centers in a work center group.\nTo see the calendar entries that make up the number shown, click the field.\nThe program calculates the calendar entries of a work center when you run the Calculate Work Center Calendar batch job."
     },
     {
       "no": 24,
       "name": "Prod. Order Need (Qty.)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the calculated capacity requirements for production orders for all work centers of the work center group.\nThe program automatically calculates and updates this field by using the contents in the Allocated Time field in the Prod. Order Capacity Need table.\nYou can filter this field so its contents are calculated only on the basis of certain dates and production order statuses. The unit of measure for the Prod. Order Need (Qty.) field is set in the Unit of Measure Code field on the corresponding work center cards.\nTo get the correct capacity information, you must use the same unit of measure code for all work centers in a work center group."
     },
     {
       "no": 47,
       "name": "Prod. Order Status Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by production order status.\nIf the field contains a production order status, the values in the fields that contain quantities are only based on entries with the production order status that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\nPlanned\n\nEntries from planned production orders.\n\n\nInterval\n\nPlanned..In Process\n\nEntries from production orders within the status Planned through In Process.\n\n\nEither/or\n\nPlanned|Firm Planned\n\nEntries that are from either production orders with the status Planned or Firm Planned.\n\n\nDifferent from\n\n<>Simulated\n\nEntries from all production orders except production orders with the status Simulated.\n\n\nTo see the production order status filters that are available, click the field."
     }
   ]
 }

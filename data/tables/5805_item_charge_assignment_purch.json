@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the item charge was entered on, that is the document you were in when you accessed the Item Charge Assignment (Purch) window.\nThe type in this field dictates which list of documents you are shown in the Document Line No. field.\nThe options are:\n\nQuote\n\n\nOrder\n\n\nInvoice\n\n\nCredit Memo\n\n\nBlanket Order\n\n\nReturn Order"
     },
     {
       "no": 2,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the document that the item charge was entered on, that is, the document you were in when you accessed the Item Charge Assignment (Purch) window."
     },
     {
       "no": 3,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the line that the item charge was entered on, that is, in the document you were in when you accessed the Item Charge Assignment (Purch) window."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the assignment line. The program fills in the field automatically."
     },
     {
       "no": 5,
       "name": "Item Charge No.",
-      "tooltip": ""
+      "tooltip": "Specifies the item charge number of the item charge.\nThe program copies the contents of this field from the document on which you entered the item charge."
     },
     {
       "no": 6,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the assignment line. The program uses this field internally."
     },
     {
       "no": 11,
@@ -77,7 +77,7 @@
     {
       "no": 15,
       "name": "Applies-to Doc. Line Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Suggests item charge assignment by amount."
     },
     {
       "no": 16,

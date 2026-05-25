@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Every absence entry has a unique entry number.\nThe entry number cannot be changed because the absence has been registered."
     },
     {
       "no": 3,
@@ -57,7 +57,7 @@
     {
       "no": 13,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "If the number in this field is different from 1, it means that a unit of measure other than the base unit setup on the Human Resources Setup card is used in the registration that the absence entry refers to."
     }
   ]
 }

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the requisition worksheet template.\nThe program retrieves the name automatically from the Name field in the requisition worksheet template."
     },
     {
       "no": 2,
@@ -22,12 +22,12 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the requisition worksheet template, such as requisition, subcontracting, or planning."
     },
     {
       "no": 22,
       "name": "Recurring",
-      "tooltip": ""
+      "tooltip": "Specifies if the requisition worksheet is set up as a recurring worksheet.\nFor more information, see Recurring."
     },
     {
       "no": 40,

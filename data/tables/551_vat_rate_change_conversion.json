@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether you want to convert the VAT product posting group or the general product posting group."
     },
     {
       "no": 2,

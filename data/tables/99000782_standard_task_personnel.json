@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Standard Task Code",
-      "tooltip": ""
+      "tooltip": "Specifies the standard task code.\nThe program automatically retrieves the standard task code from the Code field in the Standard Task table.\nThe program uses the standard task code to link the standard task personnel with the standard task."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different standard task personnel lines."
     },
     {
       "no": 4,

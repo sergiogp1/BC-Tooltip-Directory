@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the configuration table that is associated with the related table."
     },
     {
       "no": 2,
@@ -27,12 +27,12 @@
     {
       "no": 8,
       "name": "Relation Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the table related to the configuration table."
     },
     {
       "no": 9,
       "name": "Relation Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table that is related to the table in the configuration worksheet."
     }
   ]
 }

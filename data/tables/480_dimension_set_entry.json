@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Identifies a combination of dimension values.\nThe field is automatically populated after you select dimension values.\n\nAdditional Information\n\nThe value of the field is calculated based on the dimension values that you select in the Edit Dimension Set Entries window.\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Dimension Value ID",
-      "tooltip": ""
+      "tooltip": "Identifies a unique dimension value.\n\nAdditional Information\n\nThe field is automatically incremented, and the value is managed internally."
     },
     {
       "no": 5,

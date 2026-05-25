@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "VAT Report No.",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT report that the VAT report line is related to.\n\nThis field is used internally.\n\n\nYour implementation may differ."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the VAT report line.\n\nThis field is used internally.\n\n\nYour implementation may differ."
     },
     {
       "no": 3,
@@ -117,12 +117,12 @@
     {
       "no": 56,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies which general business posting group was used when the VAT entry was posted.\nThe value of this field is copied from the corresponding field in the VAT Entry table.\n\nYour implementation may differ."
     },
     {
       "no": 100,
       "name": "Record Identifier",
-      "tooltip": ""
+      "tooltip": "Specifies the location of this line in the printed or exported VAT report.\n\nThis field is used internally.\n\n\nYour implementation may differ.\n\n\nAdditional Information\n\nThe tax authorities require specific data in specific locations in the file when you submit VAT reports in print or electronically. The Record Identifier field specifies where in the VAT report the data from this line must display. For example, if the tax authorities identify the header record as starting with 0, the Record Identifier may be set to R0 for the VAT report line that contains the header record."
     }
   ]
 }

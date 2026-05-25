@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Exported Date and Time",
-      "tooltip": ""
+      "tooltip": "Specifies the date and time that migration records were exported to Excel or to an .xml file."
     },
     {
       "no": 9,
@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "Company Filter (Source Table)",
-      "tooltip": ""
+      "tooltip": "Specifies a company filter."
     },
     {
       "no": 12,
@@ -67,7 +67,7 @@
     {
       "no": 14,
       "name": "Package Processing Order",
-      "tooltip": ""
+      "tooltip": "Specifies the order in which packages should be processed."
     },
     {
       "no": 15,

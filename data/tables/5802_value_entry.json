@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the inventory posting group that was used when the entry was posted.\nThe program copies the code from one of the following fields:\n\nThe Inventory Posting Group field on a journal line.\n\n\nThe Posting Group field on a sales line or purchase line.\n\n\nThe Inventory Posting Group field on a transfer line."
     },
     {
       "no": 10,
@@ -117,7 +117,7 @@
     {
       "no": 28,
       "name": "Applies-to Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally. It contains the value entry to which the adjustment is related."
     },
     {
       "no": 33,
@@ -147,17 +147,17 @@
     {
       "no": 46,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code on the entry.\nThe program copies the code from one of the following fields:\n\nThe Reason Code field on a journal line.\n\n\nThe Reason Code field on a sales header or purchase header."
     },
     {
       "no": 47,
       "name": "Drop Shipment",
-      "tooltip": ""
+      "tooltip": "Specifies if the items that the value entry is linked to have been shipped directly to the customer.\nThe program copies the field from the Drop Shipment field on the sales line or purchase line."
     },
     {
       "no": 48,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the journal that the entry was posted from.\nIt is copied from the Journal Batch Name field on the journal line."
     },
     {
       "no": 57,
@@ -222,12 +222,12 @@
     {
       "no": 92,
       "name": "Order Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number of the order that created the entry.\nThe type of order is defined by the related Order Type field."
     },
     {
       "no": 98,
       "name": "Expected Cost",
-      "tooltip": ""
+      "tooltip": "Specifies that the value entry has not been invoiced but was posted as an expected cost."
     },
     {
       "no": 99,
@@ -242,12 +242,12 @@
     {
       "no": 102,
       "name": "Partial Revaluation",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nIf this field contains a check mark, only part of the original inventory increase has been revalued."
     },
     {
       "no": 103,
       "name": "Inventoriable",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nIf this field contains a check mark, this entry is part of the inventory value."
     },
     {
       "no": 104,
@@ -267,12 +267,12 @@
     {
       "no": 148,
       "name": "Purchase Amount (Actual)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of purchase amounts that are posted as received and invoiced."
     },
     {
       "no": 149,
       "name": "Purchase Amount (Expected)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of purchase amounts that are posted as received but not invoiced."
     },
     {
       "no": 150,
@@ -307,7 +307,7 @@
     {
       "no": 159,
       "name": "Exp. Cost Posted to G/L (ACY)",
-      "tooltip": ""
+      "tooltip": "Specifies the expected cost amount that has been posted to the interim account in the general ledger, expressed in the additional reporting currency, if you post in an additional reporting currency.\nIf you have selected the Expected Cost Posting to G/L option in the inventory setup, the program enters the amount in this field when you run the Post Inventory Cost to G/L batch job."
     },
     {
       "no": 480,
@@ -362,7 +362,7 @@
     {
       "no": 5402,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Specifies the variant code for the items.\nThe field can be filled in from the following fields:\nIf the entry was posted from an item journal line, the variant code is copied from the Variant Code field on the journal line.\nIf the entry was posted from an order, invoice, return order or credit memo, the variant code is copied from the Variant Code field on the sales or purchase line."
     },
     {
       "no": 5818,
@@ -372,7 +372,7 @@
     {
       "no": 5819,
       "name": "Average Cost Exception",
-      "tooltip": ""
+      "tooltip": "Specifies if the value entry meets certain conditions, such as if it is a revaluation, where the value entry may cause different average costs per average cost period. For these value entries, the program places a check mark in this field, which means that the average cost must be recalculated in the cost adjustment batch job for this valuation date from the value entry onwards. Ultimately, this helps the performance of the cost adjustment batch job."
     },
     {
       "no": 5831,

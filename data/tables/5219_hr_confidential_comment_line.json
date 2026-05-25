@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the table to which this comment applies.\nThe program automatically fills in this field with the table name for which the comment was set up."
     },
     {
       "no": 2,
@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Table Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "When you register various comments, the program automatically enters a line number in the Line No. field to keep track of all the different comments you have set up."
     },
     {
       "no": 7,

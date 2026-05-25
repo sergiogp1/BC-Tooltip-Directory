@@ -47,7 +47,7 @@
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that someone had attached a comment to this posted warehouse receipt."
     },
     {
       "no": 12,

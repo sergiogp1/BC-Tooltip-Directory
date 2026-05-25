@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies a unique number that identifies the opportunity.\nThis field is used internally by the program."
     },
     {
       "no": 2,
@@ -27,22 +27,22 @@
     {
       "no": 5,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the contact that is linked to the opportunity."
     },
     {
       "no": 6,
       "name": "Contact Company No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the company that is linked to this opportunity."
     },
     {
       "no": 7,
       "name": "Salesperson Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the salesperson who is responsible for this opportunity."
     },
     {
       "no": 8,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign to which this opportunity is linked."
     },
     {
       "no": 9,
@@ -112,7 +112,7 @@
     {
       "no": 9501,
       "name": "Wizard Step",
-      "tooltip": ""
+      "tooltip": "Specifies the step of the wizard."
     },
     {
       "no": 9502,

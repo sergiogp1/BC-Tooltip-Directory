@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the comment applies to."
     },
     {
       "no": 2,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number of the assembly order that the comment applies to."
     },
     {
       "no": 3,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the assembly order line that the comment applies to."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the comment.\nWhen you create an assembly order comment, a line number is created to track all comments in the Assembly Comment Line table. The line number is specific to the particular comment."
     },
     {
       "no": 10,

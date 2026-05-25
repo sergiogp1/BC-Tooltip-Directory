@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Shows the external document number that was entered on the purchase header or journal line.\nIf the entry was posted from a journal line, the number was copied from the External Document No. field on the journal line.\nIf the entry was posted from a purchase order, invoice, or credit memo, the number could have been copied from the Vendor Invoice No. or the Vendor Cr. Memo No. fields on the purchase header depending on the document type that created the ledger entry."
     },
     {
       "no": 10,
@@ -92,22 +92,22 @@
     {
       "no": 18,
       "name": "Part of Book Value",
-      "tooltip": ""
+      "tooltip": "Specifies that the amount of the entry is part of the asset's book value.\nThe program is set up so that normally:\nBook Value = (Acquisition Cost Entries + Appreciation Entries ) - (Write-Down Entries + Depreciation Entries + Custom 1 Entries + Custom 2 Entries)\nYou can, however, define book value in a different way in the FA Posting Type Setup window. Note that acquisition cost and depreciation are always part of the asset's book value.\nThe program determines whether the entry should be a part of the book value when posting the entry according to the information in the Part of Book Value field in the FA Posting Type Setup window."
     },
     {
       "no": 19,
       "name": "Part of Depreciable Basis",
-      "tooltip": ""
+      "tooltip": "Specifies that the amount of the entry is included in the asset's depreciable basis.\nThe program is set up so that normally:\nDepreciable Basis = (Acquisition Cost + Appreciation) - (Write-Downs + Salvage Value).\nYou can, however, define depreciable basis in a different way in the FA Posting Type Setup window. Note that acquisition cost and salvage value are always part of the asset's depreciable basis.\nThe program uses the Part of Depreciable Basis field in the FA Posting Type Setup window to determine which entry types are defined as being part of the asset's depreciable basis."
     },
     {
       "no": 20,
       "name": "Disposal Calculation Method",
-      "tooltip": ""
+      "tooltip": "Specifies the calculation method used on disposal if the entry was created due to the disposal of a fixed asset.\nWhen posting the entry, the program used the information from the Disposal Calculation Method field in the Depreciation Book Card window to determine which method to use for calculating gain or loss on the disposal of a fixed asset."
     },
     {
       "no": 21,
       "name": "Disposal Entry No.",
-      "tooltip": ""
+      "tooltip": "Shows the entry number that the program has given the entry that was created when the asset was disposed of.\nAll entries created by the disposal of a fixed asset have a unique disposal entry number. The program assigns this number to all the entries created by this type of transaction when the entry is posted."
     },
     {
       "no": 22,
@@ -117,22 +117,22 @@
     {
       "no": 23,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies zero for fixed asset entries."
     },
     {
       "no": 24,
       "name": "FA No./Budgeted FA No.",
-      "tooltip": ""
+      "tooltip": "Posts an acquisition cost for a fixed asset that has a budget.\nThis field shows the number of the fixed asset or the budgeted fixed asset related to this entry.\nWhen you post an acquisition cost for a fixed asset and fill in the Budgeted FA No. field, the program copies the number from the Budgeted FA No. field on the journal line. At the same time, an entry is created automatically for the budgeted fixed asset with the same amount but reverse sign. The contents of the Account No. field are copied to the FA No./Budgeted FA No. field."
     },
     {
       "no": 25,
       "name": "FA Subclass Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset subclass that the entry is linked to.\nThe program copies the FA subclass code from the FA Subclass Code field for the fixed asset for which this entry was made."
     },
     {
       "no": 26,
       "name": "FA Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the FA location that the entry is linked to.\nThe program copies the FA location code from the FA Location Code field for the fixed asset for which this entry was made."
     },
     {
       "no": 27,
@@ -152,7 +152,7 @@
     {
       "no": 30,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the location that the entry is linked to.\nThe field can be filled in from the following fields:\n\nIf the entry was posted from a fixed assets journal, the program copied the location code from the Location Code field for the fixed asset for which this entry was made.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Location Code field for the fixed asset for which this document was made."
     },
     {
       "no": 32,
@@ -172,32 +172,32 @@
     {
       "no": 35,
       "name": "Straight-Line %",
-      "tooltip": ""
+      "tooltip": "Shows the depreciation percentage used with the straight-line depreciation method for the fixed asset on this entry.\nThe program copied the straight-line percentage from the Straight-Line % field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 36,
       "name": "No. of Depreciation Years",
-      "tooltip": ""
+      "tooltip": "Shows the number of years that the asset on this entry can be depreciated.\nThe program copied this figure from the No. of Depreciation Years field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 37,
       "name": "Fixed Depr. Amount",
-      "tooltip": ""
+      "tooltip": "Shows the amount set up as the fixed depreciation amount for the fixed asset in this entry.\nThe program copied this figure from the Fixed Depr. Amount field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 38,
       "name": "Declining-Balance %",
-      "tooltip": ""
+      "tooltip": "Shows the depreciation percentage used with the declining-balance depreciation method for the fixed asset on this entry.\nThe program copied the declining balance percentage from the Declining-Balance % field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 39,
       "name": "Depreciation Table Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the depreciation table that is used for depreciating the fixed asset on this line.\nThe program copied the depreciation table code from the Depreciation Table Code field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 40,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal that the entry was posted from.\nThe program filled in the name from the Journal Batch Name field on the journal line."
     },
     {
       "no": 41,
@@ -212,7 +212,7 @@
     {
       "no": 43,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Shows the transaction number assigned to all the entries involved in the same transaction. If there are any G/L entries, VAT ledger entries, vendor ledger entries or insurance coverage ledger entries associated with the fixed asset ledger entry, they are assigned the same transaction number.\nThe number is used to connect all entries that are created by the same posting."
     },
     {
       "no": 44,
@@ -227,47 +227,47 @@
     {
       "no": 46,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Shows the VAT amount that was posted as a result of the entry.\nWhen you post, the VAT amount is calculated according to the VAT conditions specified in the General Posting Setup window."
     },
     {
       "no": 47,
       "name": "Gen. Posting Type",
-      "tooltip": ""
+      "tooltip": "Shows the general posting type that applies to the entry.\nThe program automatically retrieved the general posting type from one of the following fields:\n\nIf the entry was posted from a general journal line, the general posting type was copied from the Gen. Posting Type field or the Bal. Gen. Posting Type field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the general posting type field was filled in if VAT was calculated on the line."
     },
     {
       "no": 48,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the code for the general business posting group that applies to the entry.\nThe program automatically retrieved the code from one of the following fields:\n\nIf the entry was posted from a general journal line, the code was copied from the Gen. Bus. Posting Group field or the Bal. Gen. Bus. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Gen. Bus. Posting Group field on the purchase header."
     },
     {
       "no": 49,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the code for the general product posting group that applies to the entry.\nThe program automatically retrieved the code from one of the following fields:\n\nIf the entry was posted from a general journal line, the code was copied from the Gen. Prod. Posting Group field or the Bal. Gen. Prod. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Gen. Prod. Posting Group field on the purchase line."
     },
     {
       "no": 50,
       "name": "FA Class Code",
-      "tooltip": ""
+      "tooltip": "Shows the code for the fixed asset class that the entry is linked to.\nThe program copied the FA class code from the FA Class Code field for the fixed asset for which this entry was made."
     },
     {
       "no": 51,
       "name": "FA Exchange Rate",
-      "tooltip": ""
+      "tooltip": "Shows the exchange rate used in the entry.\nAn exchange rate can be used for fixed assets when duplicating journal lines from one depreciation book to another.\nThe program copied the exchange rate from the FA Exchange Rate field in the FA Depreciation Books window when the entry was posted. If this field was empty, the program copied the exchange rate from the Default Exchange Rate field in the Depreciation Book Card window."
     },
     {
       "no": 52,
       "name": "Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the amount of the entry in LCY.\nThe program calculated the amount automatically when the entry was posted, using the fixed asset exchange rate."
     },
     {
       "no": 53,
       "name": "Result on Disposal",
-      "tooltip": ""
+      "tooltip": "Shows whether there was a gain or loss on the disposal of the fixed asset.\nThe program calculated the gain or loss on disposal when you posted the disposal of a fixed asset from a journal and filled in this field accordingly with either Gain or Loss."
     },
     {
       "no": 54,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Shows whether this entry has been posted as a corrective entry.\nThe program copies the code from the Correction field on the purchase header or journal line."
     },
     {
       "no": 55,
@@ -287,72 +287,72 @@
     {
       "no": 58,
       "name": "Use FA Ledger Check",
-      "tooltip": ""
+      "tooltip": "Specifies whether validation was performed before posting the journal line that created the entry.\nThe program runs various checks before posting if you place a check mark in the Use FA Ledger Check field in the FA Depreciation Books. For example, the program can make sure that acquisition cost is the first entry made to an asset, a disposal entry is the last entry to an asset and accumulated depreciation is a credit.\nThe program will have put a check mark in this field if there was a check mark in the Use FA Ledger Check field in the FA Depreciation Books window linked to the fixed asset for which this entry was made."
     },
     {
       "no": 59,
       "name": "Automatic Entry",
-      "tooltip": ""
+      "tooltip": "Specifies all entries that have been created automatically by running a batch job or indirectly by the posting of a journal line (for example, gain or loss entries on the disposal of an asset or depreciation entries on the disposal of an asset)."
     },
     {
       "no": 60,
       "name": "Depr. Starting Date (Custom 1)",
-      "tooltip": ""
+      "tooltip": "Contains the starting date for depreciation of the fixed asset that is linked to this entry when the custom-1 depreciation method is used.\nThe program copied the date from the Depr. Starting Date (Custom 1) field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 61,
       "name": "Depr. Ending Date (Custom 1)",
-      "tooltip": ""
+      "tooltip": "Contains the ending date for depreciation of the fixed asset that is linked to this entry when the custom-1 depreciation method is used.\nThe program copied the date from the Depr. Ending Date (Custom 1) field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 62,
       "name": "Accum. Depr. % (Custom 1)",
-      "tooltip": ""
+      "tooltip": "Contains the total depreciation percentage for the fixed asset that is linked to this entry when the custom-1 depreciation method is used.\nThe program copied the percentage from the Accum. Depr. % (Custom 1) field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 63,
       "name": "Depr. % this year (Custom 1)",
-      "tooltip": ""
+      "tooltip": "Contains the depreciation percentage for the current year for the fixed asset that is linked to this entry when the custom-1 depreciation method is used.\nThe program copied the percentage from the Depr. This Year % (Custom 1) field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 64,
       "name": "Property Class (Custom 1)",
-      "tooltip": ""
+      "tooltip": "Contains the property class of the fixed asset that is linked to this entry when the custom-1 depreciation method is used. The field can indicate whether the fixed asset is real property or personal property.\nThe program copied the property class from the Property Class (Custom 1) field in the FA Depreciation Books window that is linked to the fixed asset for which this entry was made."
     },
     {
       "no": 65,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs."
     },
     {
       "no": 66,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the Tax Area Code field or the Bal. Tax Area Code field on the journal line.\n\n\nIf the entry was posted from an order, invoice, or credit memo, the code is copied from the Tax Area Code field on the purchase header."
     },
     {
       "no": 67,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Automatically copies the value from the Tax Liable or Bal. Tax Liable field on a journal line or the Tax Liable field on the purchase header."
     },
     {
       "no": 68,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the Tax Group Code field or the Bal. Tax Group Code field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice or credit memo, the code is copied from the Tax Group Code field on the purchase line."
     },
     {
       "no": 69,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies that the tax amount for the entry is use tax.\nIf the entry was posted from a journal line, the code is copied from the Use Tax field or the Bal. Use Tax field on the journal line.\nIf the entry was posted from a purchase order, invoice, or credit memo, the code is copied from the Use Tax field on the purchase line."
     },
     {
       "no": 70,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the code for the VAT business posting group that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the VAT Bus. Posting Group field or the Bal. VAT Bus. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice, or credit memo, the code is copied from the VAT Bus. Posting Group field on the purchase line."
     },
     {
       "no": 71,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows the code for the VAT product posting group that applies to the entry.\nThe program automatically retrieves the code from one of the following fields:\n\nIf the entry was posted from a journal line, the code is copied from the VAT Prod. Posting Group field or the Bal. VAT Prod. Posting Group field on the journal line.\n\n\nIf the entry was posted from a purchase order, invoice, or credit memo, the code is copied from the VAT Prod. Posting Group field on the purchase line."
     },
     {
       "no": 72,

@@ -42,7 +42,7 @@
     {
       "no": 15,
       "name": "Invoiced Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units of the item on the line that have been invoiced. The quantity is expressed in base units of measure."
     },
     {
       "no": 20,
@@ -62,7 +62,7 @@
     {
       "no": 29,
       "name": "Qty. per Cap. Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per capacity unit of measure.\nThe program copies the quantity per capacity unit of measure from the Qty. per Cap. Unit of Measure field on the item journal line.\nYou cannot change the quantity per capacity unit of measure because the capacity ledger entry has already been posted."
     },
     {
       "no": 33,
@@ -92,22 +92,22 @@
     {
       "no": 58,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code.\nThe program copies the code from the Unit of Measure Code field on the item journal line.\nYou cannot change the code because the capacity ledger entry has already been posted."
     },
     {
       "no": 59,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure.\nThe program copies the quantity per unit of measure from the Qty. per Unit of Measure field on the item journal line.\nYou cannot change the quantity per unit of measure because the capacity ledger entry has already been posted."
     },
     {
       "no": 60,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Specifies the document date, which need not necessarily be the same as the posting date.\nThe program copies the document date from the Document Date field on the item journal line.\nYou cannot change the document date because the capacity ledger entry has already been posted."
     },
     {
       "no": 61,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the external document number.\nThe program copies the external document number from the External Document No. field on the item journal line.\nYou cannot change the external document number because the capacity ledger entry has already been posted."
     },
     {
       "no": 71,
@@ -132,7 +132,7 @@
     {
       "no": 78,
       "name": "Subcontracting",
-      "tooltip": ""
+      "tooltip": "Specifies that the capacity ledger entry is from a subcontractor."
     },
     {
       "no": 87,

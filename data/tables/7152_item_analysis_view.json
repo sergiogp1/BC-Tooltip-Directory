@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Specifies the application area that the analysis view belongs to:\nSales: The analysis view was set up for Sales & Receivables\nPurchase: The analysis view was set up for Purchases & Payables\nInventory: The analysis view was set up for Inventory"
     },
     {
       "no": 2,
@@ -87,7 +87,7 @@
     {
       "no": 18,
       "name": "Refresh When Unblocked",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

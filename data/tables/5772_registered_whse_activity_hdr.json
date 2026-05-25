@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies if a comment is created for the registered warehouse activity."
     },
     {
       "no": 11,

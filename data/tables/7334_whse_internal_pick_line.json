@@ -112,7 +112,7 @@
     {
       "no": 35,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. This determine the order in which lines are displayed."
     },
     {
       "no": 36,
@@ -122,12 +122,12 @@
     {
       "no": 37,
       "name": "Cubage",
-      "tooltip": ""
+      "tooltip": "Specifies the cubage of the items on the line, calculated as quantity. Outstanding x Item Unit of Measure Cubage."
     },
     {
       "no": 38,
       "name": "Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the weight of the items on the line, calculated as Qty. Outstanding x Item Unit of Measure Weight."
     }
   ]
 }

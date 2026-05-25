@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Sent to Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the user to whom the overdue notification was sent."
     },
     {
       "no": 9,
@@ -62,17 +62,17 @@
     {
       "no": 12,
       "name": "Approval Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code identifying the approval process that is required for the document to be approved. The codes in this field are the codes you have set up in the Approval Codes window."
     },
     {
       "no": 13,
       "name": "Approval Type",
-      "tooltip": ""
+      "tooltip": "Specifies which approvers apply to this approval template:\nSelect between these options:\n\n\nOption\n\n\nDescription\n\n\nBlank\n\nAdditional approvers that are set up for this approval template will be used as approvers.\n\n\nSalesperson/Purchaser\n\nThe Salesperson/Purchaser that is entered in the document will determine the approver.\n\n\nApprover\n\nThe user who sends the document for approval will determine the approver."
     },
     {
       "no": 14,
       "name": "Limit Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of limit that applies to the approval template:\nApproval Limits: If the template applies to a sales document, then the sales amount limit is used, and if it applies to a purchase document, then the purchase amount limit is used.\nCredit Limits: This limit applies to sales documents only. If a sales document is created that will put a customer over their credit limit and the document is sent for approval, the program creates an approval entry for each credit limit approver, as well as for any other approvers that are approving based on the amount of the sales document. The credit limit approval will occur before the amount approval.\nRequest Limits: This limit applies to purchase quotes only. By using the Purchase Request Limit in combination with the Request Amount Approval Limit field in the Approval User Setup window, you can set up a purchase request process for internal purchases in the company. When you send a purchase quote for approval, approval entries for your approvers are created.\nNo Limits: The approval process uses no limits and results in the program assigning one approver only according to the setup in the User Setup table."
     },
     {
       "no": 15,

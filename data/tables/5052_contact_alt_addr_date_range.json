@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Contact No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the contact for the date range of the alternative address.\nWhen you create an alternative address date range from the contact card, the program copies the contact number from the No. field in the contact table.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 2,

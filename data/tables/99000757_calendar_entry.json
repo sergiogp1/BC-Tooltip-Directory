@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that this capacity refers to."
     },
     {
       "no": 5,
@@ -27,22 +27,22 @@
     {
       "no": 6,
       "name": "Starting Time",
-      "tooltip": ""
+      "tooltip": "Specifies the starting time of this calendar entry."
     },
     {
       "no": 7,
       "name": "Ending Time",
-      "tooltip": ""
+      "tooltip": "Specifies the ending time of this calendar entry."
     },
     {
       "no": 8,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies the work center number if the capacity entry is directly assigned to a work center.\nIf this entry is assigned to a machine center and this machine center is assigned to a work center, then the number of the work center is shown here."
     },
     {
       "no": 9,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the work center group if the work center or the machine center was assigned to a work center group."
     },
     {
       "no": 10,
@@ -67,12 +67,12 @@
     {
       "no": 22,
       "name": "Absence Efficiency",
-      "tooltip": ""
+      "tooltip": "Specifies the efficiency that is lost because of an absence."
     },
     {
       "no": 23,
       "name": "Absence Capacity",
-      "tooltip": ""
+      "tooltip": "Specifies the capacity that is lost due to an absence."
     },
     {
       "no": 24,

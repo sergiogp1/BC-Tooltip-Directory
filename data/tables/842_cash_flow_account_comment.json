@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table to which the comment applies."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the comment.\nWhen you create a comment, a line number is automatically created in the field to keep track of all the comments in the comment table. The line number is specific to the particular comment."
     },
     {
       "no": 4,

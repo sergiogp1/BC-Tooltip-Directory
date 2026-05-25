@@ -82,7 +82,7 @@
     {
       "no": 5058,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a date filter.\nIf this field contains the starting and ending dates for a time period, fields such as No. of Interactions, Cost (LCY), Duration (Min.), and Sales/Purchases (LCY) will display information for that time period only.\nYou can enter a date or a time interval. There are certain rules for how they should be entered."
     },
     {
       "no": 5059,
@@ -107,27 +107,27 @@
     {
       "no": 5063,
       "name": "Action Taken Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an action taken filter.\nThe following options exist:\nNext\n\nPrevious\n\nUpdated\n\nJumped\n\nWon\n\nLost\n\n\nFor example, if this field contains the Next option, then fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities for which that particular action was the last action taken."
     },
     {
       "no": 5064,
       "name": "Sales Cycle Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle filter.\nIf this field contains a sales cycle code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities created using that particular sales cycle."
     },
     {
       "no": 5065,
       "name": "Sales Cycle Stage Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a sales cycle stage filter.\nIf this field contains a sales cycle stage code, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities currently under that particular stage."
     },
     {
       "no": 5066,
       "name": "Probability % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a probability filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities having that particular probability."
     },
     {
       "no": 5067,
       "name": "Completed % Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a percentage completed filter.\nIf this field contains a percent, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities with that degree of completion."
     },
     {
       "no": 5068,
@@ -142,77 +142,77 @@
     {
       "no": 5070,
       "name": "Contact Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a contact filter.\nIf this field contains a contact number, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities linked to that particular contact."
     },
     {
       "no": 5071,
       "name": "Contact Company Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a contact company filter.\nIf this field contains Yes, fields such as No. of Opportunities and Estimated Value (LCY) only display information related to opportunities linked to contact companies."
     },
     {
       "no": 5072,
       "name": "Campaign Filter",
-      "tooltip": ""
+      "tooltip": "Contains a campaign filter.\nIf this field contains a campaign number, fields in the To-dos window and in the Opportunities window only display information related to opportunities linked to that particular campaign."
     },
     {
       "no": 5073,
       "name": "Estimated Value Filter",
-      "tooltip": ""
+      "tooltip": "Specifies an estimated value filter.\nIf this field contains an amount (LCY), fields in the Opportunities window only display information related to opportunities with that particular estimated value."
     },
     {
       "no": 5074,
       "name": "Calcd. Current Value Filter",
-      "tooltip": ""
+      "tooltip": "Contains a calculated current value filter.\nIf this field contains an amount, fields in the Opportunities window only display information related to opportunities with that particular calculated current value."
     },
     {
       "no": 5075,
       "name": "Chances of Success % Filter",
-      "tooltip": ""
+      "tooltip": "Contains a chances-of-success filter.\nIf this field contains a percent, fields in the Opportunities window only display information related to opportunities with that particular chance of success."
     },
     {
       "no": 5076,
       "name": "Task Status Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a to-do status filter. There are five options: Not Started, In Progress, Completed, Waiting and Postponed.\nIf this field contains a status, fields in the To-dos window only display information related to to-dos with that particular status."
     },
     {
       "no": 5077,
       "name": "Closed Task Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a closed to-do filter.\nIf this field contains Yes, fields such in the To-dos window only display information related to closed to-dos."
     },
     {
       "no": 5078,
       "name": "Priority Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a priority filter. There are three options: Low, Normal and High.\nIf this field contains a priority, fields in the To-dos window only display information related to to-dos with that particular priority."
     },
     {
       "no": 5079,
       "name": "Team Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a team filter.\nIf this field contains a team code, fields in the To-dos window only display information related to to-dos assigned to that particular team."
     },
     {
       "no": 5082,
       "name": "Opportunity Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more opportunity entries are linked to the salesperson."
     },
     {
       "no": 5083,
       "name": "Task Entry Exists",
-      "tooltip": ""
+      "tooltip": "Specifies that one or more to-do entries are linked to the salesperson."
     },
     {
       "no": 5084,
       "name": "Close Opportunity Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for closed opportunities."
     },
     {
       "no": 5085,
       "name": "Search E-Mail",
-      "tooltip": ""
+      "tooltip": "Specifies the salesperson's e-mail address in upper case. The field is filled out automatically and is only used internally by the program."
     },
     {
       "no": 5086,
       "name": "E-Mail 2",
-      "tooltip": ""
+      "tooltip": "Specifies a secondary email address for the salesperson. You can use this field to provide an alternative email address."
     },
     {
       "no": 5087,

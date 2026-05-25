@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Service Item Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the service item group to which the standard service code is assigned.\nIf the field is blank, this means that the standard service code specified next to it in the Code field can be used not only for service items belonging to specific service item groups. You can use it to automatically insert standard service lines in the service documents with items that are not included in any service item group."
     },
     {
       "no": 2,

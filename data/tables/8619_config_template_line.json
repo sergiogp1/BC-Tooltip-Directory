@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Data Template Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the data template. When you create a new template, you can specify a code that contains up to ten characters, numbers, and spaces."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 3,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Field ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the field that is part of the data template."
     },
     {
       "no": 5,
@@ -32,12 +32,12 @@
     {
       "no": 6,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table in the data template."
     },
     {
       "no": 7,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table that is referenced in the data template line."
     },
     {
       "no": 8,
@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "Template Description",
-      "tooltip": ""
+      "tooltip": "Specifies a description for the template."
     },
     {
       "no": 10,
@@ -67,7 +67,7 @@
     {
       "no": 13,
       "name": "Table Caption",
-      "tooltip": ""
+      "tooltip": "Specifies the caption of the table on which the data template is based. The caption comes from the Caption property of the table.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 14,

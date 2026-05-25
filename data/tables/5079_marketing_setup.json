@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -162,22 +162,22 @@
     {
       "no": 56,
       "name": "Queue Folder Path",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the queue folder in Microsoft Outlook.\nYou must identify an email address that is associated with an Exchange Server, before you can select a folder path. Then choose the Browse button to search for the folder you want to use as the mail queue folder. The Exchange Folders window opens, and provides a list of the public folders that are available."
     },
     {
       "no": 57,
       "name": "Queue Folder UID",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Identifies which queue folder is used during the email logging process."
     },
     {
       "no": 59,
       "name": "Storage Folder Path",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the storage folder in Microsoft Outlook.\nYou must identify an email address that is associated with an Exchange Server, before you can select a folder path. Then choose the Browse button to search for the folder you want to use as the mail storage folder. The Exchange Folders window opens, and provides a list of the public folders that are available."
     },
     {
       "no": 60,
       "name": "Storage Folder UID",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Identifies which storage folder is used during the email logging process."
     },
     {
       "no": 67,
@@ -187,12 +187,12 @@
     {
       "no": 69,
       "name": "Autodiscovery E-Mail Address",
-      "tooltip": ""
+      "tooltip": "Specifies the email address that you want to use in discovery of an Exchange Server. You specify a valid email address, which enables the discovery of the associated Exchange Server. You can validate the email address after you enter an address."
     },
     {
       "no": 70,
       "name": "Email Batch Size",
-      "tooltip": ""
+      "tooltip": "Specifies the number of email messages that you want to process in one run of a job queue that has been set up to handle email logging. By default, the number of messages to process is 0, which means that email messages are not batched together. You can modify this value when you are fine tuning your process so that the execution of a job queue does not take too long. Any email message that is not logged in any particular run will be handled in a subsequent run that has been scheduled."
     },
     {
       "no": 71,

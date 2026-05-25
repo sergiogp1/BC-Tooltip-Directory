@@ -137,12 +137,12 @@
     {
       "no": 28,
       "name": "Contact Alt. Address Code",
-      "tooltip": ""
+      "tooltip": "Specifies the contact alternative address used for the interaction. The field is not editable.\nIf the field is blank, the interaction has been created using the contact's usual address."
     },
     {
       "no": 29,
       "name": "Logged Segment Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the logged segment (if any) to which the interaction log entry is linked."
     },
     {
       "no": 30,
@@ -157,12 +157,12 @@
     {
       "no": 32,
       "name": "Version No.",
-      "tooltip": ""
+      "tooltip": "Specifies the version number of the document that the interaction log entry is related to."
     },
     {
       "no": 33,
       "name": "Doc. No. Occurrence",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times the \"No.\" value has been used in the number series."
     },
     {
       "no": 34,
@@ -172,7 +172,7 @@
     {
       "no": 35,
       "name": "Send Word Docs. as Attmt.",
-      "tooltip": ""
+      "tooltip": "Specifies that the Microsoft Word document has been sent as an attachment in the e-mail message.\nThis field is only valid if the interaction template attachment contains a Microsoft Word document and the correspondence type is E-Mail."
     },
     {
       "no": 36,
@@ -182,7 +182,7 @@
     {
       "no": 37,
       "name": "E-Mail Logged",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Prevents email messages from being logged twice."
     },
     {
       "no": 38,
@@ -212,7 +212,7 @@
     {
       "no": 45,
       "name": "Postponed",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Specifies whether the interaction is postponed."
     },
     {
       "no": 46,

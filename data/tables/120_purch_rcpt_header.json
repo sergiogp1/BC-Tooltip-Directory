@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "Your Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's reference.\nThe program copies the reference from the Your Reference field on the purchase header.\nYou cannot change the reference because the receipt has already been posted."
     },
     {
       "no": 12,
@@ -92,7 +92,7 @@
     {
       "no": 19,
       "name": "Order Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date the purchase header was created.\nThe program copies the date from the Order Date field on the purchase header.\nYou cannot change the order date because the receipt has already been posted."
     },
     {
       "no": 20,
@@ -107,27 +107,27 @@
     {
       "no": 22,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Specifies the entry type and number, such as Receipt 22066.\nThe program copies the posting description from the Posting Description field on the purchase header.\nThe posting description also appears on vendor and G/L entries.\nYou cannot change the posting description because the receipt has already been posted."
     },
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code to use to find the payment terms that apply to the purchase header.\nThe program copies the payment terms code from the Payment Terms Code field on the purchase header.\nThe payment terms are used to calculate the due date and payment discount date from the document date and to find payment discount percents.\nYou cannot change the payment terms code because the receipt has already been posted."
     },
     {
       "no": 24,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Specifies when the receipt is due. The program calculates the date using the Payment Terms Code and Posting Date fields on the purchase header.\nAfter you post orders, invoices and receipts, the program uses the due date to find the vendors whose bills are due when you run the Suggest Vendor Payments batch job.\nYou cannot change the due date because the receipt has already been posted."
     },
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the payment discount percentage that will be given if you pay for the purchase on or before the date in the Pmt. Discount Date field.\nThe program copies the payment discount percentage from the Payment Discount % field on the purchase header.\nYou cannot change the payment discount percentage because the receipt has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Specifies the last date on which you can pay the receipt and still receive a payment discount.\nThe program copies the discount date from the Pmt. Discount Date field on the purchase header.\nAfter you post orders, invoices and receipts, the program uses the due date to find the vendors whose bills are due when you run the Suggest Vendor Payments batch job.\nYou cannot change the discount date because the receipt has already been posted."
     },
     {
       "no": 27,
@@ -152,27 +152,27 @@
     {
       "no": 31,
       "name": "Vendor Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor posting group that was used when the receipt was posted.\nThe program copies the vendor posting group from the Vendor Posting Group field on the purchase header.\nYou cannot change the posting group because the receipt has already been posted."
     },
     {
       "no": 32,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "Specifies the currency code used to calculate the amounts on the receipt.\nThe program copies the currency code from the Currency Code field on the purchase header.\nYou cannot change the currency code because the receipt has already been posted."
     },
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that will be used to find the invoice discount that was granted on the receipt.\nThe program copies the invoice discount code from the Invoice Disc. Code field on the purchase header.\nYou cannot change the invoice discount code because the receipt has already been posted."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the language used on the receipt.\nThe program copies the code from the Language Code field on the purchase header.\nThe language code made it possible for the items on the purchase lines to be written in the vendor's language.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 42,
@@ -192,7 +192,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether or not a comment has been entered for this purchase receipt header.\nTo view a comment or create a new one, click Related Information, point to Receipt, and then click Comments. The Comment Sheet window will appear. Here you can see the existing comments and create new ones.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 47,
@@ -202,22 +202,22 @@
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "Determines whether the posted receipt will be included in the payment suggestion when the purchase header has been invoiced and you run the Suggest Vendor Payments batch job.\nBefore posting you can enter your initials or whatever you like in the field. This indicates that it will be put on hold.\nIf the field is not empty, the entry will not be included when you run the Suggest Vendor Payments batch job. The field will show that the receipt is waiting for approval. If the field is blank, the entry will be included in an automatic payment.\nThe field can be changed on the vendor ledger entry after posting."
     },
     {
       "no": 52,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the receipt has been applied to an already-posted document. If so, the field shows the type of the document applied to.\nThe program copies the document type from the Applies-to Doc. Type field on the purchase header.\nYou cannot change the document type because the receipt has already been posted."
     },
     {
       "no": 53,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the receipt has been applied to an already-posted document. If so, the field contains the number of the document.\nThe program copies the document number from the Applies-to Doc. No. field on the purchase header.\nYou cannot change the document number because the receipt has already been posted."
     },
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the general ledger account or bank account to which a balancing entry for the receipt was posted.\nThe program copies the balancing account number from the Bal. Account No. field on the purchase header.\nYou cannot change the balancing account number because the receipt has already been posted."
     },
     {
       "no": 66,
@@ -232,37 +232,37 @@
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's VAT registration number.\nThe program copies the number from the VAT Registration No. field on the purchase header.\nYou cannot change the number because the receipt has already been posted."
     },
     {
       "no": 72,
       "name": "Sell-to Customer No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of your customer to whom the vendor shipped the items directly. This field is used only when the receipt line is for a drop shipment.\nThe program copies the number from the Sell-to Customer No. field on the purchase header.\nYou cannot change the number because the receipt has already been posted."
     },
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the receipt.\nThe program copies the reason code from the Reason Code field on the purchase header.\nYou cannot change the reason code because the receipt has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general business posting group code that is assigned to the vendor that invoiced the shipment.\nThe program copies the code from the Gen. Bus. Posting Group field on the purchase header.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the purchase header that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the purchase header.\nYou cannot change the transaction type because the receipt has already been posted."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the purchase header that this line was posted from.\nThe program copies the transport method from the Transport Method field on the purchase header.\nYou cannot change the transport method because the receipt has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the vendor's VAT country/region code.\nThe program copies the VAT country/region code from the VAT Country/Region Code field on the purchase header.\nYou cannot change the VAT country/region code because the receipt has already been posted."
     },
     {
       "no": 79,
@@ -342,7 +342,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the balancing account type used in the receipt.\nThe program copies the balancing account type from the Bal. Account Type field on the purchase header.\nYou cannot change the type because the receipt has already been posted."
     },
     {
       "no": 95,
@@ -352,12 +352,12 @@
     {
       "no": 97,
       "name": "Entry Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of entry where the items pass into your country/region.\nThe program copies the code from the Entry Point field on the purchase header.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this purchase receipt has been posted as a corrective entry.\nThe program copies the code from the Correction field on the purchase header.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 99,
@@ -367,57 +367,57 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used in the receipt.\nThe program copies the code from the Area field on the purchase header.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction specification that was used in the receipt.\nThe program copies the code from the Transaction Specification field on the purchase header.\nYou cannot change the code because the receipt has already been posted."
     },
     {
       "no": 104,
       "name": "Payment Method Code",
-      "tooltip": ""
+      "tooltip": "Describes the method of payment for payments to vendors. The program has copied the code from the Payment Method Code field on the purchase header.\nYou cannot change or delete the code because the purchase receipt has already been posted."
     },
     {
       "no": 109,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the purchase receipt.\nThe program automatically copies this field from the Receiving No. Series field on the purchase header.\nYou cannot change the number series because the receipt has already been posted."
     },
     {
       "no": 110,
       "name": "Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the order from which the receipt was created.\nThe program automatically copies this field from the No. Series field on the purchase order header.\nIf the receipt was not created from an order, the field is blank.\nYou cannot change the number series because the receipt has already been posted."
     },
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who posted the purchase receipt.\nYou cannot change the user ID because the receipt has been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the purchase receipt header.\nThe program copies the code from either the Purchases field or the Deleted Document field in the Source Code Setup table.\nYou cannot change the code because the entry has been posted."
     },
     {
       "no": 114,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the vendor.\nThe program copies the code from the Tax Area Code field on the purchase header."
     },
     {
       "no": 115,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that purchases from the vendor on the purchase header was liable to sales tax.\nThe program copies the code from the Tax Liable field on the purchase header."
     },
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the vendor.\nThe program copies the code from the VAT Bus. Posting Group field on the purchase header."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 151,
@@ -432,12 +432,12 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5050,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
     },
     {
       "no": 5052,

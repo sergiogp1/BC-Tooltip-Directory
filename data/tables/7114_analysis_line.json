@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area of the analysis line template. The following options are available:\nSales: The analysis line template was set up in Sales & Receivables\nPurchase: The analysis line template was set up in Purchases & Payables\nInventory: The analysis line template was set up in Inventory"
     },
     {
       "no": 2,
       "name": "Analysis Line Template Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the analysis line template.\nThe program automatically retrieves the name from the Name field in the Analysis Line Template table."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the analysis line.\nThe program fills in this field automatically and uses the number to keep track of the various lines in the analysis report."
     },
     {
       "no": 4,
@@ -72,37 +72,37 @@
     {
       "no": 14,
       "name": "Source Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains the source type filter that you want to filter your analysis report by.\nAvailable source types are Item, Customer and Vendor. When you have selected the source type, you must also enter the filter in the Source No. Filter field."
     },
     {
       "no": 15,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 16,
       "name": "Item Budget Filter",
-      "tooltip": ""
+      "tooltip": "Contains a code for the budget that you want to link this analysis line to. The budget code determines whether items from specific budgets will be included in the printed report."
     },
     {
       "no": 17,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Contains a code for the location that you want to link this analysis line to. The location code determines whether items from specific locations will be included in the printed report."
     },
     {
       "no": 18,
       "name": "Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter to use on item ledger entries or item analysis view entries in an analysis report.\nIf the Item Analysis View Code field in the Analysis Line Template window is blank, you can enter a Global Dimension 1 value code here that the program automatically links the analysis line to.\nIf you have entered a code in the Item Analysis View Code field in the Analysis Line Template window, you can select a value code from those available for Dimension 1 in the selected item analysis view. The analysis line will then be linked to that dimension value.\nWhen you specify the dimension value code, you determine whether accounts for specific dimension values are included in the printed report and in the Analysis Report window.\nClick here to learn more about dimensions."
     },
     {
       "no": 19,
       "name": "Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter to use on item ledger entries or item analysis view entries in an analysis report.\nIf the Item Analysis View Name field in the Analysis Line Template window blank, you can enter a Global Dimension 1 value code here that the program automatically links the analysis line to.\nIf you have entered a code in the Item Analysis View Code field in the Analysis Line Template window, you can select a value code from those available for Dimension 2 in the selected item analysis view. The analysis line will then be linked to that dimension value.\nWhen you specify the dimension value code, you determine whether accounts for specific dimension values are included in the printed report and in the Analysis Report window.\nClick here to learn more about dimensions."
     },
     {
       "no": 20,
       "name": "Dimension 3 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter to use on item ledger entries or item analysis view entries in an analysis report.\nIf the Item Analysis View Name field in the Analysis Line Template window blank, you can enter a Global Dimension 1 value code here that the program automatically links the analysis line to.\nIf you have entered a code in the Item Analysis View Code field in the Analysis Line Template window, you can select a value code from those available for Dimension 3 in the selected item analysis view. The analysis line will then be linked to that dimension value.\nWhen you specify the dimension value code, you determine whether accounts for specific dimension values are included in the printed report and in the Analysis Report window.\nClick here to learn more about dimensions."
     },
     {
       "no": 21,
@@ -122,12 +122,12 @@
     {
       "no": 24,
       "name": "Source No. Filter",
-      "tooltip": ""
+      "tooltip": "Contains the number of the source type you want to use as a filter in your analysis report.\nDepending on what you select in the Source Type Filter field (customer, item or vendor), you can enter a filter in this field to filter on the customer, vendor or item numbers."
     },
     {
       "no": 25,
       "name": "Group Dimension Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 26,

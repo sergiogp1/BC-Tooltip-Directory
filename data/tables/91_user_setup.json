@@ -127,12 +127,12 @@
     {
       "no": 5600,
       "name": "Allow FA Posting From",
-      "tooltip": ""
+      "tooltip": "Specifies the earliest FA posting date that the user is allowed to use when posting to fixed assets."
     },
     {
       "no": 5601,
       "name": "Allow FA Posting To",
-      "tooltip": ""
+      "tooltip": "Specifies the latest FA posting date that the user is allowed to use when posting to fixed assets."
     },
     {
       "no": 5700,

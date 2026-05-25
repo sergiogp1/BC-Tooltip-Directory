@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "Your Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's reference.\nThe program copies the reference from the Your Reference field on the purchase header.\nYou cannot change the reference because the credit memo has already been posted."
     },
     {
       "no": 12,
@@ -67,7 +67,7 @@
     {
       "no": 14,
       "name": "Ship-to Name 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional name of the company at the address to which the items in the purchase order were shipped.\nIt is used when the items ordered are shipped either to a different address than your company address or directly to a customer, in connection with a sales order.\nThe program copies the name from the Ship-to Name 2 field on the purchase header.\nYou cannot change the name because the credit memo has already been posted."
     },
     {
       "no": 15,
@@ -97,7 +97,7 @@
     {
       "no": 21,
       "name": "Expected Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the shipment was received.\nThe program copies the date from the Expected Receipt Date field on the purchase header.\nYou cannot change the date because the credit memo has already been posted."
     },
     {
       "no": 22,
@@ -107,7 +107,7 @@
     {
       "no": 23,
       "name": "Payment Terms Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code to use to find the payment terms that apply to the purchase header.\nThe program copies the payment terms code from the Payment Terms Code field on the purchase header.\nThe payment terms are used to calculate the due date and payment discount date from the document date and to find payment discount percentages.\nYou cannot change the payment terms code because the credit memo has already been posted."
     },
     {
       "no": 24,
@@ -117,17 +117,17 @@
     {
       "no": 25,
       "name": "Payment Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the payment discount percentage that will be given if you pay for the purchase on or before the date in the Pmt. Discount Date field.\nThe program copies the payment discount percentage from the Payment Discount % field on the purchase header.\nYou cannot change the payment discount percentage because the credit memo has already been posted."
     },
     {
       "no": 26,
       "name": "Pmt. Discount Date",
-      "tooltip": ""
+      "tooltip": "Specifies the last date on which you can pay the credit memo and still receive a payment discount.\nThe program copies the discount date from the Pmt. Discount Date field on the purchase header.\nAfter you post orders, invoices and credit memos, the program uses the due date to identify the vendors whose bills are due when you run the Suggest Vendor Payments batch job.\nYou cannot change the discount date because the credit memo has already been posted."
     },
     {
       "no": 27,
       "name": "Shipment Method Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that represents the shipment method for this credit memo.\nThe program copies the shipping method code from the Shipment Method Code field on the purchase header.\nYou cannot change the shipping method code because the credit memo has already been posted."
     },
     {
       "no": 28,
@@ -157,22 +157,22 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies whether the purchase prices on the credit memo lines include VAT.\nThe program copies the information from the Prices Including VAT field on the purchase header.\nYou cannot change the contents of the field because the credit memo has already been posted."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that will be used to find the invoice discount granted on the credit memo.\nThe program copies the code from the Invoice Disc. Code field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the language used in the credit memo.\nThe program copies the code from the Language Code field on the purchase header.\nThe language code made it possible for the items on the purchase line to be written in the vendor's language.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 42,
@@ -187,7 +187,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this purchase credit memo header.\nTo view a comment or create a new one, click Related Information, point to Credit Memo, and then click Comments. The Purch. Comment Sheet window will appear. You can see the existing comments and create new ones.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 47,
@@ -197,7 +197,7 @@
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "Specifies whether the posted credit memo will be taken into account in the payment suggestion when the purchase header has been posted and you run the Suggest Vendor Payments batch job.\nBefore posting you can enter your initials - or whatever you like - in the field. This marks it so that the credit memo will be put on hold after you post it.\nIf the field contains something (is not blank), the entry will not be included when you run the Suggest Vendor Payments batch job. The field will show that the credit memo is waiting for approval. If the field is blank, the program will take note of the credit memo when it makes a payment suggestion.\nThe field can be changed on the vendor ledger entry after posting."
     },
     {
       "no": 52,
@@ -212,7 +212,7 @@
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the general ledger account or bank account to which a balancing entry for the credit memo was posted.\nThe program copies the number from the Bal. Account No. field on the purchase header.\nYou cannot change the account number because the credit memo has already been posted."
     },
     {
       "no": 60,
@@ -232,37 +232,37 @@
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor's VAT registration number.\nThe program copies the number from the VAT Registration No. field on the purchase header.\nYou cannot change the number because the credit memo has already been posted."
     },
     {
       "no": 72,
       "name": "Sell-to Customer No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of your customer to whom the vendor shipped the items directly. This field is used only when the credit memo line is for a drop shipment.\nThe program copies the number from the Sell-to Customer No. field on the purchase header.\nYou cannot change the number because the credit memo has already been posted."
     },
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the credit memo.\nThe program copies the reason code from the Reason Code field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general business posting group code that is assigned to the vendor that you received the credit memo from.\nThe program copies the code from the Gen. Bus. Posting Group field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the purchase header that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the purchase header.\nYou cannot change the transaction type because the credit memo has already been posted."
     },
     {
       "no": 77,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the purchase header that this line was posted from.\nThe program copies the transport method from the Transport Method field on the purchase header.\nYou cannot change the transport method because the credit memo has already been posted."
     },
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the vendor's VAT country/region code.\nThe program copies the VAT country/region code from the VAT Country/Region Code field on the purchase header.\nYou cannot change the VAT country/region code because the credit memo has already been posted."
     },
     {
       "no": 79,
@@ -342,7 +342,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the balancing account type used in the credit memo.\nThe program copies the balancing account type from the Bal. Account Type field on the purchase header.\nYou cannot change the type because the credit memo has already been posted."
     },
     {
       "no": 95,
@@ -352,7 +352,7 @@
     {
       "no": 97,
       "name": "Entry Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of entry where the items pass into your country/region.\nThe program copies the code from the Entry Point field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 98,
@@ -367,27 +367,27 @@
     {
       "no": 101,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used in the credit memo.\nThe program copies the code from the Area field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 102,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the transaction specification that was used in the credit memo.\nThe program copies the code from the Transaction Specification field on the purchase header.\nYou cannot change the code because the credit memo has already been posted."
     },
     {
       "no": 104,
       "name": "Payment Method Code",
-      "tooltip": ""
+      "tooltip": "Describes the method of payment for payments to vendors. The program has copied the code from the Payment Method Code field on the purchase header.\nYou cannot change or delete the code because the credit memo has already been posted."
     },
     {
       "no": 107,
       "name": "Pre-Assigned No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the purchase credit memo from which the posted purchase credit memo was created.\nThe program automatically copies this field from the No. Series field on the purchase header.\nYou cannot change the pre-assigned number series because the credit memo has already been posted."
     },
     {
       "no": 108,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the posted credit memo.\nThe program automatically copies this field from the Posting No. Series field on the purchase header.\nYou cannot change the number series because the credit memo has already been posted."
     },
     {
       "no": 111,
@@ -397,47 +397,47 @@
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who posted the credit memo.\nYou cannot change the user ID because the credit memo has been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the purchase credit memo header.\nThe program copies the source code from either the Purchases field or the Deleted Document field in the Source Code Setup table.\nYou cannot change the source code because the entry has been posted."
     },
     {
       "no": 114,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the vendor.\nThe program copies the code from the Tax Area Code field on the purchase header."
     },
     {
       "no": 115,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that purchases from the vendor on the purchase header was liable to sales tax.\nThe program copies the code from the Tax Liable field on the purchase header."
     },
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the vendor.\nThe program copies the code from the VAT Bus. Posting Group field on the purchase header."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 138,
       "name": "Prepmt. Cr. Memo No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign a number to the posted prepayment credit memo if the credit memo is a prepayment credit memo.\nThe program automatically copies this field from the Prepayment No. Series field on the purchase header.\nYou cannot change the number series because the invoice has already been posted."
     },
     {
       "no": 140,
       "name": "Prepayment Credit Memo",
-      "tooltip": ""
+      "tooltip": "Specifies whether the document is a prepayment credit memo."
     },
     {
       "no": 141,
       "name": "Prepayment Order No.",
-      "tooltip": ""
+      "tooltip": "Shows the purchase order number that the original prepayment invoice was posted from if the document is a prepayment credit memo."
     },
     {
       "no": 179,
@@ -452,7 +452,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1302,
@@ -467,12 +467,12 @@
     {
       "no": 1304,
       "name": "Vendor Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Used to determine if the posted purchase invoice that relates to this purchase credit memo is paid.\nThe state is shown in the Paid field on the posted purchase invoice."
     },
     {
       "no": 1305,
       "name": "Invoice Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that is calculated and shown in the Invoice Discount Amount field at the bottom of purchase credit memos.\nSpecifies the amount that is deducted from the value shown in the Total Amount Incl. VAT field.\nIf you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the Vendor Invoice Discount % field if the criteria are met. The calculated discount amount is inserted in the Invoice Discount Amount field, but you can change it manually. For more information, see How to: Set Up Invoice Discount Terms."
     },
     {
       "no": 1310,
@@ -487,7 +487,7 @@
     {
       "no": 5050,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
     },
     {
       "no": 5052,
@@ -507,12 +507,12 @@
     {
       "no": 6601,
       "name": "Return Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the purchase return order that the purchase credit memo is related to."
     },
     {
       "no": 6602,
       "name": "Return Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series that was used to assign a number to the purchase return order that the purchase credit memo is related to."
     },
     {
       "no": 7000,

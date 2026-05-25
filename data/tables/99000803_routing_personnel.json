@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing number.\nThe program copies the number from the Routing No. field in the Routing Line.\nThe program uses this field internally to assign the routing personnel to the routing lines."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different routing personnel lines."
     },
     {
       "no": 4,
@@ -27,12 +27,12 @@
     {
       "no": 20,
       "name": "Version Code",
-      "tooltip": ""
+      "tooltip": "Specifies the version code of the routing that the routing personnel is related to.\nThe program copies the code from the Version Code field in the Routing Version table. If the routing personnel is not set up for a routing version, this field will be empty."
     },
     {
       "no": 21,
       "name": "Operation No.",
-      "tooltip": ""
+      "tooltip": "Specifies the operation number that this routing personnel refers to.\nThe program uses this field internally to assign the routing personnel to the operation."
     }
   ]
 }

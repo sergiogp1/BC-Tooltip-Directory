@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 3,
@@ -17,12 +17,12 @@
     {
       "no": 5,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter so that the inventory and general ledger totals in the grid include information from only certain locations."
     },
     {
       "no": 6,
       "name": "Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date or time interval that information in the grid is filtered by.\nOnly value entries and general ledger entries with posting dates within the filter are used to calculate the totals in the grid.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 8,
@@ -102,17 +102,17 @@
     {
       "no": 28,
       "name": "Total",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 29,
       "name": "G/L Total",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 30,
       "name": "Difference",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 31,
@@ -157,52 +157,52 @@
     {
       "no": 40,
       "name": "Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 61,
       "name": "Cost is Posted to G/L Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 62,
       "name": "Expected Cost Posting Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 63,
       "name": "Compression Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 64,
       "name": "Posting Group Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 65,
       "name": "Direct Postings Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 66,
       "name": "Posting Date Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 67,
       "name": "Closing Period Overlap Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 68,
       "name": "Similar Accounts Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 69,
       "name": "Deleted G/L Accounts Warning",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 70,

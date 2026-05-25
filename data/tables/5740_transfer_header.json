@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Transfer-from County",
-      "tooltip": ""
+      "tooltip": "Contains the county of the location from which items are transferred.\nThe program retrieves the code automatically from the Location table when the Transfer-from Code field is filled in."
     },
     {
       "no": 10,
       "name": "Trsf.-from Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code of the location address that you are transferring items from.\nThe program copies the code from the Location table when the Transfer-from Code field is filled in."
     },
     {
       "no": 11,
@@ -92,12 +92,12 @@
     {
       "no": 18,
       "name": "Transfer-to County",
-      "tooltip": ""
+      "tooltip": "Contains the county of the location that you are transferring items to.\nThe program retrieves the code automatically from the Location table when you fill in the Transfer-to Code field."
     },
     {
       "no": 19,
       "name": "Trsf.-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code of the location address that you are transferring items to.\nThe program copies the code from the Location table when you fill in the Transfer-to Code field."
     },
     {
       "no": 20,
@@ -122,7 +122,7 @@
     {
       "no": 24,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that a comment about this document has been entered."
     },
     {
       "no": 25,
@@ -142,17 +142,17 @@
     {
       "no": 28,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that has been set up for transfer orders."
     },
     {
       "no": 29,
       "name": "Last Shipment No.",
-      "tooltip": ""
+      "tooltip": "Contains the last posted shipment number."
     },
     {
       "no": 30,
       "name": "Last Receipt No.",
-      "tooltip": ""
+      "tooltip": "Contains the last posted receipt number."
     },
     {
       "no": 31,
@@ -167,7 +167,7 @@
     {
       "no": 33,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the external document that relates to this transfer order."
     },
     {
       "no": 34,
@@ -227,7 +227,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5750,
@@ -237,22 +237,22 @@
     {
       "no": 5751,
       "name": "Posting from Whse. Ref.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5752,
       "name": "Completely Shipped",
-      "tooltip": ""
+      "tooltip": "Specifies whether all the items on the transfer order have been shipped."
     },
     {
       "no": 5753,
       "name": "Completely Received",
-      "tooltip": ""
+      "tooltip": "Specifies whether all the items on the transfer order have been received."
     },
     {
       "no": 5754,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Contains a location filter."
     },
     {
       "no": 5793,
@@ -267,7 +267,7 @@
     {
       "no": 5796,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter that delimits the transfer order headers.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 8000,

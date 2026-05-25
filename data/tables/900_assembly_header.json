@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Search Description",
-      "tooltip": ""
+      "tooltip": "Specifies text to search for in an assembly order. For example, you could use this field to search for an assembly order when you do not know the assembly order number."
     },
     {
       "no": 5,
@@ -32,12 +32,12 @@
     {
       "no": 6,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which you create the assembly order."
     },
     {
       "no": 7,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies when the assembly order was last modified.\nWhen you change information on the assembly order, the Last Date Modified field is automatically updated to show the current system date."
     },
     {
       "no": 10,
@@ -52,12 +52,12 @@
     {
       "no": 15,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the inventory account in the general ledger to which transactions that include this assembly item are posted. The value is copied from the item card.\nAdditional Information\nWhen you post transactions for this item, this code is used with a posting group code in the Inventory Posting Setup window. The accounts in which the postings for sales, discounts, and so on are made, the VAT rate, and the VAT calculation type are determined in the Inventory Posting Setup window."
     },
     {
       "no": 16,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product account in the general ledger to which transactions involving this assembly item are posted. It is copied from the item card.\nAdditional Information\nWhen you post transactions for this item, this code is used with a posting group code in the Inventory Posting Setup window. The accounts in which the postings for sales, discounts, and so on are made, are determined in the Inventory Posting Setup window. The VAT rate and the VAT calculation type are also determined in this window."
     },
     {
       "no": 17,
@@ -67,7 +67,7 @@
     {
       "no": 19,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies if a comment exists for the assembly order."
     },
     {
       "no": 20,
@@ -117,7 +117,7 @@
     {
       "no": 41,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the expected order quantity, which is stated in the base unit of measure.\n\nAdditional Information\n\nThe value in the Quantity to Consume (Base) on the assembly order line is calculated by multiplying the value in the Quantity per on the assembly order line with the value in the Quantity (Base) field."
     },
     {
       "no": 42,
@@ -127,7 +127,7 @@
     {
       "no": 43,
       "name": "Remaining Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the remaining quantity, which is stated in the base unit of measure."
     },
     {
       "no": 44,
@@ -137,7 +137,7 @@
     {
       "no": 45,
       "name": "Assembled Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the assembled quantity, which is stated in the base unit of measure."
     },
     {
       "no": 46,
@@ -147,7 +147,7 @@
     {
       "no": 47,
       "name": "Quantity to Assemble (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity to assemble in the base unit of measure.\nFor more information, see Quantity to Assemble."
     },
     {
       "no": 48,
@@ -167,7 +167,7 @@
     {
       "no": 51,
       "name": "MPS Order",
-      "tooltip": ""
+      "tooltip": "Specifies if the assembly order is a Master Planning Schedule (MPS) order and is therefore linked to a production forecast or a sales order by the planning system."
     },
     {
       "no": 54,
@@ -177,7 +177,7 @@
     {
       "no": 63,
       "name": "Posting No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number from the number series that is assigned when the assembly order is posted. It is automatically assigned from the number series that you set up in the Posted Assembly Order Nos. field."
     },
     {
       "no": 65,
@@ -192,7 +192,7 @@
     {
       "no": 68,
       "name": "Rolled-up Assembly Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of cost amounts in the assembly order lines that is rolled up to the assembly item when you use the Update Unit Cost function.\nThe field is used to calculate the Unit Cost field on assembly order headers as follows. All fields are on the assembly order header.\nunit cost = (rolled-up assembly cost ÷ quantity) × (indirect cost percentage ÷ 100) + overhead rate"
     },
     {
       "no": 75,
@@ -212,7 +212,7 @@
     {
       "no": 81,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure of the assembly item on the assembly order header.\nThe value is copied from the Qty. of Base Unit of Measure per Unit field that is defined for the items unit of measure."
     },
     {
       "no": 82,
@@ -227,12 +227,12 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series that is used to assign numbers in the No. field on the assembly order header."
     },
     {
       "no": 108,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series that was used to assign a number to the assembly order from which this posted assembly order originates. The value is copied from the No. field on the assembly order header during posting."
     },
     {
       "no": 120,
@@ -242,7 +242,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 9000,

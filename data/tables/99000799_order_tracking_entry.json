@@ -42,67 +42,67 @@
     {
       "no": 14,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 20,
       "name": "For Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the item is tracked for.\nThe available types are the following:\n\nSales\n\n\nRequisition Line\n\n\nPurchase\n\n\nItem Ledger Entry\n\n\nProd. Order Line\n\n\nProd. Order Component\n\n\nPlanning Line\n\n\nPlanning Component\n\n\nTransfer\n\n\nService Order"
     },
     {
       "no": 21,
       "name": "For Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the subtype of the document that the items have been tracked for.\nWhen the order tracking is created for a production order line, the program copies the contents of this field from the Document Type field on that line."
     },
     {
       "no": 22,
       "name": "For ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the document or journal that the items have been tracked for.\nWhen the items are tracked for a production order line, the program copies the contents of this field from the Document No. field on the production order line. When the items are reserved for a requisition line, the program copies the contents of this field from the Template Name field in the Requisition Line table."
     },
     {
       "no": 23,
       "name": "For Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the journal batch name when the items in this order tracking entry are tracked for a requisition line."
     },
     {
       "no": 24,
       "name": "For Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the production order line that the order tracking is used for.\nWhen the tracking is for a production order line, the program copies the contents of this field from the Line No. field on the production order line."
     },
     {
       "no": 25,
       "name": "For Ref. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the reference number of the line that the items are tracked for.\nWhen the items are tracked for either a sales, purchase, or requisition line, the program copies the contents of this field from the Line No. field on the table you are tracking from.\nWhen the items are tracked for an item ledger entry, the program copies the contents of this field from the Entry No. field on the table you are tracking from."
     },
     {
       "no": 26,
       "name": "From Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the items have been tracked from.\nThe available types are the following:\n\nSales\n\n\nRequisition Line\n\n\nPurchase\n\n\nItem Ledger Entry\n\n\nProd. Order Line\n\n\nProd. Order Component\n\n\nPlanning Line\n\n\nPlanning Component\n\n\nTransfer\n\n\nService Order"
     },
     {
       "no": 27,
       "name": "From Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the subtype of the document that the items have been tracked from.\nWhen the items are tracked from a purchase or sales line, the program copies the contents of this field from the Document Type field on that line."
     },
     {
       "no": 28,
       "name": "From ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the document or journal that the items have been tracked from.\nWhen the items are tracked from a sales or purchase line, the program copies the contents of this field from the Document No. field on that line.\nWhen the items are tracked from a requisition line, the program copies the contents of this field from the Template Name field on that line."
     },
     {
       "no": 29,
       "name": "From Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the journal batch name when the items in this entry are tracked from a requisition line."
     },
     {
       "no": 30,
       "name": "From Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the production order line that the items are tracked from.\nWhen the tracking is from a production order line, the program copies the contents of this field from the Line No. field on the production order line."
     },
     {
       "no": 31,
       "name": "From Ref. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the reference number of the line that the items are tracked from.\nWhen the items are tracked from either a sales, purchase, or requisition line, the program copies the contents of this field from the Line No. field on that line.\nWhen the items are tracked from an item ledger entry, the program copies the contents of this field from the Entry No. field."
     },
     {
       "no": 40,

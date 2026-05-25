@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the comment applies to.\nThe program has entered the document type from the sales header."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number for the comment.\nWhen you create a comment for a sales document, the program automatically enters a line number in the Line No. field to keep track of all the comments in the comment table. The line number is specific to the particular comment."
     },
     {
       "no": 4,
@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document line that the comment applies to."
     }
   ]
 }

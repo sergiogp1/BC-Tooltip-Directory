@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the company's name. You can enter a maximum of 50 characters, both numbers and letters.\nThis name is printed on invoices, for example, so enter it as you want it to appear."
     },
     {
       "no": 4,
@@ -42,12 +42,12 @@
     {
       "no": 8,
       "name": "Phone No. 2",
-      "tooltip": ""
+      "tooltip": "Specifies a second telephone number for the company or the telephone number with its telephone country/region code.\nUse a standard format to enter the telephone number, so it will look uniform on printouts. For example:\n123 456 7890 or 12 3456 7890\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 9,
       "name": "Telex No.",
-      "tooltip": ""
+      "tooltip": "Specifies the company's telex number.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 10,
@@ -82,12 +82,12 @@
     {
       "no": 17,
       "name": "Customs Permit No.",
-      "tooltip": ""
+      "tooltip": "Specifies the company's customs permit number.\nYou can enter a maximum of 10 characters, both numbers and letters."
     },
     {
       "no": 18,
       "name": "Customs Permit Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the company received its customs permit."
     },
     {
       "no": 19,
@@ -102,7 +102,7 @@
     {
       "no": 21,
       "name": "Telex Answer Back",
-      "tooltip": ""
+      "tooltip": "Specifies the company's telex answer back code.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 22,
@@ -112,7 +112,7 @@
     {
       "no": 23,
       "name": "Ship-to Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the name of the location to which items for the company should be shipped.\nThis name is printed on purchase orders, for example, so enter it as you want it to appear.\nYou can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 24,
@@ -207,7 +207,7 @@
     {
       "no": 47,
       "name": "Custom System Indicator Text",
-      "tooltip": ""
+      "tooltip": "Specifies text that you want to show as the system indicator when you are working with different instances of Microsoft Dynamics NAV."
     },
     {
       "no": 48,

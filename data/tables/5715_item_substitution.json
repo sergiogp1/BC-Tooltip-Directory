@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item for which another item can serve as a substitute."
     },
     {
       "no": 2,
@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by location.\nIf the field contains a location code, the values in the fields that contain quantities are based only on entries with the location code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined. For example:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nOslo\n\nEntries from the Oslo location\n\n\nInterval\n\n1..5\n\nEntries from Locations 1 through 5\n\n\nEither/or\n\nOslo|Vienna\n\nEntries that are from either Oslo or Vienna\n\n\nDifferent from\n\n<>1\n\nEntries from all locations except Location 1\n\n\nTo see the location codes in the Location table, choose the field."
     },
     {
       "no": 100,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the item for which another item can serve as a substitute. There are two types: Item and Nonstock Item."
     },
     {
       "no": 101,

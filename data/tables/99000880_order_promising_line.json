@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number that is assigned to the order promising line.\nThe program fills in the field automatically when you click Accept in the Order Promising Lines window."
     },
     {
       "no": 10,
@@ -17,12 +17,12 @@
     {
       "no": 11,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Specifies the variant code for the item.\nThe program copies the contents of this field from the Variant Code field on the Sales Line table."
     },
     {
       "no": 12,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the location where the items on the line are located.\nThe program copies the content of this field from the Location Code field on the Sales Line table. If the sales header does not contain a location code, the field is left blank."
     },
     {
       "no": 13,
@@ -37,7 +37,7 @@
     {
       "no": 15,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "If you have filled in the Sales Unit of Measure field on the item card and entered a quantity for the current item in the Qty. per Unit of Measure field, the program automatically fills in this field when you enter the item number on this line."
     },
     {
       "no": 16,
@@ -47,7 +47,7 @@
     {
       "no": 17,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Copies the content of this field from the Quantity field on the Sales Line table. The quantity in this field is the quantity on the line which is expressed in base units of measure."
     },
     {
       "no": 18,
@@ -62,27 +62,27 @@
     {
       "no": 20,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 21,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 22,
       "name": "Source ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 23,
       "name": "Source Batch Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 25,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "Copies this number from the entry number of the order promising source. This can be, for example, the sales order line number."
     },
     {
       "no": 30,

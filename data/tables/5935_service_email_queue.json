@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program has assigned to the entry."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Copy-to Address",
-      "tooltip": ""
+      "tooltip": "Contains the email address that the program sends a copy of the message to."
     },
     {
       "no": 4,
@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Attachment Filename",
-      "tooltip": ""
+      "tooltip": "Contains the filename of the attached file."
     },
     {
       "no": 7,

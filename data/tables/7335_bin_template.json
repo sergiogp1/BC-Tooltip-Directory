@@ -67,7 +67,7 @@
     {
       "no": 24,
       "name": "Dedicated",
-      "tooltip": ""
+      "tooltip": "Specifies that quantities in the bin are protected from being picked for other demands.\nQuantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the Total Available Quantity field in the Reservation window.\nMaking a bin dedicated provides similar functionality to using bin types, which is only available in advanced warehousing. For more information, see How to: Set Up Bin Types."
     }
   ]
 }

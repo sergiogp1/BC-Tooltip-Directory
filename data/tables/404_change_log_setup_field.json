@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the table of the change log setup."
     },
     {
       "no": 2,
@@ -22,17 +22,17 @@
     {
       "no": 4,
       "name": "Log Insertion",
-      "tooltip": ""
+      "tooltip": "Specifies that any insertion of data is logged."
     },
     {
       "no": 5,
       "name": "Log Modification",
-      "tooltip": ""
+      "tooltip": "Specifies that any modification of data is logged."
     },
     {
       "no": 6,
       "name": "Log Deletion",
-      "tooltip": ""
+      "tooltip": "Specifies that any deletion of data is logged."
     },
     {
       "no": 7,

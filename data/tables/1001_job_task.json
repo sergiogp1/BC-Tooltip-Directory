@@ -82,12 +82,12 @@
     {
       "no": 19,
       "name": "Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for sorting the total fields by posting date. The posting date filter applies only to the job task total fields, which come from the Job Ledger Entries: Usage (Total Cost), Usage (Total Price), Contract (Invoiced Price), and Contract (Invoiced Cost).\nIf this field contains starting and ending dates for a time period, the values in the fields will display the net change on a job task during the specified period.\nYou can enter a date or a time interval.\nTo see how you can enter a date or a date interval in filters, click here."
     },
     {
       "no": 20,
       "name": "Planning Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for sorting the total fields by planning date. The planning date filter applies only to the job task total fields that are made up of Job Planning Lines which are: Schedule (Total Cost), Schedule (Total Price), Contract (Total Cost), and Contract (Total Price).\nIf this field contains starting and ending dates for a time period, the values in the schedule and contract fields will display the net change on a job task during the specified period."
     },
     {
       "no": 21,
@@ -107,7 +107,7 @@
     {
       "no": 24,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the job task is indented, relative to the standard margin.\nThe field is filled in automatically when you click Actions, point to Functions, and then click Indent Job Tasks.\nYou can enter something in the field, but the contents will be replaced the next time you use the Indent function. If you want a bigger indentation, add blank spaces with the spacebar before you enter the text.\nIndentation, New Page, and No. of Blank Lines, define the layout of the reports showing job tasks."
     },
     {
       "no": 30,
@@ -122,12 +122,12 @@
     {
       "no": 34,
       "name": "Recognized Sales Amount",
-      "tooltip": ""
+      "tooltip": "Contains the calculated sales value to recognize for the job task. The field is filled in by the Job Calculate WIP batch job."
     },
     {
       "no": 37,
       "name": "Recognized Costs Amount",
-      "tooltip": ""
+      "tooltip": "Contains the calculated costs amount value to recognize for the job task. The amount in the field comes from the calculation performed by the Job Calculate WIP batch job.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 41,
@@ -137,12 +137,12 @@
     {
       "no": 56,
       "name": "Recognized Sales G/L Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the calculated sales amount for the general ledger to recognize for the job task. The amount in the field comes from the calculation performed by the Job Calculate WIP batch job.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 57,
       "name": "Recognized Costs G/L Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the calculated costs amount for the general ledger to recognize for the job task. The amount in the field comes from the calculation performed by the Job Calculate WIP batch job.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 60,

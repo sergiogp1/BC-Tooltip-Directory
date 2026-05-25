@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Reminder No.",
-      "tooltip": ""
+      "tooltip": "Specifies the reminder number.\nThe program copies the number from the Reminder No. field on the reminder line."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line's number.\nThe program copies the number from the Line No. field on the reminder line."
     },
     {
       "no": 3,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number for the customer ledger entry the reminder line was created for.\nThe program copies the number from the Entry No. field on the reminder line."
     },
     {
       "no": 6,
@@ -87,22 +87,22 @@
     {
       "no": 17,
       "name": "Interest Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the interest rate that applies to this reminder line.\nThe program copies the interest rate from the Interest Rate field on the reminder line."
     },
     {
       "no": 18,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group of the general ledger account this reminder line is for if the Type field contains G/L Account.\nThe program copies the general product posting group from the Gen. Prod. Posting Group field on the reminder line.\nThe Gen. Prod. Posting Group field is blank if the reminder line does not contain a G/L account entry."
     },
     {
       "no": 19,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that was used when the line was posted to the general ledger account if the Type field contains G/L Account.\nThe program copies the VAT % from the VAT % field on the reminder line."
     },
     {
       "no": 20,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when VAT was calculated if the Type field contains G/L Account.\nThe program copies the type from the VAT Calculation Type field on the reminder line."
     },
     {
       "no": 21,
@@ -112,27 +112,27 @@
     {
       "no": 22,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code of the general ledger account this reminder line is for if the Type field contains G/L Account.\nThe program copies the code from the Tax Group Code field on the reminder line.\nThis field is blank if the issued reminder line does not contain a G/L account entry."
     },
     {
       "no": 23,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "If the Type field contains \"G/L Account\":\n\nThis field contains the VAT product posting group of the G/L account this issued reminder line is for.\n\n\nThe program copies the code from the VAT Prod. Posting Group field on the reminder line, when the reminder is issued.\n\n\nIf the Type field contains \"Customer Ledger Entry\":\n\nThis field contains the VAT product posting group of the Interest Account of the Customer Posting Group of the customer this reminder line is for.\n\n\nThe program copies the code from the VAT Prod. Posting Group field on the reminder line, when the reminder is issued.\n\n\nIf the Type field does not contain G/L Account or Customer Ledger Entry, this field is blank."
     },
     {
       "no": 24,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 25,
       "name": "Line Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the issued reminder line.\nThe following table describes the options.\n\n\nOption\n\n\nDescription\n\n\nReminder Line\n\nThe line contains an overdue amount.\n\n\nNot Due\n\nThe line contains the amount that is not overdue yet.\n\n\nBeginning Text\n\nThe line contains the text that starts the reminder.\n\n\nEnding Text\n\nThe line contains the text that ends the reminder.\n\n\nRounding\n\nThe line contains the rounding amount.\n\n\nOnHold\n\nThe line contains the reminder that is created by entries that are marked On Hold.\n\n\nAdditional Fee\n\nThe line contains additional fee."
     },
     {
       "no": 26,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the issued reminder line."
     },
     {
       "no": 27,
@@ -157,7 +157,7 @@
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     }
   ]
 }

@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Bank Account No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the bank account that has been reconciled with the transaction on the bank statement on this line.\nThe program fills in the field from the Bank Account No. field on the Bank Account Reconciliation line."
     },
     {
       "no": 2,
       "name": "Statement No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the bank statement received from the bank that has been reconciled with the bank account on this line.\nThe program fills in the field from the Statement No. field on the Bank Account Reconciliation line."
     },
     {
       "no": 3,
       "name": "Statement Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of this line.\nThe program fills in the field from the Statement Line No. field on the Bank Account Reconciliation line."
     },
     {
       "no": 4,

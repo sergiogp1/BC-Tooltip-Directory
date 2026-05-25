@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the invoice line number.\nThe program filled in the field automatically and used the number to keep track of the lines.\nYou cannot change the number because the invoice has already been posted."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the inventory posting group or FA posting group used when the invoice was posted.\nThe program copies the posting group from the Posting Group field on the purchase line.\nThe posting group tells the program which accounts to post to.\nYou cannot change the posting group because the invoice has already been posted."
     },
     {
       "no": 10,
@@ -177,7 +177,7 @@
     {
       "no": 68,
       "name": "Pay-to Vendor No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the vendor that you paid for the items.\nThe program copies the number from the Pay-to Vendor No. field on the purchase header.\nYou cannot change the number because the invoice has already been posted."
     },
     {
       "no": 69,
@@ -187,7 +187,7 @@
     {
       "no": 70,
       "name": "Vendor Item No.",
-      "tooltip": ""
+      "tooltip": "Specifies either the vendor's item number for the item or the item number in your item table.\nThe program copies the number from the Vendor Item No. field on the purchase line.\nYou cannot change the number because the invoice has already been posted."
     },
     {
       "no": 74,
@@ -202,37 +202,37 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when this line was posted.\nThe program copies the code from the VAT Calculation Type field on the purchase line.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the purchase line that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the purchase line.\nYou cannot change the transaction type because the invoice has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method of the purchase line that this line was posted from.\nThe program copies the transport method from the Transport Method field on the purchase line.\nYou cannot change the transport method because the invoice has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the extended text line number that is attached to the purchase line.\nThe program copies the extended text line number from the Attached to Line No. field on the purchase line.\nYou cannot change the contents of the field because the invoice has already been posted."
     },
     {
       "no": 81,
       "name": "Entry Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of entry where the items pass into your country/region.\nThe program copies the code from the Entry Point field on the purchase line.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used for the items in this line.\nThe program copies the code from the Area field on the purchase line.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Shows the transaction specification of the purchase line that this line was posted from.\nThe program copies the transaction specification from the Transaction Specification field on the purchase line.\nYou cannot change the transaction specification because the invoice has already been posted."
     },
     {
       "no": 85,
@@ -277,17 +277,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount (amount excluding VAT) that the invoice line consists of. The program copied the amount from the VAT Base Amount field on the purchase line."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the item on the line. The unit cost is in the currency of the purchase transaction."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 103,
@@ -297,27 +297,27 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT difference. The amount displayed in this field is the difference between a VAT amount calculated by the program for a purchase line and a manually entered VAT amount entered by a user for the same purchase line. This may be necessary if you want posted VAT amounts to correspond exactly with an external document you have received.\nThe program copies the contents of this field from the VAT Difference field in purchase statistics windows."
     },
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Copies the contents of this field from the purchase line."
     },
     {
       "no": 107,
       "name": "IC Partner Ref. Type",
-      "tooltip": ""
+      "tooltip": "Specifies the item or account in your IC partners company that corresponds to the item or account on the line.\nThe field is used with the IC Partner Reference field."
     },
     {
       "no": 108,
       "name": "IC Partner Reference",
-      "tooltip": ""
+      "tooltip": "Specifies the item or account in your IC partners company that corresponds to the item or account on the line.\nThe field is used with the IC Partner Ref. Type field.\nYou can select from the following IC partner reference types.\n\n\nIC Partner Ref. Type\n\n\nIC Partner Reference\n\n\nG/L Account\n\nA number from the IC general ledger chart of accounts.\n\n\nItem\n\nYour item number.\n\n\nCharge (Item)\n\nYour item charge number.\n\n\nCross Reference\n\nAn entry from the Item Cross Reference table.\n\n\nCommon Item No.\n\nAn entry that is copied from the Common Item No. field on the item card."
     },
     {
       "no": 123,
       "name": "Prepayment Line",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 130,
@@ -327,7 +327,7 @@
     {
       "no": 131,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date the purchase document was posted.\nThe program copies the date from the Posting Date field on the purchase header.\nYou cannot change the posting date because the invoice has already been posted."
     },
     {
       "no": 138,
@@ -342,7 +342,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1001,
@@ -352,62 +352,62 @@
     {
       "no": 1002,
       "name": "Job Line Type",
-      "tooltip": ""
+      "tooltip": "Specifies the planning line(s) that was created together with the posting of a job ledger entry from the purchase line.\nThe program copies the job line type from the Job Line Type field on the purchase line.\nYou cannot change the job line type because the invoice has already been posted."
     },
     {
       "no": 1003,
       "name": "Job Unit Price",
-      "tooltip": ""
+      "tooltip": "Specifies the unit price of the job ledger entry that was posted from the purchase line. The amount is shown in the currency specified for the job.\nThe program copies the job unit price from the Job Unit Price field on the purchase line.\nYou cannot change the job unit price because the invoice has already been posted."
     },
     {
       "no": 1004,
       "name": "Job Total Price",
-      "tooltip": ""
+      "tooltip": "Specifies the total price of the job ledger entry that was posted from the purchase line. The amount is shown in the currency specified for the job.\nThe program copies the job total price from the Job Total Price field on the purchase line.\nYou cannot change the job total price because the invoice has already been posted."
     },
     {
       "no": 1005,
       "name": "Job Line Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the line amount of the job ledger entry that was posted from the purchase line. The amount is shown in the currency specified for the job.\nThe program copies the job line amount from the Job Line Amount field on the purchase line.\nYou cannot change the job line amount because the invoice has already been posted."
     },
     {
       "no": 1006,
       "name": "Job Line Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount amount of the job ledger entry that was posted from the purchase line. The amount is shown in the currency specified for the job.\nThe program copies the job line discount amount from the Job Line Discount Amount field on the purchase line.\nYou cannot change the job line discount amount because the invoice has already been posted."
     },
     {
       "no": 1007,
       "name": "Job Line Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount percent of the job ledger entry that was posted from the purchase line.\nThe program copies the job line discount % from the Job Line Discount % field on the purchase line.\nYou cannot change the job line discount % because the invoice has already been posted."
     },
     {
       "no": 1008,
       "name": "Job Unit Price (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the unit price of the job ledger entry that was posted from the purchase line. The amount is in local currency.\nThe program copies the job unit price (LCY) from the Job Unit Price (LCY) field on the purchase line.\nYou cannot change the job unit price (LCY) because the invoice has already been posted."
     },
     {
       "no": 1009,
       "name": "Job Total Price (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total price of the job ledger entry that was posted from the purchase line. The amount is in local currency.\nThe program copies the job total price (LCY) from the Job Total Price (LCY) field on the purchase line.\nYou cannot change the job total price (LCY) because the invoice has already been posted."
     },
     {
       "no": 1010,
       "name": "Job Line Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the line amount of the job ledger entry that was posted from the purchase line. The amount is in the local currency.\nThe program copies the job line amount (LCY) from the Job Line Amount (LCY) field on the purchase line.\nYou cannot change the job line amount (LCY) because the invoice has already been posted."
     },
     {
       "no": 1011,
       "name": "Job Line Disc. Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount amount of the job ledger entry that was posted from the purchase line. The amount is in the local currency.\nThe program copies the job line discount amount (LCY) from the Job Line Discount Amount (LCY) field on the purchase line.\nYou cannot change the job line discount amount (LCY) because the invoice has already been posted."
     },
     {
       "no": 1012,
       "name": "Job Currency Factor",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 1013,
       "name": "Job Currency Code",
-      "tooltip": ""
+      "tooltip": "Specifies the currency code of the job ledger entry that was posted from the purchase order line.\nThe code is copied from the Job Currency Code field on the purchase order line.\nYou cannot change the job currency code because the invoice has already been posted."
     },
     {
       "no": 1019,
@@ -447,7 +447,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies quantity per item unit of measure for the item.\nThe program copies the code from the Qty. per Unit of Measure field on the purchase line."
     },
     {
       "no": 5407,
@@ -457,12 +457,12 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity expressed in base units of measure, posted from the line."
     },
     {
       "no": 5600,
       "name": "FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the FA posting date of the purchase invoice line.\nThe program copies the date from the FA Posting Date field on the purchase line.\nYou cannot change the date because the invoice has already been posted."
     },
     {
       "no": 5601,
@@ -477,7 +477,7 @@
     {
       "no": 5603,
       "name": "Salvage Value",
-      "tooltip": ""
+      "tooltip": "Specifies the salvage value on the purchase invoice line.\nThe program copies the amount from the Salvage Value field on the purchase line.\nYou cannot change the salvage value because the invoice has already been posted."
     },
     {
       "no": 5605,
@@ -492,7 +492,7 @@
     {
       "no": 5609,
       "name": "Maintenance Code",
-      "tooltip": ""
+      "tooltip": "Specifies the maintenance code on the purchase invoice line.\nThe program copies the code from the Maintenance Code field on the purchase line.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 5610,
@@ -507,22 +507,22 @@
     {
       "no": 5612,
       "name": "Duplicate in Depreciation Book",
-      "tooltip": ""
+      "tooltip": "Specifies a depreciation book code if the journal line was posted to a depreciation book in addition to the one in the Depreciation Book Code field.\nThe program copies the code from the Duplicate in Depreciation Book field on the purchase line.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 5613,
       "name": "Use Duplication List",
-      "tooltip": ""
+      "tooltip": "Specifies whether the purchase line was posted to all depreciation books that have a check mark in the Part of Duplication List field in the Depreciation Book table.\nThe program copies the contents of the field from the Use Duplication List field on the purchase line.\nYou cannot change the contents of the field because the invoice has already been posted."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the responsibility center that serves the vendor on this purchase document."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5710,
@@ -532,7 +532,7 @@
     {
       "no": 5711,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Specifies the purchasing code for the item.\nThe program copies the purchasing code from the Purchasing Code field on the purchase line.\nA purchasing code indicates any action that was taken to purchase the item on the purchase line.\nYou cannot change the Purchasing Code field because the invoice has already been posted."
     },
     {
       "no": 5725,
@@ -597,7 +597,7 @@
     {
       "no": 99000755,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate of this item.\nAn overhead rate is a fixed amount of indirect cost assigned per quantity (base) of the item."
     }
   ]
 }

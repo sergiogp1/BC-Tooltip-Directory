@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the configuration table for which related table information is provided."
     },
     {
       "no": 2,

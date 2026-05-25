@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal template associated with this batch. Choose the field to see the options."
     },
     {
       "no": 2,
@@ -37,7 +37,7 @@
     {
       "no": 22,
       "name": "Recurring",
-      "tooltip": ""
+      "tooltip": "Specifies whether the job journal template is a recurring journal.\nRecurring journals can be useful when you have entries that must be posted periodically with few or no changes.\n\nAdditional Information\n\nIn a recurring journal, you enter entries that you will regularly post once. Then, those entries remain in the journal for the next time that you post. As needed, you can adjust the information in those entries at each posting."
     },
     {
       "no": 40,

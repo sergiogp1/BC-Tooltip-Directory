@@ -27,12 +27,12 @@
     {
       "no": 5,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of object from which this skill code originates.\nThis field is filled in automatically and is used for internal purposes."
     },
     {
       "no": 6,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Contains the code/number of the object from which the skill code originates.\nThis field is filled in automatically and is used for internal purposes."
     }
   ]
 }

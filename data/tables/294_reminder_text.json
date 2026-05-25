@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number for the text.\nThe program uses this field internally."
     },
     {
       "no": 5,

@@ -67,17 +67,17 @@
     {
       "no": 14,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the user that is associated with the entry."
     },
     {
       "no": 15,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Displays the source code that is linked to the VAT entry.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the code is copied from the Source Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is retrieved from the Purchases or Sales field in the Source Code Setup table.\nIf the entry resulted from the Calc. and Post VAT Settlement batch job, the code is retrieved from the VAT Settlement field in the Source Code Setup table."
     },
     {
       "no": 16,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Displays the reason code on the entry.\nThe field can be filled in from the following fields:\nIf the entry was posted from a journal line, the code is copied from the Reason Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Reason Code field on the sales or purchase header."
     },
     {
       "no": 17,
@@ -102,7 +102,7 @@
     {
       "no": 21,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Displays the transaction number assigned to the entry.\nThe number is used to connect all entries that are created by the same posting."
     },
     {
       "no": 22,
@@ -127,62 +127,62 @@
     {
       "no": 26,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Displays the external document number for this entry.\nThe program fills in the field in one of the following ways:\nIf the entry was posted from a journal line, the number is copied from the External Document No. field on the journal line.\nIf the entry was posted from a sales or purchase order, invoice or credit memo, the number can be copied from the Vendor Invoice No. or the Vendor Cr. Memo No. field on the purchase header or the External Document No. on the sales header, depending on the document type from which the ledger entry was posted."
     },
     {
       "no": 28,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs."
     },
     {
       "no": 29,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Displays the tax area code that was used when the entry was posted.\nThe program copied the code from the following fields:\nIf the entry was posted from a journal line, the code is copied from the Tax Area Code field or the Bal. Tax Area Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Tax Area Code field on the sales or purchase header."
     },
     {
       "no": 30,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies the value that was copied either from the Tax Liable field, or the Bal. Tax Liable field on a journal line, or the Tax Liable field on the sales or purchase header."
     },
     {
       "no": 31,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Displays the tax group code that was used when the entry was posted.\nThe program automatically retrieves the code from one of the following fields:\nIf the entry was posted from a journal line, the code is copied from the Tax Group Code field or the Bal. Tax Group Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Tax Group Code field on the sales or purchase line."
     },
     {
       "no": 32,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies the code that is copied from one of the following fields:\nIf the entry was posted from a journal line, the code is copied from the Use Tax field or the Bal. Use Tax field on the journal line.\nIf the entry was posted from a purchase order, invoice or credit memo, the code was copied from the Use Tax field on the purchase line."
     },
     {
       "no": 33,
       "name": "Tax Jurisdiction Code",
-      "tooltip": ""
+      "tooltip": "Displays the tax jurisdiction that determined the tax accounts and the tax details the program used to calculate the tax amount."
     },
     {
       "no": 34,
       "name": "Tax Group Used",
-      "tooltip": ""
+      "tooltip": "Displays the tax group code from the tax detail the program used to calculate the tax amount."
     },
     {
       "no": 35,
       "name": "Tax Type",
-      "tooltip": ""
+      "tooltip": "Shows whether the entry is to be treated as sales tax or excise tax."
     },
     {
       "no": 36,
       "name": "Tax on Tax",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate the sales tax amount with the tax on tax principle. This means that when calculating sales tax for the current jurisdiction, the sales tax amounts for previous jurisdictions are part of the basis.\nThe order in which tax is calculated for the individual jurisdictions is determined by the setting in the Calculation Order field on the tax area lines.\nExample:\nIf sales tax must be calculated for three jurisdictions at 3%, 5% and 2% respectively and the tax on tax principle is used for the first two jurisdictions, the accumulated sales tax percentage will be:\n\n\nSales tax\n\n\n=\n\n\nAccumulated sales tax\n\n\n1 * 0.03\n\n=\n\n0.03000\n\n\n+ (1 + 0.03) * 0.05\n\n=\n\n0.05150\n\n\n+ (1 + 0.03 + 0.0515) * 0.02\n\n=\n\n0.02163\n\n\nTotal\n\n=\n\n0.10313 (or 10.313%)"
     },
     {
       "no": 37,
       "name": "Sales Tax Connection No.",
-      "tooltip": ""
+      "tooltip": "Specifies the link between certain VAT entries."
     },
     {
       "no": 38,
       "name": "Unrealized VAT Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the original VAT entry, with the unrealized VAT amount, if an unrealized VAT amount is transferred to the realized VAT account."
     },
     {
       "no": 39,
@@ -207,27 +207,27 @@
     {
       "no": 45,
       "name": "Add.-Currency Unrealized Amt.",
-      "tooltip": ""
+      "tooltip": "Contains the unrealized VAT amount if you post in an additional reporting currency and use the unrealized VAT features.\nThe amount in this field is in the additional reporting currency. The program calculates this amount when the transaction is posted."
     },
     {
       "no": 46,
       "name": "Add.-Currency Unrealized Base",
-      "tooltip": ""
+      "tooltip": "Contains the unrealized base VAT amount if you post in an additional reporting currency and use the unrealized VAT features. This amount is in the additional reporting currency, and the program uses this amount to calculate the unrealized VAT amount in the additional reporting currency."
     },
     {
       "no": 48,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Indicates the percentage that was used for discounting the VAT when a payment was posted.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the VAT Base Discount % field on the sales or purchase header."
     },
     {
       "no": 49,
       "name": "Add.-Curr. Rem. Unreal. Amount",
-      "tooltip": ""
+      "tooltip": "Displays the remaining unrealized VAT amount in additional currency for this line if you use the feature unrealized VAT."
     },
     {
       "no": 50,
       "name": "Add.-Curr. Rem. Unreal. Base",
-      "tooltip": ""
+      "tooltip": "Displays the remaining unrealized VAT base amount in additional currency for this line if you use the feature unrealized VAT."
     },
     {
       "no": 51,

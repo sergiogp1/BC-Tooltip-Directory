@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Questionnaire Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the questionnaire. The code is based on the one that you specified when you created the setup questionnaire."
     },
     {
       "no": 2,
@@ -32,12 +32,12 @@
     {
       "no": 6,
       "name": "Table Caption",
-      "tooltip": ""
+      "tooltip": "Specifies the caption of the table that is supporting the setup questionnaire area. The name comes from the caption property of the table.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 7,
       "name": "No. of Questions",
-      "tooltip": ""
+      "tooltip": "Specifies the number of questions that are contained in the question area of the configuration questionnaire.\nYou can use this field to help monitor and track your questionnaire length. You can also use it to compare the number of fields in the questionnaire to the number of questions in the questionnaire."
     }
   ]
 }

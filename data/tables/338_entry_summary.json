@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 3,
@@ -42,17 +42,17 @@
     {
       "no": 8,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Indicates which source subtype the reservation entry is related to.\n\nIf the entry is related to a purchase or sales line, then the field is copied from the Document Type field on the line.\n\n\nIf the entry is related to a journal line, then the field is copied from the Entry Type field on the journal line."
     },
     {
       "no": 15,
       "name": "Qty. Alloc. in Warehouse",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the item that is allocated to activities in the warehouse.\n\nAdditional Information\n\nAllocations in the warehouse include the following quantities:\n\nOutstanding quantity on picks and inventory movements with source documents.\n\n\nQuantity on outbound bins, such as:\n\nBins of type Shipment at locations that are set up with directed pick and put-away.\n\n\nDefault shipment bins at locations that are not set up with directed pick and put-away.\n\n\nWarehouse adjustment bin.\n\n\nQuantities that are reserved on pick and inventory movement lines and quantities that are picked and reserved but not shipped are shown in the Reserved Qty. on Picks and Shipments field."
     },
     {
       "no": 16,
       "name": "Res. Qty. on Picks & Shipmts.",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of the following overlap quantities:\n\nQuantity reserved AND included on outstanding pick and inventory movement lines.\n\n\nQuantity reserved AND picked but not shipped yet.\n\n\nThe value in this field is a subset of the value in the Qty. Allocated in Warehouse field."
     },
     {
       "no": 6500,
@@ -92,7 +92,7 @@
     {
       "no": 6507,
       "name": "Current Requested Quantity",
-      "tooltip": ""
+      "tooltip": "Shows how much of the total requested quantity is requested on the current line."
     },
     {
       "no": 6508,
@@ -102,7 +102,7 @@
     {
       "no": 6509,
       "name": "Bin Active",
-      "tooltip": ""
+      "tooltip": "Specifies if the bin content should be taken into account when calculating the available quantity on the item tracking line."
     },
     {
       "no": 6510,
@@ -112,7 +112,7 @@
     {
       "no": 6511,
       "name": "Double-entry Adjustment",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6512,

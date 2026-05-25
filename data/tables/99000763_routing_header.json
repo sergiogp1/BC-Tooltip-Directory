@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional description for the routing if there is not enough space in the Description field.\nYou can enter a maximum of 30 characters, both numbers and letters.\nWith a description, it is easier to recognize the function of a specific routing."
     },
     {
       "no": 4,
@@ -32,7 +32,7 @@
     {
       "no": 12,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this routing.\nTo view a comment or create a new one, click Related Information, point to Routing, and then click Comments. A window appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 20,
@@ -52,7 +52,7 @@
     {
       "no": 51,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the routing number."
     }
   ]
 }

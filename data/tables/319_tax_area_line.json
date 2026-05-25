@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Tax Area",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code.\nWhen you set up combinations in the Tax Area window, the program automatically copies the code from the Code field on the header to each new line.\nTo set up combinations with a different tax area code, first change the code in the header. Click Area, and then List. Select the appropriate code, and then click OK."
     },
     {
       "no": 2,

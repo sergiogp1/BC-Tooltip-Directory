@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the lines.\nThe program fills this field in automatically, and the program uses this field used internally for managing the Where-Used Line table."
     },
     {
       "no": 3,
@@ -32,12 +32,12 @@
     {
       "no": 7,
       "name": "Level Code",
-      "tooltip": ""
+      "tooltip": "Shows the level of the production BOM that this item is used in.\nIf an item goes directly into the production BOM, then level 1 is displayed here. If, however, the item is also used in another production BOM, level 2 is displayed here.\nFor example, a bicycle is produced. In level 1, all the parts are displayed which will be required for the final assembly. An example of such a part is a front wheel. However, for the production of this front wheel, one rim, 50 spokes and other components are needed. Therefore, the rim is displayed in level 2 because it is a component that is used in the front wheel."
     },
     {
       "no": 8,
       "name": "Production BOM No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the production BOM. The number identifies the production BOM that the production of this item is based on.\nTo see the production BOM numbers in the Production BOM table, click the field."
     }
   ]
 }

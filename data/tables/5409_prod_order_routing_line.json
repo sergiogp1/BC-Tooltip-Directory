@@ -42,12 +42,12 @@
     {
       "no": 9,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies the work center number if a machine is displayed in the Type field and thus a machine number in the No. field means this machine was assigned to a work center."
     },
     {
       "no": 10,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the work center group if the work center was assigned to a group.\nIf a machine is assigned to a work center and this work center to a group, this is also displayed here."
     },
     {
       "no": 11,
@@ -117,12 +117,12 @@
     {
       "no": 27,
       "name": "Minimum Process Time",
-      "tooltip": ""
+      "tooltip": "Specifies the minimum process time.\nThe system copied the minimum process time from the Minimum Process Time on the routing line.\nIf you want to change this minimum process time generally, you must do this on the routing. You can make changes here, which you only want for this operation in this production order.\nThis field is only for information."
     },
     {
       "no": 28,
       "name": "Maximum Process Time",
-      "tooltip": ""
+      "tooltip": "Specifies the maximum process time.\nThe system copied the maximum process time from the Maximum Process Time on the routing line.\nIf you want to change this maximum process time generally, you must do this on the routing. You can make changes here, which you only want for this operation in this production order.\nThis field is only for information."
     },
     {
       "no": 30,
@@ -152,47 +152,47 @@
     {
       "no": 41,
       "name": "Recalculate",
-      "tooltip": ""
+      "tooltip": "Shows whether this production order routing line has already been recalculated.\nValues may have been changed by the recalculation."
     },
     {
       "no": 50,
       "name": "Sequence No. (Forward)",
-      "tooltip": ""
+      "tooltip": "Specifies the sequence number (forward).\nIt is possible to plan a production order by forward and backward calculation. Depending on the planning, sequence numbers are assigned. Here the sequence number is entered which this operation has in the forward planning.\nExample:\n\nOP1\n\nOP2\n\nOP3\n\nOP4\n\nOP5\n\nOP6\n\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n\n*OP stands for operation - the numbers in the line below correspond to the sequence number in the forward calculation.\nTo see the difference between forward and backward calculation in the range of sequence numbers, click here."
     },
     {
       "no": 51,
       "name": "Sequence No. (Backward)",
-      "tooltip": ""
+      "tooltip": "Specifies the sequence number (backward).\nIt is possible to plan a production order with forward and backward calculation. Depending on the planning, sequence numbers are assigned. Here the sequence number is entered which this operation has in the backward planning.\nExample:\n\nOP1\n\nOP2\n\nOP3\n\nOP4\n\nOP5\n\nOP6\n\n\n6\n\n5\n\n4\n\n3\n\n2\n\n1\n\n\n*OP stands for operation - the numbers in the line below correspond to the sequence number in the backward calculation.\nTo see the difference between forward and backward calculation in the range of sequence numbers, click here."
     },
     {
       "no": 52,
       "name": "Fixed Scrap Qty. (Accum.)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated fixed scrap quantity for the production order.\nExample\nThe following example shows how the accumulated fixed scrap quantity is calculated.\nFixed scrap quantity of operation 1 is 3 pieces.\nFixed scrap quantity of operation 2 is 1 piece.\nNo other operation have fixed scrap.\nThe accumulated fixed scrap quantity is 4."
     },
     {
       "no": 53,
       "name": "Scrap Factor % (Accumulated)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated scrap factor in %.\nThe Scrap Factor % (Accumulated) is totaled over all operations."
     },
     {
       "no": 55,
       "name": "Sequence No. (Actual)",
-      "tooltip": ""
+      "tooltip": "Specifies the actual sequence number.\nIt is possible to plan a production order by forward and backward calculation. Depending on the planning, sequence numbers are assigned. Here the sequence number is entered which this operation has in the actual planning.\nExample:\n\nOP1\n\nOP2\n\nOP3\n\nOP4\n\nOP5\n\nOP6\n\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n\n*OP stands for operation - the numbers in the line below correspond to the sequence number."
     },
     {
       "no": 56,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the direct unit costs per unit of measure for this production order routing line.\nThe system copied the value from the Direct Unit Cost field on the work center or machine center card."
     },
     {
       "no": 57,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost in percent for this production order routing line.\nThe system copied the value from the Indirect Cost % field on the work center or machine center card."
     },
     {
       "no": 58,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate for this production order routing line.\nThe overhead rate is an absolute amount. You can set up an overhead rate to cover other expenses than material or capacity costs for example transport costs to the production order routing line.\nThe overhead rate is added to the total amount of the production order routing line without depending to the number of items."
     },
     {
       "no": 70,
@@ -227,17 +227,17 @@
     {
       "no": 76,
       "name": "Unit Cost Calculation",
-      "tooltip": ""
+      "tooltip": "Specifies the basis for the calculation.\nDetermine the unit cost calculation by clicking the field and selecting one of the following options:\nTime or\nUnits."
     },
     {
       "no": 77,
       "name": "Input Quantity",
-      "tooltip": ""
+      "tooltip": "Specify a capacity need that will be added to the calculation of the expected capacity need for the routing line."
     },
     {
       "no": 78,
       "name": "Critical Path",
-      "tooltip": ""
+      "tooltip": "Specifies whether this routing line is critical in the program run."
     },
     {
       "no": 79,

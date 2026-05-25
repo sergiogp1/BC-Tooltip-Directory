@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the worksheet template that applies to the worksheet line."
     },
     {
       "no": 2,
       "name": "Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the worksheet the line belongs to."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the worksheet line. The program numbers the lines sequentially and uses the numbers to keep track of the different worksheet lines."
     },
     {
       "no": 4,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the number of the source table associated with the source document for the line."
     },
     {
       "no": 5,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the line relates."
     },
     {
       "no": 6,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Source Subline No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the source document subline that relates to this worksheet line."
     },
     {
       "no": 9,
@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the location in which the items are going to be handled. The program copies the code from the worksheet name."
     },
     {
       "no": 11,
@@ -127,12 +127,12 @@
     {
       "no": 27,
       "name": "From Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Contains the unit of measure code of the item that you take from the bin in the From Bin Code field."
     },
     {
       "no": 28,
       "name": "Qty. per From Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the number of base units of measure that are in the unit of measure specified for the item on the line as it was stored in the bin in the From Bin Code field."
     },
     {
       "no": 29,
@@ -142,7 +142,7 @@
     {
       "no": 30,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the number of base units of measure that are in the unit of measure specified for the item on the line as it is stored in the bin in the To Bin Code field."
     },
     {
       "no": 31,
@@ -162,7 +162,7 @@
     {
       "no": 35,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Contains the information about the order in which the worksheet lines will appear. The program uses this field internally."
     },
     {
       "no": 36,
@@ -182,17 +182,17 @@
     {
       "no": 41,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the shipping agent on the warehouse shipment line associated with this worksheet line."
     },
     {
       "no": 42,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the shipping agent service on the warehouse shipment line associated with this worksheet line."
     },
     {
       "no": 43,
       "name": "Shipment Method Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the shipment method on the warehouse shipment line associated with this worksheet line."
     },
     {
       "no": 44,
@@ -202,7 +202,7 @@
     {
       "no": 45,
       "name": "Shipment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment date for the warehouse shipment line associated with this worksheet line. The program copies it from the warehouse shipment header if the information was not entered on the associated shipment line."
     },
     {
       "no": 46,

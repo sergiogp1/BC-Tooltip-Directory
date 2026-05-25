@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing number.\nThe program automatically retrieves the routing number from the No. field on the routing header.\nThe program uses the routing number to link the routing tool with the routing lines."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different routing tool lines."
     },
     {
       "no": 4,
@@ -27,12 +27,12 @@
     {
       "no": 20,
       "name": "Version Code",
-      "tooltip": ""
+      "tooltip": "Specifies the version code of the routing of this routing tool.\nThe system copied the code from the Version Code field in the Routing Version table."
     },
     {
       "no": 21,
       "name": "Operation No.",
-      "tooltip": ""
+      "tooltip": "Specifies the operation number of this routing tool.\nThe system uses this field internally to assign the routing tool to the operation."
     }
   ]
 }

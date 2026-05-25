@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the table number of the table that is the source of the receipt line, for example, 39 for a purchase line."
     },
     {
       "no": 4,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the warehouse receipt line relates. The program fills in this field.\nIf the line is created for a purchase document, the program copies the contents of the Document Type field of the source document.\nIf the receipt line is created for a production order, the program copies the contents of the Status field in the Production Order table.\nIf the receipt line is created for a transfer order, the program sets the field to 1 for an inbound transfer."
     },
     {
       "no": 6,
@@ -137,7 +137,7 @@
     {
       "no": 35,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. This determine the order in which receipt lines are displayed."
     },
     {
       "no": 36,
@@ -147,27 +147,27 @@
     {
       "no": 37,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Contains the date the warehouse receipt is scheduled to start.\nThe field is automatically filled in according to the source document type:\nFor purchase orders: the planned receipt date on the purchase line\nFor transfer orders: the work date."
     },
     {
       "no": 38,
       "name": "Cubage",
-      "tooltip": ""
+      "tooltip": "Specifies the cubage of the items on the line, calculated as quantity. Outstanding x Item Unit of Measure Cubage."
     },
     {
       "no": 39,
       "name": "Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the weight of the items on the line, calculated as Qty. Outstanding x Item Unit of Measure Weight."
     },
     {
       "no": 48,
       "name": "Not upd. by Src. Doc. Post.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 49,
       "name": "Posting from Whse. Ref.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 50,

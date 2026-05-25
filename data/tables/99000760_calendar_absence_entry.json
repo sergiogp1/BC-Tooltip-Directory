@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Capacity Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of capacity that the absence entry affects.\nClick the drop-down button to select Machine Center or Work Center."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the machine center or work center that you selected in the Capacity Type field.\nThe program assigns the absence entry to only one machine center or work center."
     },
     {
       "no": 4,
@@ -32,12 +32,12 @@
     {
       "no": 8,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies the work center number if the absence entry refers to a work center. If this entry is assigned to a machine center and this machine center is assigned to a work center, then the number of the work center is shown here."
     },
     {
       "no": 9,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the work center group if the work center or the machine center was assigned to a work center group."
     },
     {
       "no": 21,

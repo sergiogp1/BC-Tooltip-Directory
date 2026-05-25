@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Contains the status of the warehouse request. The options are: Open, Released."
     }
   ]
 }

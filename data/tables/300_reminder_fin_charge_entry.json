@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Specifies the document date of the reminder or finance charge memo. The program copies this information from the Document Date field on the reminder header or the Document Date field on the finance charge header."
     },
     {
       "no": 7,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Interest Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the interest amount calculated on the reminder line or finance charge memo line. The program copies the amount from the Amount field on the reminder line or the Amount field on the finance charge memo line."
     },
     {
       "no": 9,
@@ -67,17 +67,17 @@
     {
       "no": 13,
       "name": "Customer No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the customer the reminder or finance charge memo entry is for.\nThe program copies the number from the Customer No. field on the reminder or finance charge memo header."
     },
     {
       "no": 14,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user that is associated with the entry."
     },
     {
       "no": 15,
       "name": "Due Date",
-      "tooltip": ""
+      "tooltip": "Specifies the due date of the customer ledger entry that this reminder line is for.\nThe program copies the due date from the Due Date field on the customer ledger entry, when the Entry No. field is filled in.\nThe Due Date field will remain blank if the reminder line does not contain a customer ledger entry."
     },
     {
       "no": 50,

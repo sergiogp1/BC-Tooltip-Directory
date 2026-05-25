@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the assembly order line."
     },
     {
       "no": 10,
@@ -77,17 +77,17 @@
     {
       "no": 25,
       "name": "Position",
-      "tooltip": ""
+      "tooltip": "Specifies the first position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 26,
       "name": "Position 2",
-      "tooltip": ""
+      "tooltip": "Specifies the second position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 27,
       "name": "Position 3",
-      "tooltip": ""
+      "tooltip": "Specifies the third position label that you defined for the item on its assembly BOM."
     },
     {
       "no": 38,
@@ -107,7 +107,7 @@
     {
       "no": 41,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly components are expected to be consumed. The components are stated in the base unit of measure.\nThe quantity is calculated as the value in the Quantity (Base) field on the assembly order header multiplied by the value in the Quantity per field on the assembly order line."
     },
     {
       "no": 42,
@@ -117,7 +117,7 @@
     {
       "no": 43,
       "name": "Remaining Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly components remain to be consumed during assembly of the quantity on the assembly order header. The assembly components are stated in the base unit of measure.\n\nAdditional Information\n\nThe value is calculated as the value in the Quantity (Base) field minus the value in the Consumed Quantity (Base) field on the assembly order line."
     },
     {
       "no": 44,
@@ -127,7 +127,7 @@
     {
       "no": 45,
       "name": "Consumed Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the assembly component have been posted as consumed during the assembly of the quantity on the assembly order header. The units are measured in the base unit of measure. The quantity is accumulated from the quantity in the Quantity to Consume (Base) field every time that you perform a partial consumption posting."
     },
     {
       "no": 46,
@@ -137,7 +137,7 @@
     {
       "no": 47,
       "name": "Quantity to Consume (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly components you want to post as consumed when you post the assembly order. The assembly components are measured in the base unit of measure. After partial postings, the quantity is added to the Consumed Quantity (Base) field on the assembly order line."
     },
     {
       "no": 48,
@@ -187,7 +187,7 @@
     {
       "no": 63,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group to which the assembly component on this assembly order line is posted. It is copied from the item card, but you can change it on the assembly order line.\nAdditional Information\nWhen you post transactions for the item on the assembly order line, this code is used with a posting group code from the General Posting Setup window. The window defines the VAT rate, the VAT calculation type, and the accounts in which postings for sales, discounts, and so on occur."
     },
     {
       "no": 64,
@@ -207,7 +207,7 @@
     {
       "no": 72,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values show information only for that interval.\nThe following table shows the rules by which you can enter a date interval.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 80,
@@ -227,7 +227,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 7301,
@@ -237,7 +237,7 @@
     {
       "no": 7302,
       "name": "Pick Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the assembly component are currently on warehouse pick lines. The units are stated in the base unit of measure.\nChoose the field to view the pick lines in the Warehouse Activity List window."
     },
     {
       "no": 7303,
@@ -247,7 +247,7 @@
     {
       "no": 7304,
       "name": "Qty. Picked (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly components have already been moved or picked for the assembly order line. The assembly components are stated in the base unit of measure."
     }
   ]
 }

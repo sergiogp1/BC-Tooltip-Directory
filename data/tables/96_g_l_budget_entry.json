@@ -52,7 +52,7 @@
     {
       "no": 11,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Contains the user ID of the user associated with the entry.\nYou cannot change the user ID because the entry has been posted."
     },
     {
       "no": 12,
@@ -77,7 +77,7 @@
     {
       "no": 16,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies when the general ledger budget was last modified.\nWhen you change information in the general ledger budget, the Last Date Modified field is updated with current system date."
     },
     {
       "no": 480,

@@ -102,7 +102,7 @@
     {
       "no": 26,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Contains the source code of the entry."
     },
     {
       "no": 29,
@@ -117,7 +117,7 @@
     {
       "no": 35,
       "name": "Bin Type Code",
-      "tooltip": ""
+      "tooltip": "Specifies the bin type, such as PICK or SHIP."
     },
     {
       "no": 40,
@@ -147,7 +147,7 @@
     {
       "no": 52,
       "name": "Whse. Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the document from which this entry originated (warehouse receipt, shipment, put-away, pick."
     },
     {
       "no": 55,
@@ -157,12 +157,12 @@
     {
       "no": 60,
       "name": "Reference Document",
-      "tooltip": ""
+      "tooltip": "Indicates what type of source document that the warehouse entry applies to.\nThe following options exist:\n\nBlank\n\n\nPosted Receipt\n\n\nPosted Purchase Invoice\n\n\nPosted Return Receipt\n\n\nPosted Purchase Credit Memo\n\n\nPosted Shipment\n\n\nPosted Sales Invoice\n\n\nPosted Return Shipment\n\n\nPosted Sales Credit Memo\n\n\nPosted Transfer Receipt\n\n\nPosted Transfer Shipment\n\n\nItem Journal\n\n\nPut-away\n\n\nPick\n\n\nMovement\n\n\nJob Journal\n\n\nAssembly"
     },
     {
       "no": 61,
       "name": "Reference No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number of the posted source document."
     },
     {
       "no": 67,
@@ -197,7 +197,7 @@
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Specifies the warranty date of the serial number."
     },
     {
       "no": 6503,
@@ -212,17 +212,17 @@
     {
       "no": 7380,
       "name": "Phys Invt Counting Period Code",
-      "tooltip": ""
+      "tooltip": "Contains the physical inventory counting period code if the entry was created using the cycle counting functionality."
     },
     {
       "no": 7381,
       "name": "Phys Invt Counting Period Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the physical inventory counting period used on the line is assigned to the stockkeeping unit (SKU) or to the item."
     },
     {
       "no": 7382,
       "name": "Dedicated",
-      "tooltip": ""
+      "tooltip": "Specifies whether the bin is used as a dedicated bin, which means that its bin content is only available to certain resources."
     }
   ]
 }

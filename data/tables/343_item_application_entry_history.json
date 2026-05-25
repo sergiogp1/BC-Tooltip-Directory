@@ -47,32 +47,32 @@
     {
       "no": 25,
       "name": "Creation Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which this entry in the item application entry was originally created in the Item Application Entry window."
     },
     {
       "no": 26,
       "name": "Created By User",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the user who originally posted the transaction that created this item application entry in the Item Application Entry table."
     },
     {
       "no": 27,
       "name": "Last Modified Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which this item application entry was last changed. The item application is modified when the outbound transaction is applied to the inbound transaction."
     },
     {
       "no": 28,
       "name": "Last Modified By User",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the user who last changed this item application entry. The item application is modified when the outbound transaction is applied to the inbound transaction."
     },
     {
       "no": 29,
       "name": "Deleted Date",
-      "tooltip": ""
+      "tooltip": "Specifies the current date when the user removes the application specified in this entry."
     },
     {
       "no": 30,
       "name": "Deleted By User",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the user who removes the application specified in this entry ."
     },
     {
       "no": 5800,

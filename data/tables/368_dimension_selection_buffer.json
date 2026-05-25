@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Filter Lookup Table No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

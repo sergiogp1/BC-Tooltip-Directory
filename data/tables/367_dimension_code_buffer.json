@@ -17,32 +17,32 @@
     {
       "no": 3,
       "name": "Totaling",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
       "name": "Period Start",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,
       "name": "Period End",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6,
       "name": "Visible",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 7,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8,
       "name": "Show in Bold",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 9,
@@ -52,22 +52,22 @@
     {
       "no": 10,
       "name": "Dimension 1 Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
       "name": "Dimension 2 Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 12,
       "name": "Dimension 3 Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 13,
       "name": "Dimension 4 Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 7101,

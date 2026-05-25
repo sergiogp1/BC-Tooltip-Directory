@@ -77,12 +77,12 @@
     {
       "no": 16,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code that the resource is linked to. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the corresponding dimension value is used as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example in a journal."
     },
     {
       "no": 17,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code that the resource is linked to. To see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nIf you enter a dimension value code in this field, the corresponding dimension value is used as a default each time you enter the account on an entry line. Default dimension values are only suggestions and you can change them on the entry line, for example, in a journal."
     },
     {
       "no": 18,
@@ -122,7 +122,7 @@
     {
       "no": 25,
       "name": "Vendor No.",
-      "tooltip": ""
+      "tooltip": "Specifies the vendor number of the vendor that is associated with this resource. To see the vendor numbers in the Vendor table, choose the field.\nEnter this information if you plan to sort purchase reports by vendor."
     },
     {
       "no": 26,
@@ -132,7 +132,7 @@
     {
       "no": 27,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies if there are comments associated with this resource.\nYou can use the comments feature to leave notes to yourself or to document unusual events.\nTo see a comment, or to create a new one, on the Navigate tab, in the Resource group, choose Comments. The Comment Sheet window opens, in which you can see the existing comments and create new ones. See also the Comment Line table.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 38,
@@ -142,62 +142,62 @@
     {
       "no": 39,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nThe following table shows the rules for entering a date interval.\n\n\nMeaning\n\n\nSample expression\n\n\nIncluded entries\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nThe following table shows that you can also combine the various format types.\n\n\nSample expression\n\n\nIncluded entries\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 40,
       "name": "Unit of Measure Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter that filters by a measuring unit.\nIf the field contains a unit of measure filter, the amounts in the following fields are filtered according to the relevant unit of measure:\nUnit Price\n\nVendor No.\n\nComment"
     },
     {
       "no": 41,
       "name": "Capacity",
-      "tooltip": ""
+      "tooltip": "Specifies the total capacity of the resource that is available.\nYou can set a filter to see the capacity by date, unit of measure, and/or chargeable transactions.\nYou can enter figures that represent the resource's capacity in the Resource Capacity window."
     },
     {
       "no": 42,
       "name": "Qty. on Order (Job)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the capacity of the resource is assigned to jobs with the status Order.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable transactions."
     },
     {
       "no": 43,
       "name": "Qty. Quoted (Job)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the capacity of the resource is assigned to jobs with the status Quote.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable transactions."
     },
     {
       "no": 44,
       "name": "Usage (Qty.)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the resources have been used (based on quantity). Usage for resources can be recorded in the Resource Journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable resource transactions."
     },
     {
       "no": 45,
       "name": "Usage (Cost)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the resources have been used, based on cost. Usage for resources can be recorded in the Resource Journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable resource transactions."
     },
     {
       "no": 46,
       "name": "Usage (Price)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the resources have been used based on price. Usage for resources can be recorded in the Resource Journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 47,
       "name": "Sales (Qty.)",
-      "tooltip": ""
+      "tooltip": "Specifies how much capacity of the resource has been sold based on quantity. Sales for resources can be recorded in the Resource Journal by selecting Sale for the Entry Type field or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable resource transactions."
     },
     {
       "no": 48,
       "name": "Sales (Cost)",
-      "tooltip": ""
+      "tooltip": "Specifies how much capacity of the resource has been sold based on cost. Sales for resources can be recorded in the Resource Journal by selecting Sale for the Entry Type field, or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 49,
       "name": "Sales (Price)",
-      "tooltip": ""
+      "tooltip": "Specifies how much capacity of the resources has been sold based on prices. Sales for resources can be recorded in the Resource Journal by selecting Sale for the Entry Type field or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 50,
       "name": "Chargeable Filter",
-      "tooltip": ""
+      "tooltip": "Specifies that the amounts in this table are divided into chargeable and non-chargeable transactions. You can use this field with the Usage fields.\nSelect this check box to see only the chargeable usage or chargeable sales for a resource group. Clear the check box to see only the non-chargeable usage or nonchargeable sales for a resource group. Leave the box blank to see both chargeable and nonchargeable usage or nonchargeable sales for a resource group."
     },
     {
       "no": 51,
@@ -222,12 +222,12 @@
     {
       "no": 56,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the resource's number."
     },
     {
       "no": 57,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the sales tax group code to which this resource belongs.\nThe tax group code is used in combination with the tax area code on the sales line to determine the sales tax percentage and the general ledger accounts for sales tax posting.\nTo see the available tax groups, choose the field."
     },
     {
       "no": 58,
@@ -272,7 +272,7 @@
     {
       "no": 900,
       "name": "Qty. on Assembly Order",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the capacity of the resource is assigned to assembly order lines.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable transactions."
     },
     {
       "no": 950,

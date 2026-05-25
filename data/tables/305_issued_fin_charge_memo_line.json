@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Finance Charge Memo No.",
-      "tooltip": ""
+      "tooltip": "Specifies the finance charge memo number.\nThe program copies the number from the Finance Charge Memo No. field on the finance charge memo line."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line's number.\nThe program copies the number from the Line No. field on the finance charge memo line."
     },
     {
       "no": 3,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 4,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number for the customer ledger entry the finance charge memo line was created for.\nThe program copies the number from the Entry No. field on the finance charge memo line."
     },
     {
       "no": 7,
@@ -82,42 +82,42 @@
     {
       "no": 17,
       "name": "Interest Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the interest rate that applies to this finance charge memo line.\nThe program copies the interest rate from the Interest Rate field on the finance charge memo line."
     },
     {
       "no": 18,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product posting group of the general ledger account this finance charge memo line is for.\nThe program copies the general product posting group from the Gen. Prod. Posting Group field on the finance charge memo line.\nThe Gen. Prod. Posting Group field is blank if the finance charge memo line does not contain a G/L account entry."
     },
     {
       "no": 19,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that was used when the line was posted to the general ledger account if the Type field contains G/L Account.\nThe program copies the VAT % from the VAT % field on the finance charge memo line."
     },
     {
       "no": 20,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when VAT was calculated if the Type field contains G/L Account.\nThe program copies the type from the VAT Calculation Type field on the finance charge memo line."
     },
     {
       "no": 21,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT amount that was calculated on the line. This amount is in the currency of the finance charge memo.\nThe program copies the amount from the VAT Amount field on the finance charge memo line."
     },
     {
       "no": 22,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax group code of the general ledger account this finance charge memo line is for if the Type field contains G/L Account.\nThe program copies the code from the Tax Group Code.\nThis field is blank if the issued finance charge memo line does not contain a G/L account entry."
     },
     {
       "no": 23,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "If the Type field contains \"G/L Account\":\n\nThis field contains the VAT product posting group of the G/L account this finance charge memo line is for.\n\n\nThe program copies the code from the VAT Prod. Posting Group field on the finance charge memo line when the finance charge memo is issued.\n\n\nIf the Type field contains \"Customer Ledger Entry\":\n\nThis field contains the VAT product posting group of the Interest Account of the Customer Posting Group of the customer this issued finance charge memo line is for.\n\n\nThe program copies the code from the VAT Prod. Posting Group field on the finance charge memo line when the finance charge memo is issued.\n\n\nIf the Type field does not contain G/L Account or Customer Ledger Entry, this field is blank."
     },
     {
       "no": 24,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Automatically copies the value from the VAT Identifier field in the VAT Posting Setup window."
     },
     {
       "no": 25,
@@ -127,7 +127,7 @@
     {
       "no": 26,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the issued finance charge memo line."
     },
     {
       "no": 30,
@@ -137,7 +137,7 @@
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     }
   ]
 }

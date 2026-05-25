@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the current resource journal.\nTo see the templates that are available, choose the field."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the resource journal line number.\nThis field is filled in automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 3,
@@ -102,12 +102,12 @@
     {
       "no": 21,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the journal.\nThis field is automatically filled in."
     },
     {
       "no": 23,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the batch that is associated with this entry.\nTo see the available batches, choose the field."
     },
     {
       "no": 24,
@@ -152,42 +152,42 @@
     {
       "no": 32,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that is used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, choose the field.\nThe number series code is automatically copied from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field is also used on the posted line."
     },
     {
       "no": 33,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 34,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 35,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the base quantity per resource base unit of measure that is specified in the Qty. per Unit of Measure field."
     },
     {
       "no": 90,
       "name": "Order Type",
-      "tooltip": ""
+      "tooltip": "Shows which type of order that the entry was created in. You can select from the following options:\n\n<Blank> when the entry comes from any other transaction than the following options\n\nProduction\n\nTransfer\n\nService\n\nAssembly"
     },
     {
       "no": 91,
       "name": "Order No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the order that created the entry.\nThe type of order is defined by the related Order Type field."
     },
     {
       "no": 92,
       "name": "Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the order that created the entry.\nThe type of order is defined by the related Order Type field."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 950,
@@ -207,7 +207,7 @@
     {
       "no": 959,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Specifies that an entry has been created by Microsoft Dynamics NAV and is related to the resource journal entry. The check box is selected automatically.\n\nThis field is used internally."
     }
   ]
 }

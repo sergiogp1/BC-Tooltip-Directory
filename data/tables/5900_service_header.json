@@ -107,7 +107,7 @@
     {
       "no": 22,
       "name": "Posting Description",
-      "tooltip": ""
+      "tooltip": "Contains the document type and number of the entry (Order 1001, for example). The program automatically creates the posting description when you fill in the Document Type and No. fields.\nThe posting description will appear on all customer and G/L entries created from the service document."
     },
     {
       "no": 23,
@@ -162,12 +162,12 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Specifies a currency factor if an additional reporting currency was set in the General Ledger Setup window. The currency factor shows the relationship between the additional reporting currency and the local currency. The program will automatically record amounts in both LCY and the additional reporting currency, using the relevant exchange rate and the currency factor.\nThe program validates the currency factor against the exchange rate for the additional reporting currency as of the posting date. If you have not set up any additional reporting currency, the value in the field will equal 1."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the price group assigned to the customer. To see the customer price group codes available in the Customer Price Group table, choose the field.\nThe program uses the code to calculate the unit price for items on the service lines. Unit prices for an item may vary for different price groups. You can enter them in the Sales Prices window. The program will then check the Sales Price table to see whether the customer in the certain price group will be charged a different item price than the item's standard unit price.\nThe program automatically retrieves the code from the Customer table when you fill in the Bill-to Customer No. field. The field is blank if you have assigned no price group code to the customer."
     },
     {
       "no": 35,
@@ -177,17 +177,17 @@
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Contains the code used to find the invoice discount you give the customer.\nThe program retrieves the invoice discount code from the Customer table when you fill in the Bill-to Customer No. field.\nThe invoice discount will be based on the total invoice amount, but it will be allocated to the lines relative to the amount on each. If there is a check mark in the Calc. Inv. Discount field in the Service Mgt. Setup window, the amount will be calculated automatically. Click here to learn when the automatic calculation will occur.\nIf the Calc. Inv. Discount field in the Service Mgt. Setup window is not selected, you must activate the calculation manually.\nYou set up the code in the Invoice Disc. Code field on the customer card."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the discount group assigned to the bill-to customer. The code is used to calculate the service line discount given to the customer.\nThe program copies the code from the Customer table when you fill in the Bill-to Customer No. field."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies a code that determines the language to be used on any printouts for the bill-to customer on the service document.\nThe program copies the code from the Customer table when you fill in the Bill-to Customer No. field.\nThe language code allows you to have the items on the service lines written in the customer's language. When you enter an item on the line, the program uses the language code to check whether there is a description of the item in the appropriate language. If there is, the program automatically uses it to replace the usual text on the service item line."
     },
     {
       "no": 42,
@@ -202,12 +202,12 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether there are any comments attached to the current service document.\nTo view a comment or create a new one, click Related Information, point to Order, and then click Comment. A window then appears which displays existing comments and allows new ones to be created.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 47,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times that the service order has been printed.\nThis field is automatically updated every time that the credit memo is printed."
     },
     {
       "no": 52,
@@ -222,7 +222,7 @@
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of a general ledger account or the bank account where to place a balancing entry for the invoice. You can select the appropriate type in the Bal. Account Type field.\nYou can use a search name to enter an account. If you want to enter the cash account, for example, but do not remember the account number, you can enter the word cash and press Enter. The program will enter the correct account number if you have set up CASH as the search name for the account."
     },
     {
       "no": 60,
@@ -237,27 +237,27 @@
     {
       "no": 62,
       "name": "Shipping No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that will be assigned to the shipment when the service header is posted.\nWhen you post the service header, the program will automatically use the next number from the number series in the Shipping No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 63,
       "name": "Posting No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the posted invoice or credit memo that will be created if you post the service header.\nWhen you post the service header, the program will automatically use the next number from the number series in the Posting No. Series field unless you manually enter a number.\nIf you manually enter a number, it will not cause a gap in the number series."
     },
     {
       "no": 64,
       "name": "Last Shipping No.",
-      "tooltip": ""
+      "tooltip": "Specifies the last posted service shipment number used."
     },
     {
       "no": 65,
       "name": "Last Posting No.",
-      "tooltip": ""
+      "tooltip": "Specifies the last posted invoice or credit memo number used."
     },
     {
       "no": 70,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Displays the bill-to customer's VAT registration number.\nThe program copies the number automatically from the Customer table when you fill in the Bill-to Customer No. field."
     },
     {
       "no": 71,
@@ -267,12 +267,12 @@
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code assigned to the service header. A reason code is a code that will enable you to trace the entry. It indicates why an entry was created. To see the reason codes in the Reason Code table, choose the field.\nThe program copies the reason code to all G/L, customer and item entries created when posting."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the general business posting group assigned to the bill-to customer.\nThe program copies the code automatically from the Customer table when you fill in the Bill-to Customer No. field."
     },
     {
       "no": 75,
@@ -292,7 +292,7 @@
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Displays the bill-to customer's VAT country/region code. The information will be used on VAT reports in connection with trade with other EU countries/regions and in INTRASTAT reporting.\nThe program copies the code automatically from the Customer table when you fill in the Bill-to Customer No. field."
     },
     {
       "no": 79,
@@ -372,7 +372,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the account to which the program will post balancing entries for the document. You can choose between G/L Account and Bank Account. The balancing account type determines which accounts can be entered in the Bal. Account No. field."
     },
     {
       "no": 97,
@@ -382,7 +382,7 @@
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies the entry as a corrective entry.\nYou can use the field if you need to post a corrective entry to a customer account.\nIf you place a check mark in this field when posting a corrective entry, the program will post a negative debit instead of a credit or a negative credit instead of a debit. The Debit Amount field (or Credit Amount field) on the relevant account will then include both the original entry and the corrective entry, which will have no effect on the debit (or credit) balance.\nFor example, you post a credit sale for LCY 500 to Accounts Receivable. This entry is later determined to be incorrect so you make a corrective entry for LCY 500 to Accounts Receivable. On the Accounts Receivable and relevant Customer card, the Debit Amount field will include a debit of LCY 500 and a negative debit of LCY 500. As such, this credit sale and subsequent corrective entry will have no net effect on the amount in the Debit Amount field. On the other hand, if you post the corrective entry as a regular entry, the Debit Amount and Credit Amount fields will both include an amount of LCY 500.\nYou can see the amount that has accumulated for the relevant account in the Debit Amount field or Credit Amount field on the relevant G/L or Customer Account card."
     },
     {
       "no": 99,
@@ -417,17 +417,17 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series used by the program to assign a numerical identifier to each service document. You can change the code.\nThe program copies the appropriate number series code from the relevant field in the Service Mgt. Setup table.\nNote that the program inserts only a default value which you can change."
     },
     {
       "no": 108,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code of the number series that is used to assign numerical identifiers to posted service documents.\nThe number series code is copied from either of two fields in the Service Mgt. Setup.\n\n\nField\n\n\nDescription\n\n\nPosted Service Invoice Nos.\n\nAssigns number series to posted service invoices.\n\n\nPosted Serv. Credit Memo Nos.\n\nAssigns number series to service credit memos."
     },
     {
       "no": 109,
       "name": "Shipping No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a number to the shipment created from the service document.\nThe program copies the code from the Posted Service Shipment Nos. field of the Service Mgt. Setup table.\nNote that the field contains a default value which you can change."
     },
     {
       "no": 114,
@@ -447,7 +447,7 @@
     {
       "no": 117,
       "name": "Reserve",
-      "tooltip": ""
+      "tooltip": "Indicates whether the program will allow reservations to be made for the customer on the service order. The field can be set as follows: Optional, Always, or Never.\nThe program copies the value from the Reserve field on the customer card for the customer specified in the Bill-to Customer No. field.\nThe contents of this field, in combination with the contents of the Reserve field in the Item table, determine the contents of the Reserve field on service lines linked to the service order. The program copies the reserve option from the Item table to the service line (thereby overriding the reserve option on the service header). There is one exception to this: if you enter an item with the option Optional on a service line, the program will assign the line the same reserve option as set in the service header."
     },
     {
       "no": 118,
@@ -457,7 +457,7 @@
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Indicates the percentage used for discounting the VAT element when a payment discount is posted.\nThe program validates the value against the maximum possible VAT Tolerance % field value in the General Ledger Setup table.\nThe maximum value cannot be overridden. The only exception is a credit note: here you can manually enter the value used for the payment discount."
     },
     {
       "no": 120,
@@ -467,12 +467,12 @@
     {
       "no": 121,
       "name": "Invoice Discount Calculation",
-      "tooltip": ""
+      "tooltip": "Specifies how to calculate the discount for an invoice. You can select one of the following options by choosing the field:\n\n\nField\n\n\nDescription\n\n\nNone\n\nThe program will not calculate any invoice discount.\n\n\n%\n\nThe program will calculate the invoice discount as a percentage of the invoice amount.\n\n\nAmount\n\nThe program will calculate the invoice discount by subtracting a specified amount from the invoice amount."
     },
     {
       "no": 122,
       "name": "Invoice Discount Value",
-      "tooltip": ""
+      "tooltip": "Specifies the invoice discount calculation method that you have chosen in the Invoice Discount Calculation field.\nIf you choose the None option, the field will be empty.\nIf you choose %, this field displays the percentage that the program uses to calculate the invoice discount.\nIf you choose Amount, this field displays the amount that the program uses to calculate the invoice discount."
     },
     {
       "no": 129,
@@ -512,7 +512,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1200,
@@ -552,12 +552,12 @@
     {
       "no": 5752,
       "name": "Completely Shipped",
-      "tooltip": ""
+      "tooltip": "Specifies that the service registered on the document has been completely shipped to the customer."
     },
     {
       "no": 5754,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter that filters service orders by location."
     },
     {
       "no": 5792,
@@ -572,7 +572,7 @@
     {
       "no": 5796,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter.\nIf this field contains the starting and ending dates for a time period, the fields in the report will display information for that period only. The Dispatch Board window will also show service orders with a response time in that particular period."
     },
     {
       "no": 5902,
@@ -617,7 +617,7 @@
     {
       "no": 5918,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer in this service order.\nIf you have entered the customer as a contact, the program copies the number automatically from the Contact table when you fill in the Customer No. field. Otherwise, the program copies the number automatically from the Customer table."
     },
     {
       "no": 5921,
@@ -632,7 +632,7 @@
     {
       "no": 5924,
       "name": "Default Response Time (Hours)",
-      "tooltip": ""
+      "tooltip": "Contains the default response time in hours for the service item lines in the service order.\nThe program copies the time from the Default Response Time (Hours) field in the Service Mgt. Setup table if the Contract No. field on the service header is blank. Otherwise, the program copies the contents of this field from the Response Time (Hours) field for the corresponding service contract."
     },
     {
       "no": 5925,
@@ -677,7 +677,7 @@
     {
       "no": 5933,
       "name": "Contract Serv. Hours Exist",
-      "tooltip": ""
+      "tooltip": "Specifies if the current service order was created from a certain service contract. A check mark in the field indicates that there are specific service hours attached to the service contract, and the hours will apply to the current service order.\nAs soon as you enter the Contract No. on the service header, the program will check from the Service Hour table whether the contract has specific service hours assigned. In case it does, a check mark will be placed in the Contract Serv. Hour Exist field on the service header.\nYou cannot change the contents of the field manually."
     },
     {
       "no": 5934,
@@ -712,27 +712,27 @@
     {
       "no": 5951,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains a type filter. There are five options: Blank, Resource, Item, Service Cost and Service Contract.\nFor example, if this field contains the option Resource, fields in the report will only display information related to service ledger entries with the Resource type."
     },
     {
       "no": 5952,
       "name": "Customer Filter",
-      "tooltip": ""
+      "tooltip": "Contains a customer filter.\nIf this field contains a customer number, the Dispatch Board window will show service orders for that particular customer only."
     },
     {
       "no": 5953,
       "name": "Resource Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource filter.\nIf this field contains a particular resource number, fields such as the No. of Allocations field will only display information on service order allocations with that resource. The Dispatch Board window will also show the overview of the documents containing the service item lines the specified resource is allocated to (provided that you use allocation in your company)."
     },
     {
       "no": 5954,
       "name": "Contract Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service contract filter.\nIf this field contains a service contract number, the Dispatch Board window will show service orders linked to that particular contract only."
     },
     {
       "no": 5955,
       "name": "Ship-to Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the address where the service items in the order are located.\nThe program copies the number automatically from the Ship-to Address table when you fill in the Ship-to Code field."
     },
     {
       "no": 5956,
@@ -742,7 +742,7 @@
     {
       "no": 5957,
       "name": "Resource Group Filter",
-      "tooltip": ""
+      "tooltip": "Contains a resource group filter.\nIf this field contains a particular resource group number, fields such as the No. of Allocations field will only display information on service order allocations with that resource group. The Dispatch Board window will also show the overview of the documents containing the service item lines to which the specified resource group is allocated (provided that you use allocation in your company)."
     },
     {
       "no": 5958,
@@ -757,7 +757,7 @@
     {
       "no": 5966,
       "name": "Service Zone Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service zone filter.\nIf this field contains a service zone code, the Dispatch Board window will show service orders for customers in that particular service zone only."
     },
     {
       "no": 5968,
@@ -777,7 +777,7 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Indicates whether a discount on the service lines should be calculated.\nIf you place a check mark in the field, a discount will be calculated. If you leave the field blank, there will not be a discount on the service lines.\nThis value is retrieved from the Sales Price table. If a sales price does not exist, it is retrieved from the Customer table."
     },
     {
       "no": 9000,

@@ -37,12 +37,12 @@
     {
       "no": 7,
       "name": "Service Zone Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the service zone of the ship-to address of the customer in the service contract.\nIf a ship-to address is not specified for the customer, the program copies the code automatically from the Customer table when you fill in the Name field on the contract header. If a ship-to address is specified, the program copies the code automatically from the Ship-to Address table when you fill in the Ship-to Code field."
     },
     {
       "no": 8,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Contains a language code for the bill-to customer.\nThe program copies the code automatically from the Customer table when you fill in the Bill-to Customer No. field.\nThe language code allows you to have text on service lines written in the customer's language. When you run the Insert Extended Text function on a service line, the program uses the language code to check whether a translation of the text exists in the appropriate language. If it does exist, the program automatically uses it to replace the text on the service line."
     },
     {
       "no": 9,
@@ -87,7 +87,7 @@
     {
       "no": 20,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the number to the service item."
     },
     {
       "no": 21,

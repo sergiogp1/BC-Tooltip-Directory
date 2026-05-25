@@ -87,27 +87,27 @@
     {
       "no": 17,
       "name": "Account No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 18,
       "name": "Source Type Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 19,
       "name": "Cash Flow Date Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 20,
       "name": "Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the entry in LCY.\nWhen the cash flow entry is registered, the amount is calculated automatically."
     },
     {
       "no": 21,
       "name": "Positive Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 22,

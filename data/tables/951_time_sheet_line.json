@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number that is assigned to an entry on a time sheet.\n\nThis field is used internally."
     },
     {
       "no": 3,
@@ -52,7 +52,7 @@
     {
       "no": 12,
       "name": "Approver ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the person who approved the time sheet lines of this resource.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 13,
@@ -62,7 +62,7 @@
     {
       "no": 14,
       "name": "Service Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the service order number line that is associated with the time sheet line."
     },
     {
       "no": 15,
@@ -82,7 +82,7 @@
     {
       "no": 19,
       "name": "Assembly Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the assembly order line number that is associated with the time sheet line."
     },
     {
       "no": 20,
@@ -92,12 +92,12 @@
     {
       "no": 21,
       "name": "Approved By",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the user who has approved the time sheet line. Usually, it is the same ID as specified in the Approver ID field, but it can also be the ID of the time sheet administrator.\n\nAdditional Information\n\nThe value in the Approved By field comes from the User Setup window."
     },
     {
       "no": 22,
       "name": "Approval Date",
-      "tooltip": ""
+      "tooltip": "Contains the date of approval of a time sheet line."
     },
     {
       "no": 23,

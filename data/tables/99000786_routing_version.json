@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing number.\nThe system copied the number from the No. field in the routing header. The program uses this field to assign the routing versions to the Routing Header table."
     },
     {
       "no": 2,
@@ -37,12 +37,12 @@
     {
       "no": 22,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the routing version card was last modified.\nWhen you change information on the routing version card, the program automatically updates the Last Date Modified field to show the current system date."
     },
     {
       "no": 50,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign the routing version code."
     }
   ]
 }

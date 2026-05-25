@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal template that the journal batch is set up under.\nThe program automatically retrieves the name from the Name field in the Item Journal Template table."
     },
     {
       "no": 2,
@@ -37,12 +37,12 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the item journal template, such as item adjustment, transfer, output, or capacity."
     },
     {
       "no": 22,
       "name": "Recurring",
-      "tooltip": ""
+      "tooltip": "Specifies whether the item journal template is a recurring journal.\nRecurring journals can be useful when you have entries that must be posted repeatedly with few or no changes.\nWith a recurring journal, entries that are posted regularly have to be entered only once. The accounts, dimensions, and dimension values that you enter in the fields stay in the journal after posting. If any adjustments are necessary, then you can make them with each posting.\nA recurring journal opens in a special window that contains standard fields and special fields in which you can define which entries are repeated and how they are repeated.\nSelect the check box to make the journal a recurring journal.\nThe following fields are designed for recurring journals:\nRecurring Method\n\nExpiration Date\n\nRecurring Frequency"
     },
     {
       "no": 40,

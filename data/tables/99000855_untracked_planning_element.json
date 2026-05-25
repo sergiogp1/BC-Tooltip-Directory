@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Links the untracked planning element to a requisition line and can be accessed from either the requisition or planning worksheet.\nFor more information on untracked planning surplus, see Untracked Planning Element."
     },
     {
       "no": 2,
       "name": "Worksheet Batch Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Links the untracked planning element to a requisition line and can be accessed from either the requisition or planning worksheet.\nFor more information on untracked planning surplus, see Untracked Planning Element."
     },
     {
       "no": 3,
       "name": "Worksheet Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Links the untracked planning element to a requisition line and can be accessed from either the requisition or planning worksheet.\nFor more information on untracked planning surplus, see Untracked Planning Element."
     },
     {
       "no": 4,
       "name": "Track Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
@@ -42,7 +42,7 @@
     {
       "no": 21,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the source of the untracked planning quantity. This field is used internally by the program.\nFor more information on untracked planning surplus, see Untracked Planning Element."
     },
     {
       "no": 23,
@@ -77,7 +77,7 @@
     {
       "no": 75,
       "name": "Warning Level",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

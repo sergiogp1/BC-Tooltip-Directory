@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Location Code",
-      "tooltip": ""
+      "tooltip": "Specifies the location code that you select in the Location Filter field in the Item Availability by BOM Level window."
     },
     {
       "no": 9,
@@ -47,12 +47,12 @@
     {
       "no": 10,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces that the text in the Type field is indented from the standard margin."
     },
     {
       "no": 11,
       "name": "Is Leaf",
-      "tooltip": ""
+      "tooltip": "Specifies if the item is a component of a BOM.\n\nThis field is used internally."
     },
     {
       "no": 13,
@@ -72,7 +72,7 @@
     {
       "no": 22,
       "name": "Rounding Precision",
-      "tooltip": ""
+      "tooltip": "Specifies the rounding precision of the item. The value is copied from the Rounding Precision field on the item card."
     },
     {
       "no": 30,

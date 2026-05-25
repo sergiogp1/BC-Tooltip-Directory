@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
@@ -42,7 +42,7 @@
     {
       "no": 14,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the component that is needed to produce one unit of the item that is specified on the production order.\nThe program automatically calculates this field on the basis of the Quantity per field and - if the Calculation Formula is filled in - the value(s) in the Length, Width, Weight, and/or Depth fields."
     },
     {
       "no": 15,
@@ -102,7 +102,7 @@
     {
       "no": 27,
       "name": "Act. Consumption (Qty)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the component that has already been consumed during the production of the quantity on the production order line that the component list belongs to. The program automatically calculates the quantity when you post a consumption journal."
     },
     {
       "no": 28,
@@ -137,17 +137,17 @@
     {
       "no": 35,
       "name": "Supplied-by Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order line number that supplies the component line on the planning line.\n\nThis field is used internally."
     },
     {
       "no": 36,
       "name": "Planning Level Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally. The field indicates which planning level the item on the production order line belongs to. The program automatically fills in this field when it calculates a plan or refreshes a multilevel production order."
     },
     {
       "no": 37,
       "name": "Item Low-Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies the component items level in the production BOM. This code is copied from the Low-Level Code field on the item card."
     },
     {
       "no": 40,
@@ -197,22 +197,22 @@
     {
       "no": 53,
       "name": "Due Time",
-      "tooltip": ""
+      "tooltip": "Copies the time from the Starting Time field on the production order line to which the component belongs. This is the time that the component is needed."
     },
     {
       "no": 60,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity if the quantity per item unit of measure is specified for the unit of measure code on the component's item card. Otherwise, the value in this field is automatically set to 1."
     },
     {
       "no": 61,
       "name": "Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Calculates the quantity in this field as the quantity in the Remaining Quantity field multiplied by the quantity in the Qty. per Unit of Measure field."
     },
     {
       "no": 62,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity field on the line expressed in base units of measure."
     },
     {
       "no": 63,
@@ -227,7 +227,7 @@
     {
       "no": 73,
       "name": "Expected Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the Expected Quantity field on the line expressed in base units of measure. This field is automatically updated."
     },
     {
       "no": 76,
@@ -237,7 +237,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5702,
@@ -247,17 +247,17 @@
     {
       "no": 5703,
       "name": "Original Item No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item that was originally on the component list before it was substituted."
     },
     {
       "no": 5704,
       "name": "Original Variant Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the variant that was originally on the component list before the item was substituted."
     },
     {
       "no": 5750,
       "name": "Pick Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of outstanding units in the warehouse."
     },
     {
       "no": 7300,
@@ -272,37 +272,37 @@
     {
       "no": 7302,
       "name": "Completely Picked",
-      "tooltip": ""
+      "tooltip": "Specifies that the production order component lines have been completely picked."
     },
     {
       "no": 7303,
       "name": "Pick Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are being picked for the component line in the base unit of measure. The program calculates the quantity from the Pick Qty. fields on warehouse pick lines for the component line."
     },
     {
       "no": 99000754,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the direct unit costs for the production order component."
     },
     {
       "no": 99000755,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost as a percent for the production order component."
     },
     {
       "no": 99000756,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the overhead rate of the production order component.\nYou can set up an overhead rate to cover expenses other than material or capacity costs, for example, transport expenses for the production order component.\nThe Overhead Rate is an absolute amount. Even if the item consists of more than one item, the amount does not depend on the number of items.\nThe Overhead Rate is added to the total amount of the component. The Amount does not depend on the number of components."
     },
     {
       "no": 99000757,
       "name": "Direct Cost Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the direct cost of the production order component."
     },
     {
       "no": 99000758,
       "name": "Overhead Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount of the overhead of the production order component."
     }
   ]
 }

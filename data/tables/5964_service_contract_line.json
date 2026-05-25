@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service contract line."
     },
     {
       "no": 4,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Service Item Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the service item group to which the service item on the line belongs.\nWhen you select a service item, this field is filled in automatically. If you have not selected a service item, you can enter a service item group code manually."
     },
     {
       "no": 9,
@@ -92,7 +92,7 @@
     {
       "no": 18,
       "name": "Invoiced to Date",
-      "tooltip": ""
+      "tooltip": "Contains the date of the last time the contract was invoiced."
     },
     {
       "no": 19,

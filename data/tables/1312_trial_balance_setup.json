@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use.\n\nManages information that is displayed in the Trial Balance part on the Small Business Role Center."
     },
     {
       "no": 2,

@@ -42,37 +42,37 @@
     {
       "no": 8,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies additional information for the union's name. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 9,
       "name": "Address 2",
-      "tooltip": ""
+      "tooltip": "Specifies another line of the union's address. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 10,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the union's address. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 11,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Specifies the union's fax number. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 12,
       "name": "E-Mail",
-      "tooltip": ""
+      "tooltip": "You can enter a maximum of 80 characters, both numbers and characters.\nTo the right of the field is an envelope button. If your program is integrated with an e-mail system, you can click this button to open a window in which you can create and send a message. If you have entered an address in the E-Mail field, that address is automatically filled in on the To field of the email."
     },
     {
       "no": 13,
       "name": "Home Page",
-      "tooltip": ""
+      "tooltip": "Specifies the home page address of the union. You can enter a maximum of 80 characters, both numbers and letters.\nIf your program is integrated with the Internet, you can click the button to the right of the field to access the union's home page."
     },
     {
       "no": 14,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region code for the union. To select a country/region codes in the Country/Region table, click the field, and choose one from the list.\nThe country/region code is used to format the union's address on printouts."
     }
   ]
 }

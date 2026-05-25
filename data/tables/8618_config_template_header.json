@@ -27,12 +27,12 @@
     {
       "no": 5,
       "name": "Table Caption",
-      "tooltip": ""
+      "tooltip": "Specifies the caption of the table on which the data template is based.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 6,
       "name": "Used In Hierarchy",
-      "tooltip": ""
+      "tooltip": "Specifies if the table is used in the hierarchy when you migrate data."
     },
     {
       "no": 7,

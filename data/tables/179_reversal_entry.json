@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
       "name": "Entry Type",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 3,
@@ -142,7 +142,7 @@
     {
       "no": 30,
       "name": "Reversal Type",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 31,

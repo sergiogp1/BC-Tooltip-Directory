@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Package Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the package that contains the data records that are being created."
     },
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of a table that has gone through configuration and created configuration records. Each configuration record that has not been successfully imported into the Microsoft Dynamics NAV database is listed.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 3,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the configuration record.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 4,

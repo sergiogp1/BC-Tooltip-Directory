@@ -67,7 +67,7 @@
     {
       "no": 16,
       "name": "Outstanding Quantity",
-      "tooltip": ""
+      "tooltip": "Defines how many registered items, resources, costs or general ledger account payments on the service lines remain to be shipped.\nThe program calculates the outstanding quantity by subtracting the value of the Quantity Shipped field from the value of the Quantity field.\nThe program updates this field automatically when you change the Quantity field or when the shipment of items, resources, costs or G/L account payments is posted.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 17,
@@ -107,7 +107,7 @@
     {
       "no": 29,
       "name": "Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount on the service line. This amount does not include VAT payment.\nThe program automatically calculates and updates the contents of this field by multiplying Unit Price and Quantity, and subtracting Line Discount Amount from the obtained product.\nYou can not change the contents of the field manually."
     },
     {
       "no": 30,
@@ -122,22 +122,22 @@
     {
       "no": 34,
       "name": "Gross Weight",
-      "tooltip": ""
+      "tooltip": "Contains the gross weight of one unit of the item on the line.\nThe program automatically retrieves the value from the Item table when you fill in the No. field.\nThe program then uses the value in the Gross Weight field to calculate the total gross weight of all the lines linked to the particular service header."
     },
     {
       "no": 35,
       "name": "Net Weight",
-      "tooltip": ""
+      "tooltip": "Contains the net weight of one unit of the item on the line.\nThe program automatically retrieves the net weight from the Item table when you fill in the No. field.\nThe program uses the value in the Net Weight field to calculate the total net weight of all the lines linked to the particular service header."
     },
     {
       "no": 36,
       "name": "Units per Parcel",
-      "tooltip": ""
+      "tooltip": "Specifies how many units one parcel of the item on the line contains.\nThe program retrieves the quantity from the Item table when you fill in the No. field.\nThe program uses the value in the Units per Parcel field to determine the total quantity of item units on all the lines linked to the particular service header."
     },
     {
       "no": 37,
       "name": "Unit Volume",
-      "tooltip": ""
+      "tooltip": "Contains the volume of one unit of the item on the line.\nThe program automatically retrieves the volume from the Item table when you fill in the No. field.\nThe program uses the value in the Unit Volume field to calculate the total volume of items on all the lines linked to the particular service header."
     },
     {
       "no": 38,
@@ -157,7 +157,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the customer price group.\nThe program automatically copies the price group code from the Customer Price Group field in the Service header.\nBased on the customer price group, the program determines whether the customer should pay a price different from the one specified in the Unit Price field on the Item card. Price conditions are described in the Sales Prices window for the particular customer price group. You can view the Sales Prices window by clicking Cust. Price Group, Sales Prices in the Customer Price Groups window."
     },
     {
       "no": 45,
@@ -182,17 +182,17 @@
     {
       "no": 57,
       "name": "Outstanding Amount",
-      "tooltip": ""
+      "tooltip": "Contains the amount that the customer should pay for the items, resource hours, or costs that still need to be shipped. The program automatically updates this field when you change the quantity or ship the items, resource hours, costs or G/L account payment on the service line.\nThe program calculates the amount as Amount Including VAT multiplied by Outstanding Quantity and divided by Quantity."
     },
     {
       "no": 58,
       "name": "Qty. Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Indicates how many units of the item, resource hours, cost, or general ledger account payments on the service line have been shipped but not yet invoiced or consumed.\nThe program updates the field when you post. It calculates the value in the field by extracting the Quantity Invoiced and Quantity Consumed fields values from the Quantity Shipped field value.\n\nYou cannot change the contents of this field. You cannot delete a line containing a quantity of items, costs, resource hours or G/L account payments that have been shipped but not invoiced or consumed."
     },
     {
       "no": 59,
       "name": "Shipped Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Indicates the amount on the service line that has been shipped to the customer but neither invoiced nor consumed yet.\nThe program updates the field when you post. The value in this field is calculated by multiplying Amount Including VAT by Qty. Shipped Not Invoiced and then dividing by Quantity.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 60,
@@ -212,7 +212,7 @@
     {
       "no": 64,
       "name": "Shipment Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the number the current service line has in the posted shipment list.\nThe program automatically copies the number from the posted shipment list as soon as you have posted the line.\nYou cannot change the contents in this field."
     },
     {
       "no": 65,
@@ -242,37 +242,37 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type is used when this service line is posted.\nThe program copies the value from the VAT Calculation Type field in the VAT Posting Setup window. The program retrieves the VAT calculation type that corresponds to the VAT Bus. Posting Group and VAT Prod. Posting Group fields on the service line.\nThe VAT calculation type determines how the VAT is calculated when this line is posted. There are three different VAT types: Normal VAT, Reverse Charge VAT, and Full VAT, and there is also one type for use with sales tax.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction type.\nFor each new line, the program automatically retrieves the transaction type code from the Transaction Type field in the Service Header table. The field is blank if no code was entered on the service header.\nYou can manually change the contents of the field on individual service lines.\nThis information is necessary for INTRASTAT reporting."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains the transport method code. The program automatically retrieves the code from the Transport Method field on the service header of the document. The field is blank if no transport method has been entered on the header.\nYou can change the contents of the field on the service lines."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the service line to which the line containing the extended text is attached.\nWhen you run the Insert Ext. Text function, Microsoft Dynamics NAV copies the Line No. field from the service line that contains the item, resource, cost, or standard text that is described by the extended text.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of the exit port through which you ship the service out of your country/region. The program retrieves the code automatically from the Exit Point field on the service header of the document.\nYou can not change the contents of the field on the service lines.\nThis information is used for INTRASTAT reporting."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area of the customer's address.\nFor each new line, the program automatically retrieves the code from the Area field on the header of the service document. The field is blank if no code has been entered on the header.\nYou can change the contents of the field on individual service lines. This information is necessary for INTRASTAT reporting"
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the code for the type of transaction specification used for the item on the current line.\nFor each new line, the program automatically retrieves the code from the Transaction Specification field in the Service Header table. The field is blank if no code has been entered on the header.\nYou can change the contents of the field on individual service lines.\nThis information is necessary for INSTRASTAT reporting."
     },
     {
       "no": 85,
@@ -292,7 +292,7 @@
     {
       "no": 88,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line.\nAfter you post a sales document, the VAT Clause Code that is associated with the document is copied to the service line."
     },
     {
       "no": 89,
@@ -312,12 +312,12 @@
     {
       "no": 92,
       "name": "Outstanding Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the amount (in LCY) that the customer should pay to the general ledger account, for the items, resource hours, or costs that still need to be shipped before the order is completed.\nThe program updates the field when you post. It calculates the contents of this field by using the value in the Outstanding Amount field and the relevant exchange rate.\nIf the Currency Code field on the service line is blank, outstanding amount (LCY) equals to the value in the Outstanding Amount field."
     },
     {
       "no": 93,
       "name": "Shipped Not Invoiced (LCY)",
-      "tooltip": ""
+      "tooltip": "Indicates the amount on the service line that has been shipped to the customer but not yet invoiced or consumed. The amount is expressed in LCY.\nThe program updates the field when you post. The value in this field is calculated by multiplying Amount Including VAT by Qty. Shipped Not Invoiced and dividing by Quantity. The value is then converted to LCY using the relevant exchange rate.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 95,
@@ -337,12 +337,12 @@
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Contains the cost per unit of an item, resource or cost on the service line. The unit for which the cost is displayed is specified in the Unit of Measure field on the line.\nThe program calculates the unit cost using the value in the Unit Cost (LCY) field and the exchange rate of the currency specified in the Currency Code field on the service line. If the Currency Code field is blank, the unit cost is expressed in LCY, and therefore, is equal to the value in the Unit Cost (LCY) field."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Specifies that the entry is related to a service charge levied on the specific customer and has been automatically created by the program. Conditions for service charges on invoices for different customers are set up in the Cust. Invoice Discounts window. The program uses the value in the Service Charge field in the Cust. Invoice Discounts window to create a corresponding line when you run the Calculate Invoice Discount function."
     },
     {
       "no": 103,
@@ -352,17 +352,17 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Specifies the difference between the calculated VAT amount and the VAT amount that you have entered manually, if you choose to manually alter a VAT amount in the VAT Amount field.\nThe VAT difference displayed here is distributed proportionally between service lines with the same VAT identifier."
     },
     {
       "no": 105,
       "name": "Inv. Disc. Amount to Invoice",
-      "tooltip": ""
+      "tooltip": "Specifies the discount amount calculated for the items, resource hours, general ledger account payments, or costs that should be invoiced as indicated in the Qty. to Invoice field.\nThe program calculates the discount only if there is a check mark in the Allow Invoice Disc. field on the service line. The invoice discount amount depends on the value selected in the Discount % field in the Cust. Invoice Discounts window. You cannot change the value in the Inv. Disc. Amount to Invoice field manually."
     },
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Contains an identifier used to group VAT Posting Setups with similar attributes.\nThe program copies the VAT identifier from the VAT Identifier field in the VAT Posting Setup table. The program retrieves the relevant VAT identifier based on the combination of the values in the VAT Bus. Posting Group field and the VAT Prod. Posting Group field for this particular service line."
     },
     {
       "no": 145,
@@ -372,22 +372,22 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 950,
       "name": "Time Sheet No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a time sheet. A number is assigned to each time sheet when it is created. You cannot edit the number."
     },
     {
       "no": 951,
       "name": "Time Sheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a time sheet line. A number is assigned to each line when it is created. You cannot edit the number."
     },
     {
       "no": 952,
       "name": "Time Sheet Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the time sheet was created."
     },
     {
       "no": 1019,
@@ -402,7 +402,7 @@
     {
       "no": 1031,
       "name": "Job Remaining Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity that remains to complete a job, expressed in the base unit of measure."
     },
     {
       "no": 1032,
@@ -432,12 +432,12 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of items, resource hours, or costs per unit of measure specified in the Unit of Measure field on the service line.\nThe program automatically fills in this field when you enter the item number, resource code, or cost code on the service line."
     },
     {
       "no": 5405,
       "name": "Planned",
-      "tooltip": ""
+      "tooltip": "Specifies if the service line is included in production calculations.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 5407,
@@ -467,27 +467,27 @@
     {
       "no": 5417,
       "name": "Qty. to Invoice (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many of the registered items, resources, costs, or general ledger account payments are still scheduled for invoicing. This quantity is expressed in the base units of measure. The program updates this field automatically when the Qty. to Invoice field on the service line changes.\nThe program calculates the value in this field by multiplying the value in the Qty. to Invoice field by the value in the Qty. per Unit of Measure field."
     },
     {
       "no": 5418,
       "name": "Qty. to Ship (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of items, expressed in the based unit of measure, that will be posted as shipped from the service order line.\nFor more information, see Qty. to Ship."
     },
     {
       "no": 5458,
       "name": "Qty. Shipped Not Invd. (Base)",
-      "tooltip": ""
+      "tooltip": "Indicates how many units of the item, resource hours, cost, or general ledger account payments on the service line have been shipped but not yet invoiced or consumed. The quantity is expressed in base units of measure specified in the Unit of Measure field.\nThe program updates the field when you post. It calculates the value of the field by extracting the Qty. Invoiced (Base) and Qty. Consumed (Base) fields values from the Qty. Shipped (Base) field value.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 5460,
       "name": "Qty. Shipped (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of registered items, resource hours, general ledger account payments, or costs already shipped to the customer. The quantity in the field is expressed in the base units of measure. The program updates this field when the quantity shipped value on the service line is changed.\nTo calculate the value in this field, the program multiplies the value of the Quantity Shipped field by the value in the Qty. per Unit of Measure field."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of registered items, resource hours, payments to general ledger account, or costs, already invoiced. The quantity in the field is expressed in the base units of measure. The program updates this field when the quantity invoiced on the service line is changed.\nTo calculate the value in this field, the program multiplies the value of the Quantity Invoiced field by the value in the Qty. per Unit of Measure field."
     },
     {
       "no": 5495,
@@ -497,7 +497,7 @@
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains the name of the responsibility center for the item on the service line. The program copies the information from the Responsibility Center field in the Service Header table. If you change the responsibility center in the service header, you should update information on the corresponding service lines manually."
     },
     {
       "no": 5702,
@@ -507,7 +507,7 @@
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the item category that the item on the line belongs to. The program fills in this field if the type of the service line is Item.\nThe program copies the item category code from the Item Category Code field in the Item Card window when you fill in the No. field on the service line.\nItem categories are set up in the Item Category window, and include default values for posting groups, costing methods, and tax groups. Item categories are used when new items are created."
     },
     {
       "no": 5710,
@@ -537,27 +537,27 @@
     {
       "no": 5750,
       "name": "Whse. Outstanding Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units on the service line remain to be handled in the warehouse. The units are expressed in the base unit of measure."
     },
     {
       "no": 5752,
       "name": "Completely Shipped",
-      "tooltip": ""
+      "tooltip": "Specifies that the current service line has been shipped completely.\nThe program inserts a check mark as soon as the value in the Outstanding Quantity field on the line becomes equal to zero.\nYou cannot change the contents of the field manually."
     },
     {
       "no": 5790,
       "name": "Requested Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the item was requested for delivery in the service order."
     },
     {
       "no": 5791,
       "name": "Promised Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that you promised to deliver the item in the service order."
     },
     {
       "no": 5792,
       "name": "Shipping Time",
-      "tooltip": ""
+      "tooltip": "Specifies the time that is required from when items on service lines are shipped from the warehouse to when they are delivered to the customer's address.\nThe value is copied from the Shipping Time field on the service order, which in turn is copied from the customer card."
     },
     {
       "no": 5794,
@@ -567,12 +567,12 @@
     {
       "no": 5796,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that represents a shipping agent.\nThe code is copied from the Shipping Agent Service Code field on the service order when you enter an item on the service line. You can change the code if necessary."
     },
     {
       "no": 5797,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that represents a shipping agent service.\nThis field is copied from the Shipping Agent Service Code field on the service order, which in turn is copied from the Shipping Agent Service Code field on the customer card, or it is entered manually.\nIf you enter a code in the Planned Delivery Date field, then the Shipping Time field in theShipping Agent Services table is copied to the Shipping Time field on the service line."
     },
     {
       "no": 5811,
@@ -617,7 +617,7 @@
     {
       "no": 5909,
       "name": "Order Date",
-      "tooltip": ""
+      "tooltip": "Contains the date when the order was created.\nThe program fills in this field automatically. You can not change the order date manually."
     },
     {
       "no": 5910,
@@ -642,17 +642,17 @@
     {
       "no": 5919,
       "name": "Qty. to Consume (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of the registered items, resources, costs or general ledger account payments that should be posted as consumed. The quantity is expressed in the base units of measure. The program updates this field automatically when the Qty. to Consume field on the service line changes.\nThe program calculates the value in this field by multiplying the value in the Qty. to Consume field by the value in the Qty. per Unit of Measure field."
     },
     {
       "no": 5920,
       "name": "Qty. Consumed (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units of items, resource hours, costs, or general ledger account payments registered on the line that have already been posted as consumed. The quantity is expressed in the base units of measure. The program updates this field when the quantity consumed value on the service line is changed.\nTo calculate the value in this field, the program multiplies the value of the Quantity Consumed field by the value in the Qty. per Unit of Measure field.\nYou cannot change the value in the field manually."
     },
     {
       "no": 5928,
       "name": "Service Price Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the Service Price Group of the service item that corresponds to the current service line.\nFor each new line, the program automatically copies the code from the Service Price Group Code field on the corresponding service item line."
     },
     {
       "no": 5929,
@@ -702,7 +702,7 @@
     {
       "no": 5965,
       "name": "Component Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the number of the line in the Service Item Component List window. This line contains the service item component that has been replaced by the item on the service line.\nWhen you select the replaced component in the Service Item Component List window, the program copies the value of the Line No. field from the Service Item Component List window to the Component Line No. field on the service line."
     },
     {
       "no": 5966,
@@ -717,7 +717,7 @@
     {
       "no": 5968,
       "name": "Replaced Item No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service item component that has been replaced by the item on the service line.\nThe program copies the number from the No. field when you select replaced component in the Service Item Component List window."
     },
     {
       "no": 5969,
@@ -727,12 +727,12 @@
     {
       "no": 5970,
       "name": "Replaced Item Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the service item component that has been replaced by the item on the service line. The options are Service Item or Item."
     },
     {
       "no": 5994,
       "name": "Price Adjmt. Status",
-      "tooltip": ""
+      "tooltip": "Indicates whether the price on the service line was adjusted automatically or manually. The options are: Adjusted or Modified. Adjusted indicates that the service price adjustment on the line was performed automatically. Modified means that you changed the service price adjustment amounts manually.\nThe program fills in the field after you run the Adjust Service Price function.\nYou can not manually change the contents of this field."
     },
     {
       "no": 5997,
@@ -742,7 +742,7 @@
     {
       "no": 5999,
       "name": "Copy Components From",
-      "tooltip": ""
+      "tooltip": "Specifies an option indicating where the components should be copied from to the component list when you replace a service item.\nYou can select among the following options:\n\n\nField\n\n\nDescription\n\n\nItem BOM\n\nComponents are copied from the Item BOM.\n\n\nOld Service Item\n\nComponents are copied from the old service item.\n\n\nOld Serv.Item w/o Serial No.\n\nComponents are copied from the old service item, but the serial number is not copied.\n\n\nNone\n\nThe component list for the new service item is not created."
     },
     {
       "no": 6608,
@@ -757,32 +757,32 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Indicates whether a discount on the service costs should be calculated.\nThe program retrieves this value from the Allow Line Disc. field on the service header. If this field contains a checkmark, the line discount will be calculated for the current service line.\nYou can remove a check mark from the field, which will mean that no discount will be applicable to the current line."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the customer discount group of the bill-to customer.\nThe program copies the code automatically from the Customer Disc. Group field on the service header of the document.\nYou can also change the contents of this field manually."
     },
     {
       "no": 7300,
       "name": "Qty. Picked",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units of the item that have been registered as picked with regard to the service order."
     },
     {
       "no": 7301,
       "name": "Qty. Picked (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many items have already been moved or picked for the service item line. The units are expressed in the base unit of measure."
     },
     {
       "no": 7302,
       "name": "Completely Picked",
-      "tooltip": ""
+      "tooltip": "Specifies whether the service line items have been completely picked from the warehouse.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 7303,
       "name": "Pick Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item on the service order are currently on warehouse pick lines. The units are expressed in the base unit of measure."
     }
   ]
 }

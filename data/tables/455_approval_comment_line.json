@@ -12,17 +12,17 @@
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\nYou cannot change the contents of this field."
     },
     {
       "no": 3,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the comment applies to.\nThe program copies the document type from the purchase header."
     },
     {
       "no": 4,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number of the quote, order, invoice, credit memo, return order, or blanket order that the comment applies to.\nThe program copies the document number from the sales or purchase header."
     },
     {
       "no": 5,

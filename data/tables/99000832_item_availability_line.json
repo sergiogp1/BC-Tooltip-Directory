@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Table No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -22,7 +22,7 @@
     {
       "no": 5,
       "name": "QuerySource",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

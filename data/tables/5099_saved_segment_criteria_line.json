@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Segment Criteria Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the saved segment criteria to which the action belongs."
     },
     {
       "no": 2,
@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Action",
-      "tooltip": ""
+      "tooltip": "Specifies the action the line shows. There are three options:\nAdd Contacts\n\nRemove Contacts (Reduce)\n\nRemove Contacts (Refine)"
     },
     {
       "no": 5,
       "name": "Table No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the table on which the action is based."
     },
     {
       "no": 6,
@@ -37,42 +37,42 @@
     {
       "no": 7,
       "name": "View",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8,
       "name": "Allow Existing Contacts",
-      "tooltip": ""
+      "tooltip": "Specifies that you have included existing contacts in the segment."
     },
     {
       "no": 9,
       "name": "Expand Contact",
-      "tooltip": ""
+      "tooltip": "Specifies that you have expanded contacts when segmenting."
     },
     {
       "no": 10,
       "name": "Allow Company with Persons",
-      "tooltip": ""
+      "tooltip": "Specifies that you have allowed companies with recorded contact persons when performing the segmentation action."
     },
     {
       "no": 11,
       "name": "Ignore Exclusion",
-      "tooltip": ""
+      "tooltip": "Specifies that you have included contacts in the segment that have the Exclude from Segment field selected on the contact card."
     },
     {
       "no": 12,
       "name": "Entire Companies",
-      "tooltip": ""
+      "tooltip": "Specifies that you have included both companies and persons when segmenting."
     },
     {
       "no": 13,
       "name": "Table Caption",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table on which the segmentation action was based."
     },
     {
       "no": 14,
       "name": "No. of Filters",
-      "tooltip": ""
+      "tooltip": "Specifies the number of filters that you have applied when performing the action."
     }
   ]
 }

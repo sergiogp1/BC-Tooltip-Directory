@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional description of the filed service contract or contract quote.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 5,
@@ -207,7 +207,7 @@
     {
       "no": 46,
       "name": "Next Invoice Period",
-      "tooltip": ""
+      "tooltip": "Contains the next invoice period for the filed service contract or contract quote: the first date of the period and the ending date.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 47,
@@ -217,7 +217,7 @@
     {
       "no": 48,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the language code to be used on the filed service contract for the customer in the bill-to field. To see the language codes in the Language table, choose the field.\nThe language code is copied from the information that is provided on the customer card."
     },
     {
       "no": 49,
@@ -272,7 +272,7 @@
     {
       "no": 63,
       "name": "Quote Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the filed service contract quote. There are eight options: Quote 1, Quote 2, Quote 3, Quote 4, Quote 5, Quote 6, Quote 7 and Quote 8.\nThe program copies this information from the Service Contract Header table when you file the contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 64,
@@ -302,7 +302,7 @@
     {
       "no": 69,
       "name": "Accept Before",
-      "tooltip": ""
+      "tooltip": "Contains the date before which the customer must accept this filed contract quote.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 71,
@@ -312,7 +312,7 @@
     {
       "no": 74,
       "name": "Template No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the template that you designate to be used to create the filed service contract."
     },
     {
       "no": 75,
@@ -337,12 +337,12 @@
     {
       "no": 82,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the contract number to the filed service contract or contract quote.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 83,
       "name": "Probability",
-      "tooltip": ""
+      "tooltip": "Contains the probability of the customer approving the filed service contract quote.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 84,
@@ -362,7 +362,7 @@
     {
       "no": 87,
       "name": "Fax No.",
-      "tooltip": ""
+      "tooltip": "Contains the fax number of the customer in the filed service contract or contract quote.\nThe program copies this information from the Service Contract Header table when you file the contract or contract quote.\nYou cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 88,
@@ -372,17 +372,17 @@
     {
       "no": 89,
       "name": "Bill-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county name in the customer's billing address on the filed service contract.\nThe county name is copied from the information that is provided on the customer card."
     },
     {
       "no": 90,
       "name": "County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the customer's address on the filed service contract.\nThe county name is copied from the information that is provided on the customer card."
     },
     {
       "no": 91,
       "name": "Ship-to County",
-      "tooltip": ""
+      "tooltip": "Specifies the county of the customer's shipping address on the filed service contract.\nThe county name is copied from the information that is provided on the customer card."
     },
     {
       "no": 92,
@@ -392,37 +392,37 @@
     {
       "no": 93,
       "name": "Bill-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region code of the customer's billing address on the filed service contract."
     },
     {
       "no": 94,
       "name": "Ship-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country/region of the customer's shipping address on the filed service contract."
     },
     {
       "no": 95,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional part of the customer's name in the filed service contract.\nThe additional name information is copied from the information that is provided on the customer card."
     },
     {
       "no": 96,
       "name": "Bill-to Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional name of the customer for the filed service contract. The customer is the person to whom you will send the service invoice.\nThe additional name information is copied from the information that is provided on the customer card."
     },
     {
       "no": 97,
       "name": "Ship-to Name 2",
-      "tooltip": ""
+      "tooltip": "Specifies an additional name of the company at the address to which the filed service contract items are to be shipped.\nThe additional name information is copied from the information that is provided on the customer card."
     },
     {
       "no": 98,
       "name": "Next Invoice Period Start",
-      "tooltip": ""
+      "tooltip": "Specifies the starting date of the next invoice period for the filed service contract."
     },
     {
       "no": 99,
       "name": "Next Invoice Period End",
-      "tooltip": ""
+      "tooltip": "Specifies the ending date of the next invoice period for the filed service contract."
     },
     {
       "no": 100,
@@ -452,12 +452,12 @@
     {
       "no": 105,
       "name": "Contract Type Relation",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the related active service contract. The field can have two values: Quote or Contract.\n\n\nField\n\n\nDescription\n\n\nQuote\n\nThe value is selected if the filed contract quote was not converted into a contract.\n\n\nContract\n\nYou select the value if the filed contract quote was made into a contract.\n\n\nThis field is used internally."
     },
     {
       "no": 106,
       "name": "Contract No. Relation",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service contract or service contract quote that is currently active and is related to the give entry.\nThis field is for internal purposes only."
     },
     {
       "no": 109,
@@ -492,7 +492,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1200,

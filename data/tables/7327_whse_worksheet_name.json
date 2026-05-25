@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Worksheet Template Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the worksheet template to which the worksheet name is associated."
     },
     {
       "no": 2,
@@ -27,7 +27,7 @@
     {
       "no": 21,
       "name": "Template Type",
-      "tooltip": ""
+      "tooltip": "Specifies the purpose of the warehouse worksheet template, such as put-away, pick, or movement."
     }
   ]
 }

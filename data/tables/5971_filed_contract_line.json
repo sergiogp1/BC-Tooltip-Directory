@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Contract Status",
-      "tooltip": ""
+      "tooltip": "Contains the status of the contract when it was filed. There are three options:\n\nBlank - there is no contract.\n\n\nSigned - the contract was signed.\n\n\nCancelled - the contract was cancelled.\n\n\nThis field is used for internal purposes only."
     },
     {
       "no": 5,
@@ -47,12 +47,12 @@
     {
       "no": 9,
       "name": "Customer No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the customer in the filed service contract.\nThe program copies the number from the Service Contract Line table, and is not editable."
     },
     {
       "no": 10,
       "name": "Ship-to Code",
-      "tooltip": ""
+      "tooltip": "Contains the ship-to code for the customer in the filed service contract. This code is used when the customer has several ship-to addresses.\nIt is copied from the Service Contract Line table, and is not editable."
     },
     {
       "no": 11,
@@ -127,12 +127,12 @@
     {
       "no": 28,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Contains the code that specifies the variant of a service item on the service item line.\nThe program copies this information from the Service Item table when you file the contract or contract quote. You cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 29,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Contains the starting date of the service contract. The starting date is the date on which the service contract becomes valid, or when this contract line was included in the signed contract.\nThe program copies this information from the Service Item table when you file the contract or contract quote. You cannot change the contents of this field because the service contract or contract quote has already been filed."
     },
     {
       "no": 30,
@@ -142,7 +142,7 @@
     {
       "no": 31,
       "name": "Credited",
-      "tooltip": ""
+      "tooltip": "Specifies if the service contract line has been credited."
     },
     {
       "no": 32,

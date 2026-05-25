@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 7,
@@ -52,12 +52,12 @@
     {
       "no": 10,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
       "name": "Source Posting Group",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 13,
@@ -67,7 +67,7 @@
     {
       "no": 15,
       "name": "Invoiced Quantity",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 16,
@@ -97,7 +97,7 @@
     {
       "no": 26,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that has been entered on the item journal template.\nThe source code is automatically inserted on all journals that are created under the journal template."
     },
     {
       "no": 29,
@@ -107,7 +107,7 @@
     {
       "no": 32,
       "name": "Item Shpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
@@ -127,7 +127,7 @@
     {
       "no": 39,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the table number of the table that is the source of the journal line."
     },
     {
       "no": 40,
@@ -162,7 +162,7 @@
     {
       "no": 46,
       "name": "Drop Shipment",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 47,
@@ -207,12 +207,12 @@
     {
       "no": 55,
       "name": "Last Item Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item ledger entry that was used to calculate the quantity on hand.\nThe field is used when you use the feature Physical Inventory to insert items in the journal."
     },
     {
       "no": 56,
       "name": "Phys. Inventory",
-      "tooltip": ""
+      "tooltip": "Specifies whether the journal line was created from the Phys. Inventory Journal.\nA check mark in the field indicates that the line was created from this journal line."
     },
     {
       "no": 57,
@@ -227,7 +227,7 @@
     {
       "no": 59,
       "name": "Entry/Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of either the port of entry at which the items passed into your country/region or the port of exit through which you shipped the items out of your country/region.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the entry/exit points that you can choose, choose the field."
     },
     {
       "no": 60,
@@ -242,42 +242,42 @@
     {
       "no": 63,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the code for an area of the customer or vendor with which you are trading the items on this journal line.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal.\nTo see the area codes that you can choose in the Area table, choose the field."
     },
     {
       "no": 64,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the transaction specification that should be used in this journal line. To see the transaction specification codes that have been set up in the Transaction Specification table choose the field.\nThe code will be used in INTRASTAT reporting."
     },
     {
       "no": 65,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, choose the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will also be used on the posted line."
     },
     {
       "no": 68,
       "name": "Reserved Quantity",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 72,
       "name": "Unit Cost (ACY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 73,
       "name": "Source Currency Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 79,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the transfer of the document type from documents being posted, such as purchase orders and sales orders, to the posted entries."
     },
     {
       "no": 80,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the transfer of the document line number from documents being posted, such as purchase orders and sales orders, to the posted entries"
     },
     {
       "no": 86,
@@ -287,7 +287,7 @@
     {
       "no": 90,
       "name": "Order Type",
-      "tooltip": ""
+      "tooltip": "Shows which type of order that the entry was created in. You can select from the following options:\n\n<Blank> when the entry comes from any other transaction than the following options\n\nProduction\n\nTransfer\n\nService\n\nAssembly"
     },
     {
       "no": 91,
@@ -307,37 +307,37 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 481,
       "name": "New Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Contains a reference to a combination of new dimension values.\nThe actual values are stored in the Dimension Set Entry table."
     },
     {
       "no": 904,
       "name": "Assemble to Order",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nSpecifies if the item journal line is used to post an assemble-to-order sale.\nThe item ledger entry that results from posting an assemble-to-order sale is fixed applied to the related item ledger entry for the assembly output. Accordingly, the cost of an assemble-to-order sale is derived from the assembly order that it was linked to."
     },
     {
       "no": 1000,
       "name": "Job No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the job that is associated with the entry."
     },
     {
       "no": 1001,
       "name": "Job Task No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the job task that is associated with the entry."
     },
     {
       "no": 1002,
       "name": "Job Purchase",
-      "tooltip": ""
+      "tooltip": "Specifies if the entry relates to a purchase for a job."
     },
     {
       "no": 1030,
       "name": "Job Contract Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the job planning line that the item journal line is linked to."
     },
     {
       "no": 5402,
@@ -352,7 +352,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the code if you have filled in the Sales Unit of Measure field on the item card and entered a quantity for the current item in the Qty. of Base Unit of Measure per Unit field."
     },
     {
       "no": 5406,
@@ -367,7 +367,7 @@
     {
       "no": 5408,
       "name": "Derived from Blanket Order",
-      "tooltip": ""
+      "tooltip": "Specifies if the line is related to a blanket sales order. When you post the journal, the program transfers the information to the Item Ledger Entry table.\nThe program fills in this field automatically, and it is not editable."
     },
     {
       "no": 5410,
@@ -382,12 +382,12 @@
     {
       "no": 5413,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Quantity field on the line expressed in base units of measure."
     },
     {
       "no": 5415,
       "name": "Invoiced Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated. The field shows the Invoiced Quantity field on the line expressed in base units of measure."
     },
     {
       "no": 5468,
@@ -397,7 +397,7 @@
     {
       "no": 5560,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Manages line indentation in the Description field."
     },
     {
       "no": 5561,
@@ -407,37 +407,37 @@
     {
       "no": 5562,
       "name": "Changed by User",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Specifies whether a leave message should be shown when you leave the Production Journal window."
     },
     {
       "no": 5701,
       "name": "Originally Ordered No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item that was originally ordered."
     },
     {
       "no": 5702,
       "name": "Originally Ordered Var. Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the variant that was originally ordered."
     },
     {
       "no": 5703,
       "name": "Out-of-Stock Substitution",
-      "tooltip": ""
+      "tooltip": "Specifies that this the originally ordered item was out of stock.The program uses this field internally."
     },
     {
       "no": 5704,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item on this line."
     },
     {
       "no": 5705,
       "name": "Nonstock",
-      "tooltip": ""
+      "tooltip": "Specifies that the item on the line is a nonstock item (an item not normally kept in inventory).\nThe program copies the contents of the nonstock item field from the Nonstock field in the Sales Line table.\nYou cannot make changes to the contents of the this because the shipment has already been posted."
     },
     {
       "no": 5706,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Contains the purchasing code for the item, which indicates the actions that were taken to purchase the item.\nThe program copies the purchasing code from the Purchasing Code field in the Sales Line table.\nYou cannot make changes to the contents of the this field because the shipment has already been posted."
     },
     {
       "no": 5725,
@@ -462,22 +462,22 @@
     {
       "no": 5791,
       "name": "Planned Delivery Date",
-      "tooltip": ""
+      "tooltip": "Specifies the planned date that the shipment will be delivered at the customer's address.\nIf the customer requests a delivery date, then the following occurs:\n\nIf the items are available for delivery, then the planned delivery date is the same as the requested delivery date.\n\n\nIf the items are not available for delivery, then the date that the items are available for delivery is calculated and entered in the Planned Delivery Date field.\n\n\nIf the customer does not request a delivery date, then the date that the items are available for delivery is calculated and entered in the Planned Delivery Date field."
     },
     {
       "no": 5793,
       "name": "Order Date",
-      "tooltip": ""
+      "tooltip": "Specifies the order date, which is copied from the same field on the header when you create an order line and either enter a date or use the work date. You can change the order date on each line as necessary.\nIf you enter a requested receipt date on the order line, then the field is calculcated as:\nRequested Receipt Date - Lead Time Calculation = Order Date\nThe order date then indicates the date on which you should order the item so that you receive it on time."
     },
     {
       "no": 5800,
       "name": "Value Entry Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of value described in this entry.\nA value entry can be one of the following types:\n\n\nField\n\n\nDescription\n\n\nDirect Cost\n\nCost that can be traced directly to the cost object.\n\n\nRevaluation\n\nA depreciation or appreciation of the current inventory value.\n\n\nRounding\n\nResiduals caused by the valuation of inventory decrease.\n\n\nIndirect Cost\n\nCost that is allocated without direct traceability to the cost object.\n\n\nVariance\n\nThe difference between actual and standard costs that is only posted for items using the standard costing method.\n\n\nThe program automatically fills in this field."
     },
     {
       "no": 5801,
       "name": "Item Charge No.",
-      "tooltip": ""
+      "tooltip": "Contains the item charge number of this journal line if you have entered an item charge on the line.\nThe program fills in the field automatically, and you can see the item charge number in the Value Entries window."
     },
     {
       "no": 5802,
@@ -492,17 +492,17 @@
     {
       "no": 5804,
       "name": "Variance Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of variance described in this entry.\nIf the type in the Entry Type field is Variance, the program fills in this field with the right type of variance, based on the document that created the value entry.\nFor example, if the variance is caused by a difference between the standard and actual cost of purchase, the program sets the type to Purchase.\nThe variance can be one of the following types:\n\n<Blank>\n\n\nPurchase\n\n\nMaterial\n\n\nCapacity\n\n\nSubcontracted\n\n\nCapacity Overhead\n\n\nManufacturing Overhead"
     },
     {
       "no": 5805,
       "name": "Inventory Value Per",
-      "tooltip": ""
+      "tooltip": "Specifies the calculation type used to sum up inventory value for this line.\nThe program uses the field internally and copies it from the Calculate Inventory Value batch job."
     },
     {
       "no": 5806,
       "name": "Partial Revaluation",
-      "tooltip": ""
+      "tooltip": "Specifies if only part of the original inbound entry will be revalued. This value is set automatically by the program.\nThe program uses the field internally."
     },
     {
       "no": 5807,
@@ -512,7 +512,7 @@
     {
       "no": 5808,
       "name": "Invoice No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5809,
@@ -527,37 +527,37 @@
     {
       "no": 5811,
       "name": "Applied Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the revaluation of an average costed item.\nIt contains the total revaluation amount that must be applied to the value entries in order to reach the average cost."
     },
     {
       "no": 5812,
       "name": "Update Standard Cost",
-      "tooltip": ""
+      "tooltip": "Specifies if the standard cost on the item will be updated when the revaluation is posted."
     },
     {
       "no": 5813,
       "name": "Amount (ACY)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of the entry in the additional reporting currency."
     },
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies if you want the journal line to be posted as a corrective entry.\nThis field is only used when the journal line acts as a revaluation journal line. For more information, see the Revaluing the Posted Items section in Correction of Incorrect Posted Documents."
     },
     {
       "no": 5818,
       "name": "Adjustment",
-      "tooltip": ""
+      "tooltip": "Specifies if the item journal is used to adjust costs through the Adjust Cost - Item Entries batch job."
     },
     {
       "no": 5819,
       "name": "Applies-to Value Entry",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5820,
       "name": "Invoice-to Source No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 5830,
@@ -577,17 +577,17 @@
     {
       "no": 5859,
       "name": "Qty. per Cap. Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the value when you enter the capacity (Work Center/Machine Center) in the No. field if you have filled in the Unit of Measure Code field on the work center card and entered a quantity for the current operation in the Qty. per Unit of Measure field."
     },
     {
       "no": 5887,
       "name": "Unit Cost Calculation",
-      "tooltip": ""
+      "tooltip": "Contains the value that will be used for the calculation of capacity.\nIf the capacity is calculated in units, the formula is Quantity = Output Quantity + Scrap Quantity.\nIf the capacity is calculated in time, the formula is Quantity = (Setup Time +) Run Time.\nThe setup time is only included if you have checkmarked the Cost Incl. Setup field in the manufacturing setup."
     },
     {
       "no": 5888,
       "name": "Subcontracting",
-      "tooltip": ""
+      "tooltip": "Specifies if the purchase order entry on this journal line is from a subcontractor.\nThe program uses this field internally."
     },
     {
       "no": 6500,
@@ -607,22 +607,22 @@
     {
       "no": 6503,
       "name": "New Serial No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new serial number that replaces the serial number in the Serial No. field when you post the item reclassification journal."
     },
     {
       "no": 6504,
       "name": "New Lot No.",
-      "tooltip": ""
+      "tooltip": "Specifies a new lot number that replaces the lot number in the Lot No. field when you post the item reclassification journal."
     },
     {
       "no": 6505,
       "name": "New Item Expiration Date",
-      "tooltip": ""
+      "tooltip": "Specifies how to transfer the new expiration date from item tracking lines in the item reclassification journal to new item ledger entries."
     },
     {
       "no": 6506,
       "name": "Item Expiration Date",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use.\n\nThe expiration date is the last date that the item on the line can be used. An expiration date is mainly used for perishable items, such as produce, that are not useable after a certain date."
     },
     {
       "no": 6515,
@@ -637,7 +637,7 @@
     {
       "no": 6600,
       "name": "Return Reason Code",
-      "tooltip": ""
+      "tooltip": "Contains a code that explains why the item is returned."
     },
     {
       "no": 7000,
@@ -647,7 +647,7 @@
     {
       "no": 7315,
       "name": "Warehouse Adjustment",
-      "tooltip": ""
+      "tooltip": "Specifies if the item journal line is used to synchronize with warehouse entries through the Calculate Whse. Adjustment batch job."
     },
     {
       "no": 7316,
@@ -657,67 +657,67 @@
     {
       "no": 7380,
       "name": "Phys Invt Counting Period Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the counting period that indicates how often you want to count the item or stockkeeping unit in a physical inventory."
     },
     {
       "no": 7381,
       "name": "Phys Invt Counting Period Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the physical inventory counting period used on the line is assigned to the stockkeeping unit (SKU) or to the item."
     },
     {
       "no": 99000755,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the items indirect cost as an absolute amount. The amount is added to the items unit cost to reflect indirect cost or overhead, such as freight and warehouse handling that are associated with the purchase of the item.\n\nAdditional Information\n\nThe value of the Overhead Rate field on the item card is copied to item journal lines and is used to calculate the value in the Unit Cost field on the item journal line.\nNote\n\n\nThe Overhead Rate field is related to the Indirect Cost % field where it defines the overhead as a percentage of the value in the Unit Amount field on the item journal line."
     },
     {
       "no": 99000756,
       "name": "Single-Level Material Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the total material cost of all the items at the first level of the item's BOM."
     },
     {
       "no": 99000757,
       "name": "Single-Level Capacity Cost",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99000758,
       "name": "Single-Level Subcontrd. Cost",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99000759,
       "name": "Single-Level Cap. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99000760,
       "name": "Single-Level Mfg. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 99000761,
       "name": "Rolled-up Material Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the total material cost of all the items at all levels of the items BOM, added to the material cost of the item itself."
     },
     {
       "no": 99000762,
       "name": "Rolled-up Capacity Cost",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000763,
       "name": "Rolled-up Subcontracted Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the current subcontracted cost of the item that results from subcontracting costs of its underlying components.\nThe value in this field is copied from the Rolled-up Subcontracted Cost field on the item card."
     },
     {
       "no": 99000764,
       "name": "Rolled-up Mfg. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the current manufacturing overhead cost of the item that results from manufacturing costs of its underlying components.\nThe value in this field is copied from the Rolled-up Mfg. Ovhd Cost field on the item card."
     },
     {
       "no": 99000765,
       "name": "Rolled-up Cap. Overhead Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the current capacity overhead cost of the item that results from capacity costs of its underlying components.\nThe value in this field is copied from the Rolled-up Capacity Cost field on the item card."
     },
     {
       "no": 99000766,

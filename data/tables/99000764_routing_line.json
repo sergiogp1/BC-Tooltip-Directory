@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Shows the routing number.\nThe program automatically retrieves the routing number from the No. field on the routing header.\nThe program uses the routing number to link the routing header with the routing lines."
     },
     {
       "no": 2,
       "name": "Version Code",
-      "tooltip": ""
+      "tooltip": "Shows the version code.\nThe program automatically retrieves the version code from the Version Code field on the Routing table. If the actual routing line is not a part of a routing version, then this field is empty.\nThe program uses the version code to link the Routing Version table with the routing lines."
     },
     {
       "no": 4,
@@ -42,12 +42,12 @@
     {
       "no": 9,
       "name": "Work Center No.",
-      "tooltip": ""
+      "tooltip": "Specifies the work center number.\nIf the capacity is a work center, the program copies the value from the No. field of this routing line. If it is a machine center, the program copies the value of the Work Center No. field on the machine center card."
     },
     {
       "no": 10,
       "name": "Work Center Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the work center group code.\nThe program copies the value from the Work Center Group Code on the work center card."
     },
     {
       "no": 11,
@@ -152,32 +152,32 @@
     {
       "no": 41,
       "name": "Recalculate",
-      "tooltip": ""
+      "tooltip": "Specifies that the routing line has to be recalculated.\nIf you do not recalculate, the changing of this routing line has no effect on the planning."
     },
     {
       "no": 45,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether any comments have been entered for this routing line.\nTo view a comment or create a new one, click the Actions icon, point to Operation, and then click Comments. A window appears that displays existing comments and allow you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 50,
       "name": "Sequence No. (Forward)",
-      "tooltip": ""
+      "tooltip": "Specifies the sequence number. Here the sequence of operations is taken into account in the forward scheduling.\nThe program fills in this field automatically."
     },
     {
       "no": 51,
       "name": "Sequence No. (Backward)",
-      "tooltip": ""
+      "tooltip": "Specifies the sequence number. Here the sequence of operations is taken into account in the backward scheduling.\nThe program fills in this field automatically."
     },
     {
       "no": 52,
       "name": "Fixed Scrap Qty. (Accum.)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated fixed scrap quantity that was produced with this routing.\nExample\nThe following example shows how the accumulated fixed scrap quantity is calculated.\nFixed scrap quantity of operation 1 is 3 pieces.\nFixed scrap quantity of operation 2 is 1 piece.\nNo other operation have fixed scrap.\nThe accumulated fixed scrap quantity is 4."
     },
     {
       "no": 53,
       "name": "Scrap Factor % (Accumulated)",
-      "tooltip": ""
+      "tooltip": "Specifies the accumulated scrap factor for this routing.\nThe accumulated scrap factor is calculated on the basis of the individual tasks."
     }
   ]
 }

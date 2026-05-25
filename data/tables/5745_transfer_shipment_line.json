@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program assigns sequentially to each line in a transfer order."
     },
     {
       "no": 3,
@@ -47,22 +47,22 @@
     {
       "no": 10,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the general product posting group of the item on this line.\nThe program automatically copies the contents of this field from the Gen. Prod. field on the transfer order."
     },
     {
       "no": 11,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the inventory posting group of the item on this line.\nThe program automatically copies the contents of this field from the Inventory Posting Group field on the transfer order."
     },
     {
       "no": 12,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity on the line expressed in base units of measure. The program fills in this field automatically."
     },
     {
       "no": 14,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the quantity per unit of measure.\nThe program automatically copies the contents of this field from the transfer order."
     },
     {
       "no": 15,
@@ -72,17 +72,17 @@
     {
       "no": 16,
       "name": "Gross Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the gross weight of the item.\nYou may need the gross weight to complete customs documents, waybills, and other forms."
     },
     {
       "no": 17,
       "name": "Net Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the net weight of the item.\nYou may need the net weight to complete customs documents, waybills, and other forms."
     },
     {
       "no": 18,
       "name": "Unit Volume",
-      "tooltip": ""
+      "tooltip": "Specifies the volume of one unit of the item.\nYou may have to know the item's unit volume to complete customs documents, waybills, and other forms."
     },
     {
       "no": 21,
@@ -92,7 +92,7 @@
     {
       "no": 22,
       "name": "Units per Parcel",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units per parcel of the item.\nYou may need the number of units per parcel when you fill out customs documents, waybills, and so on."
     },
     {
       "no": 23,
@@ -102,7 +102,7 @@
     {
       "no": 24,
       "name": "Transfer Order No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the transfer order on which the transfer shipment was based."
     },
     {
       "no": 25,
@@ -112,32 +112,32 @@
     {
       "no": 26,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the shipping agent you have used for this transfer shipment line.\nThe program copies the code from the Shipping Agent Code field on the transfer order line."
     },
     {
       "no": 27,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the shipping agent service you have used for this transfer shipment line.\nThe program copies the code from the Shipping Agent Service Code field on the transfer order line."
     },
     {
       "no": 28,
       "name": "In-Transit Code",
-      "tooltip": ""
+      "tooltip": "Contains the in-transit code used for this shipment line.\nThe program copies the contents of this field from the In-Transit Code field in the Transfer Shipment Line table."
     },
     {
       "no": 29,
       "name": "Transfer-from Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the location from which the items on the line are transferred.\nThe program copies the contents of this field from the Transfer-from Code field in the Transfer Order Line table."
     },
     {
       "no": 30,
       "name": "Transfer-to Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the location you want to transfer to.\nThe program copies the contents of this field from the Transfer-to Code field in the Transfer Order Line table."
     },
     {
       "no": 31,
       "name": "Item Shpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item ledger entry associated with the transfer shipment line.\nIf you create a purchase invoice to assign item charges to this transfer line, the program will use this number.\nThe program creates the number when you post the line.\nYou cannot change the number because the shipment has already been posted.\nItem Tracking\nIf the transfer shipment line carries multiple unique item tracking numbers when posted, this will result in one item ledger entry for each item tracking number. For such one-to-many relations, the Item Entry Relation table manages the relation to the item ledger entries in stead of the Item Shpt. Entry No. field."
     },
     {
       "no": 32,
@@ -157,12 +157,12 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 5704,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item.\nYou can use item categories to group default item setup values to make creating new items easier. An item category code specifies the following values:\n\nDefault general product posting group.\n\n\nDefault inventory posting group.\n\n\nDefault VAT product posting group.\n\n\nDefault costing method.\n\n\nTo see or select item categories in the Item Category window, click the drop-down arrow in the field."
     },
     {
       "no": 5817,

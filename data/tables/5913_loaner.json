@@ -47,7 +47,7 @@
     {
       "no": 11,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the number of the loaner."
     },
     {
       "no": 12,

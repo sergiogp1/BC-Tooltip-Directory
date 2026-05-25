@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number that has been assigned for the job WIP total.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 2,
       "name": "Job No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the job that is associated with the job WIP total.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 3,
@@ -32,12 +32,12 @@
     {
       "no": 6,
       "name": "WIP Posting Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for posting dates that are associated with WIP calculations."
     },
     {
       "no": 7,
       "name": "WIP Planning Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for planning dates that are associated with WIP calculations."
     },
     {
       "no": 8,
@@ -47,7 +47,7 @@
     {
       "no": 9,
       "name": "Posted to G/L",
-      "tooltip": ""
+      "tooltip": "Specifies if the job WIP total has been posted to the general ledger."
     },
     {
       "no": 10,

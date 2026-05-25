@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Job No.",
-      "tooltip": ""
+      "tooltip": "Contains the job number associated with the job planning line. The number is copied from the job card.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 2,
       "name": "Job Task No.",
-      "tooltip": ""
+      "tooltip": "Contains the job task number associated with the job planning line.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 3,
       "name": "Job Planning Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number associated with the job planning line.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 4,

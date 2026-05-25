@@ -42,7 +42,7 @@
     {
       "no": 9,
       "name": "Price Unit Conversion",
-      "tooltip": ""
+      "tooltip": "Specifies the price unit conversion for the item.\nThe field is not used elsewhere in the program."
     },
     {
       "no": 10,
@@ -77,7 +77,7 @@
     {
       "no": 17,
       "name": "Commission Group",
-      "tooltip": ""
+      "tooltip": "Specifies a code that can be used, for example, to report on items that trigger sales commission. The field is strictly informational and not related to any commission functionality.\nExample\nA basic use of the field could be to enter a code in this field for items that trigger a sales commission. In any item report, such as Inventory - Customer Sales, add it as a filter field to view all item sales that warrant the sales commission."
     },
     {
       "no": 18,
@@ -127,7 +127,7 @@
     {
       "no": 30,
       "name": "Allow Online Adjustment",
-      "tooltip": ""
+      "tooltip": "Specifies if the items unit cost will be adjusted automatically.\nIt is used internally in relation to the Automatic Cost Adjustment setup field."
     },
     {
       "no": 31,
@@ -167,17 +167,17 @@
     {
       "no": 38,
       "name": "Unit List Price",
-      "tooltip": ""
+      "tooltip": "Specifies a recommended unit price.\nThis field is not used elsewhere in the program."
     },
     {
       "no": 39,
       "name": "Duty Due %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage of the item on which duty will be assessed. Do not enter the percent sign. For example, if the duty % is 5.5%, enter 5.5."
     },
     {
       "no": 40,
       "name": "Duty Code",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the applicable duty."
     },
     {
       "no": 41,
@@ -192,7 +192,7 @@
     {
       "no": 43,
       "name": "Units per Parcel",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units per parcel of the item.\nYou may need the number of units per parcel when you fill out customs documents, waybills, and so on."
     },
     {
       "no": 44,
@@ -202,12 +202,12 @@
     {
       "no": 45,
       "name": "Durability",
-      "tooltip": ""
+      "tooltip": "Specifies the durability of the item. You can enter a maximum of 10 characters, both numbers and letters.\nYou may need to know the durability to complete customs documents, waybills, and so on."
     },
     {
       "no": 46,
       "name": "Freight Type",
-      "tooltip": ""
+      "tooltip": "Specifies how the item is shipped. You can enter a maximum of 10 characters, both numbers and letters.\nYou may need to know the freight type to complete shipping documents."
     },
     {
       "no": 47,
@@ -217,32 +217,32 @@
     {
       "no": 48,
       "name": "Duty Unit Conversion",
-      "tooltip": ""
+      "tooltip": "Specifies a factor that gives the relationship between the unit used by the customs and tax authorities for the item and the unit used by your company."
     },
     {
       "no": 49,
       "name": "Country/Region Purchased Code",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the country/region in which the item is purchased. To see the country/region codes in the Country/Region table, choose the field."
     },
     {
       "no": 50,
       "name": "Budget Quantity",
-      "tooltip": ""
+      "tooltip": "Specifies a budget figure for the quantity of items sold.\nThe Budget Quantity field must be updated manually and has no relationship to any budgets in the general ledger."
     },
     {
       "no": 51,
       "name": "Budgeted Amount",
-      "tooltip": ""
+      "tooltip": "Specifies a budget figure for the total amount of items sold.\nThe Budgeted Amount field must be updated manually and has no relationship to any budgets in the general ledger."
     },
     {
       "no": 52,
       "name": "Budget Profit",
-      "tooltip": ""
+      "tooltip": "Specifies a budget figure for the total profit on the items sold.\nThe Budget Profit field must be updated manually and has no relationship to any budgets in the general ledger."
     },
     {
       "no": 53,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Shows whether there is a comment for this item.\nComments could concern a particular storage method or substitute items.\nYou can also enter a comment in the Notes FactBox."
     },
     {
       "no": 54,
@@ -277,22 +277,22 @@
     {
       "no": 64,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nFor more information, see How to: Enter Dates and Times."
     },
     {
       "no": 65,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension. This means that values in the fields that contain quantities are based only on entries with the dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, choose the field.\nClick here to learn more about dimensions."
     },
     {
       "no": 66,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a filter for a dimension. This means that values in the fields that contain quantities are based only on entries with the dimension values included in the filter.\nTo see the dimension values you have set up for a dimension in the Dimension Value table, choose the field.\nClick here to learn more about dimensions."
     },
     {
       "no": 67,
       "name": "Location Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by location.\nIf the field contains a location code, the values in the fields that contain quantities are based only on entries with the location code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nOslo\n\nEntries from the Oslo location\n\n\nInterval\n\n1..5\n\nEntries from Locations 1 through 5\n\n\nEither/or\n\nOslo|Vienna\n\nEntries that are from either Oslo or Vienna\n\n\nDifferent from\n\n<>1\n\nEntries from all locations except Location 1\n\n\nTo see the location codes in the Location table, choose the field."
     },
     {
       "no": 68,
@@ -307,52 +307,52 @@
     {
       "no": 70,
       "name": "Net Change",
-      "tooltip": ""
+      "tooltip": "Shows the net change in the inventory of the item during the period entered in the Date Filter field.\nThe program automatically calculates and updates the contents of the field using the Quantity field in the Item Ledger Entry table.\nYou can filter the Net Change field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\nitem variants\n\n\nlot numbers\n\n\nserial numbers\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Net Change field are calculated on the basis of the items that were shipped as a drop shipment.\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 71,
       "name": "Purchases (Qty.)",
-      "tooltip": ""
+      "tooltip": "Shows how many units of the item have been purchased.\nThe program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Purchase type.\nYou can filter the Purchases (Qty.) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\nitem variants\n\nposting dates\n\n\nlot numbers\n\n\nserial numbers\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Purchases (Qty.) field are calculated on the basis of the items that were shipped as a drop shipment.\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 72,
       "name": "Sales (Qty.)",
-      "tooltip": ""
+      "tooltip": "Shows how many units of the item have been sold.\nThe program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Sales type.\nYou can filter the Sales (Qty.) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\nitem variants\n\ndates\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Sales (Qty.) field are calculated on the basis of the items that were shipped as a drop shipment.\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 73,
       "name": "Positive Adjmt. (Qty.)",
-      "tooltip": ""
+      "tooltip": "Shows the total number of units that have been added to the inventory without being purchased.\nThe program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Positive Adj. type.\nYou can filter the Positive Adjmt. (Qty.) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\nitem variants\n\ndates\n\n\nlot numbers\n\n\nserial numbers\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Positive Adjmt. (Qty.) field are calculated on the basis of the items that were ordered as a drop shipment.\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 74,
       "name": "Negative Adjmt. (Qty.)",
-      "tooltip": ""
+      "tooltip": "Shows the total number of units that have been removed from the inventory without being sold.\nThe program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Negative Adj. type.\nYou can filter the Negative Adjmt. (Qty.) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\nitem variants\n\ndates\n\n\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 77,
       "name": "Purchases (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the total purchase amount, in LCY, of the item that has been purchased.\nThe program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as purchases.\nYou can filter the Purchases (LCY) field so that its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Purchases (LCY) field are calculated on the basis of the items that were ordered as a drop shipment."
     },
     {
       "no": 78,
       "name": "Sales (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the sales amount, in LCY, of the item that has been sold.\nThe program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as sales.\nYou can filter the Sales (LCY) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\nlocations\n\ndates\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Sales (LCY) field are calculated on the basis of the items that were shipped as a drop shipment."
     },
     {
       "no": 79,
       "name": "Positive Adjmt. (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the total value of the units that have been added to inventory without being purchased.\nThe program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as positive adjustments.\nYou can filter the Positive Adjmt. (LCY) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Positive Adjmt. (LCY) field are calculated on the basis of the items that will be shipped as a drop shipment."
     },
     {
       "no": 80,
       "name": "Negative Adjmt. (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the total value of units that have been removed from inventory without being sold.\nThe program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as negative adjustments.\nYou can filter the Negative Adjmt. (LCY) field so that its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Negative Adjmt. (LCY) field are calculated on the basis of the items that were ordered as a drop shipment."
     },
     {
       "no": 83,
       "name": "COGS (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the total cost of goods sold for items that you have shipped from inventory and invoiced.\nThe program automatically calculates and updates the contents of the field, using the Cost Amount (Actual) field in the Value Entry table for those entries that have been posted as sales.\nYou can filter the COGS (LCY) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the COGS (LCY) field are calculated on the basis of the items that were shipped as a drop shipment."
     },
     {
       "no": 84,
@@ -372,7 +372,7 @@
     {
       "no": 89,
       "name": "Drop Shipment Filter",
-      "tooltip": ""
+      "tooltip": "Specifies whether to put a drop shipment filter on the item card.\nIf you put a drop shipment filter on the card, the values in the fields that show quantities are based only on entries for items that are shipped directly from the vendor to the customer (that is, as a drop shipment)."
     },
     {
       "no": 90,
@@ -392,12 +392,12 @@
     {
       "no": 93,
       "name": "Transferred (Qty.)",
-      "tooltip": ""
+      "tooltip": "Shows how many units of the item that are transferred from one location or dimension value to another.\nThe program automatically calculates and updates the contents of the field, using the Invoiced Quantity field in the Item Ledger Entry table for those entries of the Transfer type.\nYou can filter the Transfer (Qty.) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nlot numbers\n\n\nserial numbers\n\n\nTo see the item ledger entries that make up the number shown, choose the field."
     },
     {
       "no": 94,
       "name": "Transferred (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the total amount, in LCY, of the items that have been transferred from one location or dimension value to another.\nThe program automatically calculates and updates the contents of the field, using the Sales Amount (Actual) field in the Value Entry table for those entries that have been posted as transfers.\nYou can filter the Transferred (LCY) field so its contents are calculated only on the basis of one or any combination of the following:\nGlobal Dimension 1 values\n\nGlobal Dimension 2 values\n\ndates\n\nlocations\n\nitem variants\n\n\nYou can also set a filter in the Drop Shipment Filter field so that the contents of the Transferred (LCY) field are calculated on the basis of the items that will be shipped as a drop shipment."
     },
     {
       "no": 95,
@@ -412,7 +412,7 @@
     {
       "no": 97,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that was used to assign the item's number."
     },
     {
       "no": 98,
@@ -432,37 +432,37 @@
     {
       "no": 101,
       "name": "Reserved Qty. on Inventory",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved from inventory.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 102,
       "name": "Reserved Qty. on Purch. Orders",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved from purchase orders.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 103,
       "name": "Reserved Qty. on Sales Orders",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved from sales orders.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 105,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes that you have set up for this dimension in the Dimension Value window, choose the field.\nIf you enter a dimension value code in this field, then the corresponding dimension value is used as the default value every time that you enter the account on an entry line. Default dimension values are only suggestions, and you can change them on the entry line, such as in a journal."
     },
     {
       "no": 106,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies a dimension value code. To see the dimension value codes that you have set up for this dimension in the Dimension Value window, click the lookup button in the field.\nIf you enter a dimension value code in this field, then the corresponding dimension value is used as the default value every time that you enter the account on an entry line. Default dimension values are only suggestions, and you can change them on the entry line, such as in a journal."
     },
     {
       "no": 107,
       "name": "Res. Qty. on Outbound Transfer",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 108,
       "name": "Res. Qty. on Inbound Transfer",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 109,
@@ -517,7 +517,7 @@
     {
       "no": 1002,
       "name": "Res. Qty. on Job Order",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved for jobs.\nClick the look-up button to the right of the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 1217,
@@ -537,7 +537,7 @@
     {
       "no": 5401,
       "name": "Lot Size",
-      "tooltip": ""
+      "tooltip": "Specifies how many units of the item are processed in one production operation by default.\nYou can modify the lot size on individual routing lines or on individual production order routing lines (operations).\n\nAdditional Information\n\nThe lot size modifies the run time that you enter on routing lines by multiplying the value in the Run Time field with the lot size to reflect that it takes, for example, twice the time to process two pieces per operation.\nNote\n\n\nNote that, although it is not a productive time element, the value in the Setup Time field on routing lines is also multiplied by the lot size.\n\n\nIf the item routing includes fixed costs such as setup time, then the value in this field is used to calculate the standard cost price and distribute the fixed costs of manufacturing the item.\nTo limit the amount of planning suggestions for insignificant changes to existing orders, use the Default Dampener Quantity field, which is a percentage of the lot size."
     },
     {
       "no": 5402,
@@ -547,22 +547,22 @@
     {
       "no": 5403,
       "name": "Last Unit Cost Calc. Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on which you ran the Calculate Standard Cost batch job last."
     },
     {
       "no": 5404,
       "name": "Rolled-up Material Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the total material cost of all the items at all levels of the items BOM, added to the material cost of the item itself."
     },
     {
       "no": 5405,
       "name": "Rolled-up Capacity Cost",
-      "tooltip": ""
+      "tooltip": "Contains the rolled-up capacity cost for the item. This is a calculation of the total capacity cost for all BOM levels of the components that make up the production BOM added to the material cost of the parent item."
     },
     {
       "no": 5407,
       "name": "Scrap %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage of the item that you expect to be scrapped in the production process. It is used to calculate unit prices and net requirements.\nIf the item is a parent, then the scrap percentage represents scrapped output before putting away in inventory. It the item is a component, then the scrap percentage represents scrapped consumption, when picking from inventory.\nIf you define a scrap percentage for a component item, it means that more components will be withdrawn from inventory than the production order calls for."
     },
     {
       "no": 5408,
@@ -577,7 +577,7 @@
     {
       "no": 5410,
       "name": "Discrete Order Quantity",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 5411,
@@ -617,17 +617,17 @@
     {
       "no": 5422,
       "name": "Rounding Precision",
-      "tooltip": ""
+      "tooltip": "Defines how calculated consumption quantities are rounded when entered on consumption journal lines. Quantities less than 0.5 will be rounded down. Quantities equal to or greater than 0.5 will be rounded up.\nYou can set the field to round to the nearest decimal (maximum 6 decimal places) or to the nearest number divisible by any whole or decimal number.\nExamples\n0.01 Round to two decimals\n0.05 Round to a number divisible by 0.05\n1.00 Round to a whole number (no decimals - divisible by 1.00)\n10.00 Round to a whole number (no decimals - divisible by 10.00)\n\n\nAdditional Information\n\nChanging the field only affects future consumption calculations.\nThe rounding precision only applies to the unit of measure that the item uses on the production order component and is later carried to the consumption journal. If the item has two units of measure, such as grams and kilograms, then the item's rounding precision applies in the same way to a consumption journal quantity in grams as it does to a consumption journal quantity in kilograms.\nNote\n\n\nIf you increase the rounding precision of an item that exists on open consumption journal lines, then you must refresh the production order and at least the component need, and you must recalculate the consumption journal line.\n\nHowever, if you decrease the rounding precision, then the open consumption journal line is unchanged, and you do not have to refresh the production order or recalculate the journal line. This is because it is considered more serious to consume too few components, when the original rounding precision was lower, than it is to consume too few components, when the original rounding precision was higher."
     },
     {
       "no": 5423,
       "name": "Bin Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by bin code.\nIf the field contains a bin code, the values in the fields that show quantities are based only on entries with the bin code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nA41\n\nEntries from bin A41\n\n\nInterval\n\n1..5\n\nEntries from bins 1 through 5\n\n\nEither/or\n\nB22|C22\n\nEntries that from either bin B22 or bin C22\n\n\nDifferent than\n\n<>1\n\nEntries from all bins except bin 1\n\n\nTo see the bin codes in the Bin table, choose the field."
     },
     {
       "no": 5424,
       "name": "Variant Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by item variant.\nIf the field contains a variant code, the values in the fields that show quantities are based only on entries with the variant code that is included in the filter.\nYou can enter a maximum of 10 characters, both numbers and letters. There are certain rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\nBlue\n\nEntries with the Blue variant code\n\n\nInterval\n\n1..5\n\nEntries with variant codes 1 through 5\n\n\nEither/or\n\nParis|Rome\n\nEntries with either the Paris or Rome variant code\n\n\nDifferent than\n\n<>AA\n\nEntries with all variant codes, except AA\n\n\nTo see the variant codes in the Item Variant table, choose the field."
     },
     {
       "no": 5425,
@@ -652,7 +652,7 @@
     {
       "no": 5431,
       "name": "Res. Qty. on Req. Line",
-      "tooltip": ""
+      "tooltip": "Indicates the quantity of the item that is reserved.\nChoose the field to see the reservation entries that make up the quantity."
     },
     {
       "no": 5440,
@@ -752,12 +752,12 @@
     {
       "no": 5776,
       "name": "Qty. Assigned to ship",
-      "tooltip": ""
+      "tooltip": "Contains the number of units of the item that are being prepared for shipment.\nThe program automatically calculates and updates the contents of this field. It sums the contents of the Qty. Outstanding (Base) field on all type warehouse shipment lines for the item.\nYou can filter the Qty. Assigned to Ship field so its contents are calculated only on the basis of certain locations, dates and variants.\nTo see the warehouse activity lines that comprise the quantity, choose the field."
     },
     {
       "no": 5777,
       "name": "Qty. Picked",
-      "tooltip": ""
+      "tooltip": "Contains the number of units of the item that have been registered as picked.\nThe program automatically calculates and updates the contents of this field. It sums the contents of the Qty. Picked (Base) field on all warehouse shipment lines for the item.\nYou can filter the Qty. Picked field so its contents are calculated only on the basis of certain locations, dates and variants.\nTo see the warehouse shipment lines that comprise the quantity, choose the field."
     },
     {
       "no": 5801,
@@ -782,12 +782,12 @@
     {
       "no": 6503,
       "name": "Lot No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6504,
       "name": "Serial No. Filter",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 6515,
@@ -927,27 +927,27 @@
     {
       "no": 99000752,
       "name": "Single-Level Material Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the total material cost of all the items at the first level of the item's BOM."
     },
     {
       "no": 99000753,
       "name": "Single-Level Capacity Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the single-level capacity cost. The single-level capacity cost is calculated as the capacity cost of the parent item only.\nThe program uses this field internally."
     },
     {
       "no": 99000754,
       "name": "Single-Level Subcontrd. Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the single-level cost of outsourcing operations to a subcontractor. The single-level subcontractor cost is calculated as the cost of outsourced operations of the parent item only.\nThe program uses this field internally."
     },
     {
       "no": 99000755,
       "name": "Single-Level Cap. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the single-level capacity overhead cost. The single-level capacity overhead cost is calculated as overhead cost concerning capacity of the parent item only.\nThe program uses this field internally."
     },
     {
       "no": 99000756,
       "name": "Single-Level Mfg. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the single-level manufacturing overhead cost. The single-level manufacturing overhead cost is calculated as the overhead cost of manufacturing the parent item only.\nThe program uses this field internally."
     },
     {
       "no": 99000757,
@@ -957,42 +957,42 @@
     {
       "no": 99000758,
       "name": "Rolled-up Subcontracted Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the rolled-up costs of outsourcing operations to a subcontractor.\nThis calculation adds up the total costs of outsourced operations in connection with producing the item on the line. This includes outsourced operations on those of its components that are production BOMs in themselves.\nThe program uses this field internally."
     },
     {
       "no": 99000759,
       "name": "Rolled-up Mfg. Ovhd Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the rolled-up manufacturing overhead cost of the item. This is a calculation of the total manufacturing overhead cost of the components added to the manufacturing overhead cost of the parent item.\nThe program uses this field internally."
     },
     {
       "no": 99000760,
       "name": "Rolled-up Cap. Overhead Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the rolled-up capacity overhead cost of producing the item. This is a calculation of the total capacity overhead cost of producing the components added to the capacity overhead cost of producing the parent item.\nThe program uses this field internally."
     },
     {
       "no": 99000761,
       "name": "Planning Issues (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000762,
       "name": "Planning Receipt (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000768,
       "name": "Planning Release (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000770,
       "name": "Purch. Req. Receipt (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000771,
       "name": "Purch. Req. Release (Qty.)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 99000773,
@@ -1002,17 +1002,17 @@
     {
       "no": 99000774,
       "name": "Prod. Forecast Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Shows either the item's total production forecast quantity or, if you have defined a filter in the Production Forecast Name field, a filtered production forecast quantity.\nThe program automatically calculates and updates the contents of the field using the entries in the Forecast Quantity field in the Production Forecast Entries window.\nYou can also filter the Prod. Forecast Quantity (Base) field so that its contents are based only on certain locations and forecast types. You set these filters in the production forecast header, and then the filtered quantities are displayed.\nTo see the production forecast entries included in the forecast, click the field."
     },
     {
       "no": 99000775,
       "name": "Production Forecast Name",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 99000776,
       "name": "Component Forecast",
-      "tooltip": ""
+      "tooltip": "Shows the filter that filters by component.\nIf you enter Yes in the field, the values in the fields that contain quantities are based only on component entries.\nIf you enter No in the field, the values in the fields that contain quantities are based only on sales item entries.\nIf the field is blank, the values in the fields that contain quantities are based on component and sales item entries."
     },
     {
       "no": 99000779,

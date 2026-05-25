@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Package Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the package that contains the data that is being created."
     },
     {
       "no": 2,
@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Record No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the migration record to which the error applies.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 4,
       "name": "Field ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the field in the migration table to which the error applies.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 5,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Error Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the error. Microsoft Dynamics NAV recognizes one type of error, Table Relation, which indicates that a migration data value cannot be validated."
     },
     {
       "no": 9,

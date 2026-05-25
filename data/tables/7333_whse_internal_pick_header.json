@@ -37,12 +37,12 @@
     {
       "no": 7,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that you selected for the program to use when it assigns a document number to an internal pick header."
     },
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that someone has attached a comment to this warehouse internal pick."
     },
     {
       "no": 12,

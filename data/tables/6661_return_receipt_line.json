@@ -17,7 +17,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program fills in this field automatically and uses the number to keep track of the lines.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5,
@@ -37,7 +37,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the posting group that was used when the return receipt was posted.\nThe program copies the contents of this field from the Posting Group field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 10,
@@ -67,7 +67,7 @@
     {
       "no": 22,
       "name": "Unit Price",
-      "tooltip": ""
+      "tooltip": "Specifies the price of one unit of the item.\nThe program copies the contents of this field from the Unit Price field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 23,
@@ -77,17 +77,17 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that is used on the original sales credit memo.\nThe program copies the contents of this field from the VAT % field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount percentage that was given for the items on the line.\nThe program copies the contents of this field from the Line Discount % field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 32,
       "name": "Allow Invoice Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that the return receipt line could have been included in an invoice discount calculation.\nThe program copies the contents of this field from the Allow Invoice Disc. field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 34,
@@ -117,7 +117,7 @@
     {
       "no": 39,
       "name": "Item Rcpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item ledger entry associated with the return receipt line.\nThe program creates this number when the line is posted. The number is not displayed anywhere else in the program.\nYou cannot change the contents of this field because the document has already been posted.\nItem Tracking\nIf the return receipt line carries multiple unique item tracking numbers when posted, this will result in one item ledger entry for each item tracking number. For such one-to-many relations, the Item Entry Relation table manages the relation to the item ledger entries in stead of the Item Rcpt. Entry No. field."
     },
     {
       "no": 40,
@@ -132,7 +132,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group used for the return receipt.\nThe program copies the contents of this field from the Customer Price Group field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 45,
@@ -142,7 +142,7 @@
     {
       "no": 52,
       "name": "Work Type Code",
-      "tooltip": ""
+      "tooltip": "Belongs to the Job application area.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 61,
@@ -157,72 +157,72 @@
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group that was used when this line was posted.\nThe program copies the contents of this field from the Gen. Bus. Posting Group field in the Sales Header table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 75,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general product posting group that you have assigned to the items on this line.\nThe program copies the contents of this field from the Item table or the G/L Account table.\nYou cannot change the code because the document has already been posted."
     },
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Specifies which VAT calculation type was used when this line was posted.\nThe program copies the contents of this field from the VAT Calculation Type field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type specified in the sales line that this line was posted from.\nThe program copies the contents of this field from the Transaction Type field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the transport method specified in the sales line that this line was posted from.\nThe program copies the contents of this field from the Transport Method field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the extended text line number that is attached to the sales line.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the port of exit through which you ship the items out of your country/region.\nThe program copies the contents of this field from the Exit Point field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Specifies the area code used for the items in this line.\nThe program copies the code from the Area field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the type of transaction specification used for the items on this line.\nThe program copies the contents of this field from the Transaction Specification field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 85,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Specifies the tax area code of the customer.\nThe program copies the code from the Tax Area Code field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 86,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that sales to the customer entered on the return receipt header were liable to sales tax.\nThe program copies the contents of this field from the Tax Liable field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 87,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the tax group of the item.\nThe program copies the contents of this field from the Tax Group Code field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 89,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the contents of this field from the VAT Bus. Posting Group field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 90,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT product posting group of the item.\nThe program copies the contents of this field from the VAT Prod. Posting Group field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 91,
@@ -242,17 +242,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total net amount (excluding VAT) that the credit memo line consists of.\nThe program copies the contents of this field from the VAT Base Amount field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the item on the line. The unit cost is expressed in the currency of the original sales transaction.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 131,
       "name": "Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date the purchase header was posted.\nThe program copies the date from the Posting Date field on the purchase header.\nYou cannot change the posting date because the invoice has already been posted."
     },
     {
       "no": 138,
@@ -262,7 +262,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1001,
@@ -287,7 +287,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure of the items sold.\nThe program copies the contents of this field from the Qty. per Unit of Measure field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5407,
@@ -297,47 +297,47 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units of the item specified on the line expressed in base units of measure.\nThe program copies the contents of this field from the Return Qty. to Receive (Base) field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the quantity on the line has been invoiced. The quantity in this field is expressed in base units of measure.\nThe program automatically fills in this field by converting the contents of the Quantity Invoiced field into base units of measure.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5600,
       "name": "FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the FA posting date of the return receipt line.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5602,
       "name": "Depreciation Book Code",
-      "tooltip": ""
+      "tooltip": "Specifies the depreciation book code on the return receipt line.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5605,
       "name": "Depr. until FA Posting Date",
-      "tooltip": ""
+      "tooltip": "This field is only used if the type of the line is Fixed Asset. The field indicates whether depreciation was calculated until the FA posting date of the line. If the field contains a check mark, depreciation for the asset was posted for the period from the FA posting date of the previous FA ledger entry to the FA posting date of this return receipt line.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5612,
       "name": "Duplicate in Depreciation Book",
-      "tooltip": ""
+      "tooltip": "Specifies the second depreciation book code if the return receipt line was posted to two separate depreciation books. The Depreciation Book Code field specifies the first depreciation book code.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5613,
       "name": "Use Duplication List",
-      "tooltip": ""
+      "tooltip": "Specifies whether the purchase line was posted to all depreciation books that have a check mark in the Part of Duplication List field in the Depreciation Book table.\nThe program copies the contents of the field from the Use Duplication List field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the responsibility center that serves this customer.\nYou cannot change the contents of the field because the document has already been posted."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Specifies the item category code for the item in this return receipt line.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5710,
@@ -347,7 +347,7 @@
     {
       "no": 5711,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Specifies the purchasing code for the item.\nA purchasing code indicates the steps taken when the items on the line were purchased.\nThe program copies the contents of this field from the Purchasing Code field in the Sales Line table.\nYou cannot change the contents of this field because the document has already been posted."
     },
     {
       "no": 5725,
@@ -382,12 +382,12 @@
     {
       "no": 5812,
       "name": "Item Charge Base Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally. Suggests item charge assignment by amount."
     },
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies that this return receipt line has been posted as a corrective entry."
     },
     {
       "no": 6602,
@@ -397,7 +397,7 @@
     {
       "no": 6603,
       "name": "Return Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the related return order line."
     },
     {
       "no": 6608,
@@ -412,12 +412,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer discount group used on the invoice.\nThe program copies the code from the Customer Disc. Group field on the sales line.\nYou cannot change the customer discount group because the return receipt has already been posted."
     },
     {
       "no": 7012,

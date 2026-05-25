@@ -17,32 +17,32 @@
     {
       "no": 4,
       "name": "Assigned User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who is responsible for the document.\nThe field contains the user ID of the employee who was assigned to perform the inventory movement.\nSome Role Centers contain an Activities part that shows how many documents are assigned to the current user. The information in this field is used to create the document statistics on the Role Center."
     },
     {
       "no": 5,
       "name": "Assignment Date",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 6,
       "name": "Assignment Time",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 8,
       "name": "Registering Date",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 9,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 10,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 11,
@@ -52,7 +52,7 @@
     {
       "no": 12,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times that the registered inventory movement has been printed."
     },
     {
       "no": 20,
@@ -72,17 +72,17 @@
     {
       "no": 7308,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 7309,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the same as the field with the same name in the Registered Whse. Activity Hdr. table."
     },
     {
       "no": 7310,
       "name": "Destination Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of destination that is associated with the registered inventory movement.\nThe following destination types are available.\n\n<Blank>\n\nCustomer\n\nVendor\n\nLocation\n\nItem\n\nFamily\n\nSales Order"
     },
     {
       "no": 7311,

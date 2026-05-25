@@ -17,12 +17,12 @@
     {
       "no": 3,
       "name": "Selected",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
       "name": "New Dimension Value Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,

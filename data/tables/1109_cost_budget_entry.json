@@ -77,7 +77,7 @@
     {
       "no": 42,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the last date of when the cost budget entry was modified."
     },
     {
       "no": 50,

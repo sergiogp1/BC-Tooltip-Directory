@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area of the analysis template. The following options are available:\nSales: The analysis report was set up in Sales & Receivables\nPurchase: The analysis report was set up in Purchases & Payables\nInventory: The analysis report was set up in Inventory"
     },
     {
       "no": 2,

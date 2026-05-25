@@ -17,22 +17,22 @@
     {
       "no": 4,
       "name": "Assigned User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who is responsible for the document.\nThe field contains the user ID of the employee who was assigned to perform the inventory put-away.\nSome Role Centers contain an Activities part that shows how many documents are assigned to the current user. The information in this field is used to create the document statistics on the Role Center."
     },
     {
       "no": 5,
       "name": "Assignment Date",
-      "tooltip": ""
+      "tooltip": "Contains the date that the user was assigned the put-away.\nThe program copies this information from the inventory put-away header. You cannot change this field because the put-away has been posted."
     },
     {
       "no": 6,
       "name": "Assignment Time",
-      "tooltip": ""
+      "tooltip": "Contains the time of day that the user was assigned the put-away.\nThe program copies this information from the inventory put-away header. You cannot change this field because the put-away has been posted."
     },
     {
       "no": 8,
       "name": "Registering Date",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 9,
@@ -42,7 +42,7 @@
     {
       "no": 10,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Indicates whether there is a comment for the posted put-away."
     },
     {
       "no": 11,
@@ -52,7 +52,7 @@
     {
       "no": 12,
       "name": "No. Printed",
-      "tooltip": ""
+      "tooltip": "Specifies the number of times that the inventory put-away has been printed."
     },
     {
       "no": 20,
@@ -67,22 +67,22 @@
     {
       "no": 7307,
       "name": "Source Document",
-      "tooltip": ""
+      "tooltip": "Contains the type of source document for the posted inventory put-away. The program copies the value for this field from the inventory put-away header. The options are Sales Order,Sales Return Order,Purchase Order,Purchase Return Order,Inbound Transfer,Outbound Transfer,Prod. Consumption, and Prod. Output."
     },
     {
       "no": 7308,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of transaction that the source document is concerned with (for example, posted receipt, posted return receipt, posted shipment, posted return shipment).\nThe program copies this information from the inventory put-away header. You cannot change this field because the put-away has been posted."
     },
     {
       "no": 7309,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the posted inventory put-away relates.\nThe program copies this information from the inventory put-away. You cannot change this field because the put-away has been posted."
     },
     {
       "no": 7310,
       "name": "Destination Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of destination that is associated with the posted inventory put-away.\nThe following destination types are available.\n\n<Blank>\n\nCustomer\n\nVendor\n\nLocation\n\nItem\n\nFamily\n\nSales Order"
     },
     {
       "no": 7311,

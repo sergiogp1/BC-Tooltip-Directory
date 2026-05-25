@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "To-do No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the to-do to which the meeting applies."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the to-do to which the meeting applies.\n\nThis field is used internally."
     },
     {
       "no": 3,

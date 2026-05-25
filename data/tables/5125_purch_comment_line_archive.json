@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies what type of document the comment applies to.\nThe program has entered the document type from the purchase header."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number of the quote or order to which the comment applies.\nThe program has entered the document number from the purchase header."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of times the No. value has been used in the number series.\nThis number, in combination with the document number, ensures that you always maintain a unique number for the archived document. This is convenient if, for example, you have changed the number series and, as a result, a conflict of numbers arises."
     },
     {
       "no": 4,
@@ -37,17 +37,17 @@
     {
       "no": 7,
       "name": "Document Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the date the comment was created."
     },
     {
       "no": 8,
       "name": "Doc. No. Occurrence",
-      "tooltip": ""
+      "tooltip": "Specifies a code for the comment. You can enter a maximum of 10 characters, both numbers and letters. Use codes that are easy to remember and that describe the type of comment or vendor.\nYou can use this field to sort existing comments. For example, you can enter the code EU for all comments that pertain to vendors in EU countries/regions."
     },
     {
       "no": 9,
       "name": "Version No.",
-      "tooltip": ""
+      "tooltip": "Specifies the comment itself. You can enter a maximum of 80 characters, both numbers and letters."
     }
   ]
 }

@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the template of the recurring journal from which you opened the allocation table.\nThe program retrieves the name from the Journal Batch Name field of the recurring journal."
     },
     {
       "no": 2,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the recurring journal from which you opened the allocation table.\nThe program retrieves the name from the Journal Batch Name field of the recurring journal."
     },
     {
       "no": 3,
       "name": "Journal Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the recurring journal line from which you chose the allocation table.\nThe program automatically retrieves the number from the Line No. field in the recurring journal."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the allocation journal line.\nThe program automatically fills in the field and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 5,
@@ -72,17 +72,17 @@
     {
       "no": 14,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Shows the VAT calculation type which will be used when the journal line is posted.\nThe program fills in the field automatically by using the VAT Bus. Posting Group and VAT Prod. Posting Group fields.\n\n\nOption\n\n\nDescription\n\n\nNormal VAT\n\nWith this option, the program calculates VAT for the amount on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when the line involves trade with another EU country/region, where the purchaser must compute and settle VAT accounts with the tax authorities.\nThis option has no effect on your company's financial statements. When you sell goods or services with reverse charge VAT, you neither calculate nor withhold VAT. When you purchase goods or services, the program will calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount you are posting on this line consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used only if the program is set up to handle US sales tax. The option directs the program to retrieve information from specific sales tax tables and then calculate sales tax instead of VAT."
     },
     {
       "no": 15,
       "name": "VAT Amount",
-      "tooltip": ""
+      "tooltip": "Shows the part of the total amount that VAT consists of.\nThe program calculates the amount automatically by using the Amount and VAT % fields."
     },
     {
       "no": 16,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT percentage that will be used on the journal line if the VAT Calculation Type field contains the Normal VAT option.\nThe program automatically retrieves the VAT percentage from the VAT Posting Setup table when the VAT Bus. Posting Group and VAT Prod. Posting Group fields are filled in."
     },
     {
       "no": 17,
@@ -92,22 +92,22 @@
     {
       "no": 18,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Tax Liable field, and the Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax area code, in combination with the tax group code on the journal line, to determine the sales tax % and the G/L accounts to which tax will be posted."
     },
     {
       "no": 19,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate sales tax on the journal line.\nTo have sales tax calculated, you must also fill in Tax Area Code field and the Tax Group Code field, and Gen. Posting Type must be Sale or Purchase."
     },
     {
       "no": 20,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Tax Liable field, and Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax group code, in combination with the tax area code on the journal line, to determine the sales tax % and G/L accounts to which tax will be posted."
     },
     {
       "no": 21,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies whether to treat the tax calculated on the basis of the Tax Area Code and the Tax Group Code on this journal line as use tax."
     },
     {
       "no": 22,
@@ -122,12 +122,12 @@
     {
       "no": 24,
       "name": "Additional-Currency Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount in additional reporting currency on the journal line."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

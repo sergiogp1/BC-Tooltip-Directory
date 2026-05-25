@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Segment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the segment to which the to-do is linked."
     },
     {
       "no": 8,
@@ -77,7 +77,7 @@
     {
       "no": 15,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series to use when assigning numbers to to-dos.\nThis field is used internally by the program."
     },
     {
       "no": 16,
@@ -97,12 +97,12 @@
     {
       "no": 19,
       "name": "Team Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the team to which this to-do has been assigned.\nThe program fills in this field when you enter a team code in the Team Code field."
     },
     {
       "no": 20,
       "name": "Salesperson Name",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the salesperson to whom this to-do has been assigned.\nThe program fills in this field when you enter a salesperson code in the Salesperson Code field."
     },
     {
       "no": 21,
@@ -152,17 +152,17 @@
     {
       "no": 31,
       "name": "Opportunity Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies which Opportunity Entry the to-do is linked. When you specify an opportunity for a to-do, this field contains the number of the Opportunity Entry that is currently marked as Active.\nThis field is used internally by the program."
     },
     {
       "no": 32,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the to-do was last modified."
     },
     {
       "no": 33,
       "name": "Last Time Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the time when the to-do was last modified."
     },
     {
       "no": 34,
@@ -222,7 +222,7 @@
     {
       "no": 45,
       "name": "System To-do Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the to-do.\nThere are four options:\n\nOrganizer\n\n\nSalesperson Attendee\n\n\nContact Attendee\n\n\nTeam"
     },
     {
       "no": 46,
@@ -242,7 +242,7 @@
     {
       "no": 9501,
       "name": "Wizard Step",
-      "tooltip": ""
+      "tooltip": "Specifies the step of the wizard."
     },
     {
       "no": 9504,

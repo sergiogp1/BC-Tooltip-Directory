@@ -57,7 +57,7 @@
     {
       "no": 11,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series that is used to fill the ID field in the SEPA Direct Debit Mandates window."
     },
     {
       "no": 12,

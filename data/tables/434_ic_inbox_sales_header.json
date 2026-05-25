@@ -37,7 +37,7 @@
     {
       "no": 16,
       "name": "Ship-to Address 2",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 17,
@@ -72,12 +72,12 @@
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 91,
       "name": "Ship-to Post Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 92,
@@ -97,7 +97,7 @@
     {
       "no": 100,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 125,
@@ -122,7 +122,7 @@
     {
       "no": 5790,
       "name": "Requested Delivery Date",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5791,

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Unique ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Depth",
-      "tooltip": ""
+      "tooltip": "Specifies the number of levels that must be navigated to reach the public folder that is identified for use with email logging."
     },
     {
       "no": 5,
       "name": "Cached",
-      "tooltip": ""
+      "tooltip": "Specifies if the path information for the public folder is cached."
     }
   ]
 }

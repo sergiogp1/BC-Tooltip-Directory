@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Employee No.",
-      "tooltip": ""
+      "tooltip": "The program automatically fills in the field from the No. field on the employee card."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "When you record a relative for an employee, the program automatically enters a line number in the Line No. field to keep track of all the relatives of the employee in the Employee Relative table. The line number is specific to the particular relative."
     },
     {
       "no": 3,
@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Last Name",
-      "tooltip": ""
+      "tooltip": "Specifies the last name of the employee's relative. You can enter a maximum of 30 characters, both numbers and letters."
     },
     {
       "no": 7,

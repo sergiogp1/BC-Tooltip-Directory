@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the entry.\n\nThis field is automatically updated."
     },
     {
       "no": 2,

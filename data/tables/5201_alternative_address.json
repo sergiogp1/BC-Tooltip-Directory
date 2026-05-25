@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Employee No.",
-      "tooltip": ""
+      "tooltip": "The program automatically fills in the field from the No. field on the employee card."
     },
     {
       "no": 2,

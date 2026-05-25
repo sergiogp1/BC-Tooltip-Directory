@@ -77,7 +77,7 @@
     {
       "no": 19,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether there is a comment for this production order.\nTo view a comment or create a new one, click Related Information, point to Prod. Order, and then click Comments. A window appears that displays existing comments and allows you to create new ones.\nYou can also enter a comment in the Notes FactBox. Notes follow documents when they are posted in the same way as comments.\nThe program automatically returns the entry to the Comment field if there is an entry in the Comments window.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 20,
@@ -137,17 +137,17 @@
     {
       "no": 34,
       "name": "Replan Ref. No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the production order that was replanned."
     },
     {
       "no": 35,
       "name": "Replan Ref. Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order that was replanned."
     },
     {
       "no": 38,
       "name": "Low-Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies the low-level code of the item you want to produce with this production order.\nThe low-level code is the lowest level on which the item resides in all bills of material. Every part has only one low-level code. If, for example, the BOM is a component of a second BOM, which in turn is a component of a third BOM, the field will contain 2 because the item is a component of a BOM at the third level in the BOM structure. (The top level is designated by 0.)"
     },
     {
       "no": 40,
@@ -157,87 +157,87 @@
     {
       "no": 41,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the unit cost of the item to produce if the Source Type is item.\nThe system copies the unit costs from the Unit Cost field on the item card. You can change the unit costs manually."
     },
     {
       "no": 42,
       "name": "Cost Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the total unit costs.\nThese are calculated as follows:\nCost Amount = Quantity x Unit Cost."
     },
     {
       "no": 47,
       "name": "Work Center Filter",
-      "tooltip": ""
+      "tooltip": "Displays the filter that filters by work center.\nIf the field contains a work center code, the values in the fields that contain quantities are based only on entries with the work center that is included in the filter.\nYou can enter a maximum of 20 characters, both numbers and letters. There are certain rules for how these can be combined:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\nPacking department\n\nEntries from the packing department work center\n\n\nInterval\n\n1..5\n\nEntries from work center 1 through 5\n\n\nEither/or\n\nPacking department / Machine department\n\nEntries that are from either packing department or machine department\n\n\nDifferent from\n\n<>1\n\nEntries from all work centers except work center 1\n\n\nTo see the work center codes in the Work Center table, click the field."
     },
     {
       "no": 48,
       "name": "Capacity Type Filter",
-      "tooltip": ""
+      "tooltip": "Shows the filter that filters by capacity type.\nIf the field contains a work center code, the values in the fields that contain quantities are based only on entries for work centers. You can choose work center or machine center to define a filter."
     },
     {
       "no": 49,
       "name": "Capacity No. Filter",
-      "tooltip": ""
+      "tooltip": "Shows the filter that filters by work center or machine center, depending on the entry in the Capacity Type Filter field.\nIf the field contains a work center code, the values in the fields that contain quantities are based only on entries for the work center that is included in the filter.\nYou can enter a maximum of 20 characters, both numbers and letters. There are certain rules for how these can be combined:\n\n\nMeaning\n\n\nSample Expression\n\n\nIncluded\n\n\nEqual to\n\nPacking department\n\nEntries from the packing department work center\n\n\nInterval\n\n1..5\n\nEntries from work center 1 through 5\n\n\nEither/or\n\nPacking department / Machine department\n\nEntries that are from either packing department or machine department\n\n\nDifferent from\n\n<>1\n\nEntries from all work centers except work center 1"
     },
     {
       "no": 50,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains the starting and ending dates for a date interval, then other field values only show information for that interval. For example, the value in the Allocated Capacity Need field shows the allocated capacity need for a production order for that interval only.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 51,
       "name": "Expected Operation Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the expected operation costs amount.\nThe program automatically calculates the costs expected to produce the item.\nThe program calculates the expected operation cost amount by the entries in the table Prod. Order Routing Line in the Expected Operation Cost Amt. field"
     },
     {
       "no": 52,
       "name": "Expected Component Cost Amt.",
-      "tooltip": ""
+      "tooltip": "Specifies the expected component cost amount.\nThe program automatically calculates the costs expected for the components in this production order.\nThe field contents are displayed depending on the entry in the Date Filter field.\nThe program calculates the expected component cost amount based on the entries in the table Prod. Order Components in the Cost Amount field."
     },
     {
       "no": 55,
       "name": "Actual Time Used",
-      "tooltip": ""
+      "tooltip": "Specifies the actual time used.\nThe program automatically calculates the actual time used for this production order by the entries in the Capacity Ledger Entry table in the Quantity field.\nIf there is an entry in the Date Filter field, the actual time used are calculated within this date filter."
     },
     {
       "no": 56,
       "name": "Allocated Capacity Need",
-      "tooltip": ""
+      "tooltip": "Specifies the allocated capacity need.\nThe program automatically calculates and updates the contents of the field, using the Needed Time field in the Prod. Order Capacity Need table.\nYou can filter the allocated capacity need field in order that the contents are calculated only on the base of certain dates, capacity types, capacity numbers and/or work centers.\nTo see the prod order capacity need entries that make up the quantity shown, click the field."
     },
     {
       "no": 57,
       "name": "Expected Capacity Need",
-      "tooltip": ""
+      "tooltip": "Specifies the expected capacity need.\nThe program automatically calculates and updates the contents of the field, using the Needed Time field in the Prod. Order Capacity Need table.\nYou can filter the expected capacity need field in order that the contents are calculated only on the base of certain dates, capacity types, capacity numbers and/or work centers.\nTo see the production order capacity need entries that make up the quantity shown, click the field."
     },
     {
       "no": 80,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series that was used when this production order was created.\nIt is possible to create different number series, one of these number series can be selected in the Manufacturing Setup to determine which number series is to be used to create production orders.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 82,
       "name": "Planned Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the planned production order or the number that the order had during the planned status.\nIf a production order is or was created directly with the firm planned status, this field can be empty.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 83,
       "name": "Firm Planned Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the firm planned production order or the number that the order had during the firm planned status.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 85,
       "name": "Simulated Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the simulated production order or the number that the order had during the simulated status.\nYou cannot edit or delete the contents of this field."
     },
     {
       "no": 92,
       "name": "Expected Material Ovhd. Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the expected material overhead costs for this production order.\nThe program automatically calculates and updates the contents of the field using the entries in the Overhead Amount field in the Prod. Order Component table.\nTo see the Production Order Component Entries that make up the amount shown, click the field."
     },
     {
       "no": 94,
       "name": "Expected Capacity Ovhd. Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the expected capacity overhead cost for this production order.\nThe program automatically calculates and updates the contents of the field using the entries in the Expected Capacity Ovhd. Cost field in the Prod. Order Routing Line table.\nTo see the Production Order Routing Line Entries that make up the amount shown, click the field."
     },
     {
       "no": 95,
@@ -272,7 +272,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 7300,

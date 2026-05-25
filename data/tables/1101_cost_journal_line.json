@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal.\nThe field is retrieved from the Name field in the Cost Journal Template table."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the journal line.\nThis field is automatically filled in. It is used to keep track of various lines in the journal.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 4,
@@ -37,7 +37,7 @@
     {
       "no": 9,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the batch name of the cost journal.\nYou can select a new batch name from the available batch names or to create a new journal batch."
     },
     {
       "no": 11,
@@ -87,7 +87,7 @@
     {
       "no": 27,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is entered in the cost journal.\nThis field is not available on the page. It is filled with the Cost Journal Batch table and serves as an additional identification feature for the entry."
     },
     {
       "no": 29,
@@ -102,47 +102,47 @@
     {
       "no": 31,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 32,
       "name": "Cost Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the consecutive number that is assigned to the cost entry."
     },
     {
       "no": 33,
       "name": "Allocated",
-      "tooltip": ""
+      "tooltip": "Specifies whether the costs have been allocated."
     },
     {
       "no": 50,
       "name": "Allocation Description",
-      "tooltip": ""
+      "tooltip": "Specifies a description of the allocation."
     },
     {
       "no": 51,
       "name": "Allocation ID",
-      "tooltip": ""
+      "tooltip": "Specifies the allocation ID.\nThe field is used to identify the allocation and create the connection to the allocation targets."
     },
     {
       "no": 68,
       "name": "Additional-Currency Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field is designed to show the amount in additional reporting currency for the Cost Types Details and Cost Acctg. Journal reports."
     },
     {
       "no": 69,
       "name": "Add.-Currency Debit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the debit amount in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field is designed to show the debit amount in additional reporting currency for the Cost Types Details and Cost Acctg. Journal reports."
     },
     {
       "no": 70,
       "name": "Add.-Currency Credit Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the credit amount in additional reporting currency for cost accounting reports.\nIf you have set up Additional Reporting Currency in the General Ledger Setup window, the amount is transferred from the general ledger entry to the cost journal entry.\nThe field is designed to show the credit amount in additional reporting currency for the Cost Types Details and Cost Acctg. Journal reports."
     },
     {
       "no": 100,
       "name": "Budget Name",
-      "tooltip": ""
+      "tooltip": "Specifies whether budget entries or cost entries are used when you post allocated costs.\nWhen the Budget Name field is filled in, budget entries are used. When the field is blank, cost entries are used."
     }
   ]
 }

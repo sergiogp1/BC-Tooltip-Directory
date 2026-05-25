@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Code",
-      "tooltip": ""
+      "tooltip": "Specifies template data that is set up for dimensions and displayed in the Dimensions Template List window in connection with an item, customer, or vendor template."
     },
     {
       "no": 3,
@@ -27,17 +27,17 @@
     {
       "no": 50,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "Specifies template data that is set up for dimensions and displayed in the Dimensions Template List window in connection with an item, customer, or vendor template."
     },
     {
       "no": 51,
       "name": "Table Id",
-      "tooltip": ""
+      "tooltip": "Specifies template data that is set up for dimensions and displayed in the Dimensions Template List window in connection with an item, customer, or vendor template."
     },
     {
       "no": 52,
       "name": "Master Record Template Code",
-      "tooltip": ""
+      "tooltip": "Specifies template data that is set up for dimensions and displayed in the Dimensions Template List window in connection with an item, customer, or vendor template."
     }
   ]
 }

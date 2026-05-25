@@ -72,7 +72,7 @@
     {
       "no": 16,
       "name": "Resource Group No.",
-      "tooltip": ""
+      "tooltip": "Specifies the resource group number. If the line that this field belongs to contains a resource, then the program will automatically retrieve the resource group code from the resource card."
     },
     {
       "no": 17,
@@ -97,7 +97,7 @@
     {
       "no": 29,
       "name": "Last Date Modified",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the planning line was last modified."
     },
     {
       "no": 30,
@@ -112,12 +112,12 @@
     {
       "no": 33,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group. If the customer is assigned to a customer price group, the code from this field is filled in accordingly.\nThe code is used when entering the unit price for the item on the line. The program checks the Sales Price table, to see whether the customers in the price group for the code should pay a different price from the one that has been entered in the Unit Price field, on the item card.\nYou can modify this field only if Type is Item."
     },
     {
       "no": 79,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies the country code that is related to Intrastat reporting.\nTo see the country/region codes in the Country/Region table, choose the field."
     },
     {
       "no": 80,
@@ -132,7 +132,7 @@
     {
       "no": 83,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Contains the date on the document that provided the basis for this planning line.\nThe program will suggest the posting date, but you can change this date as necessary."
     },
     {
       "no": 84,
@@ -207,12 +207,12 @@
     {
       "no": 1008,
       "name": "Line Discount Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of the discount that applies to the planning line, in local currency.\nThe Line Discount Amount (LCY) is calculated using the Line Discount %, Quantity, and Unit Price (LCY) fields.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1015,
       "name": "Cost Factor",
-      "tooltip": ""
+      "tooltip": "Specifies the cost factor. If a cost factor has been set up for the resource, the item, or the G/L account on the planning line, that cost factor is copied to this field and determines the unit price for the line using the following formula: Unit Cost * Cost Factor = Unit Price.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1019,
@@ -247,12 +247,12 @@
     {
       "no": 1025,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "Contains the current exchange rate between the job currency and the local currency.\n\nYou cannot change the contents of this field.\n\nWhen Currency Factor is changed, then the cost or price related amounts are updated based on the Exch. Calculation set up for the job.\nFor more information, see Exch. Calculation (Cost) and Exch. Calculation (Price).\n\nThis field is used internally."
     },
     {
       "no": 1026,
       "name": "Schedule Line",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1027,
@@ -277,22 +277,22 @@
     {
       "no": 1037,
       "name": "VAT Unit Price",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1038,
       "name": "VAT Line Discount Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1039,
       "name": "VAT Line Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1041,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1042,
@@ -302,7 +302,7 @@
     {
       "no": 1043,
       "name": "Job Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the entry number of the related job ledger entry if the planning line is linked to a job ledger entry of type Sale."
     },
     {
       "no": 1048,
@@ -417,7 +417,7 @@
     {
       "no": 1101,
       "name": "Reserved Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Shows the quantity of the item that has been reserved, expressed in base units of measure.\nThis field is automatically updated when the Reserved Quantity field is updated."
     },
     {
       "no": 1102,
@@ -427,7 +427,7 @@
     {
       "no": 1103,
       "name": "Planned",
-      "tooltip": ""
+      "tooltip": "Indicates whether or not the job planning line is included in production calculations.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 5402,
@@ -442,7 +442,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies if the Type field contains Item and you have entered a quantity in the Qty. per Unit of Measure field in the Item Unit of Measure window for this item."
     },
     {
       "no": 5410,
@@ -452,12 +452,12 @@
     {
       "no": 5790,
       "name": "Requested Delivery Date",
-      "tooltip": ""
+      "tooltip": "Contains the date that the item was requested for delivery in the job order.\nInitially, the requested delivery date will update the value in the planned delivery date field. The planned delivery date can then be updated depending on supply and availability."
     },
     {
       "no": 5791,
       "name": "Promised Delivery Date",
-      "tooltip": ""
+      "tooltip": "Contains the date that you promised to deliver the item in the job."
     },
     {
       "no": 5794,

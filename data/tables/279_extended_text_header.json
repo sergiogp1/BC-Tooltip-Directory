@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the table that the extended text is linked to.\nTo see the tables that are available, choose the field.\nThe available tables are:\n\nTable\n\n\nDescription\n\n\nStandard Text\n\nSelect this table if you want to use the text with a standard text.\n\n\nG/L Account\n\nSelect this table if you want to use the text on a G/L Account.\n\n\nItem\n\nSelect this table if you want to use the text with an item description.\n\n\nResource\n\nSelect this table if you want to use the text with a Resource."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Shows the number or code of the item, account, resource or standard text that the extended text is linked to.\n\nThis field is used internally."
     },
     {
       "no": 3,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Text No.",
-      "tooltip": ""
+      "tooltip": "Shows the number that the program assigned to this text.\nThe program fills in the number automatically and uses the field to keep track of the various extended texts created for the item, account, resource or standard text."
     },
     {
       "no": 5,

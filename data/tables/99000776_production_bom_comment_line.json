@@ -7,22 +7,22 @@
     {
       "no": 1,
       "name": "Production BOM No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production BOM number that the comment refers to.\nThe program copies the production BOM number from the Production BOM No. field on the Production BOM Line."
     },
     {
       "no": 2,
       "name": "BOM Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the consecutive number of the BOM line to which the comment refers.\nThe program copies the BOM line number from the Line No. field on the Production BOM Line."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number.\nThe program uses the line number for the internal management of comment lines."
     },
     {
       "no": 4,
       "name": "Version Code",
-      "tooltip": ""
+      "tooltip": "Specifies the version code of the Production BOM line that this comment line refers to.\nThe program copies the version code from the Version Code field on the Production BOM Line."
     },
     {
       "no": 10,

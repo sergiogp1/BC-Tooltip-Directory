@@ -17,12 +17,12 @@
     {
       "no": 4,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of transaction that the source document is concerned with (for example, sales, purchase, and production).\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 5,
       "name": "Source Subtype",
-      "tooltip": ""
+      "tooltip": "Contains the source subtype of the document to which the posted inventory pick line relates.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 6,
@@ -32,12 +32,12 @@
     {
       "no": 7,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the source document that relates to this posted inventory pick line.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 8,
       "name": "Source Subline No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the source document subline that relates to this inventory pick line.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has already been posted."
     },
     {
       "no": 9,
@@ -57,7 +57,7 @@
     {
       "no": 13,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Contains the number that the program used internally to sort the inventory pick lines.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 14,
@@ -102,7 +102,7 @@
     {
       "no": 31,
       "name": "Shipping Advice",
-      "tooltip": ""
+      "tooltip": "Contains the shipping advice about whether a partial delivery was acceptable to the order recipient.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 34,
@@ -122,22 +122,22 @@
     {
       "no": 41,
       "name": "Whse. Activity No.",
-      "tooltip": ""
+      "tooltip": "Contains the warehouse activity number for the warehouse activity that the posted inventory pick is based upon.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 42,
       "name": "Shipping Agent Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the shipping agent that transported the items on this line.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has already been posted."
     },
     {
       "no": 43,
       "name": "Shipping Agent Service Code",
-      "tooltip": ""
+      "tooltip": "Contains the code (which applied to this line) for the service (for example, a one-day delivery) offered by the shipping agent.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has already been posted."
     },
     {
       "no": 44,
       "name": "Shipment Method Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the shipment method used for this activity line.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 6500,
@@ -152,7 +152,7 @@
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Contains the warranty date for the item that was picked.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 6503,
@@ -172,7 +172,7 @@
     {
       "no": 7301,
       "name": "Zone Code",
-      "tooltip": ""
+      "tooltip": "Contains the zone code for the zone in which item was pick.\nThe program copies this information from the inventory pick line. You cannot change this field because the pick has been posted."
     },
     {
       "no": 7305,

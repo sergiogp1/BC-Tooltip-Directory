@@ -67,7 +67,7 @@
     {
       "no": 13,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "Contains the description for the Job WIP G/L Entry. The description will be copied to the description for the related G/L Entry. The description includes whether it is a WIP, Recognition, or Completion posting, the Job No., and the Posting Date for the Job WIP G/L Entry."
     },
     {
       "no": 14,

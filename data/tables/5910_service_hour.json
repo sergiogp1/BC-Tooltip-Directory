@@ -37,7 +37,7 @@
     {
       "no": 7,
       "name": "Service Contract Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the contract. The following are the options: Contract or Quote.\n\n\nField\n\n\nDescription\n\n\nQuote\n\nIndicates a forerunner to a service contract in which your company makes an offer to the customer that needs customer approval before it is made into a service contract.\n\n\nContract\n\nIndicates an agreement made between your company and the customer that specifies the coverage and the terms of the service obligation.\n\n\nThis field is filled in automatically."
     }
   ]
 }

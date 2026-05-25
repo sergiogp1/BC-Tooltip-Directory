@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal template.\n\nMicrosoft Dynamics NAV automatically retrieves the name from the Name field in the Gen. Journal Template table."
     },
     {
       "no": 2,

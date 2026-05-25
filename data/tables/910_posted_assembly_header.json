@@ -17,12 +17,12 @@
     {
       "no": 4,
       "name": "Search Description",
-      "tooltip": ""
+      "tooltip": "Specifies the search description of the posted assembly item. The value is copied from the Search Description field on the assembly order header during posting."
     },
     {
       "no": 5,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Specifies the second description of the posted assembly item. The description is copied from the Description 2 field on the assembly order header during posting."
     },
     {
       "no": 9,
@@ -42,12 +42,12 @@
     {
       "no": 15,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the inventory account in the general ledger to which transactions from this posted assembly order are posted. The value is copied from the Inventory Posting Group field on the assembly order header during posting."
     },
     {
       "no": 16,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general product account in the general ledger to which transactions from this posted assembly order were posted. It is copied from the Gen. Prod. Posting Group field on the assembly order header during posting."
     },
     {
       "no": 17,
@@ -57,7 +57,7 @@
     {
       "no": 19,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies if a comment exists for the posted assembly order."
     },
     {
       "no": 20,
@@ -67,12 +67,12 @@
     {
       "no": 21,
       "name": "Shortcut Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the shortcut dimension 1 value that is related to the assembly item on the posted assembly order. The value is copied from the Shortcut Dimension 1 Code field on the assembly order header during posting."
     },
     {
       "no": 22,
       "name": "Shortcut Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the shortcut dimension 2 value that is related to the assembly item on the posted assembly order. The value is copied from the Shortcut Dimension 2 Code field on the assembly order header during posting."
     },
     {
       "no": 23,
@@ -102,7 +102,7 @@
     {
       "no": 39,
       "name": "Item Rcpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the item ledger entry that is associated with the reversal of the assembly order line during an undo assembly process."
     },
     {
       "no": 40,
@@ -112,7 +112,7 @@
     {
       "no": 41,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies how many assembly items, which are stated in the base unit of measure, were posted with this posted assembly order. The value is copied from the Assembled Quantity (Base) field on the assembly order header during posting."
     },
     {
       "no": 54,
@@ -132,12 +132,12 @@
     {
       "no": 75,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage of the posted assembly items direct unit cost that makes up indirect costs, such as freight and warehouse handling that are associated with the assembly of the item.\nThe value is copied from the Indirect Cost % field on the assembly order."
     },
     {
       "no": 76,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Specifies the indirect cost or overhead of the assembly item as an absolute amount on this posted assembly order. It is copied from the Overhead Rate field on the assembly order header during posting.\nThe amount is added to the items unit cost to reflect indirect costs, such as freight and warehouse handling that are associated with the assembly of the item."
     },
     {
       "no": 80,
@@ -147,7 +147,7 @@
     {
       "no": 81,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity per unit of measure of the assembly item on the posted assembly order. The value is copied from the Qty. per Unit of Measure field on the assembly order header during posting."
     },
     {
       "no": 100,
@@ -157,22 +157,22 @@
     {
       "no": 107,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series that is used to assign numbers in the No. field on the posted assembly order header."
     },
     {
       "no": 108,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the number series for posted assembly orders.\nThe number series is also used for records that reflect reversed assembly order postings. For more information, see How to: Undo Assembly Posting."
     },
     {
       "no": 109,
       "name": "Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series that is used to assign a number to the assembly order when it is posted.\nThe number is copied from the Posted Assembly Order Nos. field in the Assembly Setup window."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 9010,
@@ -182,7 +182,7 @@
     {
       "no": 9020,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code that is used to link entries to the posted assembly order.\nThe source code is copied from either the Sales field or the Deleted Document field in the Source Code Setup table."
     }
   ]
 }

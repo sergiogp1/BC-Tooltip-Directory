@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing number that the comment is created for.\nThe system copied the number from the Routing No. field on the routing line.\nBy entering this number the comment can be assigned exactly to this routing within the appropriate production order."
     },
     {
       "no": 2,
       "name": "Operation No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing operation number.\nThe system copied this number from the Operation No field on the routing line.\nBy entering this number, this comment can be assigned to exactly one operation within the production order routing."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the comment.\nThe program uses this field internally."
     },
     {
       "no": 10,
@@ -37,17 +37,17 @@
     {
       "no": 22,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order for whose routing line the comment was or is created.\nBy entering the status it is possible to enter different comments for a production order routing line in different planning phases or execution.\nExample: A routing is entered in a production order. The comment is entered for a line of this routing:\nThe production order contains the planned status: Text: Please note that Mr. Mueller is on holiday\nThe production order contains the firm planned status: Text: Before release .......\nThe production order contains the released status: Text: Check quality"
     },
     {
       "no": 23,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order number of the routing line that the comment is created for.\nBy entering this number the comment can be assigned uniquely to the routing operation of this production order."
     },
     {
       "no": 24,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nRefers to the routing number that is related to the production order line that this routing comment applies to.\nThe field contains a zero when the routing line is related to a family order where more production order lines share the same routing."
     }
   ]
 }

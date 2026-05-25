@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign to which the campaign entry is linked."
     },
     {
       "no": 3,
@@ -27,12 +27,12 @@
     {
       "no": 5,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who has created the campaign entry. The field is not editable, and is filled in automatically by the program."
     },
     {
       "no": 6,
       "name": "Segment No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the segment linked to the campaign entry. The field is not editable.\nThe program fills in this field when you log an interaction and a segment that are linked to this campaign."
     },
     {
       "no": 7,
@@ -57,17 +57,17 @@
     {
       "no": 12,
       "name": "Salesperson Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the salesperson who is responsible for the action linked to the campaign entry."
     },
     {
       "no": 13,
       "name": "Register No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the logged segment (if any) to which the campaign entry is linked."
     },
     {
       "no": 14,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document if there is one that the campaign entry records. You cannot change the contents of this field.\nThe following options are available.\n\n\nDocument Options\n\n\nSales Qte.\n\nSales Blnkt. Ord.\n\nSales Ord. Cnfrmn.\n\n\nSales Shpt. Note\n\nSales Cr. Memo\n\nSales Stmnt.\n\n\nSales Rmdr.\n\nServ. Ord. Create\n\nServ. Ord. Post\n\n\nPurch. Qte.\n\nPurch. Blnkt. Ord.\n\nPurch. Ord.\n\n\nPurch. Inv.\n\nPurch. Rcpt.\n\nPurch. Cr. Memo\n\n\nCover Sheet"
     }
   ]
 }

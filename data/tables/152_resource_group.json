@@ -17,77 +17,77 @@
     {
       "no": 22,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 23,
       "name": "Capacity",
-      "tooltip": ""
+      "tooltip": "Specifies the total capacity for this resource group. It is accumulated from the individual resources.\nYou can set a filter to see the capacity by date, unit of measure, and/or chargeable transactions."
     },
     {
       "no": 24,
       "name": "Qty. on Order (Job)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the capacity of the resource group is assigned to jobs with the status Order.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable transactions."
     },
     {
       "no": 25,
       "name": "Qty. Quoted (Job)",
-      "tooltip": ""
+      "tooltip": "Specifies how much of the capacity of the resource group is assigned to jobs with the status Quote.\nYou can set a filter to see the capacity by date, unit of measure, or chargeable transactions."
     },
     {
       "no": 26,
       "name": "Unit of Measure Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the filter that filters by a measuring unit.\nIf the field contains a unit of measure filter, the amounts in the following fields are filtered according to the relevant unit of measure:\nQty. on Order (Job)\n\nQty. Quoted (Job)\n\nUsage (Qty.)\n\nUsage (Cost)\n\nUsage (Price)\n\nSales (Qty.)\n\nSales (Cost)\n\nSales (Price)"
     },
     {
       "no": 27,
       "name": "Usage (Qty.)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on quantity, how much of the resources that are assigned to the corresponding resource group have been used. The amounts are accumulated from the individual resources. You can record resources usage in the resource journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 28,
       "name": "Usage (Cost)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on cost, how much of the resources that are assigned to the corresponding resource group have been used. The amounts are accumulated from the individual resources. You can record resources usage in the resource journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 29,
       "name": "Usage (Price)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on price, how much of the resources that are assigned to the corresponding resource group have been used. The amounts are accumulated from the individual resources. You can record resources usage in the resource journal by selecting Usage for the Entry Type field or in the job journal. All entries in the job journal are recorded as usage.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 30,
       "name": "Sales (Qty.)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on quantity, how much capacity of the resources that are assigned to the corresponding resource group has been sold. The amounts are accumulated from the individual resources. You can record resources sales in the resource journal by selecting Sales for the Entry Type field or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 31,
       "name": "Sales (Cost)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on cost, how much capacity of the resources that are assigned to the corresponding resource group has been sold. The amounts are accumulated from the individual resources. You can record resources sales in the resource journal by selecting Sales for the Entry Type field or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 32,
       "name": "Sales (Price)",
-      "tooltip": ""
+      "tooltip": "Specifies, based on prices, how much capacity of the resources that are assigned to the corresponding resource group has been sold. The amounts are accumulated from the individual resources. You can record resources sales in the resource journal by selecting Sales for the Entry Type field or in a sales invoice. All entries in the sales invoice are recorded as sales.\nYou can set a filter to see the capacity by date, unit of measure, and chargeable resource transactions."
     },
     {
       "no": 33,
       "name": "Chargeable Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the amounts of chargeable and nonchargeable transactions. You can use this field in connection with the Usage fields in this table.\nSelect to see only the chargeable usage or chargeable sales for a resource group. Clear to see only the nonchargeable usage or nonchargeable sales for a resource group. Leave the check box blank to see both chargeable and nonchargeable usage or nonchargeable sales for a resource group."
     },
     {
       "no": 34,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value code that the resource group is linked to.\nThe field is filled from a journal line or a document."
     },
     {
       "no": 35,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value code that the resource group is linked to.\nThe field is filled from a journal line or a document."
     },
     {
       "no": 36,
       "name": "No. of Resources Assigned",
-      "tooltip": ""
+      "tooltip": "Displays the number of resources that are contained in a resource group.\n\nAdditional Information\n\nTo add a resource to the group, on the Home tab, choose New Resource. You can review the list of resources included in a resource group. In the Resource Group table, choose the field. The Resource List window opens and lists the resources in the group."
     }
   ]
 }

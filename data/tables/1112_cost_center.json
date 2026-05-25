@@ -22,12 +22,12 @@
     {
       "no": 4,
       "name": "Cost Type Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the cost type. Choose the field to select the cost type."
     },
     {
       "no": 5,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval. The values in the Net Change and Balance at Date fields show the net change and balance during that interval.\nThe following tables show the rules for entering a date interval.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n15.12.2012\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n15.12.2012..15.01.2013\n..15.12.2012\n\nEntries that are posted on dates between and including December 15, 2012 and January 15, 2013.\nEntries that are posted on January 15, 2012 or earlier.\n\n\nEither/or\n\n15.12.2012|16.12.2012\n\nEntries that are posted on either December 15, 2012 or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n15.12.2012|01.12.2012..10.12.2012\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012 and December 10, 2012.\n\n\n..14.12.2012|30.12.2012..\n\nEntries that are posted on December 14, 2012 or earlier, or entries that are posted on December 30, 2012 or later, which includes all entries except those that are posted on dates between and including December 15, 2012 and December 29, 2012."
     },
     {
       "no": 6,
@@ -82,7 +82,7 @@
     {
       "no": 16,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the cost center is indented relative to the standard margin.\nThe field is filled in automatically when you select Indent Cost Centers in the Chart of Cost Centers window.\nThe New Page, Blank Line, and Indentation fields define the layout of the chart of cost centers."
     },
     {
       "no": 17,

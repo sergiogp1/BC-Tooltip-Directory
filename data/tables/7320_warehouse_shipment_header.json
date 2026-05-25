@@ -37,12 +37,12 @@
     {
       "no": 7,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that you selected for the program to use when it assigns a document number to a shipment header."
     },
     {
       "no": 11,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that someone has attached a comment to this warehouse shipment."
     },
     {
       "no": 12,
@@ -102,22 +102,22 @@
     {
       "no": 50,
       "name": "Create Posted Header",
-      "tooltip": ""
+      "tooltip": "This field is used internally.\n\nSpecifies that a posted warehouse receipt is made when the receipt is posted."
     },
     {
       "no": 61,
       "name": "Shipping No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is assigned from the shipment number series."
     },
     {
       "no": 62,
       "name": "Last Shipping No.",
-      "tooltip": ""
+      "tooltip": "Specifies the last number that was assigned from the shipment number series."
     },
     {
       "no": 63,
       "name": "Shipping No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the shipment number series."
     }
   ]
 }

@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Analysis Area",
-      "tooltip": ""
+      "tooltip": "Contains the application area of the analysis column template. The options are:\nSales: The analysis column template was set up for Sales & Receivables\nPurchase: The analysis column template was set up for Purchases & Payables\nInventory: The analysis column template was set up for Inventory"
     },
     {
       "no": 2,

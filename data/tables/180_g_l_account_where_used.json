@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -32,32 +32,32 @@
     {
       "no": 7,
       "name": "G/L Account No.",
-      "tooltip": ""
+      "tooltip": "Shows the account number of the G/L account that is used in the setup table."
     },
     {
       "no": 8,
       "name": "G/L Account Name",
-      "tooltip": ""
+      "tooltip": "Shows the account name of the G/L account that is used in the setup table."
     },
     {
       "no": 9,
       "name": "Key 1",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 10,
       "name": "Key 2",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 11,
       "name": "Key 3",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 12,
       "name": "Key 4",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     }
   ]
 }

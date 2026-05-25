@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Job No.",
-      "tooltip": ""
+      "tooltip": "Contains the job number for the job task for which a dimension has been set.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 2,
       "name": "Job Task No.",
-      "tooltip": ""
+      "tooltip": "Contains the job task number linked to the specified dimension."
     },
     {
       "no": 3,
@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Multiple Selection Action",
-      "tooltip": ""
+      "tooltip": "Specifies the action that can be taken with the multi selection of dimension values. There are three options:\nChange\n\nNever\n\nBlank\n\n\nThis field is used internally."
     }
   ]
 }

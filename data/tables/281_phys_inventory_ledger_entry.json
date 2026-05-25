@@ -42,7 +42,7 @@
     {
       "no": 9,
       "name": "Inventory Posting Group",
-      "tooltip": ""
+      "tooltip": "Shows which posting group was used when the ledger entry was posted.\nThe program fills in the field from the Inventory Posting Group field on the journal line."
     },
     {
       "no": 12,
@@ -77,7 +77,7 @@
     {
       "no": 22,
       "name": "Salespers./Purch. Code",
-      "tooltip": ""
+      "tooltip": "Shows the salesperson or purchaser who is linked to the ledger entry.\nThe program fills in the field from the Salespers./Purch. Code field on the journal line."
     },
     {
       "no": 24,
@@ -102,7 +102,7 @@
     {
       "no": 45,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal that the ledger entry was posted from.\nThe program fills in the field from the Journal Batch Name field on the journal line."
     },
     {
       "no": 46,
@@ -127,17 +127,17 @@
     {
       "no": 60,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on which you posted the Physical Inventory Journal that created this ledger entry.\nThe program fills in the field from the Document Date field on the journal line."
     },
     {
       "no": 61,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the external document number.\nThe program fills in the field from the External Document No. field on the journal line"
     },
     {
       "no": 64,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs."
     },
     {
       "no": 480,
@@ -182,17 +182,17 @@
     {
       "no": 5407,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Shows the unit of measure code.\nThe unit of measure code is copied from the Unit of Measure Code field on the item journal line."
     },
     {
       "no": 7380,
       "name": "Phys Invt Counting Period Code",
-      "tooltip": ""
+      "tooltip": "Contains a code for the physical inventory counting period if the program used the counting period functionality when it created the line."
     },
     {
       "no": 7381,
       "name": "Phys Invt Counting Period Type",
-      "tooltip": ""
+      "tooltip": "Indicates whether the physical inventory counting period used on the line is assigned to the stockkeeping unit (SKU) or to the item."
     }
   ]
 }

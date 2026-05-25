@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Usage",
-      "tooltip": ""
+      "tooltip": "Indicates what document type the report is valid for.\nSpecify the usage by choosing the field and selecting one of the options."
     },
     {
       "no": 2,

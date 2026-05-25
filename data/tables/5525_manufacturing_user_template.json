@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who last used the Make Supply Orders window."
     },
     {
       "no": 2,

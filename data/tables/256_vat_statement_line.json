@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Statement Template Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the VAT statement template.\nThe statement name is the name you gave the VAT statement template in the Name field of the VAT Statement Templates window."
     },
     {
       "no": 2,
       "name": "Statement Name",
-      "tooltip": ""
+      "tooltip": "Contains the name for the VAT statement.\nThe statement name is the name you gave the VAT statement in the Name field in the VAT Statement Names window.\nThe program completes this field automatically."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Displays the line number for the VAT statement line.\nWhen you set up a VAT statement line, the program automatically enters a unique identifying line number in the Line No. field."
     },
     {
       "no": 4,
@@ -82,7 +82,7 @@
     {
       "no": 16,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nYou cannot fill in this field when you define the VAT statement, but you can use the field to put a filter on when you print reports. If this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 17,

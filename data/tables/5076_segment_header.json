@@ -72,7 +72,7 @@
     {
       "no": 14,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the number series to use to assign numbers to segments."
     },
     {
       "no": 15,
@@ -87,12 +87,12 @@
     {
       "no": 17,
       "name": "Cost (LCY)",
-      "tooltip": ""
+      "tooltip": "Specifies the total cost of the interactions created for all the contacts within the segment. The field is not editable.\nThe program fills in this field by adding the costs specified on the segment lines.\nTo see a list of the interactions making up this total cost, click the field."
     },
     {
       "no": 18,
       "name": "Duration (Min.)",
-      "tooltip": ""
+      "tooltip": "Specifies the total duration in minutes of the interactions created for all the contacts within the segment. The field is not editable.\nThe program fills in this field by adding the durations specified on the segment lines.\nTo see a list of the interactions making up this total duration, click the field."
     },
     {
       "no": 19,
@@ -102,7 +102,7 @@
     {
       "no": 20,
       "name": "Interaction Group Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the interaction group for the segment."
     },
     {
       "no": 21,

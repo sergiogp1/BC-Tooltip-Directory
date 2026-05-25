@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table with the warehouse activity that the comment applies to.\n\nAdditional Information\n\nThe following tables are supported:\nWarehouse Activity Header\n\nWarehouse Receipt Header\n\nWarehouse Shipment Header\n\nWhse. Internal Put-away Header\n\nWhse. Internal Pick Header\n\nRegistered Whse. Activity Hdr.\n\nPosted Whse. Receipt Header\n\nPosted Whse. Shipment Header\n\nPosted Invt. Put-away Header\n\nPosted Invt. Pick Header\n\nRegistered Invt. Movement Hdr.\n\nInternal Movement Header"
     },
     {
       "no": 2,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of warehouse activity that the comment applies to.\nThe type is copied from the warehouse activity header."
     },
     {
       "no": 3,
@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number for the comment.\nWhen you create a comment for a warehouse document, a line number that is specific to the particular comment in the Line No. field is automatically entered."
     },
     {
       "no": 5,

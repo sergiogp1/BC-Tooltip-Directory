@@ -82,7 +82,7 @@
     {
       "no": 27,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Contains the status of the internal put-away line. The options are: <Blank>, Partially Put Away, Completely Put Away."
     },
     {
       "no": 29,
@@ -112,7 +112,7 @@
     {
       "no": 35,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Contains information about the order in which the internal put-away lines will appear. The program uses this field internally."
     },
     {
       "no": 36,
@@ -122,12 +122,12 @@
     {
       "no": 37,
       "name": "Cubage",
-      "tooltip": ""
+      "tooltip": "Specifies the cubage of the items on the line, calculated as quantity. Outstanding x Item Unit of Measure Cubage."
     },
     {
       "no": 38,
       "name": "Weight",
-      "tooltip": ""
+      "tooltip": "Specifies the weight of the items on the line, calculated as Qty. Outstanding x Item Unit of Measure Weight."
     }
   ]
 }

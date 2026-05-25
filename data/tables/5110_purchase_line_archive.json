@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 10,
@@ -72,7 +72,7 @@
     {
       "no": 16,
       "name": "Outstanding Quantity",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 17,
@@ -97,12 +97,12 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 26,
       "name": "Quantity Disc. %",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 27,
@@ -182,17 +182,17 @@
     {
       "no": 57,
       "name": "Outstanding Amount",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 58,
       "name": "Qty. Rcd. Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 59,
       "name": "Amt. Rcd. Not Invoiced",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 60,
@@ -207,22 +207,22 @@
     {
       "no": 63,
       "name": "Receipt No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 64,
       "name": "Receipt Line No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 67,
       "name": "Profit %",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 68,
       "name": "Pay-to Vendor No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 69,
@@ -232,17 +232,17 @@
     {
       "no": 70,
       "name": "Vendor Item No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 71,
       "name": "Sales Order No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 72,
       "name": "Sales Order Line No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 73,
@@ -262,37 +262,37 @@
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 81,
       "name": "Entry Point",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 85,
@@ -327,17 +327,17 @@
     {
       "no": 91,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 92,
       "name": "Outstanding Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 93,
       "name": "Amt. Rcd. Not Invoiced (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 97,
@@ -352,17 +352,17 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 101,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 103,
@@ -372,112 +372,112 @@
     {
       "no": 104,
       "name": "VAT Difference",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 105,
       "name": "Inv. Disc. Amount to Invoice",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 106,
       "name": "VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 107,
       "name": "IC Partner Ref. Type",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 108,
       "name": "IC Partner Reference",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 109,
       "name": "Prepayment %",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 110,
       "name": "Prepmt. Line Amount",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 111,
       "name": "Prepmt. Amt. Inv.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 112,
       "name": "Prepmt. Amt. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 113,
       "name": "Prepayment Amount",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 114,
       "name": "Prepmt. VAT Base Amt.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 115,
       "name": "Prepayment VAT %",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 116,
       "name": "Prepmt. VAT Calc. Type",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 117,
       "name": "Prepayment VAT Identifier",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 118,
       "name": "Prepayment Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 119,
       "name": "Prepayment Tax Liable",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 120,
       "name": "Prepayment Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 121,
       "name": "Prepmt Amt to Deduct",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 122,
       "name": "Prepmt Amt Deducted",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 123,
       "name": "Prepayment Line",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 124,
       "name": "Prepmt. Amount Inv. Incl. VAT",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 130,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 138,
@@ -492,7 +492,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1001,
@@ -587,12 +587,12 @@
     {
       "no": 5047,
       "name": "Version No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5048,
       "name": "Doc. No. Occurrence",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5402,
@@ -602,12 +602,12 @@
     {
       "no": 5403,
       "name": "Bin Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5407,
@@ -617,102 +617,102 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5416,
       "name": "Outstanding Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the outstanding quantity on the archived purchase order, expressed in the base units of measure."
     },
     {
       "no": 5417,
       "name": "Qty. to Invoice (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5418,
       "name": "Qty. to Receive (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5458,
       "name": "Qty. Rcd. Not Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5460,
       "name": "Qty. Received (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5600,
       "name": "FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5601,
       "name": "FA Posting Type",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5602,
       "name": "Depreciation Book Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5603,
       "name": "Salvage Value",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5605,
       "name": "Depr. until FA Posting Date",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5606,
       "name": "Depr. Acquisition Cost",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5609,
       "name": "Maintenance Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5610,
       "name": "Insurance No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5611,
       "name": "Budgeted FA No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5612,
       "name": "Duplicate in Depreciation Book",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5613,
       "name": "Use Duplication List",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5710,
@@ -722,22 +722,22 @@
     {
       "no": 5711,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5713,
       "name": "Special Order",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5714,
       "name": "Special Order Sales No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5715,
       "name": "Special Order Sales Line No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5725,
@@ -762,7 +762,7 @@
     {
       "no": 5752,
       "name": "Completely Received",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5790,
@@ -807,27 +807,27 @@
     {
       "no": 5804,
       "name": "Return Qty. to Ship (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5805,
       "name": "Return Qty. Shipped Not Invd.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5806,
       "name": "Ret. Qty. Shpd Not Invd.(Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5807,
       "name": "Return Shpd. Not Invd.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5808,
       "name": "Return Shpd. Not Invd. (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 5809,
@@ -837,7 +837,7 @@
     {
       "no": 5810,
       "name": "Return Qty. Shipped (Base)",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 6200,
@@ -862,12 +862,12 @@
     {
       "no": 6600,
       "name": "Return Shipment No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 6601,
       "name": "Return Shipment Line No.",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 6608,
@@ -887,12 +887,12 @@
     {
       "no": 99000755,
       "name": "Overhead Rate",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 99000756,
       "name": "MPS Order",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     },
     {
       "no": 99000757,
@@ -902,7 +902,7 @@
     {
       "no": 99000758,
       "name": "Safety Lead Time",
-      "tooltip": ""
+      "tooltip": "Contains information about sales quotes, purchase quotes, or orders in earlier versions of the document.\nThe information is stored when you archive a sales quote, purchase quote, or order. The information is copied from the Sales Header or Purchase Header table.\nFor more information, see Help for the related field."
     }
   ]
 }

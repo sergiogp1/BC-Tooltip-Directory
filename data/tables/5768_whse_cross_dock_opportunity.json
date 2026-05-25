@@ -7,62 +7,62 @@
     {
       "no": 1,
       "name": "Source Template Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
       "name": "Source Name/No.",
-      "tooltip": ""
+      "tooltip": "Specifies the warehouse receipt number for which the cross-dock opportunity has been calculated."
     },
     {
       "no": 3,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the warehouse receipt line to which the cross-dock opportunity relates."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the cross-dock opportunity."
     },
     {
       "no": 5,
       "name": "From Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of inbound document from which the items that can be cross-docked originated. These items can include a purchase order or a sales return order."
     },
     {
       "no": 6,
       "name": "From Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the subtype of the inbound document that can use the cross-docked items.\nIf the entry is created for a purchase document, then the value in the Document Type field on the document line is copied to this field.\nIf the entry is created for an inbound transfer, then the field contains 1."
     },
     {
       "no": 7,
       "name": "From Source No.",
-      "tooltip": ""
+      "tooltip": "Specifies the source number of the document from which the items to be cross-docked originated.\nThis field is copied from the No. field of the source document."
     },
     {
       "no": 8,
       "name": "From Source Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the source document from which the items to be cross-docked originated."
     },
     {
       "no": 9,
       "name": "From Source Subline No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the document line on the inbound source document that is copied to the outbound document line in this cross dock activity."
     },
     {
       "no": 10,
       "name": "From Source Document",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that the items to be cross-docked came from, such as a purchase order or a sales return order."
     },
     {
       "no": 11,
       "name": "To Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document for which the cross-docked items could be used, such as a sales order, an outbound transfer, or a production order."
     },
     {
       "no": 12,
       "name": "To Source Subtype",
-      "tooltip": ""
+      "tooltip": "Specifies the subtype of the outbound document that can use the cross-docked items.\nIf the entry is created for a sales document, then the value in the Document Type field on the document line is copied to this field.\nIf the entry is created for a production order, then the field shows the status of the production order.\nIf the entry is created for an outbound transfer, then the field contains 0."
     },
     {
       "no": 13,
@@ -72,12 +72,12 @@
     {
       "no": 14,
       "name": "To Source Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the source document for which the cross-dock opportunity line can be used."
     },
     {
       "no": 15,
       "name": "To Source Subline No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the document line on the outbound source document that is copied from the inbound document line in this cross dock activity."
     },
     {
       "no": 16,
@@ -177,12 +177,12 @@
     {
       "no": 44,
       "name": "Picked Qty.",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the item that has been registered as picked for the source document line."
     },
     {
       "no": 45,
       "name": "Picked Qty. (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of the item that has been registered as picked for the source document line. The quantity is in the base unit of measure."
     }
   ]
 }

@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the table that the extended text is linked to.\nThe program fills in the field from the Table Name field on the Extended Text header."
     },
     {
       "no": 2,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Shows the number or code of the item, account, resource or standard text that the extended text is linked to.\nThe program fills in the field from the No. field on the Extended Text header."
     },
     {
       "no": 3,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Shows the language code of the extended text.\nThe program fills in the field from the Language Code field on the Extended Text header."
     },
     {
       "no": 4,
       "name": "Text No.",
-      "tooltip": ""
+      "tooltip": "Shows the number that the program assigned to this text.\nThe program fills in the field from the Text No. field on the Extended Text header."
     },
     {
       "no": 5,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the line on which the cursor is placed.\nThe program uses this field internally."
     },
     {
       "no": 6,

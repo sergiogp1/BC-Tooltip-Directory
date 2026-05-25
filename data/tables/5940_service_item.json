@@ -27,7 +27,7 @@
     {
       "no": 5,
       "name": "Description 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional description of the service item."
     },
     {
       "no": 6,
@@ -137,7 +137,7 @@
     {
       "no": 28,
       "name": "No. of Active Contracts",
-      "tooltip": ""
+      "tooltip": "Specifies the number of currently active service contracts that this service item belongs to."
     },
     {
       "no": 33,
@@ -157,7 +157,7 @@
     {
       "no": 47,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that the program uses to assign the number of the service item."
     },
     {
       "no": 48,
@@ -237,42 +237,42 @@
     {
       "no": 63,
       "name": "Usage (Cost)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of service usage based on the unit cost for this service item.\nThe program automatically calculates and updates the contents of this field using the Cost Amount field in the Service Ledger Entry table."
     },
     {
       "no": 64,
       "name": "Usage (Amount)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of service usage for this service item.\nThe program automatically calculates and updates the contents of this field using the Amount field in the Service Ledger Entry table."
     },
     {
       "no": 65,
       "name": "Invoiced Amount",
-      "tooltip": ""
+      "tooltip": "Contains the invoiced service amount for this service item.\nThe program automatically calculates and updates the contents of this field using the Amount field in the Service Ledger Entry table."
     },
     {
       "no": 66,
       "name": "Total Quantity",
-      "tooltip": ""
+      "tooltip": "Contains the total quantity of service usage for this service item.\nThe program automatically calculates and updates the contents of this field using the Quantity field in the Service Ledger Entry table."
     },
     {
       "no": 67,
       "name": "Total Qty. Invoiced",
-      "tooltip": ""
+      "tooltip": "Contains the total quantity of service usage that has been invoiced for this service item.\nThe program automatically calculates and updates the contents of this field using the Charged Qty. field in the Service Ledger Entry table."
     },
     {
       "no": 68,
       "name": "Resources Used",
-      "tooltip": ""
+      "tooltip": "Contains the amount of service usage based on resource cost for this service item.\nThe program automatically calculates and updates the contents of this field using the Cost Amount field in the Service Ledger Entry table."
     },
     {
       "no": 69,
       "name": "Parts Used",
-      "tooltip": ""
+      "tooltip": "Contains the amount of spare part cost based on the service usage for this service item.\nThe program automatically calculates and updates the contents of this field using the Cost Amount field in the Service Ledger Entry table."
     },
     {
       "no": 70,
       "name": "Cost Used",
-      "tooltip": ""
+      "tooltip": "Contains the amount of service usage based on service cost for this service item.\nThe program automatically calculates and updates the contents of this field using the Cost Amount field in the Service Ledger Entry table."
     },
     {
       "no": 71,
@@ -287,7 +287,7 @@
     {
       "no": 73,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies that there is a comment for this service item."
     },
     {
       "no": 74,
@@ -312,12 +312,12 @@
     {
       "no": 78,
       "name": "Ship-to County",
-      "tooltip": ""
+      "tooltip": "Contains the country/region of the customer's shipping address.\nThe program retrieves the code automatically from the Customer table when the Ship-to Code field is filled in.\nThe program uses the Ship-to Country/Region Code field to format all ship-to address fields on printouts."
     },
     {
       "no": 79,
       "name": "Contract Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the contract cost that is associated with the service item. This is a calculated field."
     },
     {
       "no": 81,
@@ -327,12 +327,12 @@
     {
       "no": 82,
       "name": "Ship-to Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Contains the country/region code of the customer's shipping address.\nThe program retrieves the code automatically from the Ship-to Address table when you fill in the Ship-to Code field.\nThe program uses the ship-to country/region code to format all ship-to address fields on printouts."
     },
     {
       "no": 83,
       "name": "Name 2",
-      "tooltip": ""
+      "tooltip": "Contains an additional name for the customer that owns the service item.\nThe program copies the name automatically from the Customer table when you fill in the Customer No. field."
     },
     {
       "no": 84,
@@ -352,7 +352,7 @@
     {
       "no": 87,
       "name": "Prepaid Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total prepaid amount for the service item. This is the amount that has been posted from prepaid contracts containing the service item to the prepaid account and has not been moved to the G/L accounts yet.\nWhen you invoice a service contract that is marked as prepaid, the program posts the amounts to the prepaid account and creates service ledger entries.\nThe program automatically calculates and updates the contents of this field, using the Amount field in the Service Ledger Entry table."
     },
     {
       "no": 88,
@@ -367,42 +367,42 @@
     {
       "no": 90,
       "name": "Total Qty. Consumed",
-      "tooltip": ""
+      "tooltip": "Contains the total quantity of service usage that has been consumed for this service item.\nThe program automatically calculates and updates the contents of this field using the Quantity field in the Service Ledger Entry table."
     },
     {
       "no": 100,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Contains a date filter.\nIf this field contains the starting and ending dates for a time period, fields such as Usage (Cost), Usage (Amount) and Total Quantity will display information for that time period only.\nYou can enter a date or a time interval. There are certain rules for how dates should be entered."
     },
     {
       "no": 101,
       "name": "Type Filter",
-      "tooltip": ""
+      "tooltip": "Contains a type filter. There are five options: Blank, Resource, Item, Service Cost and Service Contract.\nFor example, if this field contains the option Resource, fields such as Usage (Amount), Invoiced Amount and Total Quantity only display information related to service ledger entries with that particular type."
     },
     {
       "no": 102,
       "name": "Contract Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service contract filter.\nIf this field contains a service contract number, fields such as Usage (Amount), Invoiced Amount and Total Quantity will only display information linked to that particular contract."
     },
     {
       "no": 103,
       "name": "Service Order Filter",
-      "tooltip": ""
+      "tooltip": "Contains a service order filter.\nIf this field contains a service order number, fields such as Usage (Amount), Invoiced Amount and Total Quantity only display information linked to that particular service order."
     },
     {
       "no": 104,
       "name": "Sales/Serv. Shpt. Document No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the shipment document in which this service item was first registered as a service item.\nThis field is used internally by the program."
     },
     {
       "no": 105,
       "name": "Sales/Serv. Shpt. Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line in the shipment document which contains the service item.\nThis field is used internally by the program."
     },
     {
       "no": 106,
       "name": "Shipment Type",
-      "tooltip": ""
+      "tooltip": "Indicates the type of the shipment, sales or service, in which the service item was first registered as such.\nThe program uses this field internally."
     },
     {
       "no": 211,

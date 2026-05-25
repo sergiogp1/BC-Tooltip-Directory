@@ -52,7 +52,7 @@
     {
       "no": 10,
       "name": "Business Unit Filter",
-      "tooltip": ""
+      "tooltip": "Specifies a business unit filter to specify that only entries posted to particular business units are to be included in an analysis view. To select among the business unit codes in the Business Units window, choose the field.\nYou can enter business unit codes, using a maximum of 250 characters, both numbers and letters. There are specific rules for how these can be combined:\n\nMeaning\nSample Expression\nIncluded\n\nEqual to\n\n1\n\nEntries from Business Unit 1 (the code can be letters instead of numbers)\n\n\nInterval\n\n1..5\n\nEntries from Business Units 1 through 5\n\n\nEither/or\n\n1|2\n\nEntries from Business Unit 1 or 2\n\n\nDifferent from\n\n<>1\n\nAll entries except those belonging to Business Unit 1"
     },
     {
       "no": 11,
@@ -92,7 +92,7 @@
     {
       "no": 18,
       "name": "Refresh When Unblocked",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 19,

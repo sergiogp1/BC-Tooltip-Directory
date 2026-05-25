@@ -52,22 +52,22 @@
     {
       "no": 10,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the Tax Group Code from the sales or purchase lines."
     },
     {
       "no": 11,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Contains the sum of quantities from the sales or purchase lines."
     },
     {
       "no": 12,
       "name": "Modified",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 13,
       "name": "Use Tax",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 14,
@@ -82,17 +82,17 @@
     {
       "no": 16,
       "name": "Positive",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 17,
       "name": "Includes Prepayment",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 18,
       "name": "VAT Clause Code",
-      "tooltip": ""
+      "tooltip": "Specifies the VAT Clause Code that is associated with the sales line information that is described in statistics windows and printed documents."
     },
     {
       "no": 19,

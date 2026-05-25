@@ -12,7 +12,7 @@
     {
       "no": 2,
       "name": "Location Name",
-      "tooltip": ""
+      "tooltip": "Contains the name of the location.\nThe program fills in this field automatically when the Location Code field is filled in. The program uses the information from the Location table."
     },
     {
       "no": 3,

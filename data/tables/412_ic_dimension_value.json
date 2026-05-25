@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Dimension Code",
-      "tooltip": ""
+      "tooltip": "Contains the code for the dimension that the dimension value belongs to.\nThe Map-to Dimension Code field contains the code of the dimension in your company that corresponds to this intercompany dimension code."
     },
     {
       "no": 2,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Indentation",
-      "tooltip": ""
+      "tooltip": "Specifies how many spaces the text field for the dimension value is indented relative to the standard margin.\nThe field is filled in automatically when you click Actions, point to Functions, and then click Indent IC Dimension Values.\nYou can enter something in the field, but the contents will be replaced the next time you click Indent IC Dimension Values. Therefore, if you want a bigger indentation, add blank spaces with the spacebar before you enter the text."
     }
   ]
 }

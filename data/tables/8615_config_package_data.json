@@ -12,17 +12,17 @@
     {
       "no": 2,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID for the table that is part of the migration process.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 3,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the migration record.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 4,
       "name": "Field ID",
-      "tooltip": ""
+      "tooltip": "Specifies the number ID of the field in the migration table. All available fields are listed.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 5,
@@ -32,7 +32,7 @@
     {
       "no": 6,
       "name": "Invalid",
-      "tooltip": ""
+      "tooltip": "Specifies whether the data in the migration field is valid. If it is not valid, then you can review the associated error in the Config. Package Errors window."
     },
     {
       "no": 7,

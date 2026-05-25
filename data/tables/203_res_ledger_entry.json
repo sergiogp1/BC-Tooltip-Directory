@@ -112,7 +112,7 @@
     {
       "no": 23,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the journal where the entry was posted.\nThe name is copied from the Journal Batch Name field on the journal line.\nYou cannot change the name because the entry has been posted."
     },
     {
       "no": 24,
@@ -122,47 +122,47 @@
     {
       "no": 25,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general business posting group that applies to the entry."
     },
     {
       "no": 26,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the general product posting group that applies to the entry."
     },
     {
       "no": 27,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Specifies an alternative to the posting date. This is useful, when you intend to specify a date other than the posting date. The field contains the posting date as a default."
     },
     {
       "no": 28,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the external document number for this entry.\nIf the entry was posted from a journal line, the number is copied from the External Document No. field on the journal line.\nYou cannot change the external document number because the entry has already been posted."
     },
     {
       "no": 29,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series to which the document number on this entry belongs.\nYou cannot change the No. Series field because the entry has been posted."
     },
     {
       "no": 30,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Specifies the source type that applies to the source number shown in the Source No. field.\nIf the entry was posted from a resource journal line, the field is blank.\nIf the entry was posted from a sales line, the field contains Customer."
     },
     {
       "no": 31,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "Specifies where the entry originates from.\nIf the entry was posted from a resource journal line, the field is empty.\nIf the entry was posted from an order, invoice, or credit memo, the sell-to customer number is copied from the sales line to the field."
     },
     {
       "no": 32,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Specifies the base quantity per resource base unit of measure specified in the Qty. per Unit of Measure field."
     },
     {
       "no": 33,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the posted quantity that is calculated into base unit of measure."
     },
     {
       "no": 34,
@@ -172,17 +172,17 @@
     {
       "no": 90,
       "name": "Order Type",
-      "tooltip": ""
+      "tooltip": "Shows which type of order that the entry was created in. You can select from the following options:\n\n<Blank> when the entry comes from any other transaction than the following options\n\nProduction\n\nTransfer\n\nService\n\nAssembly"
     },
     {
       "no": 91,
       "name": "Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the order that created the entry.\nThe type of order is defined by the related Order Type field."
     },
     {
       "no": 92,
       "name": "Order Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the order that created the entry.\nThe type of order is defined by the related Order Type field."
     },
     {
       "no": 480,

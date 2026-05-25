@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Contract Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the service contract. There are three options: Quote, Contract, or Template.\nThe program copies the contents of this field from the Contract Type field in the Service Contract Header table."
     },
     {
       "no": 2,
       "name": "Contract No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service contract.\nThe program copies the contents of this field from the Contract No. field in the Service Contract Header table."
     },
     {
       "no": 4,

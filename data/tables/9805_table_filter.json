@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Table Number",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the table on which a security filter is set."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
       "name": "Table Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the table on which a security filter is set."
     },
     {
       "no": 5,
@@ -27,7 +27,7 @@
     {
       "no": 6,
       "name": "Field Name",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the field on which a security filter is set."
     },
     {
       "no": 7,

@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the troubleshooting.\nThe program copies the number from the No. field in the Troubleshooting Header table when you insert a troubleshooting line."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different troubleshooting lines."
     },
     {
       "no": 3,

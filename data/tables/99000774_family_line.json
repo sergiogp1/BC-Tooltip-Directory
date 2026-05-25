@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Family No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the product family for which the family line is created.\nThe program copies the family number automatically from the No. field or the Family table."
     },
     {
       "no": 2,
@@ -42,7 +42,7 @@
     {
       "no": 25,
       "name": "Low-Level Code",
-      "tooltip": ""
+      "tooltip": "Specifies the low-level code of the item in the item family."
     }
   ]
 }

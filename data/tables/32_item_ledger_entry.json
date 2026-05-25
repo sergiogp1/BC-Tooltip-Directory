@@ -112,47 +112,47 @@
     {
       "no": 50,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the code for the transaction type of the entry.\nThe field can be filled in from the following fields:\nIf the entry was posted from an item journal line, the transaction type is copied from the Transaction Type field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the transaction type is copied from the Transaction Type field on the sales or purchase line.\nThe field is used in reporting to INTRASTAT."
     },
     {
       "no": 51,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Shows the code for the entry's transport method.\nThe field can be filled in from the following fields:\n\nIf the entry was posted from an item journal line, the code is copied from the Transport Method field on the journal line.\n\n\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Transport Method field on the sales or purchase line.\n\n\nThe field is used in reporting to INTRASTAT."
     },
     {
       "no": 52,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the country/region code for the customer or vendor to which the item entry is linked.\nThe field can be filled in from the following fields:\nIf the entry was posted from an item journal line, the code is copied from the Country/Region Code field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the VAT Country/Region Code field on the sales or purchase header.\nThe country/region code is used in the reporting of INTRASTAT and EU VAT information."
     },
     {
       "no": 59,
       "name": "Entry/Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of either the port of entry at which the items passed into your country/region or the port of exit through which you shipped the items out of your country/region.\nThe program fills in the field in one of the following ways:\nIf the entry was posted from an item journal line, the code is copied from the Entry/Exit Point field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Exit Point field on the sales header or the Entry Point field on the purchase header."
     },
     {
       "no": 60,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Shows the date on the document that provided the basis for this item entry.\nThe program fills in the field in one of the following ways:\nIf the entry was posted from a journal line, the date is copied from the Document Date field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the date is copied from the Document Date field on the sales or purchase header."
     },
     {
       "no": 61,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Shows the external document number for this entry.\nIf the entry was posted from a journal line, the number is copied from the External Document No. field on the journal line.\nIf the entry was posted from a sales order, invoice or credit memo, the number is copied from the External Document No. on the sales header."
     },
     {
       "no": 62,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area of the customer or vendor with which you traded the items in this entry.\nThe field can be filled in from the following fields:\nIf the entry was posted from an item journal line, the code is copied from the Area field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Area field on the sales or purchase line.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal."
     },
     {
       "no": 63,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction specification of the entry.\nThe field can be filled in from the following fields:\nIf the entry was posted from an item journal line, the transaction specification code is copied from the Transaction Specification field on the journal line.\nIf the entry was posted from an order, invoice or credit memo, the code is copied from the Transaction Specification field on the sales or purchase line.\nThe code is used for reporting to INTRASTAT and will appear on the Intrastat Journal."
     },
     {
       "no": 64,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series to which the document number on this entry belongs."
     },
     {
       "no": 70,
@@ -237,7 +237,7 @@
     {
       "no": 1002,
       "name": "Job Purchase",
-      "tooltip": ""
+      "tooltip": "Specifies if the entry relates to a purchase for a job."
     },
     {
       "no": 5402,
@@ -257,37 +257,37 @@
     {
       "no": 5408,
       "name": "Derived from Blanket Order",
-      "tooltip": ""
+      "tooltip": "Specifies whether you posted the entry from a sales order that is connected to a blanket sales order.\nThe program fills in this field automatically, and it is not editable."
     },
     {
       "no": 5701,
       "name": "Originally Ordered No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item that was originally ordered."
     },
     {
       "no": 5702,
       "name": "Originally Ordered Var. Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the variant that was originally ordered."
     },
     {
       "no": 5703,
       "name": "Out-of-Stock Substitution",
-      "tooltip": ""
+      "tooltip": "Specifies that this the originally ordered item was out of stock.The program uses this field internally."
     },
     {
       "no": 5704,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the item category code for the item on this line."
     },
     {
       "no": 5705,
       "name": "Nonstock",
-      "tooltip": ""
+      "tooltip": "Specifies that the item on the line is a nonstock item (an item not normally kept in inventory).\nThe program copies the contents of the nonstock item field from the Nonstock field in the Sales Line table.\nYou cannot make changes to the contents of the this because the shipment has already been posted."
     },
     {
       "no": 5706,
       "name": "Purchasing Code",
-      "tooltip": ""
+      "tooltip": "Contains the purchasing code for the item, which indicates the actions that were taken to purchase the item.\nThe program copies the purchasing code from the Purchasing Code field in the Sales Line table.\nYou cannot make changes to the contents of the this field because the shipment has already been posted."
     },
     {
       "no": 5725,
@@ -302,7 +302,7 @@
     {
       "no": 5801,
       "name": "Last Invoice Date",
-      "tooltip": ""
+      "tooltip": "Shows the date of the latest posting of this entry. The date is used for revaluing items.\nIt is only used internally by the program."
     },
     {
       "no": 5802,
@@ -342,12 +342,12 @@
     {
       "no": 5813,
       "name": "Purchase Amount (Expected)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of purchase amounts that are posted as received but not invoiced."
     },
     {
       "no": 5814,
       "name": "Purchase Amount (Actual)",
-      "tooltip": ""
+      "tooltip": "Specifies the sum of purchase amounts that are posted as received and invoiced."
     },
     {
       "no": 5815,
@@ -362,7 +362,7 @@
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies if the item ledger entry was posted as a corrective entry, for example in connection with a return process or after using the Undo Receipt, Undo Shipment, Undo Assembly, or Undo Service Consumption functions.\nIn case of sales return, the value is copied from the Correction field on the returned sales order that has been reversed."
     },
     {
       "no": 5818,
@@ -412,7 +412,7 @@
     {
       "no": 6510,
       "name": "Item Tracking",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use. The purpose of the field is to make it easier to filter the entries with item tracking.\nThe field is updated automatically. It specifies whether the field carries item tracking and if so, whether it carries a lot number, a serial number, or both a lot and serial number."
     },
     {
       "no": 6515,

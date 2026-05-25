@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal template.\nThe program automatically retrieves the name from the Name field in the General Journal Template table."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the journal line's entry number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 3,
@@ -82,12 +82,12 @@
     {
       "no": 17,
       "name": "Balance (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the journal line's balance.\nIf the journal line contains only one entry, the balance will consist of this entry. If a balancing account has been entered on the journal line, the balance will be 0."
     },
     {
       "no": 18,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 19,
@@ -137,12 +137,12 @@
     {
       "no": 29,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Shows the source code that has been entered on the journal template.\nThe program automatically retrieves the source code from the Source Code field in the General Journal Template table.\nThe source code is automatically inserted on all journals that are created under the journal template."
     },
     {
       "no": 30,
       "name": "System-Created Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 31,
@@ -197,7 +197,7 @@
     {
       "no": 45,
       "name": "VAT Posting",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 47,
@@ -217,7 +217,7 @@
     {
       "no": 51,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal.\nThe program automatically retrieves the name from the Name field in the General Journal Template table."
     },
     {
       "no": 52,
@@ -262,7 +262,7 @@
     {
       "no": 60,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Shows the VAT calculation type that the program will use when this entry is posted.\nThe program fills in the field automatically by using the VAT Posting Setup table.\nTo see the available options, choose the field.\n\n\nOption\n\n\nDescription\n\n\nNormal VAT\n\nWith this option, the program calculates VAT for items on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when you trade with other countries/regions within the EU where the purchaser must compute and settle VAT accounts with the tax authorities.\nRemember to also fill in the Reverse Chrg. VAT Acc. field.This option has no effect on your company's financial statements. When you sell goods with reverse charge VAT, you neither calculate nor withhold VAT. When you purchase goods, the program will calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount you want to post consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used if the program must calculate US sales tax instead of VAT."
     },
     {
       "no": 61,
@@ -272,7 +272,7 @@
     {
       "no": 62,
       "name": "Allow Application",
-      "tooltip": ""
+      "tooltip": "Specifies whether the journal line can be applied to if you use the Balance recurring method.\nIf you want to allow application, insert a check mark in the field."
     },
     {
       "no": 63,
@@ -297,12 +297,12 @@
     {
       "no": 67,
       "name": "Bal. VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Shows the VAT calculation type that the program will use for the balancing account on this journal line when this entry is posted.\nThe program fills in the field automatically by using the VAT Posting Setup table.\nTo see the available options, choose the field.\nThe following table describes the options.\n\n\nOption\n\n\nDescription\n\n\nNormal VAT\n\nWith this option, Microsoft Dynamics NAV the program calculates VAT for items on this line and creates a VAT ledger entry including the amount.\n\n\nReverse Charge VAT\n\nThis option is used when you trade with other countries/regions within the EU where the purchaser must compute and settle VAT accounts with the tax authorities.\nRemember to also fill in the Reverse Chrg. VAT Acc. field. This option has no effect on your company's financial statements. When you sell goods with reverse charge VAT, you neither calculate nor withhold VAT. When you purchase goods, Microsoft Dynamics NAVwill calculate the VAT amount and debit the purchase VAT account and credit the reverse charge VAT account.\n\n\nFull VAT\n\nThis option is used when the amount to be posted consists entirely of VAT. This option can be useful if, for example, you make a corrective entry in order to correct a VAT calculation error.\n\n\nSales Tax\n\nThis option is used if Microsoft Dynamics NAV must calculate US sales tax instead of VAT."
     },
     {
       "no": 68,
       "name": "Bal. VAT %",
-      "tooltip": ""
+      "tooltip": "Shows the Bal. VAT percentage that will be used on the journal line.\nThe program automatically retrieves the VAT percentage from the VAT Posting Setup table when the Bal. VAT Bus. Posting Group and Bal. VAT Prod. Posting Group fields are filled in."
     },
     {
       "no": 69,
@@ -317,12 +317,12 @@
     {
       "no": 71,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total net amount (amount excluding VAT) that the journal line consists of."
     },
     {
       "no": 72,
       "name": "Bal. VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Shows the total balance net amount (amount excluding VAT) that the journal line consists of."
     },
     {
       "no": 73,
@@ -352,17 +352,17 @@
     {
       "no": 78,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated.\n\nThe field displays the type of ledger entry that is the source for this entry. If the field is blank, the source is a G/L account ledger entry."
     },
     {
       "no": 79,
       "name": "Source No.",
-      "tooltip": ""
+      "tooltip": "This field is automatically updated.\n\nIf the source for this entry is a customer, vendor, bank account or fixed asset ledger entry, the number in the field will be the number of the Customer, Vendor, Bank Account or Fixed Asset, respectively. If the source is a G/L entry, the field is empty."
     },
     {
       "no": 80,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, choose the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will also be used on the posted line."
     },
     {
       "no": 82,
@@ -387,22 +387,22 @@
     {
       "no": 86,
       "name": "Bal. Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax area code group associated with the balancing account that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Bal. Tax Liable field, and Bal. Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax area code, in combination with the Bal. Tax Group Code on the journal line, to determine the sales tax % and the G/L accounts to which sales tax will be posted."
     },
     {
       "no": 87,
       "name": "Bal. Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate sales tax on the balancing entry on the journal line.\nTo have sales tax calculated, you must also fill in Bal. Tax Area Code and Bal. Tax Group Code, and Bal. Gen. Posting Type must be Sale or Purchase."
     },
     {
       "no": 88,
       "name": "Bal. Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code associated with the balancing account that will be used when you post the entry on the journal line.\nTo have sales tax calculated on the journal line, a check mark must be inserted in the Bal. Tax Liable field, Bal. Gen. Posting Type must be Sale or Purchase.\nThe program will then use the tax group code, in combination with Bal. Tax Area Code on the journal line, to determine the sales tax % and the G/L accounts to which sales tax will be posted."
     },
     {
       "no": 89,
       "name": "Bal. Use Tax",
-      "tooltip": ""
+      "tooltip": "Specifies whether to calculate use tax for the balancing entry on this journal line."
     },
     {
       "no": 90,
@@ -427,67 +427,67 @@
     {
       "no": 95,
       "name": "Additional-Currency Posting",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 98,
       "name": "FA Add.-Currency Factor",
-      "tooltip": ""
+      "tooltip": "Specifies how to calculate the exchange rate if this field and the FA Add.-Currency Factor field for the FA posting types are specified in the Depreciation Book card window. This is the exchange rate that the program will use to record the transaction in the general ledger in both LCY and the additional reporting currency.\nTo see or change the exchange rate, choose the FA Add.-Currency Code field."
     },
     {
       "no": 99,
       "name": "Source Currency Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 100,
       "name": "Source Currency Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 101,
       "name": "Source Curr. VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 102,
       "name": "Source Curr. VAT Amount",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 103,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Indicates the percentage used for discounting the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 104,
       "name": "VAT Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the amount of VAT included in the total amount, expressed in LCY.\nWhen the VAT Amount field is filled in, the program automatically calculates the VAT Amount (LCY) from the amount in the VAT Amount field and the relevant exchange rate.\nIf the amount in the VAT Amount field changes, the amount in this field also changes accordingly."
     },
     {
       "no": 105,
       "name": "VAT Base Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total net amount (amount excluding VAT) that the journal line consists of, expressed in LCY.\nWhen the VAT Base Amount field is filled in, the program automatically calculates the VAT Base Amount (LCY) from the amount in the VAT Base Amount field and the relevant exchange rate.\nIf the amount in the VAT Base Amount field changes, the amount in this field also changes accordingly."
     },
     {
       "no": 106,
       "name": "Bal. VAT Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the amount of Bal. VAT included in the total amount, expressed in LCY.\nWhen the Bal. VAT Amount field is filled in, the program automatically calculates the Bal. VAT Amount (LCY) from the amount in the Bal. VAT Amount field and the relevant exchange rate.\nIf the amount in the Bal. VAT Amount field changes, the amount in this field also changes accordingly."
     },
     {
       "no": 107,
       "name": "Bal. VAT Base Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Shows the total balance net amount (amount excluding VAT) that the journal line consists of, expressed in LCY.\nWhen the Bal. VAT Base Amount field is filled in, the program automatically calculates the Bal. VAT Base Amount (LCY) from the amount in the Bal. VAT Base Amount field and the relevant exchange rate.\nIf the amount in the Bal. VAT Base Amount field changes, the amount in this field also changes accordingly."
     },
     {
       "no": 108,
       "name": "Reversing Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 109,
       "name": "Allow Zero-Amount Posting",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 110,
@@ -507,47 +507,47 @@
     {
       "no": 113,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the intercompany partner that the transaction is with if the journal line is an intercompany transaction. If your company created the line, this is the IC partner that you will send the transaction to. Otherwise, this is the IC partner that you received the line from."
     },
     {
       "no": 114,
       "name": "IC Direction",
-      "tooltip": ""
+      "tooltip": "Indicates whether the intercompany line is one that you have created to send to one of your partner companies (outgoing), or a line that you have received from one of your partner companies (incoming)."
     },
     {
       "no": 116,
       "name": "IC Partner G/L Acc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies outgoing intercompany transactions. It contains the IC G/L account that you suggest the amount will be posted to in your partner's company.\nThe field must be filled in on a line with a bank account or G/L account in either the Acc. No. field or the Bal. Account No. field.\nIf you have filled in the Default IC Partner G/L Acc. No field on the account card for the account in the Account No. field, the number has been automatically filled in by the program, but you can change it."
     },
     {
       "no": 117,
       "name": "IC Partner Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies incoming intercompany transactions. The program copies the transaction number from the Transaction No. field on the IC inbox journal line."
     },
     {
       "no": 118,
       "name": "Sell-to/Buy-from No.",
-      "tooltip": ""
+      "tooltip": "There is no Help for the fields in this table. This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 119,
       "name": "VAT Registration No.",
-      "tooltip": ""
+      "tooltip": "Specifies the company's VAT registration number.\nYou can enter a maximum of 20 characters, both numbers and letters."
     },
     {
       "no": 120,
       "name": "Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Specifies a country/region code that applies to the journal line."
     },
     {
       "no": 121,
       "name": "Prepayment",
-      "tooltip": ""
+      "tooltip": "Specifies whether prepayment is applied to the journal line."
     },
     {
       "no": 122,
       "name": "Financial Void",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 123,
@@ -657,7 +657,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 1000,
@@ -697,7 +697,7 @@
     {
       "no": 1007,
       "name": "Job Line Disc. Amount (LCY)",
-      "tooltip": ""
+      "tooltip": "Contains the amount of the discount that will be used for the job ledger entry.\nThe program uses the Job Line Discount %, Job Quantity, and Job Unit Price (LCY) fields to calculate the amount.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1008,
@@ -752,12 +752,12 @@
     {
       "no": 1018,
       "name": "Job Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1019,
       "name": "Job Currency Code",
-      "tooltip": ""
+      "tooltip": "Specifies the currency code if the job specified on the journal line in the Job No. field is set up in a foreign currency.\nThe program uses the job currency code to calculate the cost and sales values of the journal line in the currency specified for the job.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 1020,
@@ -777,7 +777,7 @@
     {
       "no": 1220,
       "name": "Data Exch. Entry No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1221,
@@ -792,7 +792,7 @@
     {
       "no": 1223,
       "name": "Data Exch. Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 1224,
@@ -847,7 +847,7 @@
     {
       "no": 5400,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5600,
@@ -922,12 +922,12 @@
     {
       "no": 5616,
       "name": "Index Entry",
-      "tooltip": ""
+      "tooltip": "Displays if you have selected Fixed Asset in the Account Type field for this line.\nPlace a check mark in this field if you want to post an indexation.\nThe contents of this field will be copied to the corresponding field on FA ledger entries for information purposes only.\nNote that you can also run the Index Fixed Assets batch job to index fixed assets."
     },
     {
       "no": 5617,
       "name": "Source Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the source line number of the document from which the journal entry originates.\n\nThis field is used internally."
     },
     {
       "no": 5618,

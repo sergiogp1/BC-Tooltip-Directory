@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -47,7 +47,7 @@
     {
       "no": 11,
       "name": "CF No. on Chart in Role Center",
-      "tooltip": ""
+      "tooltip": "Specifies the cash flow forecast number that is shown in the chart on your Role Center.\nThe field is updated when you select the Show in Chart on Role Center check box."
     },
     {
       "no": 12,

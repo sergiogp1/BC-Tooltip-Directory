@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Journal Template Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the Insurance journal template.\nThe program automatically retrieves the name from the Name field in the Insurance Journal Template table."
     },
     {
       "no": 2,
       "name": "Journal Batch Name",
-      "tooltip": ""
+      "tooltip": "Shows the name of the journal batch.\nThe program automatically retrieves the name from the Name field in the Insurance Journal Batch table."
     },
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the journal line's number.\nThe program fills in the field automatically and uses the number to keep track of the various lines in the journal."
     },
     {
       "no": 4,
@@ -47,7 +47,7 @@
     {
       "no": 10,
       "name": "Document Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date from the document that is the reason for the journal line. Typically this will be the date of a purchase invoice."
     },
     {
       "no": 11,
@@ -57,7 +57,7 @@
     {
       "no": 12,
       "name": "External Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies a document number that refers to a customer's or vendor's numbering system. You can enter a maximum of ten characters, both numbers and letters.\nYou can then use the number later if, for some reason, you need to search for the posted journal line using the customer's order number."
     },
     {
       "no": 13,
@@ -87,7 +87,7 @@
     {
       "no": 18,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Shows the source code that has been entered on the journal line.\nThe program automatically retrieves the source code from the Source Code field in the Insurance Journal Template table."
     },
     {
       "no": 20,
@@ -97,12 +97,12 @@
     {
       "no": 21,
       "name": "Posting No. Series",
-      "tooltip": ""
+      "tooltip": "Contains the code for the number series that will be used to assign a document number to the journal line when it is posted. To see the number series that have been set up in the No. Series table, click the field.\nThe program automatically copied the number series code from the Posting No. Series field on the journal batch. You can change the code.\nIf this field is blank when you post the line, the document number in the Document No. field will be used on the posted line."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

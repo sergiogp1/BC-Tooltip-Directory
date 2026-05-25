@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Company Name",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -22,137 +22,137 @@
     {
       "no": 4,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,
       "name": "No. of Opportunities",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6,
       "name": "Estimated Value (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 7,
       "name": "Calcd. Current Value (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8,
       "name": "Avg. Estimated Value (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 9,
       "name": "Avg.Calcd. Current Value (LCY)",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 10,
       "name": "Salesperson Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 11,
       "name": "Campaign Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 12,
       "name": "Contact Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 13,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 14,
       "name": "Action Taken Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 15,
       "name": "Sales Cycle Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 16,
       "name": "Sales Cycle Stage Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 17,
       "name": "Probability % Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 18,
       "name": "Completed % Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 19,
       "name": "Company No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 20,
       "name": "Contact Company Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 21,
       "name": "Task Status Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 22,
       "name": "Task Closed Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 23,
       "name": "Priority Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 24,
       "name": "Team Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 25,
       "name": "No. of Tasks",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 26,
       "name": "Estimated Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 27,
       "name": "Calcd. Current Value Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 28,
       "name": "Chances of Success % Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 29,
       "name": "Close Opportunity Filter",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 30,
       "name": "System Task Type Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the to-do.\nThere are four options:\n\nOrganizer\n\n\nSalesperson Attendee\n\n\nContact Attendee\n\n\nTeam"
     }
   ]
 }

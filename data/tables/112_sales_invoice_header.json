@@ -92,7 +92,7 @@
     {
       "no": 19,
       "name": "Order Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date on which the sales order was created.\nThe program copies the date from the Order Date field on the sales header.\nYou cannot change the order date because the invoice has already been posted."
     },
     {
       "no": 20,
@@ -162,32 +162,32 @@
     {
       "no": 33,
       "name": "Currency Factor",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 34,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Specifies the customer price group used on the invoice.\nThe program copies the code from the Customer Price Group field on the sales header.\nYou cannot change the customer price group because the invoice has already been posted."
     },
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "Specifies whether the unit prices on the invoice lines include VAT.\nThe program copies the information from the Prices Including VAT field on the sales header.\nYou cannot change the contents of this field because the invoice has already been posted."
     },
     {
       "no": 37,
       "name": "Invoice Disc. Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code used to calculate the invoice discount.\nThe program copies the invoice discount code from the Invoice Disc. Code field on the sales header.\nYou cannot change the invoice discount code because the invoice has already been posted."
     },
     {
       "no": 40,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code used to calculate the customer's sales line discount.\nThe program copies the code from the Customer Disc. Group field on the sales header.\nYou cannot change the customer discount group because the invoice has already been posted."
     },
     {
       "no": 41,
       "name": "Language Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the language used on the sales invoice.\nThe program copies the code from the Language Code field on the sales header.\nThe language code made it possible for the items on the invoice lines to be written in the customer's language.\nYou cannot change the language code because the invoice has already been posted."
     },
     {
       "no": 42,
@@ -207,7 +207,7 @@
     {
       "no": 46,
       "name": "Comment",
-      "tooltip": ""
+      "tooltip": "Specifies whether a comment has been entered for this sales invoice header.\nYou can also enter a comment in Notes FactBox."
     },
     {
       "no": 47,
@@ -217,22 +217,22 @@
     {
       "no": 51,
       "name": "On Hold",
-      "tooltip": ""
+      "tooltip": "Specifies whether the invoice was marked as on hold when it was posted.\nThe program copies the information from the On Hold field on the sales header.\nYou cannot change the contents of this field because the invoice has already been posted."
     },
     {
       "no": 52,
       "name": "Applies-to Doc. Type",
-      "tooltip": ""
+      "tooltip": "Specifies whether the invoice has been applied to an already-posted document. If so, the field shows the type of document applied to.\nThe program copies the information from the Applies-to Doc. Type field on the sales header.\nYou cannot change the applies-to document type because the invoice has already been posted."
     },
     {
       "no": 53,
       "name": "Applies-to Doc. No.",
-      "tooltip": ""
+      "tooltip": "Specifies whether the invoice has been applied to an already-posted document. If so, the field contains the number of the document applied to.\nThe program copies the number from the Applies-to Doc. No. field on the sales header.\nYou cannot change the applies-to document number because the invoice has already been posted."
     },
     {
       "no": 55,
       "name": "Bal. Account No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the general ledger account to which a balancing entry for the invoice was posted.\nThe program copies the number from the Bal. Account No. field on the sales header.\nYou cannot change the balancing account number because the invoice has already been posted."
     },
     {
       "no": 60,
@@ -257,12 +257,12 @@
     {
       "no": 73,
       "name": "Reason Code",
-      "tooltip": ""
+      "tooltip": "Specifies the reason code that is associated with the invoice.\nThe program copies the reason code from the Reason Code field on the sales header.\nYou cannot change the reason code because the invoice has already been posted."
     },
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the general business posting group code that is assigned to the customer that you sent the invoice to.\nThe program copies the code from the Gen. Bus. Posting Group field on the sales header.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 75,
@@ -272,7 +272,7 @@
     {
       "no": 76,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Shows the transaction type of the sales header that this line was posted from.\nThe program copies the transaction type from the Transaction Type field on the sales header.\nYou cannot change the transaction type because the invoice has already been posted."
     },
     {
       "no": 77,
@@ -282,7 +282,7 @@
     {
       "no": 78,
       "name": "VAT Country/Region Code",
-      "tooltip": ""
+      "tooltip": "Shows the customer's VAT country/region code.\nThe program copies the VAT country/region code from the VAT Country/Region Code field on the sales header.\nYou cannot change the VAT country/region code because the invoice has already been posted."
     },
     {
       "no": 79,
@@ -362,7 +362,7 @@
     {
       "no": 94,
       "name": "Bal. Account Type",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the balancing account type that is used on the invoice.\nThe program copies the balancing account type from the Bal. Account Type field on the sales header.\nYou cannot change the balancing account type because the invoice has already been posted."
     },
     {
       "no": 97,
@@ -372,7 +372,7 @@
     {
       "no": 98,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies whether this sales invoice has been posted as a corrective entry.\nThe program copies the code from the Correction field on the sales header.\nYou cannot change the code because the invoice has already been posted."
     },
     {
       "no": 99,
@@ -412,17 +412,17 @@
     {
       "no": 107,
       "name": "Pre-Assigned No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the sales document from which the invoice was created.\nIf the posted invoice was created from an invoice, the program automatically copied this field from the No. Series field on the sales header. Otherwise, the field is blank.\nYou cannot change the pre-assigned number series because the invoice has already been posted."
     },
     {
       "no": 108,
       "name": "No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the posted invoice.\nThe program automatically copies this field from the Posting No. Series field on the sales header.\nYou cannot change the number series because the invoice has already been posted."
     },
     {
       "no": 110,
       "name": "Order No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the order from which the invoice was created.\nThe program automatically copies this field from the No. Series field on the order header.\nIf the invoice was not created from an order, the field is blank.\nYou cannot change the number series because the invoice has already been posted."
     },
     {
       "no": 111,
@@ -432,12 +432,12 @@
     {
       "no": 112,
       "name": "User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who posted the sales document.\nYou cannot change the user ID because the invoice has already been posted."
     },
     {
       "no": 113,
       "name": "Source Code",
-      "tooltip": ""
+      "tooltip": "Specifies the source code that is linked to the sales invoice header.\nThe program copies the source code from either the Sales field or the Deleted Document field in the Source Code Setup table.\nYou cannot change the source code because the invoice has been posted."
     },
     {
       "no": 114,
@@ -452,12 +452,12 @@
     {
       "no": 116,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the VAT business posting group of the customer.\nThe program copies the code from the VAT Bus. Posting Group field on the sales header."
     },
     {
       "no": 119,
       "name": "VAT Base Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the percentage to use to discount the VAT element if a payment discount is to be posted. The value is validated against the maximum possible VAT Tolerance % field value in the General Ledger Setup. The maximum value cannot be overridden with the exception of a credit note where you can manually enter the value used for the payment discount."
     },
     {
       "no": 121,
@@ -472,17 +472,17 @@
     {
       "no": 131,
       "name": "Prepayment No. Series",
-      "tooltip": ""
+      "tooltip": "Specifies the code for the number series that was used to assign a number to the posted prepayment invoice if the invoice is a prepayment invoice.\nThe program automatically copies this field from the Prepayment No. Series field on the sales header.\nYou cannot change the number series because the invoice has already been posted."
     },
     {
       "no": 136,
       "name": "Prepayment Invoice",
-      "tooltip": ""
+      "tooltip": "Specifies whether the invoice is a prepayment invoice."
     },
     {
       "no": 137,
       "name": "Prepayment Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the sales order that this prepayment invoice was posted fromif the invoice is a prepayment invoice.\nYou cannot change the order number because the invoice has already been posted."
     },
     {
       "no": 151,
@@ -552,7 +552,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 600,
@@ -602,12 +602,12 @@
     {
       "no": 1304,
       "name": "Cust. Ledger Entry No.",
-      "tooltip": ""
+      "tooltip": "Used to determine if the posted sales invoice is paid. The state is shown in the Paid field on the posted sales invoice."
     },
     {
       "no": 1305,
       "name": "Invoice Discount Amount",
-      "tooltip": ""
+      "tooltip": "Specifies the amount that is calculated and shown in the Invoice Discount Amount field at the bottom of sales invoices. The amount is deducted from the value shown in the Total Incl. VAT field.\nIf you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the Customer Invoice Discount % field if the criteria are met. The calculated discount amount is inserted in the Invoice Discount Amount field, but you can change it manually. For more information, see How to: Set Up Invoice Discount Terms."
     },
     {
       "no": 1310,
@@ -637,7 +637,7 @@
     {
       "no": 5050,
       "name": "Campaign No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the campaign that the document is linked to."
     },
     {
       "no": 5052,
@@ -672,12 +672,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies that a line discount has been calculated for the price offered."
     },
     {
       "no": 7200,
       "name": "Get Shipment Used",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 8001,

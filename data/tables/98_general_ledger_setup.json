@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Primary Key",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 2,
@@ -52,27 +52,27 @@
     {
       "no": 41,
       "name": "Date Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the date interval that values are filtered by.\nIf this field contains starting and ending dates for a date interval, then other field values only show information for that interval.\nYou can enter a date interval according to the following rules.\n\n\nMeaning\n\n\nSample expression\n\n\nEntries that are included\n\n\nEqual to\n\n12 15 12\n\nOnly entries that are posted on December 15, 2012.\n\n\nInterval\n\n12 15 12..01 15 13\n..12 15 12\n\nEntries that are posted on dates between and including December 15, 2012, and January 15, 2013.\nEntries that are posted on January 15, 2012, or earlier.\n\n\nEither/or\n\n12 15 12|12 16 12\n\nEntries that are posted on either December 15, 2012, or December 16, 2012. If there are entries that are posted on both days, then all entries are displayed.\n\n\nYou can also combine the various format types.\n\n\nSample expression\n\n\nEntries that are included\n\n\n12 15 12|12 01 12..12 10 12\n\nEntries that are posted either on December 15, 2012, or on dates between and including December 1, 2012, and December 10, 2012.\n\n\n..12 14 12|12 30 12..\n\nEntries that are posted on December 14, 2012, or earlier, or entries that are posted on December 30, 2012, or later, which includes all entries except those that are posted on dates between and including December 15, 2012, and December 29, 2012."
     },
     {
       "no": 42,
       "name": "Global Dimension 1 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value that is used with the Cust. Balances Due and Vendor Balances Due fields. If this field contains a dimension value filter for a dimension, those two fields show amounts based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 43,
       "name": "Global Dimension 2 Filter",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value that is used with the Cust. Balances Due and Vendor Balances Due fields. If this field contains a dimension value filter for a dimension, those two fields show amounts based only on the dimension values included in the filter.\nClick here to learn more about dimensions."
     },
     {
       "no": 44,
       "name": "Cust. Balances Due",
-      "tooltip": ""
+      "tooltip": "Indicates the total amount your company is owed by customers.\nThe program automatically calculates and updates the contents of the field, using entries in the Remaining Amt. (LCY) field in the Cust. Ledger Entry table.\nYou can filter the Cust. Balances Due field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, and/or dates.\nTo see the entries that make up the amount, choose the field."
     },
     {
       "no": 45,
       "name": "Vendor Balances Due",
-      "tooltip": ""
+      "tooltip": "Indicates the total amount your company owes its vendors.\nThe program automatically calculates and updates the contents of the field, using entries in the Remaining Amt. (LCY) field in the Vendor Ledger Entry table.\nYou can filter the Vendor Balances Due field so its contents are calculated only on the basis of certain Global Dimension 1 values, Global Dimension 2 values, and/or dates.\nTo see the entries that make up the amount, choose the field."
     },
     {
       "no": 48,
@@ -152,7 +152,7 @@
     {
       "no": 65,
       "name": "Summarize G/L Entries",
-      "tooltip": ""
+      "tooltip": "Specifies the general ledger entry for each tax detail if sales and use tax are calculated for a sale or a purchase. You can specify that you want to sum up these tax entries and post them as a single general ledger entry."
     },
     {
       "no": 66,
@@ -172,7 +172,7 @@
     {
       "no": 69,
       "name": "VAT Tolerance %",
-      "tooltip": ""
+      "tooltip": "Specifies the maximum allowed VAT percentage to be used for discounting the VAT element in sales and purchase order processing. If you do not specify any value, the program will not discount the VAT element when calculating VAT."
     },
     {
       "no": 70,
@@ -312,7 +312,7 @@
     {
       "no": 102,
       "name": "Last IC Transaction No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally.. Tracks the last IC transaction number that was used."
     },
     {
       "no": 103,

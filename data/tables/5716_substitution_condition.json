@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item for which another item can serve as a substitute.\nThe program copies this item number from the Sub. Item No. field on the Item Substitution table."
     },
     {
       "no": 2,
       "name": "Variant Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the variant for which another variant can serve as a substitute.\nThe program copies the variant code from the Variant Code field on the Item Substitution table."
     },
     {
       "no": 3,
       "name": "Substitute No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the substitute item.\nThe program copies the substitute item from the Substitute Item No. field in the Item Substitution table."
     },
     {
       "no": 4,
       "name": "Substitute Variant Code",
-      "tooltip": ""
+      "tooltip": "Contains the variant code of the substitute item.\nThe program copies the substitute variant code from the Substitute Variant Code field in the Item Substitution table."
     },
     {
       "no": 5,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the line.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different sales lines."
     },
     {
       "no": 6,
@@ -37,12 +37,12 @@
     {
       "no": 100,
       "name": "Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the item for which another item can serve as a substitute. There are two types: Item and Nonstock Item."
     },
     {
       "no": 101,
       "name": "Substitute Type",
-      "tooltip": ""
+      "tooltip": "Contains the type of the substitute item. There are two types: Item and Nonstock Item."
     }
   ]
 }

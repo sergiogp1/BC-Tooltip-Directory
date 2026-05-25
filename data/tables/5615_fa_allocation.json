@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Code",
-      "tooltip": ""
+      "tooltip": "Displays the code of the fixed asset posting group for the allocation specified on this allocation line.\nThe program retrieves the code from the Code field in the FA Posting Groups window."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Shows the number of the allocation line.\nThe program automatically fills in the field and uses the number to keep track of the various lines in the FA Allocations window."
     },
     {
       "no": 3,
       "name": "Description",
-      "tooltip": ""
+      "tooltip": "Specifies the name of the account on this allocation line.\nThe program automatically retrieves the account name when the Account No. field is filled in. You can change the description if, for example, you want to provide information about the allocation."
     },
     {
       "no": 4,
@@ -27,12 +27,12 @@
     {
       "no": 5,
       "name": "Global Dimension 1 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value code to allocate to for the fixed asset allocation type on this line.\nTo see the dimension value codes you have set up for this dimension in the Dimension Value window, click the field.\nFor more information about dimensions, see Dimension."
     },
     {
       "no": 6,
       "name": "Global Dimension 2 Code",
-      "tooltip": ""
+      "tooltip": "Specifies the dimension value code to allocate to for the fixed asset allocation type on this line.\nTo see the dimension value codes you have set up for this dimension in the Dimension Values window, choose the field.\nFor more information about dimensions, see Dimension."
     },
     {
       "no": 7,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Allocation Type",
-      "tooltip": ""
+      "tooltip": "Shows the fixed asset posting type (for example, acquisition, depreciation or maintenance) that will be allocated to a journal line when you use the Insert Bal. Account function. The fixed asset posting type will be allocated according to the terms in the FA Allocations window.\nThe program automatically fills in this field according to the allocation type you selected when you decided to allocate a fixed asset posting type for one of the fixed asset posting groups."
     },
     {
       "no": 9,
@@ -52,7 +52,7 @@
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nThe dimension set ID is not edited directly by users. The value of the field is calculated with the dimension values that users select in the Edit Dimension Set Entries window.\n\n\nThe value 0 represents an empty dimension set."
     }
   ]
 }

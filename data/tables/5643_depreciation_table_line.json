@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Depreciation Table Code",
-      "tooltip": ""
+      "tooltip": "Displays the code for the depreciation table that this line belongs to.\nWhen you set up the depreciation table line, the program automatically copied the code from the Code field on the depreciation table header."
     },
     {
       "no": 2,

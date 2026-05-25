@@ -7,27 +7,27 @@
     {
       "no": 1,
       "name": "Table ID",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 3,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 6,

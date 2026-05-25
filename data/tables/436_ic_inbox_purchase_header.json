@@ -27,7 +27,7 @@
     {
       "no": 11,
       "name": "Your Reference",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 13,
@@ -42,7 +42,7 @@
     {
       "no": 16,
       "name": "Ship-to Address 2",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 17,
@@ -57,7 +57,7 @@
     {
       "no": 21,
       "name": "Expected Receipt Date",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 24,
@@ -82,32 +82,32 @@
     {
       "no": 35,
       "name": "Prices Including VAT",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 66,
       "name": "Vendor Order No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 68,
       "name": "Vendor Invoice No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 69,
       "name": "Vendor Cr. Memo No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 72,
       "name": "Sell-to Customer No.",
-      "tooltip": ""
+      "tooltip": "There are a number of tables and fields that are not currently documented. There is no specific Help for these tables and fields."
     },
     {
       "no": 91,
       "name": "Ship-to Post Code",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 92,

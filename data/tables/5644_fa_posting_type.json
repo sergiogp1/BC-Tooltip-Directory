@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "FA Posting Type No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 2,
@@ -17,17 +17,17 @@
     {
       "no": 3,
       "name": "FA Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 4,
       "name": "G/L Entry",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     },
     {
       "no": 5,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "This field is used internally."
     }
   ]
 }

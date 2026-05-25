@@ -72,7 +72,7 @@
     {
       "no": 25,
       "name": "VAT %",
-      "tooltip": ""
+      "tooltip": "Contains the VAT percentage used on the current shipment line.\nThe program copies VAT % from the VAT % field in the Service Line table when the service order is posted.\nYou cannot change the value in the field because the entry has already been posted."
     },
     {
       "no": 27,
@@ -87,22 +87,22 @@
     {
       "no": 34,
       "name": "Gross Weight",
-      "tooltip": ""
+      "tooltip": "Contains the gross weight of one unit of the item.\nIt is used only in connection with the inventory items.\nThe program copies the value from the Gross Weight field on the service line when you post the shipment.\nYou cannot change the gross weight because the shipment has already been posted."
     },
     {
       "no": 35,
       "name": "Net Weight",
-      "tooltip": ""
+      "tooltip": "Contains the net weight of one unit of the item.\nIt is used only in connection with inventory items.\nThe program copies the weight from the Net Weight field on the service line when you post the shipment.\nYou cannot change the value in the field because the shipment has already been posted."
     },
     {
       "no": 36,
       "name": "Units per Parcel",
-      "tooltip": ""
+      "tooltip": "Specifies how many units one parcel of the item on the line contains.\nThe program copies the quantity from the Units per Parcel field on the service line when you post the shipment.\nYou cannot change the value in the field because the shipment has already been posted."
     },
     {
       "no": 37,
       "name": "Unit Volume",
-      "tooltip": ""
+      "tooltip": "Contains the volume of one unit of the item.\nThe program copies the value from the Unit Volume field on the service line when you post the shipment.\nYou cannot change the value in the field because the shipment has already been posted."
     },
     {
       "no": 38,
@@ -112,7 +112,7 @@
     {
       "no": 39,
       "name": "Item Shpt. Entry No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the item entry associated with the service shipment line.\nThe number is created when the service line is posted and is assigned to the shipment line to provide item tracking. For more information, see How to: Set Up Item Tracking Codes.\nThe number is only displayed in the table. You cannot change it because the shipment has already been posted.\n\nYou cannot change the contents of this field.\n\n\nAdditional Information\n\nIf the service shipment line carries multiple unique item tracking numbers when posted, this will result in one item ledger entry for each item tracking number. For such one-to-many relations, the Item Entry Relation table manages the relation to the item ledger entries instead of the Item Shpt. Entry No. field."
     },
     {
       "no": 40,
@@ -127,7 +127,7 @@
     {
       "no": 42,
       "name": "Customer Price Group",
-      "tooltip": ""
+      "tooltip": "Contains the code of the price group that the customer belongs to. The program used the code to calculate the unit price for items on the line.\nThe customer price group code is copied from the Customer Price Group field on the service line of the service order.\nYou cannot change the customer price group because the entry has already been posted."
     },
     {
       "no": 45,
@@ -162,7 +162,7 @@
     {
       "no": 66,
       "name": "Order Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the line number of this line on the service order on which it was created.\nYou cannot change the order line number because the shipment has already been posted."
     },
     {
       "no": 68,
@@ -172,72 +172,72 @@
     {
       "no": 74,
       "name": "Gen. Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the general business posting group code assigned to the customer whom you send the invoice for the shipment.\nThe program copies the code from the Gen. Bus. Posting Group field on the service line of the service order.\nYou cannot change the code in the posted shipment."
     },
     {
       "no": 75,
       "name": "Gen. Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the general product posting group of the item or resource on this line.\nThe program copies the code from the Gen. Prod. Posting Group field in the Service Line table when the shipment is created from the order.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 77,
       "name": "VAT Calculation Type",
-      "tooltip": ""
+      "tooltip": "Indicates which VAT calculation type was used when this line was posted. The program used the VAT calculation type whether to calculate normal VAT, reverse charge VAT, full VAT or a sales tax.\nThe program copies the code from the VAT Calculation Type field on the service line of the service order you have posted.\nYou cannot change the code because the shipment has already been posted."
     },
     {
       "no": 78,
       "name": "Transaction Type",
-      "tooltip": ""
+      "tooltip": "Contains the code for the transaction type assigned to the posted service order from which the line was posted. The types of transactions are set up in the Transaction Types window. You use the pre-set types to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the transaction type from the Transaction Type field on the service line of the service order.\nYou cannot change the code when the shipment has already been posted."
     },
     {
       "no": 79,
       "name": "Transport Method",
-      "tooltip": ""
+      "tooltip": "Contains the code of the transport method used for shipment of the service on the line.\nThe program copies the transport method from the Transport Method field on the service line of the order you post.\nYou cannot change the transport method code when the shipment has already been posted."
     },
     {
       "no": 80,
       "name": "Attached to Line No.",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service line to which the line which contains the extended text is attached.\nThe program copies the number from the Attached to Line No. from the service line that contains the item, resource, cost, G/L account type, or standard text, that is described by the extended text.\n\nYou cannot change the contents of this field."
     },
     {
       "no": 81,
       "name": "Exit Point",
-      "tooltip": ""
+      "tooltip": "Contains the code of the port of exit through which you shipped the service items or resource out of your country/region.\nThe program copies the code from the Exit Point field on the service line of the service order you post.\nYou cannot change the code because the entry has already been posted."
     },
     {
       "no": 82,
       "name": "Area",
-      "tooltip": ""
+      "tooltip": "Contains the code for the area where the customer company is located.\nThe program copies the code from the Area field in the Service Line table when the service order is posted.\nYou cannot change the contents of the field because the shipment has already been posted."
     },
     {
       "no": 83,
       "name": "Transaction Specification",
-      "tooltip": ""
+      "tooltip": "Contains the transaction specification code that was used in the shipment. The code denotes additional information concerning the transaction type on the service order. You use the code to report your trade with other EU countries/regions (see also INTRASTAT).\nThe program copies the code from the Transaction Specification field on the service line of the service order.\nYou cannot change the transaction specification code in the posted shipment."
     },
     {
       "no": 85,
       "name": "Tax Area Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the tax area where the bill-to customer is located.\nIn combination with the tax group code, the program uses the value in this field to determine the sales tax % and the G/L accounts for sales tax posting.\nThe program copies the value from the Tax Area Code field on the service line of the service order."
     },
     {
       "no": 86,
       "name": "Tax Liable",
-      "tooltip": ""
+      "tooltip": "Specifies that items, resources, G/L accounts or costs on the current service shipment line were liable to sales tax.\nThe program copies the value in the filed from the Tax Liable field in the Service Line table when the order is posted.\nYou cannot clear the check box in the posted shipment."
     },
     {
       "no": 87,
       "name": "Tax Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the tax group code of the item, resource, or cost on the current shipment line.\nThe program copies the code from the Tax Group Code field on the service line of the service order."
     },
     {
       "no": 89,
       "name": "VAT Bus. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the VAT business posting group of the bill-to customer.\nIn combination with the VAT Prod. Posting Group value, the program uses the code to determine VAT %, VAT calculation type and the G/L accounts for posting VAT.\nThe program copies the code from the VAT Bus. Posting Group field on the line of the service order. You cannot change the value because the shipment has already been posted."
     },
     {
       "no": 90,
       "name": "VAT Prod. Posting Group",
-      "tooltip": ""
+      "tooltip": "Contains the code for the VAT product posting group of the item, resource or general ledger account on the current line.\nThe program copies the code from the VAT Prod. Posting Group field on the service line of the service order you post.\nThe program determines VAT %, VAT calculation type and the G/L accounts for posting VAT on the basis of settings in the VAT Posting Setup window."
     },
     {
       "no": 91,
@@ -247,32 +247,32 @@
     {
       "no": 99,
       "name": "VAT Base Amount",
-      "tooltip": ""
+      "tooltip": "Contains the total net amount (amount excluding VAT) on the shipment line.\nThe program copies the amount from the VAT Base Amount field on the service line of the service order you post."
     },
     {
       "no": 100,
       "name": "Unit Cost",
-      "tooltip": ""
+      "tooltip": "Contains the cost per unit of an item, resource or cost on the service shipment line. The unit for which the cost is displayed is specified in the Unit of Measure field on the line.\nThe program copies the field value from the Unit Cost field on the Service Line table when the service order is posted.\nThe unit cost is displayed in the currency of the sales transaction. If the Currency Code field is blank, the unit cost is expressed in LCY, and therefore, is equal to the value in the Unit Cost (LCY) field."
     },
     {
       "no": 480,
       "name": "Dimension Set ID",
-      "tooltip": ""
+      "tooltip": "Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.\n\n\nAdditional Information\n\n\nYou cannot change the contents of this field. Click the drop-down arrow to see the combination of posted dimension values.\n\n\nThe value 0 represents an empty dimension set."
     },
     {
       "no": 950,
       "name": "Time Sheet No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a time sheet. A number is assigned to each time sheet when it is created. You cannot edit the number."
     },
     {
       "no": 951,
       "name": "Time Sheet Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of a time sheet line. A number is assigned to each line when it is created. You cannot edit the number."
     },
     {
       "no": 952,
       "name": "Time Sheet Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date that the time sheet was created."
     },
     {
       "no": 1019,
@@ -292,7 +292,7 @@
     {
       "no": 5404,
       "name": "Qty. per Unit of Measure",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of items per unit of measure specified in the Unit of Measure field on the line.\nThe program copies the value from the Qty. per Unit of Measure field in the Service Line table when the service order is posted.\nYou cannot change the value in this field because the entry has already been posted."
     },
     {
       "no": 5407,
@@ -302,27 +302,27 @@
     {
       "no": 5415,
       "name": "Quantity (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the quantity of items, resource time, payments to the general ledger account, or costs on the shipment line. The quantity is expressed in the base units of measure specified in the Unit of Measure field.\nThe program copies the value from the Quantity (Base) field in the Service Line table when the service order is posted.\nYou cannot change the quantity in the posted shipment."
     },
     {
       "no": 5458,
       "name": "Qty. Shipped Not Invd. (Base)",
-      "tooltip": ""
+      "tooltip": "Indicates how many units of the item, resource hours, or costs on the line have been shipped but not yet invoiced. The quantity is expressed in base units of measure specified in the Unit of Measure field.\nThe program copies the value from the Qty. Shipped Not Invd. (Base) field on the service line of the service order you post.\nYou cannot change the contents of this field because the entry has already been posted."
     },
     {
       "no": 5461,
       "name": "Qty. Invoiced (Base)",
-      "tooltip": ""
+      "tooltip": "Contains the quantity of registered items, resource hours, general ledger account payments, or costs, already invoiced. The quantity in the field is expressed in the base units of measure specified in the Unit of Measure field.\nThe program copies the value from the Qty. Invoiced (Base) field on the service line when the order is posted.\nYou cannot change the quantity on the posted shipment."
     },
     {
       "no": 5700,
       "name": "Responsibility Center",
-      "tooltip": ""
+      "tooltip": "Contains the code of the responsibility center (for example, a distribution center, a sales office or a plant planning office) assigned to the customer or associated with the shipment.\nThe program copies the code from the Responsibility Center field on the line of the service order.\nYou cannot change the responsibility center code in the posted shipment."
     },
     {
       "no": 5709,
       "name": "Item Category Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the item category that the item on the line belongs to. Choose the field to view the default values for the posting group, costing method and tax group assigned to the specified item category.\nThe program copies the code from the Item Category Code field on the service line of the service order.\nYou cannot change the field value when the shipment has already been posted."
     },
     {
       "no": 5710,
@@ -342,12 +342,12 @@
     {
       "no": 5817,
       "name": "Correction",
-      "tooltip": ""
+      "tooltip": "Specifies if the service shipment line has been posted as a corrective entry."
     },
     {
       "no": 5901,
       "name": "Appl.-to Warranty Entry",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the warranty ledger entry to which the items on the line were applied when the shipment was posted."
     },
     {
       "no": 5902,
@@ -357,7 +357,7 @@
     {
       "no": 5903,
       "name": "Appl.-to Service Entry",
-      "tooltip": ""
+      "tooltip": "Contains the number of the service ledger entry which the program applies this line to.\nThe program copies the number from the Appl.-to Service Entry field on the service line.\nYou cannot change the number because the shipment has already been posted."
     },
     {
       "no": 5904,
@@ -372,7 +372,7 @@
     {
       "no": 5906,
       "name": "Service Item Line Description",
-      "tooltip": ""
+      "tooltip": "Contains a description of the service item line in the original service document to which this shipment line is linked.\nThe program copies the value from the Service Item Line Description field on the service line when you post the shipment."
     },
     {
       "no": 5908,
@@ -387,7 +387,7 @@
     {
       "no": 5910,
       "name": "Needed by Date",
-      "tooltip": ""
+      "tooltip": "Contains the date by which you require the item to be available for a service order. This date is stored when you post the service line."
     },
     {
       "no": 5916,
@@ -402,12 +402,12 @@
     {
       "no": 5920,
       "name": "Qty. Consumed (Base)",
-      "tooltip": ""
+      "tooltip": "Specifies the number of units of items, resource hours, general ledger account payments, or costs registered on the line that have already been posted as consumed. The quantity is expressed in the base units of measure. The program copies the value from the Qty. Consumed (Base) field on the service line of the original service order.\nYou cannot change the value in the field manually because the shipment has already been posted."
     },
     {
       "no": 5928,
       "name": "Service Price Group Code",
-      "tooltip": ""
+      "tooltip": "Contains the code of the Service Price Group of the service item that corresponds to the current service line.\nThe program copies the code from the Service Price Group Code field on the service line."
     },
     {
       "no": 5929,
@@ -477,7 +477,7 @@
     {
       "no": 5969,
       "name": "Exclude Contract Discount",
-      "tooltip": ""
+      "tooltip": "Specifies that the contract discount is excluded for the item, resource or cost on the current service shipment line.\nThe program copies the information from the Exclude Contract Discount field in the Service Line table when the service order is posted."
     },
     {
       "no": 5970,
@@ -487,17 +487,17 @@
     {
       "no": 5994,
       "name": "Price Adjmt. Status",
-      "tooltip": ""
+      "tooltip": "Indicates whether the price on the service line was adjusted automatically or manually. The Adjusted value in the field denotes that the service price adjustment on the line was performed automatically. If the status is set to Modified, this means that you changed the service price adjustment amounts manually.\nThe program copies the information from the Price Adjmt. Status field on the service line of the service order. You cannot change the contents of this field."
     },
     {
       "no": 5997,
       "name": "Line Discount Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of the line discount that is assigned to the service line.\nIf there are several discounts (warranty discount, contract discount and line discount) determined for the service line, the program selects the highest among them. Its percentage is specified in the Line Discount % field. In the Line Discount Type field, the program assigns the corresponding line discount type: Warranty Discount, Contract Discount, or Line Discount.\nThe program copies the information from the Line Discount Type field on the service line of the service order you post. You cannot change the contents of this field."
     },
     {
       "no": 5999,
       "name": "Copy Components From",
-      "tooltip": ""
+      "tooltip": "Indicates where the components should be copied from to the component list when you replace a service item.\nThere are four options:\n\n\nField\n\n\nDescription\n\n\nItem BOM\n\nThe component list is copied from the Item BOM.\n\n\nOld Service Item\n\nThe components are copied from the Old Service Item.\n\n\nOld Serv.Item w/o Serial No.\n\nThe components from the Old Service Item, but the serial number is not copied.\n\n\nNone\n\nIf selected, the component list for the new service item is not created.\n\n\nThe information is copied from the Copy Components From field on the service line of the service order that you post."
     },
     {
       "no": 6608,
@@ -512,12 +512,12 @@
     {
       "no": 7001,
       "name": "Allow Line Disc.",
-      "tooltip": ""
+      "tooltip": "Specifies if a discounted will be applied to the current line.\nThe program retrieves the value from the Allow Line Disc. field on the service line of the service order.\nYou cannot change the value since the shipment has already been posted."
     },
     {
       "no": 7002,
       "name": "Customer Disc. Group",
-      "tooltip": ""
+      "tooltip": "Contains the discount group code assigned to the bill-to customer. The code is used to calculate the service line discount given to the customer.\nThe code is copied from the Customer Disc. Group field on the service line of the service order.\nYou cannot change the customer discount group code in the posted shipment."
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "no": 1,
       "name": "Routing No.",
-      "tooltip": ""
+      "tooltip": "Specifies the routing number.\nThe system copied the number from the Routing No. field on the routing line.\nThe program uses this field internally."
     },
     {
       "no": 2,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line number of the operation to which this entry refers.\nThe program uses this field internally."
     },
     {
       "no": 4,
@@ -27,22 +27,22 @@
     {
       "no": 21,
       "name": "Operation No.",
-      "tooltip": ""
+      "tooltip": "Specifies the operation number that the comment refers to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 22,
       "name": "Status",
-      "tooltip": ""
+      "tooltip": "Specifies the status of the production order that this routing personnel line is related to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 23,
       "name": "Prod. Order No.",
-      "tooltip": ""
+      "tooltip": "Specifies the production order number that the routing personnel is related to.\nThis field is filled in automatically by the system."
     },
     {
       "no": 24,
       "name": "Routing Reference No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the routing that the production order capacity need relates to."
     }
   ]
 }

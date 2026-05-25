@@ -17,22 +17,22 @@
     {
       "no": 6,
       "name": "Page ID",
-      "tooltip": ""
+      "tooltip": "Contains the number of the window (form) in which the program displays the VAT statement lines. To see the form IDs that are available, choose the field.\nThe program automatically enters in this field the form ID that comes with the program. You can select a different form ID if your program contains more than one."
     },
     {
       "no": 7,
       "name": "VAT Statement Report ID",
-      "tooltip": ""
+      "tooltip": "Contains the ID of the report that you can print for the VAT statement template. To see the reports that are available, choose the field.\nThe program automatically enters in this field the standard VAT statement report ID that comes with the program. You can select a different VAT statement report ID if your program contains more than one."
     },
     {
       "no": 16,
       "name": "Page Caption",
-      "tooltip": ""
+      "tooltip": "Contains the name of the window (form) in which the program displays the VAT statement journal template.\nThe program automatically enters in this field the form name corresponding to the form ID selected in the Page ID field."
     },
     {
       "no": 17,
       "name": "VAT Statement Report Caption",
-      "tooltip": ""
+      "tooltip": "Contains the name of the VAT statement report that can be printed.\nThe program automatically fills in this field with the VAT statement name corresponding to the VAT statement report ID selected in the VAT Statement Report ID field."
     }
   ]
 }

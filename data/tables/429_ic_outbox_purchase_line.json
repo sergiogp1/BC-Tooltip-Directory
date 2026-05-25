@@ -7,17 +7,17 @@
     {
       "no": 1,
       "name": "Document Type",
-      "tooltip": ""
+      "tooltip": "Specifies the type of document that you are about to create.\nThe program automatically retrieves the document type from the purchase header."
     },
     {
       "no": 3,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the document number.\nThe program automatically retrieves the document number from the No. field on the purchase header.\nThe program uses the document number to link the purchase header with the purchase lines."
     },
     {
       "no": 4,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the line's number.\nThe program numbers the lines sequentially and uses the numbers to keep track of the different purchase lines."
     },
     {
       "no": 11,
@@ -37,12 +37,12 @@
     {
       "no": 22,
       "name": "Direct Unit Cost",
-      "tooltip": ""
+      "tooltip": "Specifies the direct unit cost of the item on the line.\nThe program automatically retrieves the cost from the Last Direct Cost field in the Item table. If the Item Vendor table contains a cost for this vendor, the program will enter that price instead."
     },
     {
       "no": 27,
       "name": "Line Discount %",
-      "tooltip": ""
+      "tooltip": "Specifies the line discount percentage that is valid for the item on the line.\nThe program automatically retrieves the line discount percentage from the Purchase Line Discount table when you fill in the No. field.\nThe program automatically updates the discount percentage if the quantity is changed."
     },
     {
       "no": 28,
@@ -67,7 +67,7 @@
     {
       "no": 54,
       "name": "Indirect Cost %",
-      "tooltip": ""
+      "tooltip": "Specifies the item's indirect cost %.\nThe program automatically retrieves the indirect cost percentage from the Item table when you fill in the No. field. The field is blank if the item card does not contain an indirect cost percentage."
     },
     {
       "no": 69,
@@ -82,7 +82,7 @@
     {
       "no": 91,
       "name": "Currency Code",
-      "tooltip": ""
+      "tooltip": "Specifies the code of the currency of the amounts on the purchase line.\nThe program automatically retrieves the currency code from the purchase header.\nThe program uses the currency code and the posting date on the purchase header to find the relevant exchange rate in the Currency Exchange Rate table. This is the exchange rate that the program will use to convert amounts on the purchase lines to LCY and/or an additional reporting currency."
     },
     {
       "no": 99,
@@ -117,17 +117,17 @@
     {
       "no": 125,
       "name": "IC Partner Code",
-      "tooltip": ""
+      "tooltip": "Specifies the IC partner code that the transaction will be sent to."
     },
     {
       "no": 126,
       "name": "IC Transaction No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number for the transaction used for the items in this line."
     },
     {
       "no": 127,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "Specifies which company created the transaction.\nIf the option is Rejected by Current Company, the transaction was received from the IC partner and rejected by the current company. If the option is Created by Current Company, the transaction was created bythe current company."
     },
     {
       "no": 138,
@@ -137,12 +137,12 @@
     {
       "no": 5407,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Specifies the unit of measure code that is valid for the purchase line.\nIf the Purch. Unit of Measure field on the item card is filled in, the program copies the code from that field."
     },
     {
       "no": 5790,
       "name": "Requested Receipt Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date your vendor to deliver the items on the order line."
     },
     {
       "no": 5791,

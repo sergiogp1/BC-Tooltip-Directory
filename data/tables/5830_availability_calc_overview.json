@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Entry No.",
-      "tooltip": ""
+      "tooltip": "Shows the number that has been assigned the entry.\n\nThis field is used internally."
     },
     {
       "no": 2,
@@ -37,22 +37,22 @@
     {
       "no": 7,
       "name": "Unit of Measure Code",
-      "tooltip": ""
+      "tooltip": "Shows the unit of measure code for the item.\n\nThis field is used internally."
     },
     {
       "no": 11,
       "name": "Attached to Entry No.",
-      "tooltip": ""
+      "tooltip": "Shows the line to which the entry is attached.\n\nThis field is used internally."
     },
     {
       "no": 13,
       "name": "Level",
-      "tooltip": ""
+      "tooltip": "Shows the level that is assigned to the entry.\n\nThis field is used internally."
     },
     {
       "no": 21,
       "name": "Source Type",
-      "tooltip": ""
+      "tooltip": "Shows the source type that applies to the source number that is shown in the Source Ref. No. field.\n\nThis field is used internally."
     },
     {
       "no": 22,
@@ -67,17 +67,17 @@
     {
       "no": 24,
       "name": "Source Batch Name",
-      "tooltip": ""
+      "tooltip": "Specifies the journal batch name if the availability calculation for the item is related to a journal line.\n\nThis field is used internally."
     },
     {
       "no": 25,
       "name": "Source Ref. No.",
-      "tooltip": ""
+      "tooltip": "Contains a reference number for the line for which availability is being calculated.\n\nThis field is used internally."
     },
     {
       "no": 26,
       "name": "Source Prod. Order Line",
-      "tooltip": ""
+      "tooltip": "Shows the production order line to which the item availability is related.\n\nThis field is used internally."
     },
     {
       "no": 27,
@@ -87,12 +87,12 @@
     {
       "no": 41,
       "name": "Quantity",
-      "tooltip": ""
+      "tooltip": "Shows the quantity of the item for which availability is being calculated.\n\nThis field is used internally."
     },
     {
       "no": 42,
       "name": "Reserved Quantity",
-      "tooltip": ""
+      "tooltip": "Shows the quantity of the item that has been reserved.\n\nThis field is used internally."
     },
     {
       "no": 45,

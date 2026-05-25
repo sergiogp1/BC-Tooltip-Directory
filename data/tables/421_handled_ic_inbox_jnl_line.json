@@ -7,7 +7,7 @@
     {
       "no": 1,
       "name": "Transaction No.",
-      "tooltip": ""
+      "tooltip": "Shows the transaction's entry number.\nThe transaction number indicates which transaction in the Handled IC Inbox Trans. table the journal line is related to."
     },
     {
       "no": 2,
@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Line No.",
-      "tooltip": ""
+      "tooltip": "Specifies the IC Inbox journal line number."
     },
     {
       "no": 4,
@@ -72,12 +72,12 @@
     {
       "no": 15,
       "name": "Transaction Source",
-      "tooltip": ""
+      "tooltip": "Indicates which company created the transaction.\nEither the transaction was created by the intercompany partner in the IC Partner Code field or your company (the current company) created it and your partner returned it."
     },
     {
       "no": 16,
       "name": "Document No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number of the transferred IC document."
     }
   ]
 }

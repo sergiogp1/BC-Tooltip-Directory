@@ -17,7 +17,7 @@
     {
       "no": 3,
       "name": "Default Column Layout",
-      "tooltip": ""
+      "tooltip": "Specifies a column layout name that you want to use as a default for this account schedule. To see the column layout names in the Column Layout Name table, choose the field.\nWhen you enter this account schedule on the print request form for an Extended Account Schedule report, the default column layout will automatically be entered in the Column Layout Name field.\nThis column layout will also be used as a default when you view this account schedule in the Acc. Schedule Overview window."
     },
     {
       "no": 4,

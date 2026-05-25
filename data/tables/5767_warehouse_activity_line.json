@@ -62,7 +62,7 @@
     {
       "no": 13,
       "name": "Sorting Sequence No.",
-      "tooltip": ""
+      "tooltip": "Specifies the number that is used to sort the warehouse activity lines."
     },
     {
       "no": 14,
@@ -172,7 +172,7 @@
     {
       "no": 47,
       "name": "Starting Date",
-      "tooltip": ""
+      "tooltip": "Specifies the date when the warehouse activity is scheduled to start.\nThe field is automatically filled based on the source document type.\n\n\nSource document\n\n\nDescription\n\n\nSales order\n\nShipment date on the sales order line\n\n\nPurchase order\n\nPlanned receipt date on the purchase order line\n\n\nTransfer order\n\nWork date\n\n\nProduction order\n\nWork date\n\n\nAssembly order\n\nWork date\nNote\n\n\nIf assembled to order, then the shipment date on the sales order line applies."
     },
     {
       "no": 50,
@@ -207,7 +207,7 @@
     {
       "no": 6502,
       "name": "Warranty Date",
-      "tooltip": ""
+      "tooltip": "Specifies the warranty date of the serial/lot numbers if you are putting items away.\nIf you are moving or picking items, the field is read-only."
     },
     {
       "no": 6503,
@@ -262,7 +262,7 @@
     {
       "no": 7309,
       "name": "Bin Ranking",
-      "tooltip": ""
+      "tooltip": "Contains the rank of the bin on the line.\nFor information about how and why to rank bins, see the Bin Ranking field in the Bin table"
     },
     {
       "no": 7310,
@@ -282,22 +282,22 @@
     {
       "no": 7313,
       "name": "Bin Type Code",
-      "tooltip": ""
+      "tooltip": "Contains the bin type of the bin on the line. The bin type determines how the program will use the bin in warehouse activities related to the inbound and outbound flow of items."
     },
     {
       "no": 7314,
       "name": "Breakbulk No.",
-      "tooltip": ""
+      "tooltip": "This object supports the Microsoft Dynamics NAV infrastructure and is intended only for internal use."
     },
     {
       "no": 7315,
       "name": "Original Breakbulk",
-      "tooltip": ""
+      "tooltip": "Specifies if a line is a breakbulk line that can be hidden.\n\nThis field is used internally."
     },
     {
       "no": 7316,
       "name": "Breakbulk",
-      "tooltip": ""
+      "tooltip": "If the breakbulk lines are be hidden, the program fills in this field with the value of the Original Breakbulk field.\n\nThis field is used internally."
     },
     {
       "no": 7317,
@@ -307,7 +307,7 @@
     {
       "no": 7318,
       "name": "Dedicated",
-      "tooltip": ""
+      "tooltip": "Specifies whether the bin is used as a dedicated bin, which means that its bin content is only available to certain resources."
     },
     {
       "no": 7319,

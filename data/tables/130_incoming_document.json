@@ -22,7 +22,7 @@
     {
       "no": 4,
       "name": "Created By User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who created the incoming document line."
     },
     {
       "no": 5,
@@ -42,7 +42,7 @@
     {
       "no": 8,
       "name": "Released By User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who approved the incoming document."
     },
     {
       "no": 9,
@@ -57,7 +57,7 @@
     {
       "no": 11,
       "name": "Last Modified By User ID",
-      "tooltip": ""
+      "tooltip": "Specifies the ID of the user who last modified the incoming document line."
     },
     {
       "no": 12,
