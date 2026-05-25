@@ -136,7 +136,7 @@ const Renderer = (() => {
           tr.innerHTML = `
             <td class="field-no">${f.no}</td>
             <td class="field-name">${escHtml(f.name)}</td>
-            <td class="field-tooltip">${escHtml(f.tooltip)}</td>
+            <td class="field-tooltip">${escHtml(f.tooltip).replace(/\n/g, '<br>')}</td>
           `;
           fragment.appendChild(tr);
         }
