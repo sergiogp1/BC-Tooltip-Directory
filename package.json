@@ -1,0 +1,22 @@
+{
+  "name": "bc-tooltip-directory",
+  "version": "1.0.0",
+  "description": "Browse and search fields and tooltips for Microsoft Business Central tables",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiogp1/BC-Tooltip-DIrectory"
+  },
+  "keywords": [
+    "business-central",
+    "tooltips",
+    "directory"
+  ],
+  "author": "sergiogp1",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
